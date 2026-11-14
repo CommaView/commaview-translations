@@ -9,17 +9,11 @@
     <string name="about_header_installing">Installiert</string>
     <string name="about_header_install">Installieren</string>
     <string name="about_header_retry">Erneut versuchen</string>
-    <string name="about_update_dev_build">Dev-Build</string>
-    <string name="about_update_car_test_detail">Die Car-Test-App. Neuere Dev-Builds kommen von Ihrem Staging-Konto.</string>
     <string name="about_update_installed">Installiert: %1$s</string>
     <string name="about_update_unable_to_check">Prüfung nicht möglich</string>
     <string name="about_update_available">Update verfügbar</string>
     <string name="about_update_latest">Neueste: %1$s</string>
     <string name="about_update_up_to_date">Aktuell</string>
-    <string name="about_update_dev_available">Dev-Build verfügbar</string>
-    <string name="about_update_dev_version_available">Dev-Build %1$s verfügbar</string>
-    <string name="about_update_dev_status">Dev-Build: die Car-Test-App aus Staging</string>
-    <string name="about_update_dev_detail">Wird von Ihrem Staging-Konto installiert.</string>
     <string name="about_update_alpha_available">Alpha verfügbar</string>
     <string name="about_update_alpha_version_available">Alpha %1$s verfügbar</string>
     <string name="about_update_alpha_status">Alpha: eine frühe Version für Tester</string>

@@ -8,17 +8,11 @@
     <string name="about_header_installing">Встановлення</string>
     <string name="about_header_install">Встановити</string>
     <string name="about_header_retry">Повторити оновлення</string>
-    <string name="about_update_dev_build">Збірка для розробки</string>
-    <string name="about_update_car_test_detail">Застосунок Car Test. Новіші збірки для розробки надходять із вашого облікового запису staging.</string>
     <string name="about_update_installed">Встановлено: %1$s</string>
     <string name="about_update_unable_to_check">Не вдалося перевірити</string>
     <string name="about_update_available">Доступне оновлення</string>
     <string name="about_update_latest">Остання: %1$s</string>
     <string name="about_update_up_to_date">Актуальна версія</string>
-    <string name="about_update_dev_available">Доступна збірка для розробки</string>
-    <string name="about_update_dev_version_available">Доступна збірка для розробки %1$s</string>
-    <string name="about_update_dev_status">Збірка для розробки: застосунок Car Test зі staging</string>
-    <string name="about_update_dev_detail">Встановлюється з вашого облікового запису staging.</string>
     <string name="about_update_alpha_available">Доступна Alpha</string>
     <string name="about_update_alpha_version_available">Доступна Alpha %1$s</string>
     <string name="about_update_alpha_status">Alpha: рання збірка для тестувальників</string>

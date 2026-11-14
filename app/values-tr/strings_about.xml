@@ -10,17 +10,11 @@
     <string name="about_header_installing">Yükleniyor</string>
     <string name="about_header_install">Yükle</string>
     <string name="about_header_retry">Güncellemeyi yeniden dene</string>
-    <string name="about_update_dev_build">Geliştirici sürümü</string>
-    <string name="about_update_car_test_detail">Car Test uygulaması. Yeni geliştirici sürümleri staging hesabınızdan gelir.</string>
     <string name="about_update_installed">Yüklü: %1$s</string>
     <string name="about_update_unable_to_check">Denetlenemedi</string>
     <string name="about_update_available">Güncelleme mevcut</string>
     <string name="about_update_latest">En son: %1$s</string>
     <string name="about_update_up_to_date">Güncel</string>
-    <string name="about_update_dev_available">Geliştirici sürümü mevcut</string>
-    <string name="about_update_dev_version_available">Geliştirici sürümü %1$s mevcut</string>
-    <string name="about_update_dev_status">Geliştirici sürümü: staging\'deki Car Test uygulaması</string>
-    <string name="about_update_dev_detail">Staging hesabınızdan yüklenir.</string>
     <string name="about_update_alpha_available">Alpha mevcut</string>
     <string name="about_update_alpha_version_available">Alpha %1$s mevcut</string>
     <string name="about_update_alpha_status">Alpha: test edenler için erken bir sürüm</string>
