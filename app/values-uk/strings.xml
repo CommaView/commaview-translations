@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CommaView's own words: Українська (Ukrainian). Machine drafted with docs/localization/glossary-uk.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="nav_home">Головна</string>
+    <string name="nav_recordings">Записи</string>
+    <string name="nav_settings">Налаштування</string>
+
+    <string name="settings_page_hub">Налаштування</string>
+    <string name="settings_page_display">Дисплей</string>
+    <string name="settings_page_offline_maps">Карти офлайн</string>
+    <string name="settings_page_maps_navigation">Карти й навігація</string>
+    <string name="settings_page_choose_home">Вибрати «Дім»</string>
+    <string name="settings_page_choose_work">Вибрати «Роботу»</string>
+    <string name="settings_page_recordings">Записи</string>
+    <string name="settings_page_sound">Звук</string>
+    <string name="settings_page_live_streaming">Пряма трансляція</string>
+    <string name="settings_page_destination">Платформа</string>
+    <string name="settings_page_title_description">Назва й опис</string>
+    <string name="settings_page_account">Обліковий запис</string>
+    <string name="settings_page_privacy">Приватність і обмін</string>
+    <string name="settings_page_support">Підтримка й діагностика</string>
+    <string name="settings_page_about">Про застосунок</string>
+    <string name="settings_page_licenses">Ліцензії відкритого коду</string>
+    <string name="settings_page_license">Ліцензія</string>
+    <string name="settings_page_device">Налаштування пристрою</string>
+    <string name="settings_page_device_facts">Назва й адреса</string>
+    <string name="settings_page_device_network">Мережа</string>
+    <string name="settings_page_device_pairing">Сполучити інший телефон</string>
+    <string name="settings_page_device_runtime">Середовище виконання</string>
+
+    <string name="settings_hub_display_subtitle">Екран водіння і його параметри, місце водія та денний режим</string>
+    <string name="settings_hub_maps_navigation_key_subtitle">Офлайн-карти й навігація з власним ключем Stadia Maps</string>
+    <string name="settings_hub_offline_maps_subtitle">Завантаження регіонів і обмеження швидкості за місцем вашого comma</string>
+    <string name="settings_hub_live_streaming_subtitle">Трансляція з Live View на YouTube чи інший сервер</string>
+    <string name="settings_hub_live_streaming_ready">Готово</string>
+    <string name="settings_hub_live_streaming_set_up">Налаштувати</string>
+    <string name="settings_hub_account_subtitle">Вхід і бета-оновлення</string>
+    <string name="settings_hub_language_subtitle">Мова слів самого CommaView</string>
+    <string name="settings_hub_privacy_subtitle">Що надсилає %1$s</string>
+    <string name="settings_hub_support_subtitle">Повідомити про проблему, підтримати проєкт, діагностика, яку зберігає %1$s</string>
+    <string name="settings_hub_about_subtitle">Версія й оновлення</string>
+    <string name="settings_hub_about_update">Оновити</string>
+
+    <string name="language_title">Мова</string>
+    <string name="language_follow_phone">Мова телефона</string>
+    <string name="language_follow_phone_value">Як у телефоні (%1$s)</string>
+    <string name="language_follow_phone_detail">Мова вашого телефона, якщо CommaView її має, інакше англійська</string>
+    <string name="language_comma_screens_note">Екрани comma в Live View лишаються мовою вашого comma, як їх показує авто.</string>
+    <string name="language_choose_label">Вибрати мову застосунку</string>
+    <string name="settings_translation_notice">Версія CommaView «%1$s» — машинний переклад.</string>
+    <string name="settings_translation_notice_link">Допоможіть покращити</string>
+    <string name="settings_translation_notice_close">Закрити повідомлення про переклад</string>
+    <string name="language_machine_translated">Машинний переклад</string>
+</resources>

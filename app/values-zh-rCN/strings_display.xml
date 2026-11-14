@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- display: 简体中文（中国大陆）. Machine drafted with docs/localization/glossary-zh-rCN.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- How the onroad screen is sized into this phone's (shared: OnroadPreviewScaleMode, through SharedWords). -->
+    <string name="display_framing_automatic">自动</string>
+    <string name="display_framing_automatic_detail">按各样式而定：comma four 使用精确画面，comma 3 的画面延伸填满，CommaView 填满横屏。</string>
+    <string name="display_framing_exact">精确</string>
+    <string name="display_framing_exact_detail">完全按样式本身的形状和取景；屏幕形状不同之处会有黑边。</string>
+    <string name="display_framing_extend">延伸</string>
+    <string name="display_framing_extend_detail">没有黑边：样式保持大小，在屏幕更宽或更高的地方显示更多摄像头画面。</string>
+    <string name="display_framing_fill">填满屏幕</string>
+    <string name="display_framing_fill_detail">裁剪样式的画面以填满可用屏幕。</string>
+
+    <!-- The designs' names, notes and options in Display's picker (shared: the designs, through SharedWords). -->
+    <string name="display_design_commaview_note">流动的路径、锁定前车，以及 CommaView 自己的速度、状态和警报。可填满横屏或显示完整摄像头画面。</string>
+    <string name="display_commaview_framing">摄像头取景</string>
+    <string name="display_commaview_framing_detail">选择 CommaView 如何使用横屏。</string>
+    <string name="display_commaview_full_camera">完整画面</string>
+    <string name="display_commaview_full_camera_detail">显示完整的摄像头画面，必要时加上黑边。</string>
+    <string name="display_commaview_fill_detail">裁剪摄像头画面以填满横屏。竖屏时保持完整摄像头画面。</string>
+    <string name="display_design_comma3x_note">comma 3X 的画面：状态边框、最大速度框、大字车速，以及底部的警报。</string>
+    <string name="display_design_comma4_note">comma four 的画面：最大速度变化时显示在道路上方，方向盘和置信度指示在旁边。</string>
+    <string name="display_comma4_framing">预览取景</string>
+    <string name="display_comma4_framing_detail">精确匹配 comma four 的画面、显示更多摄像头画面，或裁剪以填满此屏幕。</string>
+
+    <!-- Display › Daylight contrast (DaylightSection). -->
+    <string name="display_daylight_title">日光对比度</string>
+    <string name="display_daylight_subtitle">让文字和线条更亮，适合阳光和强光下</string>
+    <string name="display_daylight_no_sensor">%1$s%2$s没有光线传感器，所以没有“自动”。</string>
+    <string name="display_daylight_note">视频和 HUD 保持原本的配色。</string>
+
+    <!-- Display › Screen edges (ScreenEdgesSection). -->
+    <string name="display_screen_edges_title">屏幕边缘</string>
+    <string name="display_screen_edges_subtitle">让应用避开车机屏幕裁掉的边缘</string>
+    <string name="display_screen_edges_how">将每条边缘向内移，直到能看到完整的一圈线条。仅适用于会裁掉画面边缘的车机屏幕。</string>
+    <string name="display_screen_edges_reset">重置</string>
+    <string name="display_screen_edges_done">完成</string>
+
+    <!-- %1$s is an edge's name in lower case (top, bottom, left, right). -->
+    <string name="display_screen_edges_move_out">将%1$s边缘向外移</string>
+    <string name="display_screen_edges_move_in">将%1$s边缘向内移</string>
+    <string name="display_screen_edges_dp">%1$d dp</string>
+    <string name="display_screen_edges_from_edge">距%2$s边缘 %1$d dp</string>
+</resources>

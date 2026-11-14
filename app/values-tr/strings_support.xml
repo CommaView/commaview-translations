@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- support: Türkçe. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-tr.md and openpilot's selfdrive/ui/translations/app_tr.po. -->
+<resources>
+    <!-- Settings › Support & diagnostics (SupportDiagnosticsScreen, SettingsPages). -->
+    <string name="support_report_or_idea">Sorun bildirin veya fikir gönderin</string>
+    <string name="support_diagnostics_kept">Saklanan tanılama</string>
+    <string name="support_support">Destek</string>
+    <string name="support_on_this_phone">Saklandığı yer: %1$s</string>
+    <string name="support_local_data">Yerel tanılama verileri</string>
+    <string name="support_local_data_supporting">Kayıt hatası geçmişini, yerel tanılama günlüklerini, navigasyon arama sayılarını, kaydedilmiş hata raporlarını ve eski uygulama sürümlerinden kalan hata ayıklama kliplerini siler. Sürüş kayıtları silinmez.</string>
+    <string name="support_clear_local_data">Yerel tanılama verilerini temizle</string>
+    <string name="support_kept_nothing">Hiçbir şey yok (%1$s)</string>
+    <string name="support_kept_under">0,1 MB\'tan az (%1$s)</string>
+    <string name="support_kept_megabytes">%1$.1f MB (%2$s)</string>
+    <string name="support_kept_gigabytes">%1$.1f GB (%2$s)</string>
+    <string name="support_keep_diagnostics">Tanılamayı sakla (%1$s)</string>
+    <string name="support_keep_diagnostics_supporting">Son 10 sürüşünüzün uygulama günlükleri ve sayaçları ile navigasyon arama sayıları, bir rapor ne olduğunu anlatabilsin diye saklanır. Siz rapor gönderene kadar hiçbir şey %1$sdan çıkmaz. Kapalıyken yalnızca kayıt hatası geçmişi saklanır.</string>
+    <string name="support_the_project">Projeyi destekleyin</string>
+    <string name="support_commaview">CommaView\'u destekleyin</string>
+    <string name="support_commaview_supporting">Barındırma, test ve iOS uygulaması masraflarına yardım edin. Buy Me a Coffee\'yi açar.</string>
+
+    <!-- Your requests (YourRequests). -->
+    <string name="support_your_requests">Talepleriniz</string>
+    <string name="support_your_requests_supporting">my.commaview.com\'da yanıtlar ve CommaView ile yazışmalarınız. CommaView yanıt verdiğinde size e-posta gönderir.</string>
+    <string name="support_your_requests_empty">Henüz talep yok. Gönderdikleriniz burada görünür; CommaView yanıt verdiğinde size e-posta gönderir.</string>
+    <string name="support_your_requests_signed_out">Taleplerinizi ve CommaView\'un yanıtlarını burada görmek için giriş yapın.</string>
+    <string name="support_your_requests_loading">Talepleriniz aranıyor…</string>
+    <string name="support_your_requests_failed">Talepleriniz şu anda alınamadı. Bu sayfaya döndüğünüzde yeniden yüklenir.</string>
+    <string name="support_your_requests_unread">Okunmamış yanıt</string>
+    <string name="support_see_all">Tümünü gör</string>
+    <string name="support_see_all_count">Tümünü gör (%1$d)</string>
+    <string name="support_see_all_where">my.commaview.com\'da</string>
+    <string name="support_kind_problem">Sorun</string>
+    <string name="support_kind_idea">Fikir</string>
+    <string name="support_kind_request">Talep</string>
+    <string name="support_status_closed">Kapalı</string>
+    <string name="support_status_closed_on">Kapalı · %1$s</string>
+    <string name="support_status_replied">Açık · CommaView yanıt verdi</string>
+    <string name="support_status_waiting">Açık · CommaView bekleniyor</string>
+    <string name="support_status_open">Açık</string>
+    <string name="support_couldnt_open_site">my.commaview.com açılamadı</string>
+</resources>

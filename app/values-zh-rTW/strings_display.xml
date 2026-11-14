@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- display: 繁體中文（台灣）. Machine drafted with docs/localization/glossary-zh-TW.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- How the onroad screen is sized into this phone's (shared: OnroadPreviewScaleMode, through SharedWords). -->
+    <string name="display_framing_automatic">自動</string>
+    <string name="display_framing_automatic_detail">依各樣式而定：comma four 使用精確畫面，comma 3 的畫面延伸填滿，CommaView 填滿橫向螢幕。</string>
+    <string name="display_framing_exact">精確</string>
+    <string name="display_framing_exact_detail">完全照樣式本身的形狀與取景；螢幕形狀不同的地方會有黑邊。</string>
+    <string name="display_framing_extend">延伸</string>
+    <string name="display_framing_extend_detail">沒有黑邊：樣式維持大小，在螢幕較寬或較高的地方顯示更多鏡頭畫面。</string>
+    <string name="display_framing_fill">填滿螢幕</string>
+    <string name="display_framing_fill_detail">裁切樣式的畫面以填滿可用的螢幕。</string>
+
+    <!-- The designs' names, notes and options in Display's picker (shared: the designs, through SharedWords). -->
+    <string name="display_design_commaview_note">流動的路徑、鎖定前車，以及 CommaView 自己的速度、狀態與警示。可填滿橫向螢幕或顯示完整鏡頭畫面。</string>
+    <string name="display_commaview_framing">鏡頭取景</string>
+    <string name="display_commaview_framing_detail">選擇 CommaView 如何使用橫向螢幕。</string>
+    <string name="display_commaview_full_camera">完整鏡頭</string>
+    <string name="display_commaview_full_camera_detail">顯示完整的鏡頭影像，必要時加上黑邊。</string>
+    <string name="display_commaview_fill_detail">裁切鏡頭影像以填滿橫向螢幕。直向時保持完整鏡頭畫面。</string>
+    <string name="display_design_comma3x_note">comma 3X 的畫面：狀態外框、最大速度方框、大字車速，以及底部的警示。</string>
+    <string name="display_design_comma4_note">comma four 的畫面：最大速度變動時顯示在道路上方，方向盤與信心指標在旁邊。</string>
+    <string name="display_comma4_framing">預覽取景</string>
+    <string name="display_comma4_framing_detail">精確符合 comma four 的畫面、顯示更多鏡頭畫面，或裁切以填滿這個螢幕。</string>
+
+    <!-- Display › Daylight contrast (DaylightSection). -->
+    <string name="display_daylight_title">日光對比</string>
+    <string name="display_daylight_subtitle">讓文字與線條更亮，適合陽光與強光下</string>
+    <string name="display_daylight_no_sensor">%1$s%2$s沒有光線感應器，所以沒有「自動」。</string>
+    <string name="display_daylight_note">影像與 HUD 保持原本的色彩。</string>
+
+    <!-- Display › Screen edges (ScreenEdgesSection). -->
+    <string name="display_screen_edges_title">螢幕邊緣</string>
+    <string name="display_screen_edges_subtitle">讓 App 避開車機螢幕裁掉的邊緣</string>
+    <string name="display_screen_edges_how">把每個邊緣往內移，直到能看到完整一圈的線。僅適用於會裁掉畫面邊緣的車機螢幕。</string>
+    <string name="display_screen_edges_reset">重設</string>
+    <string name="display_screen_edges_done">完成</string>
+
+    <!-- %1$s is an edge's name in lower case (top, bottom, left, right). -->
+    <string name="display_screen_edges_move_out">將%1$s邊緣往外移</string>
+    <string name="display_screen_edges_move_in">將%1$s邊緣往內移</string>
+    <string name="display_screen_edges_dp">%1$d dp</string>
+    <string name="display_screen_edges_from_edge">距離%2$s邊緣 %1$d dp</string>
+</resources>

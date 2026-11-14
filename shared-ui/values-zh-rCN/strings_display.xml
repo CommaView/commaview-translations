@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 简体中文（中国大陆）. Machine drafted with docs/localization/glossary-zh-rCN.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- Display's choices (DisplayPreferences). -->
+    <string name="display_driver_side_auto">自动</string>
+    <string name="display_driver_side_auto_detail">按 comma 报告的驾驶座位置</string>
+    <string name="display_driver_side_lhd">左舵</string>
+    <string name="display_driver_side_lhd_detail">方向盘在左侧</string>
+    <string name="display_driver_side_rhd">右舵</string>
+    <string name="display_driver_side_rhd_detail">方向盘在右侧</string>
+    <string name="display_daylight_off">关闭</string>
+    <string name="display_daylight_off_detail">标准的 Cockpit 配色。</string>
+    <string name="display_daylight_on">开启</string>
+    <string name="display_daylight_on_detail">更亮的文字和线条，适合阳光和强光下。</string>
+    <string name="display_daylight_auto">自动</string>
+    <string name="display_daylight_auto_detail">%1$s的光线传感器检测到强光时，使用更亮的文字和线条。</string>
+    <string name="display_confidence_default">默认</string>
+    <string name="display_confidence_default_detail">使用标准大小的置信度指示。</string>
+    <string name="display_confidence_75_detail">略微缩小置信度面板和圆球。</string>
+    <string name="display_confidence_50_detail">将置信度指示缩小一半，腾出更多视频空间。</string>
+    <string name="display_confidence_25_detail">使用最小的置信度面板和圆球。</string>
+
+    <!-- Display's design options (DisplayOptions). -->
+    <string name="display_confidence_title">紧凑置信度面板</string>
+    <string name="display_confidence_subtitle">更小的面板和圆球，腾出更多视频空间</string>
+    <string name="display_confidence_note">缩小置信度面板和圆球，腾出更多视频空间。</string>
+    <string name="display_driver_position_title">驾驶座位置</string>
+    <string name="display_driver_position_subtitle">让每个画面上的控件左右互换</string>
+    <string name="display_driver_position_note">选择驾驶座所在的一侧，控件会随之互换。“自动”按 comma 报告的位置，并记住供下次使用。</string>
+
+    <!-- Settings › Display (DisplayPage). -->
+    <string name="display_title">显示</string>
+    <string name="display_subtitle">Live View 在%1$s上的外观</string>
+    <string name="display_back_to_settings">返回设置</string>
+    <string name="display_onroad_screen">行车画面</string>
+    <string name="display_design_options">%1$s 选项</string>
+    <string name="display_reduce_motion">减少动态效果</string>
+    <string name="display_reduce_motion_detail">让 CommaView 的路径、车速和锁定标记保持静止。Android 的“移除动画”也有同样效果。</string>
+    <string name="display_design_no_options">%1$s 的画面没有自己的选项：完全按 comma 的画法显示。</string>
+    <string name="display_on_every_screen">所有画面</string>
+    <string name="display_opening_live_view">打开 Live View</string>
+    <string name="display_preview">预览</string>
+    <string name="display_preview_engaged">已启用</string>
+    <string name="display_preview_override">驾驶员介入</string>
+    <string name="display_preview_disengaged">未启用</string>
+    <string name="display_safety_title">安全配色保持不变</string>
+    <string name="display_safety_detail">警报、警告和驾驶员监控状态始终使用 comma 自己的配色。您在“录像”中制作的回放，与录制时的 Live View 外观相同。</string>
+
+    <!-- Display › Screen edges' value (ScreenEdges). -->
+    <string name="display_screen_edges_off">关闭</string>
+    <string name="display_screen_edges_all_round">四周各 %1$d dp</string>
+
+    <!-- %1$s lists each edge that has a margin with its figure: "Top 8 · Bottom 16". -->
+    <string name="display_screen_edges_each">%1$s dp</string>
+    <string name="display_screen_edge_top">上</string>
+    <string name="display_screen_edge_bottom">下</string>
+    <string name="display_screen_edge_left">左</string>
+    <string name="display_screen_edge_right">右</string>
+
+    <!-- The preview's description for TalkBack (HudPreview): %1$s is the onroad screen's name. -->
+    <string name="display_hud_preview_engaged">%1$s 画面的预览，已启用</string>
+    <string name="display_hud_preview_override">%1$s 画面的预览，驾驶员介入</string>
+    <string name="display_hud_preview_not_engaged">%1$s 画面的预览，未启用</string>
+</resources>

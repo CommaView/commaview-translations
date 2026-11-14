@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- liveview: 日本語 (Japanese). Machine drafted with docs/localization/glossary-ja.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- Live View's connection status (shared: LiveViewStatus, through SharedWords). -->
+    <string name="liveview_status_connecting_to">%1$s に接続しています</string>
+    <string name="liveview_status_connecting_to_your_comma">comma に接続しています</string>
+    <string name="liveview_status_reconnecting">再接続しています…</string>
+    <string name="liveview_status_attempt_of">試行 %1$d / %2$d</string>
+    <string name="liveview_status_attempt">試行 %1$d</string>
+    <string name="liveview_status_live">ライブ</string>
+    <string name="liveview_status_trying_another_decoder">%1$sの動画デコーダーで映像を再生できませんでした。別のデコーダーを試しています…</string>
+    <string name="liveview_status_waiting_for_video">映像を待っています</string>
+    <string name="liveview_status_switching_wide_camera">広角カメラに切り替えています</string>
+    <string name="liveview_status_waiting_for_car_data">車のデータを待っています</string>
+    <string name="liveview_status_video_delayed">映像が遅延しています</string>
+    <string name="liveview_status_car_data_missing">車のデータが届きません</string>
+    <string name="liveview_status_car_data_missing_detail">映像は届いていますが、車の速度、ウインカー、アラートが届きません。comma を再起動すると直ります。</string>
+    <string name="liveview_status_cant_play">この comma の映像を再生できません</string>
+    <string name="liveview_status_cant_play_detail">%1$sのどの動画デコーダーでも再生できませんでした。CommaView は試行を続けます。CommaView が調査できるよう、設定からサポートレポートを送ってください。</string>
+    <string name="liveview_status_connection_lost">接続が切れました</string>
+    <string name="liveview_status_couldnt_connect">接続できませんでした</string>
+    <string name="liveview_status_timed_out">comma が時間内に応答しませんでした。%1$sが comma の Wi‑Fi かテザリングに接続されているか確認して、再試行してください。</string>
+    <string name="liveview_status_check_wifi">%1$sが comma の Wi‑Fi かテザリングに接続されているか確認して、再試行してください。</string>
+
+    <!-- Why the video stream was lost (shared: ConnectionState.ReconnectCause). -->
+    <string name="liveview_reconnect_unknown">映像の接続が切れました。</string>
+    <string name="liveview_reconnect_refused">comma が接続を拒否しました。comma 上で CommaView が再起動中の可能性があります。</string>
+    <string name="liveview_reconnect_unreachable">%1$sが comma に接続できません。comma の Wi‑Fi かテザリングに接続されているか確認してください。</string>
+    <string name="liveview_reconnect_timed_out">comma が時間内に応答しませんでした。</string>
+    <string name="liveview_reconnect_closed">comma が映像のストリームを閉じました。</string>
+    <string name="liveview_reconnect_stalled">映像が届かなくなりました。</string>
+
+    <!-- Why Live View stopped reconnecting (shared: ConnectionState.WaitReason). -->
+    <string name="liveview_wait_unreachable">この comma に接続できません</string>
+    <string name="liveview_wait_unreachable_detail">%1$sを comma と同じ Wi-Fi か、comma のテザリングに接続しておく必要があります。comma が応答すると Live View は再接続します。</string>
+    <string name="liveview_wait_runtime_down">CommaView が応答しません</string>
+    <string name="liveview_wait_runtime_down_detail">comma 上で再起動中の可能性があります。復帰すると Live View は再接続します。</string>
+    <string name="liveview_wait_no_video">この comma から映像が届きません</string>
+    <string name="liveview_wait_no_video_detail">応答はありますが、映像が戻りませんでした。再試行するか、戻って comma を確認してください。</string>
+    <string name="liveview_wait_busy">Live View は別のデバイスで開かれています</string>
+    <string name="liveview_wait_busy_detail">この comma は一度に 1 台のスマートフォンかカーナビにのみ配信します。もう一方の CommaView でホームに戻ると、ここで Live View が自動で始まります。</string>
+
+    <!-- What a screen reader is told about the video well (shared: LiveVideoSpeech). -->
+    <string name="liveview_speech_your_comma">あなたの comma</string>
+    <string name="liveview_speech_live_video">%1$s からのライブ映像</string>
+    <string name="liveview_speech_not_live">%1$s からの映像（ライブではありません）。%2$s</string>
+
+    <!-- The CommaView design's own notices (shared: CommaViewNotice). -->
+    <string name="liveview_notice_status_unavailable">状態を取得できません</string>
+    <string name="liveview_notice_telemetry_unavailable">テレメトリーを取得できません</string>
+    <string name="liveview_notice_waiting_for_data">データを待っています</string>
+    <string name="liveview_notice_hud_data_unavailable">HUD のデータを取得できません</string>
+    <string name="liveview_notice_not_saved">comma に保存されていません</string>
+    <string name="liveview_notice_connecting">接続しています…</string>
+    <string name="liveview_notice_reconnecting">再接続しています…</string>
+    <string name="liveview_notice_attempt_of">試行 %1$d / %2$d</string>
+    <string name="liveview_notice_attempt">試行 %1$d</string>
+    <string name="liveview_notice_disconnected">切断</string>
+    <string name="liveview_notice_waiting_for_comma">comma を待っています</string>
+    <string name="liveview_notice_connection_error">接続エラー</string>
+    <string name="liveview_notice_cant_reach">comma に接続できません</string>
+
+    <!-- The CommaView design's HUD words (shared: CommaViewEngagement, CommaViewHud, CommaViewChrome, CommaViewVisibility). -->
+    <string name="liveview_hud_engaged">作動中</string>
+    <string name="liveview_hud_steering_only">ステアリングのみ</string>
+    <string name="liveview_hud_speed_only">速度のみ</string>
+    <string name="liveview_hud_override">ドライバー介入</string>
+    <string name="liveview_hud_not_engaged">未作動</string>
+    <string name="liveview_hud_dm_looking_away">よそ見</string>
+    <string name="liveview_hud_dm_eyes_closed">目を閉じています</string>
+    <string name="liveview_hud_dm_phone">スマートフォンを手に持っています</string>
+    <string name="liveview_hud_dm_drowsy">眠気</string>
+    <string name="liveview_hud_dm_no_face">顔が見えません</string>
+    <string name="liveview_hud_dm_wheel">ハンドルに触れてください</string>
+    <string name="liveview_hud_green_light">青信号</string>
+    <string name="liveview_hud_lead_departing">先行車発進</string>
+    <string name="liveview_hud_stopped">停止中</string>
+    <string name="liveview_hud_max">最大</string>
+    <string name="liveview_hud_experimental">実験モード</string>
+    <string name="liveview_hud_blind_spot">死角</string>
+    <string name="liveview_hud_line_steering_speed_active">ステアリング制御中 · 速度制御中</string>
+    <string name="liveview_hud_line_steering_active">ステアリング制御中</string>
+    <string name="liveview_hud_line_steering_active_speed_manual">ステアリング制御中 · 速度は手動</string>
+    <string name="liveview_hud_line_steering_manual_speed_active">ステアリングは手動 · 速度制御中</string>
+    <string name="liveview_hud_line_driver_override">ドライバー介入</string>
+    <string name="liveview_hud_line_manual_control">手動操作</string>
+    <string name="liveview_hud_short_steering_speed_active">ステアリング · 速度制御中</string>
+    <string name="liveview_hud_short_manual">手動</string>
+
+    <!-- Live View's Details (LiveViewChrome): the pane beside the video and the phone's sheet. -->
+    <string name="liveview_details_title">詳細</string>
+    <string name="liveview_details_pane_description">Live View の詳細</string>
+    <string name="liveview_details_show">詳細を表示</string>
+    <string name="liveview_details_hide">詳細を隠す</string>
+    <string name="liveview_expanded">展開</string>
+    <string name="liveview_collapsed">折りたたみ</string>
+    <string name="liveview_shown">表示</string>
+    <string name="liveview_hidden">非表示</string>
+    <string name="liveview_details_connected">接続済み</string>
+    <string name="liveview_details_stream_set_up_hint">ここから配信するには、設定でライブ配信を設定してください</string>
+    <string name="liveview_details_record_hint_rail">このドライブを保存するには、レールの「録画」を使ってください</string>
+    <string name="liveview_details_record_hint_tap">「録画」をタップしてこのドライブを保存</string>
+    <string name="liveview_details_go_live_hint_rail">Live View の表示を配信するには「配信を開始」を使ってください</string>
+    <string name="liveview_details_go_live_hint_tap">「配信を開始」をタップして Live View の表示を配信</string>
+    <string name="liveview_details_map_credits">地図のクレジット</string>
+    <string name="liveview_details_map_credits_subtitle">OpenStreetMap と地図のその他の提供元</string>
+    <string name="liveview_details_recording_timer">録画中 · %1$s</string>
+    <string name="liveview_details_not_recording">録画していません</string>
+    <string name="liveview_details_recording_spoken">録画中、%1$s</string>
+    <string name="liveview_details_recording_detail">駐車したら「録画」でリプレイを作成してください</string>
+    <string name="liveview_details_not_streaming">配信していません</string>
+    <string name="liveview_details_stream_starting">ライブ配信を開始しています…</string>
+    <string name="liveview_details_streaming_timer">配信中 · %1$s</string>
+    <string name="liveview_details_stream_reconnecting">配信を再接続しています…</string>
+    <string name="liveview_details_streaming_spoken">配信中、%1$s</string>
+    <string name="liveview_details_share_watch_link_label">視聴リンクをシェア</string>
+    <string name="liveview_details_share_watch_link">視聴リンクをシェア</string>
+    <string name="liveview_header_title">Live View</string>
+    <string name="liveview_exit">Live View を終了</string>
+    <string name="liveview_link_recordings">録画</string>
+    <string name="liveview_link_device_settings">デバイス設定</string>
+
+    <!-- The stream's pill (LiveStreamStatus.pill). -->
+    <string name="liveview_pill_live">ライブ</string>
+    <string name="liveview_pill_delayed">遅延</string>
+    <string name="liveview_pill_connecting">接続中</string>
+    <string name="liveview_pill_reconnecting">再接続中</string>
+    <string name="liveview_pill_offline">オフライン</string>
+    <string name="liveview_pill_in_use">使用中</string>
+
+    <!-- The folded sheet's line (peekSummary), its parts joined with " · ". -->
+    <string name="liveview_peek_live">ライブ</string>
+    <string name="liveview_peek_delayed">映像が遅延</string>
+    <string name="liveview_peek_connecting">接続中</string>
+    <string name="liveview_peek_reconnecting">再接続中</string>
+    <string name="liveview_peek_offline">オフライン</string>
+    <string name="liveview_peek_in_use">別のデバイスで使用中</string>
+    <string name="liveview_peek_recording">録画中 %1$s</string>
+    <string name="liveview_peek_not_recording">録画していません</string>
+    <string name="liveview_peek_streaming_timer">配信中 %1$s</string>
+    <string name="liveview_peek_streaming">配信中</string>
+
+
+
+    <!-- Details' facts (LiveViewDetails). -->
+    <string name="liveview_health_good">良好</string>
+    <string name="liveview_health_choppy">途切れがち</string>
+    <string name="liveview_health_stalled">停止</string>
+    <string name="liveview_readout_stream_health">配信状態</string>
+    <string name="liveview_readout_stream">ストリーム</string>
+    <string name="liveview_readout_video">映像</string>
+    <string name="liveview_readout_runtime">ランタイム</string>
+    <string name="liveview_readout_software">ソフトウェア</string>
+    <string name="liveview_readout_comma_ip">comma の IP</string>
+    <string name="liveview_on">オン</string>
+    <string name="liveview_off">オフ</string>
+
+    <!-- A running time as a screen reader says it, its parts joined with a space: "1 minute 5 seconds". -->
+    <plurals name="liveview_timer_hours">
+        <item quantity="other">%1$d 時間</item>
+    </plurals>
+    <plurals name="liveview_timer_minutes">
+        <item quantity="other">%1$d 分</item>
+    </plurals>
+    <plurals name="liveview_timer_seconds">
+        <item quantity="other">%1$d 秒</item>
+    </plurals>
+
+    <!-- Go live's row in Details (liveBroadcast). -->
+    <string name="liveview_broadcast_making_youtube">YouTube の配信を作成中</string>
+    <string name="liveview_broadcast_connecting_youtube">YouTube に接続中</string>
+    <string name="liveview_broadcast_connecting_server">サーバーに接続中</string>
+
+    <!-- %1$s names the network the stream goes out on (Wi‑Fi, mobile data). -->
+    <string name="liveview_broadcast_over_network">%1$s 経由</string>
+    <string name="liveview_broadcast_attempt">試行 %1$d：%2$s</string>
+    <string name="liveview_live_copy_shared_notice">配信からライブコピーを録画中です。画質は配信と同じ %1$s です</string>
+    <string name="liveview_stream_from_live_copy_notice">ライブコピーの %1$s の映像から、配信の %2$s でライブ配信中です</string>
+
+
+    <!-- Live View's controls: the rail, the upright bar and More's menu (CockpitNavigation), and the car's (LiveCarScreenControls). -->
+    <string name="liveview_controls_description">Live View の操作</string>
+    <string name="liveview_rail_video_delayed">映像が遅延</string>
+    <string name="liveview_rail_live">ライブ</string>
+    <string name="liveview_control_record">録画</string>
+    <string name="liveview_control_starting">開始中…</string>
+    <string name="liveview_control_starting_recording">録画を開始中</string>
+    <string name="liveview_control_stop_recording">録画を停止、%1$s</string>
+    <string name="liveview_control_save">保存</string>
+    <string name="liveview_control_saved">保存済み</string>
+    <string name="liveview_control_save_description">この場面を保存</string>
+    <string name="liveview_control_saved_description">場面を保存しました。タップするともう 1 分保存します</string>
+    <string name="liveview_control_save_last_minutes">直前の 3 分</string>
+    <string name="liveview_control_onroad_screen">走行画面</string>
+    <string name="liveview_control_switch_screen">走行画面を切り替え</string>
+
+    <!-- %1$s is the onroad screen's name. -->
+    <string name="liveview_control_switch_screen_named">走行画面を切り替え、%1$s</string>
+    <string name="liveview_control_go_live">配信を開始</string>
+    <string name="liveview_control_go_live_description">配信を開始、Live View の表示を配信します</string>
+    <string name="liveview_control_retrying">再試行中</string>
+    <string name="liveview_control_stream_starting_description">ライブ配信を開始中。ライブ配信を停止</string>
+    <string name="liveview_control_stream_live_description">ライブ配信を停止、配信時間 %1$s</string>
+    <string name="liveview_control_stream_retrying_description">ライブ配信を再接続中。ライブ配信を停止</string>
+    <string name="liveview_control_driver_cam">ドライバーカメラ</string>
+    <string name="liveview_control_pip_live">ライブ</string>
+    <string name="liveview_control_pip_description">ドライバーカメラの小窓</string>
+    <string name="liveview_control_pip_streamed_description">ドライバーカメラの小窓。ライブ配信の視聴者にドライバーカメラが映ります</string>
+    <string name="liveview_control_details">詳細</string>
+    <string name="liveview_control_showing">表示中</string>
+    <string name="liveview_control_more">その他</string>
+    <string name="liveview_control_more_description">その他の操作、%1$d 件</string>
+    <string name="liveview_control_more_controls">その他の操作</string>
+    <string name="liveview_control_exit">終了</string>
+
+    <!-- The stepper of pairing and setup: %1$d is the step, %2$d how many, %3$s its name. -->
+    <string name="liveview_stepper_step_named">ステップ %1$d / %2$d · %3$s</string>
+    <string name="liveview_stepper_step_spoken">ステップ %1$d / %2$d、%3$s</string>
+
+    <!-- Live View's own messages (MainActivity). -->
+    <string name="liveview_offroad_logo">CommaView のロゴ</string>
+    <string name="liveview_offroad_title">comma はオンラインですが、走行していません</string>
+    <string name="liveview_offroad_detail">%1$s が走行を始めるとライブカメラが始まります。車の準備ができたら、設定を管理するか更新してください。</string>
+    <string name="liveview_offroad_ip_address">IP アドレス</string>
+    <string name="liveview_offroad_refresh">更新</string>
+    <string name="liveview_offroad_refreshing">更新中…</string>
+    <string name="liveview_sign_in_done">ログインしました</string>
+    <string name="liveview_sign_in_cancelled">ログインをキャンセルしました</string>
+    <string name="liveview_sign_in_unfinished">ログインが完了しませんでした。もう一度ログインしてください。</string>
+    <string name="liveview_replay_limit_live_copy_continues">リプレイは 10 分の上限で停止しました。ライブコピーは録画を続けています。</string>
+    <string name="liveview_source_timing_saved">ソースのタイミングを保存しました。駐車してから「録画」でリプレイを作成してください</string>
+    <string name="liveview_source_timing_started">ソースのタイミングの記録を開始しました。映像は comma に残ります</string>
+    <string name="liveview_recording_storage_unavailable">録画用のストレージを利用できません</string>
+    <string name="liveview_recording_unable_to_start">録画を開始できません</string>
+    <string name="liveview_recording_live_copy_only">ライブコピーのみ録画しています。リプレイを開始できませんでした：%1$s</string>
+    <string name="liveview_recording_report">報告</string>
+    <string name="liveview_share_live_stream">ライブ配信をシェア</string>
+
+    <!-- Why Browser View's VPN address is off (CarScreenVpn). -->
+    <string name="liveview_vpn_android_didnt_start">Android が VPN を開始しませんでした</string>
+    <string name="liveview_vpn_android_refused">Android が CommaView の VPN の設定を許可しませんでした</string>
+    <string name="liveview_vpn_cant_ask">Android が VPN の設定を確認できません</string>
+    <string name="liveview_vpn_couldnt_start">VPN アドレスを開始できませんでした：%1$s。%2$sのほかの設定は変わっておらず、Browser View のほかのアドレスは引き続き使えます。オンにするともう一度試します。</string>
+    <string name="liveview_vpn_declined">VPN アドレスには、CommaView の VPN（通信を中継しません）に対する Android の許可が必要です。オフのままになります</string>
+    <string name="liveview_vpn_needs_consent">VPN アドレスはオフです：Android が VPN の許可を再度必要としています。オンにして許可してください</string>
+    <string name="liveview_vpn_revoked">VPN アドレスはオフです：別の VPN が開始されたか、設定でオフにされました</string>
+
+    <!-- Live View's status panel's actions and the screens before it (LiveViewAvailability, LiveViewRebootRequired, LiveViewVersionTooOld). -->
+    <string name="liveview_back_to_home">ホームに戻る</string>
+    <string name="liveview_back">戻る</string>
+    <string name="liveview_retry">再試行</string>
+    <string name="liveview_retry_now">今すぐ再試行</string>
+    <string name="liveview_keep_watching">見続ける</string>
+    <string name="liveview_reboot_comma">comma を再起動</string>
+    <string name="liveview_alert_spoken">アラート：%1$s</string>
+    <string name="liveview_video_note_logging_disabled">「ログを無効化」は comma の動画エンコーダーを停止します。Live View を使うには、フォークの設定で「ログを無効化」をオフにしてください。</string>
+
+
+
+
+
+    <!-- Settings › Language's offer of the connected comma's language (LanguageSetting): %1$s is that language, named in itself. -->
+    <string name="liveview_comma_language_offer">comma は %1$s に設定されています。CommaView でも使いますか？</string>
+    <string name="liveview_comma_language_use">%1$s を使う</string>
+    <string name="liveview_rail_live_word">LIVE</string>
+    <string name="liveview_rail_delayed_word">遅延</string>
+
+    <!-- A summary tile, as TalkBack reads it: %1$s its label, %2$s its value. -->
+    <string name="liveview_summary_tile_said">%1$s、%2$s</string>
+    <string name="liveview_vpn_android_setup_failed">Android が CommaView の VPN を設定できませんでした</string>
+    <string name="liveview_vpn_details_clip">CommaView VPN アドレスの失敗</string>
+    <string name="liveview_details_copied">詳細をコピーしました</string>
+</resources>

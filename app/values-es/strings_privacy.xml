@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- privacy: Español (Spanish). Machine drafted with docs/localization/glossary-es.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="privacy_improve_supporting">Envía informes de fallos y problemas, qué software de conducción usa tu comma y si Live View se reproduce en %1$s o en la pantalla del coche. Nunca vídeo, viajes, lugares ni nombres.</string>
+    <string name="privacy_improve_supporting_no_reports">Envía informes de fallos y problemas, qué software de conducción usa tu comma y si Live View se reproduce en %1$s o en la pantalla del coche. Nunca vídeo, viajes, lugares ni nombres. Esta versión no envía informes de fallos.</string>
+    <string name="privacy_car_detection">Detección de coches</string>
+    <string name="privacy_car_detection_label">Usar las grabaciones que envío para mejorar la detección de coches</string>
+    <string name="privacy_contribute_automatically">Contribuir viajes automáticamente</string>
+    <string name="privacy_contribute_automatically_supporting">Los viajes recientes de tu comma se envían cuando %1$s y el comma están en una red que permitas abajo, hasta un límite diario. No con el ahorro de batería, ni mientras usas Live View o grabas.</string>
+    <string name="privacy_contribute_needs_runtime">Para contribuir viajes, tu comma necesita el último entorno de ejecución de CommaView. Actualízalo en Ajustes del dispositivo.</string>
+    <string name="privacy_upload_networks">Subir contribuciones en</string>
+    <string name="privacy_upload_networks_supporting">Para %1$s, los puntos de acceso suelen parecer el Wi‑Fi de casa, así que tu comma dice en qué Wi‑Fi está. Esto vale para todas las contribuciones.</string>
+    <string name="privacy_any_wifi_supporting">Wi‑Fi que %1$s no marca como de uso medido, con tu comma conectado para las automáticas</string>
+    <string name="privacy_chosen_networks_supporting">Las que marques abajo, cada una con un límite mensual si quieres</string>
+    <string name="privacy_mobile_data">Datos móviles</string>
+    <string name="privacy_mobile_data_supporting">%1$s tiene los suyos, como cuando tu comma usa su punto de acceso</string>
+    <string name="privacy_network_limit_hint">De uso medido: un límite mantiene las contribuciones dentro del plan</string>
+    <string name="privacy_no_monthly_limit">Sin límite mensual</string>
+    <string name="privacy_monthly_limit">Límite mensual · %1$s</string>
+    <string name="privacy_limit_reached">Límite alcanzado · %1$s</string>
+    <string name="privacy_limit_on_mobile_data">Límite mensual en datos móviles</string>
+    <string name="privacy_limit_on_wifi">Límite mensual en %1$s</string>
+    <string name="privacy_limit_text_mobile_data">Las contribuciones ocupan unos 110 MB por minuto de viaje. Al llegar a esta cantidad se detienen en datos móviles hasta el día 1 del mes siguiente. Las grabaciones que envías a CommaView no cuentan.</string>
+    <string name="privacy_limit_text_wifi">Las contribuciones ocupan unos 110 MB por minuto de viaje. Al llegar a esta cantidad se detienen en este Wi‑Fi hasta el día 1 del mes siguiente. Las grabaciones que envías a CommaView no cuentan.</string>
+    <string name="privacy_nothing_this_month">Nada este mes todavía</string>
+    <string name="privacy_comma_wifi_listed">Redes Wi‑Fi guardadas en tu comma. Elige en cuáles subir.</string>
+    <string name="privacy_comma_wifi_asking">Preguntando a tu comma qué redes Wi‑Fi tiene guardadas…</string>
+    <string name="privacy_comma_wifi_unreachable">No se puede contactar con tu comma ahora. Sus redes Wi‑Fi guardadas aparecerán aquí cuando esté conectado.</string>
+    <string name="privacy_comma_wifi_update_runtime">Actualiza el entorno de ejecución de tu comma para ver todas sus redes Wi‑Fi guardadas.</string>
+    <string name="privacy_comma_on_it_now">Tu comma está conectado ahora</string>
+    <string name="privacy_not_saved_on_comma">No guardada en tu comma</string>
+    <string name="privacy_metered">de uso medido</string>
+    <string name="privacy_comma_wifi_runtime_too_old">Actualiza el entorno de ejecución de tu comma para elegir redes Wi‑Fi.</string>
+    <string name="privacy_comma_wifi_kept">Redes Wi‑Fi guardadas en tu comma, a fecha de %1$s. Elige en cuáles subir.</string>
+    <string name="privacy_comma_wifi_not_paired">Empareja tu comma con %1$s para ver sus redes Wi‑Fi guardadas.</string>
+    <string name="privacy_comma_wifi_forgot_phone">Tu comma ya no reconoce %1$s. Vuelve a emparejarlo para ver sus redes Wi‑Fi guardadas.</string>
+    <string name="privacy_comma_wifi_none">Tu comma aún no tiene redes Wi‑Fi guardadas.</string>
+    <string name="privacy_comma_wifi_recent">Redes Wi‑Fi que tu comma usó más recientemente. Elige en cuáles subir.</string>
+    <string name="privacy_comma_wifi_read_failed">Tu comma no pudo leer su Wi‑Fi ahora.</string>
+    <string name="privacy_comma_wifi_list_failed">Tu comma no pudo listar sus redes Wi‑Fi guardadas ahora.</string>
+</resources>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- liveview: Türkçe. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-tr.md and openpilot's selfdrive/ui/translations/app_tr.po. -->
+<resources>
+
+    <!-- Live View's connection status (shared: LiveViewStatus, through SharedWords). -->
+    <string name="liveview_status_connecting_to">Bağlanılıyor: %1$s</string>
+    <string name="liveview_status_connecting_to_your_comma">comma\'nıza bağlanılıyor</string>
+    <string name="liveview_status_reconnecting">Yeniden bağlanılıyor…</string>
+    <string name="liveview_status_attempt_of">Deneme %1$d/%2$d</string>
+    <string name="liveview_status_attempt">Deneme %1$d</string>
+    <string name="liveview_status_live">Canlı</string>
+    <string name="liveview_status_trying_another_decoder">%1$sdaki video kod çözücü videoyu oynatamadı. Başka biri deneniyor…</string>
+    <string name="liveview_status_waiting_for_video">Video bekleniyor</string>
+    <string name="liveview_status_switching_wide_camera">Geniş açı kamerasına geçiliyor</string>
+    <string name="liveview_status_waiting_for_car_data">Aracın verileri bekleniyor</string>
+    <string name="liveview_status_video_delayed">Video gecikmeli</string>
+    <string name="liveview_status_car_data_missing">Araç verileri gelmiyor</string>
+    <string name="liveview_status_car_data_missing_detail">Video geliyor, ancak aracın hızı, sinyalleri ve uyarıları gelmiyor. Düzeltmek için comma\'yı yeniden başlatın.</string>
+    <string name="liveview_status_cant_play">Bu comma\'nın videosu oynatılamıyor</string>
+    <string name="liveview_status_cant_play_detail">Video kod çözücülerin hiçbiri %1$sda oynatamadı. CommaView denemeye devam ediyor. CommaView\'un incelemesi için Ayarlar\'dan bir destek raporu gönderin.</string>
+    <string name="liveview_status_connection_lost">Bağlantı kesildi</string>
+    <string name="liveview_status_couldnt_connect">Bağlanılamadı</string>
+    <string name="liveview_status_timed_out">comma zamanında yanıt vermedi. Lütfen %1$s comma\'nın Wi‑Fi\'ında veya hotspot\'unda mı, kontrol edip yeniden deneyin.</string>
+    <string name="liveview_status_check_wifi">Lütfen %1$s comma\'nın Wi‑Fi\'ında veya hotspot\'unda mı, kontrol edip yeniden deneyin.</string>
+
+    <!-- Why the video stream was lost (shared: ConnectionState.ReconnectCause). -->
+    <string name="liveview_reconnect_unknown">Video bağlantısı kesildi.</string>
+    <string name="liveview_reconnect_refused">comma bağlantıyı reddetti. CommaView üzerinde yeniden başlıyor olabilir.</string>
+    <string name="liveview_reconnect_unreachable">%1$s comma\'ya ulaşamıyor. comma\'nın Wi‑Fi\'ında veya hotspot\'unda olduğunu kontrol edin.</string>
+    <string name="liveview_reconnect_timed_out">comma zamanında yanıt vermedi.</string>
+    <string name="liveview_reconnect_closed">comma video akışını kapattı.</string>
+    <string name="liveview_reconnect_stalled">Video gelmeyi bıraktı.</string>
+
+    <!-- Why Live View stopped reconnecting (shared: ConnectionState.WaitReason). -->
+    <string name="liveview_wait_unreachable">Bu comma\'ya ulaşılamıyor</string>
+    <string name="liveview_wait_unreachable_detail">%1$s comma ile aynı Wi‑Fi\'da veya comma\'nın hotspot\'unda olmalı. comma yanıt verdiğinde Live View yeniden bağlanır.</string>
+    <string name="liveview_wait_runtime_down">CommaView yanıt vermiyor</string>
+    <string name="liveview_wait_runtime_down_detail">comma üzerinde yeniden başlıyor olabilir. Geri geldiğinde Live View yeniden bağlanır.</string>
+    <string name="liveview_wait_no_video">Bu comma\'dan video yok</string>
+    <string name="liveview_wait_no_video_detail">Yanıt veriyor, ancak videosu geri gelmedi. Yeniden deneyin veya geri dönüp comma\'yı kontrol edin.</string>
+    <string name="liveview_wait_busy">Live View başka bir cihazda açık</string>
+    <string name="liveview_wait_busy_detail">Bu comma aynı anda yalnızca bir telefona veya multimedya ünitesine yayın yapar. Diğerinde CommaView\'da Ana sayfa\'ya dönün; Live View burada kendiliğinden başlar.</string>
+
+    <!-- What a screen reader is told about the video well (shared: LiveVideoSpeech). -->
+    <string name="liveview_speech_your_comma">comma\'nız</string>
+    <string name="liveview_speech_live_video">Canlı video: %1$s</string>
+    <string name="liveview_speech_not_live">Video: %1$s, canlı değil. %2$s</string>
+
+    <!-- The CommaView design's own notices (shared: CommaViewNotice). -->
+    <string name="liveview_notice_status_unavailable">Durum kullanılamıyor</string>
+    <string name="liveview_notice_telemetry_unavailable">Telemetri kullanılamıyor</string>
+    <string name="liveview_notice_waiting_for_data">Veri bekleniyor</string>
+    <string name="liveview_notice_hud_data_unavailable">HUD verileri kullanılamıyor</string>
+    <string name="liveview_notice_not_saved">comma tarafından kaydedilmedi</string>
+    <string name="liveview_notice_connecting">Bağlanılıyor…</string>
+    <string name="liveview_notice_reconnecting">Yeniden bağlanılıyor…</string>
+    <string name="liveview_notice_attempt_of">Deneme %1$d/%2$d</string>
+    <string name="liveview_notice_attempt">Deneme %1$d</string>
+    <string name="liveview_notice_disconnected">Bağlantı kesildi</string>
+    <string name="liveview_notice_waiting_for_comma">comma\'nız bekleniyor</string>
+    <string name="liveview_notice_connection_error">Bağlantı hatası</string>
+    <string name="liveview_notice_cant_reach">comma\'nıza ulaşılamıyor</string>
+
+    <!-- The CommaView design's HUD words (shared: CommaViewEngagement, CommaViewHud, CommaViewChrome, CommaViewVisibility). -->
+    <string name="liveview_hud_engaged">DEVREDE</string>
+    <string name="liveview_hud_steering_only">YALNIZCA DİREKSİYON</string>
+    <string name="liveview_hud_speed_only">YALNIZCA HIZ</string>
+    <string name="liveview_hud_override">MÜDAHALE</string>
+    <string name="liveview_hud_not_engaged">DEVREDE DEĞİL</string>
+    <string name="liveview_hud_dm_looking_away">Başka yere bakıyor</string>
+    <string name="liveview_hud_dm_eyes_closed">Gözler kapalı</string>
+    <string name="liveview_hud_dm_phone">Elde telefon</string>
+    <string name="liveview_hud_dm_drowsy">Uykulu</string>
+    <string name="liveview_hud_dm_no_face">Yüzünüz görünmüyor</string>
+    <string name="liveview_hud_dm_wheel">Direksiyona dokunun</string>
+    <string name="liveview_hud_green_light">YEŞİL IŞIK</string>
+    <string name="liveview_hud_lead_departing">ÖNDEKİ ARAÇ KALKIYOR</string>
+    <string name="liveview_hud_stopped">DURDU</string>
+    <string name="liveview_hud_max">MAKS</string>
+    <string name="liveview_hud_experimental">DENEYSEL</string>
+    <string name="liveview_hud_blind_spot">KÖR NOKTA</string>
+    <string name="liveview_hud_line_steering_speed_active">DİREKSİYON ETKİN · HIZ ETKİN</string>
+    <string name="liveview_hud_line_steering_active">DİREKSİYON ETKİN</string>
+    <string name="liveview_hud_line_steering_active_speed_manual">DİREKSİYON ETKİN · HIZ MANUEL</string>
+    <string name="liveview_hud_line_steering_manual_speed_active">DİREKSİYON MANUEL · HIZ ETKİN</string>
+    <string name="liveview_hud_line_driver_override">SÜRÜCÜ MÜDAHALESİ</string>
+    <string name="liveview_hud_line_manual_control">MANUEL KONTROL</string>
+    <string name="liveview_hud_short_steering_speed_active">DİREKSİYON · HIZ ETKİN</string>
+    <string name="liveview_hud_short_manual">MANUEL</string>
+
+    <!-- Live View's Details (LiveViewChrome): the pane beside the video and the phone's sheet. -->
+    <string name="liveview_details_title">Ayrıntılar</string>
+    <string name="liveview_details_pane_description">Live View ayrıntıları</string>
+    <string name="liveview_details_show">Ayrıntıları göster</string>
+    <string name="liveview_details_hide">Ayrıntıları gizle</string>
+    <string name="liveview_expanded">Genişletildi</string>
+    <string name="liveview_collapsed">Daraltıldı</string>
+    <string name="liveview_shown">Gösteriliyor</string>
+    <string name="liveview_hidden">Gizli</string>
+    <string name="liveview_details_connected">Bağlı</string>
+    <string name="liveview_details_stream_set_up_hint">Buradan yayına başlamak için Ayarlar\'da canlı yayını kurun</string>
+    <string name="liveview_details_record_hint_rail">Bu sürüşü kaydetmek için şeritteki Kayıt\'ı kullanın</string>
+    <string name="liveview_details_record_hint_tap">Bu sürüşü kaydetmek için Kayıt\'a dokunun</string>
+    <string name="liveview_details_go_live_hint_rail">Live View\'un gösterdiğini yayınlamak için Yayına başla\'yı kullanın</string>
+    <string name="liveview_details_go_live_hint_tap">Live View\'un gösterdiğini yayınlamak için Yayına başla\'ya dokunun</string>
+    <string name="liveview_details_map_credits">Harita kaynakları</string>
+    <string name="liveview_details_map_credits_subtitle">OpenStreetMap ve haritanın diğer kaynakları</string>
+    <string name="liveview_details_recording_timer">Kaydediliyor · %1$s</string>
+    <string name="liveview_details_not_recording">Kayıt yapılmıyor</string>
+    <string name="liveview_details_recording_spoken">Kaydediliyor, %1$s</string>
+    <string name="liveview_details_recording_detail">Park ettiğinizde tekrar oynatmayı Kayıtlar\'da oluşturun</string>
+    <string name="liveview_details_not_streaming">Yayın yapılmıyor</string>
+    <string name="liveview_details_stream_starting">Canlı yayın başlatılıyor…</string>
+    <string name="liveview_details_streaming_timer">Yayında · %1$s</string>
+    <string name="liveview_details_stream_reconnecting">Yayın yeniden bağlanıyor…</string>
+    <string name="liveview_details_streaming_spoken">Yayında, %1$s</string>
+    <string name="liveview_details_share_watch_link_label">İzleme bağlantısını paylaşın</string>
+    <string name="liveview_details_share_watch_link">İzleme bağlantısını paylaş</string>
+    <string name="liveview_header_title">Live View</string>
+    <string name="liveview_exit">Live View\'dan çık</string>
+    <string name="liveview_link_recordings">Kayıtlar</string>
+    <string name="liveview_link_device_settings">Cihaz ayarları</string>
+
+    <!-- The stream's pill (LiveStreamStatus.pill). -->
+    <string name="liveview_pill_live">Canlı</string>
+    <string name="liveview_pill_delayed">Gecikmeli</string>
+    <string name="liveview_pill_connecting">Bağlanıyor</string>
+    <string name="liveview_pill_reconnecting">Yeniden bağlanıyor</string>
+    <string name="liveview_pill_offline">Çevrimdışı</string>
+    <string name="liveview_pill_in_use">Kullanımda</string>
+
+    <!-- The folded sheet's line (peekSummary), its parts joined with " · ". -->
+    <string name="liveview_peek_live">Canlı</string>
+    <string name="liveview_peek_delayed">Video gecikmeli</string>
+    <string name="liveview_peek_connecting">Bağlanıyor</string>
+    <string name="liveview_peek_reconnecting">Yeniden bağlanıyor</string>
+    <string name="liveview_peek_offline">Çevrimdışı</string>
+    <string name="liveview_peek_in_use">Başka bir cihazda kullanımda</string>
+    <string name="liveview_peek_recording">Kaydediliyor %1$s</string>
+    <string name="liveview_peek_not_recording">Kayıt yapılmıyor</string>
+    <string name="liveview_peek_streaming_timer">Yayında %1$s</string>
+    <string name="liveview_peek_streaming">Yayında</string>
+
+
+
+    <!-- Details' facts (LiveViewDetails). -->
+    <string name="liveview_health_good">İyi</string>
+    <string name="liveview_health_choppy">Kesintili</string>
+    <string name="liveview_health_stalled">Durdu</string>
+    <string name="liveview_readout_stream_health">Akış durumu</string>
+    <string name="liveview_readout_stream">Akış</string>
+    <string name="liveview_readout_video">Video</string>
+    <string name="liveview_readout_runtime">Çalışma ortamı</string>
+    <string name="liveview_readout_software">Yazılım</string>
+    <string name="liveview_readout_comma_ip">comma IP</string>
+    <string name="liveview_on">Açık</string>
+    <string name="liveview_off">Kapalı</string>
+
+    <!-- A running time as a screen reader says it, its parts joined with a space: "1 minute 5 seconds". -->
+    <plurals name="liveview_timer_hours">
+        <item quantity="one">%1$d saat</item>
+        <item quantity="other">%1$d saat</item>
+    </plurals>
+    <plurals name="liveview_timer_minutes">
+        <item quantity="one">%1$d dakika</item>
+        <item quantity="other">%1$d dakika</item>
+    </plurals>
+    <plurals name="liveview_timer_seconds">
+        <item quantity="one">%1$d saniye</item>
+        <item quantity="other">%1$d saniye</item>
+    </plurals>
+
+    <!-- Go live's row in Details (liveBroadcast). -->
+    <string name="liveview_broadcast_making_youtube">YouTube yayını oluşturuluyor</string>
+    <string name="liveview_broadcast_connecting_youtube">YouTube\'a bağlanılıyor</string>
+    <string name="liveview_broadcast_connecting_server">Sunucuya bağlanılıyor</string>
+
+    <!-- %1$s names the network the stream goes out on (Wi‑Fi, mobile data). -->
+    <string name="liveview_broadcast_over_network">%1$s üzerinden</string>
+    <string name="liveview_broadcast_attempt">Deneme %1$d: %2$s</string>
+    <string name="liveview_live_copy_shared_notice">Yayınınızdan canlı kopya kaydediliyor: yayının kalitesinde, %1$s</string>
+    <string name="liveview_stream_from_live_copy_notice">Canlı kopyanın %1$s görüntüsünden, yayınınızın %2$s ayarında yayına geçiliyor</string>
+
+
+    <!-- Live View's controls: the rail, the upright bar and More's menu (CockpitNavigation), and the car's (LiveCarScreenControls). -->
+    <string name="liveview_controls_description">Live View kontrolleri</string>
+    <string name="liveview_rail_video_delayed">Video gecikmeli</string>
+    <string name="liveview_rail_live">Canlı</string>
+    <string name="liveview_control_record">Kayıt</string>
+    <string name="liveview_control_starting">Başlıyor…</string>
+    <string name="liveview_control_starting_recording">Kayıt başlatılıyor</string>
+    <string name="liveview_control_stop_recording">Kaydı durdur, %1$s</string>
+    <string name="liveview_control_save">Kaydet</string>
+    <string name="liveview_control_saved">Kaydedildi</string>
+    <string name="liveview_control_save_description">Bu anı kaydet</string>
+    <string name="liveview_control_saved_description">An kaydedildi. Bir dakika daha tutmak için dokunun</string>
+    <string name="liveview_control_save_last_minutes">Son 3 dakika</string>
+    <string name="liveview_control_onroad_screen">Sürüş ekranı</string>
+    <string name="liveview_control_switch_screen">Sürüş ekranını değiştir</string>
+
+    <!-- %1$s is the onroad screen's name. -->
+    <string name="liveview_control_switch_screen_named">Sürüş ekranını değiştir, %1$s</string>
+    <string name="liveview_control_go_live">Yayına başla</string>
+    <string name="liveview_control_go_live_description">Yayına başla, Live View\'un gösterdiğini yayınla</string>
+    <string name="liveview_control_retrying">Yeniden deneniyor</string>
+    <string name="liveview_control_stream_starting_description">Canlı yayın başlatılıyor. Canlı yayını durdur</string>
+    <string name="liveview_control_stream_live_description">Canlı yayını durdur, %1$s süredir yayında</string>
+    <string name="liveview_control_stream_retrying_description">Canlı yayın yeniden bağlanıyor. Canlı yayını durdur</string>
+    <string name="liveview_control_driver_cam">Sürücü kamerası</string>
+    <string name="liveview_control_pip_live">Canlı</string>
+    <string name="liveview_control_pip_description">Sürücü kamerası küçük penceresi</string>
+    <string name="liveview_control_pip_streamed_description">Sürücü kamerası küçük penceresi. Canlı yayınınızı izleyenler sürücü kamerasını görür</string>
+    <string name="liveview_control_details">Ayrıntılar</string>
+    <string name="liveview_control_showing">Gösteriliyor</string>
+    <string name="liveview_control_more">Daha fazla</string>
+    <string name="liveview_control_more_description">Diğer kontroller, %1$d</string>
+    <string name="liveview_control_more_controls">Diğer kontroller</string>
+    <string name="liveview_control_exit">Çık</string>
+
+    <!-- The stepper of pairing and setup: %1$d is the step, %2$d how many, %3$s its name. -->
+    <string name="liveview_stepper_step_named">Adım %1$d/%2$d · %3$s</string>
+    <string name="liveview_stepper_step_spoken">Adım %1$d/%2$d, %3$s</string>
+
+    <!-- Live View's own messages (MainActivity). -->
+    <string name="liveview_offroad_logo">CommaView logosu</string>
+    <string name="liveview_offroad_title">comma\'nız çevrimiçi ama sürüşte değil</string>
+    <string name="liveview_offroad_detail">Canlı kamera, %1$s sürüşe başladığında açılır. Ayarları yönetebilir veya araç hazır olduğunda yenileyebilirsiniz.</string>
+    <string name="liveview_offroad_ip_address">IP adresi</string>
+    <string name="liveview_offroad_refresh">Yenile</string>
+    <string name="liveview_offroad_refreshing">Yenileniyor…</string>
+    <string name="liveview_sign_in_done">Giriş yapıldı</string>
+    <string name="liveview_sign_in_cancelled">Giriş iptal edildi</string>
+    <string name="liveview_sign_in_unfinished">Giriş tamamlanmadı. Yeniden giriş yapmayı deneyin.</string>
+    <string name="liveview_replay_limit_live_copy_continues">Tekrar oynatma 10 dakikalık sınırında durdu. Canlı kopya kaydetmeye devam ediyor.</string>
+    <string name="liveview_source_timing_saved">Kaynak zamanlaması kaydedildi. Park edin, sonra tekrar oynatmayı Kayıtlar\'da oluşturun</string>
+    <string name="liveview_source_timing_started">Kaynak zamanlaması kaydı başladı; video comma\'da kalır</string>
+    <string name="liveview_recording_storage_unavailable">Kayıt depolaması kullanılamıyor</string>
+    <string name="liveview_recording_unable_to_start">Kayıt başlatılamadı</string>
+    <string name="liveview_recording_live_copy_only">Yalnızca canlı kopya kaydediliyor. Tekrar oynatma başlatılamadı: %1$s</string>
+    <string name="liveview_recording_report">Bildir</string>
+    <string name="liveview_share_live_stream">Canlı yayını paylaş</string>
+
+    <!-- Why Browser View's VPN address is off (CarScreenVpn). -->
+    <string name="liveview_vpn_android_didnt_start">Android VPN\'ini başlatmadı</string>
+    <string name="liveview_vpn_android_refused">Android, CommaView\'un VPN\'ini kurmasına izin vermedi</string>
+    <string name="liveview_vpn_cant_ask">Android VPN\'ini kurmak için izin isteyemiyor</string>
+    <string name="liveview_vpn_couldnt_start">VPN adresi başlatılamadı: %1$s. Başka hiçbir şey değişmedi: %2$sdaki ayarlar aynı ve Browser View\'un diğer adresleri hâlâ çalışıyor. Yeniden denemek için açın.</string>
+    <string name="liveview_vpn_declined">VPN adresi, hiç trafik taşımayan CommaView VPN\'i için Android\'in onayını gerektirir. Kapalı kalıyor</string>
+    <string name="liveview_vpn_needs_consent">VPN adresi kapalı: Android VPN\'i için yeniden onayınızı istiyor. Onay vermek için açın</string>
+    <string name="liveview_vpn_revoked">VPN adresi kapalı: başka bir VPN başladı veya Ayarlar\'dan kapatıldı</string>
+
+    <!-- Live View's status panel's actions and the screens before it (LiveViewAvailability, LiveViewRebootRequired, LiveViewVersionTooOld). -->
+    <string name="liveview_back_to_home">Ana sayfaya dön</string>
+    <string name="liveview_back">Geri</string>
+    <string name="liveview_retry">Yeniden dene</string>
+    <string name="liveview_retry_now">Şimdi yeniden dene</string>
+    <string name="liveview_keep_watching">İzlemeye devam et</string>
+    <string name="liveview_reboot_comma">comma\'yı yeniden başlat</string>
+    <string name="liveview_alert_spoken">Uyarı: %1$s</string>
+    <string name="liveview_video_note_logging_disabled">Disable Logging, comma\'nın video kodlayıcısını durdurur. Live View\'u kullanmak için fork\'un ayarlarında Disable Logging\'i kapatın.</string>
+
+
+
+
+
+    <!-- Settings › Language's offer of the connected comma's language (LanguageSetting): %1$s is that language, named in itself. -->
+    <string name="liveview_comma_language_offer">comma\'nızın dili %1$s. CommaView için de kullanılsın mı?</string>
+    <string name="liveview_comma_language_use">%1$s kullan</string>
+    <string name="liveview_rail_live_word">CANLI</string>
+    <string name="liveview_rail_delayed_word">GECİKMELİ</string>
+
+    <!-- A summary tile, as TalkBack reads it: %1$s its label, %2$s its value. -->
+    <string name="liveview_summary_tile_said">%1$s, %2$s</string>
+    <string name="liveview_vpn_android_setup_failed">Android, CommaView\'un VPN\'ini kuramadı</string>
+    <string name="liveview_vpn_details_clip">CommaView VPN adresi hatası</string>
+    <string name="liveview_details_copied">Ayrıntılar kopyalandı</string>
+</resources>

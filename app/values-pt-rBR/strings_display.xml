@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Português (Brasil). Machine drafted with docs/localization/glossary-pt-rBR.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="display_framing_automatic">Automático</string>
+    <string name="display_framing_automatic_detail">O de cada design: o quadro exato do comma four, a tela do comma 3 estendida para preencher, o CommaView preenchendo a tela na horizontal.</string>
+    <string name="display_framing_exact">Exato</string>
+    <string name="display_framing_exact_detail">O formato e o enquadramento do próprio design, exatamente; faixas pretas onde o formato desta tela é diferente.</string>
+    <string name="display_framing_extend">Estender</string>
+    <string name="display_framing_extend_detail">Sem faixas: o design mantém o tamanho e mostra mais da câmera onde esta tela é mais larga ou mais alta.</string>
+    <string name="display_framing_fill">Preencher tela</string>
+    <string name="display_framing_fill_detail">Preenche a tela disponível cortando o quadro do design.</string>
+    <string name="display_design_commaview_note">Um caminho fluido, uma mira no veículo à frente e a velocidade, o status e os alertas do próprio CommaView. Preenche a tela na horizontal ou mostra a câmera inteira.</string>
+    <string name="display_commaview_framing">Enquadramento da câmera</string>
+    <string name="display_commaview_framing_detail">Escolha como o CommaView usa a tela na horizontal.</string>
+    <string name="display_commaview_full_camera">Câmera inteira</string>
+    <string name="display_commaview_full_camera_detail">Mostra a imagem inteira da câmera, com faixas pretas quando necessário.</string>
+    <string name="display_commaview_fill_detail">Preenche a tela na horizontal cortando a imagem da câmera. Na vertical, mostra a câmera inteira.</string>
+    <string name="display_design_comma3x_note">A tela do comma 3X: uma borda de status, a caixa MÁX, uma velocidade grande e alertas embaixo.</string>
+    <string name="display_design_comma4_note">A tela do comma four: MÁX acima da via quando muda, o volante e a confiança ao lado.</string>
+    <string name="display_comma4_framing">Enquadramento da prévia</string>
+    <string name="display_comma4_framing_detail">Igualar exatamente o quadro do comma four, mostrar mais da câmera ou cortá-la para preencher esta tela.</string>
+    <string name="display_daylight_title">Contraste diurno</string>
+    <string name="display_daylight_subtitle">Textos e linhas mais claros para sol e reflexos</string>
+    <string name="display_daylight_no_sensor">%1$s %2$s não tem sensor de luz, então não há Auto.</string>
+    <string name="display_daylight_note">O vídeo e o HUD mantêm suas cores.</string>
+    <string name="display_screen_edges_title">Bordas da tela</string>
+    <string name="display_screen_edges_subtitle">Traga o app para dentro das bordas que a tela do carro corta</string>
+    <string name="display_screen_edges_how">Mova cada borda para dentro até ver a linha inteira ao redor. Só para uma tela de carro que corta as bordas da imagem.</string>
+    <string name="display_screen_edges_reset">Redefinir</string>
+    <string name="display_screen_edges_done">Concluído</string>
+    <string name="display_screen_edges_move_out">Mover a borda %1$s para fora</string>
+    <string name="display_screen_edges_move_in">Mover a borda %1$s para dentro</string>
+    <string name="display_screen_edges_dp">%1$d dp</string>
+    <string name="display_screen_edges_from_edge">%1$d dp da borda %2$s</string>
+</resources>

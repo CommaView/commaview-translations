@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app: Deutsch (German). Machine drafted with docs/localization/glossary-de.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- The home dock and rail (HomeSection). -->
+    <string name="nav_home">Start</string>
+    <string name="nav_recordings">Aufnahmen</string>
+    <string name="nav_settings">Einstellungen</string>
+
+    <!-- Settings' pages, as each is titled (GlobalSettingsPage, DeviceSettingsPage). -->
+    <string name="settings_page_hub">Einstellungen</string>
+    <string name="settings_page_display">Anzeige</string>
+    <string name="settings_page_offline_maps">Offline-Karten</string>
+    <string name="settings_page_maps_navigation">Karten &amp; Navigation</string>
+    <string name="settings_page_choose_home">Zuhause wählen</string>
+    <string name="settings_page_choose_work">Arbeit wählen</string>
+    <string name="settings_page_recordings">Aufnahmen</string>
+    <string name="settings_page_sound">Ton</string>
+    <string name="settings_page_live_streaming">Livestream</string>
+    <string name="settings_page_destination">Ziel</string>
+    <string name="settings_page_title_description">Titel und Beschreibung</string>
+    <string name="settings_page_account">Konto</string>
+    <string name="settings_page_privacy">Datenschutz &amp; Teilen</string>
+    <string name="settings_page_support">Support &amp; Diagnose</string>
+    <string name="settings_page_about">Über</string>
+    <string name="settings_page_licenses">Open-Source-Lizenzen</string>
+    <string name="settings_page_license">Lizenz</string>
+    <string name="settings_page_device">Einstellungen des Geräts</string>
+    <string name="settings_page_device_facts">Name und Adresse</string>
+    <string name="settings_page_device_network">Netzwerk</string>
+    <string name="settings_page_device_pairing">Weiteres Handy koppeln</string>
+    <string name="settings_page_device_runtime">Runtime</string>
+
+    <!-- The Settings hub's rows, under each title. -->
+    <string name="settings_hub_display_subtitle">Fahransicht und Optionen, Fahrerseite und Tageslicht</string>
+    <string name="settings_hub_maps_navigation_key_subtitle">Offline-Karten und Navigation mit Ihrem Schlüssel für Stadia Maps</string>
+    <string name="settings_hub_offline_maps_subtitle">Regionen laden und Tempolimits am Standort Ihres comma anzeigen</string>
+    <string name="settings_hub_live_streaming_subtitle">Aus Live View live auf YouTube oder einem anderen Server</string>
+    <string name="settings_hub_live_streaming_ready">Bereit</string>
+    <string name="settings_hub_live_streaming_set_up">Einrichten</string>
+    <string name="settings_hub_account_subtitle">Anmeldung und Beta-Updates</string>
+    <string name="settings_hub_language_subtitle">Die Sprache der App</string>
+    <string name="settings_hub_privacy_subtitle">Was dieses %1$s verlässt</string>
+    <string name="settings_hub_support_subtitle">Problem melden, das Projekt unterstützen und Diagnose auf diesem %1$s</string>
+    <string name="settings_hub_about_subtitle">Version und Updates</string>
+    <string name="settings_hub_about_update">Update</string>
+
+    <!-- Settings › Language (LanguageSetting.kt). -->
+    <string name="language_title">Sprache</string>
+    <string name="language_follow_phone">Sprache des Handys</string>
+    <!-- The row's value while the app follows the phone: %1$s is the language that gives, in itself. -->
+    <string name="language_follow_phone_value">Wie Handy (%1$s)</string>
+    <string name="language_follow_phone_detail">Folgt der Sprache Ihres Handys, wenn CommaView sie hat, sonst Englisch</string>
+    <string name="language_comma_screens_note">Die comma-Ansichten in Live View bleiben in der Sprache Ihres comma, wie Ihr Auto sie zeigt.</string>
+    <string name="language_choose_label">Sprache der App wählen</string>
+    <string name="settings_translation_notice">CommaView auf %1$s ist maschinell übersetzt.</string>
+    <string name="settings_translation_notice_link">Beim Verbessern helfen</string>
+    <string name="settings_translation_notice_close">Hinweis zur Übersetzung schließen</string>
+    <string name="language_machine_translated">Maschinell übersetzt</string>
+</resources>

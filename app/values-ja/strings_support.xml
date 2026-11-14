@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- support: 日本語 (Japanese). Machine drafted with docs/localization/glossary-ja.md; not yet reviewed by a native speaker. -->
+<resources>
+    <!-- Settings › Support & diagnostics (SupportDiagnosticsScreen, SettingsPages). -->
+    <string name="support_report_or_idea">問題を報告、またはアイデアを送る</string>
+    <string name="support_diagnostics_kept">保存中の診断データ</string>
+    <string name="support_support">サポート</string>
+    <string name="support_on_this_phone">%1$s上</string>
+    <string name="support_local_data">ローカルの診断データ</string>
+    <string name="support_local_data_supporting">録画エラーの履歴、ローカルの診断ログ、ナビの検索回数、保存したバグ報告、旧バージョンのデバッグ用クリップを削除します。ドライブの録画は削除されません。</string>
+    <string name="support_clear_local_data">ローカルの診断データを消去</string>
+    <string name="support_kept_nothing">%1$sには何もありません</string>
+    <string name="support_kept_under">%1$sに 0.1 MB 未満</string>
+    <string name="support_kept_megabytes">%2$sに %1$.1f MB</string>
+    <string name="support_kept_gigabytes">%2$sに %1$.1f GB</string>
+    <string name="support_keep_diagnostics">診断データを%1$sに保存</string>
+    <string name="support_keep_diagnostics_supporting">直近 10 回のドライブのアプリログとカウンター、ナビの検索回数を保存し、報告で何が起きたかを伝えられるようにします。報告を送るまで、%1$sから何も送信されません。オフにすると録画エラーの履歴だけを保存します。</string>
+    <string name="support_the_project">プロジェクトを支援</string>
+    <string name="support_commaview">CommaView を支援</string>
+    <string name="support_commaview_supporting">ホスティング、テスト、iOS アプリの費用を支援してください。Buy Me a Coffee を開きます。</string>
+
+    <!-- Your requests (YourRequests). -->
+    <string name="support_your_requests">あなたのリクエスト</string>
+    <string name="support_your_requests_supporting">my.commaview.com での CommaView からの返信とやり取りです。返信があると CommaView からメールが届きます。</string>
+    <string name="support_your_requests_empty">リクエストはまだありません。送信したものがここに表示され、返信があると CommaView からメールが届きます。</string>
+    <string name="support_your_requests_signed_out">ログインすると、あなたのリクエストと CommaView からの返信がここに表示されます。</string>
+    <string name="support_your_requests_loading">リクエストを確認しています…</string>
+    <string name="support_your_requests_failed">今はリクエストを取得できませんでした。このページに戻ると再度読み込まれます。</string>
+    <string name="support_your_requests_unread">未読の返信</string>
+    <string name="support_see_all">すべて表示</string>
+    <string name="support_see_all_count">すべて表示（%1$d 件）</string>
+    <string name="support_see_all_where">my.commaview.com で</string>
+    <string name="support_kind_problem">問題</string>
+    <string name="support_kind_idea">アイデア</string>
+    <string name="support_kind_request">リクエスト</string>
+    <string name="support_status_closed">完了</string>
+    <string name="support_status_closed_on">完了 · %1$s</string>
+    <string name="support_status_replied">対応中 · CommaView が返信しました</string>
+    <string name="support_status_waiting">対応中 · CommaView の対応待ち</string>
+    <string name="support_status_open">対応中</string>
+    <string name="support_couldnt_open_site">my.commaview.com を開けませんでした</string>
+</resources>

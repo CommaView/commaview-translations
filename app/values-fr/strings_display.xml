@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- display: Français (French). Machine drafted with docs/localization/glossary-fr.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- How the onroad screen is sized into this phone's (shared: OnroadPreviewScaleMode, through SharedWords). -->
+    <string name="display_framing_automatic">Automatique</string>
+    <string name="display_framing_automatic_detail">Le cadrage propre à chaque style : le cadre exact du comma four, l\'écran du comma 3 étendu pour remplir, CommaView remplissant l\'écran en paysage.</string>
+    <string name="display_framing_exact">Exact</string>
+    <string name="display_framing_exact_detail">La forme et le cadrage du style, exactement ; des bandes noires là où la forme de cet écran diffère.</string>
+    <string name="display_framing_extend">Étendre</string>
+    <string name="display_framing_extend_detail">Sans bandes : le style garde sa taille et montre plus de la caméra là où cet écran est plus large ou plus haut.</string>
+    <string name="display_framing_fill">Remplir l\'écran</string>
+    <string name="display_framing_fill_detail">Remplit l\'écran disponible en recadrant le cadre du style.</string>
+
+    <!-- The designs' names, notes and options in Display's picker (shared: the designs, through SharedWords). -->
+    <string name="display_design_commaview_note">Une trajectoire fluide, un verrouillage sur le véhicule de tête et la vitesse, l\'état et les alertes propres à CommaView. Remplit l\'écran en paysage ou montre toute la caméra.</string>
+    <string name="display_commaview_framing">Cadrage</string>
+    <string name="display_commaview_framing_detail">Choisissez comment CommaView utilise l\'écran en paysage.</string>
+    <string name="display_commaview_full_camera">Caméra entière</string>
+    <string name="display_commaview_full_camera_detail">Montre toute l\'image de la caméra, avec des bandes noires si nécessaire.</string>
+    <string name="display_commaview_fill_detail">Remplit l\'écran en paysage en recadrant l\'image de la caméra. En portrait, la caméra reste entière.</string>
+    <string name="display_design_comma3x_note">L\'écran du comma 3X : une bordure d\'état, le cadre MAX, une grande vitesse et les alertes en bas.</string>
+    <string name="display_design_comma4_note">L\'écran du comma four : MAX au-dessus de la route quand il change, le volant et la confiance à côté.</string>
+    <string name="display_comma4_framing">Cadrage de l\'aperçu</string>
+    <string name="display_comma4_framing_detail">Reproduit exactement le cadre du comma four, montre plus de la caméra, ou la recadre pour remplir cet écran.</string>
+
+    <!-- Display › Daylight contrast (DaylightSection). -->
+    <string name="display_daylight_title">Contraste plein jour</string>
+    <string name="display_daylight_subtitle">Texte et lignes plus lumineux contre le soleil</string>
+    <string name="display_daylight_no_sensor">%1$s %2$s n\'a pas de capteur de lumière, donc pas de mode Auto.</string>
+    <string name="display_daylight_note">La vidéo et le HUD gardent leurs couleurs.</string>
+
+    <!-- Display › Screen edges (ScreenEdgesSection). -->
+    <string name="display_screen_edges_title">Bords de l\'écran</string>
+    <string name="display_screen_edges_subtitle">Rentrer l\'app des bords que l\'écran de la voiture coupe</string>
+    <string name="display_screen_edges_how">Rentrez chaque bord jusqu\'à voir la ligne tout autour. Seulement pour un écran de voiture qui coupe les bords de l\'image.</string>
+    <string name="display_screen_edges_reset">Réinitialiser</string>
+    <string name="display_screen_edges_done">OK</string>
+
+    <!-- %1$s is an edge's name in lower case (top, bottom, left, right). -->
+    <string name="display_screen_edges_move_out">Éloigner le bord %1$s</string>
+    <string name="display_screen_edges_move_in">Rentrer le bord %1$s</string>
+    <string name="display_screen_edges_dp">%1$d dp</string>
+    <string name="display_screen_edges_from_edge">%1$d dp du bord %2$s</string>
+</resources>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- liveview: 繁體中文（台灣）. Machine drafted with docs/localization/glossary-zh-TW.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- Live View's connection status (shared: LiveViewStatus, through SharedWords). -->
+    <string name="liveview_status_connecting_to">正在連線到 %1$s</string>
+    <string name="liveview_status_connecting_to_your_comma">正在連線到您的 comma</string>
+    <string name="liveview_status_reconnecting">正在重新連線…</string>
+    <string name="liveview_status_attempt_of">第 %1$d 次嘗試，共 %2$d 次</string>
+    <string name="liveview_status_attempt">第 %1$d 次嘗試</string>
+    <string name="liveview_status_live">即時</string>
+    <string name="liveview_status_trying_another_decoder">%1$s的視訊解碼器無法播放此影像，正在嘗試另一個…</string>
+    <string name="liveview_status_waiting_for_video">正在等待影像</string>
+    <string name="liveview_status_switching_wide_camera">正在切換到廣角鏡頭</string>
+    <string name="liveview_status_waiting_for_car_data">正在等待車輛資料</string>
+    <string name="liveview_status_video_delayed">影像延遲</string>
+    <string name="liveview_status_car_data_missing">收不到車輛資料</string>
+    <string name="liveview_status_car_data_missing_detail">影像有傳來，但車速、方向燈和警示沒有。請重新啟動 comma 來修正。</string>
+    <string name="liveview_status_cant_play">無法播放這台 comma 的影像</string>
+    <string name="liveview_status_cant_play_detail">%1$s的視訊解碼器都無法播放。CommaView 會持續嘗試。請從「設定」傳送支援報告，讓 CommaView 進一步了解。</string>
+    <string name="liveview_status_connection_lost">連線中斷</string>
+    <string name="liveview_status_couldnt_connect">無法連線</string>
+    <string name="liveview_status_timed_out">comma 沒有及時回應。請確認%1$s已連上它的 Wi‑Fi 或熱點，然後重試。</string>
+    <string name="liveview_status_check_wifi">請確認%1$s已連上 comma 的 Wi‑Fi 或熱點，然後重試。</string>
+
+    <!-- Why the video stream was lost (shared: ConnectionState.ReconnectCause). -->
+    <string name="liveview_reconnect_unknown">影像連線中斷了。</string>
+    <string name="liveview_reconnect_refused">comma 拒絕了連線。CommaView 可能正在它上面重新啟動。</string>
+    <string name="liveview_reconnect_unreachable">%1$s連不到 comma。請確認它已連上 comma 的 Wi‑Fi 或熱點。</string>
+    <string name="liveview_reconnect_timed_out">comma 沒有及時回應。</string>
+    <string name="liveview_reconnect_closed">comma 關閉了影像串流。</string>
+    <string name="liveview_reconnect_stalled">影像停止傳送了。</string>
+
+    <!-- Why Live View stopped reconnecting (shared: ConnectionState.WaitReason). -->
+    <string name="liveview_wait_unreachable">連不到這台 comma</string>
+    <string name="liveview_wait_unreachable_detail">%1$s必須與 comma 連上相同的 Wi‑Fi，或連上它的熱點。comma 回應後，Live View 會重新連線。</string>
+    <string name="liveview_wait_runtime_down">CommaView 沒有回應</string>
+    <string name="liveview_wait_runtime_down_detail">它可能正在 comma 上重新啟動。恢復後 Live View 會重新連線。</string>
+    <string name="liveview_wait_no_video">這台 comma 沒有影像</string>
+    <string name="liveview_wait_no_video_detail">它有回應，但影像沒有恢復。請重試，或返回檢查 comma。</string>
+    <string name="liveview_wait_busy">Live View 已在另一部裝置上開啟</string>
+    <string name="liveview_wait_busy_detail">這台 comma 一次只串流到一支手機或一部車機。請在另一部裝置的 CommaView 中返回首頁，Live View 就會在這裡自動開始。</string>
+
+    <!-- What a screen reader is told about the video well (shared: LiveVideoSpeech). -->
+    <string name="liveview_speech_your_comma">您的 comma</string>
+    <string name="liveview_speech_live_video">來自 %1$s 的即時影像</string>
+    <string name="liveview_speech_not_live">來自 %1$s 的影像，非即時。%2$s</string>
+
+    <!-- The CommaView design's own notices (shared: CommaViewNotice). -->
+    <string name="liveview_notice_status_unavailable">無法取得狀態</string>
+    <string name="liveview_notice_telemetry_unavailable">無法取得遙測資料</string>
+    <string name="liveview_notice_waiting_for_data">正在等待資料</string>
+    <string name="liveview_notice_hud_data_unavailable">無法取得 HUD 資料</string>
+    <string name="liveview_notice_not_saved">comma 未保存</string>
+    <string name="liveview_notice_connecting">正在連線…</string>
+    <string name="liveview_notice_reconnecting">正在重新連線…</string>
+    <string name="liveview_notice_attempt_of">第 %1$d 次嘗試，共 %2$d 次</string>
+    <string name="liveview_notice_attempt">第 %1$d 次嘗試</string>
+    <string name="liveview_notice_disconnected">已中斷連線</string>
+    <string name="liveview_notice_waiting_for_comma">正在等待您的 comma</string>
+    <string name="liveview_notice_connection_error">連線錯誤</string>
+    <string name="liveview_notice_cant_reach">連不到您的 comma</string>
+
+    <!-- The CommaView design's HUD words (shared: CommaViewEngagement, CommaViewHud, CommaViewChrome, CommaViewVisibility). -->
+    <string name="liveview_hud_engaged">已啟用</string>
+    <string name="liveview_hud_steering_only">僅轉向</string>
+    <string name="liveview_hud_speed_only">僅速度</string>
+    <string name="liveview_hud_override">駕駛介入</string>
+    <string name="liveview_hud_not_engaged">未啟用</string>
+    <string name="liveview_hud_dm_looking_away">視線偏離</string>
+    <string name="liveview_hud_dm_eyes_closed">閉眼</string>
+    <string name="liveview_hud_dm_phone">手持手機</string>
+    <string name="liveview_hud_dm_drowsy">疲勞</string>
+    <string name="liveview_hud_dm_no_face">看不到您的臉</string>
+    <string name="liveview_hud_dm_wheel">請觸碰方向盤</string>
+    <string name="liveview_hud_green_light">綠燈</string>
+    <string name="liveview_hud_lead_departing">前車起步</string>
+    <string name="liveview_hud_stopped">已停止</string>
+    <string name="liveview_hud_max">最大</string>
+    <string name="liveview_hud_experimental">實驗模式</string>
+    <string name="liveview_hud_blind_spot">盲點</string>
+    <string name="liveview_hud_line_steering_speed_active">轉向作用中 · 速度作用中</string>
+    <string name="liveview_hud_line_steering_active">轉向作用中</string>
+    <string name="liveview_hud_line_steering_active_speed_manual">轉向作用中 · 速度手動</string>
+    <string name="liveview_hud_line_steering_manual_speed_active">轉向手動 · 速度作用中</string>
+    <string name="liveview_hud_line_driver_override">駕駛介入</string>
+    <string name="liveview_hud_line_manual_control">手動控制</string>
+    <string name="liveview_hud_short_steering_speed_active">轉向 · 速度作用中</string>
+    <string name="liveview_hud_short_manual">手動</string>
+
+    <!-- Live View's Details (LiveViewChrome): the pane beside the video and the phone's sheet. -->
+    <string name="liveview_details_title">詳細資訊</string>
+    <string name="liveview_details_pane_description">Live View 詳細資訊</string>
+    <string name="liveview_details_show">顯示詳細資訊</string>
+    <string name="liveview_details_hide">隱藏詳細資訊</string>
+    <string name="liveview_expanded">已展開</string>
+    <string name="liveview_collapsed">已收合</string>
+    <string name="liveview_shown">已顯示</string>
+    <string name="liveview_hidden">已隱藏</string>
+    <string name="liveview_details_connected">已連線</string>
+    <string name="liveview_details_stream_set_up_hint">在「設定」中設定直播後，即可從這裡開始直播</string>
+    <string name="liveview_details_record_hint_rail">使用側欄的「錄影」來保存這趟行程</string>
+    <string name="liveview_details_record_hint_tap">點按「錄影」來保存這趟行程</string>
+    <string name="liveview_details_go_live_hint_rail">使用「直播」來串流 Live View 的畫面</string>
+    <string name="liveview_details_go_live_hint_tap">點按「直播」來串流 Live View 的畫面</string>
+    <string name="liveview_details_map_credits">地圖來源</string>
+    <string name="liveview_details_map_credits_subtitle">OpenStreetMap 及地圖的其他來源</string>
+    <string name="liveview_details_recording_timer">錄影中 · %1$s</string>
+    <string name="liveview_details_not_recording">未錄影</string>
+    <string name="liveview_details_recording_spoken">錄影中，%1$s</string>
+    <string name="liveview_details_recording_detail">停車後在「錄影」中製作回放</string>
+    <string name="liveview_details_not_streaming">未直播</string>
+    <string name="liveview_details_stream_starting">正在開始直播…</string>
+    <string name="liveview_details_streaming_timer">直播中 · %1$s</string>
+    <string name="liveview_details_stream_reconnecting">正在重新連線直播…</string>
+    <string name="liveview_details_streaming_spoken">直播中，%1$s</string>
+    <string name="liveview_details_share_watch_link_label">分享觀看連結</string>
+    <string name="liveview_details_share_watch_link">分享觀看連結</string>
+    <string name="liveview_header_title">Live View</string>
+    <string name="liveview_exit">離開 Live View</string>
+    <string name="liveview_link_recordings">錄影</string>
+    <string name="liveview_link_device_settings">裝置設定</string>
+
+    <!-- The stream's pill (LiveStreamStatus.pill). -->
+    <string name="liveview_pill_live">即時</string>
+    <string name="liveview_pill_delayed">延遲</string>
+    <string name="liveview_pill_connecting">連線中</string>
+    <string name="liveview_pill_reconnecting">重新連線中</string>
+    <string name="liveview_pill_offline">離線</string>
+    <string name="liveview_pill_in_use">使用中</string>
+
+    <!-- The folded sheet's line (peekSummary), its parts joined with " · ". -->
+    <string name="liveview_peek_live">即時</string>
+    <string name="liveview_peek_delayed">影像延遲</string>
+    <string name="liveview_peek_connecting">連線中</string>
+    <string name="liveview_peek_reconnecting">重新連線中</string>
+    <string name="liveview_peek_offline">離線</string>
+    <string name="liveview_peek_in_use">另一部裝置使用中</string>
+    <string name="liveview_peek_recording">錄影中 %1$s</string>
+    <string name="liveview_peek_not_recording">未錄影</string>
+    <string name="liveview_peek_streaming_timer">直播中 %1$s</string>
+    <string name="liveview_peek_streaming">直播中</string>
+
+
+
+    <!-- Details' facts (LiveViewDetails). -->
+    <string name="liveview_health_good">良好</string>
+    <string name="liveview_health_choppy">不順暢</string>
+    <string name="liveview_health_stalled">停滯</string>
+    <string name="liveview_readout_stream_health">串流狀態</string>
+    <string name="liveview_readout_stream">串流</string>
+    <string name="liveview_readout_video">影像</string>
+    <string name="liveview_readout_runtime">執行環境</string>
+    <string name="liveview_readout_software">軟體</string>
+    <string name="liveview_readout_comma_ip">comma IP</string>
+    <string name="liveview_on">開啟</string>
+    <string name="liveview_off">關閉</string>
+
+    <!-- A running time as a screen reader says it, its parts joined with a space: "1 minute 5 seconds". -->
+    <plurals name="liveview_timer_hours">
+        <item quantity="other">%1$d 小時</item>
+    </plurals>
+    <plurals name="liveview_timer_minutes">
+        <item quantity="other">%1$d 分鐘</item>
+    </plurals>
+    <plurals name="liveview_timer_seconds">
+        <item quantity="other">%1$d 秒</item>
+    </plurals>
+
+    <!-- Go live's row in Details (liveBroadcast). -->
+    <string name="liveview_broadcast_making_youtube">正在建立 YouTube 直播</string>
+    <string name="liveview_broadcast_connecting_youtube">正在連線到 YouTube</string>
+    <string name="liveview_broadcast_connecting_server">正在連線到伺服器</string>
+
+    <!-- %1$s names the network the stream goes out on (Wi‑Fi, mobile data). -->
+    <string name="liveview_broadcast_over_network">透過%1$s</string>
+    <string name="liveview_broadcast_attempt">第 %1$d 次嘗試：%2$s</string>
+    <string name="liveview_live_copy_shared_notice">正在從您的直播錄製即時副本：畫質與直播相同，%1$s</string>
+    <string name="liveview_stream_from_live_copy_notice">以即時副本的 %1$s 畫面直播，使用您直播的 %2$s</string>
+
+
+    <!-- Live View's controls: the rail, the upright bar and More's menu (CockpitNavigation), and the car's (LiveCarScreenControls). -->
+    <string name="liveview_controls_description">Live View 控制項</string>
+    <string name="liveview_rail_video_delayed">影像延遲</string>
+    <string name="liveview_rail_live">即時</string>
+    <string name="liveview_control_record">錄影</string>
+    <string name="liveview_control_starting">啟動中…</string>
+    <string name="liveview_control_starting_recording">正在開始錄影</string>
+    <string name="liveview_control_stop_recording">停止錄影，%1$s</string>
+    <string name="liveview_control_save">保存</string>
+    <string name="liveview_control_saved">已保存</string>
+    <string name="liveview_control_save_description">保存這個片段</string>
+    <string name="liveview_control_saved_description">片段已保存。點按可再保留一分鐘</string>
+    <string name="liveview_control_save_last_minutes">最近 3 分鐘</string>
+    <string name="liveview_control_onroad_screen">行車畫面</string>
+    <string name="liveview_control_switch_screen">切換行車畫面</string>
+
+    <!-- %1$s is the onroad screen's name. -->
+    <string name="liveview_control_switch_screen_named">切換行車畫面，%1$s</string>
+    <string name="liveview_control_go_live">直播</string>
+    <string name="liveview_control_go_live_description">直播，串流 Live View 的畫面</string>
+    <string name="liveview_control_retrying">重試中</string>
+    <string name="liveview_control_stream_starting_description">正在開始直播。停止直播</string>
+    <string name="liveview_control_stream_live_description">停止直播，已直播 %1$s</string>
+    <string name="liveview_control_stream_retrying_description">直播正在重新連線。停止直播</string>
+    <string name="liveview_control_driver_cam">車內鏡頭</string>
+    <string name="liveview_control_pip_live">直播中</string>
+    <string name="liveview_control_pip_description">車內鏡頭子畫面</string>
+    <string name="liveview_control_pip_streamed_description">車內鏡頭子畫面。您直播的觀眾看得到車內鏡頭</string>
+    <string name="liveview_control_details">詳細資訊</string>
+    <string name="liveview_control_showing">顯示中</string>
+    <string name="liveview_control_more">更多</string>
+    <string name="liveview_control_more_description">更多控制項，%1$d 個</string>
+    <string name="liveview_control_more_controls">更多控制項</string>
+    <string name="liveview_control_exit">離開</string>
+
+    <!-- The stepper of pairing and setup: %1$d is the step, %2$d how many, %3$s its name. -->
+    <string name="liveview_stepper_step_named">第 %1$d 步，共 %2$d 步 · %3$s</string>
+    <string name="liveview_stepper_step_spoken">第 %1$d 步，共 %2$d 步，%3$s</string>
+
+    <!-- Live View's own messages (MainActivity). -->
+    <string name="liveview_offroad_logo">CommaView 標誌</string>
+    <string name="liveview_offroad_title">您的 comma 已上線，但目前沒有在行駛</string>
+    <string name="liveview_offroad_detail">%1$s 開始行駛後，即時鏡頭就會啟動。車輛準備好時，您可以管理設定或重新整理。</string>
+    <string name="liveview_offroad_ip_address">IP 位址</string>
+    <string name="liveview_offroad_refresh">重新整理</string>
+    <string name="liveview_offroad_refreshing">正在重新整理…</string>
+    <string name="liveview_sign_in_done">已登入</string>
+    <string name="liveview_sign_in_cancelled">已取消登入</string>
+    <string name="liveview_sign_in_unfinished">登入沒有完成。請再登入一次。</string>
+    <string name="liveview_replay_limit_live_copy_continues">回放已達 10 分鐘上限而停止。即時副本會繼續錄影。</string>
+    <string name="liveview_source_timing_saved">已保存來源時間資訊。停車後，在「錄影」中建立回放</string>
+    <string name="liveview_source_timing_started">已開始擷取來源時間資訊；影像保留在 comma 上</string>
+    <string name="liveview_recording_storage_unavailable">無法使用錄影儲存空間</string>
+    <string name="liveview_recording_unable_to_start">無法開始錄影</string>
+    <string name="liveview_recording_live_copy_only">只錄製即時副本。回放無法開始：%1$s</string>
+    <string name="liveview_recording_report">回報</string>
+    <string name="liveview_share_live_stream">分享直播</string>
+
+    <!-- Why Browser View's VPN address is off (CarScreenVpn). -->
+    <string name="liveview_vpn_android_didnt_start">Android 沒有啟動它的 VPN</string>
+    <string name="liveview_vpn_android_refused">Android 不允許 CommaView 設定它的 VPN</string>
+    <string name="liveview_vpn_cant_ask">Android 無法詢問是否設定它的 VPN</string>
+    <string name="liveview_vpn_couldnt_start">VPN 位址無法啟動：%1$s。%2$s上的其他設定都沒有變更，Browser View 的其他位址仍可使用。開啟它即可再試一次。</string>
+    <string name="liveview_vpn_declined">VPN 位址需要 Android 允許 CommaView 的 VPN（不傳送任何流量）。它會保持關閉</string>
+    <string name="liveview_vpn_needs_consent">VPN 位址已關閉：Android 需要您再次允許它的 VPN。開啟它即可授權</string>
+    <string name="liveview_vpn_revoked">VPN 位址已關閉：另一個 VPN 已啟動，或已在「設定」中關閉</string>
+
+    <!-- Live View's status panel's actions and the screens before it (LiveViewAvailability, LiveViewRebootRequired, LiveViewVersionTooOld). -->
+    <string name="liveview_back_to_home">返回首頁</string>
+    <string name="liveview_back">返回</string>
+    <string name="liveview_retry">重試</string>
+    <string name="liveview_retry_now">立即重試</string>
+    <string name="liveview_keep_watching">繼續觀看</string>
+    <string name="liveview_reboot_comma">重新啟動 comma</string>
+    <string name="liveview_alert_spoken">警示：%1$s</string>
+    <string name="liveview_video_note_logging_disabled">「Disable Logging」會停止 comma 的視訊編碼器。請在分支版本的設定中關閉「Disable Logging」，才能使用 Live View。</string>
+
+
+
+
+
+    <!-- Settings › Language's offer of the connected comma's language (LanguageSetting): %1$s is that language, named in itself. -->
+    <string name="liveview_comma_language_offer">您的 comma 使用%1$s。要讓 CommaView 也使用這個語言嗎？</string>
+    <string name="liveview_comma_language_use">使用%1$s</string>
+    <string name="liveview_rail_live_word">即時</string>
+    <string name="liveview_rail_delayed_word">延遲</string>
+
+    <!-- A summary tile, as TalkBack reads it: %1$s its label, %2$s its value. -->
+    <string name="liveview_summary_tile_said">%1$s，%2$s</string>
+    <string name="liveview_vpn_android_setup_failed">Android 無法設定 CommaView 的 VPN</string>
+    <string name="liveview_vpn_details_clip">CommaView VPN 位址失敗</string>
+    <string name="liveview_details_copied">已複製詳細資料</string>
+</resources>

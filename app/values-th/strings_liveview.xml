@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- liveview: ไทย (Thai). Machine drafted with docs/localization/glossary-th.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- Live View's connection status (shared: LiveViewStatus, through SharedWords). -->
+    <string name="liveview_status_connecting_to">กำลังเชื่อมต่อกับ %1$s</string>
+    <string name="liveview_status_connecting_to_your_comma">กำลังเชื่อมต่อกับ comma ของคุณ</string>
+    <string name="liveview_status_reconnecting">กำลังเชื่อมต่อใหม่…</string>
+    <string name="liveview_status_attempt_of">ครั้งที่ %1$d จาก %2$d</string>
+    <string name="liveview_status_attempt">ครั้งที่ %1$d</string>
+    <string name="liveview_status_live">สด</string>
+    <string name="liveview_status_trying_another_decoder">ตัวถอดรหัสวิดีโอของ%1$sเล่นวิดีโอไม่ได้ กำลังลองตัวอื่น…</string>
+    <string name="liveview_status_waiting_for_video">รอวิดีโอ</string>
+    <string name="liveview_status_switching_wide_camera">กำลังเปลี่ยนเป็นกล้องมุมกว้าง</string>
+    <string name="liveview_status_waiting_for_car_data">รอข้อมูลรถ</string>
+    <string name="liveview_status_video_delayed">วิดีโอล่าช้า</string>
+    <string name="liveview_status_car_data_missing">ไม่ได้รับข้อมูลรถ</string>
+    <string name="liveview_status_car_data_missing_detail">วิดีโอมาถึง แต่ความเร็ว สัญญาณ และการแจ้งเตือนของรถไม่มา รีบูต comma เพื่อแก้ไข</string>
+    <string name="liveview_status_cant_play">เล่นวิดีโอของ comma นี้ไม่ได้</string>
+    <string name="liveview_status_cant_play_detail">ไม่มีตัวถอดรหัสวิดีโอของ%1$sตัวใดเล่นได้ CommaView จะลองต่อไป ส่งรายงานจากการตั้งค่าเพื่อให้ CommaView ตรวจสอบ</string>
+    <string name="liveview_status_connection_lost">การเชื่อมต่อขาดหาย</string>
+    <string name="liveview_status_couldnt_connect">เชื่อมต่อไม่ได้</string>
+    <string name="liveview_status_timed_out">comma ไม่ตอบสนองทันเวลา ตรวจสอบว่า%1$sอยู่ใน Wi‑Fi หรือฮอตสปอตของ comma แล้วลองใหม่</string>
+    <string name="liveview_status_check_wifi">ตรวจสอบว่า%1$sอยู่ใน Wi‑Fi หรือฮอตสปอตของ comma แล้วลองใหม่</string>
+
+    <!-- Why the video stream was lost (shared: ConnectionState.ReconnectCause). -->
+    <string name="liveview_reconnect_unknown">การเชื่อมต่อวิดีโอขาดหาย</string>
+    <string name="liveview_reconnect_refused">comma ปฏิเสธการเชื่อมต่อ CommaView อาจกำลังรีสตาร์ทบน comma</string>
+    <string name="liveview_reconnect_unreachable">%1$sติดต่อ comma ไม่ได้ ตรวจสอบว่าอยู่ใน Wi‑Fi หรือฮอตสปอตของ comma</string>
+    <string name="liveview_reconnect_timed_out">comma ไม่ตอบสนองทันเวลา</string>
+    <string name="liveview_reconnect_closed">comma ปิดสตรีมวิดีโอ</string>
+    <string name="liveview_reconnect_stalled">วิดีโอหยุดส่งมา</string>
+
+    <!-- Why Live View stopped reconnecting (shared: ConnectionState.WaitReason). -->
+    <string name="liveview_wait_unreachable">ติดต่อ comma นี้ไม่ได้</string>
+    <string name="liveview_wait_unreachable_detail">%1$sต้องอยู่ใน Wi-Fi เดียวกับ comma หรือใช้ฮอตสปอตของ comma Live View จะเชื่อมต่อใหม่เมื่อ comma ตอบสนอง</string>
+    <string name="liveview_wait_runtime_down">CommaView ไม่ตอบสนอง</string>
+    <string name="liveview_wait_runtime_down_detail">อาจกำลังรีสตาร์ทบน comma Live View จะเชื่อมต่อใหม่เมื่อกลับมา</string>
+    <string name="liveview_wait_no_video">ไม่มีวิดีโอจาก comma นี้</string>
+    <string name="liveview_wait_no_video_detail">comma ตอบสนอง แต่วิดีโอไม่กลับมา ลองใหม่ หรือย้อนกลับไปตรวจสอบ comma</string>
+    <string name="liveview_wait_busy">Live View เปิดอยู่บนอุปกรณ์อื่น</string>
+    <string name="liveview_wait_busy_detail">comma นี้สตรีมไปยังโทรศัพท์หรือจอในรถได้ทีละเครื่อง กลับไปที่หน้าแรกใน CommaView บนเครื่องนั้น แล้ว Live View จะเริ่มที่นี่เอง</string>
+
+    <!-- What a screen reader is told about the video well (shared: LiveVideoSpeech). -->
+    <string name="liveview_speech_your_comma">comma ของคุณ</string>
+    <string name="liveview_speech_live_video">วิดีโอสดจาก %1$s</string>
+    <string name="liveview_speech_not_live">วิดีโอจาก %1$s ไม่ใช่สด %2$s</string>
+
+    <!-- The CommaView design's own notices (shared: CommaViewNotice). -->
+    <string name="liveview_notice_status_unavailable">ไม่มีสถานะ</string>
+    <string name="liveview_notice_telemetry_unavailable">ไม่มีเทเลเมทรี</string>
+    <string name="liveview_notice_waiting_for_data">รอข้อมูล</string>
+    <string name="liveview_notice_hud_data_unavailable">ไม่มีข้อมูล HUD</string>
+    <string name="liveview_notice_not_saved">comma ไม่ได้บันทึก</string>
+    <string name="liveview_notice_connecting">กำลังเชื่อมต่อ…</string>
+    <string name="liveview_notice_reconnecting">กำลังเชื่อมต่อใหม่…</string>
+    <string name="liveview_notice_attempt_of">ครั้งที่ %1$d จาก %2$d</string>
+    <string name="liveview_notice_attempt">ครั้งที่ %1$d</string>
+    <string name="liveview_notice_disconnected">ไม่ได้เชื่อมต่อ</string>
+    <string name="liveview_notice_waiting_for_comma">รอ comma ของคุณ</string>
+    <string name="liveview_notice_connection_error">การเชื่อมต่อผิดพลาด</string>
+    <string name="liveview_notice_cant_reach">ติดต่อ comma ของคุณไม่ได้</string>
+
+    <!-- The CommaView design's HUD words (shared: CommaViewEngagement, CommaViewHud, CommaViewChrome, CommaViewVisibility). -->
+    <string name="liveview_hud_engaged">เข้าควบคุม</string>
+    <string name="liveview_hud_steering_only">พวงมาลัยเท่านั้น</string>
+    <string name="liveview_hud_speed_only">ความเร็วเท่านั้น</string>
+    <string name="liveview_hud_override">ผู้ขับควบคุมเอง</string>
+    <string name="liveview_hud_not_engaged">ไม่ได้เข้าควบคุม</string>
+    <string name="liveview_hud_dm_looking_away">มองไปทางอื่น</string>
+    <string name="liveview_hud_dm_eyes_closed">หลับตา</string>
+    <string name="liveview_hud_dm_phone">ถือโทรศัพท์</string>
+    <string name="liveview_hud_dm_drowsy">ง่วงนอน</string>
+    <string name="liveview_hud_dm_no_face">มองไม่เห็นใบหน้า</string>
+    <string name="liveview_hud_dm_wheel">จับพวงมาลัย</string>
+    <string name="liveview_hud_green_light">ไฟเขียว</string>
+    <string name="liveview_hud_lead_departing">รถคันหน้าออกตัว</string>
+    <string name="liveview_hud_stopped">หยุด</string>
+    <string name="liveview_hud_max">สูงสุด</string>
+    <string name="liveview_hud_experimental">โหมดทดลอง</string>
+    <string name="liveview_hud_blind_spot">จุดบอด</string>
+    <string name="liveview_hud_line_steering_speed_active">คุมพวงมาลัย · คุมความเร็ว</string>
+    <string name="liveview_hud_line_steering_active">คุมพวงมาลัย</string>
+    <string name="liveview_hud_line_steering_active_speed_manual">คุมพวงมาลัย · ความเร็วขับเอง</string>
+    <string name="liveview_hud_line_steering_manual_speed_active">พวงมาลัยขับเอง · คุมความเร็ว</string>
+    <string name="liveview_hud_line_driver_override">ผู้ขับควบคุมเอง</string>
+    <string name="liveview_hud_line_manual_control">ขับเอง</string>
+    <string name="liveview_hud_short_steering_speed_active">คุมพวงมาลัย · ความเร็ว</string>
+    <string name="liveview_hud_short_manual">ขับเอง</string>
+
+    <!-- Live View's Details (LiveViewChrome): the pane beside the video and the phone's sheet. -->
+    <string name="liveview_details_title">รายละเอียด</string>
+    <string name="liveview_details_pane_description">รายละเอียด Live View</string>
+    <string name="liveview_details_show">แสดงรายละเอียด</string>
+    <string name="liveview_details_hide">ซ่อนรายละเอียด</string>
+    <string name="liveview_expanded">ขยายอยู่</string>
+    <string name="liveview_collapsed">ยุบอยู่</string>
+    <string name="liveview_shown">แสดงอยู่</string>
+    <string name="liveview_hidden">ซ่อนอยู่</string>
+    <string name="liveview_details_connected">เชื่อมต่อแล้ว</string>
+    <string name="liveview_details_stream_set_up_hint">ตั้งค่าการถ่ายทอดสดในการตั้งค่าเพื่อถ่ายทอดสดจากที่นี่</string>
+    <string name="liveview_details_record_hint_rail">ใช้ “บันทึก” ในแถบเพื่อบันทึกการขับขี่นี้</string>
+    <string name="liveview_details_record_hint_tap">แตะ “บันทึก” เพื่อบันทึกการขับขี่นี้</string>
+    <string name="liveview_details_go_live_hint_rail">ใช้ “ถ่ายทอดสด” เพื่อสตรีมสิ่งที่ Live View แสดง</string>
+    <string name="liveview_details_go_live_hint_tap">แตะ “ถ่ายทอดสด” เพื่อสตรีมสิ่งที่ Live View แสดง</string>
+    <string name="liveview_details_map_credits">เครดิตแผนที่</string>
+    <string name="liveview_details_map_credits_subtitle">OpenStreetMap และแหล่งข้อมูลอื่นของแผนที่</string>
+    <string name="liveview_details_recording_timer">กำลังบันทึก · %1$s</string>
+    <string name="liveview_details_not_recording">ไม่ได้บันทึก</string>
+    <string name="liveview_details_recording_spoken">กำลังบันทึก %1$s</string>
+    <string name="liveview_details_recording_detail">สร้างการเล่นซ้ำในการบันทึกเมื่อคุณจอดรถ</string>
+    <string name="liveview_details_not_streaming">ไม่ได้สตรีม</string>
+    <string name="liveview_details_stream_starting">กำลังเริ่มถ่ายทอดสด…</string>
+    <string name="liveview_details_streaming_timer">กำลังสตรีม · %1$s</string>
+    <string name="liveview_details_stream_reconnecting">กำลังเชื่อมต่อสตรีมใหม่…</string>
+    <string name="liveview_details_streaming_spoken">กำลังสตรีม %1$s</string>
+    <string name="liveview_details_share_watch_link_label">แชร์ลิงก์สำหรับรับชม</string>
+    <string name="liveview_details_share_watch_link">แชร์ลิงก์รับชม</string>
+    <string name="liveview_header_title">Live View</string>
+    <string name="liveview_exit">ออกจาก Live View</string>
+    <string name="liveview_link_recordings">การบันทึก</string>
+    <string name="liveview_link_device_settings">การตั้งค่าอุปกรณ์</string>
+
+    <!-- The stream's pill (LiveStreamStatus.pill). -->
+    <string name="liveview_pill_live">สด</string>
+    <string name="liveview_pill_delayed">ล่าช้า</string>
+    <string name="liveview_pill_connecting">กำลังเชื่อมต่อ</string>
+    <string name="liveview_pill_reconnecting">กำลังเชื่อมต่อใหม่</string>
+    <string name="liveview_pill_offline">ออฟไลน์</string>
+    <string name="liveview_pill_in_use">ใช้งานอยู่</string>
+
+    <!-- The folded sheet's line (peekSummary), its parts joined with " · ". -->
+    <string name="liveview_peek_live">สด</string>
+    <string name="liveview_peek_delayed">วิดีโอล่าช้า</string>
+    <string name="liveview_peek_connecting">กำลังเชื่อมต่อ</string>
+    <string name="liveview_peek_reconnecting">กำลังเชื่อมต่อใหม่</string>
+    <string name="liveview_peek_offline">ออฟไลน์</string>
+    <string name="liveview_peek_in_use">ใช้งานอยู่บนอุปกรณ์อื่น</string>
+    <string name="liveview_peek_recording">กำลังบันทึก %1$s</string>
+    <string name="liveview_peek_not_recording">ไม่ได้บันทึก</string>
+    <string name="liveview_peek_streaming_timer">กำลังสตรีม %1$s</string>
+    <string name="liveview_peek_streaming">กำลังสตรีม</string>
+
+
+
+    <!-- Details' facts (LiveViewDetails). -->
+    <string name="liveview_health_good">ดี</string>
+    <string name="liveview_health_choppy">กระตุก</string>
+    <string name="liveview_health_stalled">หยุดนิ่ง</string>
+    <string name="liveview_readout_stream_health">สถานะสตรีม</string>
+    <string name="liveview_readout_stream">สตรีม</string>
+    <string name="liveview_readout_video">วิดีโอ</string>
+    <string name="liveview_readout_runtime">รันไทม์</string>
+    <string name="liveview_readout_software">ซอฟต์แวร์</string>
+    <string name="liveview_readout_comma_ip">IP ของ comma</string>
+    <string name="liveview_on">เปิด</string>
+    <string name="liveview_off">ปิด</string>
+
+    <!-- A running time as a screen reader says it, its parts joined with a space: "1 minute 5 seconds". -->
+    <plurals name="liveview_timer_hours">
+        <item quantity="other">%1$d ชั่วโมง</item>
+    </plurals>
+    <plurals name="liveview_timer_minutes">
+        <item quantity="other">%1$d นาที</item>
+    </plurals>
+    <plurals name="liveview_timer_seconds">
+        <item quantity="other">%1$d วินาที</item>
+    </plurals>
+
+    <!-- Go live's row in Details (liveBroadcast). -->
+    <string name="liveview_broadcast_making_youtube">กำลังสร้างการถ่ายทอดสด YouTube</string>
+    <string name="liveview_broadcast_connecting_youtube">กำลังเชื่อมต่อกับ YouTube</string>
+    <string name="liveview_broadcast_connecting_server">กำลังเชื่อมต่อกับเซิร์ฟเวอร์</string>
+
+    <!-- %1$s names the network the stream goes out on (Wi‑Fi, mobile data). -->
+    <string name="liveview_broadcast_over_network">ผ่าน %1$s</string>
+    <string name="liveview_broadcast_attempt">ครั้งที่ %1$d: %2$s</string>
+    <string name="liveview_live_copy_shared_notice">กำลังบันทึกสำเนาสดจากสตรีมของคุณ: ใช้คุณภาพของสตรีม %1$s</string>
+    <string name="liveview_stream_from_live_copy_notice">กำลังถ่ายทอดสดจากภาพ %1$s ของสำเนาสด ที่ %2$s ของสตรีม</string>
+
+
+    <!-- Live View's controls: the rail, the upright bar and More's menu (CockpitNavigation), and the car's (LiveCarScreenControls). -->
+    <string name="liveview_controls_description">ปุ่มควบคุม Live View</string>
+    <string name="liveview_rail_video_delayed">วิดีโอล่าช้า</string>
+    <string name="liveview_rail_live">สด</string>
+    <string name="liveview_control_record">บันทึก</string>
+    <string name="liveview_control_starting">กำลังเริ่ม…</string>
+    <string name="liveview_control_starting_recording">กำลังเริ่มบันทึก</string>
+    <string name="liveview_control_stop_recording">หยุดบันทึก %1$s</string>
+    <string name="liveview_control_save">เก็บ</string>
+    <string name="liveview_control_saved">เก็บแล้ว</string>
+    <string name="liveview_control_save_description">เก็บช่วงเวลานี้</string>
+    <string name="liveview_control_saved_description">เก็บช่วงเวลาแล้ว แตะเพื่อเก็บอีกหนึ่งนาที</string>
+    <string name="liveview_control_save_last_minutes">3 นาทีล่าสุด</string>
+    <string name="liveview_control_onroad_screen">หน้าจอขณะขับ</string>
+    <string name="liveview_control_switch_screen">สลับหน้าจอขณะขับ</string>
+
+    <!-- %1$s is the onroad screen's name. -->
+    <string name="liveview_control_switch_screen_named">สลับหน้าจอขณะขับ %1$s</string>
+    <string name="liveview_control_go_live">ถ่ายทอดสด</string>
+    <string name="liveview_control_go_live_description">ถ่ายทอดสด สตรีมสิ่งที่ Live View แสดง</string>
+    <string name="liveview_control_retrying">กำลังลองใหม่</string>
+    <string name="liveview_control_stream_starting_description">กำลังเริ่มถ่ายทอดสด หยุดถ่ายทอดสด</string>
+    <string name="liveview_control_stream_live_description">หยุดถ่ายทอดสด ถ่ายทอดสดมาแล้ว %1$s</string>
+    <string name="liveview_control_stream_retrying_description">กำลังเชื่อมต่อการถ่ายทอดสดใหม่ หยุดถ่ายทอดสด</string>
+    <string name="liveview_control_driver_cam">กล้องคนขับ</string>
+    <string name="liveview_control_pip_live">สด</string>
+    <string name="liveview_control_pip_description">ภาพซ้อนกล้องฝั่งคนขับ</string>
+    <string name="liveview_control_pip_streamed_description">ภาพซ้อนกล้องฝั่งคนขับ ผู้ชมการถ่ายทอดสดของคุณจะเห็นกล้องฝั่งคนขับ</string>
+    <string name="liveview_control_details">รายละเอียด</string>
+    <string name="liveview_control_showing">กำลังแสดง</string>
+    <string name="liveview_control_more">เพิ่มเติม</string>
+    <string name="liveview_control_more_description">ปุ่มควบคุมเพิ่มเติม %1$d</string>
+    <string name="liveview_control_more_controls">ปุ่มควบคุมเพิ่มเติม</string>
+    <string name="liveview_control_exit">ออก</string>
+
+    <!-- The stepper of pairing and setup: %1$d is the step, %2$d how many, %3$s its name. -->
+    <string name="liveview_stepper_step_named">ขั้นที่ %1$d จาก %2$d · %3$s</string>
+    <string name="liveview_stepper_step_spoken">ขั้นที่ %1$d จาก %2$d, %3$s</string>
+
+    <!-- Live View's own messages (MainActivity). -->
+    <string name="liveview_offroad_logo">โลโก้ CommaView</string>
+    <string name="liveview_offroad_title">comma ของคุณออนไลน์อยู่แต่ไม่ได้ขับ</string>
+    <string name="liveview_offroad_detail">กล้องสดจะเริ่มเมื่อ %1$s เริ่มขับ คุณจัดการการตั้งค่าหรือรีเฟรชได้เมื่อรถพร้อม</string>
+    <string name="liveview_offroad_ip_address">ที่อยู่ IP</string>
+    <string name="liveview_offroad_refresh">รีเฟรช</string>
+    <string name="liveview_offroad_refreshing">กำลังรีเฟรช…</string>
+    <string name="liveview_sign_in_done">ลงชื่อเข้าใช้แล้ว</string>
+    <string name="liveview_sign_in_cancelled">ยกเลิกการลงชื่อเข้าใช้แล้ว</string>
+    <string name="liveview_sign_in_unfinished">การลงชื่อเข้าใช้ไม่เสร็จสิ้น ลองลงชื่อเข้าใช้อีกครั้ง</string>
+    <string name="liveview_replay_limit_live_copy_continues">การเล่นซ้ำหยุดที่ขีดจำกัด 10 นาที สำเนาสดยังบันทึกต่อ</string>
+    <string name="liveview_source_timing_saved">บันทึกเวลาต้นทางแล้ว จอดรถ แล้วสร้างการเล่นซ้ำในการบันทึก</string>
+    <string name="liveview_source_timing_started">เริ่มเก็บเวลาต้นทางแล้ว วิดีโอยังอยู่บน comma</string>
+    <string name="liveview_recording_storage_unavailable">ไม่มีพื้นที่เก็บข้อมูลสำหรับการบันทึก</string>
+    <string name="liveview_recording_unable_to_start">เริ่มบันทึกไม่ได้</string>
+    <string name="liveview_recording_live_copy_only">บันทึกเฉพาะสำเนาสด การเล่นซ้ำเริ่มไม่ได้: %1$s</string>
+    <string name="liveview_recording_report">รายงาน</string>
+    <string name="liveview_share_live_stream">แชร์การถ่ายทอดสด</string>
+
+    <!-- Why Browser View's VPN address is off (CarScreenVpn). -->
+    <string name="liveview_vpn_android_didnt_start">Android ไม่ได้เริ่ม VPN</string>
+    <string name="liveview_vpn_android_refused">Android ไม่อนุญาตให้ CommaView ตั้งค่า VPN</string>
+    <string name="liveview_vpn_cant_ask">Android ขออนุญาตตั้งค่า VPN ไม่ได้</string>
+    <string name="liveview_vpn_couldnt_start">ที่อยู่ VPN เริ่มไม่ได้: %1$s ไม่มีสิ่งอื่นใน%2$sเปลี่ยนแปลง และที่อยู่อื่นของ Browser View ยังใช้ได้ เปิดเพื่อลองอีกครั้ง</string>
+    <string name="liveview_vpn_declined">ที่อยู่ VPN ต้องได้รับอนุญาตจาก Android สำหรับ VPN ของ CommaView ซึ่งไม่มีการส่งข้อมูลผ่าน จึงยังคงปิดอยู่</string>
+    <string name="liveview_vpn_needs_consent">ที่อยู่ VPN ปิดอยู่: Android ต้องได้รับอนุญาตสำหรับ VPN อีกครั้ง เปิดเพื่ออนุญาต</string>
+    <string name="liveview_vpn_revoked">ที่อยู่ VPN ปิดอยู่: มี VPN อื่นเริ่มทำงาน หรือถูกปิดในการตั้งค่า</string>
+
+    <!-- Live View's status panel's actions and the screens before it (LiveViewAvailability, LiveViewRebootRequired, LiveViewVersionTooOld). -->
+    <string name="liveview_back_to_home">กลับไปหน้าแรก</string>
+    <string name="liveview_back">ย้อนกลับ</string>
+    <string name="liveview_retry">ลองใหม่</string>
+    <string name="liveview_retry_now">ลองใหม่ตอนนี้</string>
+    <string name="liveview_keep_watching">ดูต่อ</string>
+    <string name="liveview_reboot_comma">รีบูต comma</string>
+    <string name="liveview_alert_spoken">การแจ้งเตือน: %1$s</string>
+    <string name="liveview_video_note_logging_disabled">“Disable Logging” หยุดตัวเข้ารหัสวิดีโอของ comma ปิด “Disable Logging” ในการตั้งค่าของฟอร์กเพื่อใช้ Live View</string>
+
+
+
+
+
+    <!-- Settings › Language's offer of the connected comma's language (LanguageSetting): %1$s is that language, named in itself. -->
+    <string name="liveview_comma_language_offer">comma ของคุณใช้ภาษา %1$s ใช้กับ CommaView ด้วยหรือไม่?</string>
+    <string name="liveview_comma_language_use">ใช้ %1$s</string>
+    <string name="liveview_rail_live_word">สด</string>
+    <string name="liveview_rail_delayed_word">ล่าช้า</string>
+
+    <!-- A summary tile, as TalkBack reads it: %1$s its label, %2$s its value. -->
+    <string name="liveview_summary_tile_said">%1$s, %2$s</string>
+    <string name="liveview_vpn_android_setup_failed">Android ตั้งค่า VPN ของ CommaView ไม่ได้</string>
+    <string name="liveview_vpn_details_clip">ที่อยู่ VPN ของ CommaView ล้มเหลว</string>
+    <string name="liveview_details_copied">คัดลอกรายละเอียดแล้ว</string>
+</resources>

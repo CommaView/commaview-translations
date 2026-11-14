@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- about: 简体中文（中国大陆）. Machine drafted with docs/localization/glossary-zh-rCN.md; not yet reviewed by a native speaker. -->
+<resources>
+    <!-- Settings › About's app update (AppUpdatePresentation: word(), as the header button shows them). -->
+    <string name="about_header_update">更新</string>
+    <string name="about_header_downloading">正在下载</string>
+    <string name="about_header_downloading_percent">正在下载 %1$s</string>
+    <string name="about_header_verifying">正在验证</string>
+    <string name="about_header_installing">正在安装</string>
+    <string name="about_header_install">安装</string>
+    <string name="about_header_retry">重试更新</string>
+    <string name="about_update_dev_build">开发版本</string>
+    <string name="about_update_car_test_detail">Car Test 应用。较新的开发版本来自您的测试环境账号。</string>
+    <string name="about_update_installed">已安装：%1$s</string>
+    <string name="about_update_unable_to_check">无法检查</string>
+    <string name="about_update_available">有可用更新</string>
+    <string name="about_update_latest">最新版本：%1$s</string>
+    <string name="about_update_up_to_date">已是最新版本</string>
+    <string name="about_update_dev_available">有可用的开发版本</string>
+    <string name="about_update_dev_version_available">有可用的开发版本 %1$s</string>
+    <string name="about_update_dev_status">开发版本：来自测试环境的 Car Test 应用</string>
+    <string name="about_update_dev_detail">从您的测试环境账号安装。</string>
+    <string name="about_update_alpha_available">有可用的 Alpha 版本</string>
+    <string name="about_update_alpha_version_available">有可用的 Alpha 版本 %1$s</string>
+    <string name="about_update_alpha_status">Alpha：面向测试人员的早期版本</string>
+    <string name="about_update_account_detail">从您的 CommaView 账号安装。</string>
+    <string name="about_update_unable_to_open">无法打开应用下载</string>
+
+    <!-- Open-source licenses (OpenSourceLicensesPage). The licences, and sunnypilot's acknowledgement, stay as written. -->
+    <string name="about_licenses_row_supporting">CommaView 使用的软件、字体、图片和模型，以及它们的许可证</string>
+    <string name="about_licenses_intro">CommaView 使用了这些项目的成果。轻点任一项即可阅读其许可证。</string>
+    <string name="about_licenses_driving_software">驾驶软件</string>
+    <string name="about_licenses_maps">地图</string>
+    <string name="about_licenses_fonts">字体</string>
+    <string name="about_license_openpilot">comma.ai · MIT 许可证。行车画面的布局、图标和字体。</string>
+    <string name="about_license_sunnypilot">Haibin Wen 与 SUNNYPILOT LLC · 自定义许可证。sunnypilot 在行车画面上新增的内容和图标。</string>
+    <string name="about_license_starpilot">firestar5683 与 StarPilot 贡献者 · MIT 许可证。StarPilot 在行车画面上新增的内容、图标和字体。</string>
+    <string name="about_license_carrotpilot">MIT 许可证。carrotpilot 的速度背景。</string>
+    <string name="about_license_mapd">Jacob Pfeifer · MIT 许可证。离线地图的道路数据集和区域。</string>
+    <string name="about_license_maplibre_android">MapLibre 贡献者 · BSD 2-Clause 许可证。负责绘制地图。</string>
+    <string name="about_license_maplibre_core">地图渲染器的核心及其使用的库。</string>
+    <string name="about_license_icu">Unicode, Inc. · ICU 许可证。MapLibre 中地图标签的文字处理。</string>
+    <string name="about_license_barlow">SIL Open Font License 1.1。CommaView 的字体。</string>
+    <string name="about_license_inter">SIL Open Font License 1.1。行车画面的字体。</string>
+    <string name="about_license_fork_translations_title">各分支版本的翻译</string>
+    <string name="about_license_fork_translations">MIT 许可证及各分支版本自己的许可证。以 comma 的语言显示的行车画面文字。</string>
+    <string name="about_license_noto_sans">Adobe 与 Noto Project Authors · SIL Open Font License 1.1。openpilot 行车画面的中文、日文、韩文及泰文字体。</string>
+    <string name="about_license_unifont">Roman Czyborra、Paul Hardy 等 · SIL Open Font License 1.1。各分支版本行车画面的中文、日文、韩文及泰文字体。</string>
+    <string name="about_license_kaigen_gothic">Ming-Hsien Lin 与 Adobe · SIL Open Font License 1.1。carrotpilot 行车画面的字体。</string>
+    <string name="about_license_efficientdet_lite">TensorFlow 作者 · Apache License 2.0。Surround 的通用检测模型。</string>
+    <string name="about_license_qnn">Qualcomm Technologies, Inc. · 检测器 DSP 运行环境的声明。</string>
+    <string name="about_license">许可证</string>
+    <string name="about_license_unreadable">无法在%1$s上读取此许可证。</string>
+
+    <!-- The policy notice (LegalNoticeDialog, legal/LegalNotices). What changed comes from commaview.com as it's written there. -->
+    <string name="about_legal_read_it">阅读</string>
+    <string name="about_legal_agree">同意</string>
+    <string name="about_legal_leaderboard">排行榜</string>
+    <string name="about_legal_no_changes">请在其页面查看变更内容。</string>
+    <string name="about_legal_privacy_policy">隐私政策</string>
+    <string name="about_legal_terms">条款</string>
+    <string name="about_legal_read_privacy">阅读隐私政策</string>
+    <string name="about_legal_read_terms">阅读条款</string>
+    <string name="about_legal_document_dated">%1$s · %2$s</string>
+    <string name="about_legal_leaderboard_changed">排行榜分享的内容已变更</string>
+    <string name="about_legal_both_updated">隐私政策和条款已更新</string>
+    <string name="about_legal_terms_updated">条款已更新</string>
+    <string name="about_legal_privacy_updated">隐私政策已更新</string>
+</resources>

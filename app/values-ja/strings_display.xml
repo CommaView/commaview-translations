@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- display: 日本語 (Japanese). Machine drafted with docs/localization/glossary-ja.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- How the onroad screen is sized into this phone's (shared: OnroadPreviewScaleMode, through SharedWords). -->
+    <string name="display_framing_automatic">自動</string>
+    <string name="display_framing_automatic_detail">各デザイン独自の表示です。comma four は正確な枠、comma 3 は画面を拡張して全体に、CommaView は横向きの画面いっぱいに表示します。</string>
+    <string name="display_framing_exact">正確</string>
+    <string name="display_framing_exact_detail">デザイン本来の形と表示範囲をそのまま使います。この画面と形が違う部分には黒帯が入ります。</string>
+    <string name="display_framing_extend">拡張</string>
+    <string name="display_framing_extend_detail">黒帯なし：デザインはサイズを保ち、この画面が広い・高い分だけカメラの映像を多く表示します。</string>
+    <string name="display_framing_fill">全画面</string>
+    <string name="display_framing_fill_detail">デザインの枠を切り取って、使える画面いっぱいに表示します。</string>
+
+    <!-- The designs' names, notes and options in Display's picker (shared: the designs, through SharedWords). -->
+    <string name="display_design_commaview_note">流れるような進路、先行車へのロックオン、CommaView 独自の速度・状態・アラート。横向きの画面いっぱいに表示するか、カメラ全体を表示します。</string>
+    <string name="display_commaview_framing">カメラの表示範囲</string>
+    <string name="display_commaview_framing_detail">CommaView が横向きの画面をどう使うかを選びます。</string>
+    <string name="display_commaview_full_camera">カメラ全体</string>
+    <string name="display_commaview_full_camera_detail">カメラの映像全体を表示し、必要に応じて黒帯を入れます。</string>
+    <string name="display_commaview_fill_detail">カメラの映像を切り取って横向きの画面いっぱいに表示します。縦向きではカメラ全体を表示します。</string>
+    <string name="display_design_comma3x_note">comma 3X の画面：状態を示す枠、MAX のボックス、大きな速度表示、下部のアラート。</string>
+    <string name="display_design_comma4_note">comma four の画面：変化に合わせて道路の上に MAX を表示し、その横にハンドルと信頼度を表示します。</string>
+    <string name="display_comma4_framing">プレビューの表示範囲</string>
+    <string name="display_comma4_framing_detail">comma four の枠に正確に合わせるか、カメラをより多く表示するか、切り取ってこの画面いっぱいに表示します。</string>
+
+    <!-- Display › Daylight contrast (DaylightSection). -->
+    <string name="display_daylight_title">日中コントラスト</string>
+    <string name="display_daylight_subtitle">日差しやまぶしさに備えて文字や線を明るく</string>
+    <string name="display_daylight_no_sensor">%1$s %2$sには光センサーがないため、「自動」はありません。</string>
+    <string name="display_daylight_note">映像と HUD の色は変わりません。</string>
+
+    <!-- Display › Screen edges (ScreenEdgesSection). -->
+    <string name="display_screen_edges_title">画面の端</string>
+    <string name="display_screen_edges_subtitle">車の画面で切れる端からアプリを内側に寄せます</string>
+    <string name="display_screen_edges_how">線が一周すべて見えるまで、各辺を内側に寄せてください。映像の端が切れる車の画面でのみ必要です。</string>
+    <string name="display_screen_edges_reset">リセット</string>
+    <string name="display_screen_edges_done">完了</string>
+
+    <!-- %1$s is an edge's name in lower case (top, bottom, left, right). -->
+    <string name="display_screen_edges_move_out">%1$s の端を外側へ</string>
+    <string name="display_screen_edges_move_in">%1$s の端を内側へ</string>
+    <string name="display_screen_edges_dp">%1$d dp</string>
+    <string name="display_screen_edges_from_edge">%2$s の端から %1$d dp</string>
+</resources>

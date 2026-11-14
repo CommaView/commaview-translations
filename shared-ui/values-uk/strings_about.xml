@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- about: Українська (Ukrainian). Machine drafted with docs/localization/glossary-uk.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="about_header_update_commaview">Оновити CommaView</string>
+    <string name="about_header_update_progress">Оновлення CommaView: %1$s</string>
+    <string name="about_header_install_update">Встановити оновлення CommaView</string>
+    <string name="about_settings_back">Назад</string>
+</resources>

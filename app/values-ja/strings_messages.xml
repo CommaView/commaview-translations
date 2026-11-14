@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- messages: 日本語 (Japanese). Machine drafted with docs/localization/glossary-ja.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- Joins two sentences of one message (MaintenanceFailure.shownSummary). -->
+    <string name="messages_two_sentences">%1$s%2$s</string>
+
+    <!-- What a failed install, update or uninstall on the comma says (MaintenanceFailure.kt). -->
+    <string name="messages_maintenance_noun_install">インストール</string>
+    <string name="messages_maintenance_noun_update">アップデート</string>
+    <string name="messages_maintenance_noun_uninstall">アンインストール</string>
+    <string name="messages_maintenance_install_failed">comma に CommaView をインストールできませんでした。</string>
+    <string name="messages_maintenance_update_failed">comma の CommaView をアップデートできませんでした。</string>
+    <string name="messages_maintenance_uninstall_failed">comma から CommaView を削除できませんでした。</string>
+    <string name="messages_maintenance_connection_lost">%1$sが完了する前に comma との接続が切れました。</string>
+    <string name="messages_maintenance_advice_same_network">%1$sが comma と同じネットワークに接続されていることを確認して、もう一度お試しください。</string>
+    <string name="messages_maintenance_driving">車が走行中のため、%1$sは実行されませんでした。</string>
+    <string name="messages_maintenance_advice_park">openpilot を解除して車を P レンジに入れてから、もう一度お試しください。</string>
+    <string name="messages_maintenance_busy">comma では別の CommaView のインストール、アップデート、修復がすでに実行中です。</string>
+    <string name="messages_maintenance_advice_wait">完了するまで数分待ってから、もう一度お試しください。</string>
+    <string name="messages_maintenance_no_space">%1$s中に comma のストレージ容量が不足しました。</string>
+    <string name="messages_maintenance_advice_later">後でもう一度お試しください。%1$s</string>
+    <string name="messages_maintenance_unlisted_paused">CommaView は問題を修正している間、一覧にないフォークへのインストールを一時停止しています。</string>
+    <string name="messages_maintenance_advice_next_update">CommaView の次のアップデート後に、もう一度お試しください。</string>
+    <string name="messages_maintenance_your_driving_software">comma の運転支援ソフトウェア</string>
+    <string name="messages_maintenance_unlisted_why">CommaView は %1$s に安全に表示を追加できません：%2$s。</string>
+    <string name="messages_maintenance_unlisted">CommaView は %1$s に安全に表示を追加できません。</string>
+    <string name="messages_maintenance_advice_ask_fork">あなたのフォークへの対応を依頼するには、詳細をコピーして %1$s に送ってください。</string>
+    <string name="messages_maintenance_unsupported_from">CommaView は、%1$s から提供されている comma の運転支援ソフトウェアにまだ対応していません。</string>
+    <string name="messages_maintenance_unsupported">CommaView は、comma の運転支援ソフトウェアにまだ対応していません。</string>
+    <string name="messages_maintenance_supported_forks">対応しているフォークは %1$s に掲載されています。</string>
+    <string name="messages_maintenance_advice_ask_yours">あなたのソフトウェアへの対応を依頼するには、詳細をコピーして %1$s に送ってください。</string>
+    <string name="messages_maintenance_unsupported_screen">CommaView は comma の運転支援ソフトウェアに表示を追加できません。CommaView が対応していない方法で画面を描画しています。</string>
+    <string name="messages_maintenance_screen_patch">CommaView は comma の運転支援ソフトウェアに表示を追加できませんでした。ソフトウェアが CommaView のまだ対応していない形に変わった可能性があります。</string>
+    <string name="messages_maintenance_offline">comma が CommaView をダウンロードできませんでした。</string>
+    <string name="messages_maintenance_advice_internet">comma が Wi-Fi または自身の SIM でインターネットに接続されていることを確認して、もう一度お試しください。</string>
+    <string name="messages_maintenance_damaged">comma に届いた CommaView のダウンロードが不完全か破損していました。</string>
+    <string name="messages_maintenance_advice_try_again">もう一度お試しください。%1$s</string>
+    <string name="messages_maintenance_did_not_start">%1$s後に comma で CommaView が起動しませんでした。</string>
+    <string name="messages_maintenance_advice_restart">comma を再起動してから、もう一度お試しください。%1$s</string>
+    <string name="messages_maintenance_left_changes">インストーラーが変更した内容の一部を元に戻せませんでした。</string>
+    <string name="messages_maintenance_nothing_changed">comma では何も変更されていません。</string>
+    <string name="messages_maintenance_rolled_back">comma は元の状態に戻されました。</string>
+    <string name="messages_maintenance_send_details">詳細をコピーして %1$s に送ってください。</string>
+    <string name="messages_maintenance_send_details_if_again">再び発生した場合は、詳細をコピーして %1$s に送ってください。</string>
+    <string name="messages_maintenance_reason_python_ui">画面が openpilot の旧来のネイティブインターフェースで描画されており、CommaView は追加できません</string>
+    <string name="messages_maintenance_reason_screen_code">CommaView が接続する箇所で画面のコードが異なります</string>
+    <string name="messages_maintenance_reason_camera_view">CommaView が接続する箇所でカメラ表示の構成が異なります</string>
+    <string name="messages_maintenance_reason_no_screen_for">CommaView が把握している %1$s 用の画面がありません</string>
+    <string name="messages_maintenance_reason_no_screen">CommaView が把握しているこの comma 用の画面がありません</string>
+    <string name="messages_maintenance_reason_platform">CommaView は comma が comma 3X か comma four かを判別できません</string>
+    <string name="messages_maintenance_reason_no_repo">CommaView はソフトウェアがどのリポジトリから来たかを判別できません</string>
+
+    <!-- An install that left nothing to start CommaView at boot (BootHookMissing, BootHook.kt). -->
+    <string name="messages_boot_hook_title">再起動後に CommaView が自動で起動しません</string>
+    <string name="messages_boot_hook_message">CommaView はインストールされていますが、comma の起動時にそれを起動するものがありません。起動処理は /data/continue.sh の exec ./launch_openpilot.sh 行の直前に入りますが、comma にはその行がありません。行が追加されたら、CommaView をもう一度インストールしてください。</string>
+    <string name="messages_boot_hook_brief">comma の起動時に起動するものがありません：/data/continue.sh に exec ./launch_openpilot.sh 行がありません。</string>
+
+    <!-- A comma 3, which CommaView doesn't support (CommaSupport.kt). -->
+    <string name="messages_comma3_unsupported_title">comma 3 には対応していません</string>
+    <string name="messages_comma3_unsupported_body">CommaView は comma 3X と comma four に対応しています。comma 3 の openpilot リリースは上流で更新が止まっており、画面の描画方法も異なるため、CommaView はオーバーレイを表示できません。</string>
+
+    <!-- This app and a comma's runtime aren't new enough for each other (RuntimeCompatibility.kt). -->
+    <string name="messages_app_too_old_title">CommaView をアップデート</string>
+    <string name="messages_app_too_old_body">この comma の CommaView ランタイムは、このアプリが通信できるものより新しいです。この comma を使うにはアプリをアップデートしてください。</string>
+    <string name="messages_runtime_too_old_title">この comma のランタイムをアップデート</string>
+    <string name="messages_runtime_too_old_body">このアプリには、この comma にあるものより新しい CommaView ランタイムが必要です。デバイス設定からアップデートしてください。</string>
+
+    <!-- What the app says when the comma's runtime answered a feature's request with no words of its own (RemoteAccessClient.kt). -->
+    <string name="messages_runtime_unexpected_answer">予期しない応答</string>
+    <string name="messages_runtime_comma_busy">comma は処理中です</string>
+    <string name="messages_runtime_error_status">エラー %1$s</string>
+
+    <!-- A request to the comma (an update, an uninstall, a reboot) when the comma said nothing of its own (CommaViewApi.kt). -->
+    <string name="messages_comma_no_answer">comma が応答しませんでした</string>
+    <string name="messages_comma_not_paired">%1$sは comma とペアリングされていません</string>
+    <string name="messages_comma_refused">comma が拒否しました（%1$s）</string>
+
+    <!-- SSH to the comma (SshInstaller.kt): why it didn't connect. -->
+    <string name="messages_ssh_host_key_not_saved">CommaView はこの comma の SSH ID を%1$sに保存できなかったため、接続しませんでした。%1$sの空き容量を増やして、もう一度お試しください。</string>
+    <string name="messages_ssh_host_key_changed">この comma の SSH ID が前回のセットアップ以降に変わりました。リセットまたは再フラッシュした場合は、セットアップをもう一度実行してください。</string>
+    <string name="messages_ssh_host_keys_unreadable">%1$sは comma の SSH ID の記録を読み取れないため、記録が作り直されるまで SSH でどの comma にも接続しません。</string>
+    <string name="messages_ssh_no_comma">%1$s に comma が見つかりませんでした。\nIP アドレスを確認してください。</string>
+    <string name="messages_ssh_no_route">%1$s への経路がありません。\n同じ Wi-Fi ネットワークに接続されていることを確認してください。</string>
+    <string name="messages_ssh_refused">%1$s:22 で接続が拒否されました。\ncomma で SSH が有効になっていることを確認してください。</string>
+    <string name="messages_ssh_timed_out">%1$s への接続がタイムアウトしました。\nIP とネットワークを確認してください。</string>
+    <string name="messages_ssh_error">SSH エラー：%1$s\n%2$s</string>
+    <string name="messages_ssh_unknown_error">不明なエラー</string>
+    <string name="messages_ssh_auth_failed">SSH 認証に失敗しました。\n\n次の点を確認してください：\n• CommaView の鍵が GitHub に追加されている（タイトルは任意）\n• comma に GitHub ユーザー名が設定されている（鍵を追加する前に設定した場合は、一度削除して設定し直してください）\n• comma で SSH が有効になっている</string>
+
+    <!-- The phone's own key for the comma, and an answer it can't trust (PhoneAuth.kt, RuntimeHttp.kt). -->
+    <string name="messages_phone_key_gone">%2$sの comma 用の鍵がありません。%1$sを comma ともう一度ペアリングしてください。</string>
+    <string name="messages_phone_keystore_unavailable">現在%1$sのキーストアを使用できませんでした。少し待ってからもう一度お試しください。</string>
+    <string name="messages_answer_unproven">応答は、%1$sがペアリングしている comma から来たものではありませんでした。</string>
+    <string name="messages_maintenance_ssh_failed_before">%1$sが始まる前に comma との SSH 接続に失敗しました。</string>
+    <string name="messages_maintenance_ssh_failed_while">%1$sの実行中に comma との SSH 接続に失敗しました。</string>
+    <string name="messages_maintenance_ssh_failed">comma との SSH 接続に失敗しました。</string>
+    <string name="messages_maintenance_advice_ssh">%2$sが comma と同じネットワークに接続されていることを確認して、もう一度お試しください。%1$s</string>
+    <string name="messages_maintenance_cant_tell">CommaView には comma が変更されたかどうかわかりません。デバイス設定で現在のランタイムを確認できます。</string>
+</resources>

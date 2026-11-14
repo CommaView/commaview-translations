@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- devices: Deutsch (German). Machine drafted with docs/localization/glossary-de.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- Maintenance queued on the comma (DeferredMaintenancePresentation.kt). -->
+    <string name="devices_keep_car_on">Lassen Sie das Auto an: Ohne Dauerstrom-Kabel schaltet sich sonst auch das comma aus.</string>
+    <string name="devices_put_car_in_park">P einlegen und openpilot deaktivieren</string>
+    <string name="devices_repair_queued_detail">Reparatur wartet – sie läuft, sobald das Auto in P ist und openpilot deaktiviert.</string>
+    <string name="devices_maintenance_waits_again">Das Auto fuhr beim letzten Start wieder los, daher wartet es, bis das Auto wieder in P ist.</string>
+    <string name="devices_maintenance_running_body">Das Auto ist in P, daher erledigt das comma es jetzt.</string>
+    <string name="devices_maintenance_done_body">Es lief, während das Auto stand.</string>
+    <string name="devices_maintenance_failed_driven">Das Auto fuhr bei jedem Start wieder los, daher hat das comma aufgehört, es zu versuchen. Versuchen Sie es erneut.</string>
+    <string name="devices_maintenance_failed_body">Es lief, während das Auto stand, wurde aber nicht fertig. Versuchen Sie es erneut.</string>
+    <string name="devices_maintenance_queued_update">Runtime-Update wartet</string>
+    <string name="devices_maintenance_queued_uninstall">Deinstallation wartet</string>
+    <string name="devices_maintenance_queued_repair">Reparatur wartet</string>
+    <string name="devices_maintenance_queued_other">Wartung wartet</string>
+    <string name="devices_maintenance_queued_update_body">Es wird installiert, sobald das Auto in P ist und openpilot deaktiviert. Nichts unterbricht die Fahrt.</string>
+    <string name="devices_maintenance_queued_uninstall_body">CommaView wird entfernt, sobald das Auto in P ist und openpilot deaktiviert, und läuft bis dahin weiter.</string>
+    <string name="devices_maintenance_queued_repair_body">Sie läuft, sobald das Auto in P ist und openpilot deaktiviert. Nichts unterbricht die Fahrt.</string>
+    <string name="devices_maintenance_queued_other_body">Sie läuft, sobald das Auto in P ist und openpilot deaktiviert.</string>
+    <string name="devices_maintenance_running_update">Eingereihtes Update wird installiert</string>
+    <string name="devices_maintenance_running_uninstall">CommaView wird entfernt</string>
+    <string name="devices_maintenance_running_repair">Eingereihte Reparatur läuft</string>
+    <string name="devices_maintenance_running_other">Eingereihte Wartung läuft</string>
+    <string name="devices_maintenance_done_update">Eingereihtes Update installiert</string>
+    <string name="devices_maintenance_done_uninstall">Eingereihte Deinstallation fertig</string>
+    <string name="devices_maintenance_done_repair">Eingereihte Reparatur fertig</string>
+    <string name="devices_maintenance_done_other">Eingereihte Wartung fertig</string>
+    <string name="devices_maintenance_failed_update">Eingereihtes Update fehlgeschlagen</string>
+    <string name="devices_maintenance_failed_uninstall">Eingereihte Deinstallation fehlgeschlagen</string>
+    <string name="devices_maintenance_failed_repair">Eingereihte Reparatur fehlgeschlagen</string>
+    <string name="devices_maintenance_failed_other">Eingereihte Wartung fehlgeschlagen</string>
+    <string name="devices_two_sentences">%1$s %2$s</string>
+
+    <!-- RebootRequiredPresentation.kt, VersionTooOldPresentation.kt -->
+    <string name="devices_reboot_update_title">comma neu starten, um das Update abzuschließen</string>
+    <string name="devices_reboot_update_body">Die Runtime von CommaView wurde aktualisiert. Live View und Aufnahme starten wieder, sobald das comma neu startet.</string>
+    <string name="devices_reboot_setup_title">comma neu starten, um die Einrichtung abzuschließen</string>
+    <string name="devices_reboot_setup_body">CommaView ist installiert. Live View und Aufnahme starten, sobald das comma neu startet.</string>
+    <string name="devices_reboot_repair_title">comma neu starten, um die Reparatur abzuschließen</string>
+    <string name="devices_reboot_repair_body">Die Reparatur ist eingespielt, aber openpilot lädt sie erst beim Neustart des comma. Live View und Aufnahme starten wieder, sobald es neu startet.</string>
+    <string name="devices_reboot_finish_title">comma zum Abschluss neu starten</string>
+    <string name="devices_reboot_finish_body">CommaView wurde auf diesem comma installiert oder aktualisiert. Live View und Aufnahme starten, sobald das comma neu startet.</string>
+    <string name="devices_reboot_stale_title">comma neu starten, um das Update zu laden</string>
+    <string name="devices_reboot_stale_body">Ein Teil von CommaView auf dem comma läuft noch in der alten Version, daher kommen keine Fahrzeugdaten an. Live View und Aufnahme starten wieder, sobald das comma neu startet.</string>
+    <string name="devices_reboot_note_title">Mit ausgeschaltetem Auto oder in P</string>
+    <string name="devices_reboot_note_body">openpilot stoppt etwa eine Minute, während das comma neu startet.</string>
+    <string name="devices_update_commaview">CommaView aktualisieren</string>
+    <string name="devices_no_update_found">Noch kein Update gefunden</string>
+    <string name="devices_no_update_found_body">CommaView sucht danach, wenn dieses %1$s online ist. Es erscheint in den Einstellungen, sobald es gefunden ist.</string>
+    <string name="devices_device_settings">Einstellungen des Geräts</string>
+
+    <!-- DeviceListViewModel.kt: the saved commas, their patch and pairing. -->
+    <string name="devices_status_ready">Bereit</string>
+    <string name="devices_status_offroad">Geparkt</string>
+    <string name="devices_status_offline">Offline</string>
+    <string name="devices_status_needs_action">Aktion nötig</string>
+    <string name="devices_status_needs_reboot">Neustart nötig</string>
+    <string name="devices_status_checking">Wird geprüft</string>
+    <string name="devices_patch_repairing">Patch wird repariert</string>
+    <string name="devices_patch_repairing_detail">Direkter UI-Export wird eingespielt…</string>
+    <string name="devices_patch_repair_running">Das Auto ist in P, daher führt das comma die eingereihte Reparatur jetzt aus.</string>
+    <string name="devices_patch_repair_queued">Reparatur wartet</string>
+    <string name="devices_patch_stale">Patch veraltet</string>
+    <string name="devices_patch_stale_detail">Neu verbinden oder aktualisieren, um den direkten UI-Export zu prüfen.</string>
+    <string name="devices_patch_view_paused">Ansicht pausiert</string>
+    <string name="devices_patch_repair_blocked">Reparatur blockiert</string>
+    <string name="devices_patch_repair_blocked_detail">Die Reparatur läuft nur, wenn das Auto in P ist. Nutzen Sie die sichere Reparatur, um sie einzureihen, bis das Auto in P ist und openpilot deaktiviert.</string>
+    <string name="devices_patch_repair_needed">Reparatur nötig</string>
+    <string name="devices_patch_repair_needed_detail">Der Patch für den direkten UI-Export muss repariert werden.</string>
+    <string name="devices_patch_reboot_to_finish">Zum Abschluss neu starten</string>
+    <string name="devices_patch_reboot_detail">Der Patch ist installiert. openpilot kann seine Ansicht nicht im laufenden Betrieb neu laden, daher wirkt er nach einem Neustart des comma.</string>
+    <string name="devices_patch_telemetry_unproven">Telemetrie nicht bestätigt</string>
+    <string name="devices_patch_telemetry_unproven_detail">Patch-Markierungen sind vorhanden, aber die Telemetrie der Runtime ist noch nicht bestätigt.</string>
+    <string name="devices_patch_verified">Patch geprüft</string>
+    <string name="devices_patch_verified_detail">Der direkte UI-Export ist installiert und die Telemetrie der Runtime ist in Ordnung.</string>
+    <string name="devices_patch_stale_unverified">Der Zustand des direkten UI-Exports ließ sich nicht prüfen.</string>
+    <string name="devices_unlisted_withdrawn">CommaView hat seine Ansicht auf nicht gelisteten Forks pausiert, während es ein Problem behebt, daher läuft Ihr Fork mit seinen eigenen Ansichtsdateien. Es gibt nichts zu reparieren: Die Ansicht kommt mit einem CommaView-Update zurück.</string>
+    <string name="devices_export_unavailable">Diese Version von %1$s hat ihre Ansicht so geändert, dass CommaView seine Ansicht noch nicht hinzufügen kann, daher läuft sie mit ihren eigenen Ansichtsdateien. Live View zeigt das Video und die eigene Zeichnung von CommaView, ohne die Extras von %1$s. Es gibt nichts zu reparieren: Die Ansicht kommt mit einem CommaView-Update zurück.</string>
+    <string name="devices_export_unavailable_unnamed">Diese Version Ihres Forks hat ihre Ansicht so geändert, dass CommaView seine Ansicht noch nicht hinzufügen kann, daher läuft sie mit ihren eigenen Ansichtsdateien. Live View zeigt das Video und die eigene Zeichnung von CommaView, ohne die Extras Ihres Forks. Es gibt nichts zu reparieren: Die Ansicht kommt mit einem CommaView-Update zurück.</string>
+    <string name="devices_runtime_update">Runtime-Update</string>
+    <string name="devices_pairing_failed_redeem">Kopplung fehlgeschlagen: Das comma ist erreichbar, aber der Kopplungscode ließ sich nicht einlösen (%1$s). Versuchen Sie es erneut oder erzeugen Sie einen neuen Code.</string>
+    <string name="devices_pairing_failed_unreachable">Kopplung fehlgeschlagen: Die CommaView-Runtime-API war nicht erreichbar (%1$s). Prüfen Sie Hotspot/Netz und versuchen Sie es erneut.</string>
+    <string name="devices_pairing_network_error">Netzwerkfehler</string>
+    <string name="devices_pairing_failed_expired">Kopplung fehlgeschlagen: Kopplungscode abgelaufen. Erzeugen Sie einen neuen Code und versuchen Sie es erneut.</string>
+    <string name="devices_pairing_failed_invalid">Kopplung fehlgeschlagen: ungültiger Kopplungscode. Prüfen Sie den Code oder scannen Sie den QR-Code.</string>
+    <string name="devices_pairing_failed_no_token">Kopplung fehlgeschlagen: Das API-Token der Runtime ist nicht verfügbar. Installieren Sie neu oder reparieren Sie zuerst die Einrichtung.</string>
+    <string name="devices_pairing_failed_no_code">Kopplung fehlgeschlagen: kein aktiver Kopplungscode. Erzeugen Sie einen neuen Code auf dem gekoppelten Controller.</string>
+    <string name="devices_pairing_failed_required">Kopplung fehlgeschlagen: Kopplungscode nötig.</string>
+    <string name="devices_pairing_failed_other">Kopplung fehlgeschlagen: %1$s.</string>
+    <string name="devices_pairing_failed_rejected">Kopplung fehlgeschlagen: Die Runtime hat den Kopplungscode abgelehnt.</string>
+    <string name="devices_comma_paired">comma gekoppelt</string>
+    <string name="devices_comma_added">comma hinzugefügt</string>
+    <string name="devices_save_refused">Dieses comma ließ sich nicht speichern: Die auf diesem %1$s gespeicherten commas sind unlesbar. Beginnen Sie auf Start neu und fügen Sie es dann erneut hinzu.</string>
+    <string name="devices_start_over_failed">Die gespeicherten commas ließen sich nicht beiseitelegen. Versuchen Sie es erneut.</string>
+    <string name="devices_start_over_done">Gespeicherte commas beiseitegelegt. Fügen Sie Ihr comma hinzu, um fortzufahren.</string>
+
+    <!-- DevicesHomePresentation.kt: what the Devices home shows. -->
+    <string name="devices_menu_connected">Verbunden</string>
+    <string name="devices_menu_checking">Wird geprüft</string>
+    <string name="devices_menu_offline">Offline</string>
+    <string name="devices_menu_needs_repair">Reparatur nötig</string>
+    <string name="devices_menu_not_supported">Nicht unterstützt</string>
+    <string name="devices_menu_needs_reboot">Neustart nötig</string>
+    <string name="devices_menu_wont_start">Startet nicht</string>
+    <string name="devices_menu_needs_update">Update nötig</string>
+    <string name="devices_repair_again">Erneut reparieren</string>
+    <string name="devices_runtime_unknown">Unbekannt</string>
+    <string name="devices_driving_footnote">Von diesem comma aufgezeichnet · nicht vom Kilometerzähler</string>
+    <string name="devices_driving_cached">Im Cache · %1$s. %2$s</string>
+    <string name="devices_no_drives">Noch keine Fahrten aufgezeichnet.</string>
+    <string name="devices_location_off">Aus. Aktivieren Sie ihn, um zu sehen, wo dieses comma ist, live während der Fahrt.</string>
+
+    <!-- Vehicle location (VehicleLocationPresentation.kt, VehicleLocationPage.kt, VehicleMap.kt). -->
+    <string name="devices_location_cached">Zuletzt bekannt · aktualisiert %1$s · auf diesem %2$s gespeichert</string>
+    <string name="devices_location_source_comma">GPS des comma</string>
+    <string name="devices_location_source_log">Log der Fahrt</string>
+    <string name="devices_location_status_off">Aus</string>
+    <string name="devices_location_hidden">Verborgen, bis aktiviert</string>
+    <string name="devices_location_live_updated">Live · aktualisiert %1$s</string>
+    <string name="devices_location_live_updating">Live · wird aktualisiert</string>
+    <string name="devices_location_just_now">Gerade eben</string>
+    <string name="devices_location_last_known">Zuletzt bekannt</string>
+    <string name="devices_location_last_known_at">Zuletzt bekannt · %1$s</string>
+    <string name="devices_location_while_ago">Vor einer Weile</string>
+    <string name="devices_location_waiting_gps">Wartet auf GPS des comma</string>
+    <string name="devices_location_waiting_gps_last">Wartet auf GPS des comma · zuletzt bekannt %1$s</string>
+    <string name="devices_location_waiting_short">Wartet auf GPS</string>
+    <string name="devices_location_last_drive_ended">Wo die letzte Fahrt endete</string>
+    <string name="devices_location_last_drive_ended_at">Wo die letzte Fahrt endete · %1$s</string>
+    <string name="devices_location_after_last_drive">Nach der letzten Fahrt</string>
+    <string name="devices_location_no_position">Noch keine Position. Das comma speichert, wo jede Fahrt endet.</string>
+    <string name="devices_location_none_yet">Noch keine</string>
+    <string name="devices_location_map_source">Die Karte kommt von OpenFreeMap oder, auf einem Handy, das die Karte von OpenFreeMap nicht zeichnen kann, von OpenStreetMap.</string>
+    <string name="devices_location_consent">Zeigt, wo das comma ist, aus seinem eigenen GPS: live, während das Auto an ist, und, sobald es parkt, wo die letzte Fahrt endete. Das ist nicht der Standort von diesem %1$s. Mit diesem comma gekoppelte Handys können ihn sehen. %2$s speichert die letzte bekannte Position zur Offline-Ansicht. Ausschalten löscht diese gespeicherte Position und die Kartenkacheln. Die Karte kommt von OpenFreeMap oder, auf einem Handy, das die Karte von OpenFreeMap nicht zeichnen kann, von OpenStreetMap. Sie können es jederzeit ausschalten.</string>
+    <string name="devices_location_turned_on">Standort aktiviert</string>
+    <string name="devices_location_turned_off">Standort deaktiviert. Das comma hat seine Positionen gelöscht; dieses %1$s hat seinen gespeicherten Standort und die Kartenkacheln gelöscht.</string>
+    <string name="devices_location_unreachable">Das comma war nicht erreichbar. Nichts wurde geändert.</string>
+    <string name="devices_location_too_old">Die Runtime dieses comma ist zu alt für den Standort.</string>
+    <string name="devices_location_not_paired">Das comma kennt dieses %1$s nicht mehr. Koppeln Sie es erneut, um das zu ändern.</string>
+    <string name="devices_location_failed">Das comma konnte es nicht ändern: %1$s</string>
+    <string name="devices_location_hidden_title">Standort verborgen</string>
+    <string name="devices_vehicle_location">Standort des Autos</string>
+    <string name="devices_back_to_home">Zurück zum Start</string>
+    <string name="devices_location_show">Standort des Autos zeigen</string>
+    <string name="devices_location_on_for_comma">Für dieses comma an</string>
+    <string name="devices_location_off_for_comma">Für dieses comma aus</string>
+    <string name="devices_location_turning_on">Wird aktiviert…</string>
+    <string name="devices_location_turn_on">Standort aktivieren</string>
+    <string name="devices_location_open_in_maps">In Karten öffnen</string>
+    <string name="devices_location_last_update">Letzte Aktualisierung</string>
+    <string name="devices_location_source">Quelle</string>
+    <string name="devices_location_accuracy">Genauigkeit</string>
+    <string name="devices_location_coordinates">Koordinaten</string>
+    <string name="devices_location_who">Wer ihn sehen kann</string>
+    <string name="devices_location_who_paired">Mit diesem comma gekoppelte Handys</string>
+    <string name="devices_location_off_note">Ausschalten löscht sofort die Positionen, die das comma gespeichert hat. Die Karte kommt von OpenFreeMap oder, auf einem Handy, das die Karte von OpenFreeMap nicht zeichnen kann, von OpenStreetMap.</string>
+    <string name="devices_map_loading">Karte wird geladen…</string>
+    <string name="devices_map_unavailable">Karte nicht verfügbar</string>
+    <string name="devices_map_unreachable">%2$s erreicht %1$s gerade nicht.</string>
+    <string name="devices_no_maps_app">Keine Karten-App auf diesem %1$s</string>
+
+    <!-- RuntimeFeatureNotice.kt: a comma feature the runtime can't give. -->
+    <string name="devices_feature_asking">Das comma wird gefragt…</string>
+    <string name="devices_feature_needs_runtime">Neuere Runtime nötig</string>
+    <string name="devices_feature_needs_runtime_body">Um %1$s zu zeigen, braucht dieses comma eine neuere CommaView-Runtime. Aktualisieren Sie sie in den Einstellungen des Geräts.</string>
+    <string name="devices_feature_pair_again">Dieses %1$s erneut koppeln</string>
+    <string name="devices_feature_pair_again_body">Das comma kennt dieses %1$s nicht mehr und teilt daher nicht, wo oder wie es fährt. Koppeln Sie es erneut über „comma hinzufügen“.</string>
+    <string name="devices_feature_unreachable">comma nicht erreichbar</string>
+    <string name="devices_feature_no_answer">Das comma konnte nicht antworten</string>
+    <string name="devices_feature_said_stale">Es meldete: %1$s. Es wird die vorherige Antwort gezeigt.</string>
+    <string name="devices_feature_said">Es meldete: %1$s.</string>
+    <string name="devices_feature_stale_network">Es wird die vorherige Antwort gezeigt. %1$s muss im selben WLAN wie das comma oder in seinem Hotspot sein.</string>
+    <string name="devices_feature_network">%1$s muss im selben WLAN wie das comma oder in seinem Hotspot sein.</string>
+    <string name="devices_try_again">Erneut versuchen</string>
+
+    <!-- PowerCutWords.kt: a drive cut short by the comma losing power. -->
+    <string name="devices_power_cut_today">heute %1$s</string>
+    <string name="devices_power_cut_yesterday">gestern %1$s</string>
+    <string name="devices_power_cut_on_day">%1$s um %2$s</string>
+    <string name="devices_power_cut_title">Ihr comma hat am Ende einer Fahrt vielleicht den Strom verloren</string>
+    <string name="devices_power_cut_action">So beheben Sie es</string>
+    <string name="devices_power_cut_fix_title">Das Ende jeder Fahrt speichern</string>
+    <string name="devices_power_cut_body_ended_on">Der Fahrt, die %1$s auf %2$s endete, fehlen die letzten Momente. Das comma braucht nach dem Ausschalten ein paar Sekunden Strom, um sie zu speichern.</string>
+    <string name="devices_power_cut_body_ended">Der Fahrt, die %1$s endete, fehlen die letzten Momente. Das comma braucht nach dem Ausschalten ein paar Sekunden Strom, um sie zu speichern.</string>
+    <string name="devices_power_cut_body_newest_on">Der neuesten Fahrt auf %1$s fehlen die letzten Momente. Das comma braucht nach dem Ausschalten ein paar Sekunden Strom, um sie zu speichern.</string>
+    <string name="devices_power_cut_body_newest">Der neuesten Fahrt fehlen die letzten Momente. Das comma braucht nach dem Ausschalten ein paar Sekunden Strom, um sie zu speichern.</string>
+    <string name="devices_power_cut_fix_power">comma power versorgt Ihr comma nach dem Ausschalten des Autos weiter mit Strom, damit es die Fahrt fertig speichern kann.</string>
+    <string name="devices_power_cut_fix_offroad">Bleibt Ihr comma nach dem Ausschalten mit Strom versorgt, schaltet sich aber sofort ab, hat Ihre Fahrsoftware vielleicht eine Offroad-Zeit in ihren Einstellungen unter „Gerät“. Stellen Sie ein paar Minuten ein.</string>
+    <string name="devices_power_cut_fix_link">Über comma power</string>
+    <string name="devices_copy_details">Details kopieren</string>
+    <string name="devices_details_copied">Details kopiert</string>
+    <string name="devices_clip_failure">CommaView-Fehler: %1$s</string>
+    <string name="devices_clip_boot_hook">Boot-Hook von CommaView</string>
+
+    <!-- CrashCard.kt and CrashActivity.kt -->
+    <string name="devices_crash_title">CommaView wurde unerwartet beendet</string>
+    <string name="devices_crash_report_line">CommaView wurde um %1$s unerwartet beendet</string>
+    <string name="devices_crash_closed_at">Es wurde um %1$s beendet.</string>
+    <string name="devices_crash_report">Melden</string>
+    <string name="devices_crash_dismiss">Schließen</string>
+    <string name="devices_crash_no_trace">Kein Trace</string>
+
+    <!-- HomeRuntimeUpdate.kt: the Devices home's runtime update card. -->
+    <string name="devices_update_failed_title">Runtime-Update fehlgeschlagen</string>
+    <string name="devices_update_card_title">Runtime-Update</string>
+    <string name="devices_update_restarting_reconnecting">Das comma startet neu… es verbindet sich, sobald es bereit ist.</string>
+    <string name="devices_update_installed">Installiert</string>
+    <string name="devices_update_unknown">Unbekannt</string>
+    <string name="devices_update_available">Verfügbar</string>
+    <string name="devices_update_runtime">Runtime aktualisieren</string>
+    <string name="devices_update_queue">Update einreihen</string>
+    <string name="devices_cancel">Abbrechen</string>
+    <string name="devices_update_restarting_minute">Das comma startet neu… in etwa einer Minute ist es zurück.</string>
+    <string name="devices_update_rebooting">Neustart…</string>
+    <string name="devices_update_reboot_comma">comma neu starten</string>
+    <string name="devices_dismiss">Schließen</string>
+    <string name="devices_update_steps">Update-Schritte ansehen</string>
+    <string name="devices_close">Schließen</string>
+    <string name="devices_update_restart_note">openpilot stoppt etwa eine Minute. Starten Sie mit ausgeschaltetem Auto oder in P neu.</string>
+    <string name="devices_update_restart_to_finish">comma zum Abschluss neu starten</string>
+    <string name="devices_update_finish_later">Später abschließen</string>
+
+    <!-- DevicesHomeScreen.kt: the Devices home. -->
+    <string name="devices_pill_connected">Verbunden</string>
+    <string name="devices_pill_car_off">Auto aus</string>
+    <string name="devices_pill_checking">Prüfen</string>
+    <string name="devices_pill_offline">Offline</string>
+    <string name="devices_pill_repair">Reparatur</string>
+    <string name="devices_pill_not_supported">Nicht unterstützt</string>
+    <string name="devices_pill_reboot">Neustart</string>
+    <string name="devices_pill_wont_start">Startet nicht</string>
+    <string name="devices_pill_update">Update</string>
+    <string name="devices_subtitle_needs_repair">%1$s · Reparatur nötig</string>
+    <string name="devices_subtitle_needs_reboot">%1$s · Neustart nötig</string>
+    <string name="devices_subtitle_wont_start">%1$s · Startet nicht</string>
+    <string name="devices_subtitle_needs_update">%1$s · Update nötig</string>
+    <string name="devices_selected_comma">Gewähltes comma</string>
+    <string name="devices_reboot_finish_updated_body">CommaView ist aktualisiert, aber openpilot lädt seinen neuen Ansichtscode erst beim Neustart des comma. Bis dahin hat Live View keine Einblendungen und keine Telemetrie.</string>
+    <string name="devices_cameras_when_on">Die Kameras starten, wenn das Auto an ist</string>
+    <string name="devices_road_camera_live">Straßenkamera, live von diesem comma über WLAN</string>
+    <string name="devices_this_comma">Dieses comma</string>
+    <string name="devices_vehicle_offline">%1$s, offline</string>
+    <string name="devices_no_car_picture">%1$s, kein Autobild</string>
+    <string name="devices_checking_ellipsis">Wird geprüft…</string>
+    <string name="devices_open_live_view">Live View öffnen</string>
+    <string name="devices_readout_runtime">Runtime</string>
+    <string name="devices_readout_comma_ip">comma-IP</string>
+    <string name="devices_readout_software">Software</string>
+    <string name="devices_readout_last_address">Letzte bekannte Adresse</string>
+    <string name="devices_reconnecting">Neu verbinden…</string>
+    <string name="devices_reconnect">Neu verbinden</string>
+    <string name="devices_update_ready">Runtime-Update bereit</string>
+    <string name="devices_update_ready_body">Eine neue CommaView-Runtime ist für dieses comma bereit. Sie ändert nichts an openpilot oder sunnypilot.</string>
+    <string name="devices_review_update">Update ansehen</string>
+    <string name="devices_update_needed">Update nötig</string>
+    <string name="devices_update_needed_body">Diese App und die CommaView-Runtime dieses comma sind nicht aktuell genug füreinander.</string>
+    <string name="devices_repair_title">Live View braucht eine Reparatur</string>
+    <string name="devices_repair_body">Die Verbindung der Runtime zur Fahrsoftware muss repariert werden, bevor Live View starten kann.</string>
+    <string name="devices_repair">Reparieren</string>
+    <string name="devices_repair_keep_on">Auto an und in P lassen</string>
+    <string name="devices_repair_queued_note">Die Reparatur startet kurz nachdem das Auto in P ist und openpilot deaktiviert. Nichts unterbricht eine Fahrt.</string>
+    <string name="devices_repair_runs_in_park">Läuft, während das Auto in P ist</string>
+    <string name="devices_repair_runs_in_park_note">Fährt das Auto, wartet die Reparatur auf dem comma, bis das Auto in P ist und openpilot deaktiviert.</string>
+    <string name="devices_view_paused_title">Die Ansicht von CommaView ist pausiert</string>
+    <string name="devices_forget_comma">Dieses comma vergessen</string>
+    <string name="devices_still_on_it">CommaView ist noch darauf</string>
+    <string name="devices_still_on_it_body">Um es vom comma zu entfernen, nutzen Sie zuerst „Runtime deinstallieren“ in den Einstellungen des Geräts.</string>
+    <string name="devices_cant_connect">Keine Verbindung?</string>
+    <string name="devices_cant_connect_body">%1$s muss im selben WLAN wie das comma oder in seinem Hotspot sein. Das comma schläft, wenn das Auto aus ist.</string>
+    <string name="devices_new_comma">Neues comma in diesem Netz</string>
+    <string name="devices_set_up">Einrichten</string>
+    <string name="devices_driving_week">Fahrten dieser Woche</string>
+    <string name="devices_leaderboard">Bestenliste</string>
+    <string name="devices_recent_recordings">Letzte Aufnahmen</string>
+    <string name="devices_view_all">Alle ansehen</string>
+    <string name="devices_open_store">Store öffnen</string>
+    <string name="devices_view_all_recordings">Alle Aufnahmen ansehen</string>
+    <string name="devices_no_recordings">Noch keine Aufnahmen. Nehmen Sie eine Fahrt in Live View auf.</string>
+    <string name="devices_play_recording_from">Aufnahme von %1$s abspielen</string>
+    <string name="devices_add_first">Erstes comma hinzufügen</string>
+    <string name="devices_add_first_body">Koppeln Sie ein comma, auf dem CommaView schon läuft, oder richten Sie CommaView auf einem ein. %1$s muss im selben WLAN wie das comma oder in seinem Hotspot sein.</string>
+    <string name="devices_add_comma">comma hinzufügen</string>
+    <string name="devices_scanning">Sucht…</string>
+    <string name="devices_scan_again">Erneut suchen</string>
+
+    <!-- Home widgets and Customize home (HomeWidgets.kt, CustomizeHome.kt, CockpitReorder.kt). -->
+    <string name="devices_customize_home">Start anpassen</string>
+    <string name="devices_customize_home_hint">Zum Umsortieren ziehen. Die ersten Widgets füllen den Bildschirm.</string>
+    <string name="devices_done">Fertig</string>
+    <string name="devices_move_up">Nach oben</string>
+    <string name="devices_move_down">Nach unten</string>
+
+    <!-- SavedCommasUnreadable.kt -->
+    <string name="devices_unreadable_title">Gespeicherte commas unlesbar</string>
+    <string name="devices_unreadable_body">Die auf diesem %1$s gespeicherten commas ließen sich nicht lesen, daher wird keines gezeigt. Sie wurden nicht gelöscht. Versuchen Sie es erneut oder beginnen Sie neu und koppeln Sie jedes comma erneut.</string>
+    <string name="devices_start_over">Neu beginnen</string>
+    <string name="devices_unreadable_confirm_title">Ohne gespeicherte commas neu beginnen?</string>
+    <string name="devices_unreadable_confirm_body">Die gespeicherte Liste wird auf diesem %1$s beiseitegelegt und mindestens 90 Tage aufbewahrt, falls eine spätere CommaView-Version sie lesen kann. %2$s zeigt keine commas, bis Sie jedes erneut koppeln.</string>
+    <string name="devices_unreadable_confirm_action">Beiseitelegen und neu beginnen</string>
+
+    <!-- AddCommaPage.kt: Add a comma. -->
+    <string name="devices_runs_commaview_version">Mit CommaView %1$s</string>
+    <string name="devices_runs_commaview">Mit CommaView</string>
+    <string name="devices_comma_found">comma gefunden</string>
+    <string name="devices_add_intro">Koppeln Sie ein comma, auf dem CommaView schon läuft, und sehen Sie es auf diesem %1$s.</string>
+    <string name="devices_on_this_network">In diesem Netz</string>
+    <string name="devices_scan_qr">QR-Code scannen</string>
+    <string name="devices_enter_its_code">Kopplungscode eingeben</string>
+    <string name="devices_enter_address_code">Adresse und Code eingeben</string>
+    <string name="devices_set_up_again">CommaView erneut einrichten</string>
+    <string name="devices_set_up_on_comma">CommaView auf einem comma einrichten</string>
+    <string name="devices_set_up_again_body">CommaView darauf per SSH neu installieren oder reparieren.</string>
+    <string name="devices_set_up_body">Für ein comma ohne CommaView oder zum Reparieren oder Neuinstallieren. Die Einrichtung nutzt SSH.</string>
+    <string name="devices_where_code">Wo ist der Kopplungscode?</string>
+    <string name="devices_where_code_body">Ein schon mit diesem comma gekoppeltes Handy zeigt ihn in den Einstellungen des Geräts unter „Weiteres Handy koppeln“. Auch die Einrichtung von CommaView gibt Ihnen einen.</string>
+    <string name="devices_stays_local">Bleibt in Ihrem Netz</string>
+    <string name="devices_stays_local_body">CommaView spricht direkt über Ihr lokales Netz mit Ihrem comma, ohne Cloud-Dienst dazwischen. %1$s muss im selben WLAN wie das comma oder in seinem Hotspot sein.</string>
+    <string name="devices_readout_device">Gerät</string>
+    <string name="devices_readout_address">Adresse</string>
+    <string name="devices_or">ODER</string>
+
+    <!-- DeviceListScreen.kt: Home, pairing and the repair. -->
+    <string name="devices_repair_ready">Bereit zur Reparatur</string>
+    <string name="devices_repair_car_on">Auto ist an</string>
+    <string name="devices_repair_car_unknown">Zustand des Autos unbekannt</string>
+    <string name="devices_repair_offroad_text">Ihr comma ist geparkt. Die Reparatur kann sicher starten.</string>
+    <string name="devices_repair_onroad_text">Die sichere Reparatur reiht die Reparatur auf dem comma ein. Sie läuft, sobald das Auto in P ist und openpilot deaktiviert.</string>
+    <string name="devices_repair_unknown_text">Es ließ sich nicht bestätigen, ob das Auto fährt. Die sichere Reparatur startet in etwa einer Minute, wenn es parkt, oder sobald es in P ist und openpilot deaktiviert.</string>
+    <string name="devices_invalid_qr">Ungültiger Kopplungs-QR</string>
+    <string name="devices_code_imported">Kopplungscode übernommen</string>
+    <string name="devices_scan_prompt">Kopplungs-QR-Code scannen</string>
+    <string name="devices_forget_title">Dieses comma vergessen?</string>
+    <string name="devices_forget_body">%1$s zeigt das comma nicht mehr und löscht seinen Kopplungs-Schlüssel.</string>
+    <string name="devices_forget">Vergessen</string>
+    <string name="devices_back_to_search">Zurück zur Suche</string>
+    <string name="devices_driving_insights">Fahrstatistik</string>
+    <string name="devices_home">Start</string>
+    <string name="devices_safe_repair">Sichere Reparatur</string>
+    <string name="devices_safe_repair_warning_title">Läuft, sobald das Auto in P ist</string>
+    <string name="devices_safe_repair_warning">Fährt das Auto, reiht das comma die Reparatur des UI-Exports ein und führt sie aus, sobald das Auto in P ist und openpilot deaktiviert, damit keine Fahrt unterbrochen wird.</string>
+    <string name="devices_safe_repair_body">Ist das Auto schon in P und openpilot deaktiviert, startet die Reparatur in etwa einer Minute.</string>
+    <string name="devices_start_safe_repair">Sichere Reparatur starten</string>
+    <string name="devices_repair_export_title">UI-Export reparieren</string>
+    <string name="devices_repair_export_question">Patch für den UI-Export auf %1$s reparieren?</string>
+    <string name="devices_repair_export_question_unnamed">Patch für den UI-Export auf diesem comma reparieren?</string>
+    <string name="devices_safe_repair_action">Sichere Reparatur…</string>
+    <string name="devices_pair_comma">comma koppeln</string>
+    <string name="devices_pair_hint">Geben Sie die IP des comma ein und den Kopplungscode aus der Einrichtung von CommaView oder eine Einladung von einem Handy, das dieses comma schon hat.</string>
+    <string name="devices_scan_pairing_qr">Kopplungs-QR scannen</string>
+    <string name="devices_pair_code_hint">Bindestriche optional · Codes laufen schnell ab</string>
+    <string name="devices_enter_ip_first">Geben Sie zuerst die IP Ihres comma ein</string>
+    <string name="devices_enter_code_first">Geben Sie zuerst Kopplungscode oder Einladung ein oder scannen Sie sie</string>
+    <string name="devices_pair_code">Kopplungscode oder Einladung</string>
+    <!-- Saved commas set aside by Start over, offered back (SetAsideRecovery). -->
+    <plurals name="devices_set_aside_offer_title">
+        <item quantity="one">%1$d gespeichertes comma vom %2$s gefunden</item>
+        <item quantity="other">%1$d gespeicherte commas vom %2$s gefunden</item>
+    </plurals>
+    <string name="devices_set_aside_offer_body">CommaView hat diese beiseitegelegt, als sie unlesbar waren. Jetzt lassen sie sich lesen.</string>
+    <string name="devices_set_aside_review">Ansehen</string>
+    <string name="devices_set_aside_review_title">Gespeicherte commas vom %1$s</string>
+    <string name="devices_set_aside_review_message">Wählen Sie die commas, die wieder auf dieses %1$s sollen. Jedes kommt mit seinem bisherigen Namen, seiner Adresse und Kopplung zurück.</string>
+    <string name="devices_set_aside_already_saved">Schon gespeichert</string>
+    <string name="devices_set_aside_not_now">Später</string>
+    <string name="devices_set_aside_delete_list">Diese Liste löschen</string>
+    <string name="devices_set_aside_add_none">commas hinzufügen</string>
+    <plurals name="devices_set_aside_add">
+        <item quantity="one">%d comma hinzufügen</item>
+        <item quantity="other">%d commas hinzufügen</item>
+    </plurals>
+    <string name="devices_set_aside_tick_to_add">comma zum Hinzufügen ankreuzen</string>
+    <plurals name="devices_set_aside_drop_others">
+        <item quantity="one">Das andere nicht behalten</item>
+        <item quantity="other">Die anderen %d nicht behalten</item>
+    </plurals>
+    <plurals name="devices_set_aside_drop_others_note">
+        <item quantity="one">Das andere wird nicht behalten. Es lässt sich danach nicht zurückholen.</item>
+        <item quantity="other">Die anderen %d werden nicht behalten. Sie lassen sich danach nicht zurückholen.</item>
+    </plurals>
+    <string name="devices_set_aside_left_unticked">Nicht angekreuzte bleiben für später beiseitegelegt.</string>
+    <string name="devices_set_aside_two_sentences">%1$s %2$s</string>
+    <plurals name="devices_set_aside_added">
+        <item quantity="one">%d comma hinzugefügt</item>
+        <item quantity="other">%d commas hinzugefügt</item>
+    </plurals>
+    <plurals name="devices_set_aside_were_saved">
+        <item quantity="one">%d war schon gespeichert.</item>
+        <item quantity="other">%d waren schon gespeichert.</item>
+    </plurals>
+    <string name="devices_set_aside_added_and_saved">%1$s. %2$s</string>
+    <string name="devices_set_aside_add_failed">Hinzufügen nicht möglich. Versuchen Sie es erneut.</string>
+    <string name="devices_set_aside_none_added">Keine commas hinzugefügt</string>
+    <string name="devices_set_aside_paired_stay">commas, die Sie schon neu gekoppelt haben, bleiben.</string>
+    <string name="devices_set_aside_delete_title">Die am %1$s beiseitegelegte Liste löschen?</string>
+    <plurals name="devices_set_aside_delete_all_title">
+        <item quantity="one">Die beiseitegelegte Liste löschen?</item>
+        <item quantity="other">Die %d beiseitegelegten Listen löschen?</item>
+    </plurals>
+    <string name="devices_set_aside_delete_body_unread">Sie lässt sich danach nicht zurückholen.</string>
+    <plurals name="devices_set_aside_delete_body">
+        <item quantity="one">Das comma darin lässt sich danach nicht zurückholen.</item>
+        <item quantity="other">Die %d commas darin lassen sich danach nicht zurückholen.</item>
+    </plurals>
+    <string name="devices_set_aside_delete_all_body">Sie lassen sich danach nicht zurückholen.</string>
+    <string name="devices_set_aside_delete_confirm">Liste löschen</string>
+    <string name="devices_set_aside_delete_all_confirm">Listen löschen</string>
+    <string name="devices_set_aside_deleted">Liste gelöscht</string>
+    <string name="devices_set_aside_delete_failed">Die Liste ließ sich nicht löschen. Versuchen Sie es erneut.</string>
+    <string name="devices_set_aside_settings_label">Beiseitegelegte Listen</string>
+    <string name="devices_set_aside_delete_now">Jetzt löschen</string>
+    <string name="devices_set_aside_line_one">1 gespeicherte Liste am %1$s beiseitegelegt, %2$s</string>
+    <string name="devices_set_aside_kept_until">aufbewahrt bis %1$s</string>
+    <string name="devices_set_aside_kept_regardless">aufbewahrt, solange dieses %1$s keine lesbaren gespeicherten commas hat</string>
+    <string name="devices_set_aside_line_several">%1$d gespeicherte Listen %2$s beiseitegelegt. %3$s</string>
+    <string name="devices_set_aside_span_on">am %1$s</string>
+    <string name="devices_set_aside_span_from">vom %1$s bis %2$s</string>
+    <plurals name="devices_set_aside_each_kept">
+        <item quantity="one">Jede wird %d Tag aufbewahrt.</item>
+        <item quantity="other">Jede wird %d Tage aufbewahrt.</item>
+    </plurals>
+    <plurals name="devices_set_aside_each_kept_newest">
+        <item quantity="one">Jede wird %1$d Tag aufbewahrt, die neueste %2$s.</item>
+        <item quantity="other">Jede wird %1$d Tage aufbewahrt, die neueste %2$s.</item>
+    </plurals>
+    <!-- A development runtime, and the app's release put back (HomeRuntimeUpdate). -->
+    <string name="devices_dev_runtime_title">Dieses comma nutzt eine Entwicklungs-Runtime</string>
+    <string name="devices_dev_runtime_body">Sie wurde außerhalb der Releases von CommaView installiert. Sie können die Version dieser App, %1$s, wieder darauf installieren.</string>
+    <string name="devices_dev_runtime_kept">Ihr comma bleibt gekoppelt und behält seine CommaView-Einstellungen und Aufnahmen. Bevor Video und Telemetrie weiterlaufen, braucht es vielleicht einen Neustart.</string>
+    <string name="devices_dev_runtime_install">%1$s installieren</string>
+    <string name="devices_dev_runtime_queue_install">Installation einreihen</string>
+    <!-- Phone keys: joining by an invitation, and a comma that already has a phone with a key. -->
+    <string name="devices_pairing_failed_legacy_off">Kopplung fehlgeschlagen: Dieses comma koppelt nicht mehr per Code. Fügen Sie dieses %1$s von einem hinzu, das schon einen Schlüssel dafür hat (dessen Einstellungen, „Weiteres Handy hinzufügen“), oder richten Sie das comma erneut ein.</string>
+    <string name="devices_invitation_needed_named">%1$s hat schon ein Handy mit eigenem Schlüssel, und dieses %2$s hat keinen. Ist das keines Ihrer Handys, hat es vielleicht jemand anderes zuerst hinzugefügt: Entfernen Sie per SSH alle Handys auf dem comma (commaviewd phones revoke-all) und richten Sie es dann von diesem %2$s aus neu ein. Sonst fügen Sie dieses %2$s von jenem hinzu (dessen Einstellungen, „Weiteres Handy hinzufügen“).</string>
+    <string name="devices_invitation_needed_this">Dieses comma hat schon ein Handy mit eigenem Schlüssel, und dieses %1$s hat keinen. Ist das keines Ihrer Handys, hat es vielleicht jemand anderes zuerst hinzugefügt: Entfernen Sie per SSH alle Handys auf dem comma (commaviewd phones revoke-all) und richten Sie es dann von diesem %1$s aus neu ein. Sonst fügen Sie dieses %1$s von jenem hinzu (dessen Einstellungen, „Weiteres Handy hinzufügen“).</string>
+    <string name="devices_invitation_failed">Mit dieser Einladung ließ sich nicht beitreten. Sie ist vielleicht vertippt, abgelaufen oder schon genutzt. Zeigen Sie eine neue auf dem Handy, das dieses comma schon hat (dessen Einstellungen, „Weiteres Handy hinzufügen“).</string>
+
+    <!-- Why a pair code couldn't be redeemed, when the comma or the network gave no words (RemoteAccessClient.kt). -->
+    <string name="devices_pairing_error_network">Netz nicht verfügbar</string>
+    <string name="devices_pairing_error_redeem_failed">Einlösen der Kopplung fehlgeschlagen</string>
+    <string name="devices_pairing_error_unknown_host">unbekannter Host</string>
+
+    <!-- The comma's view on its screen, when the runtime gave no reason of its own (CommaViewApi.kt). -->
+    <string name="devices_patch_reason_busy">Das comma ist beschäftigt. Versuchen Sie die Reparatur gleich erneut.</string>
+    <string name="devices_patch_reason_unavailable">Status des UI-Exports nicht verfügbar</string>
+    <string name="devices_patch_reason_no_token">API-Token fehlt</string>
+    <string name="devices_patch_reason_repair_unavailable">Reparatur des UI-Exports nicht verfügbar</string>
+    <string name="devices_patch_reason_invalid_repair">ungültige Antwort zur Reparatur</string>
+    <string name="devices_support_name">CommaView-Support</string>
+    <string name="devices_email_support">E-Mail an den Support</string>
+    <string name="devices_address_copied">Adresse kopiert</string>
+</resources>

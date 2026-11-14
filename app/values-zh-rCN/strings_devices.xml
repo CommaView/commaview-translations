@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- devices: 简体中文（中国大陆）. Machine drafted with docs/localization/glossary-zh-rCN.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- Maintenance queued on the comma (DeferredMaintenancePresentation.kt). -->
+    <string name="devices_keep_car_on">请保持车辆启动：没有常电线时，车辆熄火也会让 comma 关机。</string>
+    <string name="devices_put_car_in_park">将车辆挂入 P 挡，并让 openpilot 处于未启用状态</string>
+    <string name="devices_repair_queued_detail">已安排修复 — 车辆挂入 P 挡且 openpilot 未启用时就会执行。</string>
+    <string name="devices_maintenance_waits_again">上次开始时车辆又被开走，因此会等到车辆再次挂入 P 挡。</string>
+    <string name="devices_maintenance_running_body">车辆已挂入 P 挡，因此 comma 现在正在执行。</string>
+    <string name="devices_maintenance_done_body">已在车辆停止时执行完成。</string>
+    <string name="devices_maintenance_failed_driven">每次开始时车辆都又被开走，因此 comma 停止了尝试。请重试。</string>
+    <string name="devices_maintenance_failed_body">已在车辆停止时执行，但没有完成。请重试。</string>
+    <string name="devices_maintenance_queued_update">已安排运行环境更新</string>
+    <string name="devices_maintenance_queued_uninstall">已安排卸载</string>
+    <string name="devices_maintenance_queued_repair">已安排修复</string>
+    <string name="devices_maintenance_queued_other">已安排维护</string>
+    <string name="devices_maintenance_queued_update_body">车辆挂入 P 挡且 openpilot 未启用时就会安装。不会中断行程。</string>
+    <string name="devices_maintenance_queued_uninstall_body">车辆挂入 P 挡且 openpilot 未启用时就会移除 CommaView，在此之前会继续运行。</string>
+    <string name="devices_maintenance_queued_repair_body">车辆挂入 P 挡且 openpilot 未启用时就会执行。不会中断行程。</string>
+    <string name="devices_maintenance_queued_other_body">车辆挂入 P 挡且 openpilot 未启用时就会执行。</string>
+    <string name="devices_maintenance_running_update">正在安装已安排的更新</string>
+    <string name="devices_maintenance_running_uninstall">正在移除 CommaView</string>
+    <string name="devices_maintenance_running_repair">正在执行已安排的修复</string>
+    <string name="devices_maintenance_running_other">正在执行已安排的维护</string>
+    <string name="devices_maintenance_done_update">已安装已安排的更新</string>
+    <string name="devices_maintenance_done_uninstall">已完成已安排的卸载</string>
+    <string name="devices_maintenance_done_repair">已完成已安排的修复</string>
+    <string name="devices_maintenance_done_other">已完成已安排的维护</string>
+    <string name="devices_maintenance_failed_update">已安排的更新失败</string>
+    <string name="devices_maintenance_failed_uninstall">已安排的卸载失败</string>
+    <string name="devices_maintenance_failed_repair">已安排的修复失败</string>
+    <string name="devices_maintenance_failed_other">已安排的维护失败</string>
+    <string name="devices_two_sentences">%1$s%2$s</string>
+
+    <!-- RebootRequiredPresentation.kt, VersionTooOldPresentation.kt -->
+    <string name="devices_reboot_update_title">重启 comma 以完成更新</string>
+    <string name="devices_reboot_update_body">CommaView 的运行环境已更新。comma 重启后，Live View 和录像就会恢复。</string>
+    <string name="devices_reboot_setup_title">重启 comma 以完成设置</string>
+    <string name="devices_reboot_setup_body">CommaView 已安装。comma 重启后，Live View 和录像就会开始。</string>
+    <string name="devices_reboot_repair_title">重启 comma 以完成修复</string>
+    <string name="devices_reboot_repair_body">修复已完成，但 openpilot 只会在 comma 重启时加载。重启后，Live View 和录像就会恢复。</string>
+    <string name="devices_reboot_finish_title">重启 comma 以完成</string>
+    <string name="devices_reboot_finish_body">这台 comma 上的 CommaView 已安装或更新。comma 重启后，Live View 和录像就会开始。</string>
+    <string name="devices_reboot_stale_title">重启 comma 以加载更新</string>
+    <string name="devices_reboot_stale_body">comma 上的部分 CommaView 仍在运行旧版本，因此无法获取车辆数据。comma 重启后，Live View 和录像就会恢复。</string>
+    <string name="devices_reboot_note_title">请在车辆熄火或挂入 P 挡时进行</string>
+    <string name="devices_reboot_note_body">comma 重启期间 openpilot 会停止约一分钟。</string>
+    <string name="devices_update_commaview">更新 CommaView</string>
+    <string name="devices_no_update_found">尚未找到更新</string>
+    <string name="devices_no_update_found_body">%1$s联网时，CommaView 会查找更新。找到后会显示在设置中。</string>
+    <string name="devices_device_settings">设备设置</string>
+
+    <!-- DeviceListViewModel.kt: the saved commas, their patch and pairing. -->
+    <string name="devices_status_ready">就绪</string>
+    <string name="devices_status_offroad">停车中</string>
+    <string name="devices_status_offline">离线</string>
+    <string name="devices_status_needs_action">需要处理</string>
+    <string name="devices_status_needs_reboot">需要重启</string>
+    <string name="devices_status_checking">检查中</string>
+    <string name="devices_patch_repairing">正在修复补丁</string>
+    <string name="devices_patch_repairing_detail">正在应用直接 UI 导出支持…</string>
+    <string name="devices_patch_repair_running">车辆已挂入 P 挡，因此 comma 现在正在执行已安排的修复。</string>
+    <string name="devices_patch_repair_queued">已安排修复</string>
+    <string name="devices_patch_stale">补丁状态已过时</string>
+    <string name="devices_patch_stale_detail">请重新连接或刷新，以确认直接 UI 导出。</string>
+    <string name="devices_patch_view_paused">画面已暂停</string>
+    <string name="devices_patch_repair_blocked">修复受阻</string>
+    <string name="devices_patch_repair_blocked_detail">修复只会在车辆挂入 P 挡时执行。请使用安全修复将其安排，等车辆挂入 P 挡且 openpilot 未启用时再执行。</string>
+    <string name="devices_patch_repair_needed">需要修复</string>
+    <string name="devices_patch_repair_needed_detail">直接 UI 导出补丁需要修复。</string>
+    <string name="devices_patch_reboot_to_finish">重启以完成</string>
+    <string name="devices_patch_reboot_detail">补丁已安装。openpilot 运行时无法重新加载画面，因此会在 comma 重启时生效。</string>
+    <string name="devices_patch_telemetry_unproven">遥测数据尚未确认</string>
+    <string name="devices_patch_telemetry_unproven_detail">已有补丁标记，但尚未确认运行环境的遥测数据。</string>
+    <string name="devices_patch_verified">补丁已确认</string>
+    <string name="devices_patch_verified_detail">已安装直接 UI 导出，运行环境的遥测数据正常。</string>
+    <string name="devices_patch_stale_unverified">无法确认直接 UI 导出的状态。</string>
+    <string name="devices_unlisted_withdrawn">CommaView 修复问题期间，已暂停在未列出的分支版本上显示其画面，因此您的分支版本会使用自己的画面文件。无需修复：CommaView 更新后画面就会恢复。</string>
+    <string name="devices_export_unavailable">此版本的 %1$s 改变了画面，CommaView 目前还无法加入其画面，因此它会使用自己的画面文件。Live View 会显示视频和 CommaView 自己绘制的内容，但没有 %1$s 的额外元素。无需修复：CommaView 更新后画面就会恢复。</string>
+    <string name="devices_export_unavailable_unnamed">此版本的分支版本改变了画面，CommaView 目前还无法加入其画面，因此它会使用自己的画面文件。Live View 会显示视频和 CommaView 自己绘制的内容，但没有分支版本的额外元素。无需修复：CommaView 更新后画面就会恢复。</string>
+    <string name="devices_runtime_update">运行环境更新</string>
+    <string name="devices_pairing_failed_redeem">配对失败：可以连接 comma，但兑换配对码失败（%1$s）。请重试，或生成新的配对码。</string>
+    <string name="devices_pairing_failed_unreachable">配对失败：无法连接 CommaView 运行环境 API（%1$s）。请检查热点或网络后重试。</string>
+    <string name="devices_pairing_network_error">网络错误</string>
+    <string name="devices_pairing_failed_expired">配对失败：配对码已过期。请生成新的配对码后重试。</string>
+    <string name="devices_pairing_failed_invalid">配对失败：配对码无效。请检查配对码或扫描二维码。</string>
+    <string name="devices_pairing_failed_no_token">配对失败：无法获取运行环境 API 令牌。请先重新安装或修复设置。</string>
+    <string name="devices_pairing_failed_no_code">配对失败：没有有效的配对码。请在已配对的控制设备上生成新的配对码。</string>
+    <string name="devices_pairing_failed_required">配对失败：需要配对码。</string>
+    <string name="devices_pairing_failed_other">配对失败：%1$s。</string>
+    <string name="devices_pairing_failed_rejected">配对失败：运行环境拒绝了配对码。</string>
+    <string name="devices_comma_paired">已配对 comma</string>
+    <string name="devices_comma_added">已添加 comma</string>
+    <string name="devices_save_refused">无法保存这台 comma：无法读取%1$s上已保存的 comma。请从首页重新开始，然后再添加一次。</string>
+    <string name="devices_start_over_failed">无法将已保存的 comma 另行保留。请重试。</string>
+    <string name="devices_start_over_done">已将已保存的 comma 另行保留。请添加您的 comma 以继续。</string>
+
+    <!-- DevicesHomePresentation.kt: what the Devices home shows. -->
+    <string name="devices_menu_connected">已连接</string>
+    <string name="devices_menu_checking">检查中</string>
+    <string name="devices_menu_offline">离线</string>
+    <string name="devices_menu_needs_repair">需要修复</string>
+    <string name="devices_menu_not_supported">不支持</string>
+    <string name="devices_menu_needs_reboot">需要重启</string>
+    <string name="devices_menu_wont_start">无法启动</string>
+    <string name="devices_menu_needs_update">需要更新</string>
+    <string name="devices_repair_again">再次修复</string>
+    <string name="devices_runtime_unknown">未知</string>
+    <string name="devices_driving_footnote">由这台 comma 记录 · 非里程表数据</string>
+    <string name="devices_driving_cached">缓存 · %1$s。%2$s</string>
+    <string name="devices_no_drives">尚未记录任何行程。</string>
+    <string name="devices_location_off">已关闭。开启后即可在行驶时实时查看这台 comma 的位置。</string>
+
+    <!-- Vehicle location (VehicleLocationPresentation.kt, VehicleLocationPage.kt, VehicleMap.kt). -->
+    <string name="devices_location_cached">最后已知位置 · 更新于 %1$s · 保存在%2$s上</string>
+    <string name="devices_location_source_comma">comma 的 GPS</string>
+    <string name="devices_location_source_log">行程日志</string>
+    <string name="devices_location_status_off">已关闭</string>
+    <string name="devices_location_hidden">开启前隐藏</string>
+    <string name="devices_location_live_updated">实时 · 更新于 %1$s</string>
+    <string name="devices_location_live_updating">实时 · 更新中</string>
+    <string name="devices_location_just_now">刚刚</string>
+    <string name="devices_location_last_known">最后已知位置</string>
+    <string name="devices_location_last_known_at">最后已知位置 · %1$s</string>
+    <string name="devices_location_while_ago">一段时间前</string>
+    <string name="devices_location_waiting_gps">等待 comma 的 GPS</string>
+    <string name="devices_location_waiting_gps_last">等待 comma 的 GPS · 最后已知位置 %1$s</string>
+    <string name="devices_location_waiting_short">等待 GPS</string>
+    <string name="devices_location_last_drive_ended">上次行程结束的位置</string>
+    <string name="devices_location_last_drive_ended_at">上次行程结束的位置 · %1$s</string>
+    <string name="devices_location_after_last_drive">上次行程之后</string>
+    <string name="devices_location_no_position">暂无位置。comma 会保存每次行程结束的位置。</string>
+    <string name="devices_location_none_yet">暂无</string>
+    <string name="devices_location_map_source">地图由 OpenFreeMap 加载；在无法绘制 OpenFreeMap 地图的手机上则由 OpenStreetMap 加载。</string>
+    <string name="devices_location_consent">这会根据 comma 本身的 GPS 显示它的位置：车辆启动时实时显示，停车后显示上次行程结束的位置。这不是%1$s的位置。与这台 comma 配对的手机都能看到。%2$s会保存最后已知的位置以供离线查看。关闭后会清除保存的位置和地图瓦片。地图由 OpenFreeMap 加载；在无法绘制 OpenFreeMap 地图的手机上则由 OpenStreetMap 加载。您可以随时关闭。</string>
+    <string name="devices_location_turned_on">已开启位置</string>
+    <string name="devices_location_turned_off">已关闭位置。comma 已删除它的位置记录；%1$s已删除保存的位置和地图瓦片。</string>
+    <string name="devices_location_unreachable">无法连接 comma。没有任何更改。</string>
+    <string name="devices_location_too_old">这台 comma 的运行环境版本太旧，无法使用位置功能。</string>
+    <string name="devices_location_not_paired">comma 已不再识别%1$s。请重新配对后再更改。</string>
+    <string name="devices_location_failed">comma 无法更改：%1$s</string>
+    <string name="devices_location_hidden_title">位置已隐藏</string>
+    <string name="devices_vehicle_location">车辆位置</string>
+    <string name="devices_back_to_home">返回首页</string>
+    <string name="devices_location_show">显示车辆位置</string>
+    <string name="devices_location_on_for_comma">这台 comma 已开启</string>
+    <string name="devices_location_off_for_comma">这台 comma 已关闭</string>
+    <string name="devices_location_turning_on">正在开启…</string>
+    <string name="devices_location_turn_on">开启位置</string>
+    <string name="devices_location_open_in_maps">在地图中打开</string>
+    <string name="devices_location_last_update">最后更新</string>
+    <string name="devices_location_source">来源</string>
+    <string name="devices_location_accuracy">精度</string>
+    <string name="devices_location_coordinates">坐标</string>
+    <string name="devices_location_who">谁能看到</string>
+    <string name="devices_location_who_paired">与这台 comma 配对的手机</string>
+    <string name="devices_location_off_note">关闭后会立即删除 comma 保存的位置记录。地图由 OpenFreeMap 加载；在无法绘制 OpenFreeMap 地图的手机上则由 OpenStreetMap 加载。</string>
+    <string name="devices_map_loading">正在加载地图…</string>
+    <string name="devices_map_unavailable">地图不可用</string>
+    <string name="devices_map_unreachable">%2$s目前无法连接 %1$s。</string>
+    <string name="devices_no_maps_app">%1$s上没有地图应用</string>
+
+    <!-- RuntimeFeatureNotice.kt: a comma feature the runtime can't give. -->
+    <string name="devices_feature_asking">正在询问 comma…</string>
+    <string name="devices_feature_needs_runtime">需要较新的运行环境</string>
+    <string name="devices_feature_needs_runtime_body">如需显示%1$s，这台 comma 需要较新的 CommaView 运行环境。请在设备设置中更新。</string>
+    <string name="devices_feature_pair_again">重新配对%1$s</string>
+    <string name="devices_feature_pair_again_body">comma 已不再识别%1$s，因此不会分享它的位置或行驶情况。请从“添加 comma”重新配对。</string>
+    <string name="devices_feature_unreachable">无法连接 comma</string>
+    <string name="devices_feature_no_answer">comma 无法响应</string>
+    <string name="devices_feature_said_stale">它响应：%1$s。当前显示的是之前的内容。</string>
+    <string name="devices_feature_said">它响应：%1$s。</string>
+    <string name="devices_feature_stale_network">当前显示的是之前的内容。%1$s必须与 comma 连接同一个 Wi‑Fi，或连接它的热点。</string>
+    <string name="devices_feature_network">%1$s必须与 comma 连接同一个 Wi‑Fi，或连接它的热点。</string>
+    <string name="devices_try_again">重试</string>
+
+    <!-- PowerCutWords.kt: a drive cut short by the comma losing power. -->
+    <string name="devices_power_cut_today">今天 %1$s</string>
+    <string name="devices_power_cut_yesterday">昨天 %1$s</string>
+    <string name="devices_power_cut_on_day">%1$s %2$s</string>
+    <string name="devices_power_cut_title">您的 comma 可能在行程结束时断电了</string>
+    <string name="devices_power_cut_action">如何解决</string>
+    <string name="devices_power_cut_fix_title">保存每次行程的结尾</string>
+    <string name="devices_power_cut_body_ended_on">“%2$s”上于 %1$s 结束的行程丢失了最后的片段。熄火后 comma 需要几秒钟的电力才能保存。</string>
+    <string name="devices_power_cut_body_ended">于 %1$s 结束的行程丢失了最后的片段。熄火后 comma 需要几秒钟的电力才能保存。</string>
+    <string name="devices_power_cut_body_newest_on">“%1$s”上最新的行程丢失了最后的片段。熄火后 comma 需要几秒钟的电力才能保存。</string>
+    <string name="devices_power_cut_body_newest">最新的行程丢失了最后的片段。熄火后 comma 需要几秒钟的电力才能保存。</string>
+    <string name="devices_power_cut_fix_power">comma power 能在车辆熄火后继续为您的 comma 供电，让它完成保存行程。</string>
+    <string name="devices_power_cut_fix_offroad">如果您的 comma 在熄火后仍有供电，却立即关机，您的驾驶软件可能在其设备设置中有停车时间设置。请将它设为几分钟。</string>
+    <string name="devices_power_cut_fix_link">关于 comma power</string>
+    <string name="devices_copy_details">复制详细信息</string>
+    <string name="devices_details_copied">已复制详细信息</string>
+    <string name="devices_clip_failure">CommaView %1$s失败</string>
+    <string name="devices_clip_boot_hook">CommaView 开机钩子</string>
+
+    <!-- CrashCard.kt and CrashActivity.kt -->
+    <string name="devices_crash_title">CommaView 意外关闭</string>
+    <string name="devices_crash_report_line">CommaView 于 %1$s 意外关闭</string>
+    <string name="devices_crash_closed_at">于 %1$s 关闭。</string>
+    <string name="devices_crash_report">反馈</string>
+    <string name="devices_crash_dismiss">关闭</string>
+    <string name="devices_crash_no_trace">没有堆栈跟踪</string>
+
+    <!-- HomeRuntimeUpdate.kt: the Devices home's runtime update card. -->
+    <string name="devices_update_failed_title">运行环境更新失败</string>
+    <string name="devices_update_card_title">运行环境更新</string>
+    <string name="devices_update_restarting_reconnecting">正在重启 comma… 准备好后会重新连接。</string>
+    <string name="devices_update_installed">已安装</string>
+    <string name="devices_update_unknown">未知</string>
+    <string name="devices_update_available">可用</string>
+    <string name="devices_update_runtime">更新运行环境</string>
+    <string name="devices_update_queue">安排更新</string>
+    <string name="devices_cancel">取消</string>
+    <string name="devices_update_restarting_minute">正在重启 comma… 大约一分钟后就会恢复。</string>
+    <string name="devices_update_rebooting">重启中…</string>
+    <string name="devices_update_reboot_comma">重启 comma</string>
+    <string name="devices_dismiss">关闭</string>
+    <string name="devices_update_steps">查看更新步骤</string>
+    <string name="devices_close">关闭</string>
+    <string name="devices_update_restart_note">openpilot 会停止约一分钟。请在车辆熄火或挂入 P 挡时重启。</string>
+    <string name="devices_update_restart_to_finish">重启 comma 以完成</string>
+    <string name="devices_update_finish_later">稍后完成</string>
+
+    <!-- DevicesHomeScreen.kt: the Devices home. -->
+    <string name="devices_pill_connected">已连接</string>
+    <string name="devices_pill_car_off">车辆熄火</string>
+    <string name="devices_pill_checking">检查中</string>
+    <string name="devices_pill_offline">离线</string>
+    <string name="devices_pill_repair">需修复</string>
+    <string name="devices_pill_not_supported">不支持</string>
+    <string name="devices_pill_reboot">需重启</string>
+    <string name="devices_pill_wont_start">无法启动</string>
+    <string name="devices_pill_update">需更新</string>
+    <string name="devices_subtitle_needs_repair">%1$s · 需要修复</string>
+    <string name="devices_subtitle_needs_reboot">%1$s · 需要重启</string>
+    <string name="devices_subtitle_wont_start">%1$s · 无法启动</string>
+    <string name="devices_subtitle_needs_update">%1$s · 需要更新</string>
+    <string name="devices_selected_comma">已选择的 comma</string>
+    <string name="devices_reboot_finish_updated_body">CommaView 已更新，但 openpilot 只会在 comma 重启时加载新的画面代码。在此之前，Live View 不会有叠加图层或遥测数据。</string>
+    <string name="devices_cameras_when_on">车辆启动时摄像头就会启动</string>
+    <string name="devices_road_camera_live">道路摄像头，通过 Wi‑Fi 从这台 comma 实时传输</string>
+    <string name="devices_this_comma">这台 comma</string>
+    <string name="devices_vehicle_offline">%1$s，离线</string>
+    <string name="devices_no_car_picture">%1$s，没有车辆图片</string>
+    <string name="devices_checking_ellipsis">检查中…</string>
+    <string name="devices_open_live_view">打开 Live View</string>
+    <string name="devices_readout_runtime">运行环境</string>
+    <string name="devices_readout_comma_ip">comma IP</string>
+    <string name="devices_readout_software">软件</string>
+    <string name="devices_readout_last_address">最后已知地址</string>
+    <string name="devices_reconnecting">重新连接中…</string>
+    <string name="devices_reconnect">重新连接</string>
+    <string name="devices_update_ready">运行环境更新已就绪</string>
+    <string name="devices_update_ready_body">这台 comma 有新的 CommaView 运行环境可用。它不会更改 openpilot 或 sunnypilot。</string>
+    <string name="devices_review_update">查看更新</string>
+    <string name="devices_update_needed">需要更新</string>
+    <string name="devices_update_needed_body">此应用与这台 comma 的 CommaView 运行环境版本不兼容。</string>
+    <string name="devices_repair_title">Live View 需要修复</string>
+    <string name="devices_repair_body">运行环境与驾驶软件之间的连接需要修复，Live View 才能启动。</string>
+    <string name="devices_repair">修复</string>
+    <string name="devices_repair_keep_on">请保持车辆启动并挂入 P 挡</string>
+    <string name="devices_repair_queued_note">车辆挂入 P 挡且 openpilot 未启用后，修复很快就会开始。不会中断行程。</string>
+    <string name="devices_repair_runs_in_park">在车辆挂入 P 挡时执行</string>
+    <string name="devices_repair_runs_in_park_note">如果车辆正在行驶，修复会在 comma 上等待，直到车辆挂入 P 挡且 openpilot 未启用。</string>
+    <string name="devices_view_paused_title">CommaView 的画面已暂停</string>
+    <string name="devices_forget_comma">忘记这台 comma</string>
+    <string name="devices_still_on_it">上面仍有 CommaView</string>
+    <string name="devices_still_on_it_body">如需从 comma 移除，请先使用设备设置中的“卸载运行环境”。</string>
+    <string name="devices_cant_connect">无法连接？</string>
+    <string name="devices_cant_connect_body">%1$s必须与 comma 连接同一个 Wi‑Fi，或连接它的热点。车辆熄火时 comma 会进入休眠。</string>
+    <string name="devices_new_comma">此网络中有新的 comma</string>
+    <string name="devices_set_up">设置</string>
+    <string name="devices_driving_week">本周驾驶</string>
+    <string name="devices_leaderboard">排行榜</string>
+    <string name="devices_recent_recordings">最近的录像</string>
+    <string name="devices_view_all">全部查看</string>
+    <string name="devices_open_store">打开商店</string>
+    <string name="devices_view_all_recordings">查看所有录像</string>
+    <string name="devices_no_recordings">暂无录像。请从 Live View 录制一段行程。</string>
+    <string name="devices_play_recording_from">播放 %1$s 的录像</string>
+    <string name="devices_add_first">添加您的第一台 comma</string>
+    <string name="devices_add_first_body">配对已运行 CommaView 的 comma，或在 comma 上设置 CommaView。%1$s必须与 comma 连接同一个 Wi‑Fi，或连接它的热点。</string>
+    <string name="devices_add_comma">添加 comma</string>
+    <string name="devices_scanning">扫描中…</string>
+    <string name="devices_scan_again">重新扫描</string>
+
+    <!-- Home widgets and Customize home (HomeWidgets.kt, CustomizeHome.kt, CockpitReorder.kt). -->
+    <string name="devices_customize_home">自定义首页</string>
+    <string name="devices_customize_home_hint">拖动以重新排序。最前面的小组件会占满画面。</string>
+    <string name="devices_done">完成</string>
+    <string name="devices_move_up">上移</string>
+    <string name="devices_move_down">下移</string>
+
+    <!-- SavedCommasUnreadable.kt -->
+    <string name="devices_unreadable_title">无法读取您已保存的 comma</string>
+    <string name="devices_unreadable_body">无法读取%1$s上已保存的 comma，因此没有显示任何一台。它们并未被删除。请重试，或重新开始并重新配对每台 comma。</string>
+    <string name="devices_start_over">重新开始</string>
+    <string name="devices_unreadable_confirm_title">要在没有已保存 comma 的情况下重新开始吗？</string>
+    <string name="devices_unreadable_confirm_body">已保存的列表会另行保留在%1$s上至少 90 天，以便以后版本的 CommaView 能读取。在您重新配对每台 comma 之前，%2$s不会显示任何 comma。</string>
+    <string name="devices_unreadable_confirm_action">另行保留并重新开始</string>
+
+    <!-- AddCommaPage.kt: Add a comma. -->
+    <string name="devices_runs_commaview_version">运行 CommaView %1$s</string>
+    <string name="devices_runs_commaview">运行 CommaView</string>
+    <string name="devices_comma_found">找到 comma</string>
+    <string name="devices_add_intro">配对已运行 CommaView 的 comma，并用%1$s观看。</string>
+    <string name="devices_on_this_network">在此网络中</string>
+    <string name="devices_scan_qr">扫描二维码</string>
+    <string name="devices_enter_its_code">输入它的配对码</string>
+    <string name="devices_enter_address_code">输入地址和配对码</string>
+    <string name="devices_set_up_again">重新设置 CommaView</string>
+    <string name="devices_set_up_on_comma">在 comma 上设置 CommaView</string>
+    <string name="devices_set_up_again_body">通过 SSH 在其上重新安装或修复 CommaView。</string>
+    <string name="devices_set_up_body">适用于尚未运行 CommaView 的 comma，或用于修复、重新安装。设置会使用 SSH。</string>
+    <string name="devices_where_code">配对码在哪里？</string>
+    <string name="devices_where_code_body">已与这台 comma 配对的手机，会在设备设置的“配对其他手机”中显示配对码。设置 CommaView 时也会提供一个。</string>
+    <string name="devices_stays_local">留在您的网络中</string>
+    <string name="devices_stays_local_body">CommaView 通过您的局域网直接与 comma 通信，中间没有任何云服务。%1$s必须与 comma 连接同一个 Wi‑Fi，或连接它的热点。</string>
+    <string name="devices_readout_device">设备</string>
+    <string name="devices_readout_address">地址</string>
+    <string name="devices_or">或</string>
+
+    <!-- DeviceListScreen.kt: Home, pairing and the repair. -->
+    <string name="devices_repair_ready">可以修复</string>
+    <string name="devices_repair_car_on">车辆已启动</string>
+    <string name="devices_repair_car_unknown">车辆状态未知</string>
+    <string name="devices_repair_offroad_text">您的 comma 处于停车中。可以安全开始修复。</string>
+    <string name="devices_repair_onroad_text">安全修复会在 comma 上安排修复，等车辆挂入 P 挡且 openpilot 未启用时再执行。</string>
+    <string name="devices_repair_unknown_text">无法确认车辆是否在行驶。如果已停车，安全修复会在约一分钟内开始，否则等车辆挂入 P 挡且 openpilot 未启用时再开始。</string>
+    <string name="devices_invalid_qr">配对二维码无效</string>
+    <string name="devices_code_imported">已导入配对码</string>
+    <string name="devices_scan_prompt">扫描配对二维码</string>
+    <string name="devices_forget_title">要忘记这台 comma 吗？</string>
+    <string name="devices_forget_body">%1$s将不再显示这台 comma，并删除其配对密钥。</string>
+    <string name="devices_forget">忘记</string>
+    <string name="devices_back_to_search">返回搜索</string>
+    <string name="devices_driving_insights">驾驶统计</string>
+    <string name="devices_home">首页</string>
+    <string name="devices_safe_repair">安全修复</string>
+    <string name="devices_safe_repair_warning_title">车辆挂入 P 挡后执行</string>
+    <string name="devices_safe_repair_warning">如果车辆正在行驶，comma 会先安排行车 UI 导出修复，等车辆挂入 P 挡且 openpilot 未启用时再执行，因此行程不会被中断。</string>
+    <string name="devices_safe_repair_body">如果车辆已挂入 P 挡且 openpilot 未启用，修复会在约一分钟内开始。</string>
+    <string name="devices_start_safe_repair">开始安全修复</string>
+    <string name="devices_repair_export_title">修复行车 UI 导出</string>
+    <string name="devices_repair_export_question">要修复“%1$s”上的行车 UI 导出补丁吗？</string>
+    <string name="devices_repair_export_question_unnamed">要修复这台 comma 上的行车 UI 导出补丁吗？</string>
+    <string name="devices_safe_repair_action">安全修复…</string>
+    <string name="devices_pair_comma">配对 comma</string>
+    <string name="devices_pair_hint">请输入 comma IP，以及 CommaView 设置所显示的配对码，或已有这台 comma 的手机所提供的邀请码。</string>
+    <string name="devices_scan_pairing_qr">扫描配对二维码</string>
+    <string name="devices_pair_code_hint">可省略连字符 · 配对码很快就会过期</string>
+    <string name="devices_enter_ip_first">请先输入您的 comma 的 IP</string>
+    <string name="devices_enter_code_first">请先输入或扫描配对码或邀请码</string>
+    <string name="devices_pair_code">配对码或邀请码</string>
+    <!-- Saved commas set aside by Start over, offered back (SetAsideRecovery). -->
+    <plurals name="devices_set_aside_offer_title">
+        <item quantity="other">找到 %2$s另行保留的 %1$d 台已保存 comma</item>
+    </plurals>
+    <string name="devices_set_aside_offer_body">CommaView 在无法读取时将这些 comma 另行保留。现在已可读取。</string>
+    <string name="devices_set_aside_review">查看</string>
+    <string name="devices_set_aside_review_title">%1$s的已保存 comma</string>
+    <string name="devices_set_aside_review_message">选择要重新加入%1$s的 comma。每台都会保留原来的名称、地址和配对。</string>
+    <string name="devices_set_aside_already_saved">已保存</string>
+    <string name="devices_set_aside_not_now">以后再说</string>
+    <string name="devices_set_aside_delete_list">删除此列表</string>
+    <string name="devices_set_aside_add_none">加入 comma</string>
+    <plurals name="devices_set_aside_add">
+        <item quantity="other">加入 %d 台 comma</item>
+    </plurals>
+    <string name="devices_set_aside_tick_to_add">勾选 comma 以加入</string>
+    <plurals name="devices_set_aside_drop_others">
+        <item quantity="other">不保留其余 %d 台</item>
+    </plurals>
+    <plurals name="devices_set_aside_drop_others_note">
+        <item quantity="other">其余 %d 台将不会保留，之后无法恢复。</item>
+    </plurals>
+    <string name="devices_set_aside_left_unticked">未勾选的 comma 会继续另行保留，供日后使用。</string>
+    <string name="devices_set_aside_two_sentences">%1$s%2$s</string>
+    <plurals name="devices_set_aside_added">
+        <item quantity="other">已加入 %d 台 comma</item>
+    </plurals>
+    <plurals name="devices_set_aside_were_saved">
+        <item quantity="other">%d 台原本就已保存。</item>
+    </plurals>
+    <string name="devices_set_aside_added_and_saved">%1$s。%2$s</string>
+    <string name="devices_set_aside_add_failed">无法加入。请重试。</string>
+    <string name="devices_set_aside_none_added">未加入任何 comma</string>
+    <string name="devices_set_aside_paired_stay">已重新配对的 comma 会保留。</string>
+    <string name="devices_set_aside_delete_title">要删除 %1$s另行保留的列表吗？</string>
+    <plurals name="devices_set_aside_delete_all_title">
+        <item quantity="other">要删除 %d 份另行保留的列表吗？</item>
+    </plurals>
+    <string name="devices_set_aside_delete_body_unread">删除后无法恢复。</string>
+    <plurals name="devices_set_aside_delete_body">
+        <item quantity="other">其中的 %d 台 comma 删除后无法恢复。</item>
+    </plurals>
+    <string name="devices_set_aside_delete_all_body">删除后无法恢复。</string>
+    <string name="devices_set_aside_delete_confirm">删除列表</string>
+    <string name="devices_set_aside_delete_all_confirm">删除列表</string>
+    <string name="devices_set_aside_deleted">已删除列表</string>
+    <string name="devices_set_aside_delete_failed">无法删除列表。请重试。</string>
+    <string name="devices_set_aside_settings_label">另行保留的已保存列表</string>
+    <string name="devices_set_aside_delete_now">立即删除</string>
+    <string name="devices_set_aside_line_one">1 份已保存列表于 %1$s另行保留，%2$s</string>
+    <string name="devices_set_aside_kept_until">保留至 %1$s</string>
+    <string name="devices_set_aside_kept_regardless">在%1$s没有可读取的已保存 comma 期间持续保留</string>
+    <string name="devices_set_aside_line_several">%1$d 份已保存列表另行保留（%2$s）。%3$s</string>
+    <string name="devices_set_aside_span_on">%1$s</string>
+    <string name="devices_set_aside_span_from">%1$s至 %2$s</string>
+    <plurals name="devices_set_aside_each_kept">
+        <item quantity="other">每份保留 %d 天。</item>
+    </plurals>
+    <plurals name="devices_set_aside_each_kept_newest">
+        <item quantity="other">每份保留 %1$d 天，最新的一份则%2$s。</item>
+    </plurals>
+    <!-- A development runtime, and the app's release put back (HomeRuntimeUpdate). -->
+    <string name="devices_dev_runtime_title">这台 comma 运行的是开发版运行环境</string>
+    <string name="devices_dev_runtime_body">它并非通过 CommaView 的正式版本安装。您可以将此应用的版本 %1$s 重新装回去。</string>
+    <string name="devices_dev_runtime_kept">您的 comma 会保持配对，并保留其 CommaView 设置和录像。视频和遥测数据恢复前可能需要重启。</string>
+    <string name="devices_dev_runtime_install">安装 %1$s</string>
+    <string name="devices_dev_runtime_queue_install">安排安装</string>
+    <!-- Phone keys: joining by an invitation, and a comma that already has a phone with a key. -->
+    <string name="devices_pairing_failed_legacy_off">配对失败：这台 comma 已不再通过配对码配对。请从已持有其密钥的手机添加%1$s（在该手机的设置中选择“添加另一部手机”），或重新为这台 comma 运行设置。</string>
+    <string name="devices_invitation_needed_named">“%1$s”已有一部持有自己密钥的手机，而%2$s没有。如果那不是您的手机，可能是其他人先加入了：请通过 SSH 移除 comma 上的所有手机（commaviewd phones revoke-all），再从%2$s重新设置。否则，请从那部手机添加%2$s（在其设置中选择“添加另一部手机”）。</string>
+    <string name="devices_invitation_needed_this">这台 comma 已有一部持有自己密钥的手机，而%1$s没有。如果那不是您的手机，可能是其他人先加入了：请通过 SSH 移除 comma 上的所有手机（commaviewd phones revoke-all），再从%1$s重新设置。否则，请从那部手机添加%1$s（在其设置中选择“添加另一部手机”）。</string>
+    <string name="devices_invitation_failed">无法使用该邀请码加入。它可能输入有误、已失效或已被使用。请在已连接这台 comma 的手机上显示新的邀请码（在其设置中选择“添加另一部手机”）。</string>
+
+    <!-- Why a pair code couldn't be redeemed, when the comma or the network gave no words (RemoteAccessClient.kt). -->
+    <string name="devices_pairing_error_network">网络不可用</string>
+    <string name="devices_pairing_error_redeem_failed">配对码兑换失败</string>
+    <string name="devices_pairing_error_unknown_host">找不到主机</string>
+
+    <!-- The comma's view on its screen, when the runtime gave no reason of its own (CommaViewApi.kt). -->
+    <string name="devices_patch_reason_busy">comma 正忙。请稍后重试修复。</string>
+    <string name="devices_patch_reason_unavailable">无法获取行车画面导出状态</string>
+    <string name="devices_patch_reason_no_token">缺少 API 令牌</string>
+    <string name="devices_patch_reason_repair_unavailable">无法修复行车画面导出</string>
+    <string name="devices_patch_reason_invalid_repair">修复响应无效</string>
+    <string name="devices_support_name">CommaView 客服</string>
+    <string name="devices_email_support">发邮件给客服</string>
+    <string name="devices_address_copied">已复制地址</string>
+</resources>

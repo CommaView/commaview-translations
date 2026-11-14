@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Português (Brasil). Machine drafted with docs/localization/glossary-pt-rBR.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="liveview_media_max">MÁX</string>
+    <string name="liveview_media_set_speed">Velocidade definida %1$s</string>
+    <string name="liveview_media_current_speed">Velocidade atual %1$s %2$s</string>
+    <string name="liveview_media_location_hidden">Localização oculta</string>
+    <string name="liveview_media_map_unavailable">Mapa indisponível</string>
+    <string name="liveview_media_map_credits">Créditos do mapa: %1$s</string>
+    <string name="liveview_media_map_parked">Mapa mostrando onde o carro foi estacionado pela última vez</string>
+    <string name="liveview_media_map_current">Mapa mostrando a posição atual do carro</string>
+    <string name="liveview_media_last_known">Última conhecida</string>
+    <string name="liveview_media_live">Ao vivo</string>
+    <string name="liveview_media_distance_per_day">Distância por dia</string>
+    <string name="liveview_media_chart_in_unit">%1$s, em %2$s</string>
+    <string name="liveview_media_chart_not_recorded">não registrado</string>
+    <string name="liveview_components_open">Abrir %1$s</string>
+    <string name="liveview_components_expanded">Expandido</string>
+    <string name="liveview_components_collapsed">Recolhido</string>
+    <string name="liveview_components_close_commas">Fechar commas salvos</string>
+    <string name="liveview_components_choose_comma">Escolher um comma</string>
+    <string name="liveview_components_add_comma">Adicionar um comma</string>
+    <string name="liveview_snackbar_dismiss">Dispensar</string>
+    <string name="liveview_window_checking_beta">Verificando acesso beta</string>
+</resources>

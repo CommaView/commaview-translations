@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- recordings: Українська (Ukrainian). Machine drafted with docs/localization/glossary-uk.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="recordings_cockpit_more">Інші дії з цим записом</string>
+    <string name="recordings_cockpit_select">Вибрати цей запис</string>
+    <string name="recordings_cockpit_needs_processing">Потребує обробки</string>
+    <string name="recordings_cockpit_select_recording">Вибрати запис</string>
+    <string name="recordings_cockpit_leaderboard">Таблиця лідерів</string>
+    <string name="recordings_cockpit_your_entry_unranked">Ваш результат, ще без місця</string>
+    <string name="recordings_cockpit_your_entry">Ваш результат</string>
+    <string name="recordings_cockpit_you">Ви</string>
+    <string name="recordings_cockpit_filter">Фільтр</string>
+    <string name="recordings_cockpit_clear">Очистити</string>
+    <string name="recordings_cockpit_clear_named">Очистити: %1$s</string>
+    <string name="recordings_cockpit_close">Закрити</string>
+    <string name="recordings_cockpit_choose">Вибрати</string>
+    <string name="recordings_cockpit_none">Немає</string>
+    <string name="recordings_cockpit_expanded">%1$s, розгорнуто</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- display: Français (French). Machine drafted with docs/localization/glossary-fr.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- Display's choices (DisplayPreferences). -->
+    <string name="display_driver_side_auto">Auto</string>
+    <string name="display_driver_side_auto_detail">Suivre le côté indiqué par votre comma</string>
+    <string name="display_driver_side_lhd">Conduite à gauche</string>
+    <string name="display_driver_side_lhd_detail">Volant à gauche</string>
+    <string name="display_driver_side_rhd">Conduite à droite</string>
+    <string name="display_driver_side_rhd_detail">Volant à droite</string>
+    <string name="display_daylight_off">Désactivé</string>
+    <string name="display_daylight_off_detail">Les couleurs Cockpit standard.</string>
+    <string name="display_daylight_on">Activé</string>
+    <string name="display_daylight_on_detail">Texte et lignes plus lumineux, contre le soleil et les reflets.</string>
+    <string name="display_daylight_auto">Auto</string>
+    <string name="display_daylight_auto_detail">Texte et lignes plus lumineux quand le capteur de lumière de %1$s détecte une forte lumière.</string>
+    <string name="display_confidence_default">Par défaut</string>
+    <string name="display_confidence_default_detail">Indicateur de confiance en taille standard.</string>
+    <string name="display_confidence_75_detail">Réduit légèrement le panneau et la bille de confiance.</string>
+    <string name="display_confidence_50_detail">Libère plus de place pour la vidéo avec un indicateur de confiance à mi-taille.</string>
+    <string name="display_confidence_25_detail">Le plus petit panneau et la plus petite bille de confiance.</string>
+
+    <!-- Display's design options (DisplayOptions). -->
+    <string name="display_confidence_title">Panneau de confiance compact</string>
+    <string name="display_confidence_subtitle">Panneau et bille plus petits, plus de vidéo</string>
+    <string name="display_confidence_note">Réduit le panneau et la bille de confiance pour libérer de la place pour la vidéo.</string>
+    <string name="display_driver_position_title">Poste de conduite</string>
+    <string name="display_driver_position_subtitle">Inverse les commandes sur chaque écran</string>
+    <string name="display_driver_position_note">Choisissez le côté conducteur pour inverser les commandes. Auto suit le côté indiqué par votre comma et le retient pour la prochaine fois.</string>
+
+    <!-- Settings › Display (DisplayPage). -->
+    <string name="display_title">Affichage</string>
+    <string name="display_subtitle">L\'aspect de Live View sur %1$s</string>
+    <string name="display_back_to_settings">Retour aux paramètres</string>
+    <string name="display_onroad_screen">Écran de conduite</string>
+    <string name="display_design_options">Options de %1$s</string>
+    <string name="display_reduce_motion">Réduire les animations</string>
+    <string name="display_reduce_motion_detail">Garde immobiles la trajectoire, la vitesse et le verrouillage de CommaView. L\'option Android « Supprimer les animations » fait de même.</string>
+    <string name="display_design_no_options">L\'écran %1$s n\'a pas d\'options propres : il est dessiné comme le comma le dessine.</string>
+    <string name="display_on_every_screen">Sur chaque écran</string>
+    <string name="display_opening_live_view">Ouverture de Live View</string>
+    <string name="display_preview">Aperçu</string>
+    <string name="display_preview_engaged">Engagé</string>
+    <string name="display_preview_override">Intervention</string>
+    <string name="display_preview_disengaged">Désengagé</string>
+    <string name="display_safety_title">Les couleurs de sécurité ne changent pas</string>
+    <string name="display_safety_detail">Les alertes, avertissements et l\'état de la surveillance du conducteur gardent toujours les couleurs de votre comma. Les relectures créées dans Enregistrements ressemblent à Live View tel qu\'il était pendant l\'enregistrement.</string>
+
+    <!-- Display › Screen edges' value (ScreenEdges). -->
+    <string name="display_screen_edges_off">Désactivé</string>
+    <string name="display_screen_edges_all_round">%1$d dp partout</string>
+
+    <!-- %1$s lists each edge that has a margin with its figure: "Top 8 · Bottom 16". -->
+    <string name="display_screen_edges_each">%1$s dp</string>
+    <string name="display_screen_edge_top">Haut</string>
+    <string name="display_screen_edge_bottom">Bas</string>
+    <string name="display_screen_edge_left">Gauche</string>
+    <string name="display_screen_edge_right">Droite</string>
+
+    <!-- The preview's description for TalkBack (HudPreview): %1$s is the onroad screen's name. -->
+    <string name="display_hud_preview_engaged">Aperçu de l\'écran %1$s, engagé</string>
+    <string name="display_hud_preview_override">Aperçu de l\'écran %1$s, intervention</string>
+    <string name="display_hud_preview_not_engaged">Aperçu de l\'écran %1$s, non engagé</string>
+</resources>

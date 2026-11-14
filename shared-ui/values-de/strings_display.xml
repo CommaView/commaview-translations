@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- display: Deutsch (German). Machine drafted with docs/localization/glossary-de.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- Display's choices (DisplayPreferences). -->
+    <string name="display_driver_side_auto">Auto</string>
+    <string name="display_driver_side_auto_detail">Die Seite, die Ihr comma meldet</string>
+    <string name="display_driver_side_lhd">Linkslenker</string>
+    <string name="display_driver_side_lhd_detail">Lenkrad links</string>
+    <string name="display_driver_side_rhd">Rechtslenker</string>
+    <string name="display_driver_side_rhd_detail">Lenkrad rechts</string>
+    <string name="display_daylight_off">Aus</string>
+    <string name="display_daylight_off_detail">Die normalen Cockpit-Farben.</string>
+    <string name="display_daylight_on">An</string>
+    <string name="display_daylight_on_detail">Hellere Schrift und Linien, gegen Sonne und Blendung.</string>
+    <string name="display_daylight_auto">Auto</string>
+    <string name="display_daylight_auto_detail">Hellere Schrift und Linien, solange der Lichtsensor von diesem %1$s helles Licht misst.</string>
+    <string name="display_confidence_default">Standard</string>
+    <string name="display_confidence_default_detail">Konfidenzanzeige in normaler Größe.</string>
+    <string name="display_confidence_75_detail">Konfidenzfeld und Kugel etwas verkleinern.</string>
+    <string name="display_confidence_50_detail">Konfidenzanzeige in halber Größe, für mehr Platz fürs Video.</string>
+    <string name="display_confidence_25_detail">Das kleinste Konfidenzfeld und die kleinste Kugel.</string>
+
+    <!-- Display's design options (DisplayOptions). -->
+    <string name="display_confidence_title">Kompaktes Konfidenzfeld</string>
+    <string name="display_confidence_subtitle">Kleineres Feld und Kugel, für mehr Video</string>
+    <string name="display_confidence_note">Konfidenzfeld und Kugel verkleinern, um mehr Platz fürs Video zu schaffen.</string>
+    <string name="display_driver_position_title">Fahrerseite</string>
+    <string name="display_driver_position_subtitle">Spiegelt die Bedienung überall</string>
+    <string name="display_driver_position_note">Wählen Sie die Fahrerseite für gespiegelte Bedienelemente. Auto folgt der Seite, die Ihr comma meldet, und merkt sie sich fürs nächste Mal.</string>
+
+    <!-- Settings › Display (DisplayPage). -->
+    <string name="display_title">Anzeige</string>
+    <string name="display_subtitle">So sieht Live View auf diesem %1$s aus</string>
+    <string name="display_back_to_settings">Zurück zu Einstellungen</string>
+    <string name="display_onroad_screen">Fahransicht</string>
+    <string name="display_design_options">Optionen für %1$s</string>
+    <string name="display_reduce_motion">Bewegung reduzieren</string>
+    <string name="display_reduce_motion_detail">Pfad, Tempo und Zielerfassung von CommaView bleiben ruhig. Androids „Animationen entfernen“ bewirkt dasselbe.</string>
+    <string name="display_design_no_options">Die Ansicht von %1$s hat keine eigenen Optionen: Sie wird so gezeichnet wie auf dem comma.</string>
+    <string name="display_on_every_screen">Auf jeder Ansicht</string>
+    <string name="display_opening_live_view">Live View wird geöffnet</string>
+    <string name="display_preview">Vorschau</string>
+    <string name="display_preview_engaged">Aktiv</string>
+    <string name="display_preview_override">Eingriff</string>
+    <string name="display_preview_disengaged">Deaktiviert</string>
+    <string name="display_safety_title">Warnfarben bleiben gleich</string>
+    <string name="display_safety_detail">Hinweise, Warnungen und der Status der Fahrerüberwachung nutzen immer die Farben Ihres comma. Wiedergaben aus Aufnahmen sehen so aus wie Live View während der Aufnahme.</string>
+
+    <!-- Display › Screen edges' value (ScreenEdges). -->
+    <string name="display_screen_edges_off">Aus</string>
+    <string name="display_screen_edges_all_round">%1$d dp ringsum</string>
+
+    <!-- %1$s lists each edge that has a margin with its figure: "Top 8 · Bottom 16". -->
+    <string name="display_screen_edges_each">%1$s dp</string>
+    <string name="display_screen_edge_top">Oben</string>
+    <string name="display_screen_edge_bottom">Unten</string>
+    <string name="display_screen_edge_left">Links</string>
+    <string name="display_screen_edge_right">Rechts</string>
+
+    <!-- The preview's description for TalkBack (HudPreview): %1$s is the onroad screen's name. -->
+    <string name="display_hud_preview_engaged">Vorschau der Ansicht von %1$s, aktiv</string>
+    <string name="display_hud_preview_override">Vorschau der Ansicht von %1$s, Fahrereingriff</string>
+    <string name="display_hud_preview_not_engaged">Vorschau der Ansicht von %1$s, nicht aktiv</string>
+</resources>

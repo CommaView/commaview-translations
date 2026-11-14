@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- common: 한국어. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-ko.md: both nouns end in a vowel, so a particle after the placeholder fits either. -->
+<resources>
+    <string name="common_this_phone">이 휴대전화</string>
+    <string name="common_this_device">이 기기</string>
+    <string name="common_this_phone_start">이 휴대전화</string>
+    <string name="common_this_device_start">이 기기</string>
+    <string name="common_your_phone">휴대전화</string>
+    <string name="common_your_device">기기</string>
+    <string name="common_your_phone_start">휴대전화</string>
+    <string name="common_your_device_start">기기</string>
+</resources>

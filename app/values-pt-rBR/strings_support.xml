@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Português (Brasil). Machine drafted with docs/localization/glossary-pt-rBR.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="support_report_or_idea">Relatar um problema ou enviar uma ideia</string>
+    <string name="support_diagnostics_kept">Diagnóstico guardado</string>
+    <string name="support_support">Suporte</string>
+    <string name="support_on_this_phone">N%1$s</string>
+    <string name="support_local_data">Dados de diagnóstico locais</string>
+    <string name="support_local_data_supporting">Exclui o histórico de erros de gravação, logs de diagnóstico locais, contagens de buscas de navegação, relatórios de bugs salvos e clipes de depuração de versões antigas do app. As gravações de viagens não serão excluídas.</string>
+    <string name="support_clear_local_data">Limpar dados de diagnóstico locais</string>
+    <string name="support_kept_nothing">Nada n%1$s</string>
+    <string name="support_kept_under">Menos de 0,1 MB n%1$s</string>
+    <string name="support_kept_megabytes">%1$.1f MB n%2$s</string>
+    <string name="support_kept_gigabytes">%1$.1f GB n%2$s</string>
+    <string name="support_keep_diagnostics">Guardar diagnóstico n%1$s</string>
+    <string name="support_keep_diagnostics_supporting">Logs e contadores do app das suas últimas 10 viagens e contagens de buscas de navegação, guardados para que um relatório diga o que aconteceu. Nada sai d%1$s até você enviar um relatório. Desativado, guarda só o histórico de erros de gravação.</string>
+    <string name="support_the_project">Apoie o projeto</string>
+    <string name="support_commaview">Apoiar o CommaView</string>
+    <string name="support_commaview_supporting">Ajude a pagar hospedagem, testes e o app para iOS. Abre o Buy Me a Coffee.</string>
+    <string name="support_your_requests">Suas solicitações</string>
+    <string name="support_your_requests_supporting">Respostas e suas conversas com o CommaView, em my.commaview.com. O CommaView envia um e-mail quando responde.</string>
+    <string name="support_your_requests_empty">Nenhuma solicitação ainda. As que você enviar aparecem aqui, e o CommaView envia um e-mail quando responder.</string>
+    <string name="support_your_requests_signed_out">Entre para ver aqui suas solicitações e as respostas do CommaView.</string>
+    <string name="support_your_requests_loading">Buscando suas solicitações…</string>
+    <string name="support_your_requests_failed">Não foi possível obter suas solicitações agora. Elas carregam de novo quando você voltar a esta página.</string>
+    <string name="support_your_requests_unread">Resposta não lida</string>
+    <string name="support_see_all">Ver tudo</string>
+    <string name="support_see_all_count">Ver todas (%1$d)</string>
+    <string name="support_see_all_where">Em my.commaview.com</string>
+    <string name="support_kind_problem">Problema</string>
+    <string name="support_kind_idea">Ideia</string>
+    <string name="support_kind_request">Solicitação</string>
+    <string name="support_status_closed">Encerrada</string>
+    <string name="support_status_closed_on">Encerrada · %1$s</string>
+    <string name="support_status_replied">Aberta · CommaView respondeu</string>
+    <string name="support_status_waiting">Aberta · Aguardando o CommaView</string>
+    <string name="support_status_open">Aberta</string>
+    <string name="support_couldnt_open_site">Não foi possível abrir my.commaview.com</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- device_settings: Türkçe. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-tr.md and openpilot's selfdrive/ui/translations/app_tr.po. -->
+<resources>
+
+    <!-- ForceOffroadConfirmation.kt: Safe Update, Safe Install and Safe Repair's countdown. -->
+    <string name="device_settings_safe_dialog_back">Geri</string>
+    <string name="device_settings_safe_dialog_ready">Hazır</string>
+    <string name="device_settings_safe_dialog_delay">Güvenlik beklemesi</string>
+</resources>

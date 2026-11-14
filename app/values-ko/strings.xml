@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 한국어. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-ko.md and openpilot's selfdrive/ui/translations/app_ko.po. -->
+<resources>
+
+    <!-- The home dock and rail (HomeSection). -->
+    <string name="nav_home">홈</string>
+    <string name="nav_recordings">녹화</string>
+    <string name="nav_settings">설정</string>
+
+    <!-- Settings' pages, as each is titled (GlobalSettingsPage, DeviceSettingsPage). -->
+    <string name="settings_page_hub">설정</string>
+    <string name="settings_page_display">디스플레이</string>
+    <string name="settings_page_offline_maps">오프라인 지도</string>
+    <string name="settings_page_maps_navigation">지도 및 내비게이션</string>
+    <string name="settings_page_choose_home">집 선택</string>
+    <string name="settings_page_choose_work">직장 선택</string>
+    <string name="settings_page_recordings">녹화</string>
+    <string name="settings_page_sound">소리</string>
+    <string name="settings_page_live_streaming">라이브 방송</string>
+    <string name="settings_page_destination">방송 대상</string>
+    <string name="settings_page_title_description">제목 및 설명</string>
+    <string name="settings_page_account">계정</string>
+    <string name="settings_page_privacy">개인정보 및 공유</string>
+    <string name="settings_page_support">지원 및 진단</string>
+    <string name="settings_page_about">정보</string>
+    <string name="settings_page_licenses">오픈소스 라이선스</string>
+    <string name="settings_page_license">라이선스</string>
+    <string name="settings_page_device">장치 설정</string>
+    <string name="settings_page_device_facts">이름 및 주소</string>
+    <string name="settings_page_device_network">네트워크</string>
+    <string name="settings_page_device_pairing">다른 휴대폰 페어링</string>
+    <string name="settings_page_device_runtime">런타임</string>
+
+    <!-- The Settings hub's rows, under each title. -->
+    <string name="settings_hub_display_subtitle">주행 화면과 옵션, 운전석 위치, 주간 대비</string>
+    <string name="settings_hub_maps_navigation_key_subtitle">오프라인 지도, 그리고 내 Stadia Maps 키를 쓰는 내비게이션</string>
+    <string name="settings_hub_offline_maps_subtitle">지역을 다운로드하고 comma 위치의 제한 속도를 표시합니다</string>
+    <string name="settings_hub_live_streaming_subtitle">Live View에서 YouTube나 다른 서버로 라이브 방송을 합니다</string>
+    <string name="settings_hub_live_streaming_ready">준비됨</string>
+    <string name="settings_hub_live_streaming_set_up">설정하기</string>
+    <string name="settings_hub_account_subtitle">로그인 및 베타 업데이트</string>
+    <string name="settings_hub_language_subtitle">CommaView 자체 문구의 언어</string>
+    <string name="settings_hub_privacy_subtitle">%1$s 밖으로 나가는 정보</string>
+    <string name="settings_hub_support_subtitle">문제 신고, 프로젝트 후원, %1$s의 진단 정보</string>
+    <string name="settings_hub_about_subtitle">버전 및 업데이트</string>
+    <string name="settings_hub_about_update">업데이트</string>
+
+    <!-- Settings › Language (LanguageSetting.kt). -->
+    <string name="language_title">언어</string>
+    <string name="language_follow_phone">휴대폰 언어</string>
+    <!-- The row's value while the app follows the phone: %1$s is the language that gives, in itself. -->
+    <string name="language_follow_phone_value">휴대폰 언어(%1$s)</string>
+    <string name="language_follow_phone_detail">CommaView가 지원하면 휴대폰 언어를 따르고, 아니면 영어로 표시합니다</string>
+    <string name="language_comma_screens_note">Live View의 comma 화면은 차에서 보이는 그대로 comma의 언어로 표시됩니다.</string>
+    <string name="language_choose_label">앱 언어 선택</string>
+    <string name="settings_translation_notice">CommaView의 %1$s 버전은 기계 번역입니다.</string>
+    <string name="settings_translation_notice_link">개선에 참여하기</string>
+    <string name="settings_translation_notice_close">번역 안내 닫기</string>
+    <string name="language_machine_translated">기계 번역</string>
+</resources>

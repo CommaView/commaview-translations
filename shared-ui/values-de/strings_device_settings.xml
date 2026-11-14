@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- device_settings: Deutsch (German). Machine drafted with docs/localization/glossary-de.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- ForceOffroadConfirmation.kt: Safe Update, Safe Install and Safe Repair's countdown. -->
+    <string name="device_settings_safe_dialog_back">Zurück</string>
+    <string name="device_settings_safe_dialog_ready">Bereit</string>
+    <string name="device_settings_safe_dialog_delay">Sicherheitspause</string>
+</resources>

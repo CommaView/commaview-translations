@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- liveview: Türkçe. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-tr.md and openpilot's selfdrive/ui/translations/app_tr.po. -->
+<resources>
+
+    <!-- Cockpit's media: the speed over a picture, the location map, the week's chart (CockpitMedia). -->
+    <string name="liveview_media_max">MAKS</string>
+    <string name="liveview_media_set_speed">Ayarlı hız %1$s</string>
+
+    <!-- %1$s is the speed's figure, %2$s its unit (km/h, mph). -->
+    <string name="liveview_media_current_speed">Mevcut hız %1$s %2$s</string>
+    <string name="liveview_media_location_hidden">Konum gizli</string>
+    <string name="liveview_media_map_unavailable">Harita kullanılamıyor</string>
+    <string name="liveview_media_map_credits">Harita kaynakları: %1$s</string>
+    <string name="liveview_media_map_parked">Aracın en son park edildiği yeri gösteren harita</string>
+    <string name="liveview_media_map_current">Aracın mevcut konumunu gösteren harita</string>
+    <string name="liveview_media_last_known">Son bilinen</string>
+    <string name="liveview_media_live">Canlı</string>
+    <string name="liveview_media_distance_per_day">Günlük mesafe</string>
+
+    <!-- The week's chart, as TalkBack reads it: %1$s is its label, %2$s its unit. -->
+    <string name="liveview_media_chart_in_unit">%1$s, birim: %2$s</string>
+    <string name="liveview_media_chart_not_recorded">kaydedilmedi</string>
+
+    <!-- Cockpit's shared components (CockpitComponents, AppSnackbar, AppWindowAccess). -->
+    <string name="liveview_components_open">Aç: %1$s</string>
+    <string name="liveview_components_expanded">Genişletildi</string>
+    <string name="liveview_components_collapsed">Daraltıldı</string>
+    <string name="liveview_components_close_commas">Kayıtlı comma\'ları kapat</string>
+    <string name="liveview_components_choose_comma">Bir comma seçin</string>
+    <string name="liveview_components_add_comma">comma ekle</string>
+    <string name="liveview_snackbar_dismiss">Kapat</string>
+    <string name="liveview_window_checking_beta">Beta erişimi denetleniyor</string>
+</resources>

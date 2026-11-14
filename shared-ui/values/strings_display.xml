@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- display: CommaView's own words, in English (docs/localization/how-to-localize.md). -->
+<resources>
+
+    <!-- Display's choices (DisplayPreferences). -->
+    <string name="display_driver_side_auto">Auto</string>
+    <string name="display_driver_side_auto_detail">Match the side reported by your comma</string>
+    <string name="display_driver_side_lhd">Left-hand drive</string>
+    <string name="display_driver_side_lhd_detail">Steering wheel on the left</string>
+    <string name="display_driver_side_rhd">Right-hand drive</string>
+    <string name="display_driver_side_rhd_detail">Steering wheel on the right</string>
+    <string name="display_daylight_off">Off</string>
+    <string name="display_daylight_off_detail">The standard Cockpit colours.</string>
+    <string name="display_daylight_on">On</string>
+    <string name="display_daylight_on_detail">Brighter text and lines, for sun and glare.</string>
+    <string name="display_daylight_auto">Auto</string>
+    <string name="display_daylight_auto_detail">Brighter text and lines while %1$s's light sensor sees bright light.</string>
+    <string name="display_confidence_default">Default</string>
+    <string name="display_confidence_default_detail">Use standard-size confidence chrome.</string>
+    <string name="display_confidence_75_detail">Slightly shrink the confidence panel and ball.</string>
+    <string name="display_confidence_50_detail">Free up more video space with half-size confidence chrome.</string>
+    <string name="display_confidence_25_detail">Use the smallest confidence panel and ball.</string>
+
+    <!-- Display's design options (DisplayOptions). -->
+    <string name="display_confidence_title">Compact confidence panel</string>
+    <string name="display_confidence_subtitle">A smaller panel and ball, for more video</string>
+    <string name="display_confidence_note">Scale the confidence panel and ball down to free up more video space.</string>
+    <string name="display_driver_position_title">Driver position</string>
+    <string name="display_driver_position_subtitle">Mirrors the controls on every screen</string>
+    <string name="display_driver_position_note">Choose the driver side for mirrored controls. Auto follows the side reported by your comma and remembers it for next time.</string>
+
+    <!-- Settings › Display (DisplayPage). -->
+    <string name="display_title">Display</string>
+    <string name="display_subtitle">How Live View looks on %1$s</string>
+    <string name="display_back_to_settings">Back to Settings</string>
+    <string name="display_onroad_screen">Onroad screen</string>
+    <string name="display_design_options">%1$s options</string>
+    <string name="display_reduce_motion">Reduce motion</string>
+    <string name="display_reduce_motion_detail">Keep CommaView's path, speed and lock-on still. Android's Remove animations does the same.</string>
+    <string name="display_design_no_options">The %1$s's screen has no options of its own: it's drawn as the comma draws it.</string>
+    <string name="display_on_every_screen">On every screen</string>
+    <string name="display_opening_live_view">Opening Live View</string>
+    <string name="display_preview">Preview</string>
+    <string name="display_preview_engaged">Engaged</string>
+    <string name="display_preview_override">Override</string>
+    <string name="display_preview_disengaged">Disengaged</string>
+    <string name="display_safety_title">Safety colours stay the same</string>
+    <string name="display_safety_detail">Alerts, warnings and driver-monitoring status always use your comma's own colours. Replays you make in Recordings look as Live View did while you recorded.</string>
+
+    <!-- Display › Screen edges' value (ScreenEdges). -->
+    <string name="display_screen_edges_off">Off</string>
+    <string name="display_screen_edges_all_round">%1$d dp all round</string>
+
+    <!-- %1$s lists each edge that has a margin with its figure: "Top 8 · Bottom 16". -->
+    <string name="display_screen_edges_each">%1$s dp</string>
+    <string name="display_screen_edge_top">Top</string>
+    <string name="display_screen_edge_bottom">Bottom</string>
+    <string name="display_screen_edge_left">Left</string>
+    <string name="display_screen_edge_right">Right</string>
+
+    <!-- The preview's description for TalkBack (HudPreview): %1$s is the onroad screen's name. -->
+    <string name="display_hud_preview_engaged">Preview of the %1$s screen, engaged</string>
+    <string name="display_hud_preview_override">Preview of the %1$s screen, override</string>
+    <string name="display_hud_preview_not_engaged">Preview of the %1$s screen, not engaged</string>
+</resources>

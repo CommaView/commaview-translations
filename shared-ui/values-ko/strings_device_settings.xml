@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- device_settings: 한국어. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-ko.md and openpilot's selfdrive/ui/translations/app_ko.po. -->
+<resources>
+
+    <!-- ForceOffroadConfirmation.kt: Safe Update, Safe Install and Safe Repair's countdown. -->
+    <string name="device_settings_safe_dialog_back">뒤로</string>
+    <string name="device_settings_safe_dialog_ready">준비됨</string>
+    <string name="device_settings_safe_dialog_delay">안전 대기 시간</string>
+</resources>

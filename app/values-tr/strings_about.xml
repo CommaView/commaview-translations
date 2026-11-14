@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- about: Türkçe. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-tr.md and openpilot's selfdrive/ui/translations/app_tr.po. -->
+<resources>
+    <!-- Settings › About's app update (AppUpdatePresentation: word(), as the header button shows them). -->
+    <string name="about_header_update">Güncelle</string>
+    <string name="about_header_downloading">İndiriliyor</string>
+    <string name="about_header_downloading_percent">İndiriliyor %1$s</string>
+    <string name="about_header_verifying">Doğrulanıyor</string>
+    <string name="about_header_installing">Yükleniyor</string>
+    <string name="about_header_install">Yükle</string>
+    <string name="about_header_retry">Güncellemeyi yeniden dene</string>
+    <string name="about_update_dev_build">Geliştirici sürümü</string>
+    <string name="about_update_car_test_detail">Car Test uygulaması. Yeni geliştirici sürümleri staging hesabınızdan gelir.</string>
+    <string name="about_update_installed">Yüklü: %1$s</string>
+    <string name="about_update_unable_to_check">Denetlenemedi</string>
+    <string name="about_update_available">Güncelleme mevcut</string>
+    <string name="about_update_latest">En son: %1$s</string>
+    <string name="about_update_up_to_date">Güncel</string>
+    <string name="about_update_dev_available">Geliştirici sürümü mevcut</string>
+    <string name="about_update_dev_version_available">Geliştirici sürümü %1$s mevcut</string>
+    <string name="about_update_dev_status">Geliştirici sürümü: staging\'deki Car Test uygulaması</string>
+    <string name="about_update_dev_detail">Staging hesabınızdan yüklenir.</string>
+    <string name="about_update_alpha_available">Alpha mevcut</string>
+    <string name="about_update_alpha_version_available">Alpha %1$s mevcut</string>
+    <string name="about_update_alpha_status">Alpha: test edenler için erken bir sürüm</string>
+    <string name="about_update_account_detail">CommaView hesabınızdan yüklenir.</string>
+    <string name="about_update_unable_to_open">Uygulama indirmesi açılamadı</string>
+
+    <!-- Open-source licenses (OpenSourceLicensesPage). The licences, and sunnypilot's acknowledgement, stay as written. -->
+    <string name="about_licenses_row_supporting">CommaView\'un kullandığı yazılımlar, yazı tipleri, görseller ve modeller ile lisansları</string>
+    <string name="about_licenses_intro">CommaView bu projelerin çalışmalarını kullanır. Lisansını okumak için birine dokunun.</string>
+    <string name="about_licenses_driving_software">Sürüş yazılımı</string>
+    <string name="about_licenses_maps">Haritalar</string>
+    <string name="about_licenses_fonts">Yazı tipleri</string>
+    <string name="about_license_openpilot">comma.ai · MIT Lisansı. Sürüş ekranının düzeni, simgeleri ve yazı tipleri.</string>
+    <string name="about_license_sunnypilot">Haibin Wen ve SUNNYPILOT LLC · özel lisans. sunnypilot\'un sürüş ekranı eklemeleri ve simgeleri.</string>
+    <string name="about_license_starpilot">firestar5683 ve StarPilot katkıcıları · MIT Lisansı. StarPilot\'un sürüş ekranı eklemeleri, simgeleri ve yazı tipleri.</string>
+    <string name="about_license_carrotpilot">MIT Lisansı. carrotpilot\'un hız arka planı.</string>
+    <string name="about_license_mapd">Jacob Pfeifer · MIT Lisansı. Çevrimdışı haritaların yol veri seti ve bölgeleri.</string>
+    <string name="about_license_maplibre_android">MapLibre katkıcıları · BSD 2-Clause Lisansı. Haritayı çizer.</string>
+    <string name="about_license_maplibre_core">Harita oluşturucunun çekirdeği ve kullandığı kitaplıklar.</string>
+    <string name="about_license_icu">Unicode, Inc. · ICU Lisansı. MapLibre içinde harita etiketlerinin metni.</string>
+    <string name="about_license_barlow">SIL Open Font License 1.1. CommaView\'un yazı tipi.</string>
+    <string name="about_license_inter">SIL Open Font License 1.1. Sürüş ekranının yazı tipi.</string>
+    <string name="about_license_fork_translations_title">Fork\'ların çevirileri</string>
+    <string name="about_license_fork_translations">MIT Lisansı ve fork\'ların kendi lisansları. Sürüş ekranı metinleri comma\'nın dilinde.</string>
+    <string name="about_license_noto_sans">Adobe ve Noto Project Authors · SIL Open Font License 1.1. openpilot\'un Çince, Japonca, Korece ve Tayca sürüş ekranı yazı tipi.</string>
+    <string name="about_license_unifont">Roman Czyborra, Paul Hardy ve diğerleri · SIL Open Font License 1.1. Fork\'ların Çince, Japonca, Korece ve Tayca sürüş ekranı yazı tipi.</string>
+    <string name="about_license_kaigen_gothic">Ming-Hsien Lin ve Adobe · SIL Open Font License 1.1. carrotpilot\'un sürüş ekranı yazı tipi.</string>
+    <string name="about_license_efficientdet_lite">The TensorFlow authors · Apache License 2.0. Surround\'un genel algılama modeli.</string>
+    <string name="about_license_qnn">Qualcomm Technologies, Inc. · algılayıcının DSP çalışma ortamı için bildirimler.</string>
+    <string name="about_license">Lisans</string>
+    <string name="about_license_unreadable">Bu lisans %1$sda okunamıyor.</string>
+
+    <!-- The policy notice (LegalNoticeDialog, legal/LegalNotices). What changed comes from commaview.com as it's written there. -->
+    <string name="about_legal_read_it">Oku</string>
+    <string name="about_legal_agree">Kabul et</string>
+    <string name="about_legal_leaderboard">Sıralama</string>
+    <string name="about_legal_no_changes">Neyin değiştiğini kendi sayfasında görün.</string>
+    <string name="about_legal_privacy_policy">Gizlilik politikası</string>
+    <string name="about_legal_terms">Şartlar</string>
+    <string name="about_legal_read_privacy">Gizlilik politikasını oku</string>
+    <string name="about_legal_read_terms">Şartları oku</string>
+    <string name="about_legal_document_dated">%1$s · %2$s</string>
+    <string name="about_legal_leaderboard_changed">Sıralamanın paylaştıkları değişti</string>
+    <string name="about_legal_both_updated">Gizlilik politikası ve şartlar güncellendi</string>
+    <string name="about_legal_terms_updated">Şartlar güncellendi</string>
+    <string name="about_legal_privacy_updated">Gizlilik politikası güncellendi</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- about: CommaView's own words, in English (docs/localization/how-to-localize.md). -->
+<resources>
+    <!-- Settings › About's app update (AppUpdatePresentation: word(), as the header button shows them). -->
+    <string name="about_header_update">Update</string>
+    <string name="about_header_downloading">Downloading</string>
+    <string name="about_header_downloading_percent">Downloading %1$s</string>
+    <string name="about_header_verifying">Verifying</string>
+    <string name="about_header_installing">Installing</string>
+    <string name="about_header_install">Install</string>
+    <string name="about_header_retry">Retry update</string>
+    <string name="about_update_dev_build">Dev build</string>
+    <string name="about_update_car_test_detail">The Car Test app. Newer dev builds come from your staging account.</string>
+    <string name="about_update_installed">Installed: %1$s</string>
+    <string name="about_update_unable_to_check">Unable to check</string>
+    <string name="about_update_available">Update available</string>
+    <string name="about_update_latest">Latest: %1$s</string>
+    <string name="about_update_up_to_date">Up to date</string>
+    <string name="about_update_dev_available">Dev build available</string>
+    <string name="about_update_dev_version_available">Dev build %1$s available</string>
+    <string name="about_update_dev_status">Dev build: the Car Test app from staging</string>
+    <string name="about_update_dev_detail">Installs from your staging account.</string>
+    <string name="about_update_alpha_available">Alpha available</string>
+    <string name="about_update_alpha_version_available">Alpha %1$s available</string>
+    <string name="about_update_alpha_status">Alpha: an early build for testers</string>
+    <string name="about_update_account_detail">Installs from your CommaView account.</string>
+    <string name="about_update_unable_to_open">Unable to open app download</string>
+
+    <!-- Open-source licenses (OpenSourceLicensesPage). The licences, and sunnypilot's acknowledgement, stay as written. -->
+    <string name="about_licenses_row_supporting">The software, fonts, images and models CommaView is built with, and their licenses</string>
+    <string name="about_licenses_intro">CommaView uses work from these projects. Tap one to read its license.</string>
+    <string name="about_licenses_driving_software">Driving software</string>
+    <string name="about_licenses_maps">Maps</string>
+    <string name="about_licenses_fonts">Fonts</string>
+    <string name="about_license_openpilot">comma.ai · MIT License. The onroad screen\'s layout, icons and fonts.</string>
+    <string name="about_license_sunnypilot">Haibin Wen and SUNNYPILOT LLC · custom license. sunnypilot\'s onroad additions and icons.</string>
+    <string name="about_license_starpilot">firestar5683 and StarPilot contributors · MIT License. StarPilot\'s onroad additions, icons and fonts.</string>
+    <string name="about_license_carrotpilot">MIT License. carrotpilot\'s speed background.</string>
+    <string name="about_license_mapd">Jacob Pfeifer · MIT License. Offline maps\' road dataset and regions.</string>
+    <string name="about_license_maplibre_android">MapLibre contributors · BSD 2-Clause License. Draws the map.</string>
+    <string name="about_license_maplibre_core">The map renderer\'s core and the libraries it uses.</string>
+    <string name="about_license_icu">Unicode, Inc. · ICU License. Map labels\' text, inside MapLibre.</string>
+    <string name="about_license_barlow">SIL Open Font License 1.1. CommaView\'s type.</string>
+    <string name="about_license_inter">SIL Open Font License 1.1. The onroad screen\'s type.</string>
+    <string name="about_license_fork_translations_title">The forks\' translations</string>
+    <string name="about_license_fork_translations">MIT License and the forks\' own. Their onroad words in the comma\'s language.</string>
+    <string name="about_license_noto_sans">Adobe and the Noto Project Authors · SIL Open Font License 1.1. openpilot\'s onroad type in Chinese, Japanese, Korean and Thai.</string>
+    <string name="about_license_unifont">Roman Czyborra, Paul Hardy et al. · SIL Open Font License 1.1. The forks\' onroad type in Chinese, Japanese, Korean and Thai.</string>
+    <string name="about_license_kaigen_gothic">Ming-Hsien Lin and Adobe · SIL Open Font License 1.1. carrotpilot\'s onroad type.</string>
+    <string name="about_license_efficientdet_lite">The TensorFlow authors · Apache License 2.0. Surround\'s general detector model.</string>
+    <string name="about_license_qnn">Qualcomm Technologies, Inc. · notices for the detector\'s DSP runtime.</string>
+    <string name="about_license">License</string>
+    <string name="about_license_unreadable">Can\'t read this license on %1$s.</string>
+
+    <!-- The policy notice (LegalNoticeDialog, legal/LegalNotices). What changed comes from commaview.com as it's written there. -->
+    <string name="about_legal_read_it">Read it</string>
+    <string name="about_legal_agree">Agree</string>
+    <string name="about_legal_leaderboard">Leaderboard</string>
+    <string name="about_legal_no_changes">See what changed on its page.</string>
+    <string name="about_legal_privacy_policy">Privacy policy</string>
+    <string name="about_legal_terms">Terms</string>
+    <string name="about_legal_read_privacy">Read the privacy policy</string>
+    <string name="about_legal_read_terms">Read the terms</string>
+    <string name="about_legal_document_dated">%1$s · %2$s</string>
+    <string name="about_legal_leaderboard_changed">What the leaderboard shares has changed</string>
+    <string name="about_legal_both_updated">Privacy policy and terms updated</string>
+    <string name="about_legal_terms_updated">Terms updated</string>
+    <string name="about_legal_privacy_updated">Privacy policy updated</string>
+</resources>

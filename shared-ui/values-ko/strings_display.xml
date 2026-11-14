@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- display: 한국어. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-ko.md and openpilot's selfdrive/ui/translations/app_ko.po. -->
+<resources>
+
+    <!-- Display's choices (DisplayPreferences). -->
+    <string name="display_driver_side_auto">자동</string>
+    <string name="display_driver_side_auto_detail">comma가 알려 주는 쪽을 따릅니다</string>
+    <string name="display_driver_side_lhd">왼쪽 운전석</string>
+    <string name="display_driver_side_lhd_detail">운전대가 왼쪽에 있음</string>
+    <string name="display_driver_side_rhd">오른쪽 운전석</string>
+    <string name="display_driver_side_rhd_detail">운전대가 오른쪽에 있음</string>
+    <string name="display_daylight_off">끔</string>
+    <string name="display_daylight_off_detail">기본 Cockpit 색상입니다.</string>
+    <string name="display_daylight_on">켬</string>
+    <string name="display_daylight_on_detail">햇빛과 눈부심에 대비해 글자와 선을 더 밝게 표시합니다.</string>
+    <string name="display_daylight_auto">자동</string>
+    <string name="display_daylight_auto_detail">%1$s의 조도 센서가 밝은 빛을 감지하는 동안 글자와 선을 더 밝게 표시합니다.</string>
+    <string name="display_confidence_default">기본값</string>
+    <string name="display_confidence_default_detail">기본 크기의 신뢰도 표시를 사용합니다.</string>
+    <string name="display_confidence_75_detail">신뢰도 패널과 공을 조금 줄입니다.</string>
+    <string name="display_confidence_50_detail">신뢰도 표시를 절반 크기로 줄여 영상 공간을 더 확보합니다.</string>
+    <string name="display_confidence_25_detail">가장 작은 신뢰도 패널과 공을 사용합니다.</string>
+
+    <!-- Display's design options (DisplayOptions). -->
+    <string name="display_confidence_title">작은 신뢰도 패널</string>
+    <string name="display_confidence_subtitle">영상이 더 보이도록 패널과 공을 작게</string>
+    <string name="display_confidence_note">신뢰도 패널과 공을 줄여 영상 공간을 더 확보합니다.</string>
+    <string name="display_driver_position_title">운전석 위치</string>
+    <string name="display_driver_position_subtitle">모든 화면의 조작 버튼을 좌우 반전합니다</string>
+    <string name="display_driver_position_note">조작 버튼을 반전할 운전석 쪽을 선택하세요. 자동은 comma가 알려 주는 쪽을 따르고 다음에도 기억합니다.</string>
+
+    <!-- Settings › Display (DisplayPage). -->
+    <string name="display_title">디스플레이</string>
+    <string name="display_subtitle">%1$s에서 Live View가 보이는 방식</string>
+    <string name="display_back_to_settings">설정으로 돌아가기</string>
+    <string name="display_onroad_screen">주행 화면</string>
+    <string name="display_design_options">%1$s 옵션</string>
+    <string name="display_reduce_motion">동작 줄이기</string>
+    <string name="display_reduce_motion_detail">CommaView의 경로, 속도, 잠금 표시를 움직이지 않게 합니다. Android의 ‘애니메이션 삭제’도 같은 역할을 합니다.</string>
+    <string name="display_design_no_options">%1$s 화면에는 별도 옵션이 없습니다. comma가 그리는 그대로 표시됩니다.</string>
+    <string name="display_on_every_screen">모든 화면 공통</string>
+    <string name="display_opening_live_view">Live View 여는 중</string>
+    <string name="display_preview">미리보기</string>
+    <string name="display_preview_engaged">작동 중</string>
+    <string name="display_preview_override">운전자 개입</string>
+    <string name="display_preview_disengaged">해제됨</string>
+    <string name="display_safety_title">안전 관련 색상은 바뀌지 않습니다</string>
+    <string name="display_safety_detail">알림, 경고, 운전자 모니터링 상태는 항상 comma 고유의 색상을 사용합니다. 녹화에서 만든 다시 보기는 녹화하던 당시 Live View와 똑같이 보입니다.</string>
+
+    <!-- Display › Screen edges' value (ScreenEdges). -->
+    <string name="display_screen_edges_off">끔</string>
+    <string name="display_screen_edges_all_round">사방 %1$d dp</string>
+
+    <!-- %1$s lists each edge that has a margin with its figure: "Top 8 · Bottom 16". -->
+    <string name="display_screen_edges_each">%1$s dp</string>
+    <string name="display_screen_edge_top">위</string>
+    <string name="display_screen_edge_bottom">아래</string>
+    <string name="display_screen_edge_left">왼쪽</string>
+    <string name="display_screen_edge_right">오른쪽</string>
+
+    <!-- The preview's description for TalkBack (HudPreview): %1$s is the onroad screen's name. -->
+    <string name="display_hud_preview_engaged">%1$s 화면 미리보기, 작동 중</string>
+    <string name="display_hud_preview_override">%1$s 화면 미리보기, 운전자 개입</string>
+    <string name="display_hud_preview_not_engaged">%1$s 화면 미리보기, 작동 안 함</string>
+</resources>

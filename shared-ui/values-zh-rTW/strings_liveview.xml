@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- liveview: 繁體中文（台灣）. Machine drafted with docs/localization/glossary-zh-TW.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- Cockpit's media: the speed over a picture, the location map, the week's chart (CockpitMedia). -->
+    <string name="liveview_media_max">最大</string>
+    <string name="liveview_media_set_speed">設定速度 %1$s</string>
+
+    <!-- %1$s is the speed's figure, %2$s its unit (km/h, mph). -->
+    <string name="liveview_media_current_speed">目前車速 %1$s %2$s</string>
+    <string name="liveview_media_location_hidden">位置已隱藏</string>
+    <string name="liveview_media_map_unavailable">無法顯示地圖</string>
+    <string name="liveview_media_map_credits">地圖來源：%1$s</string>
+    <string name="liveview_media_map_parked">顯示車輛最後停放位置的地圖</string>
+    <string name="liveview_media_map_current">顯示車輛目前位置的地圖</string>
+    <string name="liveview_media_last_known">最後已知</string>
+    <string name="liveview_media_live">即時</string>
+    <string name="liveview_media_distance_per_day">每日距離</string>
+
+    <!-- The week's chart, as TalkBack reads it: %1$s is its label, %2$s its unit. -->
+    <string name="liveview_media_chart_in_unit">%1$s，單位 %2$s</string>
+    <string name="liveview_media_chart_not_recorded">未記錄</string>
+
+    <!-- Cockpit's shared components (CockpitComponents, AppSnackbar, AppWindowAccess). -->
+    <string name="liveview_components_open">開啟%1$s</string>
+    <string name="liveview_components_expanded">已展開</string>
+    <string name="liveview_components_collapsed">已收合</string>
+    <string name="liveview_components_close_commas">關閉已儲存的 comma</string>
+    <string name="liveview_components_choose_comma">選擇 comma</string>
+    <string name="liveview_components_add_comma">新增 comma</string>
+    <string name="liveview_snackbar_dismiss">關閉</string>
+    <string name="liveview_window_checking_beta">正在檢查 Beta 存取權限</string>
+</resources>

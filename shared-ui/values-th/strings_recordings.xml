@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- recordings: ไทย (Thai). Machine drafted with docs/localization/glossary-th.md; not yet reviewed by a native speaker. -->
+<resources>
+    <!-- recordings -->
+    <string name="recordings_cockpit_more">การดำเนินการเพิ่มเติมสำหรับการบันทึกนี้</string>
+    <string name="recordings_cockpit_select">เลือกการบันทึกนี้</string>
+    <string name="recordings_cockpit_needs_processing">รอประมวลผล</string>
+    <string name="recordings_cockpit_select_recording">เลือกการบันทึก</string>
+    <string name="recordings_cockpit_leaderboard">ตารางอันดับ</string>
+    <string name="recordings_cockpit_your_entry_unranked">รายการของคุณ ยังไม่มีอันดับ</string>
+    <string name="recordings_cockpit_your_entry">รายการของคุณ</string>
+    <string name="recordings_cockpit_you">คุณ</string>
+    <string name="recordings_cockpit_filter">ตัวกรอง</string>
+    <string name="recordings_cockpit_clear">ล้าง</string>
+    <string name="recordings_cockpit_clear_named">ล้าง %1$s</string>
+    <string name="recordings_cockpit_close">ปิด</string>
+    <string name="recordings_cockpit_choose">เลือก</string>
+    <string name="recordings_cockpit_none">ไม่มี</string>
+    <string name="recordings_cockpit_expanded">%1$s ขยายอยู่</string>
+</resources>

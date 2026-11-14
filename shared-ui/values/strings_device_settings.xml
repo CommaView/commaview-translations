@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CommaView's words for device settings (docs/localization/how-to-localize.md). -->
+<resources>
+
+    <!-- ForceOffroadConfirmation.kt: Safe Update, Safe Install and Safe Repair's countdown. -->
+    <string name="device_settings_safe_dialog_back">Back</string>
+    <string name="device_settings_safe_dialog_ready">Ready</string>
+    <string name="device_settings_safe_dialog_delay">Safety delay</string>
+</resources>

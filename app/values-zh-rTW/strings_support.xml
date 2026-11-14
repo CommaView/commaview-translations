@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- support: CommaView's own words, in Traditional Chinese (docs/localization/how-to-localize.md). -->
+<resources>
+    <!-- Settings › Support & diagnostics (SupportDiagnosticsScreen, SettingsPages). -->
+    <string name="support_report_or_idea">回報問題或提供建議</string>
+    <string name="support_diagnostics_kept">保存的診斷資料</string>
+    <string name="support_support">支援</string>
+    <string name="support_on_this_phone">%1$s上</string>
+    <string name="support_local_data">本機診斷資料</string>
+    <string name="support_local_data_supporting">刪除錄影錯誤記錄、本機診斷記錄、導航搜尋次數、已儲存的錯誤報告，以及舊版應用程式的偵錯片段。行程錄影不會被刪除。</string>
+    <string name="support_clear_local_data">清除本機診斷資料</string>
+    <string name="support_kept_nothing">%1$s上沒有資料</string>
+    <string name="support_kept_under">%1$s上不到 0.1 MB</string>
+    <string name="support_kept_megabytes">%2$s上有 %1$.1f MB</string>
+    <string name="support_kept_gigabytes">%2$s上有 %1$.1f GB</string>
+    <string name="support_keep_diagnostics">在%1$s上保存診斷資料</string>
+    <string name="support_keep_diagnostics_supporting">保存最近 10 趟行程的應用程式記錄和計數，以及導航搜尋次數，讓報告能說明發生了什麼事。在您傳送報告前，資料不會離開%1$s。關閉時只保存錄影錯誤記錄。</string>
+    <string name="support_the_project">支持這個專案</string>
+    <string name="support_commaview">支持 CommaView</string>
+    <string name="support_commaview_supporting">協助負擔主機、測試和 iOS 應用程式的費用。會開啟 Buy Me a Coffee。</string>
+
+    <!-- Your requests (YourRequests). -->
+    <string name="support_your_requests">您的請求</string>
+    <string name="support_your_requests_supporting">您與 CommaView 的對話和回覆，位於 my.commaview.com。CommaView 回覆時會寄電子郵件通知您。</string>
+    <string name="support_your_requests_empty">目前沒有請求。您傳送的請求會顯示在這裡，CommaView 回覆時會寄電子郵件通知您。</string>
+    <string name="support_your_requests_signed_out">登入後即可在這裡查看您的請求和 CommaView 的回覆。</string>
+    <string name="support_your_requests_loading">正在尋找您的請求…</string>
+    <string name="support_your_requests_failed">剛才無法取得您的請求。您回到這個頁面時會重新載入。</string>
+    <string name="support_your_requests_unread">未讀的回覆</string>
+    <string name="support_see_all">查看全部</string>
+    <string name="support_see_all_count">查看全部 %1$d 則</string>
+    <string name="support_see_all_where">位於 my.commaview.com</string>
+    <string name="support_kind_problem">問題</string>
+    <string name="support_kind_idea">建議</string>
+    <string name="support_kind_request">請求</string>
+    <string name="support_status_closed">已結案</string>
+    <string name="support_status_closed_on">已結案 · %1$s</string>
+    <string name="support_status_replied">處理中 · CommaView 已回覆</string>
+    <string name="support_status_waiting">處理中 · 等待 CommaView 回覆</string>
+    <string name="support_status_open">處理中</string>
+    <string name="support_couldnt_open_site">無法開啟 my.commaview.com</string>
+</resources>

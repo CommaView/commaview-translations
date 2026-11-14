@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- liveview: Deutsch (German). Machine drafted with docs/localization/glossary-de.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- Live View's connection status (shared: LiveViewStatus, through SharedWords). -->
+    <string name="liveview_status_connecting_to">Verbindung mit %1$s</string>
+    <string name="liveview_status_connecting_to_your_comma">Verbindung mit Ihrem comma</string>
+    <string name="liveview_status_reconnecting">Neu verbinden…</string>
+    <string name="liveview_status_attempt_of">Versuch %1$d von %2$d</string>
+    <string name="liveview_status_attempt">Versuch %1$d</string>
+    <string name="liveview_status_live">Live</string>
+    <string name="liveview_status_trying_another_decoder">%1$s konnte das Video mit seinem Video-Decoder nicht abspielen. Ein anderer wird versucht…</string>
+    <string name="liveview_status_waiting_for_video">Wartet auf Video</string>
+    <string name="liveview_status_switching_wide_camera">Wechsel zur Weitwinkelkamera</string>
+    <string name="liveview_status_waiting_for_car_data">Wartet auf Fahrzeugdaten</string>
+    <string name="liveview_status_video_delayed">Video verzögert</string>
+    <string name="liveview_status_car_data_missing">Fahrzeugdaten kommen nicht an</string>
+    <string name="liveview_status_car_data_missing_detail">Das Video kommt an, aber Tempo, Signale und Hinweise des Autos nicht. Starten Sie das comma neu, um das zu beheben.</string>
+    <string name="liveview_status_cant_play">Video dieses comma nicht abspielbar</string>
+    <string name="liveview_status_cant_play_detail">Keiner der Video-Decoder auf diesem %1$s konnte es abspielen. CommaView versucht es weiter. Senden Sie einen Support-Bericht aus den Einstellungen, damit CommaView es untersuchen kann.</string>
+    <string name="liveview_status_connection_lost">Verbindung verloren</string>
+    <string name="liveview_status_couldnt_connect">Verbindung fehlgeschlagen</string>
+    <string name="liveview_status_timed_out">Das comma hat nicht rechtzeitig geantwortet. Prüfen Sie, ob Ihr %1$s in seinem WLAN oder Hotspot ist, und versuchen Sie es erneut.</string>
+    <string name="liveview_status_check_wifi">Prüfen Sie, ob Ihr %1$s im WLAN oder Hotspot des comma ist, und versuchen Sie es erneut.</string>
+
+    <!-- Why the video stream was lost (shared: ConnectionState.ReconnectCause). -->
+    <string name="liveview_reconnect_unknown">Die Videoverbindung ging verloren.</string>
+    <string name="liveview_reconnect_refused">Das comma hat die Verbindung abgelehnt. CommaView startet darauf vielleicht neu.</string>
+    <string name="liveview_reconnect_unreachable">%1$s erreicht das comma nicht. Prüfen Sie, ob es im WLAN oder Hotspot des comma ist.</string>
+    <string name="liveview_reconnect_timed_out">Das comma hat nicht rechtzeitig geantwortet.</string>
+    <string name="liveview_reconnect_closed">Das comma hat den Videostream beendet.</string>
+    <string name="liveview_reconnect_stalled">Das Video kommt nicht mehr an.</string>
+
+    <!-- Why Live View stopped reconnecting (shared: ConnectionState.WaitReason). -->
+    <string name="liveview_wait_unreachable">Dieses comma ist nicht erreichbar</string>
+    <string name="liveview_wait_unreachable_detail">%1$s muss im selben WLAN wie das comma oder in seinem Hotspot sein. Live View verbindet sich neu, sobald es antwortet.</string>
+    <string name="liveview_wait_runtime_down">CommaView antwortet nicht</string>
+    <string name="liveview_wait_runtime_down_detail">Es startet vielleicht auf dem comma neu. Live View verbindet sich neu, sobald es zurück ist.</string>
+    <string name="liveview_wait_no_video">Kein Video von diesem comma</string>
+    <string name="liveview_wait_no_video_detail">Es antwortet, aber sein Video kam nicht zurück. Versuchen Sie es erneut oder gehen Sie zurück und prüfen Sie das comma.</string>
+    <string name="liveview_wait_busy">Live View ist auf einem anderen Gerät offen</string>
+    <string name="liveview_wait_busy_detail">Dieses comma streamt jeweils nur an ein Handy oder Infotainment. Gehen Sie dort in CommaView zurück zum Start, dann startet Live View hier von selbst.</string>
+
+    <!-- What a screen reader is told about the video well (shared: LiveVideoSpeech). -->
+    <string name="liveview_speech_your_comma">Ihr comma</string>
+    <string name="liveview_speech_live_video">Live-Video von %1$s</string>
+    <string name="liveview_speech_not_live">Video von %1$s, nicht live. %2$s</string>
+
+    <!-- The CommaView design's own notices (shared: CommaViewNotice). -->
+    <string name="liveview_notice_status_unavailable">Status nicht verfügbar</string>
+    <string name="liveview_notice_telemetry_unavailable">Telemetrie nicht verfügbar</string>
+    <string name="liveview_notice_waiting_for_data">Wartet auf Daten</string>
+    <string name="liveview_notice_hud_data_unavailable">HUD-Daten nicht verfügbar</string>
+    <string name="liveview_notice_not_saved">Vom comma nicht gespeichert</string>
+    <string name="liveview_notice_connecting">Verbinden…</string>
+    <string name="liveview_notice_reconnecting">Neu verbinden…</string>
+    <string name="liveview_notice_attempt_of">Versuch %1$d von %2$d</string>
+    <string name="liveview_notice_attempt">Versuch %1$d</string>
+    <string name="liveview_notice_disconnected">Getrennt</string>
+    <string name="liveview_notice_waiting_for_comma">Wartet auf Ihr comma</string>
+    <string name="liveview_notice_connection_error">Verbindungsfehler</string>
+    <string name="liveview_notice_cant_reach">comma nicht erreichbar</string>
+
+    <!-- The CommaView design's HUD words (shared: CommaViewEngagement, CommaViewHud, CommaViewChrome, CommaViewVisibility). -->
+    <string name="liveview_hud_engaged">AKTIV</string>
+    <string name="liveview_hud_steering_only">NUR LENKUNG</string>
+    <string name="liveview_hud_speed_only">NUR TEMPO</string>
+    <string name="liveview_hud_override">EINGRIFF</string>
+    <string name="liveview_hud_not_engaged">NICHT AKTIV</string>
+    <string name="liveview_hud_dm_looking_away">Blick abgewandt</string>
+    <string name="liveview_hud_dm_eyes_closed">Augen zu</string>
+    <string name="liveview_hud_dm_phone">Handy in der Hand</string>
+    <string name="liveview_hud_dm_drowsy">Müde</string>
+    <string name="liveview_hud_dm_no_face">Gesicht nicht sichtbar</string>
+    <string name="liveview_hud_dm_wheel">Lenkrad berühren</string>
+    <string name="liveview_hud_green_light">GRÜN</string>
+    <string name="liveview_hud_lead_departing">VORDERFAHRZEUG FÄHRT AN</string>
+    <string name="liveview_hud_stopped">ANGEHALTEN</string>
+    <string name="liveview_hud_max">MAX</string>
+    <string name="liveview_hud_experimental">EXPERIMENTELL</string>
+    <string name="liveview_hud_blind_spot">TOTER WINKEL</string>
+    <string name="liveview_hud_line_steering_speed_active">LENKUNG AKTIV · TEMPO AKTIV</string>
+    <string name="liveview_hud_line_steering_active">LENKUNG AKTIV</string>
+    <string name="liveview_hud_line_steering_active_speed_manual">LENKUNG AKTIV · TEMPO MANUELL</string>
+    <string name="liveview_hud_line_steering_manual_speed_active">LENKUNG MANUELL · TEMPO AKTIV</string>
+    <string name="liveview_hud_line_driver_override">FAHRER GREIFT EIN</string>
+    <string name="liveview_hud_line_manual_control">MANUELLE STEUERUNG</string>
+    <string name="liveview_hud_short_steering_speed_active">LENKUNG · TEMPO AKTIV</string>
+    <string name="liveview_hud_short_manual">MANUELL</string>
+
+    <!-- Live View's Details (LiveViewChrome): the pane beside the video and the phone's sheet. -->
+    <string name="liveview_details_title">Details</string>
+    <string name="liveview_details_pane_description">Details zu Live View</string>
+    <string name="liveview_details_show">Details zeigen</string>
+    <string name="liveview_details_hide">Details ausblenden</string>
+    <string name="liveview_expanded">Ausgeklappt</string>
+    <string name="liveview_collapsed">Eingeklappt</string>
+    <string name="liveview_shown">Sichtbar</string>
+    <string name="liveview_hidden">Ausgeblendet</string>
+    <string name="liveview_details_connected">Verbunden</string>
+    <string name="liveview_details_stream_set_up_hint">Richten Sie den Livestream in den Einstellungen ein, um von hier live zu gehen</string>
+    <string name="liveview_details_record_hint_rail">Mit „Aufnehmen“ in der Leiste diese Fahrt speichern</string>
+    <string name="liveview_details_record_hint_tap">Auf „Aufnehmen“ tippen, um diese Fahrt zu speichern</string>
+    <string name="liveview_details_go_live_hint_rail">Mit „Live gehen“ streamen, was Live View zeigt</string>
+    <string name="liveview_details_go_live_hint_tap">Auf „Live gehen“ tippen, um zu streamen, was Live View zeigt</string>
+    <string name="liveview_details_map_credits">Kartenquellen</string>
+    <string name="liveview_details_map_credits_subtitle">OpenStreetMap und die anderen Quellen der Karte</string>
+    <string name="liveview_details_recording_timer">Aufnahme · %1$s</string>
+    <string name="liveview_details_not_recording">Keine Aufnahme</string>
+    <string name="liveview_details_recording_spoken">Aufnahme, %1$s</string>
+    <string name="liveview_details_recording_detail">Erstellen Sie die Wiedergabe unter Aufnahmen, wenn Sie geparkt haben</string>
+    <string name="liveview_details_not_streaming">Kein Livestream</string>
+    <string name="liveview_details_stream_starting">Livestream startet…</string>
+    <string name="liveview_details_streaming_timer">Live · %1$s</string>
+    <string name="liveview_details_stream_reconnecting">Stream verbindet neu…</string>
+    <string name="liveview_details_streaming_spoken">Live, %1$s</string>
+    <string name="liveview_details_share_watch_link_label">Zuschauer-Link teilen</string>
+    <string name="liveview_details_share_watch_link">Link teilen</string>
+    <string name="liveview_header_title">Live View</string>
+    <string name="liveview_exit">Live View verlassen</string>
+    <string name="liveview_link_recordings">Aufnahmen</string>
+    <string name="liveview_link_device_settings">Einstellungen des Geräts</string>
+
+    <!-- The stream's pill (LiveStreamStatus.pill). -->
+    <string name="liveview_pill_live">Live</string>
+    <string name="liveview_pill_delayed">Verzögert</string>
+    <string name="liveview_pill_connecting">Verbinden</string>
+    <string name="liveview_pill_reconnecting">Neu verbinden</string>
+    <string name="liveview_pill_offline">Offline</string>
+    <string name="liveview_pill_in_use">Belegt</string>
+
+    <!-- The folded sheet's line (peekSummary), its parts joined with " · ". -->
+    <string name="liveview_peek_live">Live</string>
+    <string name="liveview_peek_delayed">Video verzögert</string>
+    <string name="liveview_peek_connecting">Verbinden</string>
+    <string name="liveview_peek_reconnecting">Neu verbinden</string>
+    <string name="liveview_peek_offline">Offline</string>
+    <string name="liveview_peek_in_use">Auf anderem Gerät in Nutzung</string>
+    <string name="liveview_peek_recording">Aufnahme %1$s</string>
+    <string name="liveview_peek_not_recording">Keine Aufnahme</string>
+    <string name="liveview_peek_streaming_timer">Live %1$s</string>
+    <string name="liveview_peek_streaming">Live</string>
+
+
+
+    <!-- Details' facts (LiveViewDetails). -->
+    <string name="liveview_health_good">Gut</string>
+    <string name="liveview_health_choppy">Ruckelig</string>
+    <string name="liveview_health_stalled">Stockt</string>
+    <string name="liveview_readout_stream_health">Stream-Zustand</string>
+    <string name="liveview_readout_stream">Stream</string>
+    <string name="liveview_readout_video">Video</string>
+    <string name="liveview_readout_runtime">Runtime</string>
+    <string name="liveview_readout_software">Software</string>
+    <string name="liveview_readout_comma_ip">comma-IP</string>
+    <string name="liveview_on">An</string>
+    <string name="liveview_off">Aus</string>
+
+    <!-- A running time as a screen reader says it, its parts joined with a space: "1 minute 5 seconds". -->
+    <plurals name="liveview_timer_hours">
+        <item quantity="one">%1$d Stunde</item>
+        <item quantity="other">%1$d Stunden</item>
+    </plurals>
+    <plurals name="liveview_timer_minutes">
+        <item quantity="one">%1$d Minute</item>
+        <item quantity="other">%1$d Minuten</item>
+    </plurals>
+    <plurals name="liveview_timer_seconds">
+        <item quantity="one">%1$d Sekunde</item>
+        <item quantity="other">%1$d Sekunden</item>
+    </plurals>
+
+    <!-- Go live's row in Details (liveBroadcast). -->
+    <string name="liveview_broadcast_making_youtube">YouTube-Übertragung wird erstellt</string>
+    <string name="liveview_broadcast_connecting_youtube">Verbindung mit YouTube</string>
+    <string name="liveview_broadcast_connecting_server">Verbindung mit dem Server</string>
+
+    <!-- %1$s names the network the stream goes out on (Wi‑Fi, mobile data). -->
+    <string name="liveview_broadcast_over_network">über %1$s</string>
+    <string name="liveview_broadcast_attempt">Versuch %1$d: %2$s</string>
+    <string name="liveview_live_copy_shared_notice">Live-Kopie aus Ihrem Stream wird aufgenommen: in der Qualität des Streams, %1$s</string>
+    <string name="liveview_stream_from_live_copy_notice">Live mit dem Bild der Live-Kopie in %1$s, bei %2$s Ihres Streams</string>
+
+
+    <!-- Live View's controls: the rail, the upright bar and More's menu (CockpitNavigation), and the car's (LiveCarScreenControls). -->
+    <string name="liveview_controls_description">Bedienelemente von Live View</string>
+    <string name="liveview_rail_video_delayed">Video verzögert</string>
+    <string name="liveview_rail_live">Live</string>
+    <string name="liveview_control_record">Aufnehmen</string>
+    <string name="liveview_control_starting">Startet…</string>
+    <string name="liveview_control_starting_recording">Aufnahme startet</string>
+    <string name="liveview_control_stop_recording">Aufnahme stoppen, %1$s</string>
+    <string name="liveview_control_save">Speichern</string>
+    <string name="liveview_control_saved">Gespeichert</string>
+    <string name="liveview_control_save_description">Diesen Moment speichern</string>
+    <string name="liveview_control_saved_description">Moment gespeichert. Tippen, um eine weitere Minute zu behalten</string>
+    <string name="liveview_control_save_last_minutes">Letzte 3 Minuten</string>
+    <string name="liveview_control_onroad_screen">Fahransicht</string>
+    <string name="liveview_control_switch_screen">Fahransicht wechseln</string>
+
+    <!-- %1$s is the onroad screen's name. -->
+    <string name="liveview_control_switch_screen_named">Fahransicht wechseln, %1$s</string>
+    <string name="liveview_control_go_live">Live gehen</string>
+    <string name="liveview_control_go_live_description">Live gehen, streamen, was Live View zeigt</string>
+    <string name="liveview_control_retrying">Neuer Versuch</string>
+    <string name="liveview_control_stream_starting_description">Livestream startet. Livestream stoppen</string>
+    <string name="liveview_control_stream_live_description">Livestream stoppen, live seit %1$s</string>
+    <string name="liveview_control_stream_retrying_description">Livestream verbindet neu. Livestream stoppen</string>
+    <string name="liveview_control_driver_cam">Fahrercam</string>
+    <string name="liveview_control_pip_live">Live</string>
+    <string name="liveview_control_pip_description">Fahrerkamera als Bild-im-Bild</string>
+    <string name="liveview_control_pip_streamed_description">Fahrerkamera als Bild-im-Bild. Zuschauer Ihres Livestreams sehen die Fahrerkamera</string>
+    <string name="liveview_control_details">Details</string>
+    <string name="liveview_control_showing">Sichtbar</string>
+    <string name="liveview_control_more">Mehr</string>
+    <string name="liveview_control_more_description">Weitere Bedienelemente, %1$d</string>
+    <string name="liveview_control_more_controls">Weitere Bedienelemente</string>
+    <string name="liveview_control_exit">Verlassen</string>
+
+    <!-- The stepper of pairing and setup: %1$d is the step, %2$d how many, %3$s its name. -->
+    <string name="liveview_stepper_step_named">Schritt %1$d von %2$d · %3$s</string>
+    <string name="liveview_stepper_step_spoken">Schritt %1$d von %2$d, %3$s</string>
+
+    <!-- Live View's own messages (MainActivity). -->
+    <string name="liveview_offroad_logo">CommaView-Logo</string>
+    <string name="liveview_offroad_title">Ihr comma ist online, fährt aber nicht</string>
+    <string name="liveview_offroad_detail">Die Live-Kamera startet, wenn %1$s losfährt. Sie können Einstellungen verwalten oder aktualisieren, wenn das Auto bereit ist.</string>
+    <string name="liveview_offroad_ip_address">IP-Adresse</string>
+    <string name="liveview_offroad_refresh">Aktualisieren</string>
+    <string name="liveview_offroad_refreshing">Wird aktualisiert…</string>
+    <string name="liveview_sign_in_done">Angemeldet</string>
+    <string name="liveview_sign_in_cancelled">Anmeldung abgebrochen</string>
+    <string name="liveview_sign_in_unfinished">Anmeldung nicht abgeschlossen. Melden Sie sich erneut an.</string>
+    <string name="liveview_replay_limit_live_copy_continues">Die Wiedergabe hat ihr Limit von 10 Minuten erreicht. Die Live-Kopie nimmt weiter auf.</string>
+    <string name="liveview_source_timing_saved">Quell-Timing gespeichert. Parken Sie und erstellen Sie dann die Wiedergabe unter Aufnahmen</string>
+    <string name="liveview_source_timing_started">Erfassung des Quell-Timings gestartet; das Video bleibt auf dem comma</string>
+    <string name="liveview_recording_storage_unavailable">Speicher für Aufnahmen nicht verfügbar</string>
+    <string name="liveview_recording_unable_to_start">Aufnahme lässt sich nicht starten</string>
+    <string name="liveview_recording_live_copy_only">Es wird nur eine Live-Kopie aufgenommen. Die Wiedergabe konnte nicht starten: %1$s</string>
+    <string name="liveview_recording_report">Melden</string>
+    <string name="liveview_share_live_stream">Livestream teilen</string>
+
+    <!-- Why Browser View's VPN address is off (CarScreenVpn). -->
+    <string name="liveview_vpn_android_didnt_start">Android hat sein VPN nicht gestartet</string>
+    <string name="liveview_vpn_android_refused">Android hat CommaView nicht erlaubt, sein VPN einzurichten</string>
+    <string name="liveview_vpn_cant_ask">Android kann nicht fragen, ob das VPN eingerichtet werden darf</string>
+    <string name="liveview_vpn_couldnt_start">Die VPN-Adresse konnte nicht starten: %1$s. Sonst hat sich auf diesem %2$s nichts geändert, und die anderen Adressen von Browser View funktionieren weiter. Schalten Sie sie ein, um es erneut zu versuchen.</string>
+    <string name="liveview_vpn_declined">Die VPN-Adresse braucht die Zustimmung von Android für das VPN von CommaView, das keinen Datenverkehr leitet. Sie bleibt aus</string>
+    <string name="liveview_vpn_needs_consent">Die VPN-Adresse ist aus: Android braucht erneut Ihre Zustimmung für das VPN. Schalten Sie sie ein, um zuzustimmen</string>
+    <string name="liveview_vpn_revoked">Die VPN-Adresse ist aus: Ein anderes VPN wurde gestartet oder es wurde in den Einstellungen ausgeschaltet</string>
+
+    <!-- Live View's status panel's actions and the screens before it (LiveViewAvailability, LiveViewRebootRequired, LiveViewVersionTooOld). -->
+    <string name="liveview_back_to_home">Zurück zum Start</string>
+    <string name="liveview_back">Zurück</string>
+    <string name="liveview_retry">Erneut versuchen</string>
+    <string name="liveview_retry_now">Jetzt erneut versuchen</string>
+    <string name="liveview_keep_watching">Weiter ansehen</string>
+    <string name="liveview_reboot_comma">comma neu starten</string>
+    <string name="liveview_alert_spoken">Hinweis: %1$s</string>
+    <string name="liveview_video_note_logging_disabled">„Disable Logging“ stoppt den Video-Encoder des comma. Schalten Sie „Disable Logging“ in den Einstellungen des Forks aus, um Live View zu nutzen.</string>
+
+
+
+
+
+    <!-- Settings › Language's offer of the connected comma's language (LanguageSetting): %1$s is that language, named in itself. -->
+    <string name="liveview_comma_language_offer">Ihr comma ist auf %1$s eingestellt. Auch für CommaView nutzen?</string>
+    <string name="liveview_comma_language_use">%1$s nutzen</string>
+    <string name="liveview_rail_live_word">LIVE</string>
+    <string name="liveview_rail_delayed_word">VERZÖGERT</string>
+
+    <!-- A summary tile, as TalkBack reads it: %1$s its label, %2$s its value. -->
+    <string name="liveview_summary_tile_said">%1$s, %2$s</string>
+    <string name="liveview_vpn_android_setup_failed">Android konnte das VPN von CommaView nicht einrichten</string>
+    <string name="liveview_vpn_details_clip">Fehler der VPN-Adresse von CommaView</string>
+    <string name="liveview_details_copied">Details kopiert</string>
+</resources>

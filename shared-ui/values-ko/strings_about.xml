@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- about: 한국어. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-ko.md and openpilot's selfdrive/ui/translations/app_ko.po. -->
+<resources>
+
+    <!-- AppUpdateHeaderButton: what TalkBack says of the header's app update button. -->
+    <string name="about_header_update_commaview">CommaView 업데이트</string>
+    <string name="about_header_update_progress">CommaView 업데이트: %1$s</string>
+    <string name="about_header_install_update">CommaView 업데이트 설치</string>
+
+    <!-- SettingsComponents: a settings page's back button. -->
+    <string name="about_settings_back">뒤로</string>
+</resources>

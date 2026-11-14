@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- display: ไทย (Thai). Machine drafted with docs/localization/glossary-th.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- How the onroad screen is sized into this phone's (shared: OnroadPreviewScaleMode, through SharedWords). -->
+    <string name="display_framing_automatic">อัตโนมัติ</string>
+    <string name="display_framing_automatic_detail">ตามแต่ละดีไซน์: comma four ใช้เฟรมตามจริง หน้าจอ comma 3 ขยายให้เต็ม CommaView เต็มจอแนวนอน</string>
+    <string name="display_framing_exact">ตามจริง</string>
+    <string name="display_framing_exact_detail">รูปทรงและเฟรมของดีไซน์ตามจริงทุกประการ มีแถบดำเมื่อรูปทรงของหน้าจอนี้ต่างกัน</string>
+    <string name="display_framing_extend">ขยาย</string>
+    <string name="display_framing_extend_detail">ไม่มีแถบ: ดีไซน์คงขนาดเดิมและแสดงภาพกล้องมากขึ้นเมื่อหน้าจอนี้กว้างหรือสูงกว่า</string>
+    <string name="display_framing_fill">เต็มจอ</string>
+    <string name="display_framing_fill_detail">เติมเต็มพื้นที่แสดงผลโดยครอปเฟรมของดีไซน์</string>
+
+    <!-- The designs' names, notes and options in Display's picker (shared: the designs, through SharedWords). -->
+    <string name="display_design_commaview_note">เส้นทางที่ลื่นไหล การล็อกเป้ารถคันหน้า และความเร็ว สถานะ และการแจ้งเตือนของ CommaView เอง เต็มจอแนวนอนหรือแสดงภาพกล้องทั้งหมด</string>
+    <string name="display_commaview_framing">การจัดเฟรมกล้อง</string>
+    <string name="display_commaview_framing_detail">เลือกวิธีที่ CommaView ใช้จอแนวนอน</string>
+    <string name="display_commaview_full_camera">กล้องเต็มภาพ</string>
+    <string name="display_commaview_full_camera_detail">แสดงภาพกล้องทั้งหมด มีแถบดำเมื่อจำเป็น</string>
+    <string name="display_commaview_fill_detail">เติมเต็มจอแนวนอนโดยครอปภาพกล้อง แนวตั้งจะแสดงภาพกล้องทั้งหมด</string>
+    <string name="display_design_comma3x_note">หน้าจอ comma 3X: กรอบสถานะ กล่อง MAX ความเร็วตัวใหญ่ และการแจ้งเตือนด้านล่าง</string>
+    <string name="display_design_comma4_note">หน้าจอ comma four: MAX อยู่เหนือถนนเมื่อเปลี่ยนค่า พร้อมพวงมาลัยและค่าความมั่นใจด้านข้าง</string>
+    <string name="display_comma4_framing">การจัดเฟรมตัวอย่าง</string>
+    <string name="display_comma4_framing_detail">ใช้เฟรมตรงกับ comma four แสดงภาพกล้องมากขึ้น หรือครอปให้เต็มหน้าจอนี้</string>
+
+    <!-- Display › Daylight contrast (DaylightSection). -->
+    <string name="display_daylight_title">คอนทราสต์กลางวัน</string>
+    <string name="display_daylight_subtitle">ข้อความและเส้นสว่างขึ้นเมื่อแดดจ้าหรือแสงสะท้อน</string>
+    <string name="display_daylight_no_sensor">%1$s %2$sไม่มีเซนเซอร์แสง จึงไม่มีโหมดอัตโนมัติ</string>
+    <string name="display_daylight_note">วิดีโอและ HUD คงสีเดิม</string>
+
+    <!-- Display › Screen edges (ScreenEdgesSection). -->
+    <string name="display_screen_edges_title">ขอบจอ</string>
+    <string name="display_screen_edges_subtitle">ขยับแอปเข้ามาจากขอบที่หน้าจอรถตัดออก</string>
+    <string name="display_screen_edges_how">ขยับขอบแต่ละด้านเข้ามาจนเห็นเส้นรอบทั้งหมด ใช้เฉพาะกับหน้าจอรถที่ตัดขอบภาพออก</string>
+    <string name="display_screen_edges_reset">รีเซ็ต</string>
+    <string name="display_screen_edges_done">เสร็จสิ้น</string>
+
+    <!-- %1$s is an edge's name in lower case (top, bottom, left, right). -->
+    <string name="display_screen_edges_move_out">ขยับขอบ%1$sออก</string>
+    <string name="display_screen_edges_move_in">ขยับขอบ%1$sเข้า</string>
+    <string name="display_screen_edges_dp">%1$d dp</string>
+    <string name="display_screen_edges_from_edge">%1$d dp จากขอบ%2$s</string>
+</resources>

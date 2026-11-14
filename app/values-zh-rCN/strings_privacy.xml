@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- privacy: 简体中文（中国大陆）. Machine drafted with docs/localization/glossary-zh-rCN.md; not yet reviewed by a native speaker. -->
+<resources>
+    <!-- Settings › Privacy & sharing (PrivacySharingPage). -->
+    <string name="privacy_improve_supporting">发送崩溃和问题报告、您的 comma 运行哪种驾驶软件，以及 Live View 能否在%1$s或车载屏幕上播放。绝不发送视频、行程、地点或名称。</string>
+    <string name="privacy_improve_supporting_no_reports">发送崩溃和问题报告、您的 comma 运行哪种驾驶软件，以及 Live View 能否在%1$s或车载屏幕上播放。绝不发送视频、行程、地点或名称。此版本不会发送崩溃报告。</string>
+    <string name="privacy_car_detection">车辆检测</string>
+    <string name="privacy_car_detection_label">使用我发送的录像来改进车辆检测</string>
+    <string name="privacy_contribute_automatically">自动贡献行程</string>
+    <string name="privacy_contribute_automatically_supporting">当%1$s和 comma 连上您在下方允许的网络时，comma 最近的行程会在每日上限内上传。省电模式下，或正在使用 Live View 或录制时不会上传。</string>
+    <string name="privacy_contribute_needs_runtime">贡献行程需要 comma 上安装最新的 CommaView 运行环境。请在“设备设置”中更新。</string>
+    <string name="privacy_upload_networks">上传贡献的网络</string>
+    <string name="privacy_upload_networks_supporting">在%1$s看来，热点常常像家里的 Wi‑Fi，所以由 comma 告知它连的是哪个 Wi‑Fi。这适用于每一次贡献。</string>
+    <string name="privacy_any_wifi_supporting">%1$s判定为不计量的 Wi‑Fi；自动贡献时 comma 也需连在上面</string>
+    <string name="privacy_chosen_networks_supporting">您在下方勾选的网络，每个都可设置每月上限</string>
+    <string name="privacy_mobile_data">移动数据</string>
+    <string name="privacy_mobile_data_supporting">%1$s本身的，例如 comma 连接它的热点时</string>
+    <string name="privacy_network_limit_hint">计量网络：设置上限可让贡献不超出套餐流量</string>
+    <string name="privacy_no_monthly_limit">无每月上限</string>
+    <string name="privacy_monthly_limit">每月上限 · %1$s</string>
+    <string name="privacy_limit_reached">已达上限 · %1$s</string>
+    <string name="privacy_limit_on_mobile_data">移动数据的每月上限</string>
+    <string name="privacy_limit_on_wifi">%1$s 的每月上限</string>
+    <string name="privacy_limit_text_mobile_data">每分钟行程的贡献约 110 MB。达到此用量时，移动数据上的贡献会暂停到下个月 1 日。您发送给 CommaView 的录像不计入。</string>
+    <string name="privacy_limit_text_wifi">每分钟行程的贡献约 110 MB。达到此用量时，此 Wi‑Fi 上的贡献会暂停到下个月 1 日。您发送给 CommaView 的录像不计入。</string>
+    <string name="privacy_nothing_this_month">本月尚无用量</string>
+    <string name="privacy_comma_wifi_listed">您的 comma 已保存的 Wi‑Fi。请选择用于上传的网络。</string>
+    <string name="privacy_comma_wifi_asking">正在询问 comma 已保存了哪些 Wi‑Fi…</string>
+    <string name="privacy_comma_wifi_unreachable">目前无法连接您的 comma。连接后，它已保存的 Wi‑Fi 会显示在这里。</string>
+    <string name="privacy_comma_wifi_update_runtime">请更新 comma 的运行环境，才能看到它已保存的所有 Wi‑Fi。</string>
+    <string name="privacy_comma_on_it_now">您的 comma 目前连在此网络上</string>
+    <string name="privacy_not_saved_on_comma">未保存在您的 comma 上</string>
+    <string name="privacy_metered">计量</string>
+    <string name="privacy_comma_wifi_runtime_too_old">请更新 comma 的运行环境，才能选择 Wi‑Fi 网络。</string>
+    <string name="privacy_comma_wifi_kept">截至 %1$s，您的 comma 已保存的 Wi‑Fi。请选择用于上传的网络。</string>
+    <string name="privacy_comma_wifi_not_paired">请将 comma 与%1$s配对，才能看到它已保存的 Wi‑Fi。</string>
+    <string name="privacy_comma_wifi_forgot_phone">您的 comma 已不再识别%1$s。请重新配对，才能看到它已保存的 Wi‑Fi。</string>
+    <string name="privacy_comma_wifi_none">您的 comma 尚未保存任何 Wi‑Fi。</string>
+    <string name="privacy_comma_wifi_recent">您的 comma 最近使用过的 Wi‑Fi。请选择用于上传的网络。</string>
+    <string name="privacy_comma_wifi_read_failed">您的 comma 目前无法读取它的 Wi‑Fi。</string>
+    <string name="privacy_comma_wifi_list_failed">您的 comma 目前无法列出它已保存的 Wi‑Fi。</string>
+</resources>

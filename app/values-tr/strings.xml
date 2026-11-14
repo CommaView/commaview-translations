@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Türkçe. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-tr.md and openpilot's selfdrive/ui/translations/app_tr.po. -->
+<resources>
+
+    <!-- The home dock and rail (HomeSection). -->
+    <string name="nav_home">Ana sayfa</string>
+    <string name="nav_recordings">Kayıtlar</string>
+    <string name="nav_settings">Ayarlar</string>
+
+    <!-- Settings' pages, as each is titled (GlobalSettingsPage, DeviceSettingsPage). -->
+    <string name="settings_page_hub">Ayarlar</string>
+    <string name="settings_page_display">Ekran</string>
+    <string name="settings_page_offline_maps">Çevrimdışı haritalar</string>
+    <string name="settings_page_maps_navigation">Haritalar ve navigasyon</string>
+    <string name="settings_page_choose_home">Ev konumunu seçin</string>
+    <string name="settings_page_choose_work">İş konumunu seçin</string>
+    <string name="settings_page_recordings">Kayıtlar</string>
+    <string name="settings_page_sound">Ses</string>
+    <string name="settings_page_live_streaming">Canlı yayın</string>
+    <string name="settings_page_destination">Yayın hedefi</string>
+    <string name="settings_page_title_description">Başlık ve açıklama</string>
+    <string name="settings_page_account">Hesap</string>
+    <string name="settings_page_privacy">Gizlilik ve paylaşım</string>
+    <string name="settings_page_support">Destek ve tanılama</string>
+    <string name="settings_page_about">Hakkında</string>
+    <string name="settings_page_licenses">Açık kaynak lisansları</string>
+    <string name="settings_page_license">Lisans</string>
+    <string name="settings_page_device">Cihaz ayarları</string>
+    <string name="settings_page_device_facts">Ad ve adres</string>
+    <string name="settings_page_device_network">Ağ</string>
+    <string name="settings_page_device_pairing">Başka bir telefon eşleştir</string>
+    <string name="settings_page_device_runtime">Çalışma ortamı</string>
+
+    <!-- The Settings hub's rows, under each title. -->
+    <string name="settings_hub_display_subtitle">Sürüş ekranı ve seçenekleri, sürücü konumu ve gün ışığı</string>
+    <string name="settings_hub_maps_navigation_key_subtitle">Çevrimdışı haritalar ve kendi Stadia Maps anahtarınızla navigasyon</string>
+    <string name="settings_hub_offline_maps_subtitle">Bölge indirin, comma\'nızın konumuna göre hız sınırlarını gösterin</string>
+    <string name="settings_hub_live_streaming_subtitle">Live View\'dan YouTube\'a veya başka bir sunucuya canlı yayın yapın</string>
+    <string name="settings_hub_live_streaming_ready">Hazır</string>
+    <string name="settings_hub_live_streaming_set_up">Kur</string>
+    <string name="settings_hub_account_subtitle">Giriş ve beta güncellemeleri</string>
+    <string name="settings_hub_language_subtitle">CommaView\'un kendi metinlerinin dili</string>
+    <string name="settings_hub_privacy_subtitle">Neler %1$sdan çıkar</string>
+    <string name="settings_hub_support_subtitle">Sorun bildirin, projeyi destekleyin ve %1$sdaki tanılama</string>
+    <string name="settings_hub_about_subtitle">Sürüm ve güncellemeler</string>
+    <string name="settings_hub_about_update">Güncelle</string>
+
+    <!-- Settings › Language (LanguageSetting.kt). -->
+    <string name="language_title">Dil</string>
+    <string name="language_follow_phone">Telefonun dili</string>
+    <!-- The row's value while the app follows the phone: %1$s is the language that gives, in itself. -->
+    <string name="language_follow_phone_value">Telefonun dili (%1$s)</string>
+    <string name="language_follow_phone_detail">CommaView\'da varsa telefonunuzun dilini, yoksa İngilizceyi kullanır</string>
+    <string name="language_comma_screens_note">Live View\'daki comma ekranları, aracınızın gösterdiği gibi comma\'nızın dilinde kalır.</string>
+    <string name="language_choose_label">Uygulamanın dilini seçin</string>
+    <string name="settings_translation_notice">CommaView\'un %1$s sürümü makine çevirisidir.</string>
+    <string name="settings_translation_notice_link">Geliştirmeye yardım edin</string>
+    <string name="settings_translation_notice_close">Çeviri bildirimini kapat</string>
+    <string name="language_machine_translated">Makine çevirisi</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- about: Français (French). Machine drafted with docs/localization/glossary-fr.md; not yet reviewed by a native speaker. -->
+<resources>
+    <!-- Settings › About's app update (AppUpdatePresentation: word(), as the header button shows them). -->
+    <string name="about_header_update">Mettre à jour</string>
+    <string name="about_header_downloading">Téléchargement</string>
+    <string name="about_header_downloading_percent">Téléchargement %1$s</string>
+    <string name="about_header_verifying">Vérification</string>
+    <string name="about_header_installing">Installation</string>
+    <string name="about_header_install">Installer</string>
+    <string name="about_header_retry">Réessayer la mise à jour</string>
+    <string name="about_update_dev_build">Version dev</string>
+    <string name="about_update_car_test_detail">L\'application Car Test. Les versions dev plus récentes viennent de votre compte de staging.</string>
+    <string name="about_update_installed">Installée : %1$s</string>
+    <string name="about_update_unable_to_check">Vérification impossible</string>
+    <string name="about_update_available">Mise à jour disponible</string>
+    <string name="about_update_latest">Dernière : %1$s</string>
+    <string name="about_update_up_to_date">À jour</string>
+    <string name="about_update_dev_available">Version dev disponible</string>
+    <string name="about_update_dev_version_available">Version dev %1$s disponible</string>
+    <string name="about_update_dev_status">Version dev : l\'application Car Test de staging</string>
+    <string name="about_update_dev_detail">S\'installe depuis votre compte de staging.</string>
+    <string name="about_update_alpha_available">Alpha disponible</string>
+    <string name="about_update_alpha_version_available">Alpha %1$s disponible</string>
+    <string name="about_update_alpha_status">Alpha : une version précoce pour les testeurs</string>
+    <string name="about_update_account_detail">S\'installe depuis votre compte CommaView.</string>
+    <string name="about_update_unable_to_open">Impossible d\'ouvrir le téléchargement de l\'application</string>
+
+    <!-- Open-source licenses (OpenSourceLicensesPage). The licences, and sunnypilot's acknowledgement, stay as written. -->
+    <string name="about_licenses_row_supporting">Les logiciels, polices, images et modèles avec lesquels CommaView est conçu, et leurs licences</string>
+    <string name="about_licenses_intro">CommaView utilise le travail de ces projets. Touchez-en un pour lire sa licence.</string>
+    <string name="about_licenses_driving_software">Logiciels de conduite</string>
+    <string name="about_licenses_maps">Cartes</string>
+    <string name="about_licenses_fonts">Polices</string>
+    <string name="about_license_openpilot">comma.ai · Licence MIT. La disposition, les icônes et les polices de l\'écran de conduite.</string>
+    <string name="about_license_sunnypilot">Haibin Wen et SUNNYPILOT LLC · licence spécifique. Les ajouts et icônes de conduite de sunnypilot.</string>
+    <string name="about_license_starpilot">firestar5683 et les contributeurs de StarPilot · Licence MIT. Les ajouts, icônes et polices de conduite de StarPilot.</string>
+    <string name="about_license_carrotpilot">Licence MIT. Le fond de vitesse de carrotpilot.</string>
+    <string name="about_license_mapd">Jacob Pfeifer · Licence MIT. Les données routières et les régions des cartes hors ligne.</string>
+    <string name="about_license_maplibre_android">Contributeurs de MapLibre · Licence BSD 2-Clause. Dessine la carte.</string>
+    <string name="about_license_maplibre_core">Le cœur du moteur de rendu de la carte et les bibliothèques qu\'il utilise.</string>
+    <string name="about_license_icu">Unicode, Inc. · Licence ICU. Le texte des libellés de la carte, dans MapLibre.</string>
+    <string name="about_license_barlow">SIL Open Font License 1.1. La police de CommaView.</string>
+    <string name="about_license_inter">SIL Open Font License 1.1. La police de l\'écran de conduite.</string>
+    <string name="about_license_fork_translations_title">Les traductions des forks</string>
+    <string name="about_license_fork_translations">Licence MIT et celles des forks. Leurs mots de conduite dans la langue du comma.</string>
+    <string name="about_license_noto_sans">Adobe et les auteurs du projet Noto · SIL Open Font License 1.1. La police de conduite d\'openpilot en chinois, japonais, coréen et thaï.</string>
+    <string name="about_license_unifont">Roman Czyborra, Paul Hardy et al. · SIL Open Font License 1.1. La police de conduite des forks en chinois, japonais, coréen et thaï.</string>
+    <string name="about_license_kaigen_gothic">Ming-Hsien Lin et Adobe · SIL Open Font License 1.1. La police de conduite de carrotpilot.</string>
+    <string name="about_license_efficientdet_lite">Les auteurs de TensorFlow · Licence Apache 2.0. Le modèle de détection général de Surround.</string>
+    <string name="about_license_qnn">Qualcomm Technologies, Inc. · mentions pour le runtime DSP du détecteur.</string>
+    <string name="about_license">Licence</string>
+    <string name="about_license_unreadable">Impossible de lire cette licence sur %1$s.</string>
+
+    <!-- The policy notice (LegalNoticeDialog, legal/LegalNotices). What changed comes from commaview.com as it's written there. -->
+    <string name="about_legal_read_it">Lire</string>
+    <string name="about_legal_agree">Accepter</string>
+    <string name="about_legal_leaderboard">Classement</string>
+    <string name="about_legal_no_changes">Voir les changements sur sa page.</string>
+    <string name="about_legal_privacy_policy">Politique de confidentialité</string>
+    <string name="about_legal_terms">Conditions</string>
+    <string name="about_legal_read_privacy">Lire la politique de confidentialité</string>
+    <string name="about_legal_read_terms">Lire les conditions</string>
+    <string name="about_legal_document_dated">%1$s · %2$s</string>
+    <string name="about_legal_leaderboard_changed">Ce que le classement partage a changé</string>
+    <string name="about_legal_both_updated">Politique de confidentialité et conditions mises à jour</string>
+    <string name="about_legal_terms_updated">Conditions mises à jour</string>
+    <string name="about_legal_privacy_updated">Politique de confidentialité mise à jour</string>
+</resources>

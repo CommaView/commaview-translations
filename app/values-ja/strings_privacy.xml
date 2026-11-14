@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- privacy: 日本語 (Japanese). Machine drafted with docs/localization/glossary-ja.md; not yet reviewed by a native speaker. -->
+<resources>
+    <!-- Settings › Privacy & sharing (PrivacySharingPage). -->
+    <string name="privacy_improve_supporting">クラッシュと問題のレポート、comma で動いている運転支援ソフトウェアの種類、Live View を%1$sと車の画面のどちらで再生しているかを送信します。映像、ドライブ、場所、名前は一切送信しません。</string>
+    <string name="privacy_improve_supporting_no_reports">クラッシュと問題のレポート、comma で動いている運転支援ソフトウェアの種類、Live View を%1$sと車の画面のどちらで再生しているかを送信します。映像、ドライブ、場所、名前は一切送信しません。このビルドはクラッシュレポートを送信しません。</string>
+    <string name="privacy_car_detection">車両検出</string>
+    <string name="privacy_car_detection_label">送信した録画を車両検出の改善に使用する</string>
+    <string name="privacy_contribute_automatically">ドライブを自動で提供</string>
+    <string name="privacy_contribute_automatically_supporting">%1$sと comma の両方が下で許可したネットワークにつながっているとき、comma の最近のドライブを 1 日の上限まで送信します。バッテリーセーバー中や、Live View の使用中・録画中は送信しません。</string>
+    <string name="privacy_contribute_needs_runtime">ドライブの提供には、comma に最新の CommaView ランタイムが必要です。デバイス設定でアップデートしてください。</string>
+    <string name="privacy_upload_networks">提供データのアップロード先ネットワーク</string>
+    <string name="privacy_upload_networks_supporting">テザリングは%1$sからは自宅の Wi-Fi のように見えることが多いため、comma がどの Wi-Fi につながっているかを伝えます。すべての提供に適用されます。</string>
+    <string name="privacy_any_wifi_supporting">%1$sが従量課金ではないと判断した Wi-Fi（自動送信では comma も接続している場合）</string>
+    <string name="privacy_chosen_networks_supporting">下でチェックしたネットワーク。必要なら、それぞれに月間上限を設定できます</string>
+    <string name="privacy_mobile_data">モバイルデータ</string>
+    <string name="privacy_mobile_data_supporting">%1$s自身の回線（comma がそのテザリングにつながっている場合など）</string>
+    <string name="privacy_network_limit_hint">従量課金：上限を設定すると提供データを料金プランの範囲内に収めます</string>
+    <string name="privacy_no_monthly_limit">月間上限なし</string>
+    <string name="privacy_monthly_limit">月間上限 · %1$s</string>
+    <string name="privacy_limit_reached">上限に達しました · %1$s</string>
+    <string name="privacy_limit_on_mobile_data">モバイルデータの月間上限</string>
+    <string name="privacy_limit_on_wifi">%1$s の月間上限</string>
+    <string name="privacy_limit_text_mobile_data">提供データはドライブ 1 分あたり約 110 MB です。この量に達すると、翌月 1 日までモバイルデータでの提供を停止します。CommaView に送信する録画は含まれません。</string>
+    <string name="privacy_limit_text_wifi">提供データはドライブ 1 分あたり約 110 MB です。この量に達すると、翌月 1 日までこの Wi-Fi での提供を停止します。CommaView に送信する録画は含まれません。</string>
+    <string name="privacy_nothing_this_month">今月はまだありません</string>
+    <string name="privacy_comma_wifi_listed">comma に保存されている Wi-Fi です。アップロードに使うものを選んでください。</string>
+    <string name="privacy_comma_wifi_asking">comma に保存されている Wi-Fi を確認しています…</string>
+    <string name="privacy_comma_wifi_unreachable">現在 comma に接続できません。接続されると、保存されている Wi-Fi がここに表示されます。</string>
+    <string name="privacy_comma_wifi_update_runtime">comma に保存されているすべての Wi-Fi を表示するには、comma のランタイムをアップデートしてください。</string>
+    <string name="privacy_comma_on_it_now">comma が現在接続中</string>
+    <string name="privacy_not_saved_on_comma">comma に保存されていません</string>
+    <string name="privacy_metered">従量課金</string>
+    <string name="privacy_comma_wifi_runtime_too_old">Wi-Fi ネットワークを選ぶには、comma のランタイムをアップデートしてください。</string>
+    <string name="privacy_comma_wifi_kept">comma に保存されている Wi-Fi です（%1$s 時点）。アップロードに使うものを選んでください。</string>
+    <string name="privacy_comma_wifi_not_paired">comma に保存されている Wi-Fi を表示するには、comma を%1$sとペアリングしてください。</string>
+    <string name="privacy_comma_wifi_forgot_phone">comma は%1$sを認識しなくなりました。保存されている Wi-Fi を表示するには、もう一度ペアリングしてください。</string>
+    <string name="privacy_comma_wifi_none">comma にはまだ Wi-Fi が保存されていません。</string>
+    <string name="privacy_comma_wifi_recent">comma が最近使用した Wi-Fi です。アップロードに使うものを選んでください。</string>
+    <string name="privacy_comma_wifi_read_failed">現在 comma が Wi-Fi を読み取れませんでした。</string>
+    <string name="privacy_comma_wifi_list_failed">現在 comma が保存済みの Wi-Fi を一覧表示できませんでした。</string>
+</resources>

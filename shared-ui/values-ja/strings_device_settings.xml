@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- device_settings: 日本語 (Japanese). Machine drafted with docs/localization/glossary-ja.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- ForceOffroadConfirmation.kt: Safe Update, Safe Install and Safe Repair's countdown. -->
+    <string name="device_settings_safe_dialog_back">戻る</string>
+    <string name="device_settings_safe_dialog_ready">準備完了</string>
+    <string name="device_settings_safe_dialog_delay">安全のための待機</string>
+</resources>

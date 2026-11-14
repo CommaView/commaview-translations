@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- display: ไทย (Thai). Machine drafted with docs/localization/glossary-th.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- Display's choices (DisplayPreferences). -->
+    <string name="display_driver_side_auto">อัตโนมัติ</string>
+    <string name="display_driver_side_auto_detail">ใช้ฝั่งที่ comma รายงาน</string>
+    <string name="display_driver_side_lhd">พวงมาลัยซ้าย</string>
+    <string name="display_driver_side_lhd_detail">พวงมาลัยอยู่ด้านซ้าย</string>
+    <string name="display_driver_side_rhd">พวงมาลัยขวา</string>
+    <string name="display_driver_side_rhd_detail">พวงมาลัยอยู่ด้านขวา</string>
+    <string name="display_daylight_off">ปิด</string>
+    <string name="display_daylight_off_detail">สี Cockpit มาตรฐาน</string>
+    <string name="display_daylight_on">เปิด</string>
+    <string name="display_daylight_on_detail">ข้อความและเส้นสว่างขึ้น สำหรับแดดจ้าและแสงสะท้อน</string>
+    <string name="display_daylight_auto">อัตโนมัติ</string>
+    <string name="display_daylight_auto_detail">ข้อความและเส้นสว่างขึ้นเมื่อเซนเซอร์แสงของ%1$sตรวจพบแสงจ้า</string>
+    <string name="display_confidence_default">ค่าเริ่มต้น</string>
+    <string name="display_confidence_default_detail">ใช้แผงความมั่นใจขนาดมาตรฐาน</string>
+    <string name="display_confidence_75_detail">ย่อแผงความมั่นใจและลูกบอลลงเล็กน้อย</string>
+    <string name="display_confidence_50_detail">เพิ่มพื้นที่วิดีโอด้วยแผงความมั่นใจขนาดครึ่งหนึ่ง</string>
+    <string name="display_confidence_25_detail">ใช้แผงความมั่นใจและลูกบอลขนาดเล็กที่สุด</string>
+
+    <!-- Display's design options (DisplayOptions). -->
+    <string name="display_confidence_title">แผงความมั่นใจแบบกะทัดรัด</string>
+    <string name="display_confidence_subtitle">แผงและลูกบอลเล็กลง เพื่อพื้นที่วิดีโอมากขึ้น</string>
+    <string name="display_confidence_note">ย่อแผงความมั่นใจและลูกบอลเพื่อเพิ่มพื้นที่วิดีโอ</string>
+    <string name="display_driver_position_title">ตำแหน่งคนขับ</string>
+    <string name="display_driver_position_subtitle">สลับด้านปุ่มควบคุมในทุกหน้าจอ</string>
+    <string name="display_driver_position_note">เลือกฝั่งคนขับสำหรับการสลับด้านปุ่มควบคุม โหมดอัตโนมัติจะใช้ฝั่งที่ comma รายงานและจำไว้ใช้ครั้งต่อไป</string>
+
+    <!-- Settings › Display (DisplayPage). -->
+    <string name="display_title">การแสดงผล</string>
+    <string name="display_subtitle">ลักษณะของ Live View บน%1$s</string>
+    <string name="display_back_to_settings">กลับไปที่การตั้งค่า</string>
+    <string name="display_onroad_screen">หน้าจอขณะขับ</string>
+    <string name="display_design_options">ตัวเลือกของ %1$s</string>
+    <string name="display_reduce_motion">ลดการเคลื่อนไหว</string>
+    <string name="display_reduce_motion_detail">ให้เส้นทาง ความเร็ว และการล็อกเป้าของ CommaView อยู่นิ่ง “นำภาพเคลื่อนไหวออก” ของ Android ก็ทำเช่นเดียวกัน</string>
+    <string name="display_design_no_options">หน้าจอ %1$s ไม่มีตัวเลือกของตัวเอง โดยวาดเหมือนที่ comma วาด</string>
+    <string name="display_on_every_screen">ในทุกหน้าจอ</string>
+    <string name="display_opening_live_view">กำลังเปิด Live View</string>
+    <string name="display_preview">ตัวอย่าง</string>
+    <string name="display_preview_engaged">เข้าควบคุม</string>
+    <string name="display_preview_override">ผู้ขับควบคุมเอง</string>
+    <string name="display_preview_disengaged">ยกเลิกระบบช่วยขับ</string>
+    <string name="display_safety_title">สีด้านความปลอดภัยคงเดิม</string>
+    <string name="display_safety_detail">การแจ้งเตือน คำเตือน และสถานะการเฝ้าระวังผู้ขับขี่ใช้สีของ comma เสมอ การเล่นซ้ำที่คุณสร้างในการบันทึกจะดูเหมือน Live View ขณะที่คุณบันทึก</string>
+
+    <!-- Display › Screen edges' value (ScreenEdges). -->
+    <string name="display_screen_edges_off">ปิด</string>
+    <string name="display_screen_edges_all_round">%1$d dp ทุกด้าน</string>
+
+    <!-- %1$s lists each edge that has a margin with its figure: "Top 8 · Bottom 16". -->
+    <string name="display_screen_edges_each">%1$s dp</string>
+    <string name="display_screen_edge_top">บน</string>
+    <string name="display_screen_edge_bottom">ล่าง</string>
+    <string name="display_screen_edge_left">ซ้าย</string>
+    <string name="display_screen_edge_right">ขวา</string>
+
+    <!-- The preview's description for TalkBack (HudPreview): %1$s is the onroad screen's name. -->
+    <string name="display_hud_preview_engaged">ตัวอย่างหน้าจอ %1$s ขณะเข้าควบคุม</string>
+    <string name="display_hud_preview_override">ตัวอย่างหน้าจอ %1$s ขณะผู้ขับควบคุมเอง</string>
+    <string name="display_hud_preview_not_engaged">ตัวอย่างหน้าจอ %1$s ขณะไม่ได้เข้าควบคุม</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- liveview: Українська (Ukrainian). Machine drafted with docs/localization/glossary-uk.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="liveview_media_max">МАКС</string>
+    <string name="liveview_media_set_speed">Задана швидкість %1$s</string>
+    <string name="liveview_media_current_speed">Поточна швидкість %1$s %2$s</string>
+    <string name="liveview_media_location_hidden">Місце приховано</string>
+    <string name="liveview_media_map_unavailable">Карта недоступна</string>
+    <string name="liveview_media_map_credits">Авторство карти: %1$s</string>
+    <string name="liveview_media_map_parked">Карта з місцем, де авто востаннє паркувалося</string>
+    <string name="liveview_media_map_current">Карта з поточним місцем авто</string>
+    <string name="liveview_media_last_known">Останнє відоме</string>
+    <string name="liveview_media_live">Наживо</string>
+    <string name="liveview_media_distance_per_day">Відстань за день</string>
+    <string name="liveview_media_chart_in_unit">%1$s, у %2$s</string>
+    <string name="liveview_media_chart_not_recorded">не записано</string>
+    <string name="liveview_components_open">Відкрити %1$s</string>
+    <string name="liveview_components_expanded">Розгорнуто</string>
+    <string name="liveview_components_collapsed">Згорнуто</string>
+    <string name="liveview_components_close_commas">Закрити збережені comma</string>
+    <string name="liveview_components_choose_comma">Вибрати comma</string>
+    <string name="liveview_components_add_comma">Додати comma</string>
+    <string name="liveview_snackbar_dismiss">Закрити</string>
+    <string name="liveview_window_checking_beta">Перевірка доступу до Beta</string>
+</resources>

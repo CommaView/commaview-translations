@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Português (Brasil). Machine drafted with docs/localization/glossary-pt-rBR.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="device_settings_safe_dialog_back">Voltar</string>
+    <string name="device_settings_safe_dialog_ready">Pronto</string>
+    <string name="device_settings_safe_dialog_delay">Atraso de segurança</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- common: Français (French). Machine drafted with docs/localization/glossary-fr.md; not yet reviewed by a native speaker. -->
+<resources>
+    <!-- The device CommaView runs on, put into a sentence's placeholder (thisPhoneWord in shared): "this phone" on a
+         phone, "this device" on a tablet or a car's screen; the _start forms begin a sentence. Each language words
+         both so that a sentence reads with either (docs/localization/how-to-localize.md). -->
+    <string name="common_this_phone">ce téléphone</string>
+    <string name="common_this_device">cet appareil</string>
+    <string name="common_this_phone_start">Ce téléphone</string>
+    <string name="common_this_device_start">Cet appareil</string>
+    <string name="common_your_phone">votre téléphone</string>
+    <string name="common_your_device">votre appareil</string>
+    <string name="common_your_phone_start">Votre téléphone</string>
+    <string name="common_your_device_start">Votre appareil</string>
+</resources>

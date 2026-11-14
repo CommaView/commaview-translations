@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- device settings: Español (Spanish). Machine drafted with docs/localization/glossary-es.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="device_settings_safe_dialog_back">Atrás</string>
+    <string name="device_settings_safe_dialog_ready">Listo</string>
+    <string name="device_settings_safe_dialog_delay">Espera de seguridad</string>
+</resources>

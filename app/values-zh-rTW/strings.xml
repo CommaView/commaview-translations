@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 繁體中文（台灣）. Machine drafted, not yet reviewed by a native speaker (docs/plans/2026-11-13-localization.md).
+     Terms openpilot already translates follow its selfdrive/ui/translations/app_zh-CHT.po. Names stay as they are:
+     CommaView, comma, Live View, openpilot, YouTube, Stadia Maps. -->
+<resources>
+    <string name="nav_home">首頁</string>
+    <string name="nav_recordings">錄影</string>
+    <string name="nav_settings">設定</string>
+
+    <string name="settings_page_hub">設定</string>
+    <string name="settings_page_display">顯示</string>
+    <string name="settings_page_offline_maps">離線地圖</string>
+    <string name="settings_page_maps_navigation">地圖與導航</string>
+    <string name="settings_page_choose_home">選擇住家</string>
+    <string name="settings_page_choose_work">選擇公司</string>
+    <string name="settings_page_recordings">錄影</string>
+    <string name="settings_page_sound">聲音</string>
+    <string name="settings_page_live_streaming">直播</string>
+    <string name="settings_page_destination">直播平台</string>
+    <string name="settings_page_title_description">標題與說明</string>
+    <string name="settings_page_account">帳號</string>
+    <string name="settings_page_privacy">隱私權與分享</string>
+    <string name="settings_page_support">支援與診斷</string>
+    <string name="settings_page_about">關於</string>
+    <string name="settings_page_licenses">開放原始碼授權</string>
+    <string name="settings_page_license">授權條款</string>
+    <string name="settings_page_device">裝置設定</string>
+    <string name="settings_page_device_facts">名稱與位址</string>
+    <string name="settings_page_device_network">網路</string>
+    <string name="settings_page_device_pairing">配對其他手機</string>
+    <string name="settings_page_device_runtime">執行環境</string>
+
+    <string name="settings_hub_display_subtitle">行車畫面與其選項、駕駛座位置及日光模式</string>
+    <string name="settings_hub_maps_navigation_key_subtitle">離線地圖，以及使用您自己的 Stadia Maps 金鑰導航</string>
+    <string name="settings_hub_offline_maps_subtitle">下載地區地圖，並依 comma 的位置顯示速限</string>
+    <string name="settings_hub_live_streaming_subtitle">從 Live View 直播到 YouTube 或其他伺服器</string>
+    <string name="settings_hub_live_streaming_ready">已就緒</string>
+    <string name="settings_hub_live_streaming_set_up">需設定</string>
+    <string name="settings_hub_account_subtitle">登入與 Beta 版更新</string>
+    <string name="settings_hub_language_subtitle">CommaView 介面文字的語言</string>
+    <string name="settings_hub_privacy_subtitle">哪些資料會離開%1$s</string>
+    <string name="settings_hub_support_subtitle">回報問題、支持本專案，以及%1$s上的診斷資料</string>
+    <string name="settings_hub_about_subtitle">版本與更新</string>
+    <string name="settings_hub_about_update">更新</string>
+
+    <string name="language_title">語言</string>
+    <string name="language_follow_phone">跟隨手機語言</string>
+    <string name="language_follow_phone_value">跟隨手機（%1$s）</string>
+    <string name="language_follow_phone_detail">CommaView 支援手機的語言時就跟隨手機，否則使用英文</string>
+    <string name="language_comma_screens_note">Live View 中的 comma 畫面維持 comma 本身的語言，與車上顯示的相同。</string>
+    <string name="language_choose_label">選擇 App 的語言</string>
+    <string name="settings_translation_notice">CommaView 的%1$s版本為機器翻譯。</string>
+    <string name="settings_translation_notice_link">協助改進</string>
+    <string name="settings_translation_notice_close">關閉翻譯提示</string>
+    <string name="language_machine_translated">機器翻譯</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- about: CommaView's own words, in English (docs/localization/how-to-localize.md). -->
+<resources>
+
+    <!-- AppUpdateHeaderButton: what TalkBack says of the header's app update button. -->
+    <string name="about_header_update_commaview">Update CommaView</string>
+    <string name="about_header_update_progress">CommaView update: %1$s</string>
+    <string name="about_header_install_update">Install the CommaView update</string>
+
+    <!-- SettingsComponents: a settings page's back button. -->
+    <string name="about_settings_back">Back</string>
+</resources>

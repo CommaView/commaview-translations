@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- about: Español (Spanish). Machine drafted with docs/localization/glossary-es.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="about_header_update_commaview">Actualizar CommaView</string>
+    <string name="about_header_update_progress">Actualización de CommaView: %1$s</string>
+    <string name="about_header_install_update">Instalar la actualización de CommaView</string>
+    <string name="about_settings_back">Atrás</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- recordings: 한국어. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-ko.md and openpilot's selfdrive/ui/translations/app_ko.po. -->
+<resources>
+    <!-- recordings -->
+    <string name="recordings_cockpit_more">이 녹화의 추가 작업</string>
+    <string name="recordings_cockpit_select">이 녹화 선택</string>
+    <string name="recordings_cockpit_needs_processing">처리 필요</string>
+    <string name="recordings_cockpit_select_recording">녹화 선택</string>
+    <string name="recordings_cockpit_leaderboard">리더보드</string>
+    <string name="recordings_cockpit_your_entry_unranked">내 기록, 아직 순위 없음</string>
+    <string name="recordings_cockpit_your_entry">내 기록</string>
+    <string name="recordings_cockpit_you">나</string>
+    <string name="recordings_cockpit_filter">필터</string>
+    <string name="recordings_cockpit_clear">지우기</string>
+    <string name="recordings_cockpit_clear_named">%1$s 지우기</string>
+    <string name="recordings_cockpit_close">닫기</string>
+    <string name="recordings_cockpit_choose">선택</string>
+    <string name="recordings_cockpit_none">없음</string>
+    <string name="recordings_cockpit_expanded">%1$s, 펼쳐짐</string>
+</resources>

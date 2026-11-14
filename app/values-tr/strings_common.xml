@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- common: Türkçe. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-tr.md: “bu telefon” / “bu cihaz” take the same -a, -da, -dan, -daki and -la, so a sentence puts
+     only those after the placeholder ("%1$sda"), never -ı/-u or -ın/-un, which differ. -->
+<resources>
+    <!-- The device CommaView runs on, put into a sentence's placeholder (thisPhoneWord in shared): "this phone" on a
+         phone, "this device" on a tablet or a car's screen; the _start forms begin a sentence. Each language words
+         both so that a sentence reads with either (docs/localization/how-to-localize.md). -->
+    <string name="common_this_phone">bu telefon</string>
+    <string name="common_this_device">bu cihaz</string>
+    <string name="common_this_phone_start">Bu telefon</string>
+    <string name="common_this_device_start">Bu cihaz</string>
+    <string name="common_your_phone">telefonunuz</string>
+    <string name="common_your_device">cihazınız</string>
+    <string name="common_your_phone_start">Telefonunuz</string>
+    <string name="common_your_device_start">Cihazınız</string>
+</resources>

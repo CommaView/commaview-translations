@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- common: Deutsch (German). Machine drafted with docs/localization/glossary-de.md; not yet reviewed by a native speaker. -->
+<resources>
+    <!-- The device CommaView runs on, put into a sentence's placeholder (thisPhoneWord in shared): "this phone" on a
+         phone, "this device" on a tablet or a car's screen; the _start forms begin a sentence. Each language words
+         both so that a sentence reads with either (docs/localization/how-to-localize.md). -->
+    <string name="common_this_phone">Handy</string>
+    <string name="common_this_device">Gerät</string>
+    <string name="common_this_phone_start">Dieses Handy</string>
+    <string name="common_this_device_start">Dieses Gerät</string>
+    <string name="common_your_phone">Handy</string>
+    <string name="common_your_device">Gerät</string>
+    <string name="common_your_phone_start">Ihr Handy</string>
+    <string name="common_your_device_start">Ihr Gerät</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- display: Українська (Ukrainian). Machine drafted with docs/localization/glossary-uk.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="display_framing_automatic">Автоматично</string>
+    <string name="display_framing_automatic_detail">Як задумано в кожному дизайні: точний кадр comma four, екран comma 3, розширений на весь екран, CommaView на весь альбомний екран.</string>
+    <string name="display_framing_exact">Точно</string>
+    <string name="display_framing_exact_detail">Власна форма й кадрування дизайну, точно; чорні смуги там, де форма цього екрана інша.</string>
+    <string name="display_framing_extend">Розширити</string>
+    <string name="display_framing_extend_detail">Без смуг: дизайн зберігає розмір і показує більше камери там, де цей екран ширший чи вищий.</string>
+    <string name="display_framing_fill">Заповнити екран</string>
+    <string name="display_framing_fill_detail">Заповнити доступний екран, обрізавши кадр дизайну.</string>
+
+    <string name="display_design_commaview_note">Плавна траєкторія, фіксація на авто попереду та власні швидкість, стан і сповіщення CommaView. На весь альбомний екран або з усією камерою.</string>
+    <string name="display_commaview_framing">Кадрування камери</string>
+    <string name="display_commaview_framing_detail">Виберіть, як CommaView використовує альбомний екран.</string>
+    <string name="display_commaview_full_camera">Уся камера</string>
+    <string name="display_commaview_full_camera_detail">Показувати все зображення камери, з чорними смугами за потреби.</string>
+    <string name="display_commaview_fill_detail">Заповнити альбомний екран, обрізавши зображення камери. У портретній орієнтації — уся камера.</string>
+    <string name="display_design_comma3x_note">Екран comma 3X: рамка стану, блок МАКС, велика швидкість і сповіщення внизу.</string>
+    <string name="display_design_comma4_note">Екран comma four: МАКС над дорогою, коли змінюється, кермо й упевненість поруч.</string>
+    <string name="display_comma4_framing">Кадрування перегляду</string>
+    <string name="display_comma4_framing_detail">Точно як кадр comma four, більше камери або обрізати, щоб заповнити цей екран.</string>
+
+    <string name="display_daylight_title">Денний контраст</string>
+    <string name="display_daylight_subtitle">Яскравіші текст і лінії для сонця й відблисків</string>
+    <string name="display_daylight_no_sensor">%1$s %2$s не має датчика світла, тому режиму «Авто» немає.</string>
+    <string name="display_daylight_note">Відео й HUD зберігають свої кольори.</string>
+
+    <string name="display_screen_edges_title">Краї екрана</string>
+    <string name="display_screen_edges_subtitle">Відсунути застосунок від країв, які обрізає екран авто</string>
+    <string name="display_screen_edges_how">Посувайте кожен край усередину, доки не побачите лінію по всьому периметру. Лише для екрана авто, що обрізає краї зображення.</string>
+    <string name="display_screen_edges_reset">Скинути</string>
+    <string name="display_screen_edges_done">Готово</string>
+    <string name="display_screen_edges_move_out">Посунути край %1$s назовні</string>
+    <string name="display_screen_edges_move_in">Посунути край %1$s усередину</string>
+    <string name="display_screen_edges_dp">%1$d dp</string>
+    <string name="display_screen_edges_from_edge">%1$d dp від краю %2$s</string>
+</resources>

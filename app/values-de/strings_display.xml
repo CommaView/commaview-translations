@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- display: Deutsch (German). Machine drafted with docs/localization/glossary-de.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- How the onroad screen is sized into this phone's (shared: OnroadPreviewScaleMode, through SharedWords). -->
+    <string name="display_framing_automatic">Automatisch</string>
+    <string name="display_framing_automatic_detail">Je nach Design: das exakte Bild des comma four, die Ansicht des comma 3 erweitert bis zum Rand, CommaView füllt den Querformat-Bildschirm.</string>
+    <string name="display_framing_exact">Exakt</string>
+    <string name="display_framing_exact_detail">Form und Ausschnitt des Designs, ganz genau; schwarze Balken, wo dieser Bildschirm anders geformt ist.</string>
+    <string name="display_framing_extend">Erweitert</string>
+    <string name="display_framing_extend_detail">Keine Balken: Das Design behält seine Größe und zeigt mehr vom Kamerabild, wo dieser Bildschirm breiter oder höher ist.</string>
+    <string name="display_framing_fill">Füllen</string>
+    <string name="display_framing_fill_detail">Füllt die verfügbare Fläche, indem das Bild des Designs beschnitten wird.</string>
+
+    <!-- The designs' names, notes and options in Display's picker (shared: the designs, through SharedWords). -->
+    <string name="display_design_commaview_note">Ein fließender Pfad, eine Zielerfassung des Vorderfahrzeugs und eigene Tempo-, Status- und Hinweisanzeigen von CommaView. Füllt den Querformat-Bildschirm oder zeigt das ganze Kamerabild.</string>
+    <string name="display_commaview_framing">Bildausschnitt</string>
+    <string name="display_commaview_framing_detail">Wählen Sie, wie CommaView das Querformat nutzt.</string>
+    <string name="display_commaview_full_camera">Ganzes Kamerabild</string>
+    <string name="display_commaview_full_camera_detail">Zeigt das ganze Kamerabild, mit schwarzen Balken wo nötig.</string>
+    <string name="display_commaview_fill_detail">Füllt das Querformat, indem das Kamerabild beschnitten wird. Im Hochformat bleibt das ganze Bild.</string>
+    <string name="display_design_comma3x_note">Die Ansicht des comma 3X: ein Statusrahmen, das MAX-Feld, ein großes Tempo und Hinweise am unteren Rand.</string>
+    <string name="display_design_comma4_note">Die Ansicht des comma four: MAX über der Straße, wenn es sich ändert, Lenkrad und Konfidenz daneben.</string>
+    <string name="display_comma4_framing">Vorschau-Ausschnitt</string>
+    <string name="display_comma4_framing_detail">Genau wie das Bild des comma four, mehr vom Kamerabild zeigen oder beschneiden, um diesen Bildschirm zu füllen.</string>
+
+    <!-- Display › Daylight contrast (DaylightSection). -->
+    <string name="display_daylight_title">Kontrast bei Tageslicht</string>
+    <string name="display_daylight_subtitle">Hellere Schrift und Linien gegen Sonne und Blendung</string>
+    <string name="display_daylight_no_sensor">%1$s %2$s hat keinen Lichtsensor, daher gibt es kein Auto.</string>
+    <string name="display_daylight_note">Video und HUD behalten ihre Farben.</string>
+
+    <!-- Display › Screen edges (ScreenEdgesSection). -->
+    <string name="display_screen_edges_title">Ränder des Bildschirms</string>
+    <string name="display_screen_edges_subtitle">Die App von Rändern abrücken, die Ihr Autodisplay abschneidet</string>
+    <string name="display_screen_edges_how">Schieben Sie jeden Rand nach innen, bis die Linie ringsum sichtbar ist. Nur für ein Autodisplay, das die Bildränder abschneidet.</string>
+    <string name="display_screen_edges_reset">Zurücksetzen</string>
+    <string name="display_screen_edges_done">Fertig</string>
+
+    <!-- %1$s is an edge's name in lower case (top, bottom, left, right). -->
+    <string name="display_screen_edges_move_out">Rand %1$s nach außen</string>
+    <string name="display_screen_edges_move_in">Rand %1$s nach innen</string>
+    <string name="display_screen_edges_dp">%1$d dp</string>
+    <string name="display_screen_edges_from_edge">%1$d dp vom Rand %2$s</string>
+</resources>

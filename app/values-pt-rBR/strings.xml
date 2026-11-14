@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Português (Brasil). Machine drafted with docs/localization/glossary-pt-rBR.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="nav_home">Início</string>
+    <string name="nav_recordings">Gravações</string>
+    <string name="nav_settings">Configurações</string>
+    <string name="settings_page_hub">Configurações</string>
+    <string name="settings_page_display">Tela</string>
+    <string name="settings_page_offline_maps">Mapas offline</string>
+    <string name="settings_page_maps_navigation">Mapas e navegação</string>
+    <string name="settings_page_choose_home">Escolher Casa</string>
+    <string name="settings_page_choose_work">Escolher Trabalho</string>
+    <string name="settings_page_recordings">Gravações</string>
+    <string name="settings_page_sound">Som</string>
+    <string name="settings_page_live_streaming">Transmissão ao vivo</string>
+    <string name="settings_page_destination">Destino</string>
+    <string name="settings_page_title_description">Título e descrição</string>
+    <string name="settings_page_account">Conta</string>
+    <string name="settings_page_privacy">Privacidade e dados</string>
+    <string name="settings_page_support">Suporte e diagnóstico</string>
+    <string name="settings_page_about">Sobre</string>
+    <string name="settings_page_licenses">Licenças de código aberto</string>
+    <string name="settings_page_license">Licença</string>
+    <string name="settings_page_device">Configurações do dispositivo</string>
+    <string name="settings_page_device_facts">Nome e endereço</string>
+    <string name="settings_page_device_network">Rede</string>
+    <string name="settings_page_device_pairing">Emparelhar outro celular</string>
+    <string name="settings_page_device_runtime">Runtime</string>
+    <string name="settings_hub_display_subtitle">Tela de condução e opções, posição do motorista e luz do dia</string>
+    <string name="settings_hub_maps_navigation_key_subtitle">Mapas offline e navegação com sua própria chave do Stadia Maps</string>
+    <string name="settings_hub_offline_maps_subtitle">Baixe regiões e veja limites de velocidade pela localização do comma</string>
+    <string name="settings_hub_live_streaming_subtitle">Transmita do Live View para o YouTube ou outro servidor</string>
+    <string name="settings_hub_live_streaming_ready">Pronto</string>
+    <string name="settings_hub_live_streaming_set_up">Configurar</string>
+    <string name="settings_hub_account_subtitle">Entrar e atualizações beta</string>
+    <string name="settings_hub_language_subtitle">O idioma dos textos do CommaView</string>
+    <string name="settings_hub_privacy_subtitle">O que sai d%1$s</string>
+    <string name="settings_hub_support_subtitle">Relatar um problema, apoiar o projeto e diagnóstico n%1$s</string>
+    <string name="settings_hub_about_subtitle">Versão e atualizações</string>
+    <string name="settings_hub_about_update">Atualizar</string>
+    <string name="language_title">Idioma</string>
+    <string name="language_follow_phone">Idioma do celular</string>
+    <string name="language_follow_phone_value">Do celular (%1$s)</string>
+    <string name="language_follow_phone_detail">Segue o idioma do celular quando o CommaView o tem; senão, inglês</string>
+    <string name="language_comma_screens_note">As telas do comma no Live View ficam no idioma do seu comma, como o carro as mostra.</string>
+    <string name="language_choose_label">Escolha o idioma do app</string>
+    <string name="settings_translation_notice">O CommaView em %1$s é traduzido automaticamente.</string>
+    <string name="settings_translation_notice_link">Ajude a melhorar</string>
+    <string name="settings_translation_notice_close">Fechar o aviso de tradução</string>
+    <string name="language_machine_translated">Tradução automática</string>
+</resources>

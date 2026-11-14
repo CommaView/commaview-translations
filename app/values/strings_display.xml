@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- display: CommaView's own words, in English (docs/localization/how-to-localize.md). -->
+<resources>
+
+    <!-- How the onroad screen is sized into this phone's (shared: OnroadPreviewScaleMode, through SharedWords). -->
+    <string name="display_framing_automatic">Automatic</string>
+    <string name="display_framing_automatic_detail">Each design\'s own: the comma four\'s exact frame, the comma 3\'s screen extended to fill, CommaView filling the landscape screen.</string>
+    <string name="display_framing_exact">Exact</string>
+    <string name="display_framing_exact_detail">The design\'s own shape and framing, exactly; black bars where this screen\'s shape differs.</string>
+    <string name="display_framing_extend">Extend</string>
+    <string name="display_framing_extend_detail">No bars: the design keeps its size and shows more of the camera where this screen is wider or taller.</string>
+    <string name="display_framing_fill">Fill screen</string>
+    <string name="display_framing_fill_detail">Fill the available display by cropping the design\'s frame.</string>
+
+    <!-- The designs' names, notes and options in Display's picker (shared: the designs, through SharedWords). -->
+    <string name="display_design_commaview_note">A flowing path, a lock-on for the car ahead and CommaView\'s own speed, status and alerts. Fill the landscape screen or show the full camera.</string>
+    <string name="display_commaview_framing">Camera framing</string>
+    <string name="display_commaview_framing_detail">Choose how CommaView uses the landscape display.</string>
+    <string name="display_commaview_full_camera">Full camera</string>
+    <string name="display_commaview_full_camera_detail">Show the entire camera image, with black bars where needed.</string>
+    <string name="display_commaview_fill_detail">Fill the landscape display by cropping the camera image. Portrait keeps the full camera.</string>
+    <string name="display_design_comma3x_note">The comma 3X screen: a status border, the MAX box, a large speed and alerts along the bottom.</string>
+    <string name="display_design_comma4_note">The comma four\'s screen: MAX above the road as it changes, the wheel and confidence beside it.</string>
+    <string name="display_comma4_framing">Preview framing</string>
+    <string name="display_comma4_framing_detail">Match the comma four\'s frame exactly, show more of the camera, or crop it to fill this screen.</string>
+
+    <!-- Display › Daylight contrast (DaylightSection). -->
+    <string name="display_daylight_title">Daylight contrast</string>
+    <string name="display_daylight_subtitle">Brighter text and lines for sun and glare</string>
+    <string name="display_daylight_no_sensor">%1$s %2$s has no light sensor, so there\'s no Auto.</string>
+    <string name="display_daylight_note">The video and the HUD keep their colours.</string>
+
+    <!-- Display › Screen edges (ScreenEdgesSection). -->
+    <string name="display_screen_edges_title">Screen edges</string>
+    <string name="display_screen_edges_subtitle">Bring the app in from edges your car\'s screen cuts off</string>
+    <string name="display_screen_edges_how">Move each edge in until you can see the line all the way round. Only for a car screen that cuts off the picture\'s edges.</string>
+    <string name="display_screen_edges_reset">Reset</string>
+    <string name="display_screen_edges_done">Done</string>
+
+    <!-- %1$s is an edge's name in lower case (top, bottom, left, right). -->
+    <string name="display_screen_edges_move_out">Move the %1$s edge out</string>
+    <string name="display_screen_edges_move_in">Move the %1$s edge in</string>
+    <string name="display_screen_edges_dp">%1$d dp</string>
+    <string name="display_screen_edges_from_edge">%1$d dp from the %2$s edge</string>
+</resources>

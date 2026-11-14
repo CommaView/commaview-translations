@@ -1,0 +1,97 @@
+{
+  "source": "CommaView 3c828ffbb",
+  "english": {
+    "tag": "en",
+    "folder": "values"
+  },
+  "languages": [
+    {
+      "tag": "de",
+      "name": "Deutsch",
+      "englishName": "German",
+      "folder": "values-de",
+      "glossary": "glossary/glossary-de.md",
+      "machineTranslated": true
+    },
+    {
+      "tag": "es",
+      "name": "Español",
+      "englishName": "Spanish",
+      "folder": "values-es",
+      "glossary": "glossary/glossary-es.md",
+      "machineTranslated": true
+    },
+    {
+      "tag": "fr",
+      "name": "Français",
+      "englishName": "French",
+      "folder": "values-fr",
+      "glossary": "glossary/glossary-fr.md",
+      "machineTranslated": true
+    },
+    {
+      "tag": "ja",
+      "name": "日本語",
+      "englishName": "Japanese",
+      "folder": "values-ja",
+      "glossary": "glossary/glossary-ja.md",
+      "machineTranslated": true
+    },
+    {
+      "tag": "ko",
+      "name": "한국어",
+      "englishName": "Korean",
+      "folder": "values-ko",
+      "glossary": "glossary/glossary-ko.md",
+      "machineTranslated": true
+    },
+    {
+      "tag": "pt-BR",
+      "name": "Português (Brasil)",
+      "englishName": "Portuguese (Brazil)",
+      "folder": "values-pt-rBR",
+      "glossary": "glossary/glossary-pt-rBR.md",
+      "machineTranslated": true
+    },
+    {
+      "tag": "th",
+      "name": "ไทย",
+      "englishName": "Thai",
+      "folder": "values-th",
+      "glossary": "glossary/glossary-th.md",
+      "machineTranslated": true
+    },
+    {
+      "tag": "tr",
+      "name": "Türkçe",
+      "englishName": "Turkish",
+      "folder": "values-tr",
+      "glossary": "glossary/glossary-tr.md",
+      "machineTranslated": true
+    },
+    {
+      "tag": "uk",
+      "name": "Українська",
+      "englishName": "Ukrainian",
+      "folder": "values-uk",
+      "glossary": "glossary/glossary-uk.md",
+      "machineTranslated": true
+    },
+    {
+      "tag": "zh-CN",
+      "name": "简体中文",
+      "englishName": "Chinese (Simplified)",
+      "folder": "values-zh-rCN",
+      "glossary": "glossary/glossary-zh-rCN.md",
+      "machineTranslated": true
+    },
+    {
+      "tag": "zh-TW",
+      "name": "繁體中文",
+      "englishName": "Chinese (Traditional)",
+      "folder": "values-zh-rTW",
+      "glossary": "glossary/glossary-zh-TW.md",
+      "machineTranslated": true
+    }
+  ]
+}

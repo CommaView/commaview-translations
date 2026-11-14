@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app: Français (French). Machine drafted with docs/localization/glossary-fr.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- The home dock and rail (HomeSection). -->
+    <string name="nav_home">Accueil</string>
+    <string name="nav_recordings">Enregistrements</string>
+    <string name="nav_settings">Paramètres</string>
+
+    <!-- Settings' pages, as each is titled (GlobalSettingsPage, DeviceSettingsPage). -->
+    <string name="settings_page_hub">Paramètres</string>
+    <string name="settings_page_display">Affichage</string>
+    <string name="settings_page_offline_maps">Cartes hors ligne</string>
+    <string name="settings_page_maps_navigation">Cartes et navigation</string>
+    <string name="settings_page_choose_home">Choisir le domicile</string>
+    <string name="settings_page_choose_work">Choisir le travail</string>
+    <string name="settings_page_recordings">Enregistrements</string>
+    <string name="settings_page_sound">Son</string>
+    <string name="settings_page_live_streaming">Diffusion en direct</string>
+    <string name="settings_page_destination">Destination</string>
+    <string name="settings_page_title_description">Titre et description</string>
+    <string name="settings_page_account">Compte</string>
+    <string name="settings_page_privacy">Confidentialité et partage</string>
+    <string name="settings_page_support">Assistance et diagnostics</string>
+    <string name="settings_page_about">À propos</string>
+    <string name="settings_page_licenses">Licences open source</string>
+    <string name="settings_page_license">Licence</string>
+    <string name="settings_page_device">Paramètres de l\'appareil</string>
+    <string name="settings_page_device_facts">Nom et adresse</string>
+    <string name="settings_page_device_network">Réseau</string>
+    <string name="settings_page_device_pairing">Associer un autre téléphone</string>
+    <string name="settings_page_device_runtime">Runtime</string>
+
+    <!-- The Settings hub's rows, under each title. -->
+    <string name="settings_hub_display_subtitle">Écran de conduite et ses options, poste de conduite et plein jour</string>
+    <string name="settings_hub_maps_navigation_key_subtitle">Cartes hors ligne, et navigation avec votre clé Stadia Maps</string>
+    <string name="settings_hub_offline_maps_subtitle">Télécharger des régions et afficher les limitations de vitesse selon la position de votre comma</string>
+    <string name="settings_hub_live_streaming_subtitle">Passer en direct depuis Live View sur YouTube ou un autre serveur</string>
+    <string name="settings_hub_live_streaming_ready">Prêt</string>
+    <string name="settings_hub_live_streaming_set_up">Configurer</string>
+    <string name="settings_hub_account_subtitle">Connexion et mises à jour Beta</string>
+    <string name="settings_hub_language_subtitle">La langue des textes de CommaView</string>
+    <string name="settings_hub_privacy_subtitle">Ce qui quitte %1$s</string>
+    <string name="settings_hub_support_subtitle">Signaler un problème, soutenir le projet et diagnostics sur %1$s</string>
+    <string name="settings_hub_about_subtitle">Version et mises à jour</string>
+    <string name="settings_hub_about_update">Mettre à jour</string>
+
+    <!-- Settings › Language (LanguageSetting.kt). -->
+    <string name="language_title">Langue</string>
+    <string name="language_follow_phone">Langue du téléphone</string>
+    <!-- The row's value while the app follows the phone: %1$s is the language that gives, in itself. -->
+    <string name="language_follow_phone_value">Téléphone (%1$s)</string>
+    <string name="language_follow_phone_detail">Suit la langue de votre téléphone si CommaView la propose, sinon l\'anglais</string>
+    <string name="language_comma_screens_note">Les écrans du comma dans Live View restent dans la langue de votre comma, comme votre voiture les affiche.</string>
+    <string name="language_choose_label">Choisir la langue de l\'application</string>
+    <string name="settings_translation_notice">CommaView en %1$s est traduit automatiquement.</string>
+    <string name="settings_translation_notice_link">Aidez à l\'améliorer</string>
+    <string name="settings_translation_notice_close">Fermer l\'avis de traduction</string>
+    <string name="language_machine_translated">Traduction automatique</string>
+</resources>

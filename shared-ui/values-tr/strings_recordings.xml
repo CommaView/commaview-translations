@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- recordings: Türkçe. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-tr.md and openpilot's selfdrive/ui/translations/app_tr.po. -->
+<resources>
+    <!-- recordings -->
+    <string name="recordings_cockpit_more">Bu kayıt için diğer işlemler</string>
+    <string name="recordings_cockpit_select">Bu kaydı seç</string>
+    <string name="recordings_cockpit_needs_processing">İşlenmesi gerekiyor</string>
+    <string name="recordings_cockpit_select_recording">Kayıt seç</string>
+    <string name="recordings_cockpit_leaderboard">Sıralama</string>
+    <string name="recordings_cockpit_your_entry_unranked">Kaydınız, henüz sıralanmadı</string>
+    <string name="recordings_cockpit_your_entry">Kaydınız</string>
+    <string name="recordings_cockpit_you">Siz</string>
+    <string name="recordings_cockpit_filter">Filtre</string>
+    <string name="recordings_cockpit_clear">Temizle</string>
+    <string name="recordings_cockpit_clear_named">Temizle: %1$s</string>
+    <string name="recordings_cockpit_close">Kapat</string>
+    <string name="recordings_cockpit_choose">Seç</string>
+    <string name="recordings_cockpit_none">Yok</string>
+    <string name="recordings_cockpit_expanded">%1$s, genişletildi</string>
+</resources>

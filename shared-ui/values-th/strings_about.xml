@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- about: ไทย (Thai). Machine drafted with docs/localization/glossary-th.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- AppUpdateHeaderButton: what TalkBack says of the header's app update button. -->
+    <string name="about_header_update_commaview">อัปเดต CommaView</string>
+    <string name="about_header_update_progress">การอัปเดต CommaView: %1$s</string>
+    <string name="about_header_install_update">ติดตั้งอัปเดต CommaView</string>
+
+    <!-- SettingsComponents: a settings page's back button. -->
+    <string name="about_settings_back">ย้อนกลับ</string>
+</resources>

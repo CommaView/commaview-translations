@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- display: Українська (Ukrainian). Machine drafted with docs/localization/glossary-uk.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="display_driver_side_auto">Авто</string>
+    <string name="display_driver_side_auto_detail">Як повідомляє ваш comma</string>
+    <string name="display_driver_side_lhd">Кермо зліва</string>
+    <string name="display_driver_side_lhd_detail">Кермо з лівого боку</string>
+    <string name="display_driver_side_rhd">Кермо справа</string>
+    <string name="display_driver_side_rhd_detail">Кермо з правого боку</string>
+    <string name="display_daylight_off">Вимк.</string>
+    <string name="display_daylight_off_detail">Стандартні кольори Cockpit.</string>
+    <string name="display_daylight_on">Увімк.</string>
+    <string name="display_daylight_on_detail">Яскравіші текст і лінії для сонця та відблисків.</string>
+    <string name="display_daylight_auto">Авто</string>
+    <string name="display_daylight_auto_detail">Яскравіші текст і лінії, коли датчик світла, який має %1$s, бачить яскраве світло.</string>
+    <string name="display_confidence_default">Типово</string>
+    <string name="display_confidence_default_detail">Панель упевненості стандартного розміру.</string>
+    <string name="display_confidence_75_detail">Трохи зменшити панель упевненості й кульку.</string>
+    <string name="display_confidence_50_detail">Більше місця для відео: панель упевненості вдвічі менша.</string>
+    <string name="display_confidence_25_detail">Найменші панель упевненості й кулька.</string>
+    <string name="display_confidence_title">Компактна панель упевненості</string>
+    <string name="display_confidence_subtitle">Менші панель і кулька, більше відео</string>
+    <string name="display_confidence_note">Зменште панель упевненості й кульку, щоб звільнити більше місця для відео.</string>
+    <string name="display_driver_position_title">Місце водія</string>
+    <string name="display_driver_position_subtitle">Віддзеркалює елементи на всіх екранах</string>
+    <string name="display_driver_position_note">Виберіть бік водія для віддзеркалених елементів керування. «Авто» бере бік, про який повідомляє ваш comma, і запам’ятовує його на наступний раз.</string>
+    <string name="display_title">Дисплей</string>
+    <string name="display_subtitle">Як %1$s показує Live View</string>
+    <string name="display_back_to_settings">Назад до налаштувань</string>
+    <string name="display_onroad_screen">Екран водіння</string>
+    <string name="display_design_options">Параметри: %1$s</string>
+    <string name="display_reduce_motion">Менше анімації</string>
+    <string name="display_reduce_motion_detail">Траєкторія, швидкість і фіксація CommaView не рухаються. Те саме робить параметр Android «Вимкнути анімацію».</string>
+    <string name="display_design_no_options">Екран %1$s не має власних параметрів: він показується так, як його малює comma.</string>
+    <string name="display_on_every_screen">На всіх екранах</string>
+    <string name="display_opening_live_view">Відкриття Live View</string>
+    <string name="display_preview">Попередній перегляд</string>
+    <string name="display_preview_engaged">Активний</string>
+    <string name="display_preview_override">Втручання</string>
+    <string name="display_preview_disengaged">Вимкнено</string>
+    <string name="display_safety_title">Кольори безпеки не змінюються</string>
+    <string name="display_safety_detail">Сповіщення, попередження та стан моніторингу водія завжди мають власні кольори вашого comma. Повтори, створені в розділі «Записи», виглядають так, як виглядав Live View під час запису.</string>
+    <string name="display_screen_edges_off">Вимк.</string>
+    <string name="display_screen_edges_all_round">%1$d dp з усіх боків</string>
+    <string name="display_screen_edges_each">%1$s dp</string>
+    <string name="display_screen_edge_top">Згори</string>
+    <string name="display_screen_edge_bottom">Знизу</string>
+    <string name="display_screen_edge_left">Зліва</string>
+    <string name="display_screen_edge_right">Справа</string>
+    <string name="display_hud_preview_engaged">Попередній перегляд екрана %1$s, активний</string>
+    <string name="display_hud_preview_override">Попередній перегляд екрана %1$s, втручання</string>
+    <string name="display_hud_preview_not_engaged">Попередній перегляд екрана %1$s, неактивний</string>
+</resources>

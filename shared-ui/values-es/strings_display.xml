@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- display: Español (Spanish). Machine drafted with docs/localization/glossary-es.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="display_driver_side_auto">Auto</string>
+    <string name="display_driver_side_auto_detail">El lado que indique tu comma</string>
+    <string name="display_driver_side_lhd">Volante a la izquierda</string>
+    <string name="display_driver_side_lhd_detail">El volante está a la izquierda</string>
+    <string name="display_driver_side_rhd">Volante a la derecha</string>
+    <string name="display_driver_side_rhd_detail">El volante está a la derecha</string>
+    <string name="display_daylight_off">No</string>
+    <string name="display_daylight_off_detail">Los colores estándar de Cockpit.</string>
+    <string name="display_daylight_on">Sí</string>
+    <string name="display_daylight_on_detail">Texto y líneas más brillantes, para el sol y los reflejos.</string>
+    <string name="display_daylight_auto">Auto</string>
+    <string name="display_daylight_auto_detail">Texto y líneas más brillantes cuando el sensor de luz de %1$s detecta mucha luz.</string>
+    <string name="display_confidence_default">Predeterminado</string>
+    <string name="display_confidence_default_detail">Panel de confianza de tamaño estándar.</string>
+    <string name="display_confidence_75_detail">Reduce un poco el panel de confianza y la bola.</string>
+    <string name="display_confidence_50_detail">Más espacio para el vídeo, con el panel de confianza a la mitad.</string>
+    <string name="display_confidence_25_detail">El panel de confianza y la bola más pequeños.</string>
+    <string name="display_confidence_title">Panel de confianza compacto</string>
+    <string name="display_confidence_subtitle">Panel y bola más pequeños, más vídeo</string>
+    <string name="display_confidence_note">Reduce el panel de confianza y la bola para dejar más espacio al vídeo.</string>
+    <string name="display_driver_position_title">Posición del conductor</string>
+    <string name="display_driver_position_subtitle">Invierte los controles en todas las pantallas</string>
+    <string name="display_driver_position_note">Elige el lado del conductor para invertir los controles. Auto sigue el lado que indica tu comma y lo recuerda para la próxima vez.</string>
+    <string name="display_title">Pantalla</string>
+    <string name="display_subtitle">Cómo se ve Live View en %1$s</string>
+    <string name="display_back_to_settings">Volver a Ajustes</string>
+    <string name="display_onroad_screen">Pantalla de conducción</string>
+    <string name="display_design_options">Opciones de %1$s</string>
+    <string name="display_reduce_motion">Reducir movimiento</string>
+    <string name="display_reduce_motion_detail">Mantiene quietos la trayectoria, la velocidad y el enganche de CommaView. «Quitar animaciones» de Android hace lo mismo.</string>
+    <string name="display_design_no_options">La pantalla de %1$s no tiene opciones propias: se dibuja como la dibuja el comma.</string>
+    <string name="display_on_every_screen">En todas las pantallas</string>
+    <string name="display_opening_live_view">Abriendo Live View</string>
+    <string name="display_preview">Vista previa</string>
+    <string name="display_preview_engaged">Activado</string>
+    <string name="display_preview_override">Intervención</string>
+    <string name="display_preview_disengaged">Desactivado</string>
+    <string name="display_safety_title">Los colores de seguridad no cambian</string>
+    <string name="display_safety_detail">Las alertas, los avisos y el estado de la supervisión del conductor usan siempre los colores de tu comma. Las reproducciones que haces en Grabaciones se ven como se veía Live View al grabar.</string>
+    <string name="display_screen_edges_off">No</string>
+    <string name="display_screen_edges_all_round">%1$d dp en todos los bordes</string>
+    <string name="display_screen_edges_each">%1$s dp</string>
+    <string name="display_screen_edge_top">Arriba</string>
+    <string name="display_screen_edge_bottom">Abajo</string>
+    <string name="display_screen_edge_left">Izquierda</string>
+    <string name="display_screen_edge_right">Derecha</string>
+    <string name="display_hud_preview_engaged">Vista previa de la pantalla de %1$s, activado</string>
+    <string name="display_hud_preview_override">Vista previa de la pantalla de %1$s, intervención</string>
+    <string name="display_hud_preview_not_engaged">Vista previa de la pantalla de %1$s, no activado</string>
+</resources>

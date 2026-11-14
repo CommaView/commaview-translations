@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The device CommaView runs on, put into a sentence's placeholder (thisPhoneWord in shared): "this phone" on a
+         phone, "this device" on a tablet or a car's screen; the _start forms begin a sentence. Each language words
+         both so that a sentence reads with either (docs/localization/how-to-localize.md). -->
+    <string name="common_this_phone">this phone</string>
+    <string name="common_this_device">this device</string>
+    <string name="common_this_phone_start">This phone</string>
+    <string name="common_this_device_start">This device</string>
+    <string name="common_your_phone">your phone</string>
+    <string name="common_your_device">your device</string>
+    <string name="common_your_phone_start">Your phone</string>
+    <string name="common_your_device_start">Your device</string>
+</resources>

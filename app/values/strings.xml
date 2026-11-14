@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CommaView's own words, in English (docs/plans/2026-11-13-localization.md): keys are <area>_<what>, sentences are
+     whole, placeholders positional. Each offered language has every key (LocalizationGuardTest). -->
+<resources>
+    <string name="app_name" translatable="false">CommaView</string>
+
+    <!-- The home dock and rail (HomeSection). -->
+    <string name="nav_home">Home</string>
+    <string name="nav_recordings">Recordings</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Settings' pages, as each is titled (GlobalSettingsPage, DeviceSettingsPage). -->
+    <string name="settings_page_hub">Settings</string>
+    <string name="settings_page_display">Display</string>
+    <string name="settings_page_offline_maps">Offline maps</string>
+    <string name="settings_page_maps_navigation">Maps &amp; navigation</string>
+    <string name="settings_page_choose_home">Choose Home</string>
+    <string name="settings_page_choose_work">Choose Work</string>
+    <string name="settings_page_recordings">Recordings</string>
+    <string name="settings_page_sound">Sound</string>
+    <string name="settings_page_live_streaming">Live streaming</string>
+    <string name="settings_page_destination">Destination</string>
+    <string name="settings_page_title_description">Title and description</string>
+    <string name="settings_page_account">Account</string>
+    <string name="settings_page_privacy">Privacy &amp; sharing</string>
+    <string name="settings_page_support">Support &amp; diagnostics</string>
+    <string name="settings_page_about">About</string>
+    <string name="settings_page_licenses">Open-source licenses</string>
+    <string name="settings_page_license">License</string>
+    <string name="settings_page_device">Device settings</string>
+    <string name="settings_page_device_facts">Name and address</string>
+    <string name="settings_page_device_network">Network</string>
+    <string name="settings_page_device_pairing">Pair another phone</string>
+    <string name="settings_page_device_runtime">Runtime</string>
+
+    <!-- The Settings hub's rows, under each title. -->
+    <string name="settings_hub_display_subtitle">Onroad screen and its options, driver position and daylight</string>
+    <string name="settings_hub_maps_navigation_key_subtitle">Offline maps, and Navigation with your own Stadia Maps key</string>
+    <string name="settings_hub_offline_maps_subtitle">Download regions and show speed limits from your comma’s location</string>
+    <string name="settings_hub_live_streaming_subtitle">Go live from Live View to YouTube or another server</string>
+    <string name="settings_hub_live_streaming_ready">Ready</string>
+    <string name="settings_hub_live_streaming_set_up">Set up</string>
+    <string name="settings_hub_account_subtitle">Sign in and beta updates</string>
+    <string name="settings_hub_language_subtitle">The language of CommaView’s own words</string>
+    <string name="settings_hub_privacy_subtitle">What leaves %1$s</string>
+    <string name="settings_hub_support_subtitle">Report a problem, support the project, and diagnostics on %1$s</string>
+    <string name="settings_hub_about_subtitle">Version and updates</string>
+    <string name="settings_hub_about_update">Update</string>
+
+    <!-- Settings › Language (LanguageSetting.kt). -->
+    <string name="language_title">Language</string>
+    <string name="language_follow_phone">Phone’s language</string>
+    <!-- The row's value while the app follows the phone: %1$s is the language that gives, in itself. -->
+    <string name="language_follow_phone_value">Phone’s (%1$s)</string>
+    <string name="language_follow_phone_detail">Follows your phone’s language when CommaView has it, else English</string>
+    <string name="language_comma_screens_note">The comma screens in Live View stay in your comma’s language, as your car shows them.</string>
+    <string name="language_choose_label">Choose the app’s language</string>
+    <!-- The Settings hub's notice in a translated language (never in English): %1$s is the language, named in itself (Deutsch, 日本語). -->
+    <string name="settings_translation_notice">CommaView in %1$s is machine translated.</string>
+    <!-- Opens the public translations repository, where anyone can suggest a better word. -->
+    <string name="settings_translation_notice_link">Help improve it</string>
+    <string name="settings_translation_notice_close">Close the translation notice</string>
+    <!-- Under each translated language's name in Settings › Language. -->
+    <string name="language_machine_translated">Machine translated</string>
+</resources>

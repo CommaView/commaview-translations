@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- common: Українська (Ukrainian). Machine drafted with docs/localization/glossary-uk.md; not yet reviewed by a native speaker.
+     Both nouns are masculine and inanimate, so they take the same verb and adjective endings, and their accusative is
+     their nominative. Sentences put the slot only where it stands in the nominative or the accusative ("%1$s зберігає",
+     "Підключіть %1$s", "яку має %1$s"), never after a preposition or in the genitive. -->
+<resources>
+    <string name="common_this_phone">цей телефон</string>
+    <string name="common_this_device">цей пристрій</string>
+    <string name="common_this_phone_start">Цей телефон</string>
+    <string name="common_this_device_start">Цей пристрій</string>
+    <string name="common_your_phone">ваш телефон</string>
+    <string name="common_your_device">ваш пристрій</string>
+    <string name="common_your_phone_start">Ваш телефон</string>
+    <string name="common_your_device_start">Ваш пристрій</string>
+</resources>

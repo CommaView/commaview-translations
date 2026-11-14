@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- privacy: Türkçe. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-tr.md and openpilot's selfdrive/ui/translations/app_tr.po. -->
+<resources>
+    <!-- Settings › Privacy & sharing (PrivacySharingPage). -->
+    <string name="privacy_improve_supporting">Çökme ve sorun raporlarını, comma\'nızın hangi sürüş yazılımını çalıştırdığını ve Live View\'un %1$sda mı yoksa araç ekranında mı oynatıldığını gönderir. Asla video, sürüş, yer veya ad göndermez.</string>
+    <string name="privacy_improve_supporting_no_reports">Çökme ve sorun raporlarını, comma\'nızın hangi sürüş yazılımını çalıştırdığını ve Live View\'un %1$sda mı yoksa araç ekranında mı oynatıldığını gönderir. Asla video, sürüş, yer veya ad göndermez. Bu sürüm çökme raporu göndermez.</string>
+    <string name="privacy_car_detection">Araç algılama</string>
+    <string name="privacy_car_detection_label">Gönderdiğim kayıtları araç algılamayı geliştirmek için kullan</string>
+    <string name="privacy_contribute_automatically">Sürüşlerle otomatik katkıda bulun</string>
+    <string name="privacy_contribute_automatically_supporting">comma\'nızın son sürüşleri, %1$s ve comma aşağıda izin verdiğiniz bir ağdayken, günlük bir sınıra kadar gönderilir. Pil tasarrufunda ya da Live View\'u kullanırken veya kayıt yaparken gönderilmez.</string>
+    <string name="privacy_contribute_needs_runtime">Sürüşlerle katkıda bulunmak için comma\'nızda en son CommaView çalışma ortamı gerekir. Cihaz ayarları\'ndan güncelleyin.</string>
+    <string name="privacy_upload_networks">Katkıların yükleneceği ağlar</string>
+    <string name="privacy_upload_networks_supporting">Hotspot\'lar %1$sa çoğu zaman ev Wi‑Fi\'ı gibi görünür; bu yüzden comma\'nız hangi Wi‑Fi\'da olduğunu söyler. Bu, tüm katkılar için geçerlidir.</string>
+    <string name="privacy_any_wifi_supporting">Sınırlı olmadığı %1$sda görünen Wi‑Fi; otomatik katkılarda comma\'nız da bu ağda olmalı</string>
+    <string name="privacy_chosen_networks_supporting">Aşağıda işaretledikleriniz; dilerseniz her biri için aylık sınırla</string>
+    <string name="privacy_mobile_data">Mobil veri</string>
+    <string name="privacy_mobile_data_supporting">%1$sdaki mobil veri; örneğin comma\'nız onun hotspot\'una bağlıyken</string>
+    <string name="privacy_network_limit_hint">Sınırlı: bir sınır, katkıları tarifenin içinde tutar</string>
+    <string name="privacy_no_monthly_limit">Aylık sınır yok</string>
+    <string name="privacy_monthly_limit">Aylık sınır · %1$s</string>
+    <string name="privacy_limit_reached">Sınıra ulaşıldı · %1$s</string>
+    <string name="privacy_limit_on_mobile_data">Mobil veride aylık sınır</string>
+    <string name="privacy_limit_on_wifi">Aylık sınır: %1$s</string>
+    <string name="privacy_limit_text_mobile_data">Katkılar sürüşün dakikası başına yaklaşık 110 MB\'tır. Bu miktara ulaşıldığında, gelecek ayın 1\'ine kadar mobil veride durur. CommaView\'a gönderdiğiniz kayıtlar sayılmaz.</string>
+    <string name="privacy_limit_text_wifi">Katkılar sürüşün dakikası başına yaklaşık 110 MB\'tır. Bu miktara ulaşıldığında, gelecek ayın 1\'ine kadar bu Wi‑Fi\'da durur. CommaView\'a gönderdiğiniz kayıtlar sayılmaz.</string>
+    <string name="privacy_nothing_this_month">Bu ay henüz bir şey yok</string>
+    <string name="privacy_comma_wifi_listed">comma\'nızın kayıtlı Wi‑Fi ağları. Yükleme yapılacakları seçin.</string>
+    <string name="privacy_comma_wifi_asking">comma\'nıza hangi Wi‑Fi ağlarının kayıtlı olduğu soruluyor…</string>
+    <string name="privacy_comma_wifi_unreachable">comma\'nıza şu anda ulaşılamıyor. Kayıtlı Wi‑Fi ağları bağlandığında burada görünür.</string>
+    <string name="privacy_comma_wifi_update_runtime">comma\'nızın kayıtlı tüm Wi‑Fi ağlarını görmek için çalışma ortamını güncelleyin.</string>
+    <string name="privacy_comma_on_it_now">comma\'nız şu anda bu ağda</string>
+    <string name="privacy_not_saved_on_comma">comma\'nızda kayıtlı değil</string>
+    <string name="privacy_metered">sınırlı</string>
+    <string name="privacy_comma_wifi_runtime_too_old">Wi‑Fi ağlarını seçmek için comma\'nızın çalışma ortamını güncelleyin.</string>
+    <string name="privacy_comma_wifi_kept">comma\'nızın kayıtlı Wi‑Fi ağları (%1$s itibarıyla). Yükleme yapılacakları seçin.</string>
+    <string name="privacy_comma_wifi_not_paired">Kayıtlı Wi‑Fi ağlarını görmek için comma\'nızı %1$sla eşleştirin.</string>
+    <string name="privacy_comma_wifi_forgot_phone">comma\'nız artık %1$sla eşleştirilmiş değil. Kayıtlı Wi‑Fi ağlarını görmek için yeniden eşleştirin.</string>
+    <string name="privacy_comma_wifi_none">comma\'nızda henüz kayıtlı Wi‑Fi yok.</string>
+    <string name="privacy_comma_wifi_recent">comma\'nızın en son kullandığı Wi‑Fi ağları. Yükleme yapılacakları seçin.</string>
+    <string name="privacy_comma_wifi_read_failed">comma\'nız Wi‑Fi bilgisini şu anda okuyamadı.</string>
+    <string name="privacy_comma_wifi_list_failed">comma\'nız kayıtlı Wi‑Fi ağlarını şu anda listeleyemedi.</string>
+</resources>

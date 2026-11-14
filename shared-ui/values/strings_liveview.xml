@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- liveview: CommaView's own words, in English (docs/localization/how-to-localize.md). -->
+<resources>
+
+    <!-- Cockpit's media: the speed over a picture, the location map, the week's chart (CockpitMedia). -->
+    <string name="liveview_media_max">MAX</string>
+    <string name="liveview_media_set_speed">Set speed %1$s</string>
+
+    <!-- %1$s is the speed's figure, %2$s its unit (km/h, mph). -->
+    <string name="liveview_media_current_speed">Current speed %1$s %2$s</string>
+    <string name="liveview_media_location_hidden">Location hidden</string>
+    <string name="liveview_media_map_unavailable">Map unavailable</string>
+    <string name="liveview_media_map_credits">Map credits: %1$s</string>
+    <string name="liveview_media_map_parked">Map showing where the car was last parked</string>
+    <string name="liveview_media_map_current">Map showing the car's current position</string>
+    <string name="liveview_media_last_known">Last known</string>
+    <string name="liveview_media_live">Live</string>
+    <string name="liveview_media_distance_per_day">Distance per day</string>
+
+    <!-- The week's chart, as TalkBack reads it: %1$s is its label, %2$s its unit. -->
+    <string name="liveview_media_chart_in_unit">%1$s, in %2$s</string>
+    <string name="liveview_media_chart_not_recorded">not recorded</string>
+
+    <!-- Cockpit's shared components (CockpitComponents, AppSnackbar, AppWindowAccess). -->
+    <string name="liveview_components_open">Open %1$s</string>
+    <string name="liveview_components_expanded">Expanded</string>
+    <string name="liveview_components_collapsed">Collapsed</string>
+    <string name="liveview_components_close_commas">Close saved commas</string>
+    <string name="liveview_components_choose_comma">Choose a comma</string>
+    <string name="liveview_components_add_comma">Add a comma</string>
+    <string name="liveview_snackbar_dismiss">Dismiss</string>
+    <string name="liveview_window_checking_beta">Checking beta access</string>
+</resources>

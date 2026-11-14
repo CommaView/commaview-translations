@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- display: 한국어. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-ko.md and openpilot's selfdrive/ui/translations/app_ko.po. -->
+<resources>
+
+    <!-- How the onroad screen is sized into this phone's (shared: OnroadPreviewScaleMode, through SharedWords). -->
+    <string name="display_framing_automatic">자동</string>
+    <string name="display_framing_automatic_detail">디자인별 기본값: comma four는 원본 프레임 그대로, comma 3는 화면을 채우도록 확장, CommaView는 가로 화면을 채웁니다.</string>
+    <string name="display_framing_exact">원본 비율</string>
+    <string name="display_framing_exact_detail">디자인 고유의 모양과 구도를 그대로 사용합니다. 이 화면과 모양이 다르면 검은 여백이 생깁니다.</string>
+    <string name="display_framing_extend">확장</string>
+    <string name="display_framing_extend_detail">여백 없음: 디자인 크기는 유지하고, 이 화면이 더 넓거나 높은 만큼 카메라를 더 보여 줍니다.</string>
+    <string name="display_framing_fill">화면 채우기</string>
+    <string name="display_framing_fill_detail">디자인의 프레임을 잘라 사용 가능한 화면을 채웁니다.</string>
+
+    <!-- The designs' names, notes and options in Display's picker (shared: the designs, through SharedWords). -->
+    <string name="display_design_commaview_note">흐르는 경로, 앞차 잠금 표시, CommaView 고유의 속도, 상태, 알림. 가로 화면을 채우거나 카메라 전체를 보여 줍니다.</string>
+    <string name="display_commaview_framing">카메라 구도</string>
+    <string name="display_commaview_framing_detail">CommaView가 가로 화면을 쓰는 방식을 선택하세요.</string>
+    <string name="display_commaview_full_camera">카메라 전체</string>
+    <string name="display_commaview_full_camera_detail">카메라 영상 전체를 보여 주고, 필요하면 검은 여백을 둡니다.</string>
+    <string name="display_commaview_fill_detail">카메라 영상을 잘라 가로 화면을 채웁니다. 세로 화면에서는 카메라 전체를 보여 줍니다.</string>
+    <string name="display_design_comma3x_note">comma 3X 화면: 상태 테두리, 최대 상자, 큰 속도, 하단 알림.</string>
+    <string name="display_design_comma4_note">comma four 화면: 도로 위에 바뀌는 최대 속도, 옆에 운전대와 신뢰도.</string>
+    <string name="display_comma4_framing">미리보기 구도</string>
+    <string name="display_comma4_framing_detail">comma four 프레임과 똑같이 맞추거나, 카메라를 더 보여 주거나, 잘라서 이 화면을 채웁니다.</string>
+
+    <!-- Display › Daylight contrast (DaylightSection). -->
+    <string name="display_daylight_title">주간 대비</string>
+    <string name="display_daylight_subtitle">햇빛과 눈부심에 대비해 글자와 선을 더 밝게</string>
+    <string name="display_daylight_no_sensor">%1$s %2$s에는 조도 센서가 없어 자동을 사용할 수 없습니다.</string>
+    <string name="display_daylight_note">영상과 HUD의 색상은 그대로입니다.</string>
+
+    <!-- Display › Screen edges (ScreenEdgesSection). -->
+    <string name="display_screen_edges_title">화면 가장자리</string>
+    <string name="display_screen_edges_subtitle">차량 화면에서 잘리는 가장자리 안쪽으로 앱을 옮깁니다</string>
+    <string name="display_screen_edges_how">선이 사방에서 모두 보일 때까지 각 가장자리를 안쪽으로 옮기세요. 영상 가장자리가 잘리는 차량 화면에서만 필요합니다.</string>
+    <string name="display_screen_edges_reset">재설정</string>
+    <string name="display_screen_edges_done">완료</string>
+
+    <!-- %1$s is an edge's name in lower case (top, bottom, left, right). -->
+    <string name="display_screen_edges_move_out">%1$s 가장자리를 바깥으로</string>
+    <string name="display_screen_edges_move_in">%1$s 가장자리를 안쪽으로</string>
+    <string name="display_screen_edges_dp">%1$d dp</string>
+    <string name="display_screen_edges_from_edge">%2$s 가장자리에서 %1$d dp</string>
+</resources>

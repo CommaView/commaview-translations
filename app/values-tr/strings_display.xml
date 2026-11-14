@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- display: Türkçe. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-tr.md and openpilot's selfdrive/ui/translations/app_tr.po. -->
+<resources>
+
+    <!-- How the onroad screen is sized into this phone's (shared: OnroadPreviewScaleMode, through SharedWords). -->
+    <string name="display_framing_automatic">Otomatik</string>
+    <string name="display_framing_automatic_detail">Her tasarımın kendi ayarı: comma four\'un birebir çerçevesi, ekranı dolduracak şekilde genişletilmiş comma 3 ekranı, yatay ekranı dolduran CommaView.</string>
+    <string name="display_framing_exact">Birebir</string>
+    <string name="display_framing_exact_detail">Tasarımın kendi şekli ve kadrajı, birebir; bu ekranın şekli farklıysa siyah çubuklar.</string>
+    <string name="display_framing_extend">Genişlet</string>
+    <string name="display_framing_extend_detail">Çubuk yok: tasarım boyutunu korur, bu ekran daha geniş veya uzunsa kameranın daha fazlasını gösterir.</string>
+    <string name="display_framing_fill">Ekranı doldur</string>
+    <string name="display_framing_fill_detail">Tasarımın çerçevesini kırparak kullanılabilir ekranı doldurur.</string>
+
+    <!-- The designs' names, notes and options in Display's picker (shared: the designs, through SharedWords). -->
+    <string name="display_design_commaview_note">Akıcı bir yol çizgisi, öndeki araç için kilitlenme göstergesi ve CommaView\'un kendi hız, durum ve uyarıları. Yatay ekranı doldurun veya kameranın tamamını gösterin.</string>
+    <string name="display_commaview_framing">Kamera kadrajı</string>
+    <string name="display_commaview_framing_detail">CommaView\'un yatay ekranı nasıl kullanacağını seçin.</string>
+    <string name="display_commaview_full_camera">Tam kamera</string>
+    <string name="display_commaview_full_camera_detail">Kamera görüntüsünün tamamını, gerektiğinde siyah çubuklarla gösterir.</string>
+    <string name="display_commaview_fill_detail">Kamera görüntüsünü kırparak yatay ekranı doldurur. Dikey ekranda kameranın tamamı gösterilir.</string>
+    <string name="display_design_comma3x_note">comma 3X ekranı: bir durum çerçevesi, MAKS kutusu, büyük bir hız ve altta uyarılar.</string>
+    <string name="display_design_comma4_note">comma four ekranı: değiştikçe yolun üstünde MAKS, yanında direksiyon ve güven göstergesi.</string>
+    <string name="display_comma4_framing">Önizleme kadrajı</string>
+    <string name="display_comma4_framing_detail">comma four\'un çerçevesine birebir uyun, kameranın daha fazlasını gösterin veya bu ekranı dolduracak şekilde kırpın.</string>
+
+    <!-- Display › Daylight contrast (DaylightSection). -->
+    <string name="display_daylight_title">Gün ışığı kontrastı</string>
+    <string name="display_daylight_subtitle">Güneş ve parlama için daha parlak yazı ve çizgiler</string>
+    <string name="display_daylight_no_sensor">%1$s %2$s ışık sensörüne sahip olmadığından Otomatik seçeneği yok.</string>
+    <string name="display_daylight_note">Video ve HUD renklerini korur.</string>
+
+    <!-- Display › Screen edges (ScreenEdgesSection). -->
+    <string name="display_screen_edges_title">Ekran kenarları</string>
+    <string name="display_screen_edges_subtitle">Aracınızın ekranının kestiği kenarlardan uygulamayı içeri alın</string>
+    <string name="display_screen_edges_how">Çizgiyi her yanda görene kadar her kenarı içeri alın. Yalnızca görüntünün kenarlarını kesen araç ekranları için.</string>
+    <string name="display_screen_edges_reset">Sıfırla</string>
+    <string name="display_screen_edges_done">Bitti</string>
+
+    <!-- %1$s is an edge's name in lower case (top, bottom, left, right). -->
+    <string name="display_screen_edges_move_out">%1$s kenarı dışarı al</string>
+    <string name="display_screen_edges_move_in">%1$s kenarı içeri al</string>
+    <string name="display_screen_edges_dp">%1$d dp</string>
+    <string name="display_screen_edges_from_edge">%2$s kenardan %1$d dp</string>
+</resources>

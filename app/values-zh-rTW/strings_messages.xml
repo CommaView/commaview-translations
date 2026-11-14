@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 繁體中文（台灣）: messages from the comma's side. Machine drafted; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- Joins two sentences of one message (MaintenanceFailure.shownSummary). -->
+    <string name="messages_two_sentences">%1$s%2$s</string>
+
+    <!-- What a failed install, update or uninstall on the comma says (MaintenanceFailure.kt). -->
+    <string name="messages_maintenance_noun_install">安裝</string>
+    <string name="messages_maintenance_noun_update">更新</string>
+    <string name="messages_maintenance_noun_uninstall">解除安裝</string>
+    <string name="messages_maintenance_install_failed">無法在您的 comma 上安裝 CommaView。</string>
+    <string name="messages_maintenance_update_failed">無法在您的 comma 上更新 CommaView。</string>
+    <string name="messages_maintenance_uninstall_failed">無法從您的 comma 移除 CommaView。</string>
+    <string name="messages_maintenance_connection_lost">%1$s完成前，與您的 comma 的連線中斷了。</string>
+    <string name="messages_maintenance_advice_same_network">請確認%1$s仍與 comma 在同一個網路上，然後再試一次。</string>
+    <string name="messages_maintenance_driving">車輛正在行駛，因此沒有執行%1$s。</string>
+    <string name="messages_maintenance_advice_park">請將車輛打入 P 檔並讓 openpilot 未啟用，然後再試一次。</string>
+    <string name="messages_maintenance_busy">您的 comma 上已有另一項 CommaView 安裝、更新或修復正在執行。</string>
+    <string name="messages_maintenance_advice_wait">請等候幾分鐘讓它完成，然後再試一次。</string>
+    <string name="messages_maintenance_no_space">您的 comma 在%1$s期間儲存空間不足。</string>
+    <string name="messages_maintenance_advice_later">請稍後再試。%1$s</string>
+    <string name="messages_maintenance_unlisted_paused">CommaView 正在修正一個問題，已暫停在未列出的分支版本上安裝。</string>
+    <string name="messages_maintenance_advice_next_update">請在 CommaView 下次更新後再試一次。</string>
+    <string name="messages_maintenance_your_driving_software">您 comma 上的駕駛軟體</string>
+    <string name="messages_maintenance_unlisted_why">CommaView 無法安全地將其畫面加入 %1$s：%2$s。</string>
+    <string name="messages_maintenance_unlisted">CommaView 無法安全地將其畫面加入 %1$s。</string>
+    <string name="messages_maintenance_advice_ask_fork">若要請求支援您的分支版本，請複製詳細資訊並傳送至 %1$s。</string>
+    <string name="messages_maintenance_unsupported_from">CommaView 尚不支援您 comma 上的駕駛軟體，其來源為 %1$s。</string>
+    <string name="messages_maintenance_unsupported">CommaView 尚不支援您 comma 上的駕駛軟體。</string>
+    <string name="messages_maintenance_supported_forks">支援的分支版本列於 %1$s。</string>
+    <string name="messages_maintenance_advice_ask_yours">若要請求支援您的版本，請複製詳細資訊並傳送至 %1$s。</string>
+    <string name="messages_maintenance_unsupported_screen">CommaView 無法將其畫面加入您 comma 上的駕駛軟體：它繪製畫面的方式 CommaView 不支援。</string>
+    <string name="messages_maintenance_screen_patch">CommaView 無法將其畫面加入您 comma 上的駕駛軟體。該軟體可能有 CommaView 尚無法處理的變更。</string>
+    <string name="messages_maintenance_offline">您的 comma 無法下載 CommaView。</string>
+    <string name="messages_maintenance_advice_internet">請確認您的 comma 已透過 Wi-Fi 或其 SIM 卡連上網際網路，然後再試一次。</string>
+    <string name="messages_maintenance_damaged">您的 comma 收到的 CommaView 下載內容不完整或已損毀。</string>
+    <string name="messages_maintenance_advice_try_again">請再試一次。%1$s</string>
+    <string name="messages_maintenance_did_not_start">%1$s後，CommaView 沒有在您的 comma 上啟動。</string>
+    <string name="messages_maintenance_advice_restart">請重新啟動您的 comma，然後再試一次。%1$s</string>
+    <string name="messages_maintenance_left_changes">安裝程式所做的部分變更無法復原。</string>
+    <string name="messages_maintenance_nothing_changed">您的 comma 上沒有任何變更。</string>
+    <string name="messages_maintenance_rolled_back">您的 comma 已還原為原本的狀態。</string>
+    <string name="messages_maintenance_send_details">請複製詳細資訊並傳送至 %1$s。</string>
+    <string name="messages_maintenance_send_details_if_again">如果再次發生，請複製詳細資訊並傳送至 %1$s。</string>
+    <string name="messages_maintenance_reason_python_ui">它的畫面由 openpilot 較舊的原生介面繪製，CommaView 無法加入</string>
+    <string name="messages_maintenance_reason_screen_code">它的畫面程式碼在 CommaView 連接之處有所不同</string>
+    <string name="messages_maintenance_reason_camera_view">它的鏡頭畫面在 CommaView 連接之處建構方式不同</string>
+    <string name="messages_maintenance_reason_no_screen_for">它沒有 CommaView 認得的 %1$s 畫面</string>
+    <string name="messages_maintenance_reason_no_screen">它沒有 CommaView 認得、適用於這台 comma 的畫面</string>
+    <string name="messages_maintenance_reason_platform">CommaView 無法判斷您的 comma 是 comma 3X 還是 comma four</string>
+    <string name="messages_maintenance_reason_no_repo">CommaView 無法判斷它的軟體來自哪個儲存庫</string>
+
+    <!-- An install that left nothing to start CommaView at boot (BootHookMissing, BootHook.kt). -->
+    <string name="messages_boot_hook_title">重新啟動後 CommaView 不會自行啟動</string>
+    <string name="messages_boot_hook_message">CommaView 已安裝，但您的 comma 開機時沒有任何東西會啟動它：它的啟動指令要放在 /data/continue.sh 中 exec ./launch_openpilot.sh 那一行之前，而您的 comma 沒有這一行。加上這一行後，請再次安裝 CommaView。</string>
+    <string name="messages_boot_hook_brief">comma 開機時沒有任何東西會啟動它：/data/continue.sh 中沒有 exec ./launch_openpilot.sh 這一行。</string>
+
+    <!-- A comma 3, which CommaView doesn't support (CommaSupport.kt). -->
+    <string name="messages_comma3_unsupported_title">不支援 comma 3</string>
+    <string name="messages_comma3_unsupported_body">CommaView 支援 comma 3X 與 comma four。comma 3 的 openpilot 版本已在上游凍結，且繪製畫面的方式不同，因此 CommaView 無法顯示它的疊加圖層。</string>
+
+    <!-- This app and a comma's runtime aren't new enough for each other (RuntimeCompatibility.kt). -->
+    <string name="messages_app_too_old_title">更新 CommaView</string>
+    <string name="messages_app_too_old_body">這台 comma 的 CommaView 執行環境比此應用程式能通訊的版本更新。請更新應用程式以使用這台 comma。</string>
+    <string name="messages_runtime_too_old_title">更新這台 comma 的執行環境</string>
+    <string name="messages_runtime_too_old_body">此應用程式需要比這台 comma 上更新的 CommaView 執行環境。請從裝置設定更新。</string>
+
+    <!-- What the app says when the comma's runtime answered a feature's request with no words of its own (RemoteAccessClient.kt). -->
+    <string name="messages_runtime_unexpected_answer">非預期的回應</string>
+    <string name="messages_runtime_comma_busy">comma 忙碌中</string>
+    <string name="messages_runtime_error_status">錯誤 %1$s</string>
+
+    <!-- A request to the comma (an update, an uninstall, a reboot) when the comma said nothing of its own (CommaViewApi.kt). -->
+    <string name="messages_comma_no_answer">comma 沒有回應</string>
+    <string name="messages_comma_not_paired">%1$s尚未與 comma 配對</string>
+    <string name="messages_comma_refused">comma 拒絕了（%1$s）</string>
+
+    <!-- SSH to the comma (SshInstaller.kt): why it didn't connect. -->
+    <string name="messages_ssh_host_key_not_saved">CommaView 無法在%1$s上儲存這台 comma 的 SSH 身分，因此沒有連線。請釋放%1$s上的一些空間，然後再試一次。</string>
+    <string name="messages_ssh_host_key_changed">這台 comma 的 SSH 身分自上次設定後已變更。如果您重設或重新刷機過它，請再執行一次設定。</string>
+    <string name="messages_ssh_host_keys_unreadable">%1$s無法讀取它所記錄的各台 comma 的 SSH 身分，因此在重新建立該記錄之前，不會透過 SSH 連線到任何 comma。</string>
+    <string name="messages_ssh_no_comma">在 %1$s 找不到 comma。\n請檢查 IP 位址。</string>
+    <string name="messages_ssh_no_route">無法連到 %1$s。\n請確認您在同一個 Wi-Fi 網路上。</string>
+    <string name="messages_ssh_refused">%1$s:22 拒絕連線。\n請確認您的 comma 已啟用 SSH。</string>
+    <string name="messages_ssh_timed_out">連線到 %1$s 逾時。\n請檢查 IP 與網路。</string>
+    <string name="messages_ssh_error">SSH 錯誤：%1$s\n%2$s</string>
+    <string name="messages_ssh_unknown_error">未知的錯誤</string>
+    <string name="messages_ssh_auth_failed">SSH 驗證失敗。\n\n請確認：\n• CommaView 金鑰已加入 GitHub（標題不拘）\n• 已在 comma 上設定您的 GitHub 使用者名稱：如果是在加入金鑰前設定的，請移除後再設定一次\n• comma 已啟用 SSH</string>
+
+    <!-- The phone's own key for the comma, and an answer it can't trust (PhoneAuth.kt, RuntimeHttp.kt). -->
+    <string name="messages_phone_key_gone">%2$s用於 comma 的金鑰已不存在。請將%1$s與 comma 重新配對。</string>
+    <string name="messages_phone_keystore_unavailable">目前無法使用%1$s的金鑰儲存區。請稍後再試一次。</string>
+    <string name="messages_answer_unproven">此回應並非來自與%1$s配對的 comma。</string>
+    <string name="messages_maintenance_ssh_failed_before">%1$s開始前，與您的 comma 的 SSH 連線失敗了。</string>
+    <string name="messages_maintenance_ssh_failed_while">%1$s進行中，與您的 comma 的 SSH 連線失敗了。</string>
+    <string name="messages_maintenance_ssh_failed">與您的 comma 的 SSH 連線失敗了。</string>
+    <string name="messages_maintenance_advice_ssh">請確認%2$s與 comma 在同一個網路上，然後再試一次。%1$s</string>
+    <string name="messages_maintenance_cant_tell">CommaView 無法確定您的 comma 是否有變更：裝置設定會顯示它目前的執行環境。</string>
+</resources>

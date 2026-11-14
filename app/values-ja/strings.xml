@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app: 日本語 (Japanese). Machine drafted with docs/localization/glossary-ja.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- The home dock and rail (HomeSection). -->
+    <string name="nav_home">ホーム</string>
+    <string name="nav_recordings">録画</string>
+    <string name="nav_settings">設定</string>
+
+    <!-- Settings' pages, as each is titled (GlobalSettingsPage, DeviceSettingsPage). -->
+    <string name="settings_page_hub">設定</string>
+    <string name="settings_page_display">表示</string>
+    <string name="settings_page_offline_maps">オフライン地図</string>
+    <string name="settings_page_maps_navigation">地図とナビ</string>
+    <string name="settings_page_choose_home">自宅を選択</string>
+    <string name="settings_page_choose_work">職場を選択</string>
+    <string name="settings_page_recordings">録画</string>
+    <string name="settings_page_sound">サウンド</string>
+    <string name="settings_page_live_streaming">ライブ配信</string>
+    <string name="settings_page_destination">配信先</string>
+    <string name="settings_page_title_description">タイトルと説明</string>
+    <string name="settings_page_account">アカウント</string>
+    <string name="settings_page_privacy">プライバシーと共有</string>
+    <string name="settings_page_support">サポートと診断</string>
+    <string name="settings_page_about">このアプリについて</string>
+    <string name="settings_page_licenses">オープンソースライセンス</string>
+    <string name="settings_page_license">ライセンス</string>
+    <string name="settings_page_device">デバイス設定</string>
+    <string name="settings_page_device_facts">名前とアドレス</string>
+    <string name="settings_page_device_network">ネットワーク</string>
+    <string name="settings_page_device_pairing">別のスマートフォンをペアリング</string>
+    <string name="settings_page_device_runtime">ランタイム</string>
+
+    <!-- The Settings hub's rows, under each title. -->
+    <string name="settings_hub_display_subtitle">走行画面とそのオプション、運転席の位置、日中表示</string>
+    <string name="settings_hub_maps_navigation_key_subtitle">オフライン地図と、自分の Stadia Maps キーを使ったナビ</string>
+    <string name="settings_hub_offline_maps_subtitle">地域をダウンロードし、comma の位置から制限速度を表示</string>
+    <string name="settings_hub_live_streaming_subtitle">Live View から YouTube や他のサーバーへライブ配信</string>
+    <string name="settings_hub_live_streaming_ready">準備完了</string>
+    <string name="settings_hub_live_streaming_set_up">設定する</string>
+    <string name="settings_hub_account_subtitle">ログインと Beta アップデート</string>
+    <string name="settings_hub_language_subtitle">CommaView 自身の表示言語</string>
+    <string name="settings_hub_privacy_subtitle">%1$sから送信されるもの</string>
+    <string name="settings_hub_support_subtitle">問題の報告、プロジェクトの支援、%1$sの診断データ</string>
+    <string name="settings_hub_about_subtitle">バージョンとアップデート</string>
+    <string name="settings_hub_about_update">アップデート</string>
+
+    <!-- Settings › Language (LanguageSetting.kt). -->
+    <string name="language_title">言語</string>
+    <string name="language_follow_phone">スマートフォンの言語</string>
+    <!-- The row's value while the app follows the phone: %1$s is the language that gives, in itself. -->
+    <string name="language_follow_phone_value">スマートフォンの言語（%1$s）</string>
+    <string name="language_follow_phone_detail">CommaView が対応していればスマートフォンの言語に従い、そうでなければ英語になります</string>
+    <string name="language_comma_screens_note">Live View 内の comma の画面は、車で表示されるとおり comma の言語のままです。</string>
+    <string name="language_choose_label">アプリの言語を選択</string>
+    <string name="settings_translation_notice">%1$s版の CommaView は機械翻訳です。</string>
+    <string name="settings_translation_notice_link">改善に協力する</string>
+    <string name="settings_translation_notice_close">翻訳のお知らせを閉じる</string>
+    <string name="language_machine_translated">機械翻訳</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- privacy: Deutsch (German). Machine drafted with docs/localization/glossary-de.md; not yet reviewed by a native speaker. -->
+<resources>
+    <!-- Settings › Privacy & sharing (PrivacySharingPage). -->
+    <string name="privacy_improve_supporting">Sendet Absturz- und Problemberichte, welche Fahrsoftware Ihr comma nutzt und ob Live View auf diesem %1$s oder dem Autodisplay läuft. Nie Video, Fahrten, Orte oder Namen.</string>
+    <string name="privacy_improve_supporting_no_reports">Sendet Absturz- und Problemberichte, welche Fahrsoftware Ihr comma nutzt und ob Live View auf diesem %1$s oder dem Autodisplay läuft. Nie Video, Fahrten, Orte oder Namen. Diese Version sendet keine Absturzberichte.</string>
+    <string name="privacy_car_detection">Autoerkennung</string>
+    <string name="privacy_car_detection_label">Gesendete Aufnahmen zur Verbesserung der Autoerkennung nutzen</string>
+    <string name="privacy_contribute_automatically">Fahrten automatisch beitragen</string>
+    <string name="privacy_contribute_automatically_supporting">Die letzten Fahrten Ihres comma werden gesendet, wenn dieses %1$s und das comma in einem unten erlaubten Netz sind, bis zu einem Tageslimit. Nicht im Energiesparmodus und nicht, während Sie Live View nutzen oder aufnehmen.</string>
+    <string name="privacy_contribute_needs_runtime">Zum Beitragen von Fahrten braucht Ihr comma die neueste CommaView-Runtime. Aktualisieren Sie sie in den Einstellungen des Geräts.</string>
+    <string name="privacy_upload_networks">Beiträge hochladen über</string>
+    <string name="privacy_upload_networks_supporting">Hotspots sehen für Ihr %1$s oft wie das WLAN zu Hause aus, deshalb meldet Ihr comma, in welchem WLAN es ist. Das gilt für jeden Beitrag.</string>
+    <string name="privacy_any_wifi_supporting">WLAN, das Ihr %1$s als nicht getaktet meldet, bei automatischen Beiträgen mit Ihrem comma darin</string>
+    <string name="privacy_chosen_networks_supporting">Die Netze, die Sie unten ankreuzen, jeweils mit Monatslimit, wenn Sie wollen</string>
+    <string name="privacy_mobile_data">Mobile Daten</string>
+    <string name="privacy_mobile_data_supporting">%1$s nutzt seine eigenen, etwa wenn Ihr comma in seinem Hotspot ist</string>
+    <string name="privacy_network_limit_hint">Getaktet: Ein Limit hält Beiträge im Rahmen des Tarifs</string>
+    <string name="privacy_no_monthly_limit">Kein Monatslimit</string>
+    <string name="privacy_monthly_limit">Monatslimit · %1$s</string>
+    <string name="privacy_limit_reached">Limit erreicht · %1$s</string>
+    <string name="privacy_limit_on_mobile_data">Monatslimit für mobile Daten</string>
+    <string name="privacy_limit_on_wifi">Monatslimit für %1$s</string>
+    <string name="privacy_limit_text_mobile_data">Beiträge sind etwa 110 MB pro Fahrtminute. Bei dieser Menge stoppen sie über mobile Daten bis zum 1. des nächsten Monats. An CommaView gesendete Aufnahmen zählen nicht.</string>
+    <string name="privacy_limit_text_wifi">Beiträge sind etwa 110 MB pro Fahrtminute. Bei dieser Menge stoppen sie in diesem WLAN bis zum 1. des nächsten Monats. An CommaView gesendete Aufnahmen zählen nicht.</string>
+    <string name="privacy_nothing_this_month">Diesen Monat noch nichts</string>
+    <string name="privacy_comma_wifi_listed">Von Ihrem comma gespeicherte WLANs. Wählen Sie, über welche hochgeladen wird.</string>
+    <string name="privacy_comma_wifi_asking">Ihr comma wird nach seinen gespeicherten WLANs gefragt…</string>
+    <string name="privacy_comma_wifi_unreachable">Ihr comma ist gerade nicht erreichbar. Seine gespeicherten WLANs erscheinen hier, sobald es verbunden ist.</string>
+    <string name="privacy_comma_wifi_update_runtime">Aktualisieren Sie die Runtime Ihres comma, um alle gespeicherten WLANs zu sehen.</string>
+    <string name="privacy_comma_on_it_now">Ihr comma ist gerade darin</string>
+    <string name="privacy_not_saved_on_comma">Nicht auf Ihrem comma gespeichert</string>
+    <string name="privacy_metered">getaktet</string>
+    <string name="privacy_comma_wifi_runtime_too_old">Aktualisieren Sie die Runtime Ihres comma, um WLANs zu wählen.</string>
+    <string name="privacy_comma_wifi_kept">Von Ihrem comma gespeicherte WLANs, Stand %1$s. Wählen Sie, über welche hochgeladen wird.</string>
+    <string name="privacy_comma_wifi_not_paired">Koppeln Sie Ihr comma mit diesem %1$s, um seine gespeicherten WLANs zu sehen.</string>
+    <string name="privacy_comma_wifi_forgot_phone">Ihr comma kennt dieses %1$s nicht mehr. Koppeln Sie es erneut, um seine gespeicherten WLANs zu sehen.</string>
+    <string name="privacy_comma_wifi_none">Ihr comma hat noch keine gespeicherten WLANs.</string>
+    <string name="privacy_comma_wifi_recent">Die zuletzt von Ihrem comma genutzten WLANs. Wählen Sie, über welche hochgeladen wird.</string>
+    <string name="privacy_comma_wifi_read_failed">Ihr comma konnte sein WLAN gerade nicht lesen.</string>
+    <string name="privacy_comma_wifi_list_failed">Ihr comma konnte seine gespeicherten WLANs gerade nicht auflisten.</string>
+</resources>

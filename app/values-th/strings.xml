@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CommaView's own words, in English (docs/plans/2026-11-13-localization.md): keys are <area>_<what>, sentences are
+     whole, placeholders positional. Each offered language has every key (LocalizationGuardTest). -->
+<resources>
+
+    <!-- The home dock and rail (HomeSection). -->
+    <string name="nav_home">หน้าแรก</string>
+    <string name="nav_recordings">การบันทึก</string>
+    <string name="nav_settings">การตั้งค่า</string>
+
+    <!-- Settings' pages, as each is titled (GlobalSettingsPage, DeviceSettingsPage). -->
+    <string name="settings_page_hub">การตั้งค่า</string>
+    <string name="settings_page_display">การแสดงผล</string>
+    <string name="settings_page_offline_maps">แผนที่ออฟไลน์</string>
+    <string name="settings_page_maps_navigation">แผนที่และการนำทาง</string>
+    <string name="settings_page_choose_home">เลือกบ้าน</string>
+    <string name="settings_page_choose_work">เลือกที่ทำงาน</string>
+    <string name="settings_page_recordings">การบันทึก</string>
+    <string name="settings_page_sound">เสียง</string>
+    <string name="settings_page_live_streaming">ถ่ายทอดสด</string>
+    <string name="settings_page_destination">ปลายทาง</string>
+    <string name="settings_page_title_description">ชื่อและคำอธิบาย</string>
+    <string name="settings_page_account">บัญชี</string>
+    <string name="settings_page_privacy">ความเป็นส่วนตัวและการแชร์</string>
+    <string name="settings_page_support">การสนับสนุนและการวินิจฉัย</string>
+    <string name="settings_page_about">เกี่ยวกับ</string>
+    <string name="settings_page_licenses">สัญญาอนุญาตโอเพนซอร์ส</string>
+    <string name="settings_page_license">สัญญาอนุญาต</string>
+    <string name="settings_page_device">การตั้งค่าอุปกรณ์</string>
+    <string name="settings_page_device_facts">ชื่อและที่อยู่</string>
+    <string name="settings_page_device_network">เครือข่าย</string>
+    <string name="settings_page_device_pairing">จับคู่โทรศัพท์เครื่องอื่น</string>
+    <string name="settings_page_device_runtime">รันไทม์</string>
+
+    <!-- The Settings hub's rows, under each title. -->
+    <string name="settings_hub_display_subtitle">หน้าจอขณะขับและตัวเลือก ตำแหน่งคนขับ และกลางวัน</string>
+    <string name="settings_hub_maps_navigation_key_subtitle">แผนที่ออฟไลน์ และการนำทางด้วยคีย์ Stadia Maps ของคุณเอง</string>
+    <string name="settings_hub_offline_maps_subtitle">ดาวน์โหลดภูมิภาคและแสดงความเร็วจำกัดจากตำแหน่งของ comma</string>
+    <string name="settings_hub_live_streaming_subtitle">ถ่ายทอดสดจาก Live View ไปยัง YouTube หรือเซิร์ฟเวอร์อื่น</string>
+    <string name="settings_hub_live_streaming_ready">พร้อม</string>
+    <string name="settings_hub_live_streaming_set_up">ตั้งค่า</string>
+    <string name="settings_hub_account_subtitle">ลงชื่อเข้าใช้และอัปเดต Beta</string>
+    <string name="settings_hub_language_subtitle">ภาษาของข้อความใน CommaView</string>
+    <string name="settings_hub_privacy_subtitle">สิ่งที่ส่งออกจาก%1$s</string>
+    <string name="settings_hub_support_subtitle">รายงานปัญหา สนับสนุนโปรเจกต์ และการวินิจฉัยใน%1$s</string>
+    <string name="settings_hub_about_subtitle">เวอร์ชันและอัปเดต</string>
+    <string name="settings_hub_about_update">อัปเดต</string>
+
+    <!-- Settings › Language (LanguageSetting.kt). -->
+    <string name="language_title">ภาษา</string>
+    <string name="language_follow_phone">ภาษาของโทรศัพท์</string>
+    <!-- The row's value while the app follows the phone: %1$s is the language that gives, in itself. -->
+    <string name="language_follow_phone_value">ตามโทรศัพท์ (%1$s)</string>
+    <string name="language_follow_phone_detail">ใช้ภาษาของโทรศัพท์หาก CommaView รองรับ หากไม่รองรับจะใช้ภาษาอังกฤษ</string>
+    <string name="language_comma_screens_note">หน้าจอ comma ใน Live View จะใช้ภาษาของ comma ตามที่แสดงในรถ</string>
+    <string name="language_choose_label">เลือกภาษาของแอป</string>
+    <string name="settings_translation_notice">CommaView ภาษา%1$s แปลด้วยเครื่อง</string>
+    <string name="settings_translation_notice_link">ช่วยปรับปรุง</string>
+    <string name="settings_translation_notice_close">ปิดประกาศเรื่องการแปล</string>
+    <string name="language_machine_translated">แปลด้วยเครื่อง</string>
+</resources>

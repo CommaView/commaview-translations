@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- support: CommaView's own words, in English (docs/localization/how-to-localize.md). -->
+<resources>
+    <!-- Settings › Support & diagnostics (SupportDiagnosticsScreen, SettingsPages). -->
+    <string name="support_report_or_idea">Report a problem or send an idea</string>
+    <string name="support_diagnostics_kept">Diagnostics kept</string>
+    <string name="support_support">Support</string>
+    <string name="support_on_this_phone">On %1$s</string>
+    <string name="support_local_data">Local diagnostic data</string>
+    <string name="support_local_data_supporting">Deletes recording error history, local diagnostic logs, navigation search counts, saved bug reports, and debug clips from older app versions. Drive recordings won’t be deleted.</string>
+    <string name="support_clear_local_data">Clear local diagnostic data</string>
+    <string name="support_kept_nothing">Nothing on %1$s</string>
+    <string name="support_kept_under">Under 0.1 MB on %1$s</string>
+    <string name="support_kept_megabytes">%1$.1f MB on %2$s</string>
+    <string name="support_kept_gigabytes">%1$.1f GB on %2$s</string>
+    <string name="support_keep_diagnostics">Keep diagnostics on %1$s</string>
+    <string name="support_keep_diagnostics_supporting">App logs and counters from your last 10 drives, and navigation search counts, kept so a report can say what happened. Nothing leaves %1$s until you send a report. Off keeps only recording error history.</string>
+    <string name="support_the_project">Support the project</string>
+    <string name="support_commaview">Support CommaView</string>
+    <string name="support_commaview_supporting">Help cover hosting, testing and the iOS app. Opens Buy Me a Coffee.</string>
+
+    <!-- Your requests (YourRequests). -->
+    <string name="support_your_requests">Your requests</string>
+    <string name="support_your_requests_supporting">Replies and your conversations with CommaView, on my.commaview.com. CommaView emails you when it replies.</string>
+    <string name="support_your_requests_empty">No requests yet. Ones you send show here, and CommaView emails you when it replies.</string>
+    <string name="support_your_requests_signed_out">Sign in to see your requests and CommaView\'s replies here.</string>
+    <string name="support_your_requests_loading">Looking for your requests…</string>
+    <string name="support_your_requests_failed">Couldn\'t get your requests just now. They load again when you come back to this page.</string>
+    <string name="support_your_requests_unread">Unread reply</string>
+    <string name="support_see_all">See all</string>
+    <string name="support_see_all_count">See all %1$d</string>
+    <string name="support_see_all_where">On my.commaview.com</string>
+    <string name="support_kind_problem">Problem</string>
+    <string name="support_kind_idea">Idea</string>
+    <string name="support_kind_request">Request</string>
+    <string name="support_status_closed">Closed</string>
+    <string name="support_status_closed_on">Closed · %1$s</string>
+    <string name="support_status_replied">Open · CommaView replied</string>
+    <string name="support_status_waiting">Open · Waiting on CommaView</string>
+    <string name="support_status_open">Open</string>
+    <string name="support_couldnt_open_site">Couldn\'t open my.commaview.com</string>
+</resources>

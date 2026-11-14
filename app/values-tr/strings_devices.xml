@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- devices: Türkçe. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-tr.md and openpilot's selfdrive/ui/translations/app_tr.po. -->
+<resources>
+
+    <!-- Maintenance queued on the comma (DeferredMaintenancePresentation.kt). -->
+    <string name="devices_keep_car_on">Aracı çalışır durumda tutun: güç kablo demeti yoksa aracı kapatmak comma\'yı da kapatır.</string>
+    <string name="devices_put_car_in_park">openpilot devre dışıyken vitesi P\'ye alın</string>
+    <string name="devices_repair_queued_detail">Onarım sırada — araç P konumunda ve openpilot devre dışıyken çalışır.</string>
+    <string name="devices_maintenance_waits_again">Geçen sefer başlarken araç yeniden sürüldü, bu yüzden araç yeniden P konumuna alınana kadar bekler.</string>
+    <string name="devices_maintenance_running_body">Araç P konumunda, bu yüzden comma bunu şimdi yapıyor.</string>
+    <string name="devices_maintenance_done_body">Araç dururken çalıştı.</string>
+    <string name="devices_maintenance_failed_driven">Her başladığında araç yeniden sürüldü, bu yüzden comma denemeyi bıraktı. Yeniden deneyin.</string>
+    <string name="devices_maintenance_failed_body">Araç dururken çalıştı ancak bitmedi. Yeniden deneyin.</string>
+    <string name="devices_maintenance_queued_update">Çalışma ortamı güncellemesi sırada</string>
+    <string name="devices_maintenance_queued_uninstall">Kaldırma sırada</string>
+    <string name="devices_maintenance_queued_repair">Onarım sırada</string>
+    <string name="devices_maintenance_queued_other">Bakım sırada</string>
+    <string name="devices_maintenance_queued_update_body">Araç P konumunda ve openpilot devre dışıyken yüklenir. Hiçbir şey sürüşü kesmez.</string>
+    <string name="devices_maintenance_queued_uninstall_body">CommaView, araç P konumunda ve openpilot devre dışıyken kaldırılır; o zamana kadar çalışmaya devam eder.</string>
+    <string name="devices_maintenance_queued_repair_body">Araç P konumunda ve openpilot devre dışıyken çalışır. Hiçbir şey sürüşü kesmez.</string>
+    <string name="devices_maintenance_queued_other_body">Araç P konumunda ve openpilot devre dışıyken çalışır.</string>
+    <string name="devices_maintenance_running_update">Sıradaki güncelleme yükleniyor</string>
+    <string name="devices_maintenance_running_uninstall">CommaView kaldırılıyor</string>
+    <string name="devices_maintenance_running_repair">Sıradaki onarım çalışıyor</string>
+    <string name="devices_maintenance_running_other">Sıradaki bakım çalışıyor</string>
+    <string name="devices_maintenance_done_update">Sıradaki güncelleme yüklendi</string>
+    <string name="devices_maintenance_done_uninstall">Sıradaki kaldırma tamamlandı</string>
+    <string name="devices_maintenance_done_repair">Sıradaki onarım tamamlandı</string>
+    <string name="devices_maintenance_done_other">Sıradaki bakım tamamlandı</string>
+    <string name="devices_maintenance_failed_update">Sıradaki güncelleme başarısız</string>
+    <string name="devices_maintenance_failed_uninstall">Sıradaki kaldırma başarısız</string>
+    <string name="devices_maintenance_failed_repair">Sıradaki onarım başarısız</string>
+    <string name="devices_maintenance_failed_other">Sıradaki bakım başarısız</string>
+    <string name="devices_two_sentences">%1$s %2$s</string>
+
+    <!-- RebootRequiredPresentation.kt, VersionTooOldPresentation.kt -->
+    <string name="devices_reboot_update_title">Güncellemeyi bitirmek için comma\'yı yeniden başlatın</string>
+    <string name="devices_reboot_update_body">CommaView çalışma ortamı güncellendi. comma yeniden başladığında Live View ve kayıt yeniden başlar.</string>
+    <string name="devices_reboot_setup_title">Kurulumu bitirmek için comma\'yı yeniden başlatın</string>
+    <string name="devices_reboot_setup_body">CommaView yüklendi. comma yeniden başladığında Live View ve kayıt başlar.</string>
+    <string name="devices_reboot_repair_title">Onarımı bitirmek için comma\'yı yeniden başlatın</string>
+    <string name="devices_reboot_repair_body">Onarım yerinde, ancak openpilot onu yalnızca comma yeniden başladığında yükler. Yeniden başladığında Live View ve kayıt yeniden başlar.</string>
+    <string name="devices_reboot_finish_title">Bitirmek için comma\'yı yeniden başlatın</string>
+    <string name="devices_reboot_finish_body">CommaView bu comma\'ya yüklendi veya güncellendi. comma yeniden başladığında Live View ve kayıt başlar.</string>
+    <string name="devices_reboot_stale_title">Güncellemeyi yüklemek için comma\'yı yeniden başlatın</string>
+    <string name="devices_reboot_stale_body">comma\'daki CommaView\'un bir kısmı hâlâ eski sürümünü çalıştırıyor, bu yüzden araç verileri gelemiyor. comma yeniden başladığında Live View ve kayıt yeniden başlar.</string>
+    <string name="devices_reboot_note_title">Araç kapalıyken veya P konumundayken</string>
+    <string name="devices_reboot_note_body">comma yeniden başlarken openpilot yaklaşık bir dakika durur.</string>
+    <string name="devices_update_commaview">CommaView\'u güncelle</string>
+    <string name="devices_no_update_found">Henüz güncelleme bulunamadı</string>
+    <string name="devices_no_update_found_body">CommaView, %1$s çevrimiçiyken güncelleme arar. Bulunduğunda Ayarlar\'da görünür.</string>
+    <string name="devices_device_settings">Cihaz ayarları</string>
+
+    <!-- DeviceListViewModel.kt: the saved commas, their patch and pairing. -->
+    <string name="devices_status_ready">Hazır</string>
+    <string name="devices_status_offroad">Sürüş dışı</string>
+    <string name="devices_status_offline">Çevrimdışı</string>
+    <string name="devices_status_needs_action">İşlem gerekiyor</string>
+    <string name="devices_status_needs_reboot">Yeniden başlatma gerekiyor</string>
+    <string name="devices_status_checking">Denetleniyor</string>
+    <string name="devices_patch_repairing">Yama onarılıyor</string>
+    <string name="devices_patch_repairing_detail">Doğrudan UI dışa aktarma desteği uygulanıyor…</string>
+    <string name="devices_patch_repair_running">Araç P konumunda, bu yüzden comma sıradaki onarımı şimdi çalıştırıyor.</string>
+    <string name="devices_patch_repair_queued">Onarım sırada</string>
+    <string name="devices_patch_stale">Yama eski</string>
+    <string name="devices_patch_stale_detail">Doğrudan UI dışa aktarmayı doğrulamak için yeniden bağlanın veya yenileyin.</string>
+    <string name="devices_patch_view_paused">Görünüm duraklatıldı</string>
+    <string name="devices_patch_repair_blocked">Onarım engellendi</string>
+    <string name="devices_patch_repair_blocked_detail">Onarım yalnızca araç P konumundayken çalışır. Araç P konumunda ve openpilot devre dışı olana kadar sıraya almak için Güvenli onarım\'ı kullanın.</string>
+    <string name="devices_patch_repair_needed">Onarım gerekiyor</string>
+    <string name="devices_patch_repair_needed_detail">Doğrudan UI dışa aktarma yamasının onarılması gerekiyor.</string>
+    <string name="devices_patch_reboot_to_finish">Bitirmek için yeniden başlatın</string>
+    <string name="devices_patch_reboot_detail">Yama yüklendi. openpilot çalışırken ekranını yeniden yükleyemez, bu yüzden comma yeniden başladığında geçerli olur.</string>
+    <string name="devices_patch_telemetry_unproven">Telemetri doğrulanmadı</string>
+    <string name="devices_patch_telemetry_unproven_detail">Yama işaretleri mevcut, ancak çalışma ortamı telemetrisi doğrulanmadı.</string>
+    <string name="devices_patch_verified">Yama doğrulandı</string>
+    <string name="devices_patch_verified_detail">Doğrudan UI dışa aktarma yüklü ve çalışma ortamı telemetrisi sağlıklı.</string>
+    <string name="devices_patch_stale_unverified">Doğrudan UI dışa aktarma durumu doğrulanamadı.</string>
+    <string name="devices_unlisted_withdrawn">CommaView, bir sorunu düzeltirken listelemediği fork\'lardaki görünümünü duraklattı; bu yüzden fork\'unuz kendi ekran dosyalarıyla çalışıyor. Onarılacak bir şey yok: görünüm bir CommaView güncellemesiyle geri gelir.</string>
+    <string name="devices_export_unavailable">%1$s yazılımının bu sürümü, ekranını CommaView\'un henüz görünümünü ekleyemeyeceği bir şekilde değiştirdi; bu yüzden kendi ekran dosyalarıyla çalışıyor. Live View videoyu ve CommaView\'un kendi çizimini, %1$s eklentileri olmadan gösterir. Onarılacak bir şey yok: görünüm bir CommaView güncellemesiyle geri gelir.</string>
+    <string name="devices_export_unavailable_unnamed">Fork\'unuzun bu sürümü, ekranını CommaView\'un henüz görünümünü ekleyemeyeceği bir şekilde değiştirdi; bu yüzden kendi ekran dosyalarıyla çalışıyor. Live View videoyu ve CommaView\'un kendi çizimini, fork\'unuzun eklentileri olmadan gösterir. Onarılacak bir şey yok: görünüm bir CommaView güncellemesiyle geri gelir.</string>
+    <string name="devices_runtime_update">Çalışma ortamı güncellemesi</string>
+    <string name="devices_pairing_failed_redeem">Eşleştirme başarısız: comma\'ya ulaşılabiliyor, ancak eşleştirme kodu kullanılamadı (%1$s). Yeniden deneyin veya yeni bir kod oluşturun.</string>
+    <string name="devices_pairing_failed_unreachable">Eşleştirme başarısız: CommaView çalışma ortamı API\'sine ulaşılamadı (%1$s). Hotspot\'u/ağı kontrol edip yeniden deneyin.</string>
+    <string name="devices_pairing_network_error">ağ hatası</string>
+    <string name="devices_pairing_failed_expired">Eşleştirme başarısız: eşleştirme kodunun süresi doldu. Yeni bir kod oluşturup yeniden deneyin.</string>
+    <string name="devices_pairing_failed_invalid">Eşleştirme başarısız: geçersiz eşleştirme kodu. Kodu kontrol edin veya QR\'ı tarayın.</string>
+    <string name="devices_pairing_failed_no_token">Eşleştirme başarısız: çalışma ortamı API belirteci kullanılamıyor. Önce kurulumu yeniden yükleyin veya onarın.</string>
+    <string name="devices_pairing_failed_no_code">Eşleştirme başarısız: etkin eşleştirme kodu yok. Eşleştirilmiş denetleyicide yeni bir kod oluşturun.</string>
+    <string name="devices_pairing_failed_required">Eşleştirme başarısız: eşleştirme kodu gerekli.</string>
+    <string name="devices_pairing_failed_other">Eşleştirme başarısız: %1$s.</string>
+    <string name="devices_pairing_failed_rejected">Eşleştirme başarısız: çalışma ortamı eşleştirme kodunu reddetti.</string>
+    <string name="devices_comma_paired">comma eşleştirildi</string>
+    <string name="devices_comma_added">comma eklendi</string>
+    <string name="devices_save_refused">Bu comma kaydedilemedi: %1$sda kayıtlı comma\'lar okunamıyor. Ana sayfa\'dan baştan başlayıp yeniden ekleyin.</string>
+    <string name="devices_start_over_failed">Kayıtlı comma\'lar kenara ayrılamadı. Yeniden deneyin.</string>
+    <string name="devices_start_over_done">Kayıtlı comma\'lar kenara ayrıldı. Devam etmek için comma\'nızı ekleyin.</string>
+
+    <!-- DevicesHomePresentation.kt: what the Devices home shows. -->
+    <string name="devices_menu_connected">Bağlı</string>
+    <string name="devices_menu_checking">Denetleniyor</string>
+    <string name="devices_menu_offline">Çevrimdışı</string>
+    <string name="devices_menu_needs_repair">Onarım gerekiyor</string>
+    <string name="devices_menu_not_supported">Desteklenmiyor</string>
+    <string name="devices_menu_needs_reboot">Yeniden başlatma gerekiyor</string>
+    <string name="devices_menu_wont_start">Başlamıyor</string>
+    <string name="devices_menu_needs_update">Güncelleme gerekiyor</string>
+    <string name="devices_repair_again">Yeniden onar</string>
+    <string name="devices_runtime_unknown">Bilinmiyor</string>
+    <string name="devices_driving_footnote">Bu comma tarafından kaydedildi · kilometre sayacı değil</string>
+    <string name="devices_driving_cached">Önbellekte · %1$s. %2$s</string>
+    <string name="devices_no_drives">Henüz kaydedilmiş sürüş yok.</string>
+    <string name="devices_location_off">Kapalı. Bu comma\'nın nerede olduğunu, sürüş sırasında canlı görmek için açın.</string>
+
+    <!-- Vehicle location (VehicleLocationPresentation.kt, VehicleLocationPage.kt, VehicleMap.kt). -->
+    <string name="devices_location_cached">Son bilinen · %1$s güncellendi · %2$sda kayıtlı</string>
+    <string name="devices_location_source_comma">comma\'nın GPS\'i</string>
+    <string name="devices_location_source_log">Sürüşün günlüğü</string>
+    <string name="devices_location_status_off">Kapalı</string>
+    <string name="devices_location_hidden">Açılana kadar gizli</string>
+    <string name="devices_location_live_updated">Canlı · %1$s güncellendi</string>
+    <string name="devices_location_live_updating">Canlı · güncelleniyor</string>
+    <string name="devices_location_just_now">Az önce</string>
+    <string name="devices_location_last_known">Son bilinen</string>
+    <string name="devices_location_last_known_at">Son bilinen · %1$s</string>
+    <string name="devices_location_while_ago">Bir süre önce</string>
+    <string name="devices_location_waiting_gps">comma\'nın GPS\'i bekleniyor</string>
+    <string name="devices_location_waiting_gps_last">comma\'nın GPS\'i bekleniyor · son bilinen %1$s</string>
+    <string name="devices_location_waiting_short">GPS bekleniyor</string>
+    <string name="devices_location_last_drive_ended">Son sürüşün bittiği yer</string>
+    <string name="devices_location_last_drive_ended_at">Son sürüşün bittiği yer · %1$s</string>
+    <string name="devices_location_after_last_drive">Son sürüşten sonra</string>
+    <string name="devices_location_no_position">Henüz konum yok. comma her sürüşün bittiği yeri kaydeder.</string>
+    <string name="devices_location_none_yet">Henüz yok</string>
+    <string name="devices_location_map_source">Harita OpenFreeMap\'ten yüklenir; OpenFreeMap haritasını çizemeyen bir telefonda OpenStreetMap\'ten.</string>
+    <string name="devices_location_consent">Bu, comma\'nın kendi GPS\'inden nerede olduğunu gösterir: araç çalışırken canlı, park edildiğinde ise son sürüşün bittiği yer. Bu, %1$sdaki konum değildir. Bu comma ile eşleştirilmiş telefonlar görebilir. %2$s çevrimdışı görüntüleme için bilinen son konumu kaydeder. Kapatmak bu kayıtlı konumu ve harita döşemelerini temizler. Harita OpenFreeMap\'ten yüklenir; OpenFreeMap haritasını çizemeyen bir telefonda OpenStreetMap\'ten. İstediğiniz zaman kapatabilirsiniz.</string>
+    <string name="devices_location_turned_on">Konum açıldı</string>
+    <string name="devices_location_turned_off">Konum kapatıldı. comma konumlarını sildi; %1$sdaki kayıtlı konum ve harita döşemeleri de silindi.</string>
+    <string name="devices_location_unreachable">comma\'ya ulaşılamadı. Hiçbir şey değişmedi.</string>
+    <string name="devices_location_too_old">Bu comma\'nın çalışma ortamı konum için çok eski.</string>
+    <string name="devices_location_not_paired">comma artık %1$sla eşleştirilmiş değil. Bunu değiştirmek için yeniden eşleştirin.</string>
+    <string name="devices_location_failed">comma bunu değiştiremedi: %1$s</string>
+    <string name="devices_location_hidden_title">Konum gizli</string>
+    <string name="devices_vehicle_location">Araç konumu</string>
+    <string name="devices_back_to_home">Ana sayfaya dön</string>
+    <string name="devices_location_show">Araç konumunu göster</string>
+    <string name="devices_location_on_for_comma">Bu comma için açık</string>
+    <string name="devices_location_off_for_comma">Bu comma için kapalı</string>
+    <string name="devices_location_turning_on">Açılıyor…</string>
+    <string name="devices_location_turn_on">Konumu aç</string>
+    <string name="devices_location_open_in_maps">Haritalar\'da aç</string>
+    <string name="devices_location_last_update">Son güncelleme</string>
+    <string name="devices_location_source">Kaynak</string>
+    <string name="devices_location_accuracy">Doğruluk</string>
+    <string name="devices_location_coordinates">Koordinatlar</string>
+    <string name="devices_location_who">Kimler görebilir</string>
+    <string name="devices_location_who_paired">Bu comma ile eşleştirilmiş telefonlar</string>
+    <string name="devices_location_off_note">Kapatmak, comma\'nın tuttuğu konumları hemen siler. Harita OpenFreeMap\'ten yüklenir; OpenFreeMap haritasını çizemeyen bir telefonda OpenStreetMap\'ten.</string>
+    <string name="devices_map_loading">Harita yükleniyor…</string>
+    <string name="devices_map_unavailable">Harita kullanılamıyor</string>
+    <string name="devices_map_unreachable">%2$s şu anda %1$s sunucusuna ulaşamıyor.</string>
+    <string name="devices_no_maps_app">Harita uygulaması yok (%1$s)</string>
+
+    <!-- RuntimeFeatureNotice.kt: a comma feature the runtime can't give. -->
+    <string name="devices_feature_asking">comma\'ya soruluyor…</string>
+    <string name="devices_feature_needs_runtime">Daha yeni bir çalışma ortamı gerekiyor</string>
+    <string name="devices_feature_needs_runtime_body">Bu comma\'nın %1$s gösterebilmesi için daha yeni bir CommaView çalışma ortamı gerekir. Cihaz ayarları\'ndan güncelleyin.</string>
+    <string name="devices_feature_pair_again">Eşleştirmeyi %1$sdan yeniden yapın</string>
+    <string name="devices_feature_pair_again_body">comma artık %1$sla eşleştirilmiş değil, bu yüzden nerede veya nasıl sürdüğünü paylaşmaz. comma ekle\'den yeniden eşleştirin.</string>
+    <string name="devices_feature_unreachable">comma\'ya ulaşılamıyor</string>
+    <string name="devices_feature_no_answer">comma yanıt veremedi</string>
+    <string name="devices_feature_said_stale">Yanıtı: %1$s. Daha önce söyledikleri gösteriliyor.</string>
+    <string name="devices_feature_said">Yanıtı: %1$s.</string>
+    <string name="devices_feature_stale_network">Daha önce söyledikleri gösteriliyor. %1$s comma ile aynı Wi‑Fi\'da veya comma\'nın hotspot\'unda olmalı.</string>
+    <string name="devices_feature_network">%1$s comma ile aynı Wi‑Fi\'da veya comma\'nın hotspot\'unda olmalı.</string>
+    <string name="devices_try_again">Yeniden dene</string>
+
+    <!-- PowerCutWords.kt: a drive cut short by the comma losing power. -->
+    <string name="devices_power_cut_today">bugün %1$s</string>
+    <string name="devices_power_cut_yesterday">dün %1$s</string>
+    <string name="devices_power_cut_on_day">%1$s %2$s</string>
+    <string name="devices_power_cut_title">comma\'nız bir sürüş biterken gücünü kaybetmiş olabilir</string>
+    <string name="devices_power_cut_action">Nasıl düzeltilir</string>
+    <string name="devices_power_cut_fix_title">Her sürüşün sonunu kaydedin</string>
+    <string name="devices_power_cut_body_ended_on">%2$s cihazındaki bir sürüşün son anları kayboldu (bitiş: %1$s). comma\'nın bunları kaydetmek için aracı kapattıktan sonra birkaç saniye güce ihtiyacı var.</string>
+    <string name="devices_power_cut_body_ended">Bir sürüşün son anları kayboldu (bitiş: %1$s). comma\'nın bunları kaydetmek için aracı kapattıktan sonra birkaç saniye güce ihtiyacı var.</string>
+    <string name="devices_power_cut_body_newest_on">%1$s cihazındaki en yeni sürüşün son anları kayboldu. comma\'nın bunları kaydetmek için aracı kapattıktan sonra birkaç saniye güce ihtiyacı var.</string>
+    <string name="devices_power_cut_body_newest">En yeni sürüşün son anları kayboldu. comma\'nın bunları kaydetmek için aracı kapattıktan sonra birkaç saniye güce ihtiyacı var.</string>
+    <string name="devices_power_cut_fix_power">comma power, araç kapandıktan sonra comma\'nızı çalışır tutar; böylece sürüşü kaydetmeyi bitirebilir.</string>
+    <string name="devices_power_cut_fix_offroad">comma\'nız aracı kapattıktan sonra güç alıyor ama yine de hemen kapanıyorsa, sürüş yazılımınızın Cihaz ayarlarında bir sürüş dışı süre ayarı olabilir. Birkaç dakika verin.</string>
+    <string name="devices_power_cut_fix_link">comma power hakkında</string>
+    <string name="devices_copy_details">Ayrıntıları kopyala</string>
+    <string name="devices_details_copied">Ayrıntılar kopyalandı</string>
+    <string name="devices_clip_failure">CommaView %1$s hatası</string>
+    <string name="devices_clip_boot_hook">CommaView açılış kancası</string>
+
+    <!-- CrashCard.kt and CrashActivity.kt -->
+    <string name="devices_crash_title">CommaView beklenmedik şekilde kapandı</string>
+    <string name="devices_crash_report_line">CommaView beklenmedik şekilde kapandı: %1$s</string>
+    <string name="devices_crash_closed_at">Kapanma zamanı: %1$s.</string>
+    <string name="devices_crash_report">Bildir</string>
+    <string name="devices_crash_dismiss">Kapat</string>
+    <string name="devices_crash_no_trace">İz yok</string>
+
+    <!-- HomeRuntimeUpdate.kt: the Devices home's runtime update card. -->
+    <string name="devices_update_failed_title">Çalışma ortamı güncellemesi başarısız</string>
+    <string name="devices_update_card_title">Çalışma ortamı güncellemesi</string>
+    <string name="devices_update_restarting_reconnecting">comma yeniden başlatılıyor… hazır olduğunda yeniden bağlanılacak.</string>
+    <string name="devices_update_installed">Yüklü</string>
+    <string name="devices_update_unknown">Bilinmiyor</string>
+    <string name="devices_update_available">Mevcut</string>
+    <string name="devices_update_runtime">Çalışma ortamını güncelle</string>
+    <string name="devices_update_queue">Güncellemeyi sıraya al</string>
+    <string name="devices_cancel">İptal</string>
+    <string name="devices_update_restarting_minute">comma yeniden başlatılıyor… yaklaşık bir dakika içinde geri döner.</string>
+    <string name="devices_update_rebooting">Yeniden başlatılıyor…</string>
+    <string name="devices_update_reboot_comma">comma\'yı yeniden başlat</string>
+    <string name="devices_dismiss">Kapat</string>
+    <string name="devices_update_steps">Güncelleme adımlarını gör</string>
+    <string name="devices_close">Kapat</string>
+    <string name="devices_update_restart_note">openpilot yaklaşık bir dakika durur. Araç kapalıyken veya P konumundayken yeniden başlatın.</string>
+    <string name="devices_update_restart_to_finish">Bitirmek için comma\'yı yeniden başlat</string>
+    <string name="devices_update_finish_later">Daha sonra bitir</string>
+
+    <!-- DevicesHomeScreen.kt: the Devices home. -->
+    <string name="devices_pill_connected">Bağlı</string>
+    <string name="devices_pill_car_off">Araç kapalı</string>
+    <string name="devices_pill_checking">Denetleniyor</string>
+    <string name="devices_pill_offline">Çevrimdışı</string>
+    <string name="devices_pill_repair">Onar</string>
+    <string name="devices_pill_not_supported">Desteklenmiyor</string>
+    <string name="devices_pill_reboot">Yeniden başlat</string>
+    <string name="devices_pill_wont_start">Başlamıyor</string>
+    <string name="devices_pill_update">Güncelle</string>
+    <string name="devices_subtitle_needs_repair">%1$s · Onarım gerekiyor</string>
+    <string name="devices_subtitle_needs_reboot">%1$s · Yeniden başlatma gerekiyor</string>
+    <string name="devices_subtitle_wont_start">%1$s · Başlamıyor</string>
+    <string name="devices_subtitle_needs_update">%1$s · Güncelleme gerekiyor</string>
+    <string name="devices_selected_comma">Seçili comma</string>
+    <string name="devices_reboot_finish_updated_body">CommaView güncellendi, ancak openpilot yeni ekran kodunu yalnızca comma yeniden başladığında yükler. O zamana kadar Live View\'da katman veya telemetri olmaz.</string>
+    <string name="devices_cameras_when_on">Kameralar araç çalıştığında açılır</string>
+    <string name="devices_road_camera_live">Yol kamerası, bu comma\'dan Wi‑Fi üzerinden canlı</string>
+    <string name="devices_this_comma">Bu comma</string>
+    <string name="devices_vehicle_offline">%1$s, çevrimdışı</string>
+    <string name="devices_no_car_picture">%1$s, araç resmi yok</string>
+    <string name="devices_checking_ellipsis">Denetleniyor…</string>
+    <string name="devices_open_live_view">Live View\'u aç</string>
+    <string name="devices_readout_runtime">Çalışma ortamı</string>
+    <string name="devices_readout_comma_ip">comma IP</string>
+    <string name="devices_readout_software">Yazılım</string>
+    <string name="devices_readout_last_address">Bilinen son adres</string>
+    <string name="devices_reconnecting">Yeniden bağlanılıyor…</string>
+    <string name="devices_reconnect">Yeniden bağlan</string>
+    <string name="devices_update_ready">Çalışma ortamı güncellemesi hazır</string>
+    <string name="devices_update_ready_body">Bu comma için yeni bir CommaView çalışma ortamı hazır. openpilot\'u veya sunnypilot\'u değiştirmez.</string>
+    <string name="devices_review_update">Güncellemeyi gözden geçir</string>
+    <string name="devices_update_needed">Güncelleme gerekiyor</string>
+    <string name="devices_update_needed_body">Bu uygulama ve bu comma\'nın CommaView çalışma ortamı birbirleri için yeterince yeni değil.</string>
+    <string name="devices_repair_title">Live View\'un onarılması gerekiyor</string>
+    <string name="devices_repair_body">Live View başlamadan önce çalışma ortamının sürüş yazılımıyla bağlantısının onarılması gerekiyor.</string>
+    <string name="devices_repair">Onar</string>
+    <string name="devices_repair_keep_on">Aracı çalışır durumda, P konumunda tutun</string>
+    <string name="devices_repair_queued_note">Onarım, araç openpilot devre dışıyken P konumuna alındıktan kısa süre sonra başlar. Hiçbir şey sürüşü kesmez.</string>
+    <string name="devices_repair_runs_in_park">Araç P konumundayken çalışır</string>
+    <string name="devices_repair_runs_in_park_note">Araç sürülüyorsa onarım, araç P konumunda ve openpilot devre dışı olana kadar comma\'da bekler.</string>
+    <string name="devices_view_paused_title">CommaView\'un görünümü duraklatıldı</string>
+    <string name="devices_forget_comma">Bu comma\'yı unut</string>
+    <string name="devices_still_on_it">CommaView hâlâ üzerinde</string>
+    <string name="devices_still_on_it_body">comma\'dan kaldırmak için önce Cihaz ayarları\'ndaki Çalışma ortamını kaldır\'ı kullanın.</string>
+    <string name="devices_cant_connect">Bağlanamıyor musunuz?</string>
+    <string name="devices_cant_connect_body">%1$s comma ile aynı Wi‑Fi\'da veya comma\'nın hotspot\'unda olmalı. Araç kapalıyken comma uyur.</string>
+    <string name="devices_new_comma">Bu ağda yeni comma</string>
+    <string name="devices_set_up">Kur</string>
+    <string name="devices_driving_week">Bu haftaki sürüş</string>
+    <string name="devices_leaderboard">Sıralama</string>
+    <string name="devices_recent_recordings">Son kayıtlar</string>
+    <string name="devices_view_all">Tümünü gör</string>
+    <string name="devices_open_store">Mağazayı aç</string>
+    <string name="devices_view_all_recordings">Tüm kayıtları gör</string>
+    <string name="devices_no_recordings">Henüz kayıt yok. Live View\'dan bir sürüş kaydedin.</string>
+    <string name="devices_play_recording_from">Kaydı oynat: %1$s</string>
+    <string name="devices_add_first">İlk comma\'nızı ekleyin</string>
+    <string name="devices_add_first_body">Zaten CommaView çalıştıran bir comma eşleştirin veya bir comma\'ya CommaView kurun. %1$s comma ile aynı Wi‑Fi\'da veya comma\'nın hotspot\'unda olmalı.</string>
+    <string name="devices_add_comma">comma ekle</string>
+    <string name="devices_scanning">Taranıyor…</string>
+    <string name="devices_scan_again">Yeniden tara</string>
+
+    <!-- Home widgets and Customize home (HomeWidgets.kt, CustomizeHome.kt, CockpitReorder.kt). -->
+    <string name="devices_customize_home">Ana sayfayı özelleştir</string>
+    <string name="devices_customize_home_hint">Yeniden sıralamak için sürükleyin. İlk widget\'lar ekranı doldurur.</string>
+    <string name="devices_done">Bitti</string>
+    <string name="devices_move_up">Yukarı taşı</string>
+    <string name="devices_move_down">Aşağı taşı</string>
+
+    <!-- SavedCommasUnreadable.kt -->
+    <string name="devices_unreadable_title">Kayıtlı comma\'larınız okunamıyor</string>
+    <string name="devices_unreadable_body">Kayıtlı comma\'lar %1$sda okunamadığı için hiçbiri gösterilmiyor. Silinmediler. Yeniden deneyin veya baştan başlayıp her comma\'yı yeniden eşleştirin.</string>
+    <string name="devices_start_over">Baştan başla</string>
+    <string name="devices_unreadable_confirm_title">Kayıtlı comma\'larınız olmadan baştan başlansın mı?</string>
+    <string name="devices_unreadable_confirm_body">Kayıtlı liste, daha sonraki bir CommaView okuyabilir diye %1$sda kenara ayrılır ve en az 90 gün saklanır. Her birini yeniden eşleştirene kadar %2$s hiçbir comma göstermez.</string>
+    <string name="devices_unreadable_confirm_action">Kenara ayır ve baştan başla</string>
+
+    <!-- AddCommaPage.kt: Add a comma. -->
+    <string name="devices_runs_commaview_version">CommaView %1$s çalıştırıyor</string>
+    <string name="devices_runs_commaview">CommaView çalıştırıyor</string>
+    <string name="devices_comma_found">comma bulundu</string>
+    <string name="devices_add_intro">Zaten CommaView çalıştıran bir comma eşleştirin ve %1$sdan izleyin.</string>
+    <string name="devices_on_this_network">Bu ağda</string>
+    <string name="devices_scan_qr">QR kodunu tara</string>
+    <string name="devices_enter_its_code">Eşleştirme kodunu girin</string>
+    <string name="devices_enter_address_code">Adres ve kod girin</string>
+    <string name="devices_set_up_again">CommaView\'u yeniden kurun</string>
+    <string name="devices_set_up_on_comma">Bir comma\'ya CommaView kurun</string>
+    <string name="devices_set_up_again_body">SSH üzerinden CommaView\'u yeniden yükleyin veya onarın.</string>
+    <string name="devices_set_up_body">Henüz CommaView çalıştırmayan bir comma için veya onarmak ya da yeniden yüklemek için. Kurulum SSH kullanır.</string>
+    <string name="devices_where_code">Eşleştirme kodu nerede?</string>
+    <string name="devices_where_code_body">Bu comma ile zaten eşleştirilmiş bir telefon onu Cihaz ayarları\'nda, Başka bir telefon eşleştir altında gösterir. CommaView\'u kurmak da size bir kod verir.</string>
+    <string name="devices_stays_local">Ağınızda kalır</string>
+    <string name="devices_stays_local_body">CommaView, arada bulut hizmeti olmadan yerel ağınız üzerinden comma\'nızla doğrudan konuşur. %1$s comma ile aynı Wi‑Fi\'da veya comma\'nın hotspot\'unda olmalı.</string>
+    <string name="devices_readout_device">Cihaz</string>
+    <string name="devices_readout_address">Adres</string>
+    <string name="devices_or">VEYA</string>
+
+    <!-- DeviceListScreen.kt: Home, pairing and the repair. -->
+    <string name="devices_repair_ready">Onarıma hazır</string>
+    <string name="devices_repair_car_on">Araç çalışıyor</string>
+    <string name="devices_repair_car_unknown">Araç durumu bilinmiyor</string>
+    <string name="devices_repair_offroad_text">comma\'nız sürüş dışında. Onarımı başlatmak güvenli.</string>
+    <string name="devices_repair_onroad_text">Güvenli onarım, onarımı comma\'da sıraya alır. Araç P konumunda ve openpilot devre dışıyken çalışır.</string>
+    <string name="devices_repair_unknown_text">Aracın sürülüp sürülmediği doğrulanamadı. Güvenli onarım, park hâlindeyse yaklaşık bir dakika içinde, değilse araç P konumunda ve openpilot devre dışıyken başlar.</string>
+    <string name="devices_invalid_qr">Geçersiz eşleştirme QR\'ı</string>
+    <string name="devices_code_imported">Eşleştirme kodu içe aktarıldı</string>
+    <string name="devices_scan_prompt">Eşleştirme QR kodunu tarayın</string>
+    <string name="devices_forget_title">Bu comma unutulsun mu?</string>
+    <string name="devices_forget_body">%1$s bu comma\'yı göstermeyi bırakır ve eşleştirme anahtarını siler.</string>
+    <string name="devices_forget">Unut</string>
+    <string name="devices_back_to_search">Aramaya dön</string>
+    <string name="devices_driving_insights">Sürüş istatistikleri</string>
+    <string name="devices_home">Ana sayfa</string>
+    <string name="devices_safe_repair">Güvenli onarım</string>
+    <string name="devices_safe_repair_warning_title">Araç P konumundayken çalışır</string>
+    <string name="devices_safe_repair_warning">Araç sürülüyorsa comma, sürüş ekranı UI dışa aktarma onarımını sıraya alır ve araç P konumunda, openpilot devre dışıyken çalıştırır; böylece sürüş asla kesilmez.</string>
+    <string name="devices_safe_repair_body">Araç zaten P konumunda ve openpilot devre dışıysa onarım yaklaşık bir dakika içinde başlar.</string>
+    <string name="devices_start_safe_repair">Güvenli onarımı başlat</string>
+    <string name="devices_repair_export_title">Sürüş ekranı UI dışa aktarmasını onar</string>
+    <string name="devices_repair_export_question">%1$s üzerindeki sürüş ekranı UI dışa aktarma yaması onarılsın mı?</string>
+    <string name="devices_repair_export_question_unnamed">Bu comma\'daki sürüş ekranı UI dışa aktarma yaması onarılsın mı?</string>
+    <string name="devices_safe_repair_action">Güvenli onarım…</string>
+    <string name="devices_pair_comma">comma eşleştir</string>
+    <string name="devices_pair_hint">comma IP\'sini ve CommaView kurulumunun gösterdiği eşleştirme kodunu ya da bu comma\'ya zaten sahip bir telefondan gelen daveti girin.</string>
+    <string name="devices_scan_pairing_qr">Eşleştirme QR\'ını tara</string>
+    <string name="devices_pair_code_hint">Tireler isteğe bağlı · kodların süresi çabuk dolar</string>
+    <string name="devices_enter_ip_first">Önce comma\'nızın IP\'sini girin</string>
+    <string name="devices_enter_code_first">Önce eşleştirme kodunu veya daveti girin ya da tarayın</string>
+    <string name="devices_pair_code">Eşleştirme kodu veya davet</string>
+    <!-- Saved commas set aside by Start over, offered back (SetAsideRecovery). -->
+    <plurals name="devices_set_aside_offer_title">
+        <item quantity="one">%2$s tarihli %1$d kayıtlı comma bulundu</item>
+        <item quantity="other">%2$s tarihli %1$d kayıtlı comma bulundu</item>
+    </plurals>
+    <string name="devices_set_aside_offer_body">CommaView bunları okunamadıklarında kenara ayırmıştı. Artık okunabiliyorlar.</string>
+    <string name="devices_set_aside_review">Gözden geçir</string>
+    <string name="devices_set_aside_review_title">%1$s tarihli kayıtlı comma\'lar</string>
+    <string name="devices_set_aside_review_message">Yeniden %1$sa eklenecek comma\'ları seçin. Her biri sahip olduğu ad, adres ve eşleştirmeyle geri gelir.</string>
+    <string name="devices_set_aside_already_saved">Zaten kayıtlı</string>
+    <string name="devices_set_aside_not_now">Şimdi değil</string>
+    <string name="devices_set_aside_delete_list">Bu listeyi sil</string>
+    <string name="devices_set_aside_add_none">comma ekle</string>
+    <plurals name="devices_set_aside_add">
+        <item quantity="one">%d comma ekle</item>
+        <item quantity="other">%d comma ekle</item>
+    </plurals>
+    <string name="devices_set_aside_tick_to_add">Eklemek için bir comma işaretleyin</string>
+    <plurals name="devices_set_aside_drop_others">
+        <item quantity="one">Diğer %d tanesini tutma</item>
+        <item quantity="other">Diğer %d tanesini tutma</item>
+    </plurals>
+    <plurals name="devices_set_aside_drop_others_note">
+        <item quantity="one">Diğer %d tanesi tutulmayacak. Sonradan geri getirilemez.</item>
+        <item quantity="other">Diğer %d tanesi tutulmayacak. Sonradan geri getirilemezler.</item>
+    </plurals>
+    <string name="devices_set_aside_left_unticked">İşaretlenmeyenler daha sonrası için kenarda kalır.</string>
+    <string name="devices_set_aside_two_sentences">%1$s %2$s</string>
+    <plurals name="devices_set_aside_added">
+        <item quantity="one">%d comma eklendi</item>
+        <item quantity="other">%d comma eklendi</item>
+    </plurals>
+    <plurals name="devices_set_aside_were_saved">
+        <item quantity="one">%d tanesi zaten kayıtlıydı.</item>
+        <item quantity="other">%d tanesi zaten kayıtlıydı.</item>
+    </plurals>
+    <string name="devices_set_aside_added_and_saved">%1$s. %2$s</string>
+    <string name="devices_set_aside_add_failed">Eklenemediler. Yeniden deneyin.</string>
+    <string name="devices_set_aside_none_added">comma eklenmedi</string>
+    <string name="devices_set_aside_paired_stay">Zaten yeniden eşleştirdiğiniz comma\'lar kalır.</string>
+    <string name="devices_set_aside_delete_title">%1$s tarihinde kenara ayrılan liste silinsin mi?</string>
+    <plurals name="devices_set_aside_delete_all_title">
+        <item quantity="one">Kenara ayrılan %d liste silinsin mi?</item>
+        <item quantity="other">Kenara ayrılan %d liste silinsin mi?</item>
+    </plurals>
+    <string name="devices_set_aside_delete_body_unread">Sonradan geri getirilemez.</string>
+    <plurals name="devices_set_aside_delete_body">
+        <item quantity="one">İçindeki %d comma sonradan geri getirilemez.</item>
+        <item quantity="other">İçindeki %d comma sonradan geri getirilemez.</item>
+    </plurals>
+    <string name="devices_set_aside_delete_all_body">Sonradan geri getirilemezler.</string>
+    <string name="devices_set_aside_delete_confirm">Listeyi sil</string>
+    <string name="devices_set_aside_delete_all_confirm">Listeleri sil</string>
+    <string name="devices_set_aside_deleted">Liste silindi</string>
+    <string name="devices_set_aside_delete_failed">Liste silinemedi. Yeniden deneyin.</string>
+    <string name="devices_set_aside_settings_label">Kenara ayrılan kayıtlı listeler</string>
+    <string name="devices_set_aside_delete_now">Şimdi sil</string>
+    <string name="devices_set_aside_line_one">%1$s tarihinde kenara ayrılan 1 kayıtlı liste, %2$s</string>
+    <string name="devices_set_aside_kept_until">%1$s tarihine kadar saklanır</string>
+    <string name="devices_set_aside_kept_regardless">%1$sda okunabilir kayıtlı comma olmadığı sürece saklanır</string>
+    <string name="devices_set_aside_line_several">%2$s kenara ayrılan %1$d kayıtlı liste. %3$s</string>
+    <string name="devices_set_aside_span_on">%1$s tarihinde</string>
+    <string name="devices_set_aside_span_from">%1$s ile %2$s arasında</string>
+    <plurals name="devices_set_aside_each_kept">
+        <item quantity="one">Her biri %d gün saklanır.</item>
+        <item quantity="other">Her biri %d gün saklanır.</item>
+    </plurals>
+    <plurals name="devices_set_aside_each_kept_newest">
+        <item quantity="one">Her biri %1$d gün saklanır; en yenisi ise %2$s.</item>
+        <item quantity="other">Her biri %1$d gün saklanır; en yenisi ise %2$s.</item>
+    </plurals>
+    <!-- A development runtime, and the app's release put back (HomeRuntimeUpdate). -->
+    <string name="devices_dev_runtime_title">Bu comma bir geliştirme çalışma ortamı çalıştırıyor</string>
+    <string name="devices_dev_runtime_body">CommaView sürümlerinin dışında yüklendi. Bu uygulamanın sürümünü (%1$s) yeniden yükleyebilirsiniz.</string>
+    <string name="devices_dev_runtime_kept">comma\'nız eşleştirilmiş kalır, CommaView ayarlarını ve kayıtlarını korur. Video ve telemetrinin geri gelmesi için yeniden başlatma gerekebilir.</string>
+    <string name="devices_dev_runtime_install">Yükle: %1$s</string>
+    <string name="devices_dev_runtime_queue_install">Yüklemeyi sıraya al</string>
+    <!-- Phone keys: joining by an invitation, and a comma that already has a phone with a key. -->
+    <string name="devices_pairing_failed_legacy_off">Eşleştirme başarısız: bu comma artık kodla eşleşmiyor. Onun için zaten anahtarı olan bir telefondan %1$s için davet oluşturun (ayarları, Başka bir telefon ekle) veya comma\'nın kurulumunu yeniden çalıştırın.</string>
+    <string name="devices_invitation_needed_named">%1$s cihazında zaten kendine ait anahtarı olan bir telefon var, ancak %2$s için anahtar yok. O telefon sizin değilse başka biri onu önce eklemiş olabilir: SSH üzerinden comma\'daki tüm telefonları kaldırın (commaviewd phones revoke-all), sonra kurulumu %2$sdan yeniden yapın. Aksi hâlde %2$s için o telefondan davet oluşturun (ayarları, Başka bir telefon ekle).</string>
+    <string name="devices_invitation_needed_this">Bu comma\'da zaten kendine ait anahtarı olan bir telefon var, ancak %1$s için anahtar yok. O telefon sizin değilse başka biri onu önce eklemiş olabilir: SSH üzerinden comma\'daki tüm telefonları kaldırın (commaviewd phones revoke-all), sonra kurulumu %1$sdan yeniden yapın. Aksi hâlde %1$s için o telefondan davet oluşturun (ayarları, Başka bir telefon ekle).</string>
+    <string name="devices_invitation_failed">Bu davetle katılınamadı. Yanlış yazılmış, süresi dolmuş veya kullanılmış olabilir. Bu comma\'ya zaten sahip olan telefonda yeni bir tane gösterin (ayarları, Başka bir telefon ekle).</string>
+
+    <!-- Why a pair code couldn't be redeemed, when the comma or the network gave no words (RemoteAccessClient.kt). -->
+    <string name="devices_pairing_error_network">ağ kullanılamıyor</string>
+    <string name="devices_pairing_error_redeem_failed">eşleştirme kodu kullanılamadı</string>
+    <string name="devices_pairing_error_unknown_host">bilinmeyen ana makine</string>
+
+    <!-- The comma's view on its screen, when the runtime gave no reason of its own (CommaViewApi.kt). -->
+    <string name="devices_patch_reason_busy">comma meşgul. Onarımı biraz sonra yeniden deneyin.</string>
+    <string name="devices_patch_reason_unavailable">sürüş ekranı UI dışa aktarma durumu kullanılamıyor</string>
+    <string name="devices_patch_reason_no_token">API belirteci eksik</string>
+    <string name="devices_patch_reason_repair_unavailable">sürüş ekranı UI dışa aktarma onarımı kullanılamıyor</string>
+    <string name="devices_patch_reason_invalid_repair">geçersiz onarım yanıtı</string>
+    <string name="devices_support_name">CommaView desteği</string>
+    <string name="devices_email_support">Desteğe e-posta gönder</string>
+    <string name="devices_address_copied">Adres kopyalandı</string>
+</resources>

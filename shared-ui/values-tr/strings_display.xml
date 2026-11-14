@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- display: Türkçe. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-tr.md and openpilot's selfdrive/ui/translations/app_tr.po. -->
+<resources>
+
+    <!-- Display's choices (DisplayPreferences). -->
+    <string name="display_driver_side_auto">Otomatik</string>
+    <string name="display_driver_side_auto_detail">comma\'nızın bildirdiği tarafı kullan</string>
+    <string name="display_driver_side_lhd">Soldan direksiyonlu</string>
+    <string name="display_driver_side_lhd_detail">Direksiyon solda</string>
+    <string name="display_driver_side_rhd">Sağdan direksiyonlu</string>
+    <string name="display_driver_side_rhd_detail">Direksiyon sağda</string>
+    <string name="display_daylight_off">Kapalı</string>
+    <string name="display_daylight_off_detail">Standart Cockpit renkleri.</string>
+    <string name="display_daylight_on">Açık</string>
+    <string name="display_daylight_on_detail">Güneş ve parlama için daha parlak yazı ve çizgiler.</string>
+    <string name="display_daylight_auto">Otomatik</string>
+    <string name="display_daylight_auto_detail">Işık sensörü %1$sda parlak ışık algıladığında daha parlak yazı ve çizgiler.</string>
+    <string name="display_confidence_default">Varsayılan</string>
+    <string name="display_confidence_default_detail">Güven göstergelerini standart boyutta kullan.</string>
+    <string name="display_confidence_75_detail">Güven panelini ve topunu biraz küçült.</string>
+    <string name="display_confidence_50_detail">Yarı boyutlu güven göstergeleriyle videoya daha çok yer aç.</string>
+    <string name="display_confidence_25_detail">En küçük güven panelini ve topunu kullan.</string>
+
+    <!-- Display's design options (DisplayOptions). -->
+    <string name="display_confidence_title">Kompakt güven paneli</string>
+    <string name="display_confidence_subtitle">Daha çok video için daha küçük panel ve top</string>
+    <string name="display_confidence_note">Videoya daha çok yer açmak için güven panelini ve topunu küçültün.</string>
+    <string name="display_driver_position_title">Sürücü konumu</string>
+    <string name="display_driver_position_subtitle">Her ekranda kontrolleri aynalar</string>
+    <string name="display_driver_position_note">Aynalanan kontroller için sürücü tarafını seçin. Otomatik, comma\'nızın bildirdiği tarafı izler ve bir dahaki sefere hatırlar.</string>
+
+    <!-- Settings › Display (DisplayPage). -->
+    <string name="display_title">Ekran</string>
+    <string name="display_subtitle">Live View\'un görünümü · %1$s</string>
+    <string name="display_back_to_settings">Ayarlara dön</string>
+    <string name="display_onroad_screen">Sürüş ekranı</string>
+    <string name="display_design_options">%1$s seçenekleri</string>
+    <string name="display_reduce_motion">Hareketi azalt</string>
+    <string name="display_reduce_motion_detail">CommaView\'un yol, hız ve kilitlenme göstergelerini sabit tutar. Android\'in Animasyonları kaldır ayarı da aynısını yapar.</string>
+    <string name="display_design_no_options">%1$s ekranının kendine ait seçeneği yok: comma nasıl çiziyorsa öyle çizilir.</string>
+    <string name="display_on_every_screen">Her ekranda</string>
+    <string name="display_opening_live_view">Live View açılıyor</string>
+    <string name="display_preview">Önizleme</string>
+    <string name="display_preview_engaged">Devrede</string>
+    <string name="display_preview_override">Müdahale</string>
+    <string name="display_preview_disengaged">Devre dışı</string>
+    <string name="display_safety_title">Güvenlik renkleri değişmez</string>
+    <string name="display_safety_detail">Uyarılar, ikazlar ve sürücü izleme durumu her zaman comma\'nızın kendi renklerini kullanır. Kayıtlar\'da yaptığınız tekrar oynatmalar, kayıt sırasında Live View nasıl göründüyse öyle görünür.</string>
+
+    <!-- Display › Screen edges' value (ScreenEdges). -->
+    <string name="display_screen_edges_off">Kapalı</string>
+    <string name="display_screen_edges_all_round">Her yanda %1$d dp</string>
+
+    <!-- %1$s lists each edge that has a margin with its figure: "Top 8 · Bottom 16". -->
+    <string name="display_screen_edges_each">%1$s dp</string>
+    <string name="display_screen_edge_top">Üst</string>
+    <string name="display_screen_edge_bottom">Alt</string>
+    <string name="display_screen_edge_left">Sol</string>
+    <string name="display_screen_edge_right">Sağ</string>
+
+    <!-- The preview's description for TalkBack (HudPreview): %1$s is the onroad screen's name. -->
+    <string name="display_hud_preview_engaged">%1$s ekranının önizlemesi, devrede</string>
+    <string name="display_hud_preview_override">%1$s ekranının önizlemesi, müdahale</string>
+    <string name="display_hud_preview_not_engaged">%1$s ekranının önizlemesi, devrede değil</string>
+</resources>

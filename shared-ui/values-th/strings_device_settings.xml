@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- device_settings: ไทย (Thai). Machine drafted with docs/localization/glossary-th.md; not yet reviewed by a native speaker. -->
+<!-- CommaView's words for device settings (docs/localization/how-to-localize.md). -->
+<resources>
+
+    <!-- ForceOffroadConfirmation.kt: Safe Update, Safe Install and Safe Repair's countdown. -->
+    <string name="device_settings_safe_dialog_back">ย้อนกลับ</string>
+    <string name="device_settings_safe_dialog_ready">พร้อม</string>
+    <string name="device_settings_safe_dialog_delay">หน่วงเวลาเพื่อความปลอดภัย</string>
+</resources>

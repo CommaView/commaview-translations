@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The words of the UI both apps share (shared-ui), in English: read with stringResource(Res.string.…) from
+     org.jetbrains.compose.resources (docs/plans/2026-11-13-localization.md). Each language the app offers has every
+     key (SharedUiStringsTest). -->
+<resources>
+    <string name="common_done">Done</string>
+</resources>

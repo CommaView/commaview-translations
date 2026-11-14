@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- account: 한국어. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-ko.md and openpilot's selfdrive/ui/translations/app_ko.po. -->
+<resources>
+    <string name="account_home_sign_in_title">CommaView에 로그인</string>
+    <string name="account_home_sign_in_body">초대받은 베타 계정으로 로그인하면 CommaView를 사용하고, 업데이트를 받고, 의견을 보낼 수 있습니다.</string>
+    <string name="account_home_sign_in_action">로그인</string>
+    <string name="account_home_waitlist_title">대기자 명단에 등록되었습니다</string>
+    <string name="account_home_waitlist_pending">순서를 유지하려면 CommaView가 보낸 이메일에서 확인을 완료하세요.</string>
+    <string name="account_home_waitlist_invited">초대가 준비되었습니다. 이메일에서 수락하면 CommaView가 자동으로 반영합니다.</string>
+    <string name="account_home_waitlist_waiting">초대가 준비되면 CommaView가 이메일로 알려 드립니다.</string>
+    <string name="account_home_expiring_today">이용권이 오늘 만료됩니다</string>
+    <plurals name="account_home_expiring_days">
+        <item quantity="other">이용권이 %1$d일 후 만료됩니다</item>
+    </plurals>
+    <string name="account_home_expiring_body">%1$s가 인터넷에 연결되면 CommaView가 자동으로 갱신합니다(comma의 핫스팟은 제외).</string>
+    <string name="account_home_renew_now">지금 갱신</string>
+    <string name="account_home_lapsed_title">연결해서 갱신하기</string>
+    <string name="account_home_lapsed_body">이용권을 갱신해야 합니다. %1$s를 인터넷에 연결하고 다시 시도하거나 다시 로그인하세요.</string>
+    <string name="account_home_renew">갱신</string>
+    <string name="account_home_not_now">나중에</string>
+    <string name="account_access_signed_out">로그인 안 됨</string>
+    <string name="account_access_waitlist">대기자 명단</string>
+    <string name="account_access_admin">관리자</string>
+    <string name="account_access_member">Beta 회원</string>
+    <plurals name="account_access_ends">
+        <item quantity="other">%1$s · 이용권 %2$d일 후 만료</item>
+    </plurals>
+    <string name="account_access_lapsed">이용권 갱신 필요</string>
+    <string name="account_renew_renewed">이용권이 갱신되었습니다</string>
+    <string name="account_renew_no_internet">갱신하려면 인터넷에 연결하세요(comma의 핫스팟 제외)</string>
+    <string name="account_signed_out_sign_in_again">%1$s가 로그아웃되었습니다. 계속하려면 다시 로그인하세요.</string>
+    <string name="account_renew_retry_later">지금은 갱신하지 못했습니다. CommaView가 나중에 다시 시도합니다.</string>
+    <string name="account_refresh_done">새로고침 완료: 이용 권한과 기능이 최신 상태입니다.</string>
+    <string name="account_refresh_no_internet">새로고침하려면 인터넷에 연결하세요(comma의 핫스팟 제외).</string>
+    <string name="account_refresh_retry_later">지금은 새로고침하지 못했습니다. 잠시 후 다시 시도하세요.</string>
+    <string name="account_refresh_sign_in_again">계속하려면 다시 로그인하세요.</string>
+    <string name="account_refresh_failed">새로고침하지 못했습니다. 다시 시도하세요.</string>
+    <plurals name="account_span_minutes">
+        <item quantity="other">%1$d분</item>
+    </plurals>
+    <plurals name="account_span_hours">
+        <item quantity="other">%1$d시간</item>
+    </plurals>
+    <plurals name="account_span_days">
+        <item quantity="other">%1$d일</item>
+    </plurals>
+    <string name="account_renewed_just_now">방금 갱신됨</string>
+    <string name="account_renewed_ago">%1$s 전에 갱신됨</string>
+    <string name="account_renews_next_online">다음에 %1$s가 온라인 상태가 되면 자동 갱신</string>
+    <string name="account_renews_in">약 %1$s 후 자동 갱신</string>
+    <string name="account_access_features_text">계정에 새로 켜진 기능은 이용권과 함께 %1$s에 전달됩니다. 이용권은 하루에 한 번쯤 자동으로 갱신되며, 변경 사항을 바로 받으려면 새로고침하세요.</string>
+    <string name="account_card_title">계정</string>
+    <string name="account_fact_email">이메일</string>
+    <string name="account_fact_access">이용 권한</string>
+    <string name="account_sign_in">로그인</string>
+    <string name="account_signing_out">로그아웃 중…</string>
+    <string name="account_sign_out">로그아웃</string>
+    <string name="account_access_features_title">이용 권한 및 기능</string>
+    <string name="account_access_features_footnote">인터넷이 필요합니다. comma의 핫스팟만으로는 부족합니다.</string>
+    <string name="account_refreshing">새로고침 중…</string>
+    <string name="account_refresh_access">이용 권한 새로고침</string>
+    <string name="account_delete_title">계정 삭제</string>
+    <string name="account_delete_supporting">계정, 보낸 신고와 녹화, 리더보드 순위를 삭제합니다. 차량 감지에 기여한 주행은 학습 데이터 모음에 남습니다.</string>
+    <string name="account_delete_action">웹사이트 열기</string>
+    <string name="account_delete_where">my.commaview.com의 계정 페이지에서 삭제합니다.</string>
+    <string name="account_could_not_open_site">%1$s 페이지를 열 수 없습니다</string>
+    <string name="account_sign_out_title">로그아웃하시겠습니까?</string>
+    <string name="account_cancel">취소</string>
+    <string name="account_signed_out">로그아웃됨</string>
+    <string name="account_sign_out_message">%1$s에서 이용권 정보가 삭제됩니다. comma와 설정은 그대로 유지됩니다.</string>
+    <string name="account_sign_out_message_youtube">%1$s에서 이용권과 라이브 방송의 YouTube 로그인 정보가 삭제됩니다. comma와 다른 설정은 그대로 유지됩니다.</string>
+    <plurals name="account_sign_out_message_keys">
+        <item quantity="other">%1$s에서 이용권과 라이브 방송의 스트림 키가 삭제됩니다. comma와 다른 설정은 그대로 유지됩니다.</item>
+    </plurals>
+    <plurals name="account_sign_out_message_youtube_keys">
+        <item quantity="other">%1$s에서 이용권, 라이브 방송의 YouTube 로그인 정보와 스트림 키가 삭제됩니다. comma와 다른 설정은 그대로 유지됩니다.</item>
+    </plurals>
+    <string name="account_update_title">CommaView 업데이트 중</string>
+    <string name="account_update_checking">최신 릴리스 확인 중…</string>
+    <string name="account_update_downloading">다운로드 중…</string>
+    <string name="account_update_downloading_percent">다운로드 중… %1$d%%</string>
+    <string name="account_update_verifying">다운로드 확인 중…</string>
+    <string name="account_update_starting">설치 시작 중…</string>
+    <string name="account_update_keep_using">CommaView를 계속 사용할 수 있습니다. 다운로드는 계속 진행되며, 준비되면 상단의 업데이트 버튼이 ‘설치’로 바뀝니다.</string>
+    <string name="account_update_hide">숨기기</string>
+    <string name="account_update_install_title">%1$s 설치</string>
+    <string name="account_update_install_title_generic">업데이트 설치</string>
+    <string name="account_update_needs_permission">CommaView의 앱 설치를 허용(Android에서 한 번만 설정)한 다음 돌아와서 ‘설치’를 누르세요.</string>
+    <string name="account_update_verified">다운로드가 확인되었습니다. Android에서 설치를 확인하라는 메시지가 표시됩니다.</string>
+    <string name="account_update_not_now">나중에</string>
+    <string name="account_update_allow_install">허용 및 설치</string>
+    <string name="account_update_install">설치</string>
+    <string name="account_update_up_to_date_title">최신 버전</string>
+    <string name="account_update_up_to_date">이미 최신 CommaView 릴리스를 사용 중입니다.</string>
+    <string name="account_update_ok">확인</string>
+    <string name="account_update_failed_title">업데이트를 완료하지 못했습니다</string>
+    <string name="account_update_close">닫기</string>
+    <string name="account_update_open_download">다운로드 페이지 열기</string>
+    <string name="account_update_try_again">다시 시도</string>
+    <string name="account_member_checking_title">이용 권한 확인 중</string>
+    <string name="account_member_checking_body">%1$s에 저장된 베타 이용 권한을 확인하는 중입니다. 회원은 이용권이 유효한 동안 오프라인에서도 CommaView를 사용할 수 있습니다.</string>
+    <string name="account_member_check_again">다시 확인</string>
+    <string name="account_member_sign_in_title">CommaView에 로그인</string>
+    <string name="account_member_sign_in_body">CommaView는 현재 초대받은 베타 회원만 사용할 수 있습니다. 계속하려면 초대를 받은 계정으로 로그인하세요.</string>
+    <string name="account_member_sign_in">로그인</string>
+    <string name="account_member_waitlist_title">베타 초대 필요</string>
+    <string name="account_member_waitlist_pending">대기자 명단 순서를 유지하려면 CommaView가 보낸 이메일에서 확인을 완료하세요. 앱을 사용하려면 베타 초대를 수락해야 합니다.</string>
+    <string name="account_member_waitlist_invited">베타 초대가 준비되었습니다. 이메일에서 수락한 다음 여기에서 이용 권한을 확인하세요.</string>
+    <string name="account_member_waitlist_waiting">이 계정은 대기자 명단에 있습니다. 베타 초대가 준비되면 CommaView가 이메일로 알려 드립니다. 이미 수락했다면 이용 권한을 다시 확인하세요.</string>
+    <string name="account_member_check_access">이용 권한 확인</string>
+    <string name="account_member_renew_title">베타 이용 권한 갱신</string>
+    <string name="account_member_renew_body">이용권을 갱신하려면 %1$s를 인터넷에 연결하거나 다시 로그인하세요. comma의 핫스팟만으로는 인터넷에 연결되지 않습니다.</string>
+    <string name="account_member_renew_access">이용 권한 갱신</string>
+    <string name="account_member_sign_in_unavailable">로그인 화면을 열 수 없습니다. 브라우저가 설치되어 있고 사용 설정되어 있는지 확인한 다음 다시 시도하세요.</string>
+    <string name="account_member_switch_failed">계정을 전환하지 못했습니다. 다시 시도하세요.</string>
+    <string name="account_member_needs_invitation">이 계정은 아직 베타 초대를 수락해야 합니다.</string>
+    <string name="account_member_sign_in_invited">계속하려면 초대받은 계정으로 로그인하세요.</string>
+    <string name="account_member_check_failed">이용 권한을 확인하지 못했습니다. 다시 시도하세요.</string>
+    <string name="account_member_use_another_title">다른 계정을 사용하시겠습니까?</string>
+    <string name="account_member_checking">이용 권한 확인 중…</string>
+    <string name="account_member_use_another">다른 계정 사용</string>
+    <string name="account_member_footer">베타 이용 권한은 %1$s에서 확인합니다. 기존 comma 설정은 그대로 저장되어 있습니다.</string>
+    <string name="account_update_service_no_answer">업데이트 서비스가 응답하지 않았습니다. 나중에 다시 시도하세요.</string>
+    <string name="account_update_unreachable">CommaView에 연결할 수 없습니다. 인터넷 연결을 확인하세요.</string>
+    <string name="account_update_download_unfinished">다운로드가 완료되지 않았습니다. 다시 시도하세요.</string>
+    <string name="account_update_checksum">다운로드한 파일이 체크섬과 일치하지 않아 설치하지 않았습니다.</string>
+    <string name="account_update_not_installed">업데이트가 설치되지 않았습니다</string>
+    <string name="account_update_version_alpha">Alpha %1$s</string>
+    <string name="account_update_version_dev">개발 빌드 %1$s</string>
+    <string name="account_update_version_release">CommaView %1$s</string>
+    <string name="account_update_unavailable_here">지금은 여기에서 이 업데이트를 다운로드할 수 없습니다. 나중에 다시 시도하세요.</string>
+    <string name="account_update_download_gone">다운로드한 파일이 없습니다. ‘업데이트’를 눌러 다시 다운로드하세요.</string>
+    <string name="account_update_install_not_started">Android가 설치를 시작하지 못했습니다.</string>
+</resources>

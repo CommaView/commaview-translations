@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Português (Brasil). Machine drafted with docs/localization/glossary-pt-rBR.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="recordings_cockpit_more">Mais ações para esta gravação</string>
+    <string name="recordings_cockpit_select">Selecionar esta gravação</string>
+    <string name="recordings_cockpit_needs_processing">Aguardando processamento</string>
+    <string name="recordings_cockpit_select_recording">Selecionar gravação</string>
+    <string name="recordings_cockpit_leaderboard">Ranking</string>
+    <string name="recordings_cockpit_your_entry_unranked">Sua entrada, ainda sem posição</string>
+    <string name="recordings_cockpit_your_entry">Sua entrada</string>
+    <string name="recordings_cockpit_you">Você</string>
+    <string name="recordings_cockpit_filter">Filtrar</string>
+    <string name="recordings_cockpit_clear">Limpar</string>
+    <string name="recordings_cockpit_clear_named">Limpar %1$s</string>
+    <string name="recordings_cockpit_close">Fechar</string>
+    <string name="recordings_cockpit_choose">Escolher</string>
+    <string name="recordings_cockpit_none">Nenhum</string>
+    <string name="recordings_cockpit_expanded">%1$s, expandido</string>
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- messages: ไทย (Thai). Machine drafted with docs/localization/glossary-th.md; not yet reviewed by a native speaker. -->
+<!-- Messages from the comma's side (the runtime, the connection, installers), worded by the screens that show them: several areas show each (docs/plans/2026-11-13-localization.md, phase 6). -->
+<resources>
+
+    <!-- Joins two sentences of one message (MaintenanceFailure.shownSummary). -->
+    <string name="messages_two_sentences">%1$s %2$s</string>
+
+    <!-- What a failed install, update or uninstall on the comma says (MaintenanceFailure.kt). -->
+    <string name="messages_maintenance_noun_install">การติดตั้ง</string>
+    <string name="messages_maintenance_noun_update">การอัปเดต</string>
+    <string name="messages_maintenance_noun_uninstall">การถอนการติดตั้ง</string>
+    <string name="messages_maintenance_install_failed">ติดตั้ง CommaView บน comma ไม่ได้</string>
+    <string name="messages_maintenance_update_failed">อัปเดต CommaView บน comma ไม่ได้</string>
+    <string name="messages_maintenance_uninstall_failed">นำ CommaView ออกจาก comma ไม่ได้</string>
+    <string name="messages_maintenance_connection_lost">การเชื่อมต่อกับ comma หลุดก่อนที่%1$sจะเสร็จสิ้น</string>
+    <string name="messages_maintenance_advice_same_network">ตรวจสอบว่า%1$sยังอยู่ในเครือข่ายเดียวกับ comma แล้วลองอีกครั้ง</string>
+    <string name="messages_maintenance_driving">รถกำลังขับอยู่ จึงไม่ได้ดำเนิน%1$s</string>
+    <string name="messages_maintenance_advice_park">เข้าเกียร์ P และยกเลิกระบบช่วยขับของ openpilot แล้วลองอีกครั้ง</string>
+    <string name="messages_maintenance_busy">มีการติดตั้ง อัปเดต หรือซ่อมแซม CommaView อื่นกำลังทำงานอยู่บน comma</string>
+    <string name="messages_maintenance_advice_wait">รอสักครู่ให้เสร็จ แล้วลองอีกครั้ง</string>
+    <string name="messages_maintenance_no_space">พื้นที่เก็บข้อมูลของ comma เต็มระหว่าง%1$s</string>
+    <string name="messages_maintenance_advice_later">ลองอีกครั้งในภายหลัง %1$s</string>
+    <string name="messages_maintenance_unlisted_paused">CommaView หยุดการติดตั้งบนฟอร์กที่ไม่ได้อยู่ในรายการชั่วคราว ระหว่างแก้ไขปัญหา</string>
+    <string name="messages_maintenance_advice_next_update">ลองอีกครั้งหลังการอัปเดต CommaView ครั้งถัดไป</string>
+    <string name="messages_maintenance_your_driving_software">ซอฟต์แวร์ช่วยขับบน comma ของคุณ</string>
+    <string name="messages_maintenance_unlisted_why">CommaView เพิ่มมุมมองของตัวเองลงใน %1$s อย่างปลอดภัยไม่ได้: %2$s</string>
+    <string name="messages_maintenance_unlisted">CommaView เพิ่มมุมมองของตัวเองลงใน %1$s อย่างปลอดภัยไม่ได้</string>
+    <string name="messages_maintenance_advice_ask_fork">หากต้องการขอให้รองรับฟอร์กของคุณ ให้คัดลอกรายละเอียดแล้วส่งไปที่ %1$s</string>
+    <string name="messages_maintenance_unsupported_from">CommaView ยังไม่รองรับซอฟต์แวร์ช่วยขับบน comma ของคุณ ซึ่งมาจาก %1$s</string>
+    <string name="messages_maintenance_unsupported">CommaView ยังไม่รองรับซอฟต์แวร์ช่วยขับบน comma ของคุณ</string>
+    <string name="messages_maintenance_supported_forks">ดูรายชื่อฟอร์กที่ใช้งานได้ที่ %1$s</string>
+    <string name="messages_maintenance_advice_ask_yours">หากต้องการขอให้รองรับ ให้คัดลอกรายละเอียดแล้วส่งไปที่ %1$s</string>
+    <string name="messages_maintenance_unsupported_screen">CommaView เพิ่มมุมมองลงในซอฟต์แวร์ช่วยขับบน comma ของคุณไม่ได้ เพราะซอฟต์แวร์วาดหน้าจอในแบบที่ CommaView ไม่รองรับ</string>
+    <string name="messages_maintenance_screen_patch">CommaView เพิ่มมุมมองลงในซอฟต์แวร์ช่วยขับบน comma ของคุณไม่ได้ ซอฟต์แวร์อาจเปลี่ยนไปในแบบที่ CommaView ยังรองรับไม่ได้</string>
+    <string name="messages_maintenance_offline">comma ดาวน์โหลด CommaView ไม่ได้</string>
+    <string name="messages_maintenance_advice_internet">ตรวจสอบว่า comma เชื่อมต่ออินเทอร์เน็ตผ่าน Wi-Fi หรือซิมของตัวเอง แล้วลองอีกครั้ง</string>
+    <string name="messages_maintenance_damaged">ไฟล์ดาวน์โหลด CommaView ที่ comma ได้รับไม่ครบหรือเสียหาย</string>
+    <string name="messages_maintenance_advice_try_again">ลองอีกครั้ง %1$s</string>
+    <string name="messages_maintenance_did_not_start">CommaView ไม่เริ่มทำงานบน comma หลัง%1$s</string>
+    <string name="messages_maintenance_advice_restart">รีสตาร์ท comma แล้วลองอีกครั้ง %1$s</string>
+    <string name="messages_maintenance_left_changes">การเปลี่ยนแปลงบางอย่างที่ตัวติดตั้งทำไว้ไม่สามารถย้อนกลับได้</string>
+    <string name="messages_maintenance_nothing_changed">ไม่มีสิ่งใดบน comma ถูกเปลี่ยนแปลง</string>
+    <string name="messages_maintenance_rolled_back">comma ถูกคืนค่าเดิมแล้ว</string>
+    <string name="messages_maintenance_send_details">คัดลอกรายละเอียดแล้วส่งไปที่ %1$s</string>
+    <string name="messages_maintenance_send_details_if_again">หากเกิดขึ้นอีก ให้คัดลอกรายละเอียดแล้วส่งไปที่ %1$s</string>
+    <string name="messages_maintenance_reason_python_ui">หน้าจอวาดด้วยอินเทอร์เฟซเนทีฟรุ่นเก่าของ openpilot ซึ่ง CommaView เพิ่มมุมมองลงไปไม่ได้</string>
+    <string name="messages_maintenance_reason_screen_code">โค้ดหน้าจอแตกต่างไปตรงจุดที่ CommaView เชื่อมต่อ</string>
+    <string name="messages_maintenance_reason_camera_view">มุมมองกล้องสร้างขึ้นต่างไปตรงจุดที่ CommaView เชื่อมต่อ</string>
+    <string name="messages_maintenance_reason_no_screen_for">ไม่มีหน้าจอ %1$s ที่ CommaView รู้จัก</string>
+    <string name="messages_maintenance_reason_no_screen">ไม่มีหน้าจอสำหรับ comma นี้ที่ CommaView รู้จัก</string>
+    <string name="messages_maintenance_reason_platform">CommaView บอกไม่ได้ว่า comma ของคุณเป็น comma 3X หรือ comma four</string>
+    <string name="messages_maintenance_reason_no_repo">CommaView บอกไม่ได้ว่าซอฟต์แวร์มาจากรีโพสิทอรีใด</string>
+
+    <!-- An install that left nothing to start CommaView at boot (BootHookMissing, BootHook.kt). -->
+    <string name="messages_boot_hook_title">CommaView จะไม่เริ่มทำงานเองหลังรีบูต</string>
+    <string name="messages_boot_hook_message">ติดตั้ง CommaView แล้ว แต่ไม่มีสิ่งใดเริ่มการทำงานเมื่อ comma บูต คำสั่งเริ่มต้นจะต้องอยู่ก่อนบรรทัด exec ./launch_openpilot.sh ใน /data/continue.sh แต่ comma ของคุณไม่มีบรรทัดนี้ เมื่อมีแล้ว ให้ติดตั้ง CommaView อีกครั้ง</string>
+    <string name="messages_boot_hook_brief">ไม่มีสิ่งใดเริ่มการทำงานเมื่อ comma บูต: /data/continue.sh ไม่มีบรรทัด exec ./launch_openpilot.sh</string>
+
+    <!-- A comma 3, which CommaView doesn't support (CommaSupport.kt). -->
+    <string name="messages_comma3_unsupported_title">ไม่รองรับ comma 3</string>
+    <string name="messages_comma3_unsupported_body">CommaView ใช้งานได้กับ comma 3X และ comma four รุ่น openpilot ของ comma 3 หยุดพัฒนาแล้วและวาดหน้าจอต่างออกไป CommaView จึงแสดงโอเวอร์เลย์ไม่ได้</string>
+
+    <!-- This app and a comma's runtime aren't new enough for each other (RuntimeCompatibility.kt). -->
+    <string name="messages_app_too_old_title">อัปเดต CommaView</string>
+    <string name="messages_app_too_old_body">รันไทม์ CommaView ของ comma นี้ใหม่กว่าที่แอปนี้สื่อสารได้ อัปเดตแอปเพื่อใช้ comma นี้</string>
+    <string name="messages_runtime_too_old_title">อัปเดตรันไทม์ของ comma นี้</string>
+    <string name="messages_runtime_too_old_body">แอปนี้ต้องใช้รันไทม์ CommaView ที่ใหม่กว่าที่ comma นี้มี อัปเดตได้จากการตั้งค่าอุปกรณ์</string>
+
+    <!-- What the app says when the comma's runtime answered a feature's request with no words of its own (RemoteAccessClient.kt). -->
+    <string name="messages_runtime_unexpected_answer">คำตอบที่ไม่คาดคิด</string>
+    <string name="messages_runtime_comma_busy">comma ไม่ว่าง</string>
+    <string name="messages_runtime_error_status">ข้อผิดพลาด %1$s</string>
+
+    <!-- A request to the comma (an update, an uninstall, a reboot) when the comma said nothing of its own (CommaViewApi.kt). -->
+    <string name="messages_comma_no_answer">comma ไม่ตอบสนอง</string>
+    <string name="messages_comma_not_paired">%1$sไม่ได้จับคู่กับ comma</string>
+    <string name="messages_comma_refused">comma ปฏิเสธ (%1$s)</string>
+
+    <!-- SSH to the comma (SshInstaller.kt): why it didn't connect. -->
+    <string name="messages_ssh_host_key_not_saved">CommaView บันทึกข้อมูลระบุตัวตน SSH ของ comma นี้ใน%1$sไม่ได้ จึงไม่ได้เชื่อมต่อ เพิ่มพื้นที่ว่างใน%1$sแล้วลองอีกครั้ง</string>
+    <string name="messages_ssh_host_key_changed">ข้อมูลระบุตัวตน SSH ของ comma นี้เปลี่ยนไปตั้งแต่การตั้งค่าครั้งล่าสุด หากคุณรีเซ็ตหรือแฟลชใหม่ ให้ตั้งค่าอีกครั้ง</string>
+    <string name="messages_ssh_host_keys_unreadable">%1$sอ่านบันทึกข้อมูลระบุตัวตน SSH ของ comma ไม่ได้ จึงจะไม่เชื่อมต่อ comma ใดผ่าน SSH จนกว่าจะเริ่มบันทึกนั้นใหม่</string>
+    <string name="messages_ssh_no_comma">ไม่พบ comma ที่ %1$s\nตรวจสอบที่อยู่ IP</string>
+    <string name="messages_ssh_no_route">ไม่มีเส้นทางไปยัง %1$s\nตรวจสอบว่าคุณอยู่ในเครือข่าย Wi-Fi เดียวกัน</string>
+    <string name="messages_ssh_refused">การเชื่อมต่อถูกปฏิเสธที่ %1$s:22\nตรวจสอบว่าเปิดใช้งาน SSH บน comma แล้ว</string>
+    <string name="messages_ssh_timed_out">การเชื่อมต่อกับ %1$s หมดเวลา\nตรวจสอบ IP และเครือข่าย</string>
+    <string name="messages_ssh_error">ข้อผิดพลาด SSH: %1$s\n%2$s</string>
+    <string name="messages_ssh_unknown_error">ข้อผิดพลาดที่ไม่ทราบสาเหตุ</string>
+    <string name="messages_ssh_auth_failed">การยืนยันตัวตน SSH ล้มเหลว\n\nตรวจสอบว่า:\n• เพิ่มคีย์ CommaView ใน GitHub แล้ว (ตั้งชื่ออะไรก็ได้)\n• ตั้งชื่อผู้ใช้ GitHub บน comma แล้ว หากตั้งไว้ก่อนเพิ่มคีย์ ให้ลบแล้วตั้งใหม่\n• เปิดใช้งาน SSH บน comma แล้ว</string>
+
+    <!-- The phone's own key for the comma, and an answer it can't trust (PhoneAuth.kt, RuntimeHttp.kt). -->
+    <string name="messages_phone_key_gone">คีย์สำหรับ comma ของ%2$sหายไป จับคู่%1$sกับ comma อีกครั้ง</string>
+    <string name="messages_phone_keystore_unavailable">ใช้คีย์สโตร์ของ%1$sไม่ได้ในขณะนี้ ลองอีกครั้งในอีกสักครู่</string>
+    <string name="messages_answer_unproven">คำตอบไม่ได้มาจาก comma ที่จับคู่กับ%1$s</string>
+    <string name="messages_maintenance_ssh_failed_before">การเชื่อมต่อ SSH กับ comma ล้มเหลวก่อนเริ่ม%1$s</string>
+    <string name="messages_maintenance_ssh_failed_while">การเชื่อมต่อ SSH กับ comma ล้มเหลวระหว่าง%1$s</string>
+    <string name="messages_maintenance_ssh_failed">การเชื่อมต่อ SSH กับ comma ล้มเหลว</string>
+    <string name="messages_maintenance_advice_ssh">ตรวจสอบว่า%2$sอยู่ในเครือข่ายเดียวกับ comma แล้วลองอีกครั้ง %1$s</string>
+    <string name="messages_maintenance_cant_tell">CommaView บอกไม่ได้ว่า comma ถูกเปลี่ยนแปลงหรือไม่ ดูรันไทม์ที่มีอยู่ตอนนี้ได้ในการตั้งค่าอุปกรณ์</string>
+</resources>

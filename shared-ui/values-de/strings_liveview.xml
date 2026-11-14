@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- liveview: Deutsch (German). Machine drafted with docs/localization/glossary-de.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- Cockpit's media: the speed over a picture, the location map, the week's chart (CockpitMedia). -->
+    <string name="liveview_media_max">MAX</string>
+    <string name="liveview_media_set_speed">Sollgeschwindigkeit %1$s</string>
+
+    <!-- %1$s is the speed's figure, %2$s its unit (km/h, mph). -->
+    <string name="liveview_media_current_speed">Aktuelles Tempo %1$s %2$s</string>
+    <string name="liveview_media_location_hidden">Standort verborgen</string>
+    <string name="liveview_media_map_unavailable">Karte nicht verfügbar</string>
+    <string name="liveview_media_map_credits">Kartenquellen: %1$s</string>
+    <string name="liveview_media_map_parked">Karte mit dem letzten Parkplatz des Autos</string>
+    <string name="liveview_media_map_current">Karte mit der aktuellen Position des Autos</string>
+    <string name="liveview_media_last_known">Zuletzt bekannt</string>
+    <string name="liveview_media_live">Live</string>
+    <string name="liveview_media_distance_per_day">Strecke pro Tag</string>
+
+    <!-- The week's chart, as TalkBack reads it: %1$s is its label, %2$s its unit. -->
+    <string name="liveview_media_chart_in_unit">%1$s, in %2$s</string>
+    <string name="liveview_media_chart_not_recorded">nicht aufgezeichnet</string>
+
+    <!-- Cockpit's shared components (CockpitComponents, AppSnackbar, AppWindowAccess). -->
+    <string name="liveview_components_open">%1$s öffnen</string>
+    <string name="liveview_components_expanded">Ausgeklappt</string>
+    <string name="liveview_components_collapsed">Eingeklappt</string>
+    <string name="liveview_components_close_commas">Gespeicherte commas schließen</string>
+    <string name="liveview_components_choose_comma">comma wählen</string>
+    <string name="liveview_components_add_comma">comma hinzufügen</string>
+    <string name="liveview_snackbar_dismiss">Schließen</string>
+    <string name="liveview_window_checking_beta">Beta-Zugang wird geprüft</string>
+</resources>

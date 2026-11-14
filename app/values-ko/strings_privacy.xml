@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- privacy: 한국어. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-ko.md and openpilot's selfdrive/ui/translations/app_ko.po. -->
+<resources>
+    <!-- Settings › Privacy & sharing (PrivacySharingPage). -->
+    <string name="privacy_improve_supporting">오류 및 문제 보고서, comma에서 실행 중인 주행 소프트웨어, Live View를 %1$s에서 재생하는지 차량 화면에서 재생하는지를 보냅니다. 영상, 주행, 장소, 이름은 절대 보내지 않습니다.</string>
+    <string name="privacy_improve_supporting_no_reports">오류 및 문제 보고서, comma에서 실행 중인 주행 소프트웨어, Live View를 %1$s에서 재생하는지 차량 화면에서 재생하는지를 보냅니다. 영상, 주행, 장소, 이름은 절대 보내지 않습니다. 이 빌드는 오류 보고서를 보내지 않습니다.</string>
+    <string name="privacy_car_detection">차량 감지</string>
+    <string name="privacy_car_detection_label">내가 보낸 녹화를 차량 감지 개선에 사용</string>
+    <string name="privacy_contribute_automatically">주행 자동 기여</string>
+    <string name="privacy_contribute_automatically_supporting">%1$s와 comma가 아래에서 허용한 네트워크에 있을 때 comma의 최근 주행이 하루 한도까지 전송됩니다. 배터리 절약 모드이거나 Live View 또는 녹화를 사용하는 중에는 전송하지 않습니다.</string>
+    <string name="privacy_contribute_needs_runtime">주행을 기여하려면 comma에 최신 CommaView 런타임이 필요합니다. 장치 설정에서 업데이트하세요.</string>
+    <string name="privacy_upload_networks">기여 업로드 네트워크</string>
+    <string name="privacy_upload_networks_supporting">%1$s에는 핫스팟이 집 Wi‑Fi처럼 보이는 경우가 많아서, comma가 어떤 Wi‑Fi에 연결되어 있는지 알려 줍니다. 모든 기여에 적용됩니다.</string>
+    <string name="privacy_any_wifi_supporting">%1$s가 종량제가 아니라고 판단한 Wi‑Fi. 자동 기여는 comma도 연결되어 있어야 합니다</string>
+    <string name="privacy_chosen_networks_supporting">아래에서 선택한 네트워크. 원하면 네트워크마다 월 한도를 둘 수 있습니다</string>
+    <string name="privacy_mobile_data">모바일 데이터</string>
+    <string name="privacy_mobile_data_supporting">%1$s의 데이터. comma가 휴대폰 핫스팟에 연결된 경우 등</string>
+    <string name="privacy_network_limit_hint">종량제: 한도를 두면 요금제 안에서 기여합니다</string>
+    <string name="privacy_no_monthly_limit">월 한도 없음</string>
+    <string name="privacy_monthly_limit">월 한도 · %1$s</string>
+    <string name="privacy_limit_reached">한도 도달 · %1$s</string>
+    <string name="privacy_limit_on_mobile_data">모바일 데이터 월 한도</string>
+    <string name="privacy_limit_on_wifi">%1$s 월 한도</string>
+    <string name="privacy_limit_text_mobile_data">기여는 주행 1분당 약 110 MB입니다. 이 양에 도달하면 다음 달 1일까지 모바일 데이터에서 기여를 멈춥니다. CommaView로 보내는 녹화는 포함되지 않습니다.</string>
+    <string name="privacy_limit_text_wifi">기여는 주행 1분당 약 110 MB입니다. 이 양에 도달하면 다음 달 1일까지 이 Wi‑Fi에서 기여를 멈춥니다. CommaView로 보내는 녹화는 포함되지 않습니다.</string>
+    <string name="privacy_nothing_this_month">이번 달은 아직 없음</string>
+    <string name="privacy_comma_wifi_listed">comma에 저장된 Wi‑Fi입니다. 업로드에 사용할 네트워크를 선택하세요.</string>
+    <string name="privacy_comma_wifi_asking">comma에 저장된 Wi‑Fi를 확인하는 중…</string>
+    <string name="privacy_comma_wifi_unreachable">지금은 comma에 연결할 수 없습니다. 연결되면 저장된 Wi‑Fi가 여기에 표시됩니다.</string>
+    <string name="privacy_comma_wifi_update_runtime">comma에 저장된 모든 Wi‑Fi를 보려면 comma의 런타임을 업데이트하세요.</string>
+    <string name="privacy_comma_on_it_now">comma가 지금 연결되어 있음</string>
+    <string name="privacy_not_saved_on_comma">comma에 저장되지 않음</string>
+    <string name="privacy_metered">종량제</string>
+    <string name="privacy_comma_wifi_runtime_too_old">Wi‑Fi 네트워크를 선택하려면 comma의 런타임을 업데이트하세요.</string>
+    <string name="privacy_comma_wifi_kept">%1$s 기준 comma에 저장된 Wi‑Fi입니다. 업로드에 사용할 네트워크를 선택하세요.</string>
+    <string name="privacy_comma_wifi_not_paired">comma에 저장된 Wi‑Fi를 보려면 comma를 %1$s와 페어링하세요.</string>
+    <string name="privacy_comma_wifi_forgot_phone">comma가 더 이상 %1$s를 인식하지 않습니다. 저장된 Wi‑Fi를 보려면 다시 페어링하세요.</string>
+    <string name="privacy_comma_wifi_none">comma에 아직 저장된 Wi‑Fi가 없습니다.</string>
+    <string name="privacy_comma_wifi_recent">comma가 최근에 사용한 Wi‑Fi입니다. 업로드에 사용할 네트워크를 선택하세요.</string>
+    <string name="privacy_comma_wifi_read_failed">comma가 지금 Wi‑Fi 정보를 읽지 못했습니다.</string>
+    <string name="privacy_comma_wifi_list_failed">comma가 지금 저장된 Wi‑Fi 목록을 가져오지 못했습니다.</string>
+</resources>

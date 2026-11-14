@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- recordings: 日本語 (Japanese). Machine drafted with docs/localization/glossary-ja.md; not yet reviewed by a native speaker. -->
+    <string name="recordings_cockpit_more">この録画のその他の操作</string>
+    <string name="recordings_cockpit_select">この録画を選択</string>
+    <string name="recordings_cockpit_needs_processing">処理待ち</string>
+    <string name="recordings_cockpit_select_recording">録画を選択</string>
+    <string name="recordings_cockpit_leaderboard">ランキング</string>
+    <string name="recordings_cockpit_your_entry_unranked">あなたの記録（まだ順位なし）</string>
+    <string name="recordings_cockpit_your_entry">あなたの記録</string>
+    <string name="recordings_cockpit_you">あなた</string>
+    <string name="recordings_cockpit_filter">絞り込み</string>
+    <string name="recordings_cockpit_clear">クリア</string>
+    <string name="recordings_cockpit_clear_named">%1$s をクリア</string>
+    <string name="recordings_cockpit_close">閉じる</string>
+    <string name="recordings_cockpit_choose">選択</string>
+    <string name="recordings_cockpit_none">なし</string>
+    <string name="recordings_cockpit_expanded">%1$s、展開</string>
+</resources>

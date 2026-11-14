@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- about: CommaView's own words, in Traditional Chinese (docs/localization/how-to-localize.md). -->
+<resources>
+
+    <!-- AppUpdateHeaderButton: what TalkBack says of the header's app update button. -->
+    <string name="about_header_update_commaview">更新 CommaView</string>
+    <string name="about_header_update_progress">CommaView 更新：%1$s</string>
+    <string name="about_header_install_update">安裝 CommaView 更新</string>
+
+    <!-- SettingsComponents: a settings page's back button. -->
+    <string name="about_settings_back">返回</string>
+</resources>

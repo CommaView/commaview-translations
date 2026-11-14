@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- display: 日本語 (Japanese). Machine drafted with docs/localization/glossary-ja.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- Display's choices (DisplayPreferences). -->
+    <string name="display_driver_side_auto">自動</string>
+    <string name="display_driver_side_auto_detail">comma が報告する側に合わせます</string>
+    <string name="display_driver_side_lhd">左ハンドル</string>
+    <string name="display_driver_side_lhd_detail">ハンドルが左側</string>
+    <string name="display_driver_side_rhd">右ハンドル</string>
+    <string name="display_driver_side_rhd_detail">ハンドルが右側</string>
+    <string name="display_daylight_off">オフ</string>
+    <string name="display_daylight_off_detail">Cockpit の標準の配色です。</string>
+    <string name="display_daylight_on">オン</string>
+    <string name="display_daylight_on_detail">日差しやまぶしさに備えて、文字や線を明るくします。</string>
+    <string name="display_daylight_auto">自動</string>
+    <string name="display_daylight_auto_detail">%1$sの光センサーが明るい光を検知している間、文字や線を明るくします。</string>
+    <string name="display_confidence_default">既定</string>
+    <string name="display_confidence_default_detail">標準サイズの信頼度表示を使います。</string>
+    <string name="display_confidence_75_detail">信頼度パネルとボールを少し小さくします。</string>
+    <string name="display_confidence_50_detail">信頼度表示を半分のサイズにして、映像の領域を広げます。</string>
+    <string name="display_confidence_25_detail">最小の信頼度パネルとボールを使います。</string>
+
+    <!-- Display's design options (DisplayOptions). -->
+    <string name="display_confidence_title">コンパクトな信頼度パネル</string>
+    <string name="display_confidence_subtitle">パネルとボールを小さくして映像を広く</string>
+    <string name="display_confidence_note">信頼度パネルとボールを縮小して、映像の領域を広げます。</string>
+    <string name="display_driver_position_title">運転席の位置</string>
+    <string name="display_driver_position_subtitle">すべての画面で操作ボタンを左右反転します</string>
+    <string name="display_driver_position_note">操作ボタンを反転する運転席側を選びます。自動は comma が報告する側に従い、次回のために記憶します。</string>
+
+    <!-- Settings › Display (DisplayPage). -->
+    <string name="display_title">表示</string>
+    <string name="display_subtitle">%1$sでの Live View の見た目</string>
+    <string name="display_back_to_settings">設定に戻る</string>
+    <string name="display_onroad_screen">走行画面</string>
+    <string name="display_design_options">%1$s のオプション</string>
+    <string name="display_reduce_motion">動きを減らす</string>
+    <string name="display_reduce_motion_detail">CommaView の進路、速度、ロックオン表示を静止させます。Android の「アニメーションを削除」も同じ効果です。</string>
+    <string name="display_design_no_options">%1$s の画面には独自のオプションはありません。comma が描くとおりに描画されます。</string>
+    <string name="display_on_every_screen">すべての画面で</string>
+    <string name="display_opening_live_view">Live View を開いています</string>
+    <string name="display_preview">プレビュー</string>
+    <string name="display_preview_engaged">作動中</string>
+    <string name="display_preview_override">ドライバー介入</string>
+    <string name="display_preview_disengaged">解除</string>
+    <string name="display_safety_title">安全に関わる色は変わりません</string>
+    <string name="display_safety_detail">アラート、警告、ドライバーモニタリングの状態は、常に comma 自身の色を使います。録画で作るリプレイは、録画したときの Live View と同じ見た目になります。</string>
+
+    <!-- Display › Screen edges' value (ScreenEdges). -->
+    <string name="display_screen_edges_off">オフ</string>
+    <string name="display_screen_edges_all_round">四辺とも %1$d dp</string>
+
+    <!-- %1$s lists each edge that has a margin with its figure: "Top 8 · Bottom 16". -->
+    <string name="display_screen_edges_each">%1$s dp</string>
+    <string name="display_screen_edge_top">上</string>
+    <string name="display_screen_edge_bottom">下</string>
+    <string name="display_screen_edge_left">左</string>
+    <string name="display_screen_edge_right">右</string>
+
+    <!-- The preview's description for TalkBack (HudPreview): %1$s is the onroad screen's name. -->
+    <string name="display_hud_preview_engaged">%1$s の画面のプレビュー、作動中</string>
+    <string name="display_hud_preview_override">%1$s の画面のプレビュー、ドライバー介入</string>
+    <string name="display_hud_preview_not_engaged">%1$s の画面のプレビュー、未作動</string>
+</resources>

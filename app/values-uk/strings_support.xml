@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- support: Українська (Ukrainian). Machine drafted with docs/localization/glossary-uk.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="support_report_or_idea">Повідомити про проблему чи надіслати ідею</string>
+    <string name="support_diagnostics_kept">Збережена діагностика</string>
+    <string name="support_support">Підтримка</string>
+    <string name="support_on_this_phone">Що зберігає %1$s</string>
+    <string name="support_local_data">Локальні діагностичні дані</string>
+    <string name="support_local_data_supporting">Видаляє історію помилок запису, локальні журнали діагностики, лічильники навігаційних пошуків, збережені звіти про помилки та налагоджувальні кліпи старіших версій застосунку. Записи поїздок не буде видалено.</string>
+    <string name="support_clear_local_data">Очистити локальні діагностичні дані</string>
+    <string name="support_kept_nothing">Нічого не зберігає %1$s</string>
+    <string name="support_kept_under">Зберігає %1$s: менше 0.1 MB</string>
+    <string name="support_kept_megabytes">Зберігає %2$s: %1$.1f MB</string>
+    <string name="support_kept_gigabytes">Зберігає %2$s: %1$.1f GB</string>
+    <string name="support_keep_diagnostics">Зберігати діагностику (%1$s)</string>
+    <string name="support_keep_diagnostics_supporting">Журнали застосунку й лічильники ваших останніх 10 поїздок, а також лічильники навігаційних пошуків зберігаються, щоб звіт міг пояснити, що сталося. Нічого не надсилає %1$s, доки ви не надішлете звіт. Якщо вимкнено, зберігається лише історія помилок запису.</string>
+    <string name="support_the_project">Підтримати проєкт</string>
+    <string name="support_commaview">Підтримати CommaView</string>
+    <string name="support_commaview_supporting">Допоможіть покрити хостинг, тестування й застосунок для iOS. Відкриває Buy Me a Coffee.</string>
+
+    <string name="support_your_requests">Ваші запити</string>
+    <string name="support_your_requests_supporting">Відповіді та ваші розмови з CommaView на my.commaview.com. CommaView надсилає вам лист, коли відповідає.</string>
+    <string name="support_your_requests_empty">Запитів ще немає. Надіслані вами з’являться тут, а CommaView надішле вам лист, коли відповість.</string>
+    <string name="support_your_requests_signed_out">Увійдіть, щоб бачити тут свої запити та відповіді CommaView.</string>
+    <string name="support_your_requests_loading">Шукаємо ваші запити…</string>
+    <string name="support_your_requests_failed">Не вдалося отримати ваші запити. Вони завантажаться знову, коли ви повернетеся на цю сторінку.</string>
+    <string name="support_your_requests_unread">Непрочитана відповідь</string>
+    <string name="support_see_all">Усі</string>
+    <string name="support_see_all_count">Усі %1$d</string>
+    <string name="support_see_all_where">На my.commaview.com</string>
+    <string name="support_kind_problem">Проблема</string>
+    <string name="support_kind_idea">Ідея</string>
+    <string name="support_kind_request">Запит</string>
+    <string name="support_status_closed">Закрито</string>
+    <string name="support_status_closed_on">Закрито · %1$s</string>
+    <string name="support_status_replied">Відкрито · CommaView відповів</string>
+    <string name="support_status_waiting">Відкрито · Чекає на CommaView</string>
+    <string name="support_status_open">Відкрито</string>
+    <string name="support_couldnt_open_site">Не вдалося відкрити my.commaview.com</string>
+</resources>

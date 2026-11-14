@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 简体中文（中国大陆）. Machine drafted with docs/localization/glossary-zh-rCN.md; not yet reviewed by a native speaker. -->
+<resources>
+    <!-- recordings -->
+    <string name="recordings_cockpit_more">此录像的更多操作</string>
+    <string name="recordings_cockpit_select">选择此录像</string>
+    <string name="recordings_cockpit_needs_processing">待处理</string>
+    <string name="recordings_cockpit_select_recording">选择录像</string>
+    <string name="recordings_cockpit_leaderboard">排行榜</string>
+    <string name="recordings_cockpit_your_entry_unranked">您的条目，尚未排名</string>
+    <string name="recordings_cockpit_your_entry">您的条目</string>
+    <string name="recordings_cockpit_you">您</string>
+    <string name="recordings_cockpit_filter">筛选</string>
+    <string name="recordings_cockpit_clear">清除</string>
+    <string name="recordings_cockpit_clear_named">清除%1$s</string>
+    <string name="recordings_cockpit_close">关闭</string>
+    <string name="recordings_cockpit_choose">选择</string>
+    <string name="recordings_cockpit_none">无</string>
+    <string name="recordings_cockpit_expanded">%1$s，已展开</string>
+</resources>

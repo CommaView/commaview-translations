@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- about: 한국어. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-ko.md and openpilot's selfdrive/ui/translations/app_ko.po. -->
+<resources>
+    <!-- Settings › About's app update (AppUpdatePresentation: word(), as the header button shows them). -->
+    <string name="about_header_update">업데이트</string>
+    <string name="about_header_downloading">다운로드 중</string>
+    <string name="about_header_downloading_percent">다운로드 중 %1$s</string>
+    <string name="about_header_verifying">확인 중</string>
+    <string name="about_header_installing">설치 중</string>
+    <string name="about_header_install">설치</string>
+    <string name="about_header_retry">업데이트 다시 시도</string>
+    <string name="about_update_dev_build">개발 빌드</string>
+    <string name="about_update_car_test_detail">Car Test 앱입니다. 새 개발 빌드는 스테이징 계정에서 받습니다.</string>
+    <string name="about_update_installed">설치됨: %1$s</string>
+    <string name="about_update_unable_to_check">확인할 수 없음</string>
+    <string name="about_update_available">업데이트 가능</string>
+    <string name="about_update_latest">최신: %1$s</string>
+    <string name="about_update_up_to_date">최신 버전</string>
+    <string name="about_update_dev_available">개발 빌드 있음</string>
+    <string name="about_update_dev_version_available">개발 빌드 %1$s 있음</string>
+    <string name="about_update_dev_status">개발 빌드: 스테이징의 Car Test 앱</string>
+    <string name="about_update_dev_detail">스테이징 계정에서 설치합니다.</string>
+    <string name="about_update_alpha_available">Alpha 있음</string>
+    <string name="about_update_alpha_version_available">Alpha %1$s 있음</string>
+    <string name="about_update_alpha_status">Alpha: 테스터를 위한 초기 빌드</string>
+    <string name="about_update_account_detail">CommaView 계정에서 설치합니다.</string>
+    <string name="about_update_unable_to_open">앱 다운로드를 열 수 없음</string>
+
+    <!-- Open-source licenses (OpenSourceLicensesPage). The licences, and sunnypilot's acknowledgement, stay as written. -->
+    <string name="about_licenses_row_supporting">CommaView를 만드는 데 쓰인 소프트웨어, 글꼴, 이미지, 모델과 그 라이선스</string>
+    <string name="about_licenses_intro">CommaView는 다음 프로젝트의 결과물을 사용합니다. 항목을 누르면 라이선스를 볼 수 있습니다.</string>
+    <string name="about_licenses_driving_software">주행 소프트웨어</string>
+    <string name="about_licenses_maps">지도</string>
+    <string name="about_licenses_fonts">글꼴</string>
+    <string name="about_license_openpilot">comma.ai · MIT License. 주행 화면의 레이아웃, 아이콘, 글꼴.</string>
+    <string name="about_license_sunnypilot">Haibin Wen 및 SUNNYPILOT LLC · 자체 라이선스. sunnypilot의 주행 화면 추가 요소와 아이콘.</string>
+    <string name="about_license_starpilot">firestar5683 및 StarPilot 기여자 · MIT License. StarPilot의 주행 화면 추가 요소, 아이콘, 글꼴.</string>
+    <string name="about_license_carrotpilot">MIT License. carrotpilot의 속도 배경.</string>
+    <string name="about_license_mapd">Jacob Pfeifer · MIT License. 오프라인 지도의 도로 데이터와 지역.</string>
+    <string name="about_license_maplibre_android">MapLibre 기여자 · BSD 2-Clause License. 지도를 그립니다.</string>
+    <string name="about_license_maplibre_core">지도 렌더러의 핵심부와 그것이 사용하는 라이브러리.</string>
+    <string name="about_license_icu">Unicode, Inc. · ICU License. MapLibre 안의 지도 라벨 텍스트.</string>
+    <string name="about_license_barlow">SIL Open Font License 1.1. CommaView의 글꼴.</string>
+    <string name="about_license_inter">SIL Open Font License 1.1. 주행 화면의 글꼴.</string>
+    <string name="about_license_kaigen_gothic">Ming-Hsien Lin 및 Adobe · SIL Open Font License 1.1. carrotpilot의 주행 화면 글꼴.</string>
+    <string name="about_license_efficientdet_lite">The TensorFlow authors · Apache License 2.0. Surround의 일반 감지 모델.</string>
+    <string name="about_license_qnn">Qualcomm Technologies, Inc. · 감지기 DSP 런타임의 고지 사항.</string>
+    <string name="about_license">라이선스</string>
+    <string name="about_license_unreadable">%1$s에서 이 라이선스를 읽을 수 없습니다.</string>
+
+    <!-- The policy notice (LegalNoticeDialog, legal/LegalNotices). What changed comes from commaview.com as it's written there. -->
+    <string name="about_legal_read_it">읽기</string>
+    <string name="about_legal_agree">동의</string>
+    <string name="about_legal_leaderboard">리더보드</string>
+    <string name="about_legal_no_changes">변경 사항은 해당 페이지에서 확인하세요.</string>
+    <string name="about_legal_privacy_policy">개인정보 처리방침</string>
+    <string name="about_legal_terms">약관</string>
+    <string name="about_legal_read_privacy">개인정보 처리방침 읽기</string>
+    <string name="about_legal_read_terms">약관 읽기</string>
+    <string name="about_legal_document_dated">%1$s · %2$s</string>
+    <string name="about_legal_leaderboard_changed">리더보드에서 공유되는 정보가 바뀌었습니다</string>
+    <string name="about_legal_both_updated">개인정보 처리방침 및 약관 업데이트</string>
+    <string name="about_legal_terms_updated">약관 업데이트</string>
+    <string name="about_legal_privacy_updated">개인정보 처리방침 업데이트</string>
+    <string name="about_license_fork_translations_title">포크의 번역</string>
+    <string name="about_license_fork_translations">MIT 라이선스 및 각 포크의 라이선스. comma 언어로 표시되는 주행 화면 문구입니다.</string>
+    <string name="about_license_noto_sans">Adobe and the Noto Project Authors · SIL Open Font License 1.1. 중국어, 일본어, 한국어, 태국어로 표시되는 openpilot 주행 화면 글꼴입니다.</string>
+    <string name="about_license_unifont">Roman Czyborra, Paul Hardy et al. · SIL Open Font License 1.1. 중국어, 일본어, 한국어, 태국어로 표시되는 포크 주행 화면 글꼴입니다.</string>
+</resources>

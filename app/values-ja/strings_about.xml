@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- about: 日本語 (Japanese). Machine drafted with docs/localization/glossary-ja.md; not yet reviewed by a native speaker. -->
+<resources>
+    <!-- Settings › About's app update (AppUpdatePresentation: word(), as the header button shows them). -->
+    <string name="about_header_update">アップデート</string>
+    <string name="about_header_downloading">ダウンロード中</string>
+    <string name="about_header_downloading_percent">ダウンロード中 %1$s</string>
+    <string name="about_header_verifying">確認中</string>
+    <string name="about_header_installing">インストール中</string>
+    <string name="about_header_install">インストール</string>
+    <string name="about_header_retry">アップデートを再試行</string>
+    <string name="about_update_dev_build">開発版</string>
+    <string name="about_update_car_test_detail">Car Test アプリです。新しい開発版はあなたのステージング用アカウントから届きます。</string>
+    <string name="about_update_installed">インストール済み：%1$s</string>
+    <string name="about_update_unable_to_check">確認できません</string>
+    <string name="about_update_available">アップデートがあります</string>
+    <string name="about_update_latest">最新：%1$s</string>
+    <string name="about_update_up_to_date">最新です</string>
+    <string name="about_update_dev_available">開発版があります</string>
+    <string name="about_update_dev_version_available">開発版 %1$s があります</string>
+    <string name="about_update_dev_status">開発版：ステージングの Car Test アプリ</string>
+    <string name="about_update_dev_detail">ステージング用アカウントからインストールします。</string>
+    <string name="about_update_alpha_available">Alpha があります</string>
+    <string name="about_update_alpha_version_available">Alpha %1$s があります</string>
+    <string name="about_update_alpha_status">Alpha：テスター向けの早期版</string>
+    <string name="about_update_account_detail">あなたの CommaView アカウントからインストールします。</string>
+    <string name="about_update_unable_to_open">アプリのダウンロードを開けません</string>
+
+    <!-- Open-source licenses (OpenSourceLicensesPage). The licences, and sunnypilot's acknowledgement, stay as written. -->
+    <string name="about_licenses_row_supporting">CommaView を構成するソフトウェア、フォント、画像、モデルとそのライセンス</string>
+    <string name="about_licenses_intro">CommaView は以下のプロジェクトの成果を使用しています。タップするとライセンスを表示します。</string>
+    <string name="about_licenses_driving_software">運転支援ソフトウェア</string>
+    <string name="about_licenses_maps">地図</string>
+    <string name="about_licenses_fonts">フォント</string>
+    <string name="about_license_openpilot">comma.ai · MIT License。走行画面のレイアウト、アイコン、フォント。</string>
+    <string name="about_license_sunnypilot">Haibin Wen and SUNNYPILOT LLC · 独自ライセンス。sunnypilot の走行画面への追加要素とアイコン。</string>
+    <string name="about_license_starpilot">firestar5683 and StarPilot contributors · MIT License。StarPilot の走行画面への追加要素、アイコン、フォント。</string>
+    <string name="about_license_carrotpilot">MIT License。carrotpilot の速度表示の背景。</string>
+    <string name="about_license_mapd">Jacob Pfeifer · MIT License。オフライン地図の道路データと地域。</string>
+    <string name="about_license_maplibre_android">MapLibre contributors · BSD 2-Clause License。地図を描画します。</string>
+    <string name="about_license_maplibre_core">地図レンダラーのコアと、それが使用するライブラリ。</string>
+    <string name="about_license_icu">Unicode, Inc. · ICU License。MapLibre 内の地図ラベルの文字。</string>
+    <string name="about_license_barlow">SIL Open Font License 1.1。CommaView の書体。</string>
+    <string name="about_license_inter">SIL Open Font License 1.1。走行画面の書体。</string>
+    <string name="about_license_kaigen_gothic">Ming-Hsien Lin and Adobe · SIL Open Font License 1.1。carrotpilot の走行画面の書体。</string>
+    <string name="about_license_efficientdet_lite">The TensorFlow authors · Apache License 2.0。Surround の汎用検出モデル。</string>
+    <string name="about_license_qnn">Qualcomm Technologies, Inc. · 検出器の DSP ランタイムに関する告知。</string>
+    <string name="about_license">ライセンス</string>
+    <string name="about_license_unreadable">%1$sではこのライセンスを読み込めません。</string>
+
+    <!-- The policy notice (LegalNoticeDialog, legal/LegalNotices). What changed comes from commaview.com as it's written there. -->
+    <string name="about_legal_read_it">読む</string>
+    <string name="about_legal_agree">同意する</string>
+    <string name="about_legal_leaderboard">ランキング</string>
+    <string name="about_legal_no_changes">変更点はそのページで確認できます。</string>
+    <string name="about_legal_privacy_policy">プライバシーポリシー</string>
+    <string name="about_legal_terms">利用規約</string>
+    <string name="about_legal_read_privacy">プライバシーポリシーを読む</string>
+    <string name="about_legal_read_terms">利用規約を読む</string>
+    <string name="about_legal_document_dated">%1$s · %2$s</string>
+    <string name="about_legal_leaderboard_changed">ランキングで共有される内容が変わりました</string>
+    <string name="about_legal_both_updated">プライバシーポリシーと利用規約が更新されました</string>
+    <string name="about_legal_terms_updated">利用規約が更新されました</string>
+    <string name="about_legal_privacy_updated">プライバシーポリシーが更新されました</string>
+    <string name="about_license_fork_translations_title">フォークの翻訳</string>
+    <string name="about_license_fork_translations">MIT ライセンスと各フォーク独自のライセンス。comma の言語での走行画面の文言です。</string>
+    <string name="about_license_noto_sans">Adobe and the Noto Project Authors · SIL Open Font License 1.1。中国語・日本語・韓国語・タイ語での openpilot の走行画面の書体です。</string>
+    <string name="about_license_unifont">Roman Czyborra, Paul Hardy et al. · SIL Open Font License 1.1。中国語・日本語・韓国語・タイ語でのフォークの走行画面の書体です。</string>
+</resources>

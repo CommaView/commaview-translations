@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- common: 日本語 (Japanese). Machine drafted with docs/localization/glossary-ja.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="common_this_phone">このスマートフォン</string>
+    <string name="common_this_device">この端末</string>
+    <string name="common_this_phone_start">このスマートフォン</string>
+    <string name="common_this_device_start">この端末</string>
+    <string name="common_your_phone">お使いのスマートフォン</string>
+    <string name="common_your_device">お使いの端末</string>
+    <string name="common_your_phone_start">お使いのスマートフォン</string>
+    <string name="common_your_device_start">お使いの端末</string>
+</resources>

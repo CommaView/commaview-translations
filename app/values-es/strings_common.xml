@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- common: Español (Spanish). Machine drafted with docs/localization/glossary-es.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="common_this_phone">este teléfono</string>
+    <string name="common_this_device">este dispositivo</string>
+    <string name="common_this_phone_start">Este teléfono</string>
+    <string name="common_this_device_start">Este dispositivo</string>
+    <string name="common_your_phone">tu teléfono</string>
+    <string name="common_your_device">tu dispositivo</string>
+    <string name="common_your_phone_start">Tu teléfono</string>
+    <string name="common_your_device_start">Tu dispositivo</string>
+</resources>

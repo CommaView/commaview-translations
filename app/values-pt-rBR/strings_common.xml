@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Português (Brasil). Machine drafted with docs/localization/glossary-pt-rBR.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="common_this_phone">este celular</string>
+    <string name="common_this_device">este dispositivo</string>
+    <string name="common_this_phone_start">Este celular</string>
+    <string name="common_this_device_start">Este dispositivo</string>
+    <string name="common_your_phone">seu celular</string>
+    <string name="common_your_device">seu dispositivo</string>
+    <string name="common_your_phone_start">Seu celular</string>
+    <string name="common_your_device_start">Seu dispositivo</string>
+</resources>

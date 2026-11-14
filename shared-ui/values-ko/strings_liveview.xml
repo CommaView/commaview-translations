@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- liveview: 한국어. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-ko.md and openpilot's selfdrive/ui/translations/app_ko.po. -->
+<resources>
+
+    <!-- Cockpit's media: the speed over a picture, the location map, the week's chart (CockpitMedia). -->
+    <string name="liveview_media_max">최대</string>
+    <string name="liveview_media_set_speed">설정 속도 %1$s</string>
+
+    <!-- %1$s is the speed's figure, %2$s its unit (km/h, mph). -->
+    <string name="liveview_media_current_speed">현재 속도 %1$s %2$s</string>
+    <string name="liveview_media_location_hidden">위치 숨김</string>
+    <string name="liveview_media_map_unavailable">지도를 사용할 수 없음</string>
+    <string name="liveview_media_map_credits">지도 출처: %1$s</string>
+    <string name="liveview_media_map_parked">차량이 마지막으로 주차된 위치를 보여 주는 지도</string>
+    <string name="liveview_media_map_current">차량의 현재 위치를 보여 주는 지도</string>
+    <string name="liveview_media_last_known">마지막 위치</string>
+    <string name="liveview_media_live">실시간</string>
+    <string name="liveview_media_distance_per_day">일별 주행 거리</string>
+
+    <!-- The week's chart, as TalkBack reads it: %1$s is its label, %2$s its unit. -->
+    <string name="liveview_media_chart_in_unit">%1$s(단위: %2$s)</string>
+    <string name="liveview_media_chart_not_recorded">기록 안 됨</string>
+
+    <!-- Cockpit's shared components (CockpitComponents, AppSnackbar, AppWindowAccess). -->
+    <string name="liveview_components_open">%1$s 열기</string>
+    <string name="liveview_components_expanded">펼쳐짐</string>
+    <string name="liveview_components_collapsed">접힘</string>
+    <string name="liveview_components_close_commas">저장된 comma 닫기</string>
+    <string name="liveview_components_choose_comma">comma 선택</string>
+    <string name="liveview_components_add_comma">comma 추가</string>
+    <string name="liveview_snackbar_dismiss">닫기</string>
+    <string name="liveview_window_checking_beta">베타 이용 권한 확인 중</string>
+</resources>

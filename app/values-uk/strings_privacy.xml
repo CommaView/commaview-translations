@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- privacy: Українська (Ukrainian). Machine drafted with docs/localization/glossary-uk.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="privacy_improve_supporting">Надсилає звіти про збої й проблеми, яке ПЗ водіння працює на вашому comma і чи грає Live View (%1$s чи екран авто). Ніколи не відео, поїздки, місця чи імена.</string>
+    <string name="privacy_improve_supporting_no_reports">Надсилає звіти про збої й проблеми, яке ПЗ водіння працює на вашому comma і чи грає Live View (%1$s чи екран авто). Ніколи не відео, поїздки, місця чи імена. Ця збірка не надсилає звітів про збої.</string>
+    <string name="privacy_car_detection">Виявлення авто</string>
+    <string name="privacy_car_detection_label">Використовувати надіслані мною записи для кращого виявлення авто</string>
+    <string name="privacy_contribute_automatically">Автоматично надавати поїздки</string>
+    <string name="privacy_contribute_automatically_supporting">Останні поїздки вашого comma надсилаються, коли %1$s і comma в мережі, дозволеній нижче, у межах денного ліміту. Не в режимі економії заряду і не під час Live View чи запису.</string>
+    <string name="privacy_contribute_needs_runtime">Для надання поїздок на вашому comma потрібне найновіше середовище виконання CommaView. Оновіть його в налаштуваннях пристрою.</string>
+    <string name="privacy_upload_networks">Вивантажувати внески через</string>
+    <string name="privacy_upload_networks_supporting">Точки доступу часто схожі на домашню Wi‑Fi, і %1$s їх не розрізняє, тож ваш comma повідомляє, до якої Wi‑Fi він підключений. Це стосується всіх внесків.</string>
+    <string name="privacy_any_wifi_supporting">Wi‑Fi, яку %1$s вважає нелімітною, а для автоматичних — коли й comma в ній</string>
+    <string name="privacy_chosen_networks_supporting">Ті, які ви позначите нижче, кожна з місячним лімітом, якщо потрібно</string>
+    <string name="privacy_mobile_data">Мобільний інтернет</string>
+    <string name="privacy_mobile_data_supporting">Власний інтернет, який має %1$s, як-от коли comma на його точці доступу</string>
+    <string name="privacy_network_limit_hint">Лімітне: ліміт тримає внески в межах тарифу</string>
+    <string name="privacy_no_monthly_limit">Без місячного ліміту</string>
+    <string name="privacy_monthly_limit">Місячний ліміт · %1$s</string>
+    <string name="privacy_limit_reached">Ліміт вичерпано · %1$s</string>
+    <string name="privacy_limit_on_mobile_data">Місячний ліміт мобільного інтернету</string>
+    <string name="privacy_limit_on_wifi">Місячний ліміт для %1$s</string>
+    <string name="privacy_limit_text_mobile_data">Внески — приблизно 110 MB на хвилину поїздки. Після цього обсягу вони зупиняються в мобільному інтернеті до 1-го числа наступного місяця. Записи, які ви надсилаєте до CommaView, не враховуються.</string>
+    <string name="privacy_limit_text_wifi">Внески — приблизно 110 MB на хвилину поїздки. Після цього обсягу вони зупиняються в цій Wi‑Fi до 1-го числа наступного місяця. Записи, які ви надсилаєте до CommaView, не враховуються.</string>
+    <string name="privacy_nothing_this_month">Цього місяця ще нічого</string>
+    <string name="privacy_comma_wifi_listed">Wi‑Fi, збережені на вашому comma. Виберіть, через які вивантажувати.</string>
+    <string name="privacy_comma_wifi_asking">Запитуємо у вашого comma, які Wi‑Fi він зберіг…</string>
+    <string name="privacy_comma_wifi_unreachable">Зараз не вдається зв’язатися з вашим comma. Його збережені Wi‑Fi з’являться тут, щойно він підключиться.</string>
+    <string name="privacy_comma_wifi_update_runtime">Оновіть середовище виконання на вашому comma, щоб бачити всі збережені ним Wi‑Fi.</string>
+    <string name="privacy_comma_on_it_now">Ваш comma зараз у ній</string>
+    <string name="privacy_not_saved_on_comma">Не збережено на вашому comma</string>
+    <string name="privacy_metered">лімітне</string>
+    <string name="privacy_comma_wifi_runtime_too_old">Оновіть середовище виконання на вашому comma, щоб вибирати мережі Wi‑Fi.</string>
+    <string name="privacy_comma_wifi_kept">Wi‑Fi, збережені на вашому comma, станом на %1$s. Виберіть, через які вивантажувати.</string>
+    <string name="privacy_comma_wifi_not_paired">Сполучіть ваш comma і %1$s, щоб бачити збережені на comma Wi‑Fi.</string>
+    <string name="privacy_comma_wifi_forgot_phone">Ваш comma більше не знає %1$s. Сполучіть знову, щоб бачити його збережені Wi‑Fi.</string>
+    <string name="privacy_comma_wifi_none">На вашому comma ще немає збережених Wi‑Fi.</string>
+    <string name="privacy_comma_wifi_recent">Wi‑Fi, якими ваш comma користувався останнім часом. Виберіть, через які вивантажувати.</string>
+    <string name="privacy_comma_wifi_read_failed">Ваш comma зараз не зміг прочитати свою Wi‑Fi.</string>
+    <string name="privacy_comma_wifi_list_failed">Ваш comma зараз не зміг перелічити свої збережені Wi‑Fi.</string>
+</resources>

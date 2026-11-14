@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 繁體中文（台灣）: device settings. Machine drafted; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- ForceOffroadConfirmation.kt: Safe Update, Safe Install and Safe Repair's countdown. -->
+    <string name="device_settings_safe_dialog_back">返回</string>
+    <string name="device_settings_safe_dialog_ready">就緒</string>
+    <string name="device_settings_safe_dialog_delay">安全延遲</string>
+</resources>

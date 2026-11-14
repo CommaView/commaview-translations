@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- about: Українська (Ukrainian). Machine drafted with docs/localization/glossary-uk.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="about_header_update">Оновити</string>
+    <string name="about_header_downloading">Завантаження</string>
+    <string name="about_header_downloading_percent">Завантаження %1$s</string>
+    <string name="about_header_verifying">Перевірка</string>
+    <string name="about_header_installing">Встановлення</string>
+    <string name="about_header_install">Встановити</string>
+    <string name="about_header_retry">Повторити оновлення</string>
+    <string name="about_update_dev_build">Збірка для розробки</string>
+    <string name="about_update_car_test_detail">Застосунок Car Test. Новіші збірки для розробки надходять із вашого облікового запису staging.</string>
+    <string name="about_update_installed">Встановлено: %1$s</string>
+    <string name="about_update_unable_to_check">Не вдалося перевірити</string>
+    <string name="about_update_available">Доступне оновлення</string>
+    <string name="about_update_latest">Остання: %1$s</string>
+    <string name="about_update_up_to_date">Актуальна версія</string>
+    <string name="about_update_dev_available">Доступна збірка для розробки</string>
+    <string name="about_update_dev_version_available">Доступна збірка для розробки %1$s</string>
+    <string name="about_update_dev_status">Збірка для розробки: застосунок Car Test зі staging</string>
+    <string name="about_update_dev_detail">Встановлюється з вашого облікового запису staging.</string>
+    <string name="about_update_alpha_available">Доступна Alpha</string>
+    <string name="about_update_alpha_version_available">Доступна Alpha %1$s</string>
+    <string name="about_update_alpha_status">Alpha: рання збірка для тестувальників</string>
+    <string name="about_update_account_detail">Встановлюється з вашого облікового запису CommaView.</string>
+    <string name="about_update_unable_to_open">Не вдалося відкрити завантаження застосунку</string>
+
+    <string name="about_licenses_row_supporting">Програми, шрифти, зображення й моделі, з яких зроблено CommaView, та їхні ліцензії</string>
+    <string name="about_licenses_intro">CommaView використовує роботу цих проєктів. Торкніться одного, щоб прочитати його ліцензію.</string>
+    <string name="about_licenses_driving_software">ПЗ водіння</string>
+    <string name="about_licenses_maps">Карти</string>
+    <string name="about_licenses_fonts">Шрифти</string>
+    <string name="about_license_openpilot">comma.ai · MIT License. Макет, піктограми й шрифти екрана водіння.</string>
+    <string name="about_license_sunnypilot">Haibin Wen і SUNNYPILOT LLC · власна ліцензія. Доповнення й піктограми sunnypilot на екрані водіння.</string>
+    <string name="about_license_starpilot">firestar5683 і учасники StarPilot · MIT License. Доповнення, піктограми й шрифти StarPilot на екрані водіння.</string>
+    <string name="about_license_carrotpilot">MIT License. Фон швидкості carrotpilot.</string>
+    <string name="about_license_mapd">Jacob Pfeifer · MIT License. Набір даних доріг і регіони офлайн-карт.</string>
+    <string name="about_license_maplibre_android">Учасники MapLibre · BSD 2-Clause License. Малює карту.</string>
+    <string name="about_license_maplibre_core">Ядро рендерера карти й бібліотеки, які воно використовує.</string>
+    <string name="about_license_icu">Unicode, Inc. · ICU License. Текст підписів на карті, усередині MapLibre.</string>
+    <string name="about_license_barlow">SIL Open Font License 1.1. Шрифт CommaView.</string>
+    <string name="about_license_inter">SIL Open Font License 1.1. Шрифт екрана водіння.</string>
+    <string name="about_license_fork_translations_title">Переклади форків</string>
+    <string name="about_license_fork_translations">MIT License і власні ліцензії форків. Їхні слова на екрані водіння мовою comma.</string>
+    <string name="about_license_noto_sans">Adobe і автори Noto Project · SIL Open Font License 1.1. Шрифт екрана водіння openpilot китайською, японською, корейською й тайською.</string>
+    <string name="about_license_unifont">Roman Czyborra, Paul Hardy та ін. · SIL Open Font License 1.1. Шрифт екрана водіння форків китайською, японською, корейською й тайською.</string>
+    <string name="about_license_kaigen_gothic">Ming-Hsien Lin і Adobe · SIL Open Font License 1.1. Шрифт екрана водіння carrotpilot.</string>
+    <string name="about_license_efficientdet_lite">Автори TensorFlow · Apache License 2.0. Модель загального детектора Surround.</string>
+    <string name="about_license_qnn">Qualcomm Technologies, Inc. · примітки до середовища DSP детектора.</string>
+    <string name="about_license">Ліцензія</string>
+    <string name="about_license_unreadable">%1$s не може прочитати цю ліцензію.</string>
+
+    <string name="about_legal_read_it">Прочитати</string>
+    <string name="about_legal_agree">Погодитися</string>
+    <string name="about_legal_leaderboard">Таблиця лідерів</string>
+    <string name="about_legal_no_changes">Що змінилося, дивіться на сторінці документа.</string>
+    <string name="about_legal_privacy_policy">Політика конфіденційності</string>
+    <string name="about_legal_terms">Умови</string>
+    <string name="about_legal_read_privacy">Прочитати політику конфіденційності</string>
+    <string name="about_legal_read_terms">Прочитати умови</string>
+    <string name="about_legal_document_dated">%1$s · %2$s</string>
+    <string name="about_legal_leaderboard_changed">Змінилося те, чим ділиться таблиця лідерів</string>
+    <string name="about_legal_both_updated">Політику конфіденційності й умови оновлено</string>
+    <string name="about_legal_terms_updated">Умови оновлено</string>
+    <string name="about_legal_privacy_updated">Політику конфіденційності оновлено</string>
+</resources>

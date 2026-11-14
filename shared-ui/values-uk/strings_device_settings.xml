@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- device settings: Українська (Ukrainian). Machine drafted with docs/localization/glossary-uk.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="device_settings_safe_dialog_back">Назад</string>
+    <string name="device_settings_safe_dialog_ready">Готово</string>
+    <string name="device_settings_safe_dialog_delay">Безпечна затримка</string>
+</resources>

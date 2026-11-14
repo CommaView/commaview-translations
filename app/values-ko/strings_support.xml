@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- support: 한국어. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-ko.md and openpilot's selfdrive/ui/translations/app_ko.po. -->
+<resources>
+    <!-- Settings › Support & diagnostics (SupportDiagnosticsScreen, SettingsPages). -->
+    <string name="support_report_or_idea">문제 신고 또는 아이디어 보내기</string>
+    <string name="support_diagnostics_kept">보관 중인 진단 정보</string>
+    <string name="support_support">후원</string>
+    <string name="support_on_this_phone">%1$s</string>
+    <string name="support_local_data">로컬 진단 데이터</string>
+    <string name="support_local_data_supporting">녹화 오류 기록, 로컬 진단 로그, 내비게이션 검색 횟수, 저장된 버그 보고서, 이전 앱 버전의 디버그 클립을 삭제합니다. 주행 녹화는 삭제되지 않습니다.</string>
+    <string name="support_clear_local_data">로컬 진단 데이터 지우기</string>
+    <string name="support_kept_nothing">%1$s에 없음</string>
+    <string name="support_kept_under">%1$s에 0.1 MB 미만</string>
+    <string name="support_kept_megabytes">%2$s에 %1$.1f MB</string>
+    <string name="support_kept_gigabytes">%2$s에 %1$.1f GB</string>
+    <string name="support_keep_diagnostics">%1$s에 진단 정보 보관</string>
+    <string name="support_keep_diagnostics_supporting">최근 주행 10회의 앱 로그와 카운터, 내비게이션 검색 횟수를 보관해 신고 시 무슨 일이 있었는지 알 수 있게 합니다. 신고를 보내기 전까지는 아무것도 %1$s 밖으로 나가지 않습니다. 끄면 녹화 오류 기록만 보관합니다.</string>
+    <string name="support_the_project">프로젝트 후원</string>
+    <string name="support_commaview">CommaView 후원</string>
+    <string name="support_commaview_supporting">호스팅, 테스트, iOS 앱 비용에 도움이 됩니다. Buy Me a Coffee가 열립니다.</string>
+
+    <!-- Your requests (YourRequests). -->
+    <string name="support_your_requests">내 요청</string>
+    <string name="support_your_requests_supporting">my.commaview.com에서 CommaView와 주고받은 답변과 대화입니다. CommaView가 답변하면 이메일로 알려 드립니다.</string>
+    <string name="support_your_requests_empty">아직 요청이 없습니다. 보낸 요청은 여기에 표시되며, CommaView가 답변하면 이메일로 알려 드립니다.</string>
+    <string name="support_your_requests_signed_out">로그인하면 내 요청과 CommaView의 답변을 여기에서 볼 수 있습니다.</string>
+    <string name="support_your_requests_loading">요청을 찾는 중…</string>
+    <string name="support_your_requests_failed">지금은 요청을 가져오지 못했습니다. 이 페이지로 돌아오면 다시 불러옵니다.</string>
+    <string name="support_your_requests_unread">읽지 않은 답변</string>
+    <string name="support_see_all">모두 보기</string>
+    <string name="support_see_all_count">%1$d개 모두 보기</string>
+    <string name="support_see_all_where">my.commaview.com에서</string>
+    <string name="support_kind_problem">문제</string>
+    <string name="support_kind_idea">아이디어</string>
+    <string name="support_kind_request">요청</string>
+    <string name="support_status_closed">종료됨</string>
+    <string name="support_status_closed_on">종료됨 · %1$s</string>
+    <string name="support_status_replied">처리 중 · CommaView 답변함</string>
+    <string name="support_status_waiting">처리 중 · CommaView 답변 대기</string>
+    <string name="support_status_open">처리 중</string>
+    <string name="support_couldnt_open_site">my.commaview.com을 열 수 없습니다</string>
+</resources>

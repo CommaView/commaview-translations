@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- support: Français (French). Machine drafted with docs/localization/glossary-fr.md; not yet reviewed by a native speaker. -->
+<resources>
+    <!-- Settings › Support & diagnostics (SupportDiagnosticsScreen, SettingsPages). -->
+    <string name="support_report_or_idea">Signaler un problème ou proposer une idée</string>
+    <string name="support_diagnostics_kept">Diagnostics conservés</string>
+    <string name="support_support">Assistance</string>
+    <string name="support_on_this_phone">Sur %1$s</string>
+    <string name="support_local_data">Données de diagnostic locales</string>
+    <string name="support_local_data_supporting">Supprime l\'historique des erreurs d\'enregistrement, les journaux de diagnostic locaux, les compteurs de recherche de navigation, les rapports de bug enregistrés et les extraits de débogage des anciennes versions de l\'application. Les enregistrements de trajets ne seront pas supprimés.</string>
+    <string name="support_clear_local_data">Effacer les données de diagnostic locales</string>
+    <string name="support_kept_nothing">Rien sur %1$s</string>
+    <string name="support_kept_under">Moins de 0,1 MB sur %1$s</string>
+    <string name="support_kept_megabytes">%1$.1f MB sur %2$s</string>
+    <string name="support_kept_gigabytes">%1$.1f GB sur %2$s</string>
+    <string name="support_keep_diagnostics">Conserver les diagnostics sur %1$s</string>
+    <string name="support_keep_diagnostics_supporting">Les journaux et compteurs de l\'application de vos 10 derniers trajets, et les compteurs de recherche de navigation, conservés pour qu\'un rapport puisse dire ce qui s\'est passé. Rien ne quitte %1$s tant que vous n\'envoyez pas de rapport. Désactivé, seul l\'historique des erreurs d\'enregistrement est conservé.</string>
+    <string name="support_the_project">Soutenir le projet</string>
+    <string name="support_commaview">Soutenir CommaView</string>
+    <string name="support_commaview_supporting">Aidez à couvrir l\'hébergement, les tests et l\'application iOS. Ouvre Buy Me a Coffee.</string>
+
+    <!-- Your requests (YourRequests). -->
+    <string name="support_your_requests">Vos demandes</string>
+    <string name="support_your_requests_supporting">Les réponses et vos échanges avec CommaView, sur my.commaview.com. CommaView vous écrit quand il répond.</string>
+    <string name="support_your_requests_empty">Aucune demande pour l\'instant. Celles que vous envoyez s\'affichent ici, et CommaView vous écrit quand il répond.</string>
+    <string name="support_your_requests_signed_out">Connectez-vous pour voir ici vos demandes et les réponses de CommaView.</string>
+    <string name="support_your_requests_loading">Recherche de vos demandes…</string>
+    <string name="support_your_requests_failed">Impossible d\'obtenir vos demandes pour le moment. Elles se rechargent quand vous revenez sur cette page.</string>
+    <string name="support_your_requests_unread">Réponse non lue</string>
+    <string name="support_see_all">Tout voir</string>
+    <string name="support_see_all_count">Tout voir (%1$d)</string>
+    <string name="support_see_all_where">Sur my.commaview.com</string>
+    <string name="support_kind_problem">Problème</string>
+    <string name="support_kind_idea">Idée</string>
+    <string name="support_kind_request">Demande</string>
+    <string name="support_status_closed">Fermée</string>
+    <string name="support_status_closed_on">Fermée · %1$s</string>
+    <string name="support_status_replied">Ouverte · CommaView a répondu</string>
+    <string name="support_status_waiting">Ouverte · En attente de CommaView</string>
+    <string name="support_status_open">Ouverte</string>
+    <string name="support_couldnt_open_site">Impossible d\'ouvrir my.commaview.com</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- device_settings: Français (French). Machine drafted with docs/localization/glossary-fr.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- ForceOffroadConfirmation.kt: Safe Update, Safe Install and Safe Repair's countdown. -->
+    <string name="device_settings_safe_dialog_back">Retour</string>
+    <string name="device_settings_safe_dialog_ready">Prêt</string>
+    <string name="device_settings_safe_dialog_delay">Délai de sécurité</string>
+</resources>

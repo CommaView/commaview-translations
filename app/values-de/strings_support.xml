@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- support: Deutsch (German). Machine drafted with docs/localization/glossary-de.md; not yet reviewed by a native speaker. -->
+<resources>
+    <!-- Settings › Support & diagnostics (SupportDiagnosticsScreen, SettingsPages). -->
+    <string name="support_report_or_idea">Problem melden oder Idee senden</string>
+    <string name="support_diagnostics_kept">Gespeicherte Diagnose</string>
+    <string name="support_support">Support</string>
+    <string name="support_on_this_phone">Auf diesem %1$s</string>
+    <string name="support_local_data">Lokale Diagnosedaten</string>
+    <string name="support_local_data_supporting">Löscht den Fehlerverlauf der Aufnahmen, lokale Diagnose-Logs, Zähler der Navigationssuche, gespeicherte Fehlerberichte und Debug-Clips älterer App-Versionen. Aufnahmen von Fahrten werden nicht gelöscht.</string>
+    <string name="support_clear_local_data">Lokale Diagnosedaten löschen</string>
+    <string name="support_kept_nothing">Nichts auf diesem %1$s</string>
+    <string name="support_kept_under">Unter 0,1 MB auf diesem %1$s</string>
+    <string name="support_kept_megabytes">%1$.1f MB auf diesem %2$s</string>
+    <string name="support_kept_gigabytes">%1$.1f GB auf diesem %2$s</string>
+    <string name="support_keep_diagnostics">Diagnose auf diesem %1$s speichern</string>
+    <string name="support_keep_diagnostics_supporting">App-Logs und Zähler Ihrer letzten 10 Fahrten sowie Zähler der Navigationssuche, damit ein Bericht zeigen kann, was passiert ist. Nichts verlässt dieses %1$s, bis Sie einen Bericht senden. Aus: nur der Fehlerverlauf der Aufnahmen bleibt.</string>
+    <string name="support_the_project">Das Projekt unterstützen</string>
+    <string name="support_commaview">CommaView unterstützen</string>
+    <string name="support_commaview_supporting">Hilft bei Hosting, Tests und der iOS-App. Öffnet Buy Me a Coffee.</string>
+
+    <!-- Your requests (YourRequests). -->
+    <string name="support_your_requests">Ihre Anfragen</string>
+    <string name="support_your_requests_supporting">Antworten und Ihre Gespräche mit CommaView, auf my.commaview.com. CommaView schickt Ihnen eine E-Mail, wenn es antwortet.</string>
+    <string name="support_your_requests_empty">Noch keine Anfragen. Ihre Anfragen erscheinen hier, und CommaView schickt Ihnen eine E-Mail, wenn es antwortet.</string>
+    <string name="support_your_requests_signed_out">Melden Sie sich an, um Ihre Anfragen und die Antworten von CommaView hier zu sehen.</string>
+    <string name="support_your_requests_loading">Ihre Anfragen werden gesucht…</string>
+    <string name="support_your_requests_failed">Ihre Anfragen ließen sich gerade nicht laden. Sie laden erneut, wenn Sie auf diese Seite zurückkehren.</string>
+    <string name="support_your_requests_unread">Ungelesene Antwort</string>
+    <string name="support_see_all">Alle ansehen</string>
+    <string name="support_see_all_count">Alle %1$d ansehen</string>
+    <string name="support_see_all_where">Auf my.commaview.com</string>
+    <string name="support_kind_problem">Problem</string>
+    <string name="support_kind_idea">Idee</string>
+    <string name="support_kind_request">Anfrage</string>
+    <string name="support_status_closed">Erledigt</string>
+    <string name="support_status_closed_on">Erledigt · %1$s</string>
+    <string name="support_status_replied">Offen · CommaView hat geantwortet</string>
+    <string name="support_status_waiting">Offen · Wartet auf CommaView</string>
+    <string name="support_status_open">Offen</string>
+    <string name="support_couldnt_open_site">my.commaview.com ließ sich nicht öffnen</string>
+</resources>

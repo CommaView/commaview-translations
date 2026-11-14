@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- devices: ไทย (Thai). Machine drafted with docs/localization/glossary-th.md; not yet reviewed by a native speaker. -->
+<!-- CommaView's words for devices (docs/localization/how-to-localize.md). -->
+<resources>
+
+    <!-- Maintenance queued on the comma (DeferredMaintenancePresentation.kt). -->
+    <string name="devices_keep_car_on">ให้รถติดเครื่องไว้ หากไม่มีสายไฟเลี้ยงตลอดเวลา การดับเครื่องจะปิด comma ด้วย</string>
+    <string name="devices_put_car_in_park">เข้าเกียร์ P และยกเลิกระบบช่วยขับของ openpilot</string>
+    <string name="devices_repair_queued_detail">การซ่อมแซมอยู่ในคิว — จะเริ่มเมื่อรถอยู่ในเกียร์ P และยกเลิกระบบช่วยขับของ openpilot แล้ว</string>
+    <string name="devices_maintenance_waits_again">รถถูกขับอีกครั้งขณะเริ่มครั้งที่แล้ว จึงรอจนกว่ารถจะกลับมาอยู่ในเกียร์ P</string>
+    <string name="devices_maintenance_running_body">รถอยู่ในเกียร์ P comma จึงกำลังดำเนินการอยู่</string>
+    <string name="devices_maintenance_done_body">ดำเนินการแล้วขณะรถหยุดนิ่ง</string>
+    <string name="devices_maintenance_failed_driven">รถถูกขับอีกครั้งทุกครั้งที่เริ่ม comma จึงหยุดพยายาม ลองอีกครั้ง</string>
+    <string name="devices_maintenance_failed_body">ดำเนินการขณะรถหยุดนิ่งแต่ไม่เสร็จ ลองอีกครั้ง</string>
+    <string name="devices_maintenance_queued_update">อัปเดตรันไทม์อยู่ในคิว</string>
+    <string name="devices_maintenance_queued_uninstall">การถอนการติดตั้งอยู่ในคิว</string>
+    <string name="devices_maintenance_queued_repair">การซ่อมแซมอยู่ในคิว</string>
+    <string name="devices_maintenance_queued_other">การบำรุงรักษาอยู่ในคิว</string>
+    <string name="devices_maintenance_queued_update_body">จะติดตั้งเมื่อรถอยู่ในเกียร์ P และยกเลิกระบบช่วยขับของ openpilot แล้ว ไม่มีสิ่งใดขัดจังหวะการขับขี่</string>
+    <string name="devices_maintenance_queued_uninstall_body">CommaView จะถูกนำออกเมื่อรถอยู่ในเกียร์ P และยกเลิกระบบช่วยขับของ openpilot แล้ว และจะทำงานต่อจนถึงตอนนั้น</string>
+    <string name="devices_maintenance_queued_repair_body">จะเริ่มเมื่อรถอยู่ในเกียร์ P และยกเลิกระบบช่วยขับของ openpilot แล้ว ไม่มีสิ่งใดขัดจังหวะการขับขี่</string>
+    <string name="devices_maintenance_queued_other_body">จะเริ่มเมื่อรถอยู่ในเกียร์ P และยกเลิกระบบช่วยขับของ openpilot แล้ว</string>
+    <string name="devices_maintenance_running_update">กำลังติดตั้งอัปเดตในคิว</string>
+    <string name="devices_maintenance_running_uninstall">กำลังนำ CommaView ออก</string>
+    <string name="devices_maintenance_running_repair">กำลังซ่อมแซมตามคิว</string>
+    <string name="devices_maintenance_running_other">กำลังบำรุงรักษาตามคิว</string>
+    <string name="devices_maintenance_done_update">ติดตั้งอัปเดตในคิวแล้ว</string>
+    <string name="devices_maintenance_done_uninstall">ถอนการติดตั้งตามคิวแล้ว</string>
+    <string name="devices_maintenance_done_repair">ซ่อมแซมตามคิวแล้ว</string>
+    <string name="devices_maintenance_done_other">บำรุงรักษาตามคิวแล้ว</string>
+    <string name="devices_maintenance_failed_update">อัปเดตในคิวล้มเหลว</string>
+    <string name="devices_maintenance_failed_uninstall">ถอนการติดตั้งตามคิวล้มเหลว</string>
+    <string name="devices_maintenance_failed_repair">ซ่อมแซมตามคิวล้มเหลว</string>
+    <string name="devices_maintenance_failed_other">บำรุงรักษาตามคิวล้มเหลว</string>
+    <string name="devices_two_sentences">%1$s %2$s</string>
+
+    <!-- RebootRequiredPresentation.kt, VersionTooOldPresentation.kt -->
+    <string name="devices_reboot_update_title">รีบูต comma เพื่ออัปเดตให้เสร็จ</string>
+    <string name="devices_reboot_update_body">อัปเดตรันไทม์ของ CommaView แล้ว Live View และการบันทึกจะเริ่มอีกครั้งเมื่อ comma รีบูต</string>
+    <string name="devices_reboot_setup_title">รีบูต comma เพื่อตั้งค่าให้เสร็จ</string>
+    <string name="devices_reboot_setup_body">ติดตั้ง CommaView แล้ว Live View และการบันทึกจะเริ่มเมื่อ comma รีบูต</string>
+    <string name="devices_reboot_repair_title">รีบูต comma เพื่อซ่อมแซมให้เสร็จ</string>
+    <string name="devices_reboot_repair_body">การซ่อมแซมพร้อมแล้ว แต่ openpilot จะโหลดเมื่อ comma รีสตาร์ทเท่านั้น Live View และการบันทึกจะเริ่มอีกครั้งเมื่อรีบูต</string>
+    <string name="devices_reboot_finish_title">รีบูต comma เพื่อเสร็จสิ้น</string>
+    <string name="devices_reboot_finish_body">ติดตั้งหรืออัปเดต CommaView บน comma นี้แล้ว Live View และการบันทึกจะเริ่มเมื่อ comma รีบูต</string>
+    <string name="devices_reboot_stale_title">รีบูต comma เพื่อโหลดอัปเดต</string>
+    <string name="devices_reboot_stale_body">บางส่วนของ CommaView บน comma ยังใช้เวอร์ชันเก่า ข้อมูลรถจึงส่งมาไม่ได้ Live View และการบันทึกจะเริ่มอีกครั้งเมื่อ comma รีบูต</string>
+    <string name="devices_reboot_note_title">ขณะรถดับเครื่องหรืออยู่ในเกียร์ P</string>
+    <string name="devices_reboot_note_body">openpilot จะหยุดประมาณหนึ่งนาทีระหว่างที่ comma รีสตาร์ท</string>
+    <string name="devices_update_commaview">อัปเดต CommaView</string>
+    <string name="devices_no_update_found">ยังไม่พบอัปเดต</string>
+    <string name="devices_no_update_found_body">CommaView จะค้นหาเมื่อ%1$sออนไลน์ และจะแสดงในการตั้งค่าเมื่อพบ</string>
+    <string name="devices_device_settings">การตั้งค่าอุปกรณ์</string>
+
+    <!-- DeviceListViewModel.kt: the saved commas, their patch and pairing. -->
+    <string name="devices_status_ready">พร้อม</string>
+    <string name="devices_status_offroad">จอดอยู่</string>
+    <string name="devices_status_offline">ออฟไลน์</string>
+    <string name="devices_status_needs_action">ต้องดำเนินการ</string>
+    <string name="devices_status_needs_reboot">ต้องรีบูต</string>
+    <string name="devices_status_checking">กำลังตรวจสอบ</string>
+    <string name="devices_patch_repairing">กำลังซ่อมแพตช์</string>
+    <string name="devices_patch_repairing_detail">กำลังใช้การรองรับการส่งออก UI โดยตรง…</string>
+    <string name="devices_patch_repair_running">รถอยู่ในเกียร์ P comma จึงกำลังซ่อมแซมตามคิว</string>
+    <string name="devices_patch_repair_queued">การซ่อมแซมอยู่ในคิว</string>
+    <string name="devices_patch_stale">แพตช์ล้าสมัย</string>
+    <string name="devices_patch_stale_detail">เชื่อมต่อใหม่หรือรีเฟรชเพื่อตรวจสอบการส่งออก UI โดยตรง</string>
+    <string name="devices_patch_view_paused">มุมมองหยุดชั่วคราว</string>
+    <string name="devices_patch_repair_blocked">การซ่อมแซมถูกบล็อก</string>
+    <string name="devices_patch_repair_blocked_detail">การซ่อมแซมทำได้เฉพาะขณะรถอยู่ในเกียร์ P ใช้ซ่อมแซมอย่างปลอดภัยเพื่อเข้าคิวจนกว่ารถจะอยู่ในเกียร์ P และยกเลิกระบบช่วยขับของ openpilot แล้ว</string>
+    <string name="devices_patch_repair_needed">ต้องซ่อมแซม</string>
+    <string name="devices_patch_repair_needed_detail">แพตช์การส่งออก UI โดยตรงต้องซ่อมแซม</string>
+    <string name="devices_patch_reboot_to_finish">รีบูตเพื่อเสร็จสิ้น</string>
+    <string name="devices_patch_reboot_detail">ติดตั้งแพตช์แล้ว openpilot โหลดหน้าจอใหม่ขณะทำงานไม่ได้ จึงจะมีผลเมื่อ comma รีสตาร์ท</string>
+    <string name="devices_patch_telemetry_unproven">ยังไม่ยืนยันเทเลเมทรี</string>
+    <string name="devices_patch_telemetry_unproven_detail">มีเครื่องหมายแพตช์แล้ว แต่ยังไม่ยืนยันเทเลเมทรีของรันไทม์</string>
+    <string name="devices_patch_verified">ยืนยันแพตช์แล้ว</string>
+    <string name="devices_patch_verified_detail">ติดตั้งการส่งออก UI โดยตรงแล้ว และเทเลเมทรีของรันไทม์ทำงานปกติ</string>
+    <string name="devices_patch_stale_unverified">ยืนยันสถานะการส่งออก UI โดยตรงไม่ได้</string>
+    <string name="devices_unlisted_withdrawn">CommaView หยุดมุมมองบนฟอร์กที่ไม่ได้ระบุไว้ชั่วคราวระหว่างแก้ไขปัญหา ฟอร์กของคุณจึงใช้ไฟล์หน้าจอของตัวเอง ไม่มีอะไรต้องซ่อม มุมมองจะกลับมาพร้อมการอัปเดต CommaView</string>
+    <string name="devices_export_unavailable">%1$s เวอร์ชันนี้เปลี่ยนหน้าจอในแบบที่ CommaView ยังเพิ่มมุมมองลงไปไม่ได้ จึงใช้ไฟล์หน้าจอของตัวเอง Live View จะแสดงวิดีโอและการวาดของ CommaView เอง โดยไม่มีส่วนเสริมของ %1$s ไม่มีอะไรต้องซ่อม มุมมองจะกลับมาพร้อมการอัปเดต CommaView</string>
+    <string name="devices_export_unavailable_unnamed">ฟอร์กของคุณเวอร์ชันนี้เปลี่ยนหน้าจอในแบบที่ CommaView ยังเพิ่มมุมมองลงไปไม่ได้ จึงใช้ไฟล์หน้าจอของตัวเอง Live View จะแสดงวิดีโอและการวาดของ CommaView เอง โดยไม่มีส่วนเสริมของฟอร์ก ไม่มีอะไรต้องซ่อม มุมมองจะกลับมาพร้อมการอัปเดต CommaView</string>
+    <string name="devices_runtime_update">อัปเดตรันไทม์</string>
+    <string name="devices_pairing_failed_redeem">การจับคู่ล้มเหลว: ติดต่อ comma ได้ แต่ใช้รหัสจับคู่ไม่สำเร็จ (%1$s) ลองอีกครั้งหรือสร้างรหัสใหม่</string>
+    <string name="devices_pairing_failed_unreachable">การจับคู่ล้มเหลว: ติดต่อ API รันไทม์ของ CommaView ไม่ได้ (%1$s) ตรวจสอบฮอตสปอต/เครือข่ายแล้วลองอีกครั้ง</string>
+    <string name="devices_pairing_network_error">ข้อผิดพลาดเครือข่าย</string>
+    <string name="devices_pairing_failed_expired">การจับคู่ล้มเหลว: รหัสจับคู่หมดอายุ สร้างรหัสใหม่แล้วลองอีกครั้ง</string>
+    <string name="devices_pairing_failed_invalid">การจับคู่ล้มเหลว: รหัสจับคู่ไม่ถูกต้อง ตรวจสอบรหัสหรือสแกน QR</string>
+    <string name="devices_pairing_failed_no_token">การจับคู่ล้มเหลว: ไม่มีโทเค็น API ของรันไทม์ ติดตั้งใหม่หรือซ่อมแซมการตั้งค่าก่อน</string>
+    <string name="devices_pairing_failed_no_code">การจับคู่ล้มเหลว: ไม่มีรหัสจับคู่ที่ใช้งานอยู่ สร้างรหัสใหม่บนคอนโทรลเลอร์ที่จับคู่แล้ว</string>
+    <string name="devices_pairing_failed_required">การจับคู่ล้มเหลว: ต้องมีรหัสจับคู่</string>
+    <string name="devices_pairing_failed_other">การจับคู่ล้มเหลว: %1$s</string>
+    <string name="devices_pairing_failed_rejected">การจับคู่ล้มเหลว: รันไทม์ปฏิเสธรหัสจับคู่</string>
+    <string name="devices_comma_paired">จับคู่ comma แล้ว</string>
+    <string name="devices_comma_added">เพิ่ม comma แล้ว</string>
+    <string name="devices_save_refused">บันทึก comma นี้ไม่ได้: อ่าน comma ที่บันทึกไว้ใน%1$sไม่ได้ เริ่มใหม่จากหน้าแรก แล้วเพิ่มอีกครั้ง</string>
+    <string name="devices_start_over_failed">พัก comma ที่บันทึกไว้ไม่ได้ ลองอีกครั้ง</string>
+    <string name="devices_start_over_done">พัก comma ที่บันทึกไว้แล้ว เพิ่ม comma ของคุณเพื่อดำเนินการต่อ</string>
+
+    <!-- DevicesHomePresentation.kt: what the Devices home shows. -->
+    <string name="devices_menu_connected">เชื่อมต่อแล้ว</string>
+    <string name="devices_menu_checking">กำลังตรวจสอบ</string>
+    <string name="devices_menu_offline">ออฟไลน์</string>
+    <string name="devices_menu_needs_repair">ต้องซ่อมแซม</string>
+    <string name="devices_menu_not_supported">ไม่รองรับ</string>
+    <string name="devices_menu_needs_reboot">ต้องรีบูต</string>
+    <string name="devices_menu_wont_start">ไม่เริ่มทำงาน</string>
+    <string name="devices_menu_needs_update">ต้องอัปเดต</string>
+    <string name="devices_repair_again">ซ่อมแซมอีกครั้ง</string>
+    <string name="devices_runtime_unknown">ไม่ทราบ</string>
+    <string name="devices_driving_footnote">บันทึกโดย comma นี้ · ไม่ใช่เลขไมล์</string>
+    <string name="devices_driving_cached">แคช · %1$s %2$s</string>
+    <string name="devices_no_drives">ยังไม่มีการขับขี่ที่บันทึก</string>
+    <string name="devices_location_off">ปิดอยู่ เปิดเพื่อดูตำแหน่งของ comma นี้แบบสดขณะขับ</string>
+
+    <!-- Vehicle location (VehicleLocationPresentation.kt, VehicleLocationPage.kt, VehicleMap.kt). -->
+    <string name="devices_location_cached">ตำแหน่งล่าสุด · อัปเดต %1$s · บันทึกไว้ใน%2$s</string>
+    <string name="devices_location_source_comma">GPS ของ comma</string>
+    <string name="devices_location_source_log">ล็อกการขับขี่</string>
+    <string name="devices_location_status_off">ปิด</string>
+    <string name="devices_location_hidden">ซ่อนไว้จนกว่าจะเปิด</string>
+    <string name="devices_location_live_updated">สด · อัปเดต %1$s</string>
+    <string name="devices_location_live_updating">สด · กำลังอัปเดต</string>
+    <string name="devices_location_just_now">เมื่อสักครู่</string>
+    <string name="devices_location_last_known">ตำแหน่งล่าสุด</string>
+    <string name="devices_location_last_known_at">ตำแหน่งล่าสุด · %1$s</string>
+    <string name="devices_location_while_ago">เมื่อสักพัก</string>
+    <string name="devices_location_waiting_gps">รอ GPS ของ comma</string>
+    <string name="devices_location_waiting_gps_last">รอ GPS ของ comma · ตำแหน่งล่าสุด %1$s</string>
+    <string name="devices_location_waiting_short">รอ GPS</string>
+    <string name="devices_location_last_drive_ended">จุดที่การขับขี่ล่าสุดสิ้นสุด</string>
+    <string name="devices_location_last_drive_ended_at">จุดที่การขับขี่ล่าสุดสิ้นสุด · %1$s</string>
+    <string name="devices_location_after_last_drive">หลังการขับขี่ล่าสุด</string>
+    <string name="devices_location_no_position">ยังไม่มีตำแหน่ง comma จะบันทึกจุดสิ้นสุดของการขับขี่แต่ละครั้ง</string>
+    <string name="devices_location_none_yet">ยังไม่มี</string>
+    <string name="devices_location_map_source">แผนที่โหลดจาก OpenFreeMap หรือจาก OpenStreetMap บนโทรศัพท์ที่วาดแผนที่ของ OpenFreeMap ไม่ได้</string>
+    <string name="devices_location_consent">แสดงตำแหน่งของ comma จาก GPS ของตัวเอง: แบบสดขณะรถติดเครื่อง และจุดที่การขับขี่ล่าสุดสิ้นสุดเมื่อจอด ไม่ใช่ตำแหน่งของ%1$s โทรศัพท์ที่จับคู่กับ comma นี้จะเห็นได้ %2$sจะบันทึกตำแหน่งล่าสุดไว้ดูแบบออฟไลน์ การปิดจะล้างตำแหน่งที่บันทึกไว้และไทล์แผนที่ แผนที่โหลดจาก OpenFreeMap หรือจาก OpenStreetMap บนโทรศัพท์ที่วาดแผนที่ของ OpenFreeMap ไม่ได้ คุณปิดได้ทุกเมื่อ</string>
+    <string name="devices_location_turned_on">เปิดตำแหน่งแล้ว</string>
+    <string name="devices_location_turned_off">ปิดตำแหน่งแล้ว comma ลบตำแหน่งแล้ว และ%1$sลบตำแหน่งที่บันทึกไว้และไทล์แผนที่แล้ว</string>
+    <string name="devices_location_unreachable">ติดต่อ comma ไม่ได้ ไม่มีการเปลี่ยนแปลง</string>
+    <string name="devices_location_too_old">รันไทม์ของ comma นี้เก่าเกินไปสำหรับตำแหน่ง</string>
+    <string name="devices_location_not_paired">comma ไม่รู้จัก%1$sแล้ว จับคู่อีกครั้งเพื่อเปลี่ยนการตั้งค่านี้</string>
+    <string name="devices_location_failed">comma เปลี่ยนไม่ได้: %1$s</string>
+    <string name="devices_location_hidden_title">ซ่อนตำแหน่งอยู่</string>
+    <string name="devices_vehicle_location">ตำแหน่งรถ</string>
+    <string name="devices_back_to_home">กลับไปหน้าแรก</string>
+    <string name="devices_location_show">แสดงตำแหน่งรถ</string>
+    <string name="devices_location_on_for_comma">เปิดสำหรับ comma นี้</string>
+    <string name="devices_location_off_for_comma">ปิดสำหรับ comma นี้</string>
+    <string name="devices_location_turning_on">กำลังเปิด…</string>
+    <string name="devices_location_turn_on">เปิดตำแหน่ง</string>
+    <string name="devices_location_open_in_maps">เปิดในแผนที่</string>
+    <string name="devices_location_last_update">อัปเดตล่าสุด</string>
+    <string name="devices_location_source">แหล่งที่มา</string>
+    <string name="devices_location_accuracy">ความแม่นยำ</string>
+    <string name="devices_location_coordinates">พิกัด</string>
+    <string name="devices_location_who">ใครเห็นได้บ้าง</string>
+    <string name="devices_location_who_paired">โทรศัพท์ที่จับคู่กับ comma นี้</string>
+    <string name="devices_location_off_note">การปิดจะลบตำแหน่งที่ comma เก็บไว้ทันที แผนที่โหลดจาก OpenFreeMap หรือจาก OpenStreetMap บนโทรศัพท์ที่วาดแผนที่ของ OpenFreeMap ไม่ได้</string>
+    <string name="devices_map_loading">กำลังโหลดแผนที่…</string>
+    <string name="devices_map_unavailable">แผนที่ไม่พร้อมใช้งาน</string>
+    <string name="devices_map_unreachable">%2$sติดต่อ %1$s ไม่ได้ในขณะนี้</string>
+    <string name="devices_no_maps_app">ไม่มีแอปแผนที่ใน%1$s</string>
+
+    <!-- RuntimeFeatureNotice.kt: a comma feature the runtime can't give. -->
+    <string name="devices_feature_asking">กำลังถาม comma…</string>
+    <string name="devices_feature_needs_runtime">ต้องใช้รันไทม์ที่ใหม่กว่า</string>
+    <string name="devices_feature_needs_runtime_body">comma นี้ต้องใช้รันไทม์ CommaView ที่ใหม่กว่าเพื่อแสดง %1$s อัปเดตได้จากการตั้งค่าอุปกรณ์</string>
+    <string name="devices_feature_pair_again">จับคู่%1$sอีกครั้ง</string>
+    <string name="devices_feature_pair_again_body">comma ไม่รู้จัก%1$sแล้ว จึงจะไม่แชร์ตำแหน่งหรือการขับขี่ จับคู่อีกครั้งจาก “เพิ่ม comma”</string>
+    <string name="devices_feature_unreachable">ติดต่อ comma ไม่ได้</string>
+    <string name="devices_feature_no_answer">comma ตอบไม่ได้</string>
+    <string name="devices_feature_said_stale">comma แจ้งว่า: %1$s กำลังแสดงข้อมูลที่แจ้งไว้ก่อนหน้า</string>
+    <string name="devices_feature_said">comma แจ้งว่า: %1$s</string>
+    <string name="devices_feature_stale_network">กำลังแสดงข้อมูลที่แจ้งไว้ก่อนหน้า %1$sต้องอยู่ใน Wi-Fi เดียวกับ comma หรือใช้ฮอตสปอตของ comma</string>
+    <string name="devices_feature_network">%1$sต้องอยู่ใน Wi-Fi เดียวกับ comma หรือใช้ฮอตสปอตของ comma</string>
+    <string name="devices_try_again">ลองอีกครั้ง</string>
+
+    <!-- PowerCutWords.kt: a drive cut short by the comma losing power. -->
+    <string name="devices_power_cut_today">วันนี้ %1$s</string>
+    <string name="devices_power_cut_yesterday">เมื่อวาน %1$s</string>
+    <string name="devices_power_cut_on_day">%1$s เวลา %2$s</string>
+    <string name="devices_power_cut_title">comma ของคุณอาจไฟดับขณะการขับขี่สิ้นสุด</string>
+    <string name="devices_power_cut_action">วิธีแก้ไข</string>
+    <string name="devices_power_cut_fix_title">บันทึกช่วงท้ายของการขับขี่ทุกครั้ง</string>
+    <string name="devices_power_cut_body_ended_on">การขับขี่ของ %2$s ที่สิ้นสุดเมื่อ %1$s สูญเสียช่วงท้าย comma ต้องมีไฟสักครู่หลังดับเครื่องเพื่อบันทึก</string>
+    <string name="devices_power_cut_body_ended">การขับขี่ที่สิ้นสุดเมื่อ %1$s สูญเสียช่วงท้าย comma ต้องมีไฟสักครู่หลังดับเครื่องเพื่อบันทึก</string>
+    <string name="devices_power_cut_body_newest_on">การขับขี่ล่าสุดของ %1$s สูญเสียช่วงท้าย comma ต้องมีไฟสักครู่หลังดับเครื่องเพื่อบันทึก</string>
+    <string name="devices_power_cut_body_newest">การขับขี่ล่าสุดสูญเสียช่วงท้าย comma ต้องมีไฟสักครู่หลังดับเครื่องเพื่อบันทึก</string>
+    <string name="devices_power_cut_fix_power">comma power จ่ายไฟให้ comma ต่อหลังรถดับเครื่อง เพื่อให้บันทึกการขับขี่จนเสร็จ</string>
+    <string name="devices_power_cut_fix_offroad">หาก comma ยังมีไฟหลังดับเครื่องแต่ปิดทันที ซอฟต์แวร์ช่วยขับอาจมีการตั้งค่าเวลาหลังดับเครื่องในการตั้งค่าอุปกรณ์ ตั้งไว้สักสองสามนาที</string>
+    <string name="devices_power_cut_fix_link">เกี่ยวกับ comma power</string>
+    <string name="devices_copy_details">คัดลอกรายละเอียด</string>
+    <string name="devices_details_copied">คัดลอกรายละเอียดแล้ว</string>
+    <string name="devices_clip_failure">CommaView %1$s ล้มเหลว</string>
+    <string name="devices_clip_boot_hook">ฮุกตอนบูตของ CommaView</string>
+
+    <!-- CrashCard.kt and CrashActivity.kt -->
+    <string name="devices_crash_title">CommaView ปิดโดยไม่คาดคิด</string>
+    <string name="devices_crash_report_line">CommaView ปิดโดยไม่คาดคิดเมื่อ %1$s</string>
+    <string name="devices_crash_closed_at">ปิดเมื่อ %1$s</string>
+    <string name="devices_crash_report">รายงาน</string>
+    <string name="devices_crash_dismiss">ปิด</string>
+    <string name="devices_crash_no_trace">ไม่มีข้อมูลการทำงาน</string>
+
+    <!-- HomeRuntimeUpdate.kt: the Devices home's runtime update card. -->
+    <string name="devices_update_failed_title">อัปเดตรันไทม์ล้มเหลว</string>
+    <string name="devices_update_card_title">อัปเดตรันไทม์</string>
+    <string name="devices_update_restarting_reconnecting">กำลังรีสตาร์ท comma… จะเชื่อมต่อใหม่เมื่อพร้อม</string>
+    <string name="devices_update_installed">ติดตั้งแล้ว</string>
+    <string name="devices_update_unknown">ไม่ทราบ</string>
+    <string name="devices_update_available">มีอัปเดต</string>
+    <string name="devices_update_runtime">อัปเดตรันไทม์</string>
+    <string name="devices_update_queue">เข้าคิวอัปเดต</string>
+    <string name="devices_cancel">ยกเลิก</string>
+    <string name="devices_update_restarting_minute">กำลังรีสตาร์ท comma… จะกลับมาในประมาณหนึ่งนาที</string>
+    <string name="devices_update_rebooting">กำลังรีบูต…</string>
+    <string name="devices_update_reboot_comma">รีบูต comma</string>
+    <string name="devices_dismiss">ปิด</string>
+    <string name="devices_update_steps">ดูขั้นตอนการอัปเดต</string>
+    <string name="devices_close">ปิด</string>
+    <string name="devices_update_restart_note">openpilot จะหยุดประมาณหนึ่งนาที รีสตาร์ทขณะรถดับเครื่องหรืออยู่ในเกียร์ P</string>
+    <string name="devices_update_restart_to_finish">รีสตาร์ท comma เพื่อเสร็จสิ้น</string>
+    <string name="devices_update_finish_later">ทำให้เสร็จภายหลัง</string>
+
+    <!-- DevicesHomeScreen.kt: the Devices home. -->
+    <string name="devices_pill_connected">เชื่อมต่อแล้ว</string>
+    <string name="devices_pill_car_off">รถดับเครื่อง</string>
+    <string name="devices_pill_checking">กำลังตรวจสอบ</string>
+    <string name="devices_pill_offline">ออฟไลน์</string>
+    <string name="devices_pill_repair">ซ่อมแซม</string>
+    <string name="devices_pill_not_supported">ไม่รองรับ</string>
+    <string name="devices_pill_reboot">รีบูต</string>
+    <string name="devices_pill_wont_start">ไม่เริ่มทำงาน</string>
+    <string name="devices_pill_update">อัปเดต</string>
+    <string name="devices_subtitle_needs_repair">%1$s · ต้องซ่อมแซม</string>
+    <string name="devices_subtitle_needs_reboot">%1$s · ต้องรีบูต</string>
+    <string name="devices_subtitle_wont_start">%1$s · ไม่เริ่มทำงาน</string>
+    <string name="devices_subtitle_needs_update">%1$s · ต้องอัปเดต</string>
+    <string name="devices_selected_comma">comma ที่เลือก</string>
+    <string name="devices_reboot_finish_updated_body">อัปเดต CommaView แล้ว แต่ openpilot จะโหลดโค้ดหน้าจอใหม่เมื่อ comma รีสตาร์ทเท่านั้น ระหว่างนี้ Live View จะไม่มีโอเวอร์เลย์หรือเทเลเมทรี</string>
+    <string name="devices_cameras_when_on">กล้องจะเริ่มเมื่อรถติดเครื่อง</string>
+    <string name="devices_road_camera_live">กล้องหน้าแบบสดจาก comma นี้ผ่าน Wi-Fi</string>
+    <string name="devices_this_comma">comma นี้</string>
+    <string name="devices_vehicle_offline">%1$s ออฟไลน์</string>
+    <string name="devices_no_car_picture">%1$s ไม่มีภาพรถ</string>
+    <string name="devices_checking_ellipsis">กำลังตรวจสอบ…</string>
+    <string name="devices_open_live_view">เปิด Live View</string>
+    <string name="devices_readout_runtime">รันไทม์</string>
+    <string name="devices_readout_comma_ip">IP ของ comma</string>
+    <string name="devices_readout_software">ซอฟต์แวร์</string>
+    <string name="devices_readout_last_address">ที่อยู่ล่าสุดที่ทราบ</string>
+    <string name="devices_reconnecting">กำลังเชื่อมต่อใหม่…</string>
+    <string name="devices_reconnect">เชื่อมต่อใหม่</string>
+    <string name="devices_update_ready">อัปเดตรันไทม์พร้อมแล้ว</string>
+    <string name="devices_update_ready_body">รันไทม์ CommaView ใหม่พร้อมสำหรับ comma นี้ ไม่เปลี่ยนแปลง openpilot หรือ sunnypilot</string>
+    <string name="devices_review_update">ตรวจสอบอัปเดต</string>
+    <string name="devices_update_needed">ต้องอัปเดต</string>
+    <string name="devices_update_needed_body">แอปนี้และรันไทม์ CommaView ของ comma นี้ใหม่ไม่พอสำหรับกันและกัน</string>
+    <string name="devices_repair_title">Live View ต้องซ่อมแซม</string>
+    <string name="devices_repair_body">การเชื่อมต่อระหว่างรันไทม์กับซอฟต์แวร์ช่วยขับต้องซ่อมแซมก่อน Live View จึงจะเริ่มได้</string>
+    <string name="devices_repair">ซ่อมแซม</string>
+    <string name="devices_repair_keep_on">ให้รถติดเครื่องไว้ในเกียร์ P</string>
+    <string name="devices_repair_queued_note">การซ่อมแซมจะเริ่มไม่นานหลังรถอยู่ในเกียร์ P และยกเลิกระบบช่วยขับของ openpilot แล้ว ไม่มีสิ่งใดขัดจังหวะการขับขี่</string>
+    <string name="devices_repair_runs_in_park">ทำงานขณะรถอยู่ในเกียร์ P</string>
+    <string name="devices_repair_runs_in_park_note">หากรถกำลังขับอยู่ การซ่อมแซมจะรออยู่บน comma จนกว่ารถจะอยู่ในเกียร์ P และยกเลิกระบบช่วยขับของ openpilot แล้ว</string>
+    <string name="devices_view_paused_title">มุมมองของ CommaView หยุดชั่วคราว</string>
+    <string name="devices_forget_comma">ลืม comma นี้</string>
+    <string name="devices_still_on_it">CommaView ยังอยู่บน comma</string>
+    <string name="devices_still_on_it_body">หากต้องการนำออกจาก comma ให้ใช้ “ถอนการติดตั้งรันไทม์” ในการตั้งค่าอุปกรณ์ก่อน</string>
+    <string name="devices_cant_connect">เชื่อมต่อไม่ได้?</string>
+    <string name="devices_cant_connect_body">%1$sต้องอยู่ใน Wi-Fi เดียวกับ comma หรือใช้ฮอตสปอตของ comma comma จะพักเครื่องเมื่อรถดับเครื่อง</string>
+    <string name="devices_new_comma">comma ใหม่ในเครือข่ายนี้</string>
+    <string name="devices_set_up">ตั้งค่า</string>
+    <string name="devices_driving_week">การขับขี่สัปดาห์นี้</string>
+    <string name="devices_leaderboard">ตารางอันดับ</string>
+    <string name="devices_recent_recordings">การบันทึกล่าสุด</string>
+    <string name="devices_view_all">ดูทั้งหมด</string>
+    <string name="devices_open_store">เปิดร้านค้า</string>
+    <string name="devices_view_all_recordings">ดูการบันทึกทั้งหมด</string>
+    <string name="devices_no_recordings">ยังไม่มีการบันทึก บันทึกการขับขี่จาก Live View</string>
+    <string name="devices_play_recording_from">เล่นการบันทึกจาก %1$s</string>
+    <string name="devices_add_first">เพิ่ม comma เครื่องแรก</string>
+    <string name="devices_add_first_body">จับคู่ comma ที่ใช้ CommaView อยู่แล้ว หรือตั้งค่า CommaView บน comma %1$sต้องอยู่ใน Wi-Fi เดียวกับ comma หรือใช้ฮอตสปอตของ comma</string>
+    <string name="devices_add_comma">เพิ่ม comma</string>
+    <string name="devices_scanning">กำลังสแกน…</string>
+    <string name="devices_scan_again">สแกนอีกครั้ง</string>
+
+    <!-- Home widgets and Customize home (HomeWidgets.kt, CustomizeHome.kt, CockpitReorder.kt). -->
+    <string name="devices_customize_home">ปรับแต่งหน้าแรก</string>
+    <string name="devices_customize_home_hint">ลากเพื่อจัดลำดับใหม่ วิดเจ็ตแรกๆ จะเต็มหน้าจอ</string>
+    <string name="devices_done">เสร็จสิ้น</string>
+    <string name="devices_move_up">เลื่อนขึ้น</string>
+    <string name="devices_move_down">เลื่อนลง</string>
+
+    <!-- SavedCommasUnreadable.kt -->
+    <string name="devices_unreadable_title">อ่าน comma ที่บันทึกไว้ไม่ได้</string>
+    <string name="devices_unreadable_body">อ่าน comma ที่บันทึกไว้ใน%1$sไม่ได้ จึงไม่แสดงรายการใด comma เหล่านั้นไม่ได้ถูกลบ ลองอีกครั้ง หรือเริ่มใหม่และจับคู่ comma แต่ละเครื่องอีกครั้ง</string>
+    <string name="devices_start_over">เริ่มใหม่</string>
+    <string name="devices_unreadable_confirm_title">เริ่มใหม่โดยไม่มี comma ที่บันทึกไว้หรือไม่?</string>
+    <string name="devices_unreadable_confirm_body">รายการที่บันทึกไว้จะถูกพักไว้ใน%1$sและเก็บไว้อย่างน้อย 90 วัน เผื่อ CommaView รุ่นหลังอ่านได้ %2$sจะไม่แสดง comma ใดจนกว่าคุณจะจับคู่แต่ละเครื่องอีกครั้ง</string>
+    <string name="devices_unreadable_confirm_action">พักไว้และเริ่มใหม่</string>
+
+    <!-- AddCommaPage.kt: Add a comma. -->
+    <string name="devices_runs_commaview_version">ใช้ CommaView %1$s</string>
+    <string name="devices_runs_commaview">ใช้ CommaView</string>
+    <string name="devices_comma_found">พบ comma</string>
+    <string name="devices_add_intro">จับคู่ comma ที่ใช้ CommaView อยู่แล้ว และดูจาก%1$s</string>
+    <string name="devices_on_this_network">ในเครือข่ายนี้</string>
+    <string name="devices_scan_qr">สแกนคิวอาร์โค้ด</string>
+    <string name="devices_enter_its_code">ป้อนรหัสจับคู่</string>
+    <string name="devices_enter_address_code">ป้อนที่อยู่และรหัส</string>
+    <string name="devices_set_up_again">ตั้งค่า CommaView อีกครั้ง</string>
+    <string name="devices_set_up_on_comma">ตั้งค่า CommaView บน comma</string>
+    <string name="devices_set_up_again_body">ติดตั้งใหม่หรือซ่อมแซม CommaView ผ่าน SSH</string>
+    <string name="devices_set_up_body">สำหรับ comma ที่ยังไม่ได้ใช้ CommaView หรือเพื่อซ่อมแซมหรือติดตั้งใหม่ การตั้งค่าใช้ SSH</string>
+    <string name="devices_where_code">รหัสจับคู่อยู่ที่ไหน?</string>
+    <string name="devices_where_code_body">โทรศัพท์ที่จับคู่กับ comma นี้อยู่แล้วจะแสดงรหัสในการตั้งค่าอุปกรณ์ ใต้ “จับคู่โทรศัพท์เครื่องอื่น” การตั้งค่า CommaView ก็ให้รหัสเช่นกัน</string>
+    <string name="devices_stays_local">อยู่ในเครือข่ายของคุณ</string>
+    <string name="devices_stays_local_body">CommaView สื่อสารกับ comma โดยตรงผ่านเครือข่ายภายใน ไม่มีบริการคลาวด์คั่นกลาง %1$sต้องอยู่ใน Wi-Fi เดียวกับ comma หรือใช้ฮอตสปอตของ comma</string>
+    <string name="devices_readout_device">อุปกรณ์</string>
+    <string name="devices_readout_address">ที่อยู่</string>
+    <string name="devices_or">หรือ</string>
+
+    <!-- DeviceListScreen.kt: Home, pairing and the repair. -->
+    <string name="devices_repair_ready">พร้อมซ่อมแซม</string>
+    <string name="devices_repair_car_on">รถติดเครื่องอยู่</string>
+    <string name="devices_repair_car_unknown">ไม่ทราบสถานะรถ</string>
+    <string name="devices_repair_offroad_text">comma จอดอยู่ เริ่มซ่อมแซมได้อย่างปลอดภัย</string>
+    <string name="devices_repair_onroad_text">ซ่อมแซมอย่างปลอดภัยจะเข้าคิวการซ่อมแซมบน comma และเริ่มเมื่อรถอยู่ในเกียร์ P และยกเลิกระบบช่วยขับของ openpilot แล้ว</string>
+    <string name="devices_repair_unknown_text">ยืนยันไม่ได้ว่ารถกำลังขับอยู่หรือไม่ ซ่อมแซมอย่างปลอดภัยจะเริ่มภายในประมาณหนึ่งนาทีหากจอดอยู่ หรือเมื่อรถอยู่ในเกียร์ P และยกเลิกระบบช่วยขับของ openpilot แล้ว</string>
+    <string name="devices_invalid_qr">QR จับคู่ไม่ถูกต้อง</string>
+    <string name="devices_code_imported">นำเข้ารหัสจับคู่แล้ว</string>
+    <string name="devices_scan_prompt">สแกนคิวอาร์โค้ดสำหรับจับคู่</string>
+    <string name="devices_forget_title">ลืม comma นี้หรือไม่?</string>
+    <string name="devices_forget_body">%1$sจะหยุดแสดง comma นี้และลบคีย์จับคู่</string>
+    <string name="devices_forget">ลืม</string>
+    <string name="devices_back_to_search">กลับไปที่การค้นหา</string>
+    <string name="devices_driving_insights">ข้อมูลการขับขี่</string>
+    <string name="devices_home">หน้าแรก</string>
+    <string name="devices_safe_repair">ซ่อมแซมอย่างปลอดภัย</string>
+    <string name="devices_safe_repair_warning_title">ทำงานเมื่อรถอยู่ในเกียร์ P</string>
+    <string name="devices_safe_repair_warning">หากรถกำลังขับอยู่ comma จะเข้าคิวการซ่อมแซมการส่งออก UI ขณะขับ และเริ่มเมื่อรถอยู่ในเกียร์ P และยกเลิกระบบช่วยขับของ openpilot แล้ว การขับขี่จึงไม่ถูกขัดจังหวะ</string>
+    <string name="devices_safe_repair_body">หากรถอยู่ในเกียร์ P และยกเลิกระบบช่วยขับของ openpilot แล้ว การซ่อมแซมจะเริ่มภายในประมาณหนึ่งนาที</string>
+    <string name="devices_start_safe_repair">เริ่มซ่อมแซมอย่างปลอดภัย</string>
+    <string name="devices_repair_export_title">ซ่อมแซมการส่งออก UI ขณะขับ</string>
+    <string name="devices_repair_export_question">ซ่อมแซมแพตช์การส่งออก UI ขณะขับบน %1$s หรือไม่?</string>
+    <string name="devices_repair_export_question_unnamed">ซ่อมแซมแพตช์การส่งออก UI ขณะขับบน comma นี้หรือไม่?</string>
+    <string name="devices_safe_repair_action">ซ่อมแซมอย่างปลอดภัย…</string>
+    <string name="devices_pair_comma">จับคู่ comma</string>
+    <string name="devices_pair_hint">ป้อน IP ของ comma และรหัสจับคู่ที่การตั้งค่า CommaView แสดง หรือคำเชิญจากโทรศัพท์ที่มี comma นี้อยู่แล้ว</string>
+    <string name="devices_scan_pairing_qr">สแกน QR สำหรับจับคู่</string>
+    <string name="devices_pair_code_hint">ใส่ขีดกลางหรือไม่ก็ได้ · รหัสหมดอายุเร็ว</string>
+    <string name="devices_enter_ip_first">ป้อน IP ของ comma ก่อน</string>
+    <string name="devices_enter_code_first">ป้อนหรือสแกนรหัสจับคู่หรือคำเชิญก่อน</string>
+    <string name="devices_pair_code">รหัสจับคู่หรือคำเชิญ</string>
+    <!-- Saved commas set aside by Start over, offered back (SetAsideRecovery). -->
+    <plurals name="devices_set_aside_offer_title">
+        <item quantity="other">พบ comma ที่บันทึกไว้ %1$d เครื่องจาก %2$s</item>
+    </plurals>
+    <string name="devices_set_aside_offer_body">CommaView พักรายการเหล่านี้ไว้เมื่ออ่านไม่ได้ ตอนนี้อ่านได้แล้ว</string>
+    <string name="devices_set_aside_review">ตรวจสอบ</string>
+    <string name="devices_set_aside_review_title">comma ที่บันทึกไว้จาก %1$s</string>
+    <string name="devices_set_aside_review_message">เลือก comma ที่จะเพิ่มกลับไปที่%1$s แต่ละเครื่องจะกลับมาพร้อมชื่อ ที่อยู่ และการจับคู่เดิม</string>
+    <string name="devices_set_aside_already_saved">บันทึกไว้แล้ว</string>
+    <string name="devices_set_aside_not_now">ไว้ทีหลัง</string>
+    <string name="devices_set_aside_delete_list">ลบรายการนี้</string>
+    <string name="devices_set_aside_add_none">เพิ่ม comma</string>
+    <plurals name="devices_set_aside_add">
+        <item quantity="other">เพิ่ม comma %d เครื่อง</item>
+    </plurals>
+    <string name="devices_set_aside_tick_to_add">เลือก comma เพื่อเพิ่ม</string>
+    <plurals name="devices_set_aside_drop_others">
+        <item quantity="other">ไม่เก็บอีก %d เครื่อง</item>
+    </plurals>
+    <plurals name="devices_set_aside_drop_others_note">
+        <item quantity="other">อีก %d เครื่องจะไม่ถูกเก็บ และนำกลับมาภายหลังไม่ได้</item>
+    </plurals>
+    <string name="devices_set_aside_left_unticked">เครื่องที่ไม่ได้เลือกจะยังพักไว้สำหรับภายหลัง</string>
+    <string name="devices_set_aside_two_sentences">%1$s %2$s</string>
+    <plurals name="devices_set_aside_added">
+        <item quantity="other">เพิ่ม comma %d เครื่องแล้ว</item>
+    </plurals>
+    <plurals name="devices_set_aside_were_saved">
+        <item quantity="other">%d เครื่องบันทึกไว้อยู่แล้ว</item>
+    </plurals>
+    <string name="devices_set_aside_added_and_saved">%1$s %2$s</string>
+    <string name="devices_set_aside_add_failed">เพิ่มไม่ได้ ลองอีกครั้ง</string>
+    <string name="devices_set_aside_none_added">ไม่ได้เพิ่ม comma</string>
+    <string name="devices_set_aside_paired_stay">comma ที่คุณจับคู่ใหม่แล้วจะยังคงอยู่</string>
+    <string name="devices_set_aside_delete_title">ลบรายการที่พักไว้เมื่อ %1$s หรือไม่?</string>
+    <plurals name="devices_set_aside_delete_all_title">
+        <item quantity="other">ลบรายการที่พักไว้ %d รายการหรือไม่?</item>
+    </plurals>
+    <string name="devices_set_aside_delete_body_unread">นำกลับมาภายหลังไม่ได้</string>
+    <plurals name="devices_set_aside_delete_body">
+        <item quantity="other">comma %d เครื่องในรายการนี้จะนำกลับมาภายหลังไม่ได้</item>
+    </plurals>
+    <string name="devices_set_aside_delete_all_body">นำกลับมาภายหลังไม่ได้</string>
+    <string name="devices_set_aside_delete_confirm">ลบรายการ</string>
+    <string name="devices_set_aside_delete_all_confirm">ลบรายการ</string>
+    <string name="devices_set_aside_deleted">ลบรายการแล้ว</string>
+    <string name="devices_set_aside_delete_failed">ลบรายการไม่ได้ ลองอีกครั้ง</string>
+    <string name="devices_set_aside_settings_label">รายการที่บันทึกไว้ซึ่งพักไว้</string>
+    <string name="devices_set_aside_delete_now">ลบตอนนี้</string>
+    <string name="devices_set_aside_line_one">รายการที่บันทึกไว้ 1 รายการพักไว้เมื่อ %1$s %2$s</string>
+    <string name="devices_set_aside_kept_until">เก็บไว้ถึง %1$s</string>
+    <string name="devices_set_aside_kept_regardless">เก็บไว้ขณะที่%1$sไม่มี comma ที่บันทึกไว้ซึ่งอ่านได้</string>
+    <string name="devices_set_aside_line_several">รายการที่บันทึกไว้ %1$d รายการพักไว้ %2$s %3$s</string>
+    <string name="devices_set_aside_span_on">เมื่อ %1$s</string>
+    <string name="devices_set_aside_span_from">ตั้งแต่ %1$s ถึง %2$s</string>
+    <plurals name="devices_set_aside_each_kept">
+        <item quantity="other">แต่ละรายการเก็บไว้ %d วัน</item>
+    </plurals>
+    <plurals name="devices_set_aside_each_kept_newest">
+        <item quantity="other">แต่ละรายการเก็บไว้ %1$d วัน และรายการล่าสุด%2$s</item>
+    </plurals>
+    <!-- A development runtime, and the app's release put back (HomeRuntimeUpdate). -->
+    <string name="devices_dev_runtime_title">comma นี้ใช้รันไทม์รุ่นพัฒนา</string>
+    <string name="devices_dev_runtime_body">ติดตั้งจากนอกรุ่นเผยแพร่ของ CommaView คุณใส่รุ่นของแอปนี้ %1$s กลับไปได้</string>
+    <string name="devices_dev_runtime_kept">comma ยังจับคู่อยู่และเก็บการตั้งค่าและการบันทึกของ CommaView ไว้ อาจต้องรีบูตก่อนวิดีโอและเทเลเมทรีจะกลับมา</string>
+    <string name="devices_dev_runtime_install">ติดตั้ง %1$s</string>
+    <string name="devices_dev_runtime_queue_install">เข้าคิวติดตั้ง</string>
+    <!-- Phone keys: joining by an invitation, and a comma that already has a phone with a key. -->
+    <string name="devices_pairing_failed_legacy_off">การจับคู่ล้มเหลว: comma นี้ไม่จับคู่ด้วยรหัสแล้ว เพิ่ม%1$sจากเครื่องที่มีคีย์อยู่แล้ว (การตั้งค่า › เพิ่มโทรศัพท์เครื่องอื่น) หรือตั้งค่า comma อีกครั้ง</string>
+    <string name="devices_invitation_needed_named">%1$s มีโทรศัพท์ที่มีคีย์ของตัวเองแล้ว แต่%2$sไม่มี หากไม่ใช่โทรศัพท์ของคุณ อาจมีคนอื่นเพิ่มไว้ก่อน: ลบโทรศัพท์ทุกเครื่องบน comma ผ่าน SSH (commaviewd phones revoke-all) แล้วตั้งค่าอีกครั้งจาก%2$s หากเป็นของคุณ ให้เพิ่ม%2$sจากเครื่องนั้น (การตั้งค่า › เพิ่มโทรศัพท์เครื่องอื่น)</string>
+    <string name="devices_invitation_needed_this">comma นี้มีโทรศัพท์ที่มีคีย์ของตัวเองแล้ว แต่%1$sไม่มี หากไม่ใช่โทรศัพท์ของคุณ อาจมีคนอื่นเพิ่มไว้ก่อน: ลบโทรศัพท์ทุกเครื่องบน comma ผ่าน SSH (commaviewd phones revoke-all) แล้วตั้งค่าอีกครั้งจาก%1$s หากเป็นของคุณ ให้เพิ่ม%1$sจากเครื่องนั้น (การตั้งค่า › เพิ่มโทรศัพท์เครื่องอื่น)</string>
+    <string name="devices_invitation_failed">เข้าร่วมด้วยคำเชิญนั้นไม่ได้ อาจพิมพ์ผิด หมดอายุ หรือถูกใช้ไปแล้ว แสดงคำเชิญใหม่บนโทรศัพท์ที่มี comma นี้อยู่แล้ว (การตั้งค่า › เพิ่มโทรศัพท์เครื่องอื่น)</string>
+
+    <!-- Why a pair code couldn't be redeemed, when the comma or the network gave no words (RemoteAccessClient.kt). -->
+    <string name="devices_pairing_error_network">เครือข่ายไม่พร้อมใช้งาน</string>
+    <string name="devices_pairing_error_redeem_failed">ใช้รหัสจับคู่ไม่สำเร็จ</string>
+    <string name="devices_pairing_error_unknown_host">ไม่รู้จักโฮสต์</string>
+
+    <!-- The comma's view on its screen, when the runtime gave no reason of its own (CommaViewApi.kt). -->
+    <string name="devices_patch_reason_busy">comma ไม่ว่าง ลองซ่อมแซมอีกครั้งในอีกสักครู่</string>
+    <string name="devices_patch_reason_unavailable">ไม่มีสถานะการส่งออก UI ขณะขับ</string>
+    <string name="devices_patch_reason_no_token">ไม่มีโทเค็น API</string>
+    <string name="devices_patch_reason_repair_unavailable">ซ่อมแซมการส่งออก UI ขณะขับไม่ได้</string>
+    <string name="devices_patch_reason_invalid_repair">การตอบกลับการซ่อมแซมไม่ถูกต้อง</string>
+    <string name="devices_support_name">ฝ่ายสนับสนุน CommaView</string>
+    <string name="devices_email_support">ส่งอีเมลถึงฝ่ายสนับสนุน</string>
+    <string name="devices_address_copied">คัดลอกที่อยู่แล้ว</string>
+</resources>

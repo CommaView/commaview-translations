@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Português (Brasil). Machine drafted with docs/localization/glossary-pt-rBR.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="about_header_update_commaview">Atualizar o CommaView</string>
+    <string name="about_header_update_progress">Atualização do CommaView: %1$s</string>
+    <string name="about_header_install_update">Instalar a atualização do CommaView</string>
+    <string name="about_settings_back">Voltar</string>
+</resources>

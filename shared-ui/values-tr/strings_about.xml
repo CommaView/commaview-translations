@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- about: Türkçe. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-tr.md and openpilot's selfdrive/ui/translations/app_tr.po. -->
+<resources>
+
+    <!-- AppUpdateHeaderButton: what TalkBack says of the header's app update button. -->
+    <string name="about_header_update_commaview">CommaView\'u güncelle</string>
+    <string name="about_header_update_progress">CommaView güncellemesi: %1$s</string>
+    <string name="about_header_install_update">CommaView güncellemesini yükle</string>
+
+    <!-- SettingsComponents: a settings page's back button. -->
+    <string name="about_settings_back">Geri</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- recordings -->
+    <string name="recordings_cockpit_more">這個錄影的更多動作</string>
+    <string name="recordings_cockpit_select">選取這個錄影</string>
+    <string name="recordings_cockpit_needs_processing">待處理</string>
+    <string name="recordings_cockpit_select_recording">選取錄影</string>
+    <string name="recordings_cockpit_leaderboard">排行榜</string>
+    <string name="recordings_cockpit_your_entry_unranked">您的項目，尚未排名</string>
+    <string name="recordings_cockpit_your_entry">您的項目</string>
+    <string name="recordings_cockpit_you">您</string>
+    <string name="recordings_cockpit_filter">篩選</string>
+    <string name="recordings_cockpit_clear">清除</string>
+    <string name="recordings_cockpit_clear_named">清除%1$s</string>
+    <string name="recordings_cockpit_close">關閉</string>
+    <string name="recordings_cockpit_choose">選擇</string>
+    <string name="recordings_cockpit_none">無</string>
+    <string name="recordings_cockpit_expanded">%1$s，已展開</string>
+</resources>

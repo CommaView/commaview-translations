@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- liveview: Français (French). Machine drafted with docs/localization/glossary-fr.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- Cockpit's media: the speed over a picture, the location map, the week's chart (CockpitMedia). -->
+    <string name="liveview_media_max">MAX</string>
+    <string name="liveview_media_set_speed">Vitesse réglée %1$s</string>
+
+    <!-- %1$s is the speed's figure, %2$s its unit (km/h, mph). -->
+    <string name="liveview_media_current_speed">Vitesse actuelle %1$s %2$s</string>
+    <string name="liveview_media_location_hidden">Position masquée</string>
+    <string name="liveview_media_map_unavailable">Carte indisponible</string>
+    <string name="liveview_media_map_credits">Crédits de la carte : %1$s</string>
+    <string name="liveview_media_map_parked">Carte montrant où la voiture a été garée pour la dernière fois</string>
+    <string name="liveview_media_map_current">Carte montrant la position actuelle de la voiture</string>
+    <string name="liveview_media_last_known">Dernière connue</string>
+    <string name="liveview_media_live">Direct</string>
+    <string name="liveview_media_distance_per_day">Distance par jour</string>
+
+    <!-- The week's chart, as TalkBack reads it: %1$s is its label, %2$s its unit. -->
+    <string name="liveview_media_chart_in_unit">%1$s, en %2$s</string>
+    <string name="liveview_media_chart_not_recorded">non enregistré</string>
+
+    <!-- Cockpit's shared components (CockpitComponents, AppSnackbar, AppWindowAccess). -->
+    <string name="liveview_components_open">Ouvrir %1$s</string>
+    <string name="liveview_components_expanded">Développé</string>
+    <string name="liveview_components_collapsed">Réduit</string>
+    <string name="liveview_components_close_commas">Fermer les comma enregistrés</string>
+    <string name="liveview_components_choose_comma">Choisir un comma</string>
+    <string name="liveview_components_add_comma">Ajouter un comma</string>
+    <string name="liveview_snackbar_dismiss">Ignorer</string>
+    <string name="liveview_window_checking_beta">Vérification de l\'accès Beta</string>
+</resources>

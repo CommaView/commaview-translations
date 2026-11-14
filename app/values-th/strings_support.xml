@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- support: ไทย (Thai). Machine drafted with docs/localization/glossary-th.md; not yet reviewed by a native speaker. -->
+<resources>
+    <!-- Settings › Support & diagnostics (SupportDiagnosticsScreen, SettingsPages). -->
+    <string name="support_report_or_idea">รายงานปัญหาหรือส่งไอเดีย</string>
+    <string name="support_diagnostics_kept">ข้อมูลวินิจฉัยที่เก็บไว้</string>
+    <string name="support_support">การสนับสนุน</string>
+    <string name="support_on_this_phone">ใน%1$s</string>
+    <string name="support_local_data">ข้อมูลวินิจฉัยในเครื่อง</string>
+    <string name="support_local_data_supporting">ลบประวัติข้อผิดพลาดของการบันทึก ล็อกวินิจฉัยในเครื่อง จำนวนการค้นหาการนำทาง รายงานบั๊กที่บันทึกไว้ และคลิปดีบักจากแอปเวอร์ชันเก่า การบันทึกการขับขี่จะไม่ถูกลบ</string>
+    <string name="support_clear_local_data">ล้างข้อมูลวินิจฉัยในเครื่อง</string>
+    <string name="support_kept_nothing">ไม่มีข้อมูลใน%1$s</string>
+    <string name="support_kept_under">ไม่ถึง 0.1 MB ใน%1$s</string>
+    <string name="support_kept_megabytes">%1$.1f MB ใน%2$s</string>
+    <string name="support_kept_gigabytes">%1$.1f GB ใน%2$s</string>
+    <string name="support_keep_diagnostics">เก็บข้อมูลวินิจฉัยไว้ใน%1$s</string>
+    <string name="support_keep_diagnostics_supporting">ล็อกแอปและตัวนับจากการขับขี่ 10 ครั้งล่าสุด และจำนวนการค้นหาการนำทาง เก็บไว้เพื่อให้รายงานบอกได้ว่าเกิดอะไรขึ้น ไม่มีข้อมูลใดออกจาก%1$sจนกว่าคุณจะส่งรายงาน หากปิดจะเก็บเฉพาะประวัติข้อผิดพลาดของการบันทึก</string>
+    <string name="support_the_project">สนับสนุนโปรเจกต์</string>
+    <string name="support_commaview">สนับสนุน CommaView</string>
+    <string name="support_commaview_supporting">ช่วยค่าโฮสติ้ง การทดสอบ และแอป iOS เปิด Buy Me a Coffee</string>
+
+    <!-- Your requests (YourRequests). -->
+    <string name="support_your_requests">คำขอของคุณ</string>
+    <string name="support_your_requests_supporting">คำตอบและการสนทนาของคุณกับ CommaView บน my.commaview.com โดย CommaView จะส่งอีเมลถึงคุณเมื่อตอบกลับ</string>
+    <string name="support_your_requests_empty">ยังไม่มีคำขอ คำขอที่คุณส่งจะแสดงที่นี่ และ CommaView จะส่งอีเมลถึงคุณเมื่อตอบกลับ</string>
+    <string name="support_your_requests_signed_out">ลงชื่อเข้าใช้เพื่อดูคำขอของคุณและคำตอบจาก CommaView ที่นี่</string>
+    <string name="support_your_requests_loading">กำลังค้นหาคำขอของคุณ…</string>
+    <string name="support_your_requests_failed">ไม่สามารถโหลดคำขอของคุณได้ในขณะนี้ จะโหลดอีกครั้งเมื่อคุณกลับมาที่หน้านี้</string>
+    <string name="support_your_requests_unread">คำตอบที่ยังไม่ได้อ่าน</string>
+    <string name="support_see_all">ดูทั้งหมด</string>
+    <string name="support_see_all_count">ดูทั้งหมด %1$d รายการ</string>
+    <string name="support_see_all_where">บน my.commaview.com</string>
+    <string name="support_kind_problem">ปัญหา</string>
+    <string name="support_kind_idea">ไอเดีย</string>
+    <string name="support_kind_request">คำขอ</string>
+    <string name="support_status_closed">ปิดแล้ว</string>
+    <string name="support_status_closed_on">ปิดแล้ว · %1$s</string>
+    <string name="support_status_replied">เปิดอยู่ · CommaView ตอบแล้ว</string>
+    <string name="support_status_waiting">เปิดอยู่ · รอ CommaView</string>
+    <string name="support_status_open">เปิดอยู่</string>
+    <string name="support_couldnt_open_site">เปิด my.commaview.com ไม่ได้</string>
+</resources>

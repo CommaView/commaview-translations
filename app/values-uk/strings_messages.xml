@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- messages: Українська (Ukrainian). Machine drafted with docs/localization/glossary-uk.md; not yet reviewed by a native speaker.
+     The maintenance nouns (встановлення, оновлення, видалення) read the same in the nominative and the genitive, so they fit every sentence they go in. -->
+<resources>
+    <string name="messages_two_sentences">%1$s %2$s</string>
+
+    <string name="messages_maintenance_noun_install">встановлення</string>
+    <string name="messages_maintenance_noun_update">оновлення</string>
+    <string name="messages_maintenance_noun_uninstall">видалення</string>
+    <string name="messages_maintenance_install_failed">Не вдалося встановити CommaView на ваш comma.</string>
+    <string name="messages_maintenance_update_failed">Не вдалося оновити CommaView на вашому comma.</string>
+    <string name="messages_maintenance_uninstall_failed">Не вдалося видалити CommaView з вашого comma.</string>
+    <string name="messages_maintenance_connection_lost">З’єднання з вашим comma обірвалося до завершення: %1$s.</string>
+    <string name="messages_maintenance_advice_same_network">Переконайтеся, що %1$s досі в тій самій мережі, що й comma, і спробуйте ще раз.</string>
+    <string name="messages_maintenance_driving">Авто їде, тому %1$s не виконано.</string>
+    <string name="messages_maintenance_advice_park">Переведіть авто на P з вимкненим openpilot і спробуйте ще раз.</string>
+    <string name="messages_maintenance_busy">На вашому comma вже триває інше встановлення, оновлення чи відновлення CommaView.</string>
+    <string name="messages_maintenance_advice_wait">Зачекайте кілька хвилин, доки воно завершиться, і спробуйте ще раз.</string>
+    <string name="messages_maintenance_no_space">На вашому comma закінчилося місце під час %1$s.</string>
+    <string name="messages_maintenance_advice_later">Спробуйте пізніше. %1$s</string>
+    <string name="messages_maintenance_unlisted_paused">CommaView призупинив встановлення на форки, яких немає в його списку, поки виправляє проблему.</string>
+    <string name="messages_maintenance_advice_next_update">Спробуйте ще раз після наступного оновлення CommaView.</string>
+    <string name="messages_maintenance_your_driving_software">ПЗ водіння на вашому comma</string>
+    <string name="messages_maintenance_unlisted_why">CommaView не може безпечно додати свій вид до %1$s: %2$s.</string>
+    <string name="messages_maintenance_unlisted">CommaView не може безпечно додати свій вид до %1$s.</string>
+    <string name="messages_maintenance_advice_ask_fork">Щоб попросити підтримку вашого форка, скопіюйте подробиці й надішліть їх на %1$s.</string>
+    <string name="messages_maintenance_unsupported_from">CommaView ще не підтримує ПЗ водіння на вашому comma, яке походить із %1$s.</string>
+    <string name="messages_maintenance_unsupported">CommaView ще не підтримує ПЗ водіння на вашому comma.</string>
+    <string name="messages_maintenance_supported_forks">Форки, з якими він працює, перелічено на %1$s.</string>
+    <string name="messages_maintenance_advice_ask_yours">Щоб попросити підтримку вашого, скопіюйте подробиці й надішліть їх на %1$s.</string>
+    <string name="messages_maintenance_unsupported_screen">CommaView не може додати свій вид до ПЗ водіння на вашому comma: воно малює екран так, як CommaView не підтримує.</string>
+    <string name="messages_maintenance_screen_patch">CommaView не зміг додати свій вид до ПЗ водіння на вашому comma. Можливо, ПЗ змінилося так, як CommaView ще не вміє обробляти.</string>
+    <string name="messages_maintenance_offline">Ваш comma не зміг завантажити CommaView.</string>
+    <string name="messages_maintenance_advice_internet">Перевірте, чи ваш comma підключено до інтернету через Wi‑Fi або власну SIM, і спробуйте ще раз.</string>
+    <string name="messages_maintenance_damaged">Завантаження CommaView надійшло на ваш comma неповним або пошкодженим.</string>
+    <string name="messages_maintenance_advice_try_again">Спробуйте ще раз. %1$s</string>
+    <string name="messages_maintenance_did_not_start">CommaView не запустився на вашому comma після %1$s.</string>
+    <string name="messages_maintenance_advice_restart">Перезавантажте comma і спробуйте ще раз. %1$s</string>
+    <string name="messages_maintenance_left_changes">Деякі зміни інсталятора не вдалося скасувати.</string>
+    <string name="messages_maintenance_nothing_changed">На вашому comma нічого не змінено.</string>
+    <string name="messages_maintenance_rolled_back">Ваш comma повернуто до попереднього стану.</string>
+    <string name="messages_maintenance_send_details">Скопіюйте подробиці й надішліть їх на %1$s.</string>
+    <string name="messages_maintenance_send_details_if_again">Якщо це повториться, скопіюйте подробиці й надішліть їх на %1$s.</string>
+    <string name="messages_maintenance_reason_python_ui">його екран малює старіший нативний інтерфейс openpilot, до якого CommaView не може додаватися</string>
+    <string name="messages_maintenance_reason_screen_code">код його екрана відрізняється там, де до нього під’єднується CommaView</string>
+    <string name="messages_maintenance_reason_camera_view">його вид камери побудовано інакше там, де під’єднується CommaView</string>
+    <string name="messages_maintenance_reason_no_screen_for">у нього немає відомого CommaView екрана для %1$s</string>
+    <string name="messages_maintenance_reason_no_screen">у нього немає відомого CommaView екрана для цього comma</string>
+    <string name="messages_maintenance_reason_platform">CommaView не може визначити, чи ваш comma — comma 3X, чи comma four</string>
+    <string name="messages_maintenance_reason_no_repo">CommaView не може визначити, з якого репозиторію походить його ПЗ</string>
+
+    <string name="messages_boot_hook_title">CommaView не запуститься сам після перезапуску</string>
+    <string name="messages_boot_hook_message">CommaView встановлено, але ніщо не запускає його під час завантаження comma: його запуск ставиться просто перед рядком exec ./launch_openpilot.sh у /data/continue.sh, а на вашому comma такого рядка немає. Коли він з’явиться, встановіть CommaView ще раз.</string>
+    <string name="messages_boot_hook_brief">Ніщо не запускає його під час завантаження comma: у /data/continue.sh немає рядка exec ./launch_openpilot.sh.</string>
+
+    <string name="messages_comma3_unsupported_title">comma 3 не підтримується</string>
+    <string name="messages_comma3_unsupported_body">CommaView працює з comma 3X і comma four. Випуск openpilot для comma 3 заморожено, і він малює екран інакше, тож CommaView не може показати свою накладку.</string>
+
+    <string name="messages_app_too_old_title">Оновіть CommaView</string>
+    <string name="messages_app_too_old_body">Середовище виконання CommaView на цьому comma новіше, ніж підтримує цей застосунок. Оновіть застосунок, щоб користуватися цим comma.</string>
+    <string name="messages_runtime_too_old_title">Оновіть середовище виконання цього comma</string>
+    <string name="messages_runtime_too_old_body">Цьому застосунку потрібне новіше середовище виконання CommaView, ніж є на цьому comma. Оновіть його в налаштуваннях пристрою.</string>
+
+    <string name="messages_runtime_unexpected_answer">Неочікувана відповідь</string>
+    <string name="messages_runtime_comma_busy">comma зайнятий</string>
+    <string name="messages_runtime_error_status">Помилка %1$s</string>
+
+    <string name="messages_comma_no_answer">comma не відповів</string>
+    <string name="messages_comma_not_paired">%1$s не сполучено з comma</string>
+    <string name="messages_comma_refused">comma відхилив запит (%1$s)</string>
+
+    <string name="messages_ssh_host_key_not_saved">Не вдалося зберегти SSH-ідентичність цього comma: її не зміг записати %1$s, тому CommaView не підключився. Коли %1$s матиме вільне місце, спробуйте ще раз.</string>
+    <string name="messages_ssh_host_key_changed">SSH-ідентичність цього comma змінилася після останнього налаштування. Якщо ви скинули чи перепрошили його, налаштуйте ще раз.</string>
+    <string name="messages_ssh_host_keys_unreadable">%1$s не може прочитати свій запис SSH-ідентичностей comma, тому не підключається до жодного comma через SSH, доки цей запис не буде створено заново.</string>
+    <string name="messages_ssh_no_comma">Не знайдено comma за адресою %1$s.\nПеревірте IP-адресу.</string>
+    <string name="messages_ssh_no_route">Немає маршруту до %1$s.\nПереконайтеся, що ви в тій самій мережі Wi‑Fi.</string>
+    <string name="messages_ssh_refused">З’єднання відхилено на %1$s:22.\nПереконайтеся, що SSH увімкнено на вашому comma.</string>
+    <string name="messages_ssh_timed_out">Час з’єднання з %1$s вичерпано.\nПеревірте IP-адресу й мережу.</string>
+    <string name="messages_ssh_error">Помилка SSH: %1$s\n%2$s</string>
+    <string name="messages_ssh_unknown_error">Невідома помилка</string>
+    <string name="messages_ssh_auth_failed">Помилка автентифікації SSH.\n\nПереконайтеся, що:\n• ключ CommaView додано до GitHub (назва будь-яка)\n• ваше ім’я користувача GitHub задано на comma: якщо ви задали його до додавання ключа, видаліть і задайте знову\n• SSH увімкнено на comma</string>
+
+    <string name="messages_phone_key_gone">%2$s втратив свій ключ для comma. Сполучіть %1$s із comma знову.</string>
+    <string name="messages_phone_keystore_unavailable">%1$s зараз не може використати своє сховище ключів. Спробуйте за мить.</string>
+    <string name="messages_answer_unproven">Відповідь надійшла не від comma, з яким сполучено %1$s.</string>
+    <string name="messages_maintenance_ssh_failed_before">SSH-з’єднання з вашим comma не вдалося до початку %1$s.</string>
+    <string name="messages_maintenance_ssh_failed_while">SSH-з’єднання з вашим comma обірвалося під час %1$s.</string>
+    <string name="messages_maintenance_ssh_failed">Не вдалося встановити SSH-з’єднання з вашим comma.</string>
+    <string name="messages_maintenance_advice_ssh">Переконайтеся, що %2$s у тій самій мережі, що й comma, і спробуйте ще раз. %1$s</string>
+    <string name="messages_maintenance_cant_tell">CommaView не може визначити, чи змінився ваш comma: у налаштуваннях пристрою видно середовище виконання, яке на ньому зараз.</string>
+</resources>
