@@ -10,17 +10,11 @@
     <string name="about_header_installing">설치 중</string>
     <string name="about_header_install">설치</string>
     <string name="about_header_retry">업데이트 다시 시도</string>
-    <string name="about_update_dev_build">개발 빌드</string>
-    <string name="about_update_car_test_detail">Car Test 앱입니다. 새 개발 빌드는 스테이징 계정에서 받습니다.</string>
     <string name="about_update_installed">설치됨: %1$s</string>
     <string name="about_update_unable_to_check">확인할 수 없음</string>
     <string name="about_update_available">업데이트 가능</string>
     <string name="about_update_latest">최신: %1$s</string>
     <string name="about_update_up_to_date">최신 버전</string>
-    <string name="about_update_dev_available">개발 빌드 있음</string>
-    <string name="about_update_dev_version_available">개발 빌드 %1$s 있음</string>
-    <string name="about_update_dev_status">개발 빌드: 스테이징의 Car Test 앱</string>
-    <string name="about_update_dev_detail">스테이징 계정에서 설치합니다.</string>
     <string name="about_update_alpha_available">Alpha 있음</string>
     <string name="about_update_alpha_version_available">Alpha %1$s 있음</string>
     <string name="about_update_alpha_status">Alpha: 테스터를 위한 초기 빌드</string>

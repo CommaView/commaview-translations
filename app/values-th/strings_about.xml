@@ -9,17 +9,11 @@
     <string name="about_header_installing">กำลังติดตั้ง</string>
     <string name="about_header_install">ติดตั้ง</string>
     <string name="about_header_retry">ลองอัปเดตอีกครั้ง</string>
-    <string name="about_update_dev_build">รุ่นพัฒนา</string>
-    <string name="about_update_car_test_detail">แอป Car Test รุ่นพัฒนาที่ใหม่กว่าจะมาจากบัญชี staging ของคุณ</string>
     <string name="about_update_installed">ติดตั้งแล้ว: %1$s</string>
     <string name="about_update_unable_to_check">ตรวจสอบไม่ได้</string>
     <string name="about_update_available">มีอัปเดตใหม่</string>
     <string name="about_update_latest">ล่าสุด: %1$s</string>
     <string name="about_update_up_to_date">เป็นเวอร์ชันล่าสุดแล้ว</string>
-    <string name="about_update_dev_available">มีรุ่นพัฒนาใหม่</string>
-    <string name="about_update_dev_version_available">มีรุ่นพัฒนา %1$s</string>
-    <string name="about_update_dev_status">รุ่นพัฒนา: แอป Car Test จาก staging</string>
-    <string name="about_update_dev_detail">ติดตั้งจากบัญชี staging ของคุณ</string>
     <string name="about_update_alpha_available">มี Alpha ใหม่</string>
     <string name="about_update_alpha_version_available">มี Alpha %1$s</string>
     <string name="about_update_alpha_status">Alpha: รุ่นแรกเริ่มสำหรับผู้ทดสอบ</string>

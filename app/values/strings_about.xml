@@ -9,17 +9,11 @@
     <string name="about_header_installing">Installing</string>
     <string name="about_header_install">Install</string>
     <string name="about_header_retry">Retry update</string>
-    <string name="about_update_dev_build">Dev build</string>
-    <string name="about_update_car_test_detail">The Car Test app. Newer dev builds come from your staging account.</string>
     <string name="about_update_installed">Installed: %1$s</string>
     <string name="about_update_unable_to_check">Unable to check</string>
     <string name="about_update_available">Update available</string>
     <string name="about_update_latest">Latest: %1$s</string>
     <string name="about_update_up_to_date">Up to date</string>
-    <string name="about_update_dev_available">Dev build available</string>
-    <string name="about_update_dev_version_available">Dev build %1$s available</string>
-    <string name="about_update_dev_status">Dev build: the Car Test app from staging</string>
-    <string name="about_update_dev_detail">Installs from your staging account.</string>
     <string name="about_update_alpha_available">Alpha available</string>
     <string name="about_update_alpha_version_available">Alpha %1$s available</string>
     <string name="about_update_alpha_status">Alpha: an early build for testers</string>

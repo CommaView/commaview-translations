@@ -9,17 +9,11 @@
     <string name="about_header_installing">正在安裝</string>
     <string name="about_header_install">安裝</string>
     <string name="about_header_retry">重試更新</string>
-    <string name="about_update_dev_build">開發版本</string>
-    <string name="about_update_car_test_detail">Car Test 應用程式。較新的開發版本來自您的測試環境帳號。</string>
     <string name="about_update_installed">已安裝：%1$s</string>
     <string name="about_update_unable_to_check">無法檢查</string>
     <string name="about_update_available">有可用的更新</string>
     <string name="about_update_latest">最新版本：%1$s</string>
     <string name="about_update_up_to_date">已是最新版本</string>
-    <string name="about_update_dev_available">有可用的開發版本</string>
-    <string name="about_update_dev_version_available">有可用的開發版本 %1$s</string>
-    <string name="about_update_dev_status">開發版本：來自測試環境的 Car Test 應用程式</string>
-    <string name="about_update_dev_detail">從您的測試環境帳號安裝。</string>
     <string name="about_update_alpha_available">有可用的 Alpha 版本</string>
     <string name="about_update_alpha_version_available">有可用的 Alpha 版本 %1$s</string>
     <string name="about_update_alpha_status">Alpha：提供給測試人員的早期版本</string>
