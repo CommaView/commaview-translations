@@ -459,4 +459,8 @@
     <string name="devices_support_name">CommaView desteği</string>
     <string name="devices_email_support">Desteğe e-posta gönder</string>
     <string name="devices_address_copied">Adres kopyalandı</string>
+    <string name="devices_software_video_only">Yalnızca video</string>
+    <string name="devices_software_unlisted_fork">Listede olmayan fork</string>
+    <string name="devices_software_best_effort">sınırlı destek</string>
+    <string name="devices_software_video_only_qualifier">yalnızca video</string>
 </resources>

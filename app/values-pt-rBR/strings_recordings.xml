@@ -802,4 +802,11 @@
     <string name="recordings_upload_doing_sending">o envio de %1$s</string>
     <string name="recordings_upload_doing_finishing">a finalização</string>
     <string name="recordings_upload_doing_allowance">a consulta do que pode contribuir</string>
+    <string name="recordings_quality_balanced">Equilibrada</string>
+    <string name="recordings_quality_high">Alta</string>
+    <string name="recordings_quality_max">Máxima</string>
+    <string name="recordings_quality_balanced_detail">No máximo %1$d pixels de largura: os menores arquivos, feitos mais rápido.</string>
+    <string name="recordings_quality_high_detail">A resolução total da câmera. Recomendada para a maioria das viagens.</string>
+    <string name="recordings_quality_max_detail">Resolução total com o máximo de detalhes, nos maiores arquivos.</string>
+    <string name="recordings_replay_gap_hud">Dados do HUD indisponíveis</string>
 </resources>

@@ -237,7 +237,8 @@
     <string name="navigation_send_to_comma_sent">Sent to your comma. %1$s plans its own route there.</string>
     <string name="navigation_send_to_comma_failed">Couldn’t send it to your comma: %1$s</string>
     <string name="navigation_send_to_comma_onroad">Park first: your comma takes this only while it’s offroad.</string>
-    <string name="navigation_comma_unreachable">Can’t reach your comma to send it this trip. Connect this phone to the same network as your comma, then try again.</string>
+    <!-- %1$s: "this phone" / "this device". -->
+    <string name="navigation_comma_unreachable">Can’t reach your comma to send it this trip. Connect %1$s to the same network as your comma, then try again.</string>
     <string name="navigation_send_trips_title">Send every trip to this comma</string>
     <string name="navigation_send_trips_detail">When you tap Start, %1$s gets the destination too. It’s cleared when the trip ends.</string>
     <string name="navigation_send_trips_paused">Paused: %1$s’s driving settings changed since you turned this on. Turn it on again to agree to them.</string>
@@ -261,4 +262,37 @@
     <string name="navigation_comma_nav_turn_on_title">Turn on openpilot’s navigation (alpha)?</string>
     <string name="navigation_comma_nav_turn_on_message">openpilot’s own turn-by-turn navigation, with a route map on the comma four. It’s an alpha, which openpilot hides in its own settings on release builds. Turn it off again in your comma’s settings in CommaView.</string>
     <string name="navigation_comma_nav_turned_on">openpilot’s navigation (alpha) is on.</string>
+    <!-- Spoken well before a manoeuvre (NavigationPhrases): how far it is, then the route service's own instruction (%2$s, or %1$s where there's no number), in the same language, with its first letter lower-cased where the language has capitals. One string per unit, so the words round the number can follow it. -->
+    <plurals name="navigation_spoken_in_feet">
+        <item quantity="one">In %1$d foot, %2$s</item>
+        <item quantity="other">In %1$d feet, %2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_metres">
+        <item quantity="one">In %1$d metre, %2$s</item>
+        <item quantity="other">In %1$d metres, %2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_miles">
+        <item quantity="one">In %1$d mile, %2$s</item>
+        <item quantity="other">In %1$d miles, %2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_kilometres">
+        <item quantity="one">In %1$d kilometre, %2$s</item>
+        <item quantity="other">In %1$d kilometres, %2$s</item>
+    </plurals>
+    <!-- %1$s is a number with one decimal, as the language writes it ("1.2", German "1,2"). -->
+    <string name="navigation_spoken_in_miles_decimal">In %1$s miles, %2$s</string>
+    <string name="navigation_spoken_in_kilometres_decimal">In %1$s kilometres, %2$s</string>
+    <string name="navigation_spoken_in_quarter_mile">In a quarter mile, %1$s</string>
+    <string name="navigation_spoken_in_half_mile">In half a mile, %1$s</string>
+    <string name="navigation_spoken_in_three_quarters_mile">In three quarters of a mile, %1$s</string>
+    <!-- Settings' preview of a trip: a sample of the route service's own instructions (%1$s a street's name), worded as the route service words them in the language. -->
+    <string name="navigation_preview_sample_exit">Take the exit toward %1$s</string>
+    <string name="navigation_preview_sample_then">keep left toward %1$s</string>
+    <!-- Where to? by voice: what people say round a place, in lower case, each phrase between | and the longest first. These are matched, never shown: write what a person of the language says. Before the place ("navigate to Main Street"): -->
+    <string name="navigation_voice_before_place">navigate to|take me to|directions to|drive to|go to|take me|go</string>
+    <!-- … after the place ("Main Street please"), for languages that put such words last: -->
+    <string name="navigation_voice_after_place">please|now</string>
+    <!-- … the words that name the saved Home and Work places when said alone ("home", "the office"): -->
+    <string name="navigation_voice_home_words">home|my home|my house</string>
+    <string name="navigation_voice_work_words">work|the office|office|my office|my work</string>
 </resources>

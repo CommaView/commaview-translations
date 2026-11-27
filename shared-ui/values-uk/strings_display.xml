@@ -50,4 +50,5 @@
     <string name="display_hud_preview_engaged">Попередній перегляд екрана %1$s, активний</string>
     <string name="display_hud_preview_override">Попередній перегляд екрана %1$s, втручання</string>
     <string name="display_hud_preview_not_engaged">Попередній перегляд екрана %1$s, неактивний</string>
+    <string name="display_design_screen_description">Екран %1$s</string>
 </resources>

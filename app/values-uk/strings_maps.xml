@@ -232,4 +232,6 @@
     <string name="maps_problem_failed_unknown">Завантаження чи перевірка не вдалися. Продовжте, щоб повторити.</string>
     <string name="maps_problem_failed_group_unknown">Група карти %1$d з %2$d: завантаження чи перевірка не вдалися. Продовжте, щоб повторити.</string>
 
+    <string name="maps_spoken_guidance_in_english">Сервіси маршрутів не дають вказівок цією мовою, тому покрокові підказки англійською.</string>
+    <string name="maps_spoken_guidance_no_voice">%1$s не має голосу синтезу мовлення для мови «%2$s», тому підказки читає англійський голос. Додайте його в налаштуваннях синтезу мовлення Android.</string>
 </resources>

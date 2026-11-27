@@ -220,4 +220,6 @@
     <string name="maps_problem_failed_unknown">ダウンロードまたは確認に失敗しました。再開して再試行してください。</string>
     <string name="maps_problem_failed_group_unknown">地図グループ %1$d / %2$d：ダウンロードまたは確認に失敗しました。再開して再試行してください。</string>
 
+    <string name="maps_spoken_guidance_in_english">ルートサービスがこの言語での案内に対応していないため、ターンバイターン案内は英語になります。</string>
+    <string name="maps_spoken_guidance_no_voice">%1$sには%2$sの音声読み上げ音声がないため、案内は英語の音声で読み上げられます。Android の音声読み上げ設定で追加してください。</string>
 </resources>

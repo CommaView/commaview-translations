@@ -210,7 +210,7 @@
     <string name="navigation_send_to_comma_sent">Надіслано на ваш comma. %1$s прокладе там власний маршрут.</string>
     <string name="navigation_send_to_comma_failed">Не вдалося надіслати на ваш comma: %1$s</string>
     <string name="navigation_send_to_comma_onroad">Спершу зупиніться: comma приймає це лише поза дорогою.</string>
-    <string name="navigation_comma_unreachable">Не вдається зв’язатися з вашим comma, щоб надіслати цю поїздку. Підключіть цей телефон до тієї ж мережі, що й comma, і спробуйте ще раз.</string>
+    <string name="navigation_comma_unreachable">Не вдається зв’язатися з вашим comma, щоб надіслати цю поїздку. Підключіть %1$s до тієї ж мережі, що й comma, і спробуйте ще раз.</string>
     <string name="navigation_send_trips_title">Надсилати кожну поїздку на цей comma</string>
     <string name="navigation_send_trips_detail">Коли ви торкаєтеся «Почати», %1$s теж отримує пункт призначення. Його буде видалено, коли поїздка завершиться.</string>
     <string name="navigation_send_trips_paused">Призупинено: налаштування водіння %1$s змінилися відтоді, як ви це ввімкнули. Увімкніть знову, щоб погодитися з ними.</string>
@@ -234,4 +234,39 @@
     <string name="navigation_comma_nav_turn_on_title">Увімкнути навігацію (альфа) openpilot?</string>
     <string name="navigation_comma_nav_turn_on_message">Власна покрокова навігація openpilot із мапою маршруту на comma four. Це альфа, яку openpilot ховає у своїх налаштуваннях у релізних збірках. Вимкніть її знову в налаштуваннях вашого comma в CommaView.</string>
     <string name="navigation_comma_nav_turned_on">Навігацію (альфа) openpilot увімкнено.</string>
+    <plurals name="navigation_spoken_in_feet">
+        <item quantity="one">Через %1$d фут %2$s</item>
+        <item quantity="few">Через %1$d фути %2$s</item>
+        <item quantity="many">Через %1$d футів %2$s</item>
+        <item quantity="other">Через %1$d фута %2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_metres">
+        <item quantity="one">Через %1$d метр %2$s</item>
+        <item quantity="few">Через %1$d метри %2$s</item>
+        <item quantity="many">Через %1$d метрів %2$s</item>
+        <item quantity="other">Через %1$d метра %2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_miles">
+        <item quantity="one">Через %1$d милю %2$s</item>
+        <item quantity="few">Через %1$d милі %2$s</item>
+        <item quantity="many">Через %1$d миль %2$s</item>
+        <item quantity="other">Через %1$d милі %2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_kilometres">
+        <item quantity="one">Через %1$d кілометр %2$s</item>
+        <item quantity="few">Через %1$d кілометри %2$s</item>
+        <item quantity="many">Через %1$d кілометрів %2$s</item>
+        <item quantity="other">Через %1$d кілометра %2$s</item>
+    </plurals>
+    <string name="navigation_spoken_in_miles_decimal">Через %1$s милі %2$s</string>
+    <string name="navigation_spoken_in_kilometres_decimal">Через %1$s кілометра %2$s</string>
+    <string name="navigation_spoken_in_quarter_mile">Через чверть милі %1$s</string>
+    <string name="navigation_spoken_in_half_mile">Через пів милі %1$s</string>
+    <string name="navigation_spoken_in_three_quarters_mile">Через три чверті милі %1$s</string>
+    <string name="navigation_preview_sample_exit">Скористайтеся виїздом у напрямку %1$s</string>
+    <string name="navigation_preview_sample_then">тримайтеся лівіше в напрямку %1$s</string>
+    <string name="navigation_voice_before_place">прокласти маршрут до|прокладіть маршрут до|маршрут до|навігація до|відвези мене до|відвезіть мене до|відвези до|їхати до|їдемо до|поїхали до|до</string>
+    <string name="navigation_voice_after_place">будь ласка|зараз</string>
+    <string name="navigation_voice_home_words">додому|дім|дому|мій дім</string>
+    <string name="navigation_voice_work_words">робота|роботи|на роботу|роботу|офіс|офісу|в офіс</string>
 </resources>

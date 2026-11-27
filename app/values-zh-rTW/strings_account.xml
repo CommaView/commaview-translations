@@ -47,7 +47,7 @@
     <string name="account_renewed_ago">%1$s前已續期</string>
     <string name="account_renews_next_online">%1$s下次連線時會自動續期</string>
     <string name="account_renews_in">約 %1$s後自動續期</string>
-    <string name="account_access_features_text">為你的帳戶開啟的新功能會隨存取憑證送達%1$s。CommaView 會在你開啟它時以及更新後檢查變更；重新整理即可立即取得。</string>
+    <string name="account_access_features_text">為您的帳戶開啟的新功能會隨存取憑證送達%1$s。CommaView 會在您開啟它時以及更新後檢查變更；重新整理即可立即取得。</string>
     <string name="account_card_title">帳號</string>
     <string name="account_fact_email">電子郵件</string>
     <string name="account_fact_access">存取權限</string>
@@ -125,7 +125,6 @@
     <string name="account_update_checksum">下載內容與校驗碼不符，因此未安裝。</string>
     <string name="account_update_not_installed">未安裝更新</string>
     <string name="account_update_version_alpha">Alpha %1$s</string>
-    <string name="account_update_version_dev">開發版 %1$s</string>
     <string name="account_update_version_release">CommaView %1$s</string>
     <string name="account_update_unavailable_here">目前無法在這裡下載這個更新。請稍後再試。</string>
     <string name="account_update_download_gone">下載的檔案已不存在。請點選「更新」重新下載。</string>
@@ -133,9 +132,7 @@
     <string name="account_update_offer_title">更新 CommaView</string>
     <string name="account_update_channel_alpha">Alpha</string>
     <string name="account_update_channel_beta">Beta</string>
-    <string name="account_update_channel_dev">開發版</string>
     <string name="account_update_alpha_note">給測試人員的早期版本，可能比 Beta 問題更多。</string>
-    <string name="account_update_dev_note">來自您 staging 帳戶的 Car Test 應用程式開發版。</string>
     <string name="account_update_size">下載大小：%1$s</string>
     <string name="account_update_installed_now">目前已安裝：%1$s</string>
     <string name="account_update_offer_body">CommaView 會在背景下載並檢查，接著 Android 會請您確認安裝。</string>

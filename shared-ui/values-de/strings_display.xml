@@ -39,7 +39,7 @@
     <string name="display_reduce_motion_detail">Pfad, Tempo und Zielerfassung von CommaView bleiben ruhig. Androids „Animationen entfernen“ bewirkt dasselbe.</string>
     <string name="display_design_no_options">Die Ansicht von %1$s hat keine eigenen Optionen: Sie wird so gezeichnet wie auf dem comma.</string>
     <string name="display_on_every_screen">Auf jeder Ansicht</string>
-    <string name="display_opening_live_view">Live View wird geöffnet</string>
+    <string name="display_opening_live_view">Beim Öffnen von Live View</string>
     <string name="display_preview">Vorschau</string>
     <string name="display_preview_engaged">Aktiv</string>
     <string name="display_preview_override">Eingriff</string>
@@ -62,4 +62,5 @@
     <string name="display_hud_preview_engaged">Vorschau der Ansicht von %1$s, aktiv</string>
     <string name="display_hud_preview_override">Vorschau der Ansicht von %1$s, Fahrereingriff</string>
     <string name="display_hud_preview_not_engaged">Vorschau der Ansicht von %1$s, nicht aktiv</string>
+    <string name="display_design_screen_description">%1$s-Bildschirm</string>
 </resources>

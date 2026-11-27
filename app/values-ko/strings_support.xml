@@ -40,4 +40,6 @@
     <string name="support_status_waiting">처리 중 · CommaView 답변 대기</string>
     <string name="support_status_open">처리 중</string>
     <string name="support_couldnt_open_site">my.commaview.com을 열 수 없습니다</string>
+    <string name="support_share_bundle">지원 번들 공유</string>
+    <string name="support_share_bundle_failed">지원 번들을 공유할 수 없음</string>
 </resources>

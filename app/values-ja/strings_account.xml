@@ -125,7 +125,6 @@
     <string name="account_update_checksum">ダウンロードがチェックサムと一致しなかったため、インストールしませんでした。</string>
     <string name="account_update_not_installed">アップデートはインストールされませんでした</string>
     <string name="account_update_version_alpha">Alpha %1$s</string>
-    <string name="account_update_version_dev">開発版 %1$s</string>
     <string name="account_update_version_release">CommaView %1$s</string>
     <string name="account_update_unavailable_here">現在ここではこのアップデートをダウンロードできません。後でもう一度お試しください。</string>
     <string name="account_update_download_gone">ダウンロードしたファイルがありません。「アップデート」をタップしてもう一度ダウンロードしてください。</string>
@@ -133,9 +132,7 @@
     <string name="account_update_offer_title">CommaView をアップデート</string>
     <string name="account_update_channel_alpha">アルファ</string>
     <string name="account_update_channel_beta">ベータ</string>
-    <string name="account_update_channel_dev">開発ビルド</string>
     <string name="account_update_alpha_note">テスター向けの早期ビルドです。ベータより問題が多い場合があります。</string>
-    <string name="account_update_dev_note">ステージングアカウントから入手する Car Test アプリの開発ビルドです。</string>
     <string name="account_update_size">ダウンロードサイズ：%1$s</string>
     <string name="account_update_installed_now">現在のバージョン：%1$s</string>
     <string name="account_update_offer_body">CommaView がバックグラウンドでダウンロードして確認し、そのあと Android がインストールの確認を求めます。</string>

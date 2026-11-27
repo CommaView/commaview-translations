@@ -764,4 +764,11 @@
     <string name="recordings_upload_doing_sending">%1$s の送信</string>
     <string name="recordings_upload_doing_finishing">完了処理</string>
     <string name="recordings_upload_doing_allowance">提供可能な量の確認</string>
+    <string name="recordings_quality_balanced">バランス</string>
+    <string name="recordings_quality_high">高</string>
+    <string name="recordings_quality_max">最高</string>
+    <string name="recordings_quality_balanced_detail">幅は最大 %1$d ピクセル。ファイルが最も小さく、最も速く作成されます。</string>
+    <string name="recordings_quality_high_detail">カメラのフル解像度。ほとんどのドライブにおすすめです。</string>
+    <string name="recordings_quality_max_detail">フル解像度で最も多くのディテールを残します。ファイルは最も大きくなります。</string>
+    <string name="recordings_replay_gap_hud">HUD のデータを取得できません</string>
 </resources>

@@ -16,7 +16,7 @@
     <string name="device_settings_about_update_detail">비공개 Alpha 업데이트가 있는지 CommaView 릴리스 매니페스트를 확인합니다.</string>
     <string name="device_settings_about_open_download">다운로드 열기</string>
     <string name="device_settings_about_credits">크레딧</string>
-    <string name="device_settings_back_to">%1$s(으)로 돌아가기</string>
+    <string name="device_settings_back_to">%1$s 화면으로 돌아가기</string>
     <string name="device_settings_place_saved_as_home">선택한 장소가 집으로 저장됩니다</string>
     <string name="device_settings_place_saved_as_work">선택한 장소가 직장으로 저장됩니다</string>
     <string name="device_settings_runtime_removed">런타임 제거됨</string>
@@ -48,7 +48,7 @@
     <string name="device_settings_edit_ip_title">comma IP 편집</string>
     <string name="device_settings_swap_addresses">주소 맞바꾸기</string>
     <string name="device_settings_ip_invalid">comma의 IP 주소를 입력하세요(예: 192.168.68.203).</string>
-    <string name="device_settings_ip_taken">%1$s의 주소가 %2$s(으)로 저장되어 있습니다. 주소를 맞바꾸거나 다른 주소를 입력하세요.</string>
+    <string name="device_settings_ip_taken">%1$s의 주소가 %2$s 주소로 저장되어 있습니다. 주소를 맞바꾸거나 다른 주소를 입력하세요.</string>
     <string name="device_settings_another_comma">저장된 다른 comma</string>
     <string name="device_settings_pair_another">다른 휴대폰이나 태블릿 페어링</string>
     <string name="device_settings_pair_another_detail">SSH 정보를 공유하지 않고 다른 컨트롤러가 연결할 수 있도록 단기 코드를 만듭니다.</string>
@@ -73,7 +73,7 @@
     <string name="device_settings_open_live_view_when_connected_detail">차량이 켜진 상태로 comma가 연결되면 자동으로 열립니다. 닫으면 다음 연결 때까지 닫혀 있습니다.</string>
     <string name="device_settings_live_view_status_bar">상태 표시줄 유지</string>
     <string name="device_settings_live_view_status_bar_detail">화면 전체를 쓰지 않고 Live View 위에 시스템 시계를 표시합니다.</string>
-    <string name="device_settings_offline_controls">페어링과 업데이트를 관리하려면 %1$s와(과) 같은 네트워크에 연결하세요.</string>
+    <string name="device_settings_offline_controls">페어링과 업데이트를 관리하려면 %1$s의 네트워크와 같은 네트워크에 연결하세요.</string>
     <string name="device_settings_offline_controls_unnamed">페어링과 업데이트를 관리하려면 comma와 같은 네트워크에 연결하세요.</string>
     <string name="device_settings_runtime_removed_controls">%1$s에서 CommaView가 제거되었습니다. 다시 설치하려면 안내 설정을 실행하세요.</string>
     <string name="device_settings_runtime_removed_controls_unnamed">comma에서 CommaView가 제거되었습니다. 다시 설치하려면 안내 설정을 실행하세요.</string>
@@ -113,7 +113,7 @@
     <string name="device_settings_driving_software">주행 소프트웨어</string>
     <string name="device_settings_safe_update_warning">차량이 주행 중이면 comma가 업데이트를 대기시킨 뒤 openpilot이 해제된 상태로 차량이 P단에 있으면 설치합니다. CommaView는 %1$s 실행을 멈추지 않으므로 주행이 중단되지 않습니다.</string>
     <string name="device_settings_update_completed">런타임 업데이트가 완료되었습니다.</string>
-    <string name="device_settings_updated_to">런타임이 %1$s(으)로 업데이트되었습니다.</string>
+    <string name="device_settings_updated_to">런타임이 %1$s 버전으로 업데이트되었습니다.</string>
     <string name="device_settings_update_refused_fork">comma가 %1$s 버전을 설치하지 않았습니다. CommaView 목록에 없는 %2$s 포크를 실행 중이므로 아무것도 바꾸지 않고 기존 런타임을 유지했습니다. %2$s 포크에 CommaView를 제한 지원으로 추가하려면 이 comma의 설정을 다시 실행하세요. 포크를 확인하고 먼저 물어봅니다.</string>
     <string name="device_settings_update_refused_fork_unversioned">comma가 업데이트를 설치하지 않았습니다. CommaView 목록에 없는 %1$s 포크를 실행 중이므로 아무것도 바꾸지 않고 기존 런타임을 유지했습니다. %1$s 포크에 CommaView를 제한 지원으로 추가하려면 이 comma의 설정을 다시 실행하세요. 포크를 확인하고 먼저 물어봅니다.</string>
     <string name="device_settings_update_still_running">comma가 아직 업데이트하는 중입니다. 진행 상황은 장치 설정에 표시됩니다.</string>
@@ -209,12 +209,12 @@
     <string name="device_settings_step_installing">설치 중</string>
     <string name="device_settings_step_restarting">CommaView 재시작 중</string>
     <string name="device_settings_step_reconnecting">다시 연결 중</string>
-    <string name="device_settings_step_updated_to">%1$s(으)로 업데이트됨</string>
+    <string name="device_settings_step_updated_to">%1$s 버전으로 업데이트됨</string>
     <string name="device_settings_step_updated">업데이트됨</string>
     <string name="device_settings_step_update_failed">업데이트 실패</string>
     <string name="device_settings_step_done">완료</string>
     <string name="device_settings_reboot_when">openpilot이 약 1분간 중지되므로 차를 끄거나 P단에 둔 상태에서 재시작하세요.</string>
-    <string name="device_settings_rolled_back_to">%1$s(으)로 되돌림</string>
+    <string name="device_settings_rolled_back_to">%1$s 버전으로 되돌림</string>
     <string name="device_settings_rolled_back">되돌림</string>
     <string name="device_settings_asking_update">comma에 업데이트 요청 중</string>
     <string name="device_settings_to_version">대상: %1$s.</string>
@@ -401,7 +401,7 @@
     <string name="device_settings_update_keep_using_background">다른 앱으로 전환하거나 %1$s를 잠가도 됩니다. 업데이트는 계속되며 알림에 진행 상황이 표시됩니다.</string>
     <string name="device_settings_maintenance_other_job">CommaView가 이미 런타임을 업데이트하거나 제거하는 중입니다. 끝난 뒤 다시 시도하세요.</string>
     <string name="device_settings_runtime_notification_channel">런타임 업데이트</string>
-    <string name="device_settings_runtime_notification_updating">comma의 런타임을 %1$s(으)로 업데이트하는 중</string>
+    <string name="device_settings_runtime_notification_updating">comma의 런타임을 %1$s 버전으로 업데이트하는 중</string>
     <string name="device_settings_runtime_notification_updating_generic">comma의 런타임을 업데이트하는 중</string>
     <string name="device_settings_runtime_notification_uninstalling">comma에서 CommaView를 제거하는 중</string>
     <string name="device_settings_runtime_notification_open">계속하려면 CommaView를 여세요.</string>
@@ -416,7 +416,7 @@
     <string name="device_settings_update_will_finish">취소하기에는 늦었습니다. comma가 지금 이 업데이트를 마칩니다.</string>
     <string name="device_settings_cancel_update_failed">업데이트가 취소되지 않았습니다. comma가 연결되어 있는지 확인한 뒤 다시 시도하세요.</string>
     <string name="device_settings_vehicle_picture_offline">사진을 바꾸려면 %1$s에 연결하세요.</string>
-    <string name="device_settings_vehicle_picture_interrupted">사진이 %1$s(으)로 끝까지 전송되지 않았습니다. 더 가까이 가거나 Wi-Fi를 확인한 뒤 다시 시도하세요.</string>
+    <string name="device_settings_vehicle_picture_interrupted">사진이 %1$s에 끝까지 전송되지 않았습니다. 더 가까이 가거나 Wi-Fi를 확인한 뒤 다시 시도하세요.</string>
     <string name="device_settings_vehicle_picture_runtime">사진을 바꾸려면 %1$s의 런타임을 업데이트하세요.</string>
     <string name="device_settings_vehicle_picture_comma_full">%1$s에 사진을 저장할 공간이 부족합니다. 오래된 주행 기록이 정리된 후 다시 시도하세요.</string>
     <string name="device_settings_vehicle_picture_comma_failed">%1$s에 사진을 저장하지 못했습니다. 다시 시도하세요.</string>

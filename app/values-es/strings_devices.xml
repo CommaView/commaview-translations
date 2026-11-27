@@ -433,4 +433,8 @@
     <string name="devices_support_name">Soporte de CommaView</string>
     <string name="devices_email_support">Escribir a soporte</string>
     <string name="devices_address_copied">Dirección copiada</string>
+    <string name="devices_software_video_only">Solo vídeo</string>
+    <string name="devices_software_unlisted_fork">Fork no listado</string>
+    <string name="devices_software_best_effort">sin garantías</string>
+    <string name="devices_software_video_only_qualifier">solo vídeo</string>
 </resources>

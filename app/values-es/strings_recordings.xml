@@ -799,4 +799,11 @@
     <string name="recordings_upload_doing_sending">enviando %1$s</string>
     <string name="recordings_upload_doing_finishing">terminando</string>
     <string name="recordings_upload_doing_allowance">preguntando qué puede contribuir</string>
+    <string name="recordings_quality_balanced">Equilibrada</string>
+    <string name="recordings_quality_high">Alta</string>
+    <string name="recordings_quality_max">Máxima</string>
+    <string name="recordings_quality_balanced_detail">Como máximo %1$d píxeles de ancho: los archivos más pequeños, hechos más rápido.</string>
+    <string name="recordings_quality_high_detail">La resolución completa de la cámara. Recomendada para la mayoría de los trayectos.</string>
+    <string name="recordings_quality_max_detail">Resolución completa con el máximo detalle, en los archivos más grandes.</string>
+    <string name="recordings_replay_gap_hud">Datos del HUD no disponibles</string>
 </resources>

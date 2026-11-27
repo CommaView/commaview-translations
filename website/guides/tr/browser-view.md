@@ -72,7 +72,7 @@ steps:
         text: "**Browser View görüntüsü**: 720p veya 1080p."
       - target: stop-button
         text: "**Durdur**, Browser View'u sonlandırır."
-    warn: "**Araçta internet yok mu?** Kısa bağlantının internete ihtiyacı var. Bunun yerine telefonun kendi adresini kullanın: [Araçta internet yok](#no-internet-in-the-car) bölümüne bakın."
+    warn: "**Araçta internet yok mu?** Kısa bağlantının internete ihtiyacı var. Bunun yerine telefonun kendi adresini kullanın: [Araçta internet yok](#araçta-internet-yok) bölümüne bakın."
   - id: bookmark
     title: "Sayfayı yer imlerine ekleyin"
     body: |
@@ -86,7 +86,7 @@ fixes:
   - q: "Kısa bağlantı VPN adresinin kapalı olduğunu söylüyor"
     a: "Kartta açın, ardından sayfayı yeniden yükleyin."
   - q: "Geçemediğiniz bir uyarı"
-    a: "Araç çevrimiçiyken kısa bağlantıyı veya temel görüntüyü kullanın ([Araçta internet yok](#no-internet-in-the-car))."
+    a: "Araç çevrimiçiyken kısa bağlantıyı veya temel görüntüyü kullanın ([Araçta internet yok](#araçta-internet-yok))."
   - q: "Görüntü D konumunda duruyor"
     a: "Bir aracın tarayıcısının sürüş sırasında çizmeye devam edip etmeyeceği araç üreticisine bağlıdır. Kartın rapor satırı aracın ne çizdiğini söyler (“0 fps · hidden”, aracın durdurduğu bir görüntüdür). Aracınızı ve yazılım sürümünü bize bildirin: sürmeden önce **Tanılamayı sakla (bu telefon)**'u açın, ardından Ayarlar'dan **Sorun bildirin veya fikir gönderin** ile gönderin."
 related: [car-screens, ai-box, go-live]

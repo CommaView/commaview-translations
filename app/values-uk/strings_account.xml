@@ -147,7 +147,6 @@
     <string name="account_update_checksum">Завантаження не збіглося з контрольною сумою, тому його не встановлено.</string>
     <string name="account_update_not_installed">Оновлення не встановлено</string>
     <string name="account_update_version_alpha">Alpha %1$s</string>
-    <string name="account_update_version_dev">Збірка для розробки %1$s</string>
     <string name="account_update_version_release">CommaView %1$s</string>
     <string name="account_update_unavailable_here">Це оновлення зараз не можна завантажити тут. Спробуйте пізніше.</string>
     <string name="account_update_download_gone">Завантаження зникло. Торкніться «Оновити», щоб завантажити його знову.</string>
@@ -155,9 +154,7 @@
     <string name="account_update_offer_title">Оновити CommaView</string>
     <string name="account_update_channel_alpha">Альфа</string>
     <string name="account_update_channel_beta">Бета</string>
-    <string name="account_update_channel_dev">Збірка для розробників</string>
     <string name="account_update_alpha_note">Рання збірка для тестувальників. У ній може бути більше проблем, ніж у беті.</string>
-    <string name="account_update_dev_note">Збірка застосунку Car Test для розробників із вашого staging-акаунта.</string>
     <string name="account_update_size">Розмір завантаження: %1$s</string>
     <string name="account_update_installed_now">Встановлено зараз: %1$s</string>
     <string name="account_update_offer_body">CommaView завантажить і перевірить її у фоні, а тоді Android попросить підтвердити встановлення.</string>

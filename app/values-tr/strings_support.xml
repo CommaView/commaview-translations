@@ -40,4 +40,6 @@
     <string name="support_status_waiting">Açık · CommaView bekleniyor</string>
     <string name="support_status_open">Açık</string>
     <string name="support_couldnt_open_site">my.commaview.com açılamadı</string>
+    <string name="support_share_bundle">Destek paketini paylaş</string>
+    <string name="support_share_bundle_failed">Destek paketi paylaşılamıyor</string>
 </resources>

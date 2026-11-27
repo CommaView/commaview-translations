@@ -38,7 +38,7 @@
     <string name="navigation_route_brief_sign_in">Neu anmelden</string>
     <string name="navigation_route_brief_not_on">Navigation aus</string>
     <string name="navigation_route_brief_needs_key">Routenschlüssel hinzufügen</string>
-    <string name="navigation_error_needs_key">Füge deinen eigenen Stadia-Maps-Schlüssel hinzu, um Routen zu erhalten: Einstellungen › Karten &amp; Navigation.</string>
+    <string name="navigation_error_needs_key">Fügen Sie Ihren eigenen Stadia-Maps-Schlüssel hinzu, um Routen zu erhalten: Einstellungen › Karten &amp; Navigation.</string>
     <string name="navigation_add_route_key">Schlüssel hinzufügen</string>
     <string name="navigation_route_brief_too_far">Zu weit entfernt</string>
     <string name="navigation_route_brief_unavailable_here">Hier nicht verfügbar</string>
@@ -236,14 +236,14 @@
     <string name="navigation_send_to_comma_sent">An Ihren comma gesendet. %1$s plant dort seine eigene Route.</string>
     <string name="navigation_send_to_comma_failed">Konnte nicht an Ihren comma gesendet werden: %1$s</string>
     <string name="navigation_send_to_comma_onroad">Halten Sie erst an: Ihr comma nimmt das nur offroad an.</string>
-    <string name="navigation_comma_unreachable">Dein comma ist nicht erreichbar, um ihm diese Fahrt zu senden. Verbinde dieses Telefon mit demselben Netzwerk wie dein comma und versuche es erneut.</string>
+    <string name="navigation_comma_unreachable">Ihr comma ist nicht erreichbar, um ihm diese Fahrt zu senden. Verbinden Sie dieses %1$s mit demselben Netzwerk wie Ihr comma und versuchen Sie es erneut.</string>
     <string name="navigation_send_trips_title">Jede Fahrt an dieses comma senden</string>
-    <string name="navigation_send_trips_detail">Wenn du auf Starten tippst, erhält auch %1$s das Ziel. Es wird gelöscht, wenn die Fahrt endet.</string>
-    <string name="navigation_send_trips_paused">Pausiert: Die Fahreinstellungen von %1$s haben sich geändert, seit du dies eingeschaltet hast. Schalte es erneut ein, um ihnen zuzustimmen.</string>
+    <string name="navigation_send_trips_detail">Wenn Sie auf Starten tippen, erhält auch %1$s das Ziel. Es wird gelöscht, wenn die Fahrt endet.</string>
+    <string name="navigation_send_trips_paused">Pausiert: Die Fahreinstellungen von %1$s haben sich geändert, seit Sie dies eingeschaltet haben. Schalten Sie es erneut ein, um ihnen zuzustimmen.</string>
     <string name="navigation_send_trips_confirm_title">Jede Fahrt an %1$s senden?</string>
     <string name="navigation_send_trips_confirm_intro">%1$s plant zu jedem Fahrtziel seine eigene Route und zeigt sie auf dem comma an. Mit seinen aktuellen Einstellungen wird es außerdem:</string>
     <string name="navigation_send_trips_confirm_shows">%1$s plant zu jedem Fahrtziel seine eigene Route und zeigt sie auf dem comma an. Mit seinen aktuellen Einstellungen ändert es nicht, wie das Auto fährt.</string>
-    <string name="navigation_send_trips_confirm_when">Jede Fahrt, die du mit diesem comma startest, wird beim Tippen auf Starten gesendet und am Ende gelöscht. Ändern sich seine Fahreinstellungen, pausiert das Senden, bis du erneut zustimmst. Du kannst dies hier jederzeit ausschalten.</string>
+    <string name="navigation_send_trips_confirm_when">Jede Fahrt, die Sie mit diesem comma starten, wird beim Tippen auf Starten gesendet und am Ende gelöscht. Ändern sich seine Fahreinstellungen, pausiert das Senden, bis Sie erneut zustimmen. Sie können dies hier jederzeit ausschalten.</string>
     <string name="navigation_send_trips_turn_on">Einschalten</string>
     <string name="navigation_send_to_comma_confirm_title">An %1$s auf Ihrem comma senden?</string>
     <string name="navigation_send_to_comma_confirm_intro">%1$s plant seine eigene Route zu diesem Ort und zeigt sie auf dem comma. Mit seinen aktuellen Einstellungen wird er außerdem:</string>
@@ -260,4 +260,31 @@
     <string name="navigation_comma_nav_turn_on_title">Navigation (Alpha) von openpilot einschalten?</string>
     <string name="navigation_comma_nav_turn_on_message">Die eigene Navigation von openpilot mit Routenkarte auf dem comma four. Sie ist eine Alpha, die openpilot in Release-Builds in seinen eigenen Einstellungen ausblendet. Schalten Sie sie in den Einstellungen Ihres comma in CommaView wieder aus.</string>
     <string name="navigation_comma_nav_turned_on">Die Navigation (Alpha) von openpilot ist an.</string>
+    <plurals name="navigation_spoken_in_feet">
+        <item quantity="one">In %1$d Fuß %2$s</item>
+        <item quantity="other">In %1$d Fuß %2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_metres">
+        <item quantity="one">In %1$d Meter %2$s</item>
+        <item quantity="other">In %1$d Metern %2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_miles">
+        <item quantity="one">In %1$d Meile %2$s</item>
+        <item quantity="other">In %1$d Meilen %2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_kilometres">
+        <item quantity="one">In %1$d Kilometer %2$s</item>
+        <item quantity="other">In %1$d Kilometern %2$s</item>
+    </plurals>
+    <string name="navigation_spoken_in_miles_decimal">In %1$s Meilen %2$s</string>
+    <string name="navigation_spoken_in_kilometres_decimal">In %1$s Kilometern %2$s</string>
+    <string name="navigation_spoken_in_quarter_mile">In einer Viertelmeile %1$s</string>
+    <string name="navigation_spoken_in_half_mile">In einer halben Meile %1$s</string>
+    <string name="navigation_spoken_in_three_quarters_mile">In einer Dreiviertelmeile %1$s</string>
+    <string name="navigation_preview_sample_exit">Nehmen Sie die Ausfahrt Richtung %1$s</string>
+    <string name="navigation_preview_sample_then">halten Sie sich links Richtung %1$s</string>
+    <string name="navigation_voice_before_place">navigiere zu|navigiere zum|navigiere zur|navigiere nach|navigiere ins|navigation zu|navigation zum|navigation zur|navigation nach|bring mich zu|bring mich zum|bring mich zur|bring mich nach|bring mich ins|bringe mich zu|bringe mich zum|bringe mich zur|bringe mich nach|fahre zu|fahre zum|fahre zur|fahre nach|fahre ins|fahr zu|fahr zum|fahr zur|fahr nach|fahr ins|route zu|route zum|route zur|route nach|zum|zur|nach|ins</string>
+    <string name="navigation_voice_after_place">bitte|jetzt</string>
+    <string name="navigation_voice_home_words">hause|nach hause|zu hause|zuhause|heim|daheim</string>
+    <string name="navigation_voice_work_words">arbeit|die arbeit|zur arbeit|büro|das büro|ins büro|firma|in die firma</string>
 </resources>

@@ -39,4 +39,6 @@
     <string name="support_status_waiting">対応中 · CommaView の対応待ち</string>
     <string name="support_status_open">対応中</string>
     <string name="support_couldnt_open_site">my.commaview.com を開けませんでした</string>
+    <string name="support_share_bundle">サポートバンドルを共有</string>
+    <string name="support_share_bundle_failed">サポートバンドルを共有できません</string>
 </resources>

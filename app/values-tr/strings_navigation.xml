@@ -237,7 +237,7 @@
     <string name="navigation_send_to_comma_sent">comma\'nıza gönderildi. %1$s orada kendi rotasını planlar.</string>
     <string name="navigation_send_to_comma_failed">comma\'nıza gönderilemedi: %1$s</string>
     <string name="navigation_send_to_comma_onroad">Önce durun: comma\'nız bunu yalnızca offroad iken kabul eder.</string>
-    <string name="navigation_comma_unreachable">Bu yolculuğu göndermek için comma\'nıza ulaşılamıyor. Bu telefonu comma\'nızla aynı ağa bağlayın ve yeniden deneyin.</string>
+    <string name="navigation_comma_unreachable">Bu yolculuğu göndermek için comma\'nıza ulaşılamıyor. Yeniden denemek için %1$s ile comma\'nızı aynı ağa bağlayın.</string>
     <string name="navigation_send_trips_title">Her yolculuğu bu comma\'ya gönder</string>
     <string name="navigation_send_trips_detail">Başlat\'a dokunduğunuzda hedef %1$s\'a da gider. Yolculuk bitince silinir.</string>
     <string name="navigation_send_trips_paused">Duraklatıldı: Bunu açtığınızdan beri %1$s\'ın sürüş ayarları değişti. Onaylamak için yeniden açın.</string>
@@ -261,4 +261,31 @@
     <string name="navigation_comma_nav_turn_on_title">openpilot\'un navigasyonu (alfa) açılsın mı?</string>
     <string name="navigation_comma_nav_turn_on_message">openpilot\'un kendi adım adım navigasyonu, comma four\'da rota haritasıyla. Bu bir alfa; openpilot release sürümlerinde kendi ayarlarında gizler. CommaView\'daki comma ayarlarınızdan yeniden kapatabilirsiniz.</string>
     <string name="navigation_comma_nav_turned_on">openpilot\'un navigasyonu (alfa) açık.</string>
+    <plurals name="navigation_spoken_in_feet">
+        <item quantity="one">%1$d fit sonra %2$s</item>
+        <item quantity="other">%1$d fit sonra %2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_metres">
+        <item quantity="one">%1$d metre sonra %2$s</item>
+        <item quantity="other">%1$d metre sonra %2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_miles">
+        <item quantity="one">%1$d mil sonra %2$s</item>
+        <item quantity="other">%1$d mil sonra %2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_kilometres">
+        <item quantity="one">%1$d kilometre sonra %2$s</item>
+        <item quantity="other">%1$d kilometre sonra %2$s</item>
+    </plurals>
+    <string name="navigation_spoken_in_miles_decimal">%1$s mil sonra %2$s</string>
+    <string name="navigation_spoken_in_kilometres_decimal">%1$s kilometre sonra %2$s</string>
+    <string name="navigation_spoken_in_quarter_mile">Çeyrek mil sonra %1$s</string>
+    <string name="navigation_spoken_in_half_mile">Yarım mil sonra %1$s</string>
+    <string name="navigation_spoken_in_three_quarters_mile">Dörtte üç mil sonra %1$s</string>
+    <string name="navigation_preview_sample_exit">%1$s yönündeki çıkışı kullanın</string>
+    <string name="navigation_preview_sample_then">%1$s yönünde soldan devam edin</string>
+    <string name="navigation_voice_before_place">yol tarifi|navigasyon|rota</string>
+    <string name="navigation_voice_after_place">\'ye götür|\'ya götür|\'e götür|\'a götür|\'ye git|\'ya git|\'e git|\'a git|\'ye gidelim|\'ya gidelim|\'e gidelim|\'a gidelim|\'ye yol tarifi|\'ya yol tarifi|\'e yol tarifi|\'a yol tarifi|götür lütfen|git lütfen|götür|gidelim|git|yol tarifi|lütfen</string>
+    <string name="navigation_voice_home_words">ev|eve|evim|evime</string>
+    <string name="navigation_voice_work_words">iş|işe|ofis|ofise|işyeri|işyerine|iş yeri|iş yerine</string>
 </resources>

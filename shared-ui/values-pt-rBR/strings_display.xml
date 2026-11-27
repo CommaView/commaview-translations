@@ -33,7 +33,7 @@
     <string name="display_reduce_motion_detail">Mantém parados o caminho, a velocidade e a mira do CommaView. Remover animações do Android faz o mesmo.</string>
     <string name="display_design_no_options">A tela do %1$s não tem opções próprias: é desenhada como o comma a desenha.</string>
     <string name="display_on_every_screen">Em todas as telas</string>
-    <string name="display_opening_live_view">Abrindo o Live View</string>
+    <string name="display_opening_live_view">Ao abrir o Live View</string>
     <string name="display_preview">Prévia</string>
     <string name="display_preview_engaged">Ativado</string>
     <string name="display_preview_override">Intervenção</string>
@@ -50,4 +50,5 @@
     <string name="display_hud_preview_engaged">Prévia da tela %1$s, ativado</string>
     <string name="display_hud_preview_override">Prévia da tela %1$s, intervenção</string>
     <string name="display_hud_preview_not_engaged">Prévia da tela %1$s, não ativado</string>
+    <string name="display_design_screen_description">Tela de %1$s</string>
 </resources>

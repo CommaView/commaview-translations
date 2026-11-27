@@ -38,7 +38,7 @@
     <string name="navigation_route_brief_sign_in">Reconnectez-vous</string>
     <string name="navigation_route_brief_not_on">Navigation désactivée</string>
     <string name="navigation_route_brief_needs_key">Ajoutez une clé d’itinéraires</string>
-    <string name="navigation_error_needs_key">Ajoutez votre propre clé Stadia Maps pour obtenir des itinéraires : Réglages › Cartes et navigation.</string>
+    <string name="navigation_error_needs_key">Ajoutez votre propre clé Stadia Maps pour obtenir des itinéraires : Paramètres › Cartes et navigation.</string>
     <string name="navigation_add_route_key">Ajouter votre clé</string>
     <string name="navigation_route_brief_too_far">Trop loin</string>
     <string name="navigation_route_brief_unavailable_here">Indisponible ici</string>
@@ -236,7 +236,7 @@
     <string name="navigation_send_to_comma_sent">Envoyé à votre comma. %1$s y planifie son propre itinéraire.</string>
     <string name="navigation_send_to_comma_failed">Impossible de l’envoyer à votre comma : %1$s</string>
     <string name="navigation_send_to_comma_onroad">Arrêtez-vous d’abord : votre comma ne l’accepte qu’hors route.</string>
-    <string name="navigation_comma_unreachable">Impossible de joindre votre comma pour lui envoyer ce trajet. Connectez ce téléphone au même réseau que votre comma, puis réessayez.</string>
+    <string name="navigation_comma_unreachable">Impossible de joindre votre comma pour lui envoyer ce trajet. Connectez %1$s au même réseau que votre comma, puis réessayez.</string>
     <string name="navigation_send_trips_title">Envoyer chaque trajet à ce comma</string>
     <string name="navigation_send_trips_detail">Quand vous touchez Démarrer, %1$s reçoit aussi la destination. Elle est effacée à la fin du trajet.</string>
     <string name="navigation_send_trips_paused">En pause : les réglages de conduite de %1$s ont changé depuis que vous avez activé ceci. Réactivez-le pour les accepter.</string>
@@ -260,4 +260,35 @@
     <string name="navigation_comma_nav_turn_on_title">Activer la navigation (alpha) d’openpilot ?</string>
     <string name="navigation_comma_nav_turn_on_message">La navigation pas à pas d’openpilot, avec une carte de l’itinéraire sur le comma four. C’est une alpha, qu’openpilot masque dans ses propres réglages sur les versions release. Désactivez-la dans les réglages de votre comma dans CommaView.</string>
     <string name="navigation_comma_nav_turned_on">La navigation (alpha) d’openpilot est activée.</string>
+    <plurals name="navigation_spoken_in_feet">
+        <item quantity="one">Dans %1$d pied, %2$s</item>
+        <item quantity="many">Dans %1$d de pieds, %2$s</item>
+        <item quantity="other">Dans %1$d pieds, %2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_metres">
+        <item quantity="one">Dans %1$d mètre, %2$s</item>
+        <item quantity="many">Dans %1$d de mètres, %2$s</item>
+        <item quantity="other">Dans %1$d mètres, %2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_miles">
+        <item quantity="one">Dans %1$d mile, %2$s</item>
+        <item quantity="many">Dans %1$d de miles, %2$s</item>
+        <item quantity="other">Dans %1$d miles, %2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_kilometres">
+        <item quantity="one">Dans %1$d kilomètre, %2$s</item>
+        <item quantity="many">Dans %1$d de kilomètres, %2$s</item>
+        <item quantity="other">Dans %1$d kilomètres, %2$s</item>
+    </plurals>
+    <string name="navigation_spoken_in_miles_decimal">Dans %1$s miles, %2$s</string>
+    <string name="navigation_spoken_in_kilometres_decimal">Dans %1$s kilomètres, %2$s</string>
+    <string name="navigation_spoken_in_quarter_mile">Dans un quart de mile, %1$s</string>
+    <string name="navigation_spoken_in_half_mile">Dans un demi-mile, %1$s</string>
+    <string name="navigation_spoken_in_three_quarters_mile">Dans trois quarts de mile, %1$s</string>
+    <string name="navigation_preview_sample_exit">Prenez la sortie vers %1$s</string>
+    <string name="navigation_preview_sample_then">restez à gauche vers %1$s</string>
+    <string name="navigation_voice_before_place">navigue vers|naviguer vers|navigation vers|emmène-moi à|emmène-moi au|emmène moi à|emmène moi au|emmenez-moi à|emmenez-moi au|itinéraire vers|itinéraire pour|aller à|aller au|va à|va au|allons à|allons au</string>
+    <string name="navigation_voice_after_place">s\'il te plaît|s\'il vous plaît|maintenant</string>
+    <string name="navigation_voice_home_words">maison|la maison|à la maison|chez moi|domicile</string>
+    <string name="navigation_voice_work_words">travail|le travail|au travail|bureau|le bureau|au bureau</string>
 </resources>

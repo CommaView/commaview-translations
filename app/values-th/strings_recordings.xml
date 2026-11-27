@@ -754,10 +754,10 @@
     <string name="recordings_upload_comma_file_failed">comma ส่ง %1$s ของการขับขี่นี้ไม่ได้</string>
 
     <!-- The part of a recording the comma couldn't provide, in recordings_replay_error_http (ReplayWords.kt). -->
-    <string name="recordings_replay_part_manifest">manifest</string>
-    <string name="recordings_replay_part_recipe">recipe</string>
-    <string name="recordings_replay_part_gaps">gaps</string>
-    <string name="recordings_replay_part_archive">archive</string>
+    <string name="recordings_replay_part_manifest">รายการไฟล์</string>
+    <string name="recordings_replay_part_recipe">สูตรการสร้าง</string>
+    <string name="recordings_replay_part_gaps">รายการช่วงที่ขาดหาย</string>
+    <string name="recordings_replay_part_archive">ไฟล์เก็บถาวร</string>
 
     <!-- What my.commaview.com refused while a recording was sent (RecordingUploadApi.kt). -->
     <string name="recordings_upload_refused">my.commaview.com ปฏิเสธ %1$s (%2$s)</string>
@@ -765,4 +765,11 @@
     <string name="recordings_upload_doing_sending">การส่ง %1$s</string>
     <string name="recordings_upload_doing_finishing">การจบ</string>
     <string name="recordings_upload_doing_allowance">การถามว่าร่วมส่งอะไรได้บ้าง</string>
+    <string name="recordings_quality_balanced">สมดุล</string>
+    <string name="recordings_quality_high">สูง</string>
+    <string name="recordings_quality_max">สูงสุด</string>
+    <string name="recordings_quality_balanced_detail">กว้างไม่เกิน %1$d พิกเซล: ไฟล์เล็กที่สุด สร้างได้เร็วที่สุด</string>
+    <string name="recordings_quality_high_detail">ความละเอียดเต็มของกล้อง แนะนำสำหรับการขับขี่ส่วนใหญ่</string>
+    <string name="recordings_quality_max_detail">ความละเอียดเต็มพร้อมรายละเอียดมากที่สุด ในไฟล์ที่ใหญ่ที่สุด</string>
+    <string name="recordings_replay_gap_hud">ไม่มีข้อมูล HUD</string>
 </resources>

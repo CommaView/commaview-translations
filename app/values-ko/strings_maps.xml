@@ -221,4 +221,6 @@
     <string name="maps_problem_failed_unknown">다운로드 또는 확인에 실패했습니다. 다시 시작하면 재시도합니다.</string>
     <string name="maps_problem_failed_group_unknown">지도 그룹 %1$d/%2$d: 다운로드 또는 확인에 실패했습니다. 다시 시작하면 재시도합니다.</string>
 
+    <string name="maps_spoken_guidance_in_english">경로 서비스가 이 언어의 길 안내를 제공하지 않아 회전 안내는 영어로 제공됩니다.</string>
+    <string name="maps_spoken_guidance_no_voice">%1$s에는 %2$s 텍스트 음성 변환 음성이 없어 안내를 영어 음성으로 읽습니다. Android의 텍스트 음성 변환 설정에서 추가하세요.</string>
 </resources>

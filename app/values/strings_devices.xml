@@ -458,4 +458,10 @@
     <string name="devices_support_name">CommaView support</string>
     <string name="devices_email_support">Email support</string>
     <string name="devices_address_copied">Address copied</string>
+    <!-- The driving software as Devices, Live View's details and Device settings name it, where it isn't a fork's own name: a fork installed video only, and one CommaView doesn't list. -->
+    <string name="devices_software_video_only">Video only</string>
+    <string name="devices_software_unlisted_fork">Unlisted fork</string>
+    <!-- After an unverified fork's repository: "BluePilotDev/bluepilot · best effort", "FrogAi/FrogPilot · video only". Lower case where the language has it. -->
+    <string name="devices_software_best_effort">best effort</string>
+    <string name="devices_software_video_only_qualifier">video only</string>
 </resources>

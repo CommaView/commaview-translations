@@ -443,4 +443,8 @@
     <string name="devices_support_name">Підтримка CommaView</string>
     <string name="devices_email_support">Написати в підтримку</string>
     <string name="devices_address_copied">Адресу скопійовано</string>
+    <string name="devices_software_video_only">Лише відео</string>
+    <string name="devices_software_unlisted_fork">Форк поза списком</string>
+    <string name="devices_software_best_effort">без гарантій</string>
+    <string name="devices_software_video_only_qualifier">лише відео</string>
 </resources>

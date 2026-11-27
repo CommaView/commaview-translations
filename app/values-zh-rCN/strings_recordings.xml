@@ -765,4 +765,11 @@
     <string name="recordings_upload_doing_sending">发送 %1$s</string>
     <string name="recordings_upload_doing_finishing">完成发送</string>
     <string name="recordings_upload_doing_allowance">询问可贡献的内容</string>
+    <string name="recordings_quality_balanced">均衡</string>
+    <string name="recordings_quality_high">高</string>
+    <string name="recordings_quality_max">最高</string>
+    <string name="recordings_quality_balanced_detail">宽度最多 %1$d 像素：文件最小，生成最快。</string>
+    <string name="recordings_quality_high_detail">相机的完整分辨率。推荐用于大多数行程。</string>
+    <string name="recordings_quality_max_detail">完整分辨率，保留最多细节，文件最大。</string>
+    <string name="recordings_replay_gap_hud">无法获取 HUD 数据</string>
 </resources>

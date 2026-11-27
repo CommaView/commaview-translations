@@ -126,7 +126,6 @@
     <string name="account_update_checksum">ไฟล์ดาวน์โหลดไม่ตรงกับ checksum จึงไม่ได้ติดตั้ง</string>
     <string name="account_update_not_installed">ไม่ได้ติดตั้งอัปเดต</string>
     <string name="account_update_version_alpha">Alpha %1$s</string>
-    <string name="account_update_version_dev">รุ่นพัฒนา %1$s</string>
     <string name="account_update_version_release">CommaView %1$s</string>
     <string name="account_update_unavailable_here">ไม่สามารถดาวน์โหลดอัปเดตนี้ที่นี่ได้ในขณะนี้ ลองอีกครั้งในภายหลัง</string>
     <string name="account_update_download_gone">ไฟล์ดาวน์โหลดหายไป แตะ “อัปเดต” เพื่อดาวน์โหลดอีกครั้ง</string>
@@ -134,9 +133,7 @@
     <string name="account_update_offer_title">อัปเดต CommaView</string>
     <string name="account_update_channel_alpha">อัลฟา</string>
     <string name="account_update_channel_beta">เบตา</string>
-    <string name="account_update_channel_dev">บิลด์สำหรับนักพัฒนา</string>
     <string name="account_update_alpha_note">บิลด์รุ่นแรกสำหรับผู้ทดสอบ อาจมีปัญหามากกว่าเบตา</string>
-    <string name="account_update_dev_note">บิลด์สำหรับนักพัฒนาของแอป Car Test จากบัญชีสเตจจิงของคุณ</string>
     <string name="account_update_size">ขนาดดาวน์โหลด: %1$s</string>
     <string name="account_update_installed_now">เวอร์ชันที่ติดตั้งอยู่: %1$s</string>
     <string name="account_update_offer_body">CommaView จะดาวน์โหลดและตรวจสอบในเบื้องหลัง จากนั้น Android จะขอให้คุณยืนยันการติดตั้ง</string>

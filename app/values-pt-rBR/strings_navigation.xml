@@ -188,7 +188,7 @@
     <string name="navigation_send_to_comma_sent">Enviado ao seu comma. O %1$s planeja a própria rota lá.</string>
     <string name="navigation_send_to_comma_failed">Não foi possível enviar ao seu comma: %1$s</string>
     <string name="navigation_send_to_comma_onroad">Pare primeiro: seu comma só aceita isso quando está offroad.</string>
-    <string name="navigation_comma_unreachable">Não foi possível alcançar seu comma para enviar esta viagem. Conecte este telefone à mesma rede do seu comma e tente de novo.</string>
+    <string name="navigation_comma_unreachable">Não foi possível alcançar seu comma para enviar esta viagem. Conecte %1$s à mesma rede do seu comma e tente de novo.</string>
     <string name="navigation_send_trips_title">Enviar cada viagem a este comma</string>
     <string name="navigation_send_trips_detail">Ao tocar em Iniciar, o %1$s também recebe o destino. Ele é apagado quando a viagem termina.</string>
     <string name="navigation_send_trips_paused">Pausado: as configurações de condução do %1$s mudaram desde que você ativou isto. Ative de novo para concordar com elas.</string>
@@ -212,4 +212,35 @@
     <string name="navigation_comma_nav_turn_on_title">Ligar a navegação (alfa) do openpilot?</string>
     <string name="navigation_comma_nav_turn_on_message">A navegação curva a curva do próprio openpilot, com mapa da rota no comma four. É uma alfa, que o openpilot esconde nas próprias configurações nas versões release. Desligue-a de novo nas configurações do seu comma no CommaView.</string>
     <string name="navigation_comma_nav_turned_on">A navegação (alfa) do openpilot está ligada.</string>
+    <plurals name="navigation_spoken_in_feet">
+        <item quantity="one">Em %1$d pé, %2$s</item>
+        <item quantity="many">Em %1$d de pés, %2$s</item>
+        <item quantity="other">Em %1$d pés, %2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_metres">
+        <item quantity="one">Em %1$d metro, %2$s</item>
+        <item quantity="many">Em %1$d de metros, %2$s</item>
+        <item quantity="other">Em %1$d metros, %2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_miles">
+        <item quantity="one">Em %1$d milha, %2$s</item>
+        <item quantity="many">Em %1$d de milhas, %2$s</item>
+        <item quantity="other">Em %1$d milhas, %2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_kilometres">
+        <item quantity="one">Em %1$d quilômetro, %2$s</item>
+        <item quantity="many">Em %1$d de quilômetros, %2$s</item>
+        <item quantity="other">Em %1$d quilômetros, %2$s</item>
+    </plurals>
+    <string name="navigation_spoken_in_miles_decimal">Em %1$s milhas, %2$s</string>
+    <string name="navigation_spoken_in_kilometres_decimal">Em %1$s quilômetros, %2$s</string>
+    <string name="navigation_spoken_in_quarter_mile">Em um quarto de milha, %1$s</string>
+    <string name="navigation_spoken_in_half_mile">Em meia milha, %1$s</string>
+    <string name="navigation_spoken_in_three_quarters_mile">Em três quartos de milha, %1$s</string>
+    <string name="navigation_preview_sample_exit">Pegue a saída em direção a %1$s</string>
+    <string name="navigation_preview_sample_then">mantenha-se à esquerda em direção a %1$s</string>
+    <string name="navigation_voice_before_place">navegar para|navegar até|navegue para|navegue até|me leve para|me leve até|me leva para|me leva pra|me leva até|leve-me para|leve-me até|rota para|rota até|ir para|ir pra|ir até|vamos para|vamos pra</string>
+    <string name="navigation_voice_after_place">por favor|agora</string>
+    <string name="navigation_voice_home_words">casa|minha casa|para casa|pra casa</string>
+    <string name="navigation_voice_work_words">trabalho|o trabalho|para o trabalho|pro trabalho|escritório|o escritório</string>
 </resources>

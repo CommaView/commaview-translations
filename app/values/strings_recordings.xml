@@ -720,6 +720,14 @@
     <string name="recordings_settings_save_each_stream">Save each live stream</string>
     <string name="recordings_settings_storage">Storage</string>
     <string name="recordings_settings_replay_quality">Replay quality</string>
+    <!-- Replay quality's choices (Settings › Recordings › Replay), each with what it makes under it. -->
+    <string name="recordings_quality_balanced">Balanced</string>
+    <string name="recordings_quality_high">High</string>
+    <string name="recordings_quality_max">Max</string>
+    <!-- %1$d: the widest a Balanced replay is, in pixels (1280). -->
+    <string name="recordings_quality_balanced_detail">At most %1$d pixels wide: the smallest files, made fastest.</string>
+    <string name="recordings_quality_high_detail">The camera\'s full resolution. Recommended for most drives.</string>
+    <string name="recordings_quality_max_detail">Full resolution with the most detail kept, in the largest files.</string>
     <string name="recordings_settings_quality_note">Higher quality takes longer to make and makes larger files.</string>
     <string name="recordings_settings_live_copy_quality">Live copy quality</string>
     <string name="recordings_settings_where">Where recordings go</string>
@@ -793,4 +801,6 @@
     <string name="recordings_upload_doing_sending">sending %1$s</string>
     <string name="recordings_upload_doing_finishing">finishing</string>
     <string name="recordings_upload_doing_allowance">asking what it may contribute</string>
+    <!-- Burned into a replay in a fork's look where the comma saved no HUD data. -->
+    <string name="recordings_replay_gap_hud">HUD data unavailable</string>
 </resources>

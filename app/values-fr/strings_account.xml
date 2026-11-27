@@ -140,7 +140,6 @@
     <string name="account_update_checksum">Le téléchargement ne correspondait pas à sa somme de contrôle, il n\'a donc pas été installé.</string>
     <string name="account_update_not_installed">La mise à jour n\'a pas été installée</string>
     <string name="account_update_version_alpha">Alpha %1$s</string>
-    <string name="account_update_version_dev">Version dev %1$s</string>
     <string name="account_update_version_release">CommaView %1$s</string>
     <string name="account_update_unavailable_here">Cette mise à jour ne peut pas être téléchargée ici pour le moment. Réessayez plus tard.</string>
     <string name="account_update_download_gone">Le téléchargement a disparu. Touchez Mettre à jour pour le télécharger à nouveau.</string>
@@ -148,9 +147,7 @@
     <string name="account_update_offer_title">Mettre à jour CommaView</string>
     <string name="account_update_channel_alpha">Alpha</string>
     <string name="account_update_channel_beta">Bêta</string>
-    <string name="account_update_channel_dev">Build dev</string>
     <string name="account_update_alpha_note">Une version précoce pour les testeurs. Elle peut avoir plus de problèmes que la bêta.</string>
-    <string name="account_update_dev_note">Un build dev de l\'app Car Test, depuis votre compte de staging.</string>
     <string name="account_update_size">Taille du téléchargement : %1$s</string>
     <string name="account_update_installed_now">Installée : %1$s</string>
     <string name="account_update_offer_body">CommaView la télécharge en arrière-plan et la vérifie, puis Android vous demande de confirmer l\'installation.</string>

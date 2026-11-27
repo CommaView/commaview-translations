@@ -236,7 +236,7 @@
     <string name="navigation_send_to_comma_sent">ส่งไป comma แล้ว %1$s จะวางเส้นทางของตัวเองที่นั่น</string>
     <string name="navigation_send_to_comma_failed">ส่งไป comma ไม่ได้: %1$s</string>
     <string name="navigation_send_to_comma_onroad">จอดก่อน: comma รับสิ่งนี้เฉพาะตอนออฟโรด</string>
-    <string name="navigation_comma_unreachable">ติดต่อ comma ของคุณเพื่อส่งการเดินทางนี้ไม่ได้ เชื่อมต่อโทรศัพท์นี้กับเครือข่ายเดียวกับ comma แล้วลองอีกครั้ง</string>
+    <string name="navigation_comma_unreachable">ติดต่อ comma ของคุณเพื่อส่งการเดินทางนี้ไม่ได้ เชื่อมต่อ%1$sกับเครือข่ายเดียวกับ comma แล้วลองอีกครั้ง</string>
     <string name="navigation_send_trips_title">ส่งทุกการเดินทางไปยัง comma นี้</string>
     <string name="navigation_send_trips_detail">เมื่อคุณแตะเริ่ม %1$s จะได้รับจุดหมายด้วย และจะถูกล้างเมื่อการเดินทางสิ้นสุด</string>
     <string name="navigation_send_trips_paused">หยุดชั่วคราว: การตั้งค่าการขับขี่ของ %1$s เปลี่ยนไปตั้งแต่คุณเปิดใช้ เปิดอีกครั้งเพื่อยอมรับการตั้งค่าเหล่านั้น</string>
@@ -260,4 +260,27 @@
     <string name="navigation_comma_nav_turn_on_title">เปิดการนำทาง (อัลฟา) ของ openpilot ไหม</string>
     <string name="navigation_comma_nav_turn_on_message">การนำทางทีละจุดเลี้ยวของ openpilot เอง พร้อมแผนที่เส้นทางบน comma four เป็นรุ่นอัลฟาที่ openpilot ซ่อนไว้ในการตั้งค่าของรุ่น release ปิดได้อีกครั้งในการตั้งค่า comma ใน CommaView</string>
     <string name="navigation_comma_nav_turned_on">เปิดการนำทาง (อัลฟา) ของ openpilot แล้ว</string>
+    <plurals name="navigation_spoken_in_feet">
+        <item quantity="other">อีก %1$d ฟุต %2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_metres">
+        <item quantity="other">อีก %1$d เมตร %2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_miles">
+        <item quantity="other">อีก %1$d ไมล์ %2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_kilometres">
+        <item quantity="other">อีก %1$d กิโลเมตร %2$s</item>
+    </plurals>
+    <string name="navigation_spoken_in_miles_decimal">อีก %1$s ไมล์ %2$s</string>
+    <string name="navigation_spoken_in_kilometres_decimal">อีก %1$s กิโลเมตร %2$s</string>
+    <string name="navigation_spoken_in_quarter_mile">อีกหนึ่งในสี่ไมล์ %1$s</string>
+    <string name="navigation_spoken_in_half_mile">อีกครึ่งไมล์ %1$s</string>
+    <string name="navigation_spoken_in_three_quarters_mile">อีกสามในสี่ไมล์ %1$s</string>
+    <string name="navigation_preview_sample_exit">ใช้ทางออกไปทาง %1$s</string>
+    <string name="navigation_preview_sample_then">ชิดซ้ายไปทาง %1$s</string>
+    <string name="navigation_voice_before_place">นำทางไปที่|นำทางไป|พาไปที่|พาไป|ขับไปที่|ขับไป|เส้นทางไปที่|เส้นทางไป|ไปที่|ไป</string>
+    <string name="navigation_voice_after_place">หน่อยครับ|หน่อยค่ะ|หน่อย|ครับ|ค่ะ|ด้วย</string>
+    <string name="navigation_voice_home_words">บ้าน|ที่บ้าน|กลับบ้าน</string>
+    <string name="navigation_voice_work_words">ที่ทำงาน|ทำงาน|ออฟฟิศ|บริษัท</string>
 </resources>

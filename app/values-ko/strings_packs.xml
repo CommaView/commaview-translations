@@ -14,7 +14,7 @@
     <string name="packs_fork_only_on">%1$s에서만 실행됩니다.</string>
     <string name="packs_named_comma_runs">%1$s 실행 포크: %2$s</string>
     <string name="packs_your_comma_runs">comma 실행 포크: %1$s</string>
-    <string name="packs_no_match">“%1$s”와(과) 일치하는 팩이 없습니다</string>
+    <string name="packs_no_match">“%1$s” 검색 결과 없음</string>
     <string name="packs_none_for_commas">아직 내 comma용 팩이 없습니다</string>
     <string name="packs_none_official">아직 공식 팩이 없습니다</string>
     <string name="packs_none_community">아직 커뮤니티 팩이 없습니다</string>
@@ -59,8 +59,8 @@
     <string name="packs_install_full">설치하지 못했습니다. %2$s에는 팩을 최대 %1$d개까지 둘 수 있습니다. 먼저 하나를 삭제하세요.</string>
     <string name="packs_install_not_saved">설치하지 못했습니다. %1$s의 저장 공간에 저장되지 않았습니다. 공간을 확보하고 다시 시도하세요.</string>
     <string name="packs_newer_version">(최신 버전)</string>
-    <string name="packs_older_here">%1$s 버전이 설치되어 있습니다. 이전 버전 %2$s을(를) 설치하려면 먼저 삭제하세요.</string>
-    <string name="packs_older_on_comma">%1$s: %2$s 버전이 설치되어 있습니다. 이전 버전 %3$s을(를) 설치하려면 먼저 %1$s에서 삭제하세요.</string>
+    <string name="packs_older_here">%1$s 버전이 설치되어 있습니다. 이전 버전인 %2$s 버전을 설치하려면 먼저 삭제하세요.</string>
+    <string name="packs_older_on_comma">%1$s: %2$s 버전이 설치되어 있습니다. 이전 버전인 %3$s 버전을 설치하려면 먼저 %1$s에서 삭제하세요.</string>
     <string name="packs_unreadable_older">이전 CommaView용으로 만들어져 그리지 않습니다. 삭제한 다음 스토어에 있으면 다시 설치하세요.</string>
     <string name="packs_unreadable_newer">최신 CommaView가 필요해 그리지 않습니다. 앱을 업데이트하거나 삭제하세요.</string>
     <string name="packs_unreadable_files">파일을 읽을 수 없어 그리지 않습니다. 삭제한 다음 다시 설치하세요.</string>
@@ -110,7 +110,7 @@
     <string name="packs_pill_unreviewed">검토 전</string>
     <string name="packs_could_not_send">보내지 못했습니다: %1$s</string>
     <string name="packs_only_reviewed">이 comma는 CommaView가 검토한 팩만 받습니다. 실행하려면 %1$s.</string>
-    <string name="packs_comma_has_newer">%1$s 버전이 있습니다. 이전 버전 %3$s을(를) 설치하려면 먼저 %2$s에서 삭제하세요.</string>
+    <string name="packs_comma_has_newer">%1$s 버전이 있습니다. 이전 버전인 %3$s 버전을 설치하려면 먼저 %2$s에서 삭제하세요.</string>
     <string name="packs_key_refused_named">이 comma가 더 이상 받아들이지 않는 키로 서명됨(%1$s). 검토 전 팩을 허용하는 동안에만 실행됩니다</string>
     <string name="packs_key_refused">이 comma가 더 이상 받아들이지 않는 키로 서명됨. 검토 전 팩을 허용하는 동안에만 실행됩니다</string>
     <string name="packs_running">실행 중</string>
@@ -169,7 +169,7 @@
     <string name="packs_details_from_catalog">이 팩의 세부 정보는 CommaView 카탈로그에서 가져옵니다.</string>
     <string name="packs_details_catalog_closed">이 팩의 세부 정보는 CommaView 카탈로그에서 가져오는데, 여기에서는 열려 있지 않습니다.</string>
     <string name="packs_gone">이 팩은 더 이상 카탈로그에 없습니다.</string>
-    <string name="packs_update_to">%1$s(으)로 업데이트</string>
+    <string name="packs_update_to">%1$s 버전으로 업데이트</string>
     <string name="packs_pack">팩</string>
     <string name="packs_back_to_store">오버레이 팩으로 돌아가기</string>
     <string name="packs_on_this_phone_off">%1$s에 있음, 꺼짐</string>
@@ -268,6 +268,6 @@
     <string name="packs_drawn_only_on_designs">%1$s 디자인에만 그려집니다</string>
     <string name="packs_another_packs_design">다른 팩 고유의 디자인</string>
     <string name="packs_the_design">%1$s 디자인</string>
-    <string name="packs_not_drawn_now_design">지금은 그려지지 않습니다: Live View는 %1$s을(를) 사용하고 있고 이 팩은 %2$s 디자인용입니다. 설정 › 디스플레이에서 하나를 선택하세요.</string>
-    <string name="packs_not_drawn_now_designs">지금은 그려지지 않습니다: Live View는 %1$s을(를) 사용하고 있고 이 팩은 %2$s 디자인용입니다. 설정 › 디스플레이에서 하나를 선택하세요.</string>
+    <string name="packs_not_drawn_now_design">지금은 그려지지 않습니다: Live View에서 %1$s 디자인을 사용하고 있고 이 팩은 %2$s 디자인용입니다. 설정 › 디스플레이에서 하나를 선택하세요.</string>
+    <string name="packs_not_drawn_now_designs">지금은 그려지지 않습니다: Live View에서 %1$s 디자인을 사용하고 있고 이 팩은 %2$s 디자인용입니다. 설정 › 디스플레이에서 하나를 선택하세요.</string>
 </resources>

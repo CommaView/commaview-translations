@@ -74,7 +74,7 @@ steps:
           - target: continue
             text: "**Rehberli kuruluma devam et**."
       - label: "Manuel kurulum"
-        body: "Yalnızca bilgisayarınızdan comma'ya `comma` kullanıcısıyla SSH zaten çalışıyorsa. **Manuel kurulum**'u, ardından **Manuel kuruluma devam et**'i seçin ve komutu terminalinizden çalıştırın. Yükleyici tek kullanımlık bir eşleştirme kodu gösterdiğinde **Komutu çalıştırdım**'a dokunun, comma'nızın IP'sini ve kodu girin ve **comma ekle**'ye dokunun. [Terminalden manuel kurulum](#manual-setup-from-a-terminal) her adımı içerir."
+        body: "Yalnızca bilgisayarınızdan comma'ya `comma` kullanıcısıyla SSH zaten çalışıyorsa. **Manuel kurulum**'u, ardından **Manuel kuruluma devam et**'i seçin ve komutu terminalinizden çalıştırın. Yükleyici tek kullanımlık bir eşleştirme kodu gösterdiğinde **Komutu çalıştırdım**'a dokunun, comma'nızın IP'sini ve kodu girin ve **comma ekle**'ye dokunun. [Terminalden manuel kurulum](#terminalden-manuel-kurulum) her adımı içerir."
         screen: setup-manual-instructions
         pins:
           - text: "**Kopyalamak için dokunun** komutu kopyalar."

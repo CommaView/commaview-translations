@@ -336,7 +336,7 @@
     <string name="devices_forget_body">%1$s將不再顯示這台 comma，並刪除其配對金鑰。</string>
     <string name="devices_forget">忘記</string>
     <string name="devices_back_to_search">返回搜尋</string>
-    <string name="devices_driving_insights">駕駛分析</string>
+    <string name="devices_driving_insights">駕駛統計</string>
     <string name="devices_home">首頁</string>
     <string name="devices_safe_repair">安全修復</string>
     <string name="devices_safe_repair_warning_title">車輛打入 P 檔後執行</string>
@@ -448,4 +448,8 @@
     <string name="devices_support_name">CommaView 客服</string>
     <string name="devices_email_support">寄電子郵件給客服</string>
     <string name="devices_address_copied">已複製地址</string>
+    <string name="devices_software_video_only">僅影像模式</string>
+    <string name="devices_software_unlisted_fork">未列出的分支版本</string>
+    <string name="devices_software_best_effort">盡力支援</string>
+    <string name="devices_software_video_only_qualifier">僅影像模式</string>
 </resources>

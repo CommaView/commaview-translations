@@ -2,4 +2,7 @@
 <!-- app: Français (French). Machine drafted with docs/localization/glossary-fr.md; not yet reviewed by a native speaker. -->
 <resources>
     <string name="common_done">OK</string>
+    <string name="common_decrease">Diminuer %1$s</string>
+    <string name="common_increase">Augmenter %1$s</string>
+    <string name="common_type_value">Saisir une valeur</string>
 </resources>

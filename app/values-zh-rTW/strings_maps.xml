@@ -64,10 +64,10 @@
     <string name="maps_theme_dialog_note">套用到 CommaView 中的所有地圖。「自動」會在「車輛位置」開啟時使用 comma 的位置，否則使用%1$s的時區。</string>
     <string name="maps_theme_daylight_note">「顯示」中的「日光對比」是另一項設定：它會讓應用程式的文字和線條更明亮。</string>
     <string name="maps_own_key">您的 Stadia Maps 金鑰</string>
-    <string name="maps_own_key_intro_routes">導航的路線使用你的金鑰：它們從%1$s傳送到 Stadia Maps，在你的 Stadia 帳戶及其條款下。清除後，在你再次新增金鑰前，%1$s上將無法取得路線。</string>
-    <string name="maps_own_key_intro_needed">路線需要你自己的 Stadia Maps 金鑰：路線用它從%1$s傳送到 Stadia Maps，在你的 Stadia 帳戶及其條款下。去哪裡？、搜尋和地點不需金鑰也能使用；搜尋使用 Photon。</string>
-    <string name="maps_own_key_clear_message">它將從%1$s移除，在你再次新增金鑰前無法取得路線。</string>
-    <string name="maps_credits_own_key">地圖資料 © OpenStreetMap 貢獻者，採用 OpenFreeMap 的 © OpenMapTiles 圖磚，由 MapLibre 繪製。搜尋傳送到 Photon。路線用你自己的金鑰從%1$s傳送到 Stadia Maps（若你選擇了 Mapbox 則傳送到 Mapbox），在你在那裡的帳戶及其條款下。中國大陸不提供導航。</string>
+    <string name="maps_own_key_intro_routes">導航的路線使用您的金鑰：它們從%1$s傳送到 Stadia Maps，在您的 Stadia 帳戶及其條款下。清除後，在您再次新增金鑰前，%1$s上將無法取得路線。</string>
+    <string name="maps_own_key_intro_needed">路線需要您自己的 Stadia Maps 金鑰：路線用它從%1$s傳送到 Stadia Maps，在您的 Stadia 帳戶及其條款下。去哪裡？、搜尋和地點不需金鑰也能使用；搜尋使用 Photon。</string>
+    <string name="maps_own_key_clear_message">它將從%1$s移除，在您再次新增金鑰前無法取得路線。</string>
+    <string name="maps_credits_own_key">地圖資料 © OpenStreetMap 貢獻者，採用 OpenFreeMap 的 © OpenMapTiles 圖磚，由 MapLibre 繪製。搜尋傳送到 Photon。路線用您自己的金鑰從%1$s傳送到 Stadia Maps（若您選擇了 Mapbox 則傳送到 Mapbox），在您在那裡的帳戶及其條款下。中國大陸不提供導航。</string>
     <string name="maps_own_key_not_added">尚未新增</string>
     <string name="maps_own_key_kept">保存在%1$s上</string>
     <string name="maps_own_key_over_limit">已超過 Stadia Maps 的用量上限（429）</string>
@@ -220,4 +220,6 @@
     <string name="maps_problem_failed_unknown">下載或驗證失敗。請繼續下載以重試。</string>
     <string name="maps_problem_failed_group_unknown">地圖第 %1$d／%2$d 組：下載或驗證失敗。請繼續下載以重試。</string>
 
+    <string name="maps_spoken_guidance_in_english">路線服務不提供這種語言的路線指示，因此逐向導引使用英文。</string>
+    <string name="maps_spoken_guidance_no_voice">%1$s沒有%2$s的文字轉語音聲音，因此語音導引使用英文聲音。請在 Android 的文字轉語音設定中新增。</string>
 </resources>

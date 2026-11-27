@@ -140,7 +140,6 @@
     <string name="account_update_checksum">La descarga no coincidía con su suma de comprobación, así que no se instaló.</string>
     <string name="account_update_not_installed">La actualización no se instaló</string>
     <string name="account_update_version_alpha">Alpha %1$s</string>
-    <string name="account_update_version_dev">Versión de desarrollo %1$s</string>
     <string name="account_update_version_release">CommaView %1$s</string>
     <string name="account_update_unavailable_here">Esta actualización no se puede descargar aquí ahora. Vuelve a intentarlo más tarde.</string>
     <string name="account_update_download_gone">La descarga ya no está. Toca Actualizar para volver a descargarla.</string>
@@ -148,9 +147,7 @@
     <string name="account_update_offer_title">Actualizar CommaView</string>
     <string name="account_update_channel_alpha">Alfa</string>
     <string name="account_update_channel_beta">Beta</string>
-    <string name="account_update_channel_dev">Compilación dev</string>
     <string name="account_update_alpha_note">Una versión temprana para testers. Puede tener más problemas que la beta.</string>
-    <string name="account_update_dev_note">Una compilación dev de la app Car Test, de tu cuenta de staging.</string>
     <string name="account_update_size">Tamaño de descarga: %1$s</string>
     <string name="account_update_installed_now">Instalada ahora: %1$s</string>
     <string name="account_update_offer_body">CommaView la descarga en segundo plano y la comprueba; después Android te pide confirmar la instalación.</string>

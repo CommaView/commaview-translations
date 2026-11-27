@@ -74,7 +74,7 @@ steps:
           - target: continue
             text: "**继续引导设置**。"
       - label: "手动设置"
-        body: "仅适用于您的电脑已经能以用户 `comma` 通过 SSH 连接 comma 的情况。选择 **手动设置**，再点按 **继续手动设置**，然后在终端运行命令。安装程序显示一次性配对码后，点按 **我已运行命令**，输入 comma 的 IP 和配对码，再点按 **添加 comma**。[通过终端手动设置](#manual-setup-from-a-terminal) 列出了每一步。"
+        body: "仅适用于您的电脑已经能以用户 `comma` 通过 SSH 连接 comma 的情况。选择 **手动设置**，再点按 **继续手动设置**，然后在终端运行命令。安装程序显示一次性配对码后，点按 **我已运行命令**，输入 comma 的 IP 和配对码，再点按 **添加 comma**。[通过终端手动设置](#通过终端手动设置) 列出了每一步。"
         screen: setup-manual-instructions
         pins:
           - text: "**轻点即可复制** 会复制命令。"

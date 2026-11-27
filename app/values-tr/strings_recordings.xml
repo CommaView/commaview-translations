@@ -784,7 +784,7 @@
     <string name="recordings_upload_comma_file_failed">comma bu sürüşün %1$s dosyasını gönderemedi</string>
 
     <!-- The part of a recording the comma couldn't provide, in recordings_replay_error_http (ReplayWords.kt). -->
-    <string name="recordings_replay_part_manifest">manifest</string>
+    <string name="recordings_replay_part_manifest">dosya listesi</string>
     <string name="recordings_replay_part_recipe">tarif</string>
     <string name="recordings_replay_part_gaps">boşluk listesi</string>
     <string name="recordings_replay_part_archive">arşiv</string>
@@ -795,4 +795,11 @@
     <string name="recordings_upload_doing_sending">gönderiliyor: %1$s</string>
     <string name="recordings_upload_doing_finishing">tamamlanıyor</string>
     <string name="recordings_upload_doing_allowance">neye katkıda bulunabileceği soruluyor</string>
+    <string name="recordings_quality_balanced">Dengeli</string>
+    <string name="recordings_quality_high">Yüksek</string>
+    <string name="recordings_quality_max">Maksimum</string>
+    <string name="recordings_quality_balanced_detail">En fazla %1$d piksel genişlik: en küçük dosyalar, en hızlı hazırlanır.</string>
+    <string name="recordings_quality_high_detail">Kameranın tam çözünürlüğü. Çoğu sürüş için önerilir.</string>
+    <string name="recordings_quality_max_detail">En fazla ayrıntının korunduğu tam çözünürlük, en büyük dosyalarda.</string>
+    <string name="recordings_replay_gap_hud">HUD verileri kullanılamıyor</string>
 </resources>

@@ -448,4 +448,8 @@
     <string name="devices_support_name">CommaView 客服</string>
     <string name="devices_email_support">发邮件给客服</string>
     <string name="devices_address_copied">已复制地址</string>
+    <string name="devices_software_video_only">仅视频模式</string>
+    <string name="devices_software_unlisted_fork">未列出的分支版本</string>
+    <string name="devices_software_best_effort">尽力支持</string>
+    <string name="devices_software_video_only_qualifier">仅视频模式</string>
 </resources>

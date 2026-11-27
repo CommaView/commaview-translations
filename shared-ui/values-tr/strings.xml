@@ -3,4 +3,7 @@
      docs/localization/glossary-tr.md and openpilot's selfdrive/ui/translations/app_tr.po. -->
 <resources>
     <string name="common_done">Bitti</string>
+    <string name="common_decrease">%1$s azalt</string>
+    <string name="common_increase">%1$s artır</string>
+    <string name="common_type_value">Değer yazın</string>
 </resources>

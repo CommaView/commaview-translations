@@ -2,4 +2,7 @@
 <!-- 繁體中文（台灣）. Machine drafted, not yet reviewed by a native speaker (docs/plans/2026-11-13-localization.md). -->
 <resources>
     <string name="common_done">完成</string>
+    <string name="common_decrease">減少%1$s</string>
+    <string name="common_increase">增加%1$s</string>
+    <string name="common_type_value">輸入數值</string>
 </resources>

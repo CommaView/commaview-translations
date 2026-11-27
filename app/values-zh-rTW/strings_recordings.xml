@@ -764,4 +764,11 @@
     <string name="recordings_upload_doing_sending">傳送 %1$s</string>
     <string name="recordings_upload_doing_finishing">完成傳送</string>
     <string name="recordings_upload_doing_allowance">詢問可貢獻的內容</string>
+    <string name="recordings_quality_balanced">平衡</string>
+    <string name="recordings_quality_high">高</string>
+    <string name="recordings_quality_max">最高</string>
+    <string name="recordings_quality_balanced_detail">寬度最多 %1$d 像素：檔案最小，產生最快。</string>
+    <string name="recordings_quality_high_detail">相機的完整解析度。建議大多數行程使用。</string>
+    <string name="recordings_quality_max_detail">完整解析度，保留最多細節，檔案最大。</string>
+    <string name="recordings_replay_gap_hud">無法取得 HUD 資料</string>
 </resources>

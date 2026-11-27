@@ -38,7 +38,7 @@
     <string name="navigation_route_brief_sign_in">请重新登录</string>
     <string name="navigation_route_brief_not_on">导航未开启</string>
     <string name="navigation_route_brief_needs_key">添加路线密钥</string>
-    <string name="navigation_error_needs_key">添加你自己的 Stadia Maps 密钥以获取路线：设置 › 地图和导航。</string>
+    <string name="navigation_error_needs_key">添加您自己的 Stadia Maps 密钥以获取路线：设置 › 地图与导航。</string>
     <string name="navigation_add_route_key">添加密钥</string>
     <string name="navigation_route_brief_too_far">距离太远</string>
     <string name="navigation_route_brief_unavailable_here">此地区不可用</string>
@@ -236,14 +236,14 @@
     <string name="navigation_send_to_comma_sent">已发送到 comma。%1$s 会在那里规划自己的路线。</string>
     <string name="navigation_send_to_comma_failed">无法发送到 comma：%1$s</string>
     <string name="navigation_send_to_comma_onroad">请先停车：comma 只在未上路时接受此操作。</string>
-    <string name="navigation_comma_unreachable">无法连接到你的 comma 来发送这次行程。请将这部手机连接到与 comma 相同的网络，然后重试。</string>
+    <string name="navigation_comma_unreachable">无法连接到您的 comma 来发送这次行程。请将%1$s连接到与 comma 相同的网络，然后重试。</string>
     <string name="navigation_send_trips_title">将每次行程发送到此 comma</string>
     <string name="navigation_send_trips_detail">点按“开始”时，%1$s 也会收到目的地。行程结束时会清除。</string>
-    <string name="navigation_send_trips_paused">已暂停：自你开启后，%1$s 的驾驶设置已更改。再次开启以同意这些设置。</string>
+    <string name="navigation_send_trips_paused">已暂停：自您开启后，%1$s 的驾驶设置已更改。再次开启以同意这些设置。</string>
     <string name="navigation_send_trips_confirm_title">将每次行程发送到 %1$s？</string>
     <string name="navigation_send_trips_confirm_intro">%1$s 会为每次行程的目的地规划自己的路线并显示在 comma 上。按其当前设置，它还会：</string>
     <string name="navigation_send_trips_confirm_shows">%1$s 会为每次行程的目的地规划自己的路线并显示在 comma 上。按其当前设置，它不会改变车辆的驾驶方式。</string>
-    <string name="navigation_send_trips_confirm_when">你用此 comma 开始的每次行程都会在点按“开始”时发送，并在结束时清除。如果其驾驶设置更改，发送会暂停，直到你再次同意。可随时在这里关闭。</string>
+    <string name="navigation_send_trips_confirm_when">您用此 comma 开始的每次行程都会在点按“开始”时发送，并在结束时清除。如果其驾驶设置更改，发送会暂停，直到您再次同意。可随时在这里关闭。</string>
     <string name="navigation_send_trips_turn_on">开启</string>
     <string name="navigation_send_to_comma_confirm_title">发送到 comma 上的 %1$s？</string>
     <string name="navigation_send_to_comma_confirm_intro">%1$s 会规划到此地的路线并显示在 comma 上。按它现在的设置，它还会：</string>
@@ -260,4 +260,27 @@
     <string name="navigation_comma_nav_turn_on_title">开启 openpilot 的导航（alpha）？</string>
     <string name="navigation_comma_nav_turn_on_message">openpilot 自带的逐向导航，在 comma four 上显示路线地图。这是 alpha 功能，openpilot 在正式版的设置中将其隐藏。可在 CommaView 的 comma 设置中再次关闭。</string>
     <string name="navigation_comma_nav_turned_on">openpilot 的导航（alpha）已开启。</string>
+    <plurals name="navigation_spoken_in_feet">
+        <item quantity="other">%1$d 英尺后，%2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_metres">
+        <item quantity="other">%1$d 米后，%2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_miles">
+        <item quantity="other">%1$d 英里后，%2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_kilometres">
+        <item quantity="other">%1$d 公里后，%2$s</item>
+    </plurals>
+    <string name="navigation_spoken_in_miles_decimal">%1$s 英里后，%2$s</string>
+    <string name="navigation_spoken_in_kilometres_decimal">%1$s 公里后，%2$s</string>
+    <string name="navigation_spoken_in_quarter_mile">四分之一英里后，%1$s</string>
+    <string name="navigation_spoken_in_half_mile">半英里后，%1$s</string>
+    <string name="navigation_spoken_in_three_quarters_mile">四分之三英里后，%1$s</string>
+    <string name="navigation_preview_sample_exit">从出口驶出，前往%1$s</string>
+    <string name="navigation_preview_sample_then">靠左行驶，前往%1$s</string>
+    <string name="navigation_voice_before_place">导航到|导航去|带我去|带我到|开车去|我要去|前往|去往|去|到</string>
+    <string name="navigation_voice_after_place">怎么走|的路线|路线|吧</string>
+    <string name="navigation_voice_home_words">家|回家|我家</string>
+    <string name="navigation_voice_work_words">公司|上班|单位|办公室</string>
 </resources>

@@ -458,4 +458,8 @@
     <string name="devices_support_name">CommaView-Support</string>
     <string name="devices_email_support">E-Mail an den Support</string>
     <string name="devices_address_copied">Adresse kopiert</string>
+    <string name="devices_software_video_only">Nur Video</string>
+    <string name="devices_software_unlisted_fork">Nicht gelisteter Fork</string>
+    <string name="devices_software_best_effort">ohne Gewähr</string>
+    <string name="devices_software_video_only_qualifier">nur Video</string>
 </resources>

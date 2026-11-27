@@ -127,7 +127,6 @@
     <string name="account_update_checksum">다운로드한 파일이 체크섬과 일치하지 않아 설치하지 않았습니다.</string>
     <string name="account_update_not_installed">업데이트가 설치되지 않았습니다</string>
     <string name="account_update_version_alpha">Alpha %1$s</string>
-    <string name="account_update_version_dev">개발 빌드 %1$s</string>
     <string name="account_update_version_release">CommaView %1$s</string>
     <string name="account_update_unavailable_here">지금은 여기에서 이 업데이트를 다운로드할 수 없습니다. 나중에 다시 시도하세요.</string>
     <string name="account_update_download_gone">다운로드한 파일이 없습니다. ‘업데이트’를 눌러 다시 다운로드하세요.</string>
@@ -135,9 +134,7 @@
     <string name="account_update_offer_title">CommaView 업데이트</string>
     <string name="account_update_channel_alpha">알파</string>
     <string name="account_update_channel_beta">베타</string>
-    <string name="account_update_channel_dev">개발 빌드</string>
     <string name="account_update_alpha_note">테스터용 초기 빌드입니다. 베타보다 문제가 많을 수 있습니다.</string>
-    <string name="account_update_dev_note">스테이징 계정에서 받는 Car Test 앱의 개발 빌드입니다.</string>
     <string name="account_update_size">다운로드 크기: %1$s</string>
     <string name="account_update_installed_now">현재 설치됨: %1$s</string>
     <string name="account_update_offer_body">CommaView가 백그라운드에서 다운로드하고 확인한 뒤, Android가 설치를 확인해 달라고 요청합니다.</string>

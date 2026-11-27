@@ -468,4 +468,8 @@
     <string name="devices_support_name">Assistance CommaView</string>
     <string name="devices_email_support">Écrire à l\'assistance</string>
     <string name="devices_address_copied">Adresse copiée</string>
+    <string name="devices_software_video_only">Vidéo seule</string>
+    <string name="devices_software_unlisted_fork">Fork non listé</string>
+    <string name="devices_software_best_effort">au mieux</string>
+    <string name="devices_software_video_only_qualifier">vidéo seule</string>
 </resources>

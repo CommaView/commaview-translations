@@ -39,4 +39,6 @@
     <string name="support_status_waiting">处理中 · 等待 CommaView 回复</string>
     <string name="support_status_open">处理中</string>
     <string name="support_couldnt_open_site">无法打开 my.commaview.com</string>
+    <string name="support_share_bundle">分享支持数据包</string>
+    <string name="support_share_bundle_failed">无法分享支持数据包</string>
 </resources>

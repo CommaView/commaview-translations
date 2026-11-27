@@ -68,7 +68,7 @@
     <string name="maps_theme_daylight_note">O Contraste diurno de Tela é separado: ele clareia os textos e linhas do app.</string>
     <string name="maps_own_key">Sua chave do Stadia Maps</string>
     <string name="maps_own_key_intro_routes">As rotas da navegação usam sua chave: vão de %1$s ao Stadia Maps na sua conta Stadia e sob os termos dela. Apagá-la interrompe as rotas em %1$s até você adicionar uma chave de novo.</string>
-    <string name="maps_own_key_intro_needed">As rotas precisam da sua própria chave do Stadia Maps: vão de %1$s ao Stadia Maps com ela, na sua conta Stadia e sob os termos dela. Para onde?, a busca e os lugares funcionam sem ela; a busca usa o Photon.</string>
+    <string name="maps_own_key_intro_needed">As rotas precisam da sua própria chave do Stadia Maps: vão d%1$s ao Stadia Maps com ela, na sua conta Stadia e sob os termos dela. Para onde?, a busca e os lugares funcionam sem ela; a busca usa o Photon.</string>
     <string name="maps_own_key_clear_message">Ela é removida de %1$s, e as rotas param até você adicionar uma chave de novo.</string>
     <string name="maps_credits_own_key">Dados do mapa © colaboradores do OpenStreetMap, em blocos do © OpenMapTiles do OpenFreeMap, desenhados pelo MapLibre. As buscas vão para o Photon. As rotas vão de %1$s ao Stadia Maps, ou ao Mapbox se você o escolheu, com sua própria chave, na sua conta lá e sob os termos dela. A navegação fica desligada na China continental.</string>
     <string name="maps_own_key_not_added">Não adicionada</string>
@@ -227,4 +227,6 @@
     <string name="maps_problem_failed_unknown">Falha no download ou na verificação. Retome para tentar de novo.</string>
     <string name="maps_problem_failed_group_unknown">Grupo de mapa %1$d de %2$d: falha no download ou na verificação. Retome para tentar de novo.</string>
 
+    <string name="maps_spoken_guidance_in_english">Os serviços de rotas não dão instruções neste idioma, então a orientação passo a passo fica em inglês.</string>
+    <string name="maps_spoken_guidance_no_voice">%1$s não tem uma voz de conversão de texto em voz para %2$s, então a orientação é lida com uma voz em inglês. Adicione uma nas configurações de conversão de texto em voz do Android.</string>
 </resources>

@@ -184,7 +184,7 @@ CommaView ekibinin sürüş yaptığı araç ekranları. CommaView Android 8 vey
 | **Doro multimedya ünitesi** (Qualcomm QCM6125, Android 13, 1280 × 720) | Multimedya ünitesi | Şehir sürüşlerinde Live View (Ekim 2026). |
 | **Dasaita 10.2″ multimedya ünitesi** (1280 × 720, bir Toyota RAV4'te) | Multimedya ünitesi | Sürerken Live View; park hâlinde kayıt yüklemeleri. |
 
-**Test etmemize yardım edin.** Her araç ekranı farklıdır. CommaView'u bir multimedya ünitesinde veya kutuda çalıştırıyorsanız [nasıl gittiğini bize anlatın](#tell-us-about-your-car-screen), kontrol ettikten sonra buraya ekleyelim.
+**Test etmemize yardım edin.** Her araç ekranı farklıdır. CommaView'u bir multimedya ünitesinde veya kutuda çalıştırıyorsanız [nasıl gittiğini bize anlatın](#araç-ekranınızı-bize-anlatın), kontrol ettikten sonra buraya ekleyelim.
 
 ## Araç ekranınızı bize anlatın
 

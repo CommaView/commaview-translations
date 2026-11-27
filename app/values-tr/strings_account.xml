@@ -134,7 +134,6 @@
     <string name="account_update_checksum">İndirme sağlama toplamıyla eşleşmediği için yüklenmedi.</string>
     <string name="account_update_not_installed">Güncelleme yüklenmedi</string>
     <string name="account_update_version_alpha">Alpha %1$s</string>
-    <string name="account_update_version_dev">Geliştirici sürümü %1$s</string>
     <string name="account_update_version_release">CommaView %1$s</string>
     <string name="account_update_unavailable_here">Bu güncelleme şu anda burada indirilemiyor. Daha sonra yeniden deneyin.</string>
     <string name="account_update_download_gone">İndirme kayboldu. Yeniden indirmek için Güncelle\'ye dokunun.</string>
@@ -142,9 +141,7 @@
     <string name="account_update_offer_title">CommaView\'u güncelle</string>
     <string name="account_update_channel_alpha">Alfa</string>
     <string name="account_update_channel_beta">Beta</string>
-    <string name="account_update_channel_dev">Geliştirici sürümü</string>
     <string name="account_update_alpha_note">Test edenler için erken bir sürüm. Betadan daha fazla sorunu olabilir.</string>
-    <string name="account_update_dev_note">Staging hesabınızdan Car Test uygulamasının geliştirici sürümü.</string>
     <string name="account_update_size">İndirme boyutu: %1$s</string>
     <string name="account_update_installed_now">Şu an yüklü: %1$s</string>
     <string name="account_update_offer_body">CommaView arka planda indirip denetler, ardından Android yüklemeyi onaylamanızı ister.</string>

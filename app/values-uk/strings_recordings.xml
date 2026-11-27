@@ -829,4 +829,11 @@
     <string name="recordings_upload_doing_sending">надсилання %1$s</string>
     <string name="recordings_upload_doing_finishing">завершення</string>
     <string name="recordings_upload_doing_allowance">запит, що можна надати</string>
+    <string name="recordings_quality_balanced">Збалансована</string>
+    <string name="recordings_quality_high">Висока</string>
+    <string name="recordings_quality_max">Максимальна</string>
+    <string name="recordings_quality_balanced_detail">Не ширше %1$d пікселів: найменші файли, створюються найшвидше.</string>
+    <string name="recordings_quality_high_detail">Повна роздільна здатність камери. Рекомендовано для більшості поїздок.</string>
+    <string name="recordings_quality_max_detail">Повна роздільна здатність із найбільшою деталізацією, у найбільших файлах.</string>
+    <string name="recordings_replay_gap_hud">Дані HUD недоступні</string>
 </resources>

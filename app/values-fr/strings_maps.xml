@@ -69,7 +69,7 @@
     <string name="maps_theme_daylight_note">Le Contraste plein jour de l\'Affichage est distinct : il éclaircit le texte et les lignes de l\'application.</string>
     <string name="maps_own_key">Votre clé Stadia Maps</string>
     <string name="maps_own_key_intro_routes">Les itinéraires de la navigation utilisent votre clé : ils vont de %1$s à Stadia Maps sous votre compte Stadia et ses conditions. L’effacer arrête les itinéraires sur %1$s jusqu’à ce que vous ajoutiez une clé.</string>
-    <string name="maps_own_key_intro_needed">Les itinéraires demandent votre propre clé Stadia Maps : ils vont avec elle de %1$s à Stadia Maps, sous votre compte Stadia et ses conditions. Où aller ?, la recherche et les lieux marchent sans ; la recherche utilise Photon.</string>
+    <string name="maps_own_key_intro_needed">Les itinéraires demandent votre propre clé Stadia Maps : ils vont avec elle de %1$s à Stadia Maps, sous votre compte Stadia et ses conditions. Où allez-vous ?, la recherche et les lieux marchent sans ; la recherche utilise Photon.</string>
     <string name="maps_own_key_clear_message">Elle est retirée de %1$s, et les itinéraires s’arrêtent jusqu’à ce que vous ajoutiez une clé.</string>
     <string name="maps_credits_own_key">Données cartographiques © contributeurs d’OpenStreetMap, dans les tuiles © OpenMapTiles d’OpenFreeMap, dessinées par MapLibre. Les recherches vont à Photon. Les itinéraires vont de %1$s à Stadia Maps, ou à Mapbox si vous l’avez choisi, avec votre propre clé, sous votre compte là-bas et ses conditions. La navigation est désactivée en Chine continentale.</string>
     <string name="maps_own_key_not_added">Non ajoutée</string>
@@ -230,4 +230,6 @@
     <string name="maps_problem_failed_unknown">Échec du téléchargement ou de la vérification. Reprenez pour réessayer.</string>
     <string name="maps_problem_failed_group_unknown">Groupe de cartes %1$d sur %2$d : échec du téléchargement ou de la vérification. Reprenez pour réessayer.</string>
 
+    <string name="maps_spoken_guidance_in_english">Les services d’itinéraire ne donnent pas d’indications dans cette langue : le guidage étape par étape est donc en anglais.</string>
+    <string name="maps_spoken_guidance_no_voice">%1$s n’a pas de voix de synthèse vocale pour %2$s : le guidage est donc lu avec une voix anglaise. Ajoutez-en une dans les paramètres de synthèse vocale d’Android.</string>
 </resources>

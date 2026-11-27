@@ -449,4 +449,8 @@
     <string name="devices_support_name">ฝ่ายสนับสนุน CommaView</string>
     <string name="devices_email_support">ส่งอีเมลถึงฝ่ายสนับสนุน</string>
     <string name="devices_address_copied">คัดลอกที่อยู่แล้ว</string>
+    <string name="devices_software_video_only">วิดีโอเท่านั้น</string>
+    <string name="devices_software_unlisted_fork">ฟอร์กที่ไม่ได้ระบุไว้</string>
+    <string name="devices_software_best_effort">เท่าที่ทำได้</string>
+    <string name="devices_software_video_only_qualifier">วิดีโอเท่านั้น</string>
 </resources>

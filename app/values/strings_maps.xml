@@ -42,6 +42,10 @@
     <string name="maps_guidance">Guidance</string>
     <string name="maps_spoken_guidance">Spoken guidance</string>
     <string name="maps_spoken_guidance_subtitle">Turn prompts and the arrival. The turn card’s speaker button turns it off too.</string>
+    <!-- Shown under Spoken guidance in Thai and Traditional Chinese, which neither route service describes routes in. -->
+    <string name="maps_spoken_guidance_in_english">The route services don’t give directions in this language, so turn-by-turn guidance is in English.</string>
+    <!-- %1$s: "This phone" / "This device". %2$s: the language's name in itself ("Deutsch"). -->
+    <string name="maps_spoken_guidance_no_voice">%1$s has no text-to-speech voice for %2$s, so guidance is spoken with an English voice. Add one in Android’s text-to-speech settings.</string>
     <string name="maps_your_places">Your places</string>
     <string name="maps_choose_home">Choose Home</string>
     <string name="maps_choose_work">Choose Work</string>

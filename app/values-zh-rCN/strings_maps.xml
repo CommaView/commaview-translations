@@ -64,10 +64,10 @@
     <string name="maps_theme_dialog_note">应用于 CommaView 中的所有地图。“自动”在“车辆位置”开启时使用 comma 的位置，否则使用%1$s的时区。</string>
     <string name="maps_theme_daylight_note">“显示”中的“日光对比度”是另一项设置：它会让应用的文字和线条更亮。</string>
     <string name="maps_own_key">您的 Stadia Maps 密钥</string>
-    <string name="maps_own_key_intro_routes">导航的路线使用你的密钥：它们从%1$s发往 Stadia Maps，在你的 Stadia 账户及其条款下。清除后，在你再次添加密钥前，%1$s上将无法获取路线。</string>
-    <string name="maps_own_key_intro_needed">路线需要你自己的 Stadia Maps 密钥：路线用它从%1$s发往 Stadia Maps，在你的 Stadia 账户及其条款下。去哪里？、搜索和地点无需密钥也能使用；搜索使用 Photon。</string>
-    <string name="maps_own_key_clear_message">它将从%1$s移除，在你再次添加密钥前无法获取路线。</string>
-    <string name="maps_credits_own_key">地图数据 © OpenStreetMap 贡献者，采用 OpenFreeMap 的 © OpenMapTiles 瓦片，由 MapLibre 绘制。搜索发往 Photon。路线用你自己的密钥从%1$s发往 Stadia Maps（若你选择了 Mapbox 则发往 Mapbox），在你在那里的账户及其条款下。中国大陆不提供导航。</string>
+    <string name="maps_own_key_intro_routes">导航的路线使用您的密钥：它们从%1$s发往 Stadia Maps，在您的 Stadia 账户及其条款下。清除后，在您再次添加密钥前，%1$s上将无法获取路线。</string>
+    <string name="maps_own_key_intro_needed">路线需要您自己的 Stadia Maps 密钥：路线用它从%1$s发往 Stadia Maps，在您的 Stadia 账户及其条款下。去哪里？、搜索和地点无需密钥也能使用；搜索使用 Photon。</string>
+    <string name="maps_own_key_clear_message">它将从%1$s移除，在您再次添加密钥前无法获取路线。</string>
+    <string name="maps_credits_own_key">地图数据 © OpenStreetMap 贡献者，采用 OpenFreeMap 的 © OpenMapTiles 瓦片，由 MapLibre 绘制。搜索发往 Photon。路线用您自己的密钥从%1$s发往 Stadia Maps（若您选择了 Mapbox 则发往 Mapbox），在您在那里的账户及其条款下。中国大陆不提供导航。</string>
     <string name="maps_own_key_not_added">尚未添加</string>
     <string name="maps_own_key_kept">保存在%1$s上</string>
     <string name="maps_own_key_over_limit">已超出 Stadia Maps 的用量上限（429）</string>
@@ -220,4 +220,6 @@
     <string name="maps_problem_failed_unknown">下载或验证失败。请继续下载以重试。</string>
     <string name="maps_problem_failed_group_unknown">地图第 %1$d／%2$d 组：下载或验证失败。请继续下载以重试。</string>
 
+    <string name="maps_spoken_guidance_in_english">路线服务不提供这种语言的路线指示，因此逐向导航使用英语。</string>
+    <string name="maps_spoken_guidance_no_voice">%1$s没有%2$s的文字转语音声音，因此导航语音使用英语声音。请在 Android 的文字转语音设置中添加。</string>
 </resources>

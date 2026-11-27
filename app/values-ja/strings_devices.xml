@@ -448,4 +448,8 @@
     <string name="devices_support_name">CommaView サポート</string>
     <string name="devices_email_support">サポートにメール</string>
     <string name="devices_address_copied">アドレスをコピーしました</string>
+    <string name="devices_software_video_only">映像のみ</string>
+    <string name="devices_software_unlisted_fork">一覧にないフォーク</string>
+    <string name="devices_software_best_effort">ベストエフォート</string>
+    <string name="devices_software_video_only_qualifier">映像のみ</string>
 </resources>

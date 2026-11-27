@@ -236,7 +236,7 @@
     <string name="navigation_send_to_comma_sent">comma に送りました。%1$s がそこで独自にルートを作ります。</string>
     <string name="navigation_send_to_comma_failed">comma に送れませんでした：%1$s</string>
     <string name="navigation_send_to_comma_onroad">先に停車してください：comma はオフロード中にのみ受け付けます。</string>
-    <string name="navigation_comma_unreachable">この移動を送るための comma に接続できません。この電話を comma と同じネットワークに接続してから、もう一度お試しください。</string>
+    <string name="navigation_comma_unreachable">この移動を送るための comma に接続できません。%1$sを comma と同じネットワークに接続してから、もう一度お試しください。</string>
     <string name="navigation_send_trips_title">すべての移動をこの comma に送る</string>
     <string name="navigation_send_trips_detail">開始をタップすると、%1$s にも目的地が送られます。移動が終わると消去されます。</string>
     <string name="navigation_send_trips_paused">一時停止中：オンにした後で %1$s の運転設定が変わりました。同意するには、もう一度オンにしてください。</string>
@@ -260,4 +260,27 @@
     <string name="navigation_comma_nav_turn_on_title">openpilot のナビ（アルファ）をオンにしますか？</string>
     <string name="navigation_comma_nav_turn_on_message">openpilot 独自のターンバイターンナビで、comma four にルート地図を表示します。アルファ版で、openpilot はリリース版の設定画面では表示しません。CommaView の comma の設定でいつでもオフにできます。</string>
     <string name="navigation_comma_nav_turned_on">openpilot のナビ（アルファ）がオンになりました。</string>
+    <plurals name="navigation_spoken_in_feet">
+        <item quantity="other">%1$d フィート先、%2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_metres">
+        <item quantity="other">%1$d メートル先、%2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_miles">
+        <item quantity="other">%1$d マイル先、%2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_kilometres">
+        <item quantity="other">%1$d キロメートル先、%2$s</item>
+    </plurals>
+    <string name="navigation_spoken_in_miles_decimal">%1$s マイル先、%2$s</string>
+    <string name="navigation_spoken_in_kilometres_decimal">%1$s キロメートル先、%2$s</string>
+    <string name="navigation_spoken_in_quarter_mile">4分の1マイル先、%1$s</string>
+    <string name="navigation_spoken_in_half_mile">半マイル先、%1$s</string>
+    <string name="navigation_spoken_in_three_quarters_mile">4分の3マイル先、%1$s</string>
+    <string name="navigation_preview_sample_exit">%1$s方面の出口を出ます</string>
+    <string name="navigation_preview_sample_then">左側を進んで%1$s方面に向かいます</string>
+    <string name="navigation_voice_before_place">行き先は|目的地は</string>
+    <string name="navigation_voice_after_place">まで案内して|まで案内|へ案内して|に案内して|までナビして|までナビ|まで連れて行って|に連れて行って|へ連れて行って|まで行って|まで行きたい|に行って|に行きたい|へ行って|へ行きたい|までお願いします|までお願い|までのルート|へのルート|まで|へ</string>
+    <string name="navigation_voice_home_words">家|自宅|うち|おうち</string>
+    <string name="navigation_voice_work_words">会社|職場|仕事|オフィス</string>
 </resources>

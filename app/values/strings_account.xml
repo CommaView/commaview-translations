@@ -132,7 +132,6 @@
     <string name="account_update_checksum">The download didn\'t match its checksum, so it wasn\'t installed.</string>
     <string name="account_update_not_installed">The update wasn\'t installed</string>
     <string name="account_update_version_alpha">Alpha %1$s</string>
-    <string name="account_update_version_dev">Dev build %1$s</string>
     <string name="account_update_version_release">CommaView %1$s</string>
     <string name="account_update_unavailable_here">This update can\'t be downloaded here right now. Try again later.</string>
     <string name="account_update_download_gone">The download is gone. Tap Update to download it again.</string>
@@ -140,9 +139,7 @@
     <string name="account_update_offer_title">Update CommaView</string>
     <string name="account_update_channel_alpha">Alpha</string>
     <string name="account_update_channel_beta">Beta</string>
-    <string name="account_update_channel_dev">Dev build</string>
     <string name="account_update_alpha_note">An early build for testers. It may have more problems than the beta.</string>
-    <string name="account_update_dev_note">A dev build of the Car Test app, from your staging account.</string>
     <string name="account_update_size">Download size: %1$s</string>
     <string name="account_update_installed_now">Installed now: %1$s</string>
     <string name="account_update_offer_body">CommaView downloads it in the background and checks it, then Android asks you to confirm the install.</string>

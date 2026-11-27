@@ -68,7 +68,7 @@
     <string name="maps_theme_daylight_note">El contraste diurno de Pantalla es aparte: aclara el texto y las líneas de la app.</string>
     <string name="maps_own_key">Tu clave de Stadia Maps</string>
     <string name="maps_own_key_intro_routes">Las rutas de Navegación usan tu clave: van de %1$s a Stadia Maps con tu cuenta de Stadia y sus condiciones. Si la borras, no habrá rutas en %1$s hasta que añadas otra clave.</string>
-    <string name="maps_own_key_intro_needed">Las rutas necesitan tu propia clave de Stadia Maps: van de %1$s a Stadia Maps con ella, con tu cuenta de Stadia y sus condiciones. ¿Adónde?, la búsqueda y los lugares funcionan sin ella; la búsqueda usa Photon.</string>
+    <string name="maps_own_key_intro_needed">Las rutas necesitan tu propia clave de Stadia Maps: van de %1$s a Stadia Maps con ella, con tu cuenta de Stadia y sus condiciones. ¿Adónde vas?, la búsqueda y los lugares funcionan sin ella; la búsqueda usa Photon.</string>
     <string name="maps_own_key_clear_message">Se quita de %1$s, y no habrá rutas hasta que añadas otra clave.</string>
     <string name="maps_credits_own_key">Datos del mapa © colaboradores de OpenStreetMap, en teselas de © OpenMapTiles de OpenFreeMap, dibujadas por MapLibre. Las búsquedas van a Photon. Las rutas van de %1$s a Stadia Maps, o a Mapbox si lo elegiste, con tu propia clave, con tu cuenta allí y sus condiciones. La navegación está desactivada en China continental.</string>
     <string name="maps_own_key_not_added">Sin añadir</string>
@@ -227,4 +227,6 @@
     <string name="maps_problem_failed_unknown">Falló la descarga o la verificación. Reanuda para reintentar.</string>
     <string name="maps_problem_failed_group_unknown">Grupo del mapa %1$d de %2$d: falló la descarga o la verificación. Reanuda para reintentar.</string>
 
+    <string name="maps_spoken_guidance_in_english">Los servicios de rutas no dan indicaciones en este idioma, así que las indicaciones paso a paso están en inglés.</string>
+    <string name="maps_spoken_guidance_no_voice">%1$s no tiene una voz de texto a voz para %2$s, así que las indicaciones se leen con una voz en inglés. Añade una en los ajustes de texto a voz de Android.</string>
 </resources>
