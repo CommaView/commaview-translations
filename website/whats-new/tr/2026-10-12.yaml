@@ -1,0 +1,13 @@
+title: "xnor ve AdventurePilot, openpilot, sunnypilot ve StarPilot'a katılıyor"
+out:
+  - title: "xnor-tech'in openpilot'u"
+    text: "CommaView xnor ve rx sürümlerine yüklenir ve onu xnor olarak anar. xnor openpilot'un ekranını, rx sunnypilot'unkini çalıştırır; Live View comma'nız hangisini çalıştırıyorsa onu çizer. rx çalıştıran bir Rivian'da direksiyon, araç açıyla yönlendirirken yeşil, torkla yönlendirirken mavi olur."
+  - title: "AdventurePilot"
+    text: "CommaView ona yüklenir ve sunnypilot'un ekranını AdventurePilot'un eklemeleriyle çizer: şerit ortalama göstergesi, comma 3X ekranındaki CURVE etiketi ve direksiyon modunun direksiyon rengi."
+  - title: "comma 3X ekranında fork'unuzun adı"
+    text: "Açılış uyarısı, her zaman sunnypilot dediği yerde, comma'nın yaptığı gibi fork'unuzun adını söyler."
+runtime:
+  - title: "İki fork daha"
+    text: "Çalışma ortamı, kurulumun eskiden “unsupported upstream remote” ile durduğu xnor-tech'in openpilot'unu ve AdventurePilot'u tanıyor."
+  - title: "Her GPS konumu"
+    text: "Uygulama, saniyede bir en yenisi yerine her GPS konumunu openpilot yayımladığı anda, saniyede 10'a kadar ve ne kadar eski olduğuyla birlikte alır."

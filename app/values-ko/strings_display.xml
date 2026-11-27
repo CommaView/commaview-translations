@@ -20,12 +20,13 @@
     <string name="display_commaview_full_camera">카메라 전체</string>
     <string name="display_commaview_full_camera_detail">카메라 영상 전체를 보여 주고, 필요하면 검은 여백을 둡니다.</string>
     <string name="display_commaview_fill_detail">카메라 영상을 잘라 가로 화면을 채웁니다. 세로 화면에서는 카메라 전체를 보여 줍니다.</string>
+    <string name="display_pack_framing_detail">팩 화면이 가로 화면을 쓰는 방식을 선택하세요.</string>
+    <string name="display_design_pack_note">%1$s: 오버레이 팩 고유의 화면입니다. 도로 카메라 위에 그리며, 그 위에 CommaView 알림이 표시됩니다.</string>
     <string name="display_design_comma3x_note">comma 3X 화면: 상태 테두리, 최대 상자, 큰 속도, 하단 알림.</string>
     <string name="display_design_comma4_note">comma four 화면: 도로 위에 바뀌는 최대 속도, 옆에 운전대와 신뢰도.</string>
     <string name="display_comma4_framing">미리보기 구도</string>
     <string name="display_comma4_framing_detail">comma four 프레임과 똑같이 맞추거나, 카메라를 더 보여 주거나, 잘라서 이 화면을 채웁니다.</string>
 
-    <!-- Display › Daylight contrast (DaylightSection). -->
     <string name="display_daylight_title">주간 대비</string>
     <string name="display_daylight_subtitle">햇빛과 눈부심에 대비해 글자와 선을 더 밝게</string>
     <string name="display_daylight_no_sensor">%1$s %2$s에는 조도 센서가 없어 자동을 사용할 수 없습니다.</string>

@@ -25,6 +25,7 @@
     <string name="settings_page_about">À propos</string>
     <string name="settings_page_licenses">Licences open source</string>
     <string name="settings_page_license">Licence</string>
+    <string name="settings_page_overlay_packs">Packs de superposition</string>
     <string name="settings_page_device">Paramètres de l\'appareil</string>
     <string name="settings_page_device_facts">Nom et adresse</string>
     <string name="settings_page_device_network">Réseau</string>
@@ -33,6 +34,7 @@
 
     <!-- The Settings hub's rows, under each title. -->
     <string name="settings_hub_display_subtitle">Écran de conduite et ses options, poste de conduite et plein jour</string>
+    <string name="settings_hub_maps_navigation_subtitle">La carte de Live View, le guidage vocal, vos lieux et les cartes hors ligne</string>
     <string name="settings_hub_maps_navigation_key_subtitle">Cartes hors ligne, et navigation avec votre clé Stadia Maps</string>
     <string name="settings_hub_offline_maps_subtitle">Télécharger des régions et afficher les limitations de vitesse selon la position de votre comma</string>
     <string name="settings_hub_live_streaming_subtitle">Passer en direct depuis Live View sur YouTube ou un autre serveur</string>

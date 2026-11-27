@@ -53,6 +53,7 @@
     <plurals name="contribute_bundle_events">
         <item quantity="other">• recording/events.jsonl และ manifest.json: ประวัติข้อผิดพลาดของการบันทึก %1$d เหตุการณ์</item>
     </plurals>
+    <string name="contribute_bundle_navigation">• navigation/search-counts.txt: จำนวนการค้นหาการนำทาง</string>
     <string name="contribute_bundle_leaderboard">• leaderboard/status.txt: สถานะของตารางอันดับ: มีการขอและส่งต่อข้อมูลยืนยันจาก comma ของคุณหรือไม่</string>
     <string name="contribute_bundle_report">• report.txt: สิ่งที่คุณเขียน และข้อมูลที่ส่งไปพร้อมทุกรายงาน</string>
     <string name="contribute_bundle_json">• bundle.json: สิ่งที่ชุดข้อมูลประกอบด้วย</string>

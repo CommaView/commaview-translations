@@ -1,0 +1,41 @@
+title: Una clave para cada teléfono, CommaView en 11 idiomas más, y Browser View
+out:
+  - title: CommaView en tu idioma
+    text: "Ajustes › Idioma: Deutsch, Español, Français, 日本語, 한국어, Português (Brasil), ไทย, Türkçe, Українська, 简体中文 y 繁體中文 además del inglés. Están traducidos automáticamente y aún no los han revisado hablantes nativos, así que cuéntanos qué suena mal. Las pantallas propias de tu comma siguen en su idioma."
+  - title: Browser View
+    text: "Live View en el navegador web de tu coche, también en el de un Tesla: inícialo en Detalles de Live View y escribe el enlace corto en el navegador del coche. La imagen va de tu teléfono al coche a través de su punto de acceso, nunca por internet."
+  - title: Guardar este momento
+    text: "Guardar en Live View conserva los últimos 3 minutos y el minuto siguiente de un viaje como MP4 en tu teléfono, copiado cuando aparcas."
+  - title: Exportar el viaje completo… y Traer viajes automáticamente
+    text: "Copia un viaje entero como un solo MP4, o haz que los viajes nuevos se copien a casa más o menos cada media hora en el Wi‑Fi que elijas, hasta el espacio que les des."
+  - title: La tienda de paquetes de superposición
+    text: "Los paquetes añaden a Live View lo que tu fork dibuja en su propia pantalla. Los miembros exploran los paquetes Oficiales y de la Comunidad, y Para tu comma; cualquiera puede añadir uno desde un archivo o un enlace."
+  - title: Navegación con tu propia clave de Stadia Maps
+    text: "Para miembros: ¿Adónde vas?, rutas e indicaciones paso a paso con tu propia cuenta de Stadia Maps, con la clave guardada cifrada en tu teléfono."
+  - title: Abrir CommaView solo
+    text: "Cuando arranca una pantalla del coche, cuando se conecta el Bluetooth, y directamente en Live View cuando se conecta tu comma. Cada opción está desactivada hasta que la activas en Ajustes › Pantalla."
+  - title: Compartir con el desarrollador de mi fork…
+    text: "Un clip, un resumen y el registro de CommaView de ese tramo, compartidos con el menú de compartir de Android allí donde tu fork recoja los informes. No va nada a CommaView."
+  - title: Live View dice qué pasa
+    text: "Espera a un reinicio que necesita el comma, avisa cuando dejan de llegar los datos del coche o la imagen va con retraso, dice por qué se está reconectando, y se reproduce en más pantallas del coche probando otro decodificador de vídeo."
+  - title: Actualizar CommaView
+    text: "Para miembros, desde 0.0.166: la actualización muestra su versión, se puede cancelar y sigue descargándose en segundo plano."
+  - title: Correcciones
+    text: "No se corta nada con texto grande en ventanas bajas, Transmitir no lleva sonido con Sonido desactivado, y la reproducción de un viaje durante el que el comma se quedó sin corriente usa todo lo grabado hasta el corte."
+earlyAccessNote: "Transmitir a X, Twitch, Kick y Facebook, Solo vídeo, los ajustes del fork, la creación de paquetes de superposición y Surround son para un grupo limitado de testers, activados por cuenta, mientras recogemos opiniones. Para ayudar a probarlos, escríbenos en Discord."
+earlyAccess:
+  - title: Transmitir a más plataformas
+    text: "X, Twitch, Kick y Facebook, cada una activada por separado hasta que se haya transmitido a ella con una cuenta real."
+  - title: Solo vídeo
+    text: "Para FrogPilot y KisaPilot, a cuya pantalla CommaView no puede añadir su vista: las cámaras y los datos de conducción en la vista propia de CommaView, sin cambiar nada en el fork."
+  - title: Ajustes del fork
+    text: "Los ajustes propios de tu software de conducción en los ajustes del dispositivo de tu comma, cambiados con el coche aparcado, con copias de seguridad en tu teléfono."
+runtime:
+  - title: Una clave para cada teléfono
+    text: "Cada teléfono recibe su propia clave para tu comma, por sí solo, y nadie vuelve a emparejar. Los teléfonos con apps anteriores siguen funcionando durante 90 días después de que el primer teléfono reciba su clave; después necesitan 0.0.166 y una invitación."
+  - title: BluePilot, dragonpilot y OPGM
+    text: "Ahora son forks de la lista, con su nombre y dibujados con el aspecto de su base."
+  - title: Instalaciones verificadas, nunca hacia atrás
+    text: "La app comprueba la firma de cada entorno de ejecución antes de instalarlo, y un comma rechaza un entorno más antiguo."
+  - title: carrotpilot y StarPilot 7.0
+    text: "Más de la pantalla de carrotpilot, con su propia fuente para coreano, japonés, chino y tailandés, y la rama de desarrollo de StarPilot 7.0, sin garantías."

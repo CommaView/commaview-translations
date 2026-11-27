@@ -15,6 +15,8 @@
     <string name="display_commaview_full_camera">Câmera inteira</string>
     <string name="display_commaview_full_camera_detail">Mostra a imagem inteira da câmera, com faixas pretas quando necessário.</string>
     <string name="display_commaview_fill_detail">Preenche a tela na horizontal cortando a imagem da câmera. Na vertical, mostra a câmera inteira.</string>
+    <string name="display_pack_framing_detail">Escolha como a tela do pacote usa a tela na horizontal.</string>
+    <string name="display_design_pack_note">%1$s, a tela própria de um pacote de sobreposição: desenha sobre a câmera da via, com os alertas do CommaView por cima.</string>
     <string name="display_design_comma3x_note">A tela do comma 3X: uma borda de status, a caixa MÁX, uma velocidade grande e alertas embaixo.</string>
     <string name="display_design_comma4_note">A tela do comma four: MÁX acima da via quando muda, o volante e a confiança ao lado.</string>
     <string name="display_comma4_framing">Enquadramento da prévia</string>

@@ -57,6 +57,7 @@
         <item quantity="one">• recording/events.jsonl und manifest.json: der Fehlerverlauf der Aufnahmen, %1$d Ereignis</item>
         <item quantity="other">• recording/events.jsonl und manifest.json: der Fehlerverlauf der Aufnahmen, %1$d Ereignisse</item>
     </plurals>
+    <string name="contribute_bundle_navigation">• navigation/search-counts.txt: Zähler der Navigationssuche</string>
     <string name="contribute_bundle_leaderboard">• leaderboard/status.txt: der Status der Bestenliste: ob die Nachweise Ihrer commas angefragt und weitergeleitet werden</string>
     <string name="contribute_bundle_report">• report.txt: was Sie geschrieben haben und was jedem Bericht beiliegt</string>
     <string name="contribute_bundle_json">• bundle.json: was das Paket enthält</string>

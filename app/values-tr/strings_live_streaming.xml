@@ -247,6 +247,7 @@
     <!-- Why a stream, a live copy or Browser View didn't start or stopped (LiveStreamController, LiveStreamSender). -->
     <string name="live_streaming_open_live_view_to_go_live">Yayına başlamak için Live View\'u açın</string>
     <string name="live_streaming_open_live_view_to_record">Kayıt için Live View\'u açın</string>
+    <string name="live_streaming_open_live_view_for_car_screen">Aracın ekranında göstermek için Live View\'u açın</string>
     <string name="live_streaming_storage_unavailable">Kayıt depolaması kullanılamıyor</string>
     <string name="live_streaming_no_video">Canlı yayın durdu: bir dakikadır comma\'dan video yok</string>
     <string name="live_streaming_copy_no_video">Canlı kopya durdu: bir dakikadır comma\'dan video yok. Kaydedilenler Kayıtlar\'da saklandı.</string>
@@ -254,13 +255,23 @@
     <string name="live_streaming_encoder_failed">Video kodlayıcı başarısız oldu: %1$s</string>
     <string name="live_streaming_copy_encoder_stopped">Canlı kopya durdu: video kodlayıcı durdu: %1$s</string>
     <string name="live_streaming_copy_encoder_failed">Canlı kopya durdu: video kodlayıcı başarısız oldu: %1$s</string>
+    <string name="live_streaming_car_screen_encoder_stopped">Browser View durdu: video kodlayıcı durdu: %1$s</string>
+    <string name="live_streaming_car_screen_encoder_failed">Browser View durdu: video kodlayıcı başarısız oldu: %1$s</string>
+    <string name="live_streaming_car_screen_no_port">Browser View başlatılamadı: %1$sda boş bağlantı noktası yok. Wi‑Fi üzerinden paylaşım yapan diğer uygulamaları kapatıp yeniden deneyin.</string>
+    <string name="live_streaming_car_screen_couldnt_start">Browser View %1$sda başlatılamadı. Wi‑Fi\'ın açık olduğunu kontrol edip yeniden deneyin.</string>
+    <string name="live_streaming_silent_live_car_screen">Ses yok: Browser View sessiz çalışıyor. Sesli yayın için yayına başlamadan önce onu durdurun</string>
     <string name="live_streaming_silent_live_recording">Ses yok: kayıt sessiz çalışıyor. Sesli yayın için yayına başlamadan önce onu durdurun</string>
+    <string name="live_streaming_silent_live_car_screen_and_recording">Ses yok: Browser View ve kayıt sessiz çalışıyor. Sesli yayın için yayına başlamadan önce onları durdurun</string>
+    <string name="live_streaming_silent_recording_car_screen">Kayıtta ses yok: Browser View sessiz çalışıyor. Sesli kayıt için kayda başlamadan önce onu durdurun</string>
     <string name="live_streaming_silent_recording_stream">Kayıtta ses yok: yayın sessiz çalışıyor. Sesli kayıt için kayda başlamadan önce onu durdurun</string>
+    <string name="live_streaming_silent_recording_car_screen_and_stream">Kayıtta ses yok: Browser View ve yayın sessiz çalışıyor. Sesli kayıt için kayda başlamadan önce onları durdurun</string>
     <string name="live_streaming_cant_encode_sound">Ses yok: %1$s sesi kodlayamıyor</string>
     <string name="live_streaming_encoder_busy_stream">%1$sdaki video kodlayıcı meşgul, bu yüzden yayını kodlayamıyor. Video kaydeden veya yayınlayan diğer uygulamaları kapatıp yeniden deneyin.</string>
     <string name="live_streaming_encoder_busy_copy">%1$sdaki video kodlayıcı meşgul, bu yüzden canlı kopyayı kodlayamıyor. Video kaydeden veya yayınlayan diğer uygulamaları kapatıp yeniden deneyin.</string>
+    <string name="live_streaming_encoder_busy_car_screen">%1$sdaki video kodlayıcı meşgul, bu yüzden aracın ekranı için Live View\'u kodlayamıyor. Video kaydeden veya yayınlayan diğer uygulamaları kapatıp yeniden deneyin.</string>
     <string name="live_streaming_encoder_quality_stream">%1$s yayını bu kalitede kodlayamıyor. Ayarlar\'dan daha düşük bir kalite seçip yeniden deneyin.</string>
     <string name="live_streaming_encoder_quality_copy">%1$s canlı kopyayı bu kalitede kodlayamıyor. Ayarlar\'dan daha düşük bir kalite seçip yeniden deneyin.</string>
+    <string name="live_streaming_encoder_quality_car_screen">%1$s aracın ekranı için Live View\'u bu kalitede kodlayamıyor. Ayarlar\'dan daha düşük bir kalite seçip yeniden deneyin.</string>
     <string name="live_streaming_failed">Canlı yayın başarısız oldu: %1$s</string>
     <string name="live_streaming_connection_lost_because">Bağlantı kesildi: %1$s</string>
     <string name="live_streaming_connection_lost">Bağlantı kesildi</string>

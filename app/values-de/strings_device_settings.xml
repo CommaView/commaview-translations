@@ -70,6 +70,8 @@
     <string name="device_settings_comma_busy">Das comma ist beschäftigt. Versuchen Sie es gleich erneut.</string>
     <string name="device_settings_open_live_view_when_connected">Live View bei Verbindung öffnen</string>
     <string name="device_settings_open_live_view_when_connected_detail">Öffnet sich von selbst, wenn Ihr comma sich verbindet, während das Auto an ist. Schließen Sie es, bleibt es bis zum nächsten Mal zu.</string>
+    <string name="device_settings_live_view_status_bar">Statusleiste behalten</string>
+    <string name="device_settings_live_view_status_bar_detail">Zeigt die Uhr des Systems über Live View, statt den ganzen Bildschirm zu nutzen.</string>
     <string name="device_settings_offline_controls">Verbinden Sie sich mit demselben Netz wie %1$s, um Kopplung und Updates zu verwalten.</string>
     <string name="device_settings_offline_controls_unnamed">Verbinden Sie sich mit demselben Netz wie Ihr comma, um Kopplung und Updates zu verwalten.</string>
     <string name="device_settings_runtime_removed_controls">CommaView wurde von %1$s deinstalliert. Starten Sie die geführte Einrichtung, um es neu zu installieren.</string>
@@ -350,12 +352,16 @@
         <item quantity="one">Ein Handy mit einer älteren CommaView-Version kann dieses comma noch %d Tag nutzen, mit dem gemeinsamen Token, das es unverschlüsselt sendet. Stoppen Sie jetzt, wenn jedes Handy, das dieses comma nutzt, einen Schlüssel hat.</item>
         <item quantity="other">Ein Handy mit einer älteren CommaView-Version kann dieses comma noch %d Tage nutzen, mit dem gemeinsamen Token, das es unverschlüsselt sendet. Stoppen Sie jetzt, wenn jedes Handy, das dieses comma nutzt, einen Schlüssel hat.</item>
     </plurals>
+    <string name="device_settings_phones_older_apps_pair_code">Kopplungscode für eine ältere App</string>
+    <string name="device_settings_phones_older_apps_keep_working">Ein Handy mit einer älteren CommaView-Version funktioniert weiter mit diesem comma und bekommt nach dem Update einen eigenen Schlüssel, ohne neu zu koppeln. Ein Handy, das dieses comma noch nicht hat, kann sich mit einem Kopplungscode von hier koppeln.</string>
+    <string name="device_settings_phones_older_apps_off">Dieses comma nimmt das gemeinsame Token nicht mehr an und erzeugt daher keinen Kopplungscode für eine ältere CommaView-Version. Aktualisieren Sie CommaView auf dem anderen Handy und fügen Sie es dann mit „Einladung zeigen“ hinzu.</string>
     <string name="device_settings_phones_stop_now">Jetzt stoppen</string>
     <string name="device_settings_phones_remove_named">%1$s entfernen?</string>
     <string name="device_settings_phones_remove_this">Dieses %1$s entfernen?</string>
     <string name="device_settings_phones_remove_message">Es erreicht dieses comma erst wieder, wenn es erneut hinzugefügt wird, per Einladung oder durch Einrichten des comma.</string>
     <string name="device_settings_phones_token_off_title">Gemeinsames Token nicht mehr annehmen?</string>
-    <string name="device_settings_phones_token_off_message">Ein Handy mit einer älteren CommaView-Version erreicht dieses comma ab jetzt nicht mehr. Handys mit Schlüssel, auch dieses, sind nicht betroffen. Nur eine neue Einrichtung des comma per SSH schaltet es wieder ein.</string>
+    <string name="device_settings_phones_token_off_message">Handys mit einer älteren CommaView-Version funktionieren ab jetzt nicht mehr mit diesem comma und können sich erst nach einem Update neu koppeln. Handys mit Schlüssel, auch dieses, sind nicht betroffen. Nur jemand auf dem comma schaltet das gemeinsame Token wieder ein, als neues: mit commaviewd phones legacy-on über SSH.</string>
+    <string name="device_settings_phones_token_off_message_listed">Nur die Handys mit Schlüssel funktionieren weiter mit diesem comma: %1$s. Jedes andere Handy funktioniert ab jetzt nicht mehr (eines mit einer älteren CommaView-Version oder eines, das seinen Schlüssel noch nicht hat) und kann sich erst wieder koppeln, wenn es aktualisiert und mit „Einladung zeigen“ hinzugefügt wurde. Nur jemand auf dem comma schaltet das gemeinsame Token wieder ein, als neues: mit commaviewd phones legacy-on über SSH.</string>
     <string name="device_settings_phones_not_seen">Noch nicht gesehen</string>
     <string name="device_settings_phones_seen_today">Heute gesehen</string>
     <string name="device_settings_phones_seen_yesterday">Gestern gesehen</string>
@@ -394,4 +400,34 @@
     <!-- Phones with a key, when the comma's answer couldn't be read (CommaPhonesApi.kt). -->
     <string name="device_settings_phones_error_unreadable_answer">unlesbare Antwort</string>
     <string name="device_settings_phones_error_unreadable_invitation">unlesbare Einladung</string>
+
+    <!-- A runtime update or uninstall in the background (RuntimeUpdateUi.kt, RuntimeMaintenanceService.kt). -->
+    <string name="device_settings_update_keep_using_background">Sie können die App wechseln oder Ihr %1$s sperren. Das Update läuft weiter, und seine Benachrichtigung zeigt den Fortschritt.</string>
+    <string name="device_settings_maintenance_other_job">CommaView aktualisiert oder deinstalliert bereits eine Runtime. Versuchen Sie es erneut, wenn das abgeschlossen ist.</string>
+    <string name="device_settings_runtime_notification_channel">Runtime-Updates</string>
+    <string name="device_settings_runtime_notification_updating">Die Runtime Ihres comma wird auf %1$s aktualisiert</string>
+    <string name="device_settings_runtime_notification_updating_generic">Die Runtime Ihres comma wird aktualisiert</string>
+    <string name="device_settings_runtime_notification_uninstalling">CommaView wird von Ihrem comma deinstalliert</string>
+    <string name="device_settings_runtime_notification_open">Öffnen Sie CommaView, um fortzufahren.</string>
+
+    <!-- Cancelling a runtime update the comma runs itself (RuntimeUpdateCancel.kt, RuntimeUpdateProgress.kt). -->
+    <string name="device_settings_step_preparing">Wird vorbereitet (wartet, bis das Auto parkt)</string>
+    <string name="device_settings_preparing_detail">Ihr comma prüft das Release und wartet, bis das Auto geparkt bleibt, bevor es heruntergeladen wird.</string>
+    <string name="device_settings_update_cancelled_title">Update abgebrochen</string>
+    <string name="device_settings_update_cancelled_notice">Update abgebrochen. An Ihrem comma wurde nichts geändert.</string>
+    <string name="device_settings_cancel_update">Update abbrechen</string>
+    <string name="device_settings_cancelling_update">Wird abgebrochen…</string>
+    <string name="device_settings_update_will_finish">Zu spät zum Abbrechen: Ihr comma schließt dieses Update jetzt ab.</string>
+    <string name="device_settings_cancel_update_failed">Das Update wurde nicht abgebrochen. Prüfen Sie, ob Ihr comma verbunden ist, und versuchen Sie es erneut.</string>
+    <string name="device_settings_vehicle_picture_offline">Verbinden Sie sich mit %1$s, um das Bild zu ändern.</string>
+    <string name="device_settings_vehicle_picture_interrupted">Das Foto wurde nicht vollständig an %1$s gesendet. Gehen Sie näher heran oder prüfen Sie das WLAN und versuchen Sie es erneut.</string>
+    <string name="device_settings_vehicle_picture_runtime">Aktualisieren Sie die Runtime auf %1$s, um das Bild zu ändern.</string>
+    <string name="device_settings_vehicle_picture_comma_full">%1$s hat nicht genug Platz für das Foto. Versuchen Sie es erneut, sobald alte Fahrten gelöscht sind.</string>
+    <string name="device_settings_vehicle_picture_comma_failed">%1$s hat das Foto nicht gespeichert. Versuchen Sie es erneut.</string>
+    <string name="device_settings_vehicle_picture_edit">Bild des Autos ändern</string>
+    <string name="device_settings_vehicle_picture_saving">Wird gespeichert…</string>
+    <string name="device_settings_vehicle_picture_failed">Dieses Foto ließ sich nicht öffnen. Versuch ein anderes.</string>
+    <string name="device_settings_vehicle_picture_change">Foto ändern</string>
+    <string name="device_settings_vehicle_picture_reset">Bild von CommaView verwenden</string>
+    <string name="device_settings_vehicle_picture_hint">Am besten passt ein Querformatfoto des Autos von der Seite oder schräg von vorne, mit dem ganzen Auto im Bild.</string>
 </resources>

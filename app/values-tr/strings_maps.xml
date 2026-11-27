@@ -6,7 +6,14 @@
     <string name="maps_title">Haritalar ve navigasyon</string>
     <string name="maps_subtitle">Navigasyon ve haritalar · %1$s</string>
     <string name="maps_back_to_settings">Ayarlara dön</string>
-    <string name="maps_credits">Harita verileri © OpenStreetMap katkıcıları, OpenFreeMap\'ten © OpenMapTiles döşemeleri içinde, MapLibre ile çizilir. Aramalar Photon\'a gider. %1$s Kendi Stadia Maps anahtarınızla, Stadia hesabınız ve onun şartları altında gider. Navigasyon Çin anakarasında kapalıdır.</string>
+    <string name="maps_place_home">Ev</string>
+    <string name="maps_place_work">İş</string>
+    <string name="maps_layout_automatic">Otomatik</string>
+    <string name="maps_layout_automatic_detail">Yer varsa videonun yanında, yoksa köşede</string>
+    <string name="maps_layout_beside">Videonun yanında</string>
+    <string name="maps_layout_beside_detail">Her zaman: yer yoksa video küçülür</string>
+    <string name="maps_layout_corner">Köşede</string>
+    <string name="maps_layout_corner_detail">Videonun sağ üst köşesine kaynaşmış</string>
     <string name="maps_your_maps_none">İndirilmiş harita yok. Haritalar hız sınırlarını sağlar.</string>
     <string name="maps_your_maps">%1$s, hız sınırları için</string>
     <string name="maps_your_maps_sized">%1$s · %2$s, hız sınırları için</string>
@@ -16,14 +23,54 @@
         <item quantity="one">%d tane daha</item>
         <item quantity="other">%d tane daha</item>
     </plurals>
+    <string name="maps_recent_places_none">Henüz yok. Bu yerler %1$sda tutulur.</string>
+    <plurals name="maps_recent_places_count">
+        <item quantity="one">%1$d yer, %2$sda tutuluyor</item>
+        <item quantity="other">%1$d yer, %2$sda tutuluyor</item>
+    </plurals>
+    <string name="maps_place_not_set">Ayarlanmadı. Aramak için dokunun.</string>
     <string name="maps_offline_maps">Çevrimdışı haritalar</string>
     <string name="maps_your_maps_title">Haritalarınız</string>
     <string name="maps_open_your_maps">Haritalarınızı açın</string>
+    <string name="maps_live_view_map">Live View haritası</string>
+    <string name="maps_layout">Yerleşim</string>
+    <string name="maps_layout_subtitle">Live View\'un haritayı nerede gösterdiği</string>
+    <string name="maps_layout_note">comma 3X, comma four, StarPilot ve Surround ekranları haritayı her zaman videonun yanında gösterir.</string>
+    <string name="maps_width">Videonun yanındaki genişlik</string>
+    <string name="maps_width_subtitle">Live View\'da ayırıcıyı sürükleyerek ayarlanır</string>
+    <string name="maps_reset">Sıfırla</string>
+    <string name="maps_width_reset_label">Haritanın genişliğini sıfırla</string>
+    <string name="maps_guidance">Yönlendirme</string>
+    <string name="maps_spoken_guidance">Sesli yönlendirme</string>
+    <string name="maps_spoken_guidance_subtitle">Dönüş uyarıları ve varış. Dönüş kartındaki hoparlör düğmesi de kapatır.</string>
+    <string name="maps_your_places">Yerleriniz</string>
+    <string name="maps_choose_home">Ev konumunu seçin</string>
+    <string name="maps_choose_work">İş konumunu seçin</string>
+    <string name="maps_change_or_remove_home">Ev konumunu değiştirin veya kaldırın</string>
+    <string name="maps_change_or_remove_work">İş konumunu değiştirin veya kaldırın</string>
+    <string name="maps_change">Değiştir</string>
+    <string name="maps_remove">Kaldır</string>
+    <string name="maps_add">Ekle</string>
+    <string name="maps_recent_places">Son yerler</string>
+    <string name="maps_clear">Temizle</string>
+    <string name="maps_clear_recent_label">Son yerleri temizle</string>
+    <string name="maps_clear_recent_title">Son yerler temizlensin mi?</string>
+    <string name="maps_clear_recent_message">Gittiğiniz yerler %1$sdan silinir. Ev ve İş kalır.</string>
     <string name="maps_cancel">İptal</string>
+    <string name="maps_theme">Harita teması</string>
+    <string name="maps_theme_choose">Harita temasını seçin</string>
+    <string name="maps_theme_app_line">CommaView\'ın temasını izler</string>
+    <string name="maps_theme_auto_line">comma\'nızın bulunduğu yerde gün doğumundan gün batımına kadar açık</string>
+    <string name="maps_theme_system_line">Koyu tema için %1$sdaki ayarı izler</string>
+    <string name="maps_theme_light_line">Her zaman açık</string>
+    <string name="maps_theme_dark_line">Her zaman koyu</string>
+    <string name="maps_theme_dialog_note">CommaView\'daki her harita için. Otomatik, Araç konumu açıkken comma\'nızın konumunu, değilse %1$sdaki saat dilimini kullanır.</string>
+    <string name="maps_theme_daylight_note">Ekran\'daki Gün ışığı kontrastı ayrıdır: uygulamanın yazı ve çizgilerini parlaklaştırır.</string>
     <string name="maps_own_key">Stadia Maps anahtarınız</string>
-    <string name="maps_own_key_intro_flagged">İsteğe bağlı. Kendi anahtarınızla rotalar, CommaView\'un anahtarı yerine Stadia hesabınız ve onun şartları altında Stadia Maps\'e gider. Stadia sizinkini reddederse Navigasyon bunu söyler; CommaView\'unki yerine geçmez.</string>
-    <string name="maps_own_key_intro_kept">Navigasyon anahtarınızı kullanıyor: rotalar %1$sdan Stadia hesabınız ve onun şartları altında Stadia Maps\'e gider. Anahtarı temizlemek %1$sda Navigasyonu kapatır.</string>
-    <string name="maps_own_key_intro_add">Navigasyonu (Nereye?, rotalar ve adım adım yönlendirme) kullanmak için kendi Stadia Maps anahtarınızı ekleyin. Rotalar %1$sdan anahtarınızla, Stadia hesabınız ve onun şartları altında Stadia Maps\'e gider. Arama Photon\'u kullanır.</string>
+    <string name="maps_own_key_intro_routes">Navigasyonun rotaları anahtarınızı kullanır: %1$s cihazından Stadia hesabınız ve onun koşulları altında Stadia Maps’e gider. Silerseniz, yeniden bir anahtar ekleyene kadar %1$s üzerinde rota alınmaz.</string>
+    <string name="maps_own_key_intro_needed">Rotalar kendi Stadia Maps anahtarınızı gerektirir: %1$s cihazından bu anahtarla, Stadia hesabınız ve koşulları altında Stadia Maps’e gider. Nereye?, arama ve yerler anahtarsız çalışır; arama Photon’u kullanır.</string>
+    <string name="maps_own_key_clear_message">%1$s üzerinden kaldırılır ve yeniden bir anahtar ekleyene kadar rota alınmaz.</string>
+    <string name="maps_credits_own_key">Harita verileri © OpenStreetMap katkıcıları, OpenFreeMap’in © OpenMapTiles döşemelerinde, MapLibre ile çizilir. Aramalar Photon’a gider. Rotalar kendi anahtarınızla %1$s cihazından Stadia Maps’e, seçtiyseniz Mapbox’a, oradaki hesabınız ve koşulları altında gider. Çin anakarasında navigasyon kapalıdır.</string>
     <string name="maps_own_key_not_added">Eklenmedi</string>
     <string name="maps_own_key_kept">Saklandığı yer: %1$s</string>
     <string name="maps_own_key_over_limit">Stadia Maps\'te sınırı aştı (429)</string>
@@ -47,8 +94,6 @@
     <string name="maps_own_key_open_dashboard">Stadia Maps panelinizi açın</string>
     <string name="maps_own_key_open_sign_up">Stadia Maps kaydını açın</string>
     <string name="maps_own_key_clear_title">Stadia Maps anahtarınız temizlensin mi?</string>
-    <string name="maps_own_key_clear_flagged">Anahtar %1$sdan silinir. Rotalar yeniden CommaView\'un anahtarını kullanır.</string>
-    <string name="maps_own_key_clear_off">Anahtar %1$sdan silinir ve yeniden bir anahtar ekleyene kadar Navigasyon burada kapanır. Yönlendirilen bir yolculuk sona erer.</string>
 
     <!-- Offline maps (OfflineMapsPage, OfflineMapLibrary, AddOfflineMapPicker, map/speedlimit). -->
     <plurals name="maps_hub_value">
@@ -180,4 +225,5 @@
     <string name="maps_problem_failed_group">Harita grubu %1$d/%2$d: %3$s. Yeniden denemek için devam edin.</string>
     <string name="maps_problem_failed_unknown">İndirme veya doğrulama başarısız. Yeniden denemek için devam edin.</string>
     <string name="maps_problem_failed_group_unknown">Harita grubu %1$d/%2$d: İndirme veya doğrulama başarısız. Yeniden denemek için devam edin.</string>
+
 </resources>

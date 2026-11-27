@@ -15,6 +15,8 @@
     <string name="display_commaview_full_camera">Cámara completa</string>
     <string name="display_commaview_full_camera_detail">Muestra toda la imagen de la cámara, con barras negras donde haga falta.</string>
     <string name="display_commaview_fill_detail">Llena la pantalla horizontal recortando la imagen de la cámara. En vertical se mantiene la cámara completa.</string>
+    <string name="display_pack_framing_detail">Elige cómo usa la pantalla del paquete la pantalla horizontal.</string>
+    <string name="display_design_pack_note">%1$s, la pantalla propia de un paquete de superposición: dibuja sobre la cámara de carretera, con las alertas de CommaView encima.</string>
     <string name="display_design_comma3x_note">La pantalla del comma 3X: un borde de estado, el recuadro MÁX, una velocidad grande y alertas en la parte inferior.</string>
     <string name="display_design_comma4_note">La pantalla del comma four: MÁX sobre la carretera mientras cambia, con el volante y la confianza al lado.</string>
     <string name="display_comma4_framing">Encuadre de la vista previa</string>

@@ -70,6 +70,8 @@
     <string name="device_settings_comma_busy">comma は処理中です。少し待ってからもう一度お試しください。</string>
     <string name="device_settings_open_live_view_when_connected">接続したら Live View を開く</string>
     <string name="device_settings_open_live_view_when_connected_detail">車の電源が入った状態で comma が接続すると自動で開きます。閉じると次回まで閉じたままになります。</string>
+    <string name="device_settings_live_view_status_bar">ステータスバーを表示</string>
+    <string name="device_settings_live_view_status_bar_detail">画面全体を使わず、Live View の上にシステムの時計を表示します。</string>
     <string name="device_settings_offline_controls">ペアリングとアップデートを管理するには、%1$s と同じネットワークに接続してください。</string>
     <string name="device_settings_offline_controls_unnamed">ペアリングとアップデートを管理するには、comma と同じネットワークに接続してください。</string>
     <string name="device_settings_runtime_removed_controls">%1$s から CommaView がアンインストールされました。もう一度インストールするには、ガイド付きセットアップを実行してください。</string>
@@ -346,12 +348,16 @@
     <plurals name="device_settings_phones_older_apps_detail">
         <item quantity="other">古い CommaView を使うスマートフォンは、平文で送る共有トークンを使って、あと %d 日間この comma を使えます。この comma を使うすべてのスマートフォンが鍵を持っている場合は、今すぐ停止してください。</item>
     </plurals>
+    <string name="device_settings_phones_older_apps_pair_code">古いアプリ用のペアリングコード</string>
+    <string name="device_settings_phones_older_apps_keep_working">古い CommaView を使うスマートフォンはこの comma で引き続き使え、更新すればペアリングし直さずに専用の鍵を取得します。この comma をまだ使っていないスマートフォンは、ここで表示するペアリングコードでペアリングできます。</string>
+    <string name="device_settings_phones_older_apps_off">この comma は共有トークンを受け付けなくなったため、古い CommaView 用のペアリングコードは作成しません。そのスマートフォンの CommaView を更新してから、「招待を表示」で追加してください。</string>
     <string name="device_settings_phones_stop_now">今すぐ停止</string>
     <string name="device_settings_phones_remove_named">%1$s を削除しますか？</string>
     <string name="device_settings_phones_remove_this">%1$sを削除しますか？</string>
     <string name="device_settings_phones_remove_message">招待またはこの comma のセットアップでもう一度追加されるまで、この comma に接続できなくなります。</string>
     <string name="device_settings_phones_token_off_title">共有トークンの受け付けを停止しますか？</string>
-    <string name="device_settings_phones_token_off_message">古い CommaView を使うスマートフォンは、今すぐこの comma に接続できなくなります。このスマートフォンを含め、鍵を持つスマートフォンには影響しません。再び有効にするには、SSH で comma をセットアップし直すしかありません。</string>
+    <string name="device_settings_phones_token_off_message">古い CommaView を使うスマートフォンは、今すぐこの comma で使えなくなり、更新するまでペアリングし直せません。このスマートフォンを含め、鍵を持つスマートフォンには影響しません。共有トークンを新しいものとして再び有効にできるのは、comma 上での操作だけです：SSH で commaviewd phones legacy-on を実行します。</string>
+    <string name="device_settings_phones_token_off_message_listed">この comma で引き続き使えるのは、鍵を持つスマートフォンだけです：%1$s。それ以外のスマートフォン（古い CommaView を使うものや、まだ鍵を取得していないもの）は今すぐ使えなくなり、更新して「招待を表示」で追加するまでペアリングし直せません。共有トークンを新しいものとして再び有効にできるのは、comma 上での操作だけです：SSH で commaviewd phones legacy-on を実行します。</string>
     <string name="device_settings_phones_not_seen">まだ接続なし</string>
     <string name="device_settings_phones_seen_today">今日接続</string>
     <string name="device_settings_phones_seen_yesterday">昨日接続</string>
@@ -389,4 +395,34 @@
     <!-- Phones with a key, when the comma's answer couldn't be read (CommaPhonesApi.kt). -->
     <string name="device_settings_phones_error_unreadable_answer">読み取れない応答</string>
     <string name="device_settings_phones_error_unreadable_invitation">読み取れない招待</string>
+
+    <!-- A runtime update or uninstall in the background (RuntimeUpdateUi.kt, RuntimeMaintenanceService.kt). -->
+    <string name="device_settings_update_keep_using_background">ほかのアプリに切り替えても、%1$sをロックしてもかまいません。アップデートは続き、通知に進み具合が表示されます。</string>
+    <string name="device_settings_maintenance_other_job">CommaView はすでにランタイムのアップデートかアンインストールを実行中です。終わってからもう一度お試しください。</string>
+    <string name="device_settings_runtime_notification_channel">ランタイムのアップデート</string>
+    <string name="device_settings_runtime_notification_updating">comma のランタイムを %1$s にアップデートしています</string>
+    <string name="device_settings_runtime_notification_updating_generic">comma のランタイムをアップデートしています</string>
+    <string name="device_settings_runtime_notification_uninstalling">comma から CommaView をアンインストールしています</string>
+    <string name="device_settings_runtime_notification_open">続けるには CommaView を開いてください。</string>
+
+    <!-- Cancelling a runtime update the comma runs itself (RuntimeUpdateCancel.kt, RuntimeUpdateProgress.kt). -->
+    <string name="device_settings_step_preparing">準備中（車が駐車するまで待ちます）</string>
+    <string name="device_settings_preparing_detail">comma はリリースを確認し、車が駐車したままになるのを待ってからダウンロードします。</string>
+    <string name="device_settings_update_cancelled_title">アップデートをキャンセルしました</string>
+    <string name="device_settings_update_cancelled_notice">アップデートをキャンセルしました。comma では何も変更されていません。</string>
+    <string name="device_settings_cancel_update">アップデートをキャンセル</string>
+    <string name="device_settings_cancelling_update">キャンセルしています…</string>
+    <string name="device_settings_update_will_finish">キャンセルできる段階を過ぎました。comma がこのアップデートを最後まで行います。</string>
+    <string name="device_settings_cancel_update_failed">アップデートはキャンセルされませんでした。comma が接続されているか確認して、もう一度お試しください。</string>
+    <string name="device_settings_vehicle_picture_offline">画像を変更するには %1$s に接続してください。</string>
+    <string name="device_settings_vehicle_picture_interrupted">写真を %1$s に送信しきれませんでした。近づくか Wi-Fi を確認して、もう一度お試しください。</string>
+    <string name="device_settings_vehicle_picture_runtime">画像を変更するには %1$s のランタイムを更新してください。</string>
+    <string name="device_settings_vehicle_picture_comma_full">%1$s に写真を保存する空き容量がありません。古い走行データが削除されてから、もう一度お試しください。</string>
+    <string name="device_settings_vehicle_picture_comma_failed">%1$s に写真を保存できませんでした。もう一度お試しください。</string>
+    <string name="device_settings_vehicle_picture_edit">車の画像を変更</string>
+    <string name="device_settings_vehicle_picture_saving">保存中…</string>
+    <string name="device_settings_vehicle_picture_failed">その写真を開けませんでした。別の写真を選んでください。</string>
+    <string name="device_settings_vehicle_picture_change">写真を変更</string>
+    <string name="device_settings_vehicle_picture_reset">CommaView の画像を使う</string>
+    <string name="device_settings_vehicle_picture_hint">車の横または斜め前から撮った横向きの写真で、車全体が収まっているものが最もよく合います。</string>
 </resources>

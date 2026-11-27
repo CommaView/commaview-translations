@@ -1,0 +1,13 @@
+title: "xnor 和 AdventurePilot 加入 openpilot、sunnypilot 和 StarPilot 的行列"
+out:
+  - title: "xnor-tech 的 openpilot"
+    text: "CommaView 可以安装在它的 xnor 和 rx 版本上，并显示为 xnor。xnor 运行 openpilot 的画面，rx 运行 sunnypilot 的画面，Live View 会绘制您的 comma 所运行的那一种。在运行 rx 的 Rivian 上，车辆按角度转向时方向盘变为绿色，按扭矩转向时变为蓝色。"
+  - title: "AdventurePilot"
+    text: "CommaView 可以安装在它上面，并绘制 sunnypilot 的画面以及 AdventurePilot 新增的内容：车道居中指示器、comma 3X 画面上的 CURVE 标签，以及方向盘上表示转向模式的着色。"
+  - title: "comma 3X 画面上显示您的分支版本名称"
+    text: "它的启动警告会像 comma 一样显示您的分支版本名称，以前总是显示 sunnypilot。"
+runtime:
+  - title: "又多了两个分支版本"
+    text: "运行环境能识别 xnor-tech 的 openpilot 和 AdventurePilot，以前设置会停在“unsupported upstream remote”。"
+  - title: "每一次 GPS 定位"
+    text: "应用会在 openpilot 发布每次 GPS 定位时收到它，最高每秒 10 次，并附带它的时效，而不是每秒只收到一次最新的定位。"

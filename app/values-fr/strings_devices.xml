@@ -275,6 +275,7 @@
     <string name="devices_leaderboard">Classement</string>
     <string name="devices_recent_recordings">Enregistrements récents</string>
     <string name="devices_view_all">Tout voir</string>
+    <string name="devices_overlay_packs">Packs de superposition</string>
     <string name="devices_open_store">Ouvrir la boutique</string>
     <string name="devices_view_all_recordings">Voir tous les enregistrements</string>
     <string name="devices_no_recordings">Aucun enregistrement pour l\'instant. Enregistrez un trajet depuis Live View.</string>
@@ -442,8 +443,15 @@
     <string name="devices_dev_runtime_queue_install">Mettre en attente</string>
     <!-- Phone keys: joining by an invitation, and a comma that already has a phone with a key. -->
     <string name="devices_pairing_failed_legacy_off">Échec de l\'association : ce comma ne s\'associe plus par code. Ajoutez %1$s depuis un appareil qui a déjà une clé (ses paramètres, Ajouter un autre téléphone), ou relancez la configuration du comma.</string>
-    <string name="devices_invitation_needed_named">%1$s a déjà un téléphone avec sa propre clé, et %2$s n\'en a pas. Si ce n\'est pas un de vos téléphones, quelqu\'un d\'autre l\'a peut-être ajouté avant vous : retirez tous les téléphones du comma en SSH (commaviewd phones revoke-all), puis reconfigurez-le depuis %2$s. Sinon, ajoutez %2$s depuis l\'autre (ses paramètres, Ajouter un autre téléphone).</string>
-    <string name="devices_invitation_needed_this">Ce comma a déjà un téléphone avec sa propre clé, et %1$s n\'en a pas. Si ce n\'est pas un de vos téléphones, quelqu\'un d\'autre l\'a peut-être ajouté avant vous : retirez tous les téléphones du comma en SSH (commaviewd phones revoke-all), puis reconfigurez-le depuis %1$s. Sinon, ajoutez %1$s depuis l\'autre (ses paramètres, Ajouter un autre téléphone).</string>
+    <string name="devices_token_no_longer_taken_named">%1$s n\'accepte plus le jeton partagé avec lequel %2$s a été associé, et %2$s n\'a pas de clé propre pour lui. Ajoutez %2$s depuis un téléphone qui en a une (ses paramètres, Ajouter un autre téléphone).</string>
+    <string name="devices_token_no_longer_taken_this">Ce comma n\'accepte plus le jeton partagé avec lequel %1$s a été associé, et %1$s n\'a pas de clé propre pour lui. Ajoutez %1$s depuis un téléphone qui en a une (ses paramètres, Ajouter un autre téléphone).</string>
+    <string name="devices_new_phone_key_title">Un nouveau téléphone a une clé</string>
+    <string name="devices_new_phone_key_message">Un nouveau téléphone a obtenu une clé pour %1$s : %2$s, %3$s. Si ce n\'est pas un de vos téléphones, retirez-le. Chaque téléphone avec une clé figure aussi dans les paramètres du comma, Associer un autre téléphone.</string>
+    <string name="devices_new_phone_key_by_token">Il a obtenu sa clé avec le jeton partagé qu\'envoient les anciennes applications, comme le fait un téléphone associé auparavant. Quelqu\'un qui a vu ce jeton sur le réseau pourrait faire de même, jusqu\'à ce que le comma ne l\'accepte plus (Arrêter maintenant).</string>
+    <string name="devices_new_phone_key_dismiss">C\'est le mien</string>
+    <string name="devices_new_phone_key_review">Voir les téléphones</string>
+    <string name="devices_new_phone_key_removed">%1$s n\'a plus de clé pour %2$s.</string>
+    <string name="devices_new_phone_key_comma_gone">%1$s n\'est plus enregistré sur %2$s : ses téléphones ne peuvent donc pas être affichés ici. Ajoutez-le à nouveau pour les voir.</string>
     <string name="devices_invitation_failed">Impossible de rejoindre avec cette invitation. Elle est peut-être mal saisie, expirée ou déjà utilisée. Affichez-en une nouvelle sur le téléphone qui a déjà ce comma (ses paramètres, Ajouter un autre téléphone).</string>
 
     <!-- Why a pair code couldn't be redeemed, when the comma or the network gave no words (RemoteAccessClient.kt). -->

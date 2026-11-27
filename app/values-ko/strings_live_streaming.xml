@@ -247,6 +247,7 @@
     <!-- Why a stream, a live copy or Browser View didn't start or stopped (LiveStreamController, LiveStreamSender). -->
     <string name="live_streaming_open_live_view_to_go_live">라이브 방송을 하려면 Live View를 여세요</string>
     <string name="live_streaming_open_live_view_to_record">녹화하려면 Live View를 여세요</string>
+    <string name="live_streaming_open_live_view_for_car_screen">차량 화면에 표시하려면 Live View를 여세요</string>
     <string name="live_streaming_storage_unavailable">녹화 저장소를 사용할 수 없습니다</string>
     <string name="live_streaming_no_video">라이브 방송 중지됨: 1분 동안 comma에서 영상이 오지 않았습니다</string>
     <string name="live_streaming_copy_no_video">실시간 사본 중지됨: 1분 동안 comma에서 영상이 오지 않았습니다. 녹화된 부분은 녹화에 저장되었습니다.</string>
@@ -254,13 +255,23 @@
     <string name="live_streaming_encoder_failed">영상 인코더 오류: %1$s</string>
     <string name="live_streaming_copy_encoder_stopped">실시간 사본 중지됨: 영상 인코더가 중지되었습니다: %1$s</string>
     <string name="live_streaming_copy_encoder_failed">실시간 사본 중지됨: 영상 인코더 오류: %1$s</string>
+    <string name="live_streaming_car_screen_encoder_stopped">Browser View 중지됨: 영상 인코더가 중지되었습니다: %1$s</string>
+    <string name="live_streaming_car_screen_encoder_failed">Browser View 중지됨: 영상 인코더 오류: %1$s</string>
+    <string name="live_streaming_car_screen_no_port">Browser View를 시작하지 못했습니다: %1$s에 사용 가능한 포트가 없습니다. Wi‑Fi로 공유하는 다른 앱을 닫은 다음 다시 시도하세요.</string>
+    <string name="live_streaming_car_screen_couldnt_start">%1$s에서 Browser View를 시작하지 못했습니다. Wi‑Fi가 켜져 있는지 확인한 다음 다시 시도하세요.</string>
+    <string name="live_streaming_silent_live_car_screen">소리 없음: Browser View가 소리 없이 실행 중입니다. 소리를 넣으려면 라이브 방송 전에 중지하세요</string>
     <string name="live_streaming_silent_live_recording">소리 없음: 녹화가 소리 없이 진행 중입니다. 소리를 넣으려면 라이브 방송 전에 중지하세요</string>
+    <string name="live_streaming_silent_live_car_screen_and_recording">소리 없음: Browser View와 녹화가 소리 없이 실행 중입니다. 소리를 넣으려면 라이브 방송 전에 중지하세요</string>
+    <string name="live_streaming_silent_recording_car_screen">녹화에 소리 없음: Browser View가 소리 없이 실행 중입니다. 소리를 넣으려면 녹화 전에 중지하세요</string>
     <string name="live_streaming_silent_recording_stream">녹화에 소리 없음: 방송이 소리 없이 진행 중입니다. 소리를 넣으려면 녹화 전에 중지하세요</string>
+    <string name="live_streaming_silent_recording_car_screen_and_stream">녹화에 소리 없음: Browser View와 방송이 소리 없이 실행 중입니다. 소리를 넣으려면 녹화 전에 중지하세요</string>
     <string name="live_streaming_cant_encode_sound">소리 없음: %1$s는 소리를 인코딩할 수 없습니다</string>
     <string name="live_streaming_encoder_busy_stream">%1$s의 영상 인코더가 사용 중이어서 방송을 인코딩할 수 없습니다. 영상을 녹화하거나 방송하는 다른 앱을 닫은 다음 다시 시도하세요.</string>
     <string name="live_streaming_encoder_busy_copy">%1$s의 영상 인코더가 사용 중이어서 실시간 사본을 인코딩할 수 없습니다. 영상을 녹화하거나 방송하는 다른 앱을 닫은 다음 다시 시도하세요.</string>
+    <string name="live_streaming_encoder_busy_car_screen">%1$s의 영상 인코더가 사용 중이어서 차량 화면용 Live View를 인코딩할 수 없습니다. 영상을 녹화하거나 방송하는 다른 앱을 닫은 다음 다시 시도하세요.</string>
     <string name="live_streaming_encoder_quality_stream">%1$s는 이 화질로 방송을 인코딩할 수 없습니다. 설정에서 더 낮은 화질을 선택한 다음 다시 시도하세요.</string>
     <string name="live_streaming_encoder_quality_copy">%1$s는 이 화질로 실시간 사본을 인코딩할 수 없습니다. 설정에서 더 낮은 화질을 선택한 다음 다시 시도하세요.</string>
+    <string name="live_streaming_encoder_quality_car_screen">%1$s는 이 화질로 차량 화면용 Live View를 인코딩할 수 없습니다. 설정에서 더 낮은 화질을 선택한 다음 다시 시도하세요.</string>
     <string name="live_streaming_failed">라이브 방송 실패: %1$s</string>
     <string name="live_streaming_connection_lost_because">연결 끊김: %1$s</string>
     <string name="live_streaming_connection_lost">연결 끊김</string>

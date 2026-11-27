@@ -1,0 +1,20 @@
+title: Un nuevo Inicio, la imagen de tu coche, y un solo sitio para tu cuenta
+out:
+  - title: Tu cuenta en my.commaview.com
+    text: "Inicia sesión con un código enviado a tu correo, descarga la app y mira las novedades. También es de donde llegan ahora las betas y las actualizaciones; Firebase App Distribution ya no se usa."
+  - title: Actualizaciones desde tu cuenta
+    text: "La app consulta tu cuenta en busca de nuevas versiones y te las ofrece en la app. Cada versión de la app llega con el entorno de ejecución con el que se probó."
+  - title: Opiniones y un tablero de propuestas
+    text: "Envía una idea, un problema o un elogio desde Ajustes en la app, con un paquete de soporte si quieres que lo miremos más a fondo, y vota qué construimos después en el tablero de propuestas de my.commaview.com."
+  - title: Una nueva imagen de tu coche
+    text: "Cada coche compatible tiene una imagen nueva con un mismo estilo, el mismo tamaño y la misma iluminación, que queda limpia en cualquier pantalla."
+next:
+  - title: Un nuevo Inicio de dispositivos
+    text: "Tu coche en su escenario en una sola tarjeta con Abrir Live View, y luego Conducción esta semana, Ubicación del vehículo y tus grabaciones recientes."
+  - title: Hecho para tablets y pantallas del coche
+    text: "En una pantalla más ancha, Inicio se convierte en un salpicadero, y Ajustes y Ajustes del dispositivo se abren junto a su lista."
+runtime:
+  - title: Estadísticas de conducción
+    text: "La distancia, el tiempo de conducción y los viajes de tu semana, a partir de los propios registros de tu comma."
+  - title: Ubicación del vehículo
+    text: "Dónde está el coche mientras conduces y dónde aparcaste. Desactivada hasta que la activas."

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- navigation: Français (French). Machine drafted with docs/localization/glossary-fr.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- The offline maps' speed limit, as Live View and Settings say it (shared: SpeedLimitAvailability.label). -->
+    <string name="navigation_speed_limit_off">Cartes de l\'appli désactivées</string>
+    <string name="navigation_speed_limit_location_off">Position désactivée pour ce comma</string>
+    <string name="navigation_speed_limit_offroad">En attente d\'un trajet</string>
+    <string name="navigation_speed_limit_waiting_location">En attente d\'une position GPS</string>
+    <string name="navigation_speed_limit_stale_location">Position GPS trop ancienne</string>
+    <string name="navigation_speed_limit_poor_location">Précision GPS trop faible</string>
+    <string name="navigation_speed_limit_not_downloaded">Téléchargez une carte pour commencer</string>
+    <string name="navigation_speed_limit_outside">Hors des cartes téléchargées</string>
+    <string name="navigation_speed_limit_damaged">Carte à réparer ; téléchargez-la à nouveau</string>
+    <string name="navigation_speed_limit_lookup_unavailable">Mémoire insuffisante pour lire cette zone de la carte</string>
+    <string name="navigation_speed_limit_road_uncertain">Impossible d\'identifier la route avec certitude</string>
+    <string name="navigation_speed_limit_no_limit">Aucune limitation chiffrée pour cette route</string>
+    <string name="navigation_speed_limit_available">Limitation de vitesse disponible</string>
+    <string name="navigation_speed_limit_disconnected">Position du comma indisponible</string>
+
+    <!-- Settings › Maps & navigation › Map theme (shared: MapThemeSetting). -->
+    <string name="navigation_map_theme_app">Comme l\'app</string>
+    <string name="navigation_map_theme_app_note">Clair quand CommaView est clair, sombre quand il est sombre.</string>
+    <string name="navigation_map_theme_auto">Auto</string>
+    <string name="navigation_map_theme_auto_note">Clair du lever au coucher du soleil là où se trouve votre comma, sombre la nuit.</string>
+    <string name="navigation_map_theme_system">Comme le téléphone</string>
+    <string name="navigation_map_theme_system_note">Sombre quand le thème sombre de %1$s est activé, clair sinon. Vous pouvez le programmer dans les paramètres d\'Android.</string>
+    <string name="navigation_map_theme_light">Clair</string>
+    <string name="navigation_map_theme_light_note">Toujours clair : plus lisible au soleil.</string>
+    <string name="navigation_map_theme_dark">Sombre</string>
+    <string name="navigation_map_theme_dark_note">Toujours sombre : reposant la nuit, moins lisible au soleil.</string>
+
+    <!-- A route's problem in a few words, on the compact turn card (shared: NavRouteException). -->
+    <string name="navigation_route_brief_no_internet">Pas d\'Internet</string>
+    <string name="navigation_route_brief_busy">Routeur occupé</string>
+    <string name="navigation_route_brief_no_route">Routeur : aucun itinéraire</string>
+    <string name="navigation_route_brief_failed">Erreur du routeur</string>
+    <string name="navigation_route_brief_sign_in">Reconnectez-vous</string>
+    <string name="navigation_route_brief_not_on">Navigation désactivée</string>
+    <string name="navigation_route_brief_needs_key">Ajoutez une clé d’itinéraires</string>
+    <string name="navigation_error_needs_key">Ajoutez votre propre clé Stadia Maps pour obtenir des itinéraires : Réglages › Cartes et navigation.</string>
+    <string name="navigation_add_route_key">Ajouter votre clé</string>
+    <string name="navigation_route_brief_too_far">Trop loin</string>
+    <string name="navigation_route_brief_unavailable_here">Indisponible ici</string>
+    <string name="navigation_route_brief_own_key_refused">Clé refusée</string>
+    <string name="navigation_route_brief_own_key_limit">Clé hors limite</string>
+    <string name="navigation_unavailable_mainland_china">La navigation n\'est pas disponible en Chine continentale.</string>
+
+    <!-- Times on the turn card and route choices (shared: NavFormat.duration). -->
+    <string name="navigation_duration_minutes">%1$d min</string>
+    <string name="navigation_duration_hours_minutes">%1$d h %2$d min</string>
+
+    <!-- Where to? and the route's preview (NavigationPages). -->
+    <string name="navigation_where_to">Où allez-vous ?</string>
+    <string name="navigation_back_to_home">Retour à l\'accueil</string>
+    <string name="navigation_back_to_search">Retour à la recherche</string>
+    <string name="navigation_voice_unavailable">La recherche vocale n\'est pas disponible sur %1$s.</string>
+    <string name="navigation_typing_off_moving">La saisie est désactivée quand la voiture roule. Utilisez la voix ou un lieu enregistré.</string>
+    <string name="navigation_search_places">Rechercher un lieu ou une adresse</string>
+    <string name="navigation_clear_search">Effacer la recherche</string>
+    <string name="navigation_search_by_voice">Recherche vocale</string>
+    <string name="navigation_searching_near_comma">Recherche près de votre comma…</string>
+    <string name="navigation_searching">Recherche…</string>
+    <string name="navigation_results_near_comma">Résultats près de votre comma</string>
+    <string name="navigation_results">Résultats</string>
+    <string name="navigation_place_home">Domicile</string>
+    <string name="navigation_place_work">Travail</string>
+    <string name="navigation_saved">Enregistrés</string>
+    <string name="navigation_recent">Récents</string>
+    <string name="navigation_unavailable_mainland_china_body">La recherche, les itinéraires et le guidage sont désactivés quand votre comma ou votre téléphone est en Chine continentale. Hong Kong, Macao et Taïwan ne sont pas concernés.</string>
+    <string name="navigation_route_no_location">La position de votre comma n\'est pas disponible, donc l\'itinéraire part de sa première position dans Live View. Activez Position du véhicule dans ses paramètres pour voir l\'itinéraire ici d\'abord.</string>
+    <string name="navigation_finding_routes">Recherche d\'itinéraires…</string>
+    <string name="navigation_try_again">Réessayer</string>
+    <string name="navigation_stadia_dashboard">Votre tableau de bord Stadia</string>
+
+    <!-- %1$s is the route's length, %2$s the time of day it arrives. -->
+    <string name="navigation_route_distance_arrive">%1$s · Arrivée %2$s</string>
+    <string name="navigation_route_fastest">Le plus rapide · %1$s</string>
+    <string name="navigation_route_other">Itinéraire %1$d · %2$s</string>
+    <string name="navigation_start">Démarrer</string>
+    <string name="navigation_save_as_home">Enregistrer comme domicile</string>
+    <string name="navigation_save_as_work">Enregistrer comme travail</string>
+    <string name="navigation_saved_as_home">Enregistré comme domicile</string>
+    <string name="navigation_saved_as_work">Enregistré comme travail</string>
+
+    <!-- %1$s is who plans the routes ("Routes by Stadia Maps"). -->
+    <string name="navigation_routing_credit_display_only">%1$s · Le guidage est uniquement affiché et ne contrôle jamais la voiture.</string>
+    <string name="navigation_map_of_route">Carte de l\'itinéraire</string>
+
+    <!-- Where to? by voice, from the map's corner (CornerWhereTo). -->
+    <string name="navigation_corner_didnt_catch">Je n\'ai pas compris. Touchez Réessayer et dites un lieu ou une adresse.</string>
+    <string name="navigation_corner_search_failed">La recherche n\'a pas pu répondre. Réessayez dans un instant.</string>
+    <string name="navigation_corner_nothing_found">Aucun résultat pour « %1$s » près de votre comma.</string>
+    <string name="navigation_corner_voice_needs_internet">La voix nécessite Internet sur %1$s pour le moment. Vérifiez sa connexion et réessayez.</string>
+    <string name="navigation_corner_voice_busy">%1$s a sa reconnaissance vocale occupée. Réessayez dans un instant.</string>
+    <string name="navigation_corner_microphone_failed">Le microphone n\'a pas pu être utilisé. Réessayez.</string>
+    <string name="navigation_corner_listening">Écoute…</string>
+    <string name="navigation_corner_say_place">Dites un lieu ou une adresse</string>
+
+    <!-- What was heard, quoted. -->
+    <string name="navigation_corner_heard">« %1$s »</string>
+    <string name="navigation_corner_looking_near_comma">Recherche près de votre comma…</string>
+    <string name="navigation_cancel">Annuler</string>
+    <string name="navigation_close">Fermer</string>
+
+    <!-- The trip's guidance in the map's corner and on the turn card (LiveMapCorner, LiveNavigation). -->
+    <string name="navigation_vehicle_location_off">Position du véhicule désactivée</string>
+    <string name="navigation_waiting_for_gps">En attente du GPS</string>
+    <string name="navigation_waiting_for_position">En attente de la position de votre comma</string>
+    <string name="navigation_finding_route">Recherche d\'un itinéraire</string>
+    <string name="navigation_no_route_yet">Pas encore d\'itinéraire</string>
+    <string name="navigation_arrived">Vous êtes arrivé</string>
+    <string name="navigation_starting_guidance">Démarrage du guidage</string>
+    <string name="navigation_rerouting">Recalcul de l\'itinéraire…</string>
+    <string name="navigation_no_new_route_yet">Pas encore de nouvel itinéraire</string>
+
+    <!-- What TalkBack hears for the corner: %1$s the guidance's words, %2$s the distance. -->
+    <string name="navigation_corner_status_next_step">%1$s Prochaine étape dans %2$s</string>
+    <string name="navigation_corner_words_in">%1$s dans %2$s</string>
+
+    <!-- %1$s the time of day it arrives, %2$s the time left. -->
+    <string name="navigation_corner_arrive">Arrivée %1$s, %2$s</string>
+    <string name="navigation_corner_voice_muted">voix du guidage coupée</string>
+    <string name="navigation_map_road_ahead">Carte de la route devant</string>
+    <string name="navigation_unmute_voice">Réactiver la voix du guidage</string>
+    <string name="navigation_mute_voice">Couper la voix du guidage</string>
+    <string name="navigation_follow_car">Suivre la voiture</string>
+    <string name="navigation_route_overview">Vue d\'ensemble</string>
+    <string name="navigation_end">Arrêter la navigation</string>
+    <string name="navigation_where_to_by_voice">Où allez-vous ? par la voix</string>
+    <string name="navigation_vehicle_location_off_detail">Activez-la pour ce comma dans Accueil pour être guidé</string>
+    <string name="navigation_waiting_for_gps_detail">Le guidage démarre à la première position de votre comma</string>
+    <string name="navigation_waiting_for_position_detail">Position du véhicule doit être activée</string>
+    <string name="navigation_to_destination">Vers %1$s</string>
+    <string name="navigation_couldnt_get_route">Impossible d\'obtenir un itinéraire</string>
+    <string name="navigation_trying_again_every">Nouvel essai toutes les 15 s</string>
+
+    <!-- %1$s is the step after the next, as the route service words it. -->
+    <string name="navigation_then">Puis %1$s</string>
+
+    <!-- %1$s the time of day it arrives, %2$s the time left, %3$s the distance left. -->
+    <string name="navigation_arrive_time_distance">Arrivée %1$s · %2$s · %3$s</string>
+    <string name="navigation_paused_weak_gps">Guidage en pause : GPS faible ici</string>
+    <string name="navigation_off_route">Hors itinéraire</string>
+
+    <!-- Map credits (MapCredits): the credits' names stay as their owners write them. -->
+
+    <!-- %1$s lists the credits: "© OpenStreetMap contributors, © OpenMapTiles, OpenFreeMap". -->
+    <string name="navigation_credit_said">CommaView. Fourni par %1$s</string>
+    <string name="navigation_dismiss">Ignorer</string>
+    <string name="navigation_powered_by">Fourni par</string>
+    <string name="navigation_credit_osm">Données routières sous licence Open Database License (ODbL).</string>
+    <string name="navigation_credit_mapd">Données routières hors ligne, schéma et métadonnées des régions.</string>
+    <string name="navigation_credit_openmaptiles_live">La carte de Live View : le schéma de ses tuiles vectorielles, sous licence CC-BY 4.0.</string>
+    <string name="navigation_credit_openfreemap_live">Les tuiles de la carte de Live View, servies gratuitement sans clé.</string>
+    <string name="navigation_credit_maplibre_live">Dessine la carte de Live View. Licence BSD 2-Clause ; ses mentions sont fournies avec l\'application.</string>
+    <string name="navigation_credit_routing">Calcule les itinéraires de la navigation à partir des routes d\'OpenStreetMap.</string>
+    <string name="navigation_credit_search">Trouve les lieux pour Où allez-vous ?, à partir des données d\'OpenStreetMap.</string>
+    <string name="navigation_credit_openmaptiles">Le schéma des tuiles vectorielles de la carte, sous licence CC-BY 4.0.</string>
+    <string name="navigation_credit_openfreemap">Les tuiles de la carte, servies gratuitement sans clé.</string>
+    <string name="navigation_credit_maplibre">Dessine la carte. Licence BSD 2-Clause ; ses mentions sont fournies avec l\'application.</string>
+    <string name="navigation_map_credits">Crédits de la carte</string>
+
+    <!-- The trip's map and its credits (TripMap), the trip's end (TripEnded), Home's Where to? card (WhereToCard). -->
+    <string name="navigation_map_credits_described">Crédits de la carte : %1$s</string>
+    <string name="navigation_map_no_position">Carte : pas encore de position</string>
+    <string name="navigation_map_whole_route">Carte de tout l\'itinéraire</string>
+    <string name="navigation_show_whole_route">Afficher tout l\'itinéraire</string>
+    <string name="navigation_trip_ended">Trajet terminé</string>
+    <string name="navigation_resume">Reprendre</string>
+    <string name="navigation_back_to_live_view">Retour à Live View</string>
+    <string name="navigation_nothing_found">Aucun résultat pour « %1$s ».</string>
+    <string name="navigation_guiding_to">Guidage vers %1$s</string>
+
+    <!-- %1$s the time left, %2$s the distance left. -->
+    <string name="navigation_time_distance_left">%1$s · %2$s restants</string>
+    <string name="navigation_guidance_starts_in_live_view">Le guidage démarre dans Live View</string>
+    <string name="navigation_live_view">Live View</string>
+    <string name="navigation_end_trip">Terminer le trajet</string>
+    <string name="navigation_where_to_hint">Recherchez un lieu, puis enregistrez-le comme domicile ou travail pour y aller d\'un geste ici.</string>
+    <string name="navigation_search_for_place">Rechercher un lieu</string>
+    <string name="navigation_route_to">Itinéraire vers %1$s</string>
+
+    <!-- Why search or a route didn't come (NavigationServices, NavigationSession; through SharedWords, as NavRouteException's message). -->
+    <string name="navigation_error_search_no_internet">La recherche ne répond pas. Vérifiez la connexion Internet de %1$s.</string>
+    <string name="navigation_error_search_timeout">La recherche n\'a pas répondu à temps. Réessayez dans un instant.</string>
+    <string name="navigation_error_search_busy">La recherche est occupée. Réessayez dans un instant.</string>
+    <string name="navigation_error_search_status">La recherche n\'a pas pu répondre (%1$d). Réessayez dans un instant.</string>
+    <string name="navigation_error_route_no_internet">Le service d\'itinéraires ne répond pas. Vérifiez la connexion Internet de %1$s.</string>
+    <string name="navigation_error_route_busy">Le service d\'itinéraires est occupé. Réessayez dans un instant.</string>
+
+    <!-- %1$s is the status or code the route service answered with. -->
+    <string name="navigation_error_own_key_unreadable">Impossible de lire votre clé Stadia Maps sur %1$s pour le moment. Réessayez, ou ajoutez-la à nouveau dans Paramètres › Cartes et navigation.</string>
+    <string name="navigation_error_too_far_miles">C\'est trop loin pour un seul trajet : la navigation calcule des itinéraires jusqu\'à 930 miles. Choisissez une étape en chemin, puis repartez de là.</string>
+    <string name="navigation_error_too_far_km">C\'est trop loin pour un seul trajet : la navigation calcule des itinéraires jusqu\'à 1 500 km. Choisissez une étape en chemin, puis repartez de là.</string>
+    <string name="navigation_error_couldnt_get_route_retrying">Impossible d\'obtenir un itinéraire. Nouvel essai.</string>
+    <string name="navigation_routing_by_stadia">Itinéraires par Stadia Maps</string>
+    <string name="navigation_search_by_photon">Recherche par Photon</string>
+
+    <!-- The person's own Stadia Maps key (OwnStadiaKey). -->
+    <string name="navigation_own_key_over_limit">Votre clé Stadia Maps a dépassé sa limite (429) : ses crédits du mois sont épuisés, ou elle a fait trop de demandes à l\'instant. Vérifiez-la dans votre tableau de bord Stadia Maps (client.stadiamaps.com).</string>
+    <string name="navigation_own_key_refused">Stadia Maps a refusé votre clé (403) : votre forfait n\'inclut peut-être pas les itinéraires. Vérifiez-la dans votre tableau de bord Stadia Maps (client.stadiamaps.com), ou modifiez-la dans Paramètres › Cartes et navigation.</string>
+    <string name="navigation_own_key_not_accepted">Stadia Maps n\'a pas accepté votre clé (%1$d). Vérifiez-la dans votre tableau de bord Stadia Maps (client.stadiamaps.com), ou modifiez-la dans Paramètres › Cartes et navigation.</string>
+    <string name="navigation_key_check_accepted">Stadia Maps a accepté votre clé.</string>
+    <string name="navigation_key_check_over_limit">Stadia Maps indique que cette clé a dépassé sa limite (429) : ses crédits du mois sont épuisés, ou elle a fait trop de demandes à l\'instant.</string>
+    <string name="navigation_key_check_refused">Stadia Maps a refusé cette clé (403) : son forfait n\'inclut peut-être pas les itinéraires.</string>
+    <string name="navigation_key_check_not_accepted">Stadia Maps n\'a pas accepté cette clé (%1$d). Vérifiez qu\'elle est copiée en entier depuis votre tableau de bord.</string>
+    <string name="navigation_key_check_not_a_key">Ce n\'est pas une clé Stadia Maps. Copiez la clé API depuis votre tableau de bord Stadia Maps : lettres, chiffres et tirets.</string>
+    <string name="navigation_key_check_no_internet">Impossible de joindre Stadia Maps pour vérifier la clé. Vérifiez la connexion Internet de %1$s et réessayez.</string>
+    <string name="navigation_key_check_failed">Stadia Maps n\'a pas pu vérifier la clé pour le moment (%1$d). Réessayez dans un instant.</string>
+
+    <!-- Settings › Maps & navigation's preview of Live View with a trip (LiveMapPreview). -->
+    <string name="navigation_preview_tag_corner">Sur cet écran : dans le coin</string>
+    <string name="navigation_preview_tag_beside">Sur cet écran : à côté de la vidéo</string>
+
+    <!-- %1$s is the preview's tag: where the map is on this screen. -->
+    <string name="navigation_preview_said">Aperçu de Live View avec la carte d\'un trajet. %1$s</string>
+
+    <!-- %1$s the time of day it arrives, %2$s the time left. -->
+    <string name="navigation_preview_arrive_time">%1$s · %2$s</string>
+    <string name="navigation_map_theme_system_device">Comme cet appareil</string>
+
+    <!-- A place shared from a maps app (SharedDestinations, Home). -->
+    <string name="navigation_share_target">Naviguer avec CommaView</string>
+    <string name="navigation_shared_place">Lieu partagé</string>
+    <string name="navigation_shared_not_a_place">CommaView n’a trouvé aucun lieu dans ce qui a été partagé.</string>
+    <string name="navigation_shared_unreached">CommaView n’a pas pu ouvrir le lien partagé. Vérifiez la connexion Internet de %1$s.</string>
+    <string name="navigation_shared_not_on">La navigation n’est pas activée pour ce compte : le lieu partagé ne peut pas s’ouvrir.</string>
+    <string name="navigation_shared_no_comma">Ajoutez d’abord votre comma : un lieu partagé ouvre son itinéraire sur l’Accueil.</string>
+
+
+    <!-- Send to comma: the comma's own navigation (SendToCommaSection). %1$s is the fork's name. -->
+    <string name="navigation_send_to_comma">Envoyer au comma</string>
+    <string name="navigation_send_to_comma_clear">Effacer du comma</string>
+    <string name="navigation_send_to_comma_cleared">Effacé de votre comma.</string>
+    <string name="navigation_send_to_comma_sent">Envoyé à votre comma. %1$s y planifie son propre itinéraire.</string>
+    <string name="navigation_send_to_comma_failed">Impossible de l’envoyer à votre comma : %1$s</string>
+    <string name="navigation_send_to_comma_onroad">Arrêtez-vous d’abord : votre comma ne l’accepte qu’hors route.</string>
+    <string name="navigation_comma_unreachable">Impossible de joindre votre comma pour lui envoyer ce trajet. Connectez ce téléphone au même réseau que votre comma, puis réessayez.</string>
+    <string name="navigation_send_trips_title">Envoyer chaque trajet à ce comma</string>
+    <string name="navigation_send_trips_detail">Quand vous touchez Démarrer, %1$s reçoit aussi la destination. Elle est effacée à la fin du trajet.</string>
+    <string name="navigation_send_trips_paused">En pause : les réglages de conduite de %1$s ont changé depuis que vous avez activé ceci. Réactivez-le pour les accepter.</string>
+    <string name="navigation_send_trips_confirm_title">Envoyer chaque trajet à %1$s ?</string>
+    <string name="navigation_send_trips_confirm_intro">%1$s calcule son propre itinéraire vers la destination de chaque trajet et l\'affiche sur le comma. Avec ses réglages actuels, il :</string>
+    <string name="navigation_send_trips_confirm_shows">%1$s calcule son propre itinéraire vers la destination de chaque trajet et l\'affiche sur le comma. Avec ses réglages actuels, il ne change pas la conduite de la voiture.</string>
+    <string name="navigation_send_trips_confirm_when">Chaque trajet démarré avec ce comma est envoyé quand vous touchez Démarrer et effacé à la fin. Si ses réglages de conduite changent, l\'envoi est mis en pause jusqu\'à ce que vous les acceptiez à nouveau. Désactivez-le ici à tout moment.</string>
+    <string name="navigation_send_trips_turn_on">Activer</string>
+    <string name="navigation_send_to_comma_confirm_title">Envoyer à %1$s sur votre comma ?</string>
+    <string name="navigation_send_to_comma_confirm_intro">%1$s planifie son propre itinéraire vers ce lieu et l’affiche sur le comma. Avec ses réglages actuels, il va aussi :</string>
+    <string name="navigation_send_to_comma_confirm_shows">%1$s planifie son propre itinéraire vers ce lieu et l’affiche sur le comma. Avec ses réglages actuels, il ne change pas la conduite de la voiture.</string>
+    <string name="navigation_send_to_comma_confirm_settings">Ce sont les réglages de %1$s : modifiez-les dans ses réglages sur le comma, ou dans CommaView.</string>
+    <string name="navigation_drive_turn_speed">ralentir avant les virages et les ronds-points</string>
+    <string name="navigation_drive_turn_desire">prendre un virage que vous signalez près des virages de l’itinéraire comme un virage, et non un changement de voie</string>
+    <string name="navigation_drive_lane_position">rester sur la voie dont l’itinéraire a besoin</string>
+    <string name="navigation_drive_auto_turn">mettre le clignotant et tourner tout seul aux virages de l’itinéraire</string>
+    <string name="navigation_send">Envoyer</string>
+    <string name="navigation_comma_nav_off">La navigation (alpha) d’openpilot est désactivée sur votre comma.</string>
+    <string name="navigation_comma_nav_off_release">Cet openpilot désactive sa navigation (alpha) à chaque démarrage : elle ne peut pas encore rester activée.</string>
+    <string name="navigation_comma_nav_turn_on">Activer la navigation (alpha)</string>
+    <string name="navigation_comma_nav_turn_on_title">Activer la navigation (alpha) d’openpilot ?</string>
+    <string name="navigation_comma_nav_turn_on_message">La navigation pas à pas d’openpilot, avec une carte de l’itinéraire sur le comma four. C’est une alpha, qu’openpilot masque dans ses propres réglages sur les versions release. Désactivez-la dans les réglages de votre comma dans CommaView.</string>
+    <string name="navigation_comma_nav_turned_on">La navigation (alpha) d’openpilot est activée.</string>
+</resources>

@@ -275,6 +275,7 @@
     <string name="devices_leaderboard">Bestenliste</string>
     <string name="devices_recent_recordings">Letzte Aufnahmen</string>
     <string name="devices_view_all">Alle ansehen</string>
+    <string name="devices_overlay_packs">Overlay-Pakete</string>
     <string name="devices_open_store">Store öffnen</string>
     <string name="devices_view_all_recordings">Alle Aufnahmen ansehen</string>
     <string name="devices_no_recordings">Noch keine Aufnahmen. Nehmen Sie eine Fahrt in Live View auf.</string>
@@ -432,8 +433,15 @@
     <string name="devices_dev_runtime_queue_install">Installation einreihen</string>
     <!-- Phone keys: joining by an invitation, and a comma that already has a phone with a key. -->
     <string name="devices_pairing_failed_legacy_off">Kopplung fehlgeschlagen: Dieses comma koppelt nicht mehr per Code. Fügen Sie dieses %1$s von einem hinzu, das schon einen Schlüssel dafür hat (dessen Einstellungen, „Weiteres Handy hinzufügen“), oder richten Sie das comma erneut ein.</string>
-    <string name="devices_invitation_needed_named">%1$s hat schon ein Handy mit eigenem Schlüssel, und dieses %2$s hat keinen. Ist das keines Ihrer Handys, hat es vielleicht jemand anderes zuerst hinzugefügt: Entfernen Sie per SSH alle Handys auf dem comma (commaviewd phones revoke-all) und richten Sie es dann von diesem %2$s aus neu ein. Sonst fügen Sie dieses %2$s von jenem hinzu (dessen Einstellungen, „Weiteres Handy hinzufügen“).</string>
-    <string name="devices_invitation_needed_this">Dieses comma hat schon ein Handy mit eigenem Schlüssel, und dieses %1$s hat keinen. Ist das keines Ihrer Handys, hat es vielleicht jemand anderes zuerst hinzugefügt: Entfernen Sie per SSH alle Handys auf dem comma (commaviewd phones revoke-all) und richten Sie es dann von diesem %1$s aus neu ein. Sonst fügen Sie dieses %1$s von jenem hinzu (dessen Einstellungen, „Weiteres Handy hinzufügen“).</string>
+    <string name="devices_token_no_longer_taken_named">%1$s nimmt das gemeinsame Token, mit dem dieses %2$s gekoppelt wurde, nicht mehr an, und dieses %2$s hat keinen eigenen Schlüssel dafür. Fügen Sie dieses %2$s von einem Handy hinzu, das einen hat (dessen Einstellungen, „Weiteres Handy hinzufügen“).</string>
+    <string name="devices_token_no_longer_taken_this">Dieses comma nimmt das gemeinsame Token, mit dem dieses %1$s gekoppelt wurde, nicht mehr an, und dieses %1$s hat keinen eigenen Schlüssel dafür. Fügen Sie dieses %1$s von einem Handy hinzu, das einen hat (dessen Einstellungen, „Weiteres Handy hinzufügen“).</string>
+    <string name="devices_new_phone_key_title">Ein neues Handy hat einen Schlüssel</string>
+    <string name="devices_new_phone_key_message">Ein neues Handy hat einen Schlüssel für %1$s bekommen: %2$s, %3$s. Ist es keines Ihrer Handys, entfernen Sie es. Jedes Handy mit Schlüssel steht auch in den Einstellungen des comma unter „Weiteres Handy koppeln“.</string>
+    <string name="devices_new_phone_key_by_token">Es hat seinen Schlüssel mit dem gemeinsamen Token bekommen, das ältere Apps senden, wie ein früher gekoppeltes Handy. Wer dieses Token im Netzwerk gesehen hat, könnte dasselbe tun, bis das comma es nicht mehr annimmt („Jetzt beenden“).</string>
+    <string name="devices_new_phone_key_dismiss">Es ist meins</string>
+    <string name="devices_new_phone_key_review">Handys prüfen</string>
+    <string name="devices_new_phone_key_removed">%1$s hat keinen Schlüssel mehr für %2$s.</string>
+    <string name="devices_new_phone_key_comma_gone">%1$s ist auf diesem %2$s nicht mehr gespeichert, daher können seine Handys hier nicht gezeigt werden. Fügen Sie es erneut hinzu, um sie zu sehen.</string>
     <string name="devices_invitation_failed">Mit dieser Einladung ließ sich nicht beitreten. Sie ist vielleicht vertippt, abgelaufen oder schon genutzt. Zeigen Sie eine neue auf dem Handy, das dieses comma schon hat (dessen Einstellungen, „Weiteres Handy hinzufügen“).</string>
 
     <!-- Why a pair code couldn't be redeemed, when the comma or the network gave no words (RemoteAccessClient.kt). -->

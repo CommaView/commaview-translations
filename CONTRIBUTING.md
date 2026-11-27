@@ -82,3 +82,10 @@ which leave Compose's `hyphens` unset (no hyphenation), Android neither breaks a
 Only with `Hyphens.Auto` does it break at either, drawing a hyphen at a soft one (`Fahrzeug- / standort`), and that
 would also hyphenate every other word by its dictionary, so the app doesn't set it. A compound kept whole must fit its
 line whole, hyphens and all.
+
+## The website's words
+
+The words of [commaview.com](https://commaview.com), its guides, blog posts, Supported forks and What's new, are in
+`website/`, translated file by file. [website/README.md](website/README.md) says what each file is and what stays
+as English has it (a guide's steps, screens and links, a post's date). The rules above hold there too, and a word the
+app shows, in **bold** in a guide, is the app's own translation from `app/values-<qualifier>/`.

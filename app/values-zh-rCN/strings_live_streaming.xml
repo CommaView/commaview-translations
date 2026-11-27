@@ -246,6 +246,7 @@
     <!-- Why a stream, a live copy or Browser View didn't start or stopped (LiveStreamController, LiveStreamSender). -->
     <string name="live_streaming_open_live_view_to_go_live">请打开 Live View 再开始直播</string>
     <string name="live_streaming_open_live_view_to_record">请打开 Live View 再录制</string>
+    <string name="live_streaming_open_live_view_for_car_screen">请打开 Live View 才能在车载屏幕上显示</string>
     <string name="live_streaming_storage_unavailable">录像存储空间不可用</string>
     <string name="live_streaming_no_video">直播已停止：一分钟内未收到 comma 的视频</string>
     <string name="live_streaming_copy_no_video">实时副本已停止：一分钟内未收到 comma 的视频。已录下的内容保存在“录像”中。</string>
@@ -253,13 +254,23 @@
     <string name="live_streaming_encoder_failed">视频编码器出错：%1$s</string>
     <string name="live_streaming_copy_encoder_stopped">实时副本已停止：视频编码器已停止：%1$s</string>
     <string name="live_streaming_copy_encoder_failed">实时副本已停止：视频编码器出错：%1$s</string>
+    <string name="live_streaming_car_screen_encoder_stopped">Browser View 已停止：视频编码器已停止：%1$s</string>
+    <string name="live_streaming_car_screen_encoder_failed">Browser View 已停止：视频编码器出错：%1$s</string>
+    <string name="live_streaming_car_screen_no_port">Browser View 无法启动：%1$s没有可用的端口。请关闭其他通过 Wi‑Fi 共享的应用，然后重试。</string>
+    <string name="live_streaming_car_screen_couldnt_start">Browser View 无法在%1$s上启动。请确认 Wi‑Fi 已开启，然后重试。</string>
+    <string name="live_streaming_silent_live_car_screen">没有声音：Browser View 正在无声运行。如需声音，请先停止它再开始直播</string>
     <string name="live_streaming_silent_live_recording">没有声音：录制正在无声进行。如需声音，请先停止它再开始直播</string>
+    <string name="live_streaming_silent_live_car_screen_and_recording">没有声音：Browser View 和录制正在无声进行。如需声音，请先停止它们再开始直播</string>
+    <string name="live_streaming_silent_recording_car_screen">录制没有声音：Browser View 正在无声运行。如需声音，请先停止它再录制</string>
     <string name="live_streaming_silent_recording_stream">录制没有声音：推流正在无声进行。如需声音，请先停止它再录制</string>
+    <string name="live_streaming_silent_recording_car_screen_and_stream">录制没有声音：Browser View 和推流正在无声进行。如需声音，请先停止它们再录制</string>
     <string name="live_streaming_cant_encode_sound">没有声音：%1$s无法编码声音</string>
     <string name="live_streaming_encoder_busy_stream">%1$s的视频编码器正忙，无法编码推流。请关闭其他正在录制或推流视频的应用，然后重试。</string>
     <string name="live_streaming_encoder_busy_copy">%1$s的视频编码器正忙，无法编码实时副本。请关闭其他正在录制或推流视频的应用，然后重试。</string>
+    <string name="live_streaming_encoder_busy_car_screen">%1$s的视频编码器正忙，无法为车载屏幕编码 Live View。请关闭其他正在录制或推流视频的应用，然后重试。</string>
     <string name="live_streaming_encoder_quality_stream">%1$s无法以此画质编码推流。请在“设置”中选择较低的画质，然后重试。</string>
     <string name="live_streaming_encoder_quality_copy">%1$s无法以此画质编码实时副本。请在“设置”中选择较低的画质，然后重试。</string>
+    <string name="live_streaming_encoder_quality_car_screen">%1$s无法以此画质为车载屏幕编码 Live View。请在“设置”中选择较低的画质，然后重试。</string>
     <string name="live_streaming_failed">直播失败：%1$s</string>
     <string name="live_streaming_connection_lost_because">连接中断：%1$s</string>
     <string name="live_streaming_connection_lost">连接中断</string>

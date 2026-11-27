@@ -417,7 +417,25 @@
     <string name="recordings_export_size">%1$d min · environ %2$s</string>
     <string name="recordings_export_free">Libre sur %2$s : %1$s</string>
     <string name="recordings_export_needs">Environ %1$s libres requis. Libérez d\'abord de l\'espace.</string>
+    <!-- 08_pack -->
+    <string name="recordings_pack_drive_menu_label">Garder pour le studio de packs…</string>
+    <string name="recordings_pack_drive_menu_note">Sa télémétrie, pour tester des packs de superposition</string>
+    <string name="recordings_pack_drive_title">Garder ce trajet pour le studio de packs</string>
+    <string name="recordings_pack_drive_intro">Enregistre la télémétrie de ce trajet dans un fichier que le studio de packs et l\'aperçu de packs ouvrent, pour essayer un pack de superposition sur votre propre trajet.</string>
+    <string name="recordings_pack_drive_removed">Retirés : où est allée la voiture (position, navigation et sa carte, noms de rues, boussole), le VIN de la voiture, les noms et ID de votre comma et de %1$s, et ce qu\'ont ajouté les packs de superposition.</string>
+    <string name="recordings_pack_drive_removed_keeping_packs">Retirés : où est allée la voiture (position, navigation et sa carte, noms de rues, boussole), le VIN de la voiture, et les noms et ID de votre comma et de %1$s.</string>
+    <string name="recordings_pack_drive_packs_title">Inclure ce qu\'ont envoyé les packs</string>
+    <string name="recordings_pack_drive_packs_off">Désactivé : le fichier n\'en contient rien. L\'auteur d\'un pack peut toujours rejouer son pack dans le studio.</string>
+    <string name="recordings_pack_drive_packs_on">Activé : ce que le code de chaque pack a envoyé, pour le rejouer tel quel. Un pack décide de ce qu\'il envoie, cela peut donc inclure où vous étiez ; les champs connus de lieu et d\'ID en sont retirés.</string>
+    <string name="recordings_pack_drive_kept">Il contient toujours la date et l\'heure du trajet, sa vitesse, et ce qu\'openpilot a vu : la route, les véhicules de tête et l\'état de la voiture.</string>
+    <string name="recordings_pack_drive_save">Enregistrer dans un fichier</string>
+    <string name="recordings_pack_drive_try_again">Réessayer</string>
+    <string name="recordings_pack_drive_saving">Enregistrement du fichier…</string>
+    <string name="recordings_pack_drive_downloading">Téléchargement depuis le comma</string>
+    <string name="recordings_pack_drive_connecting">Demande de ce trajet au comma…</string>
     <string name="recordings_close">Fermer</string>
+    <string name="recordings_pack_drive_share">Enregistrer ou partager ce trajet</string>
+    <string name="recordings_pack_drive_share_failed">Impossible de partager le trajet enregistré</string>
     <!-- 09_upload -->
     <string name="recordings_upload_downloading">Téléchargement depuis le comma</string>
     <string name="recordings_upload_preparing">Préparation des journaux</string>
@@ -677,6 +695,15 @@
     <string name="recordings_service_starting">Démarrage de la relecture</string>
     <string name="recordings_service_title">Création des relectures · %1$d en file</string>
     <string name="recordings_service_text_percent">%1$s · %2$d %%</string>
+    <!-- 14_settings -->
+    <string name="recordings_pack_export_nothing_to_save">Rien à enregistrer : le comma n\'a conservé aucune donnée de conduite pour la durée de cet enregistrement.</string>
+    <string name="recordings_pack_export_no_longer_on_comma">Ce trajet n\'est plus sur le comma, il ne peut donc pas être enregistré.</string>
+    <string name="recordings_pack_export_cant_reach">Impossible de joindre le comma qui a enregistré ce trajet. Connectez-vous à lui (son Wi-Fi ou point d\'accès), gardez-le allumé et réessayez.</string>
+    <string name="recordings_pack_export_park_first">Le comma ne partage les trajets que voiture garée. Garez-vous avec openpilot désengagé, puis réessayez.</string>
+    <string name="recordings_pack_export_pair_again">Associez à nouveau %1$s au comma qui a enregistré ce trajet, puis réessayez.</string>
+    <string name="recordings_pack_export_not_enough_space">Espace libre insuffisant sur %1$s pour télécharger ce trajet. Libérez de l\'espace, puis réessayez.</string>
+    <string name="recordings_pack_export_too_long">Ce trajet est trop long pour être enregistré pour le studio de packs.</string>
+    <string name="recordings_pack_export_failed">Impossible d\'enregistrer ce trajet : %1$s</string>
     <string name="recordings_saves_replay">Relecture après le trajet</string>
     <string name="recordings_saves_live_copy">Copie en direct immédiate</string>
     <string name="recordings_saves_both">Les deux</string>

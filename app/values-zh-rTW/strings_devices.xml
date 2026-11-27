@@ -275,6 +275,7 @@
     <string name="devices_leaderboard">排行榜</string>
     <string name="devices_recent_recordings">最近的錄影</string>
     <string name="devices_view_all">全部查看</string>
+    <string name="devices_overlay_packs">疊加套件</string>
     <string name="devices_open_store">開啟商店</string>
     <string name="devices_view_all_recordings">查看所有錄影</string>
     <string name="devices_no_recordings">尚無錄影。請從 Live View 錄下一段行程。</string>
@@ -422,8 +423,15 @@
     <string name="devices_dev_runtime_queue_install">排入安裝</string>
     <!-- Phone keys: joining by an invitation, and a comma that already has a phone with a key. -->
     <string name="devices_pairing_failed_legacy_off">配對失敗：這台 comma 已不再透過配對碼配對。請從已擁有其金鑰的手機新增%1$s（在該手機的設定中選擇「新增另一支手機」），或重新為這台 comma 執行設定。</string>
-    <string name="devices_invitation_needed_named">「%1$s」已有一支擁有自己金鑰的手機，而%2$s沒有。如果那不是您的手機，可能是其他人先加入了：請透過 SSH 移除 comma 上的所有手機（commaviewd phones revoke-all），再從%2$s重新設定。否則，請從那支手機新增%2$s（在其設定中選擇「新增另一支手機」）。</string>
-    <string name="devices_invitation_needed_this">這台 comma 已有一支擁有自己金鑰的手機，而%1$s沒有。如果那不是您的手機，可能是其他人先加入了：請透過 SSH 移除 comma 上的所有手機（commaviewd phones revoke-all），再從%1$s重新設定。否則，請從那支手機新增%1$s（在其設定中選擇「新增另一支手機」）。</string>
+    <string name="devices_token_no_longer_taken_named">「%1$s」已不再接受%2$s配對時使用的共用權杖，而%2$s沒有它的專屬金鑰。請從擁有金鑰的手機新增%2$s（在其設定中選擇「新增另一支手機」）。</string>
+    <string name="devices_token_no_longer_taken_this">這台 comma 已不再接受%1$s配對時使用的共用權杖，而%1$s沒有它的專屬金鑰。請從擁有金鑰的手機新增%1$s（在其設定中選擇「新增另一支手機」）。</string>
+    <string name="devices_new_phone_key_title">有新手機取得了金鑰</string>
+    <string name="devices_new_phone_key_message">一支新手機取得了「%1$s」的金鑰：%2$s，%3$s。如果那不是您的手機，請移除它。所有擁有金鑰的手機也列在 comma 的設定「配對其他手機」中。</string>
+    <string name="devices_new_phone_key_by_token">它和之前配對的手機一樣，用舊版 App 傳送的共用權杖取得了金鑰。在網路上看過該權杖的人也能這樣做，直到 comma 不再接受它（立即停止）。</string>
+    <string name="devices_new_phone_key_dismiss">這是我的</string>
+    <string name="devices_new_phone_key_review">查看手機</string>
+    <string name="devices_new_phone_key_removed">%1$s 已不再擁有「%2$s」的金鑰。</string>
+    <string name="devices_new_phone_key_comma_gone">「%1$s」已不再儲存在%2$s上，因此無法在此顯示它的手機。請重新新增它以查看。</string>
     <string name="devices_invitation_failed">無法使用該邀請碼加入。它可能輸入錯誤、已失效或已被使用。請在已連接這台 comma 的手機上顯示新的邀請碼（在其設定中選擇「新增另一支手機」）。</string>
 
     <!-- Why a pair code couldn't be redeemed, when the comma or the network gave no words (RemoteAccessClient.kt). -->

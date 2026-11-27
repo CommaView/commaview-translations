@@ -27,6 +27,7 @@
     <string name="settings_page_about">About</string>
     <string name="settings_page_licenses">Open-source licenses</string>
     <string name="settings_page_license">License</string>
+    <string name="settings_page_overlay_packs">Overlay packs</string>
     <string name="settings_page_device">Device settings</string>
     <string name="settings_page_device_facts">Name and address</string>
     <string name="settings_page_device_network">Network</string>
@@ -35,6 +36,7 @@
 
     <!-- The Settings hub's rows, under each title. -->
     <string name="settings_hub_display_subtitle">Onroad screen and its options, driver position and daylight</string>
+    <string name="settings_hub_maps_navigation_subtitle">The map in Live View, spoken guidance, your places and offline maps</string>
     <string name="settings_hub_maps_navigation_key_subtitle">Offline maps, and Navigation with your own Stadia Maps key</string>
     <string name="settings_hub_offline_maps_subtitle">Download regions and show speed limits from your comma’s location</string>
     <string name="settings_hub_live_streaming_subtitle">Go live from Live View to YouTube or another server</string>

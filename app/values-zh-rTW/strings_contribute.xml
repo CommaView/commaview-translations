@@ -52,6 +52,7 @@
     <plurals name="contribute_bundle_events">
         <item quantity="other">• recording/events.jsonl 與 manifest.json：錄影錯誤歷史，%1$d 個事件</item>
     </plurals>
+    <string name="contribute_bundle_navigation">• navigation/search-counts.txt：導航搜尋次數</string>
     <string name="contribute_bundle_leaderboard">• leaderboard/status.txt：排行榜狀態：是否要求並轉送您 comma 的聲明</string>
     <string name="contribute_bundle_report">• report.txt：您寫的內容，以及每份回報都會附上的資訊</string>
     <string name="contribute_bundle_json">• bundle.json：資料包包含的內容</string>

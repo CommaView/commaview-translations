@@ -390,7 +390,25 @@
     <string name="recordings_export_size">%1$d dk · yaklaşık %2$s</string>
     <string name="recordings_export_free">Boş alan (%2$s): %1$s</string>
     <string name="recordings_export_needs">Yaklaşık %1$s boş alan gerekiyor. Önce biraz yer açın.</string>
+    <!-- 08_pack -->
+    <string name="recordings_pack_drive_menu_label">Paket stüdyosu için kaydet…</string>
+    <string name="recordings_pack_drive_menu_note">Katman paketlerini üzerinde denemek için telemetrisi</string>
+    <string name="recordings_pack_drive_title">Bu sürüşü paket stüdyosu için kaydedin</string>
+    <string name="recordings_pack_drive_intro">Bu sürüşün telemetrisini paket stüdyosunun ve paket önizleyicisinin açtığı bir dosya olarak kaydeder; böylece bir katman paketini kendi sürüşünüzde deneyebilirsiniz.</string>
+    <string name="recordings_pack_drive_removed">Çıkarılanlar: aracın gittiği yerler (konum, navigasyon ve haritası, yol adları, pusula), aracın VIN\'i, comma\'nızın ve %1$s adları ve kimlikleri ve katman paketlerinin ekledikleri.</string>
+    <string name="recordings_pack_drive_removed_keeping_packs">Çıkarılanlar: aracın gittiği yerler (konum, navigasyon ve haritası, yol adları, pusula), aracın VIN\'i ve comma\'nızın ve %1$s adları ve kimlikleri.</string>
+    <string name="recordings_pack_drive_packs_title">Katman paketlerinin gönderdiklerini dahil et</string>
+    <string name="recordings_pack_drive_packs_off">Kapalı: dosyada bunların hiçbiri yok. Bir paketin yazarı paketini stüdyoda yine de tekrar oynatabilir.</string>
+    <string name="recordings_pack_drive_packs_on">Açık: her paketin kodunun gönderdikleri, olduğu gibi tekrar oynatmak için. Ne göndereceğine paket karar verir, bu yüzden nerede olduğunuzu içerebilir; bilinen yer ve kimlik alanları çıkarılır.</string>
+    <string name="recordings_pack_drive_kept">Sürüşün tarihini ve saatini, hızını ve openpilot\'un gördüklerini yine de içerir: yol, öndeki araçlar ve aracın durumu.</string>
+    <string name="recordings_pack_drive_save">Dosya olarak kaydet</string>
+    <string name="recordings_pack_drive_try_again">Yeniden dene</string>
+    <string name="recordings_pack_drive_saving">Dosya kaydediliyor…</string>
+    <string name="recordings_pack_drive_downloading">comma\'dan indiriliyor</string>
+    <string name="recordings_pack_drive_connecting">comma\'dan bu sürüş isteniyor…</string>
     <string name="recordings_close">Kapat</string>
+    <string name="recordings_pack_drive_share">Bu sürüşü kaydedin veya paylaşın</string>
+    <string name="recordings_pack_drive_share_failed">Kaydedilen sürüş paylaşılamıyor</string>
     <!-- 09_upload -->
     <string name="recordings_upload_downloading">comma\'dan indiriliyor</string>
     <string name="recordings_upload_preparing">Günlükler hazırlanıyor</string>
@@ -648,6 +666,15 @@
     <string name="recordings_service_starting">Tekrar oynatma başlatılıyor</string>
     <string name="recordings_service_title">Tekrar oynatmalar oluşturuluyor · kuyrukta %1$d</string>
     <string name="recordings_service_text_percent">%1$s · %2$d%%</string>
+    <!-- 14_settings -->
+    <string name="recordings_pack_export_nothing_to_save">Kaydedilecek bir şey yok: comma bu kaydın zamanı için sürüş verisi tutmadı.</string>
+    <string name="recordings_pack_export_no_longer_on_comma">Bu sürüş artık comma\'da değil, bu yüzden kaydedilemez.</string>
+    <string name="recordings_pack_export_cant_reach">Bu sürüşü kaydeden comma\'ya ulaşılamıyor. Ona bağlanın (Wi‑Fi\'ı veya hotspot\'u), açık tutun ve yeniden deneyin.</string>
+    <string name="recordings_pack_export_park_first">comma sürüşleri yalnızca araç park hâlindeyken paylaşır. openpilot devre dışıyken park edip yeniden deneyin.</string>
+    <string name="recordings_pack_export_pair_again">Bu sürüşü kaydeden comma\'yı %1$sla yeniden eşleştirip tekrar deneyin.</string>
+    <string name="recordings_pack_export_not_enough_space">Bu sürüşü indirmek için %1$sda yeterli boş alan yok. Biraz yer açıp yeniden deneyin.</string>
+    <string name="recordings_pack_export_too_long">Bu sürüş paket stüdyosu için kaydedilemeyecek kadar uzun.</string>
+    <string name="recordings_pack_export_failed">Bu sürüş kaydedilemedi: %1$s</string>
     <string name="recordings_saves_replay">Sürüşten sonra tekrar oynatma</string>
     <string name="recordings_saves_live_copy">Şimdi canlı kopya</string>
     <string name="recordings_saves_both">İkisi de</string>

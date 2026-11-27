@@ -1,0 +1,37 @@
+date: 2026-10-05
+runtimeVersion: 0.0.56
+title: A redesigned CommaView, our own overlay, and the leaderboard
+out:
+  - title: A redesigned app
+    text: "Every screen is rebuilt in a new design: the home, Live View, Recordings, Settings, pairing and setup. It comes with a new icon and launch screen, and a Daylight mode for bright days."
+  - title: A new home
+    text: Your car on its stage with Open Live View, then Driving this week, Vehicle location, your recent recordings and the leaderboard. Arrange it with Customize home. Your comma shows as connected on its own, with no Reconnect to tap.
+  - title: Made for tablets and head units
+    text: On a wider screen the home becomes a dashboard, Settings and Recordings open beside their lists, and pairing fits any head unit.
+  - title: The CommaView overlay
+    text: "Our own onroad screen: your speed, MAX and the speed limit in one cluster, lane lines that show how sure the model is, driver monitoring and alerts that stay out of your way, and Canada’s MAXIMUM sign where it applies. The comma 3X and comma four screens are there too, and you can switch screens right from Live View."
+  - title: Simpler display settings
+    text: One Onroad overlay section with a live preview, and CommaView chosen for you.
+  - title: Better recordings
+    text: Replays look exactly like Live View, play in the app, and can be made with the car in Park. They show their progress while they’re made. Each drive has a thumbnail, and you’re warned before your comma deletes one.
+  - title: Recordings on all your devices
+    text: Your recordings follow you between your paired phones and head units.
+  - title: Driving insights and Vehicle location
+    text: Your week’s distance, drive time and drives from your comma’s own logs, and where your car is and where you parked, on a dark map. Location stays off until you turn it on.
+  - title: A device page
+    text: Your comma’s status and runtime in one place. From there you can open Live View, manage Wi-Fi power saving, repair, and share logs when you need help.
+  - title: Updates in the app
+    text: App updates download in the background, with an update button on every screen. Runtime updates, repairs and uninstalling need no SSH. Each update shows its steps as it goes, and the home keeps you posted. Anything that can’t happen while you drive waits until the car is in Park.
+  - title: Leaderboard
+    text: Opt in from the home with a display name to see this week’s podium, last week’s results and lifetime rankings. Badges are earned from your comma’s own recorded distance, and a comma.ai lifetime board shows the total comma.ai has for your comma.
+  - title: Crash reports
+    text: They help us fix problems faster, with personal details stripped out. You can turn them off in Settings.
+  - title: Fixes
+    text: The comma four’s MAX speed no longer flickers when engaged. The comma 3 now says plainly that it isn’t supported; CommaView works on the comma 3X and comma four.
+runtime:
+  - title: Updates in Park, even at home
+    text: Keep the car on in Park with openpilot disengaged, or set the comma up on your desk. A drive is never interrupted.
+  - title: Safer updates
+    text: One at a time, and if anything goes wrong your comma goes back to the version it had.
+  - title: What powers the new features
+    text: Driving insights, Vehicle location, recordings across your devices and leaderboard syncing all come from the new runtime. The app installs it for you.

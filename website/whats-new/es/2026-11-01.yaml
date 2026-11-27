@@ -1,0 +1,39 @@
+title: Transmitir para todos, envío de viajes, y más forks de openpilot, sin garantías
+out:
+  - title: Transmitir, para todos
+    text: "Emite lo que muestra Live View a tu canal de YouTube o a otro servidor RTMP, a 720p o 1080p, con el sonido del micrófono de tu comma o del de tu teléfono si eliges uno. Configúralo en Ajustes › Transmisión en vivo. Las transmisiones empiezan como No listado, y quien las vea sabe por dónde conduces."
+  - title: Enviar a CommaView, para miembros
+    text: "Envíanos uno o varios viajes desde Grabaciones con una nota sobre lo que pasó: el vídeo de carretera y gran angular de cada uno y su registro, nunca la cámara del conductor, el sonido ni el VIN de tu coche. Una sola hoja Enviar a CommaView lleva ahora todo lo que nos envías, tanto problemas como ideas."
+  - title: Varios viajes a la vez
+    text: "Selecciona viajes en Grabaciones para compartirlos, hacer sus reproducciones, enviarlos o eliminarlos juntos."
+  - title: Tus solicitudes
+    text: "Cuando informas de un problema o envías una idea con la sesión iniciada, podemos responderte: Ajustes › Soporte y diagnóstico › Tus solicitudes muestra nuestras respuestas, recibes un correo y la conversación sigue en my.commaview.com."
+  - title: Live View cabe en cualquier pantalla
+    text: "Sus controles ya no se desplazan ni cortan Salir: lo que no cabe va a Más, y un texto más grande mueve controles a Más en lugar de encoger nada. Live View es más ligero para el teléfono, y se recupera solo en lugar de congelarse."
+  - title: Ajustes reorganizados
+    text: "Privacidad y uso compartido dice qué sale de tu teléfono, Soporte y diagnóstico es donde informar de un problema y encontrar tus solicitudes, y Cuenta termina con Eliminar tu cuenta. Ayuda a mejorar CommaView pregunta una vez si enviar informes de fallos y qué software de conducción usa tu comma."
+  - title: La clasificación, para cada miembro
+    text: "Ya no depende de una activación por cuenta. La tarjeta de Inicio se actualiza como mucho cada 30 minutos, y dice cuándo lo hizo por última vez."
+  - title: Apoyar a CommaView
+    text: "Ajustes › Soporte y diagnóstico › Apoyar a CommaView abre nuestra página de Buy Me a Coffee, para ayudar a cubrir el alojamiento, las pruebas y la app de iOS. No desbloquea nada."
+  - title: Correcciones
+    text: "Una pantalla del coche con Android 16 ya no cierra CommaView en Live View cuando falla su decodificador de vídeo, la pantalla del comma 3X de StarPilot dibuja su cámara en las pantallas del coche que la mostraban en negro, y el inicio de sesión con YouTube y Transmitir funcionan a través de una VPN."
+earlyAccessNote: "Navegación, Surround, Surround V2 y Herramientas experimentales siguen en desarrollo temprano, para un grupo limitado de testers, activadas por cuenta, mientras recogemos opiniones. Algunas funcionan con servicios de pago, como las rutas de Navegación, así que mantenemos el grupo pequeño. Para ayudar a probarlas, escríbenos en Discord."
+earlyAccess:
+  - title: Navegación
+    text: "Un mapa en Live View durante un trayecto, junto al vídeo o en su esquina, y ¿Adónde vas? cuando no hay trayecto. En el mapa de la esquina, terminar y silenciar están siempre a mano, terminar se puede deshacer durante 8 segundos, y puedes decir adónde ir."
+  - title: Temas del mapa
+    text: "El mapa de Navegación ahora tiene temas Claro y Oscuro, que cambian al amanecer y al anochecer donde está tu comma, para que se lea bien al sol. Elige Auto, Igual que el teléfono, Claro u Oscuro en Ajustes › Mapas y navegación › Tema del mapa."
+  - title: Surround y Surround V2
+    text: "Surround sitúa un coche aparcado donde está en las reproducciones y oculta un coche visto solo por la cámara que en realidad es el del radar. Surround V2 es un segundo renderizador experimental, en Ajustes › Herramientas experimentales."
+runtime:
+  - title: Solo teléfonos emparejados
+    text: "Las cámaras y los datos de tu comma solo van a los teléfonos y pantallas del coche emparejados con él. Actualiza primero CommaView en cada teléfono y pantalla del coche: uno que se quede en 0.0.164 no recibe vídeo de un comma con este entorno de ejecución."
+  - title: Contribuir a la detección de coches
+    text: "Para miembros: aporta viajes completos para entrenar el detector de coches que usa Surround, con un toque o automáticamente, en las redes que elijas entre los Wi‑Fi guardados de tu comma y los datos móviles de tu teléfono, cada una con un límite mensual si lo quieres. Una contribución es para siempre: no se puede retirar después. Nada te nombra a ti ni a tu comma, pero la ruta y el vídeo de un viaje pueden mostrar por dónde conduces."
+  - title: Más forks de openpilot, sin garantías
+    text: "CommaView ahora se instala en más forks de openpilot, sin garantías: la configuración comprueba un fork que CommaView no tiene en su lista, sin cambiar nada, y añade la vista de CommaView cuando aceptas. Desinstalar entorno devuelve los archivos del fork a su sitio."
+  - title: Instalaciones que se recuperan
+    text: "Un corte de corriente o un reinicio a mitad de la instalación devuelve la versión anterior, una descarga atascada continúa donde se quedó, y una instalación sigue adelante cuando la app deja de escuchar."
+  - title: Modo experimental en openpilot más reciente
+    text: "En la nightly de openpilot y en sunnypilot dev, Live View muestra el modo experimental como lo hace openpilot."

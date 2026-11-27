@@ -61,4 +61,5 @@
     <string name="about_license_fork_translations">MIT 라이선스 및 각 포크의 라이선스. comma 언어로 표시되는 주행 화면 문구입니다.</string>
     <string name="about_license_noto_sans">Adobe and the Noto Project Authors · SIL Open Font License 1.1. 중국어, 일본어, 한국어, 태국어로 표시되는 openpilot 주행 화면 글꼴입니다.</string>
     <string name="about_license_unifont">Roman Czyborra, Paul Hardy et al. · SIL Open Font License 1.1. 중국어, 일본어, 한국어, 태국어로 표시되는 포크 주행 화면 글꼴입니다.</string>
+    <string name="about_license_opfont">© IBM Corp., Google LLC; Rick Lan의 파생 글꼴 · SIL Open Font License 1.1. 중국어, 일본어, 한국어, 태국어로 표시되는 dragonpilot 주행 화면 글꼴입니다.</string>
 </resources>

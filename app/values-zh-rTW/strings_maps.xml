@@ -5,7 +5,14 @@
     <string name="maps_title">地圖與導航</string>
     <string name="maps_subtitle">%1$s上的導航和地圖</string>
     <string name="maps_back_to_settings">返回設定</string>
-    <string name="maps_credits">地圖資料 © OpenStreetMap 貢獻者，使用 OpenFreeMap 提供的 © OpenMapTiles 圖磚，由 MapLibre 繪製。搜尋會送到 Photon。%1$s使用您自己的 Stadia Maps 金鑰時，路線會在您的 Stadia 帳號及其條款下查詢。導航在中國大陸無法使用。</string>
+    <string name="maps_place_home">住家</string>
+    <string name="maps_place_work">公司</string>
+    <string name="maps_layout_automatic">自動</string>
+    <string name="maps_layout_automatic_detail">有空間時顯示在影像旁，否則顯示在角落</string>
+    <string name="maps_layout_beside">影像旁</string>
+    <string name="maps_layout_beside_detail">一律如此：空間不足時影像會讓位</string>
+    <string name="maps_layout_corner">角落</string>
+    <string name="maps_layout_corner_detail">融入影像右上角</string>
     <string name="maps_your_maps_none">尚未下載。地圖可提供速限。</string>
     <string name="maps_your_maps">%1$s，用於速限</string>
     <string name="maps_your_maps_sized">%1$s · %2$s，用於速限</string>
@@ -14,14 +21,53 @@
     <plurals name="maps_more">
         <item quantity="other">其他 %d 個</item>
     </plurals>
+    <string name="maps_recent_places_none">目前沒有。這些地點會保存在%1$s上。</string>
+    <plurals name="maps_recent_places_count">
+        <item quantity="other">%1$d 個地點，保存在%2$s上</item>
+    </plurals>
+    <string name="maps_place_not_set">尚未設定。輕觸即可搜尋。</string>
     <string name="maps_offline_maps">離線地圖</string>
     <string name="maps_your_maps_title">您的地圖</string>
     <string name="maps_open_your_maps">開啟您的地圖</string>
+    <string name="maps_live_view_map">Live View 地圖</string>
+    <string name="maps_layout">版面配置</string>
+    <string name="maps_layout_subtitle">Live View 要在哪裡顯示地圖</string>
+    <string name="maps_layout_note">comma 3X、comma four、StarPilot 和 Surround 樣式一律會在影像旁顯示地圖。</string>
+    <string name="maps_width">影像旁的寬度</string>
+    <string name="maps_width_subtitle">在 Live View 中拖曳分隔線來設定</string>
+    <string name="maps_reset">重設</string>
+    <string name="maps_width_reset_label">重設地圖寬度</string>
+    <string name="maps_guidance">導引</string>
+    <string name="maps_spoken_guidance">語音導引</string>
+    <string name="maps_spoken_guidance_subtitle">轉彎提示和抵達通知。轉彎卡片上的喇叭按鈕也能將它關閉。</string>
+    <string name="maps_your_places">您的地點</string>
+    <string name="maps_choose_home">選擇住家</string>
+    <string name="maps_choose_work">選擇公司</string>
+    <string name="maps_change_or_remove_home">變更或移除住家</string>
+    <string name="maps_change_or_remove_work">變更或移除公司</string>
+    <string name="maps_change">變更</string>
+    <string name="maps_remove">移除</string>
+    <string name="maps_add">新增</string>
+    <string name="maps_recent_places">最近的地點</string>
+    <string name="maps_clear">清除</string>
+    <string name="maps_clear_recent_label">清除最近的地點</string>
+    <string name="maps_clear_recent_title">要清除最近的地點嗎？</string>
+    <string name="maps_clear_recent_message">您開車去過的地點會從%1$s上移除。住家和公司會保留。</string>
     <string name="maps_cancel">取消</string>
+    <string name="maps_theme">地圖主題</string>
+    <string name="maps_theme_choose">選擇地圖主題</string>
+    <string name="maps_theme_app_line">跟隨 CommaView 的主題</string>
+    <string name="maps_theme_auto_line">在 comma 所在地日出到日落之間使用淺色</string>
+    <string name="maps_theme_system_line">跟隨%1$s的深色主題</string>
+    <string name="maps_theme_light_line">一律淺色</string>
+    <string name="maps_theme_dark_line">一律深色</string>
+    <string name="maps_theme_dialog_note">套用到 CommaView 中的所有地圖。「自動」會在「車輛位置」開啟時使用 comma 的位置，否則使用%1$s的時區。</string>
+    <string name="maps_theme_daylight_note">「顯示」中的「日光對比」是另一項設定：它會讓應用程式的文字和線條更明亮。</string>
     <string name="maps_own_key">您的 Stadia Maps 金鑰</string>
-    <string name="maps_own_key_intro_flagged">選用。使用您自己的金鑰時，路線會以您的 Stadia 帳號及其條款向 Stadia Maps 查詢，取代 CommaView 的金鑰。若 Stadia 拒絕您的金鑰，導航會告訴您；CommaView 的金鑰不會代為使用。</string>
-    <string name="maps_own_key_intro_kept">導航使用您的金鑰：路線由%1$s以您的 Stadia 帳號及其條款向 Stadia Maps 查詢。清除金鑰會關閉%1$s上的導航。</string>
-    <string name="maps_own_key_intro_add">新增您自己的 Stadia Maps 金鑰即可使用導航：「要去哪裡？」、路線和逐向導引。路線由%1$s使用您的金鑰，以您的 Stadia 帳號及其條款向 Stadia Maps 查詢。搜尋使用 Photon。</string>
+    <string name="maps_own_key_intro_routes">導航的路線使用你的金鑰：它們從%1$s傳送到 Stadia Maps，在你的 Stadia 帳戶及其條款下。清除後，在你再次新增金鑰前，%1$s上將無法取得路線。</string>
+    <string name="maps_own_key_intro_needed">路線需要你自己的 Stadia Maps 金鑰：路線用它從%1$s傳送到 Stadia Maps，在你的 Stadia 帳戶及其條款下。去哪裡？、搜尋和地點不需金鑰也能使用；搜尋使用 Photon。</string>
+    <string name="maps_own_key_clear_message">它將從%1$s移除，在你再次新增金鑰前無法取得路線。</string>
+    <string name="maps_credits_own_key">地圖資料 © OpenStreetMap 貢獻者，採用 OpenFreeMap 的 © OpenMapTiles 圖磚，由 MapLibre 繪製。搜尋傳送到 Photon。路線用你自己的金鑰從%1$s傳送到 Stadia Maps（若你選擇了 Mapbox 則傳送到 Mapbox），在你在那裡的帳戶及其條款下。中國大陸不提供導航。</string>
     <string name="maps_own_key_not_added">尚未新增</string>
     <string name="maps_own_key_kept">保存在%1$s上</string>
     <string name="maps_own_key_over_limit">已超過 Stadia Maps 的用量上限（429）</string>
@@ -45,8 +91,6 @@
     <string name="maps_own_key_open_dashboard">開啟您的 Stadia Maps 主控台</string>
     <string name="maps_own_key_open_sign_up">開啟 Stadia Maps 註冊頁面</string>
     <string name="maps_own_key_clear_title">要清除您的 Stadia Maps 金鑰嗎？</string>
-    <string name="maps_own_key_clear_flagged">金鑰會從%1$s上移除。路線將改回使用 CommaView 的金鑰。</string>
-    <string name="maps_own_key_clear_off">金鑰會從%1$s上移除，在您重新新增金鑰前，這裡的導航會關閉。正在導引的行程會結束。</string>
 
     <!-- Offline maps (OfflineMapsPage, OfflineMapLibrary, AddOfflineMapPicker, map/speedlimit). -->
     <plurals name="maps_hub_value">
@@ -175,4 +219,5 @@
     <string name="maps_problem_failed_group">地圖第 %1$d／%2$d 組：%3$s。請繼續下載以重試。</string>
     <string name="maps_problem_failed_unknown">下載或驗證失敗。請繼續下載以重試。</string>
     <string name="maps_problem_failed_group_unknown">地圖第 %1$d／%2$d 組：下載或驗證失敗。請繼續下載以重試。</string>
+
 </resources>

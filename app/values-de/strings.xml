@@ -25,6 +25,7 @@
     <string name="settings_page_about">Über</string>
     <string name="settings_page_licenses">Open-Source-Lizenzen</string>
     <string name="settings_page_license">Lizenz</string>
+    <string name="settings_page_overlay_packs">Overlay-Pakete</string>
     <string name="settings_page_device">Einstellungen des Geräts</string>
     <string name="settings_page_device_facts">Name und Adresse</string>
     <string name="settings_page_device_network">Netzwerk</string>
@@ -33,6 +34,7 @@
 
     <!-- The Settings hub's rows, under each title. -->
     <string name="settings_hub_display_subtitle">Fahransicht und Optionen, Fahrerseite und Tageslicht</string>
+    <string name="settings_hub_maps_navigation_subtitle">Die Karte in Live View, Sprachansagen, Ihre Orte und Offline-Karten</string>
     <string name="settings_hub_maps_navigation_key_subtitle">Offline-Karten und Navigation mit Ihrem Schlüssel für Stadia Maps</string>
     <string name="settings_hub_offline_maps_subtitle">Regionen laden und Tempolimits am Standort Ihres comma anzeigen</string>
     <string name="settings_hub_live_streaming_subtitle">Aus Live View live auf YouTube oder einem anderen Server</string>

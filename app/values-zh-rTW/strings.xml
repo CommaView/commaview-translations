@@ -24,6 +24,7 @@
     <string name="settings_page_about">關於</string>
     <string name="settings_page_licenses">開放原始碼授權</string>
     <string name="settings_page_license">授權條款</string>
+    <string name="settings_page_overlay_packs">疊加套件</string>
     <string name="settings_page_device">裝置設定</string>
     <string name="settings_page_device_facts">名稱與位址</string>
     <string name="settings_page_device_network">網路</string>
@@ -31,6 +32,7 @@
     <string name="settings_page_device_runtime">執行環境</string>
 
     <string name="settings_hub_display_subtitle">行車畫面與其選項、駕駛座位置及日光模式</string>
+    <string name="settings_hub_maps_navigation_subtitle">Live View 中的地圖、語音導航、常用地點與離線地圖</string>
     <string name="settings_hub_maps_navigation_key_subtitle">離線地圖，以及使用您自己的 Stadia Maps 金鑰導航</string>
     <string name="settings_hub_offline_maps_subtitle">下載地區地圖，並依 comma 的位置顯示速限</string>
     <string name="settings_hub_live_streaming_subtitle">從 Live View 直播到 YouTube 或其他伺服器</string>

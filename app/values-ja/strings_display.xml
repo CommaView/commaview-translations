@@ -19,12 +19,13 @@
     <string name="display_commaview_full_camera">カメラ全体</string>
     <string name="display_commaview_full_camera_detail">カメラの映像全体を表示し、必要に応じて黒帯を入れます。</string>
     <string name="display_commaview_fill_detail">カメラの映像を切り取って横向きの画面いっぱいに表示します。縦向きではカメラ全体を表示します。</string>
+    <string name="display_pack_framing_detail">パックの画面が横向きの画面をどう使うかを選びます。</string>
+    <string name="display_design_pack_note">%1$s：オーバーレイパック独自の画面です。道路カメラの上に描画し、その上に CommaView のアラートを表示します。</string>
     <string name="display_design_comma3x_note">comma 3X の画面：状態を示す枠、MAX のボックス、大きな速度表示、下部のアラート。</string>
     <string name="display_design_comma4_note">comma four の画面：変化に合わせて道路の上に MAX を表示し、その横にハンドルと信頼度を表示します。</string>
     <string name="display_comma4_framing">プレビューの表示範囲</string>
     <string name="display_comma4_framing_detail">comma four の枠に正確に合わせるか、カメラをより多く表示するか、切り取ってこの画面いっぱいに表示します。</string>
 
-    <!-- Display › Daylight contrast (DaylightSection). -->
     <string name="display_daylight_title">日中コントラスト</string>
     <string name="display_daylight_subtitle">日差しやまぶしさに備えて文字や線を明るく</string>
     <string name="display_daylight_no_sensor">%1$s %2$sには光センサーがないため、「自動」はありません。</string>

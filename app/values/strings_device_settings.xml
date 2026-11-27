@@ -70,6 +70,8 @@
     <string name="device_settings_comma_busy">The comma is busy. Try again in a moment.</string>
     <string name="device_settings_open_live_view_when_connected">Open Live View when connected</string>
     <string name="device_settings_open_live_view_when_connected_detail">Opens by itself when your comma connects with the car on. Leave it and it stays closed until the next time.</string>
+    <string name="device_settings_live_view_status_bar">Keep the status bar</string>
+    <string name="device_settings_live_view_status_bar_detail">Shows the system\'s clock above Live View instead of using the whole screen.</string>
     <string name="device_settings_offline_controls">Connect to the same network as %1$s to manage pairing and updates.</string>
     <string name="device_settings_offline_controls_unnamed">Connect to the same network as your comma to manage pairing and updates.</string>
     <string name="device_settings_runtime_removed_controls">CommaView was uninstalled from %1$s. Run guided setup to install it again.</string>
@@ -350,12 +352,16 @@
         <item quantity="one">A phone with an older CommaView can still use this comma for %d more day, with the shared token it sends in clear. Stop now if every phone that uses this comma has a key.</item>
         <item quantity="other">A phone with an older CommaView can still use this comma for %d more days, with the shared token it sends in clear. Stop now if every phone that uses this comma has a key.</item>
     </plurals>
+    <string name="device_settings_phones_older_apps_pair_code">Pair code for an older app</string>
+    <string name="device_settings_phones_older_apps_keep_working">A phone with an older CommaView keeps working with this comma, and gets a key of its own once it\'s updated, without pairing again. A phone new to this comma can pair with a pair code from here.</string>
+    <string name="device_settings_phones_older_apps_off">This comma no longer takes the shared token, so it makes no pair code for an older CommaView. Update CommaView on that phone, then add it with Show invitation.</string>
     <string name="device_settings_phones_stop_now">Stop now</string>
     <string name="device_settings_phones_remove_named">Remove %1$s?</string>
     <string name="device_settings_phones_remove_this">Remove %1$s?</string>
     <string name="device_settings_phones_remove_message">It can\'t reach this comma again until it is added again, with an invitation or by setting the comma up.</string>
     <string name="device_settings_phones_token_off_title">Stop taking the shared token?</string>
-    <string name="device_settings_phones_token_off_message">A phone with an older CommaView stops reaching this comma now. Phones with a key, this one too, aren\'t affected. Only setting the comma up again over SSH turns it back on.</string>
+    <string name="device_settings_phones_token_off_message">Phones with an older CommaView stop working with this comma now, and can\'t pair again until they\'re updated. Phones with a key, this one too, aren\'t affected. Only someone on the comma turns the shared token back on, as a new one: commaviewd phones legacy-on, over SSH.</string>
+    <string name="device_settings_phones_token_off_message_listed">Only the phones with a key keep working with this comma: %1$s. Every other phone stops now (one with an older CommaView, or one that hasn\'t got its key yet), and can\'t pair again until it\'s updated and added with Show invitation. Only someone on the comma turns the shared token back on, as a new one: commaviewd phones legacy-on, over SSH.</string>
     <string name="device_settings_phones_not_seen">Not seen yet</string>
     <string name="device_settings_phones_seen_today">Seen today</string>
     <string name="device_settings_phones_seen_yesterday">Seen yesterday</string>
@@ -394,4 +400,34 @@
     <!-- Phones with a key, when the comma's answer couldn't be read (CommaPhonesApi.kt). -->
     <string name="device_settings_phones_error_unreadable_answer">unreadable answer</string>
     <string name="device_settings_phones_error_unreadable_invitation">unreadable invitation</string>
+
+    <!-- A runtime update or uninstall in the background (RuntimeUpdateUi.kt, RuntimeMaintenanceService.kt). -->
+    <string name="device_settings_update_keep_using_background">You can switch apps or lock %1$s. The update carries on, and its notification shows how far it is.</string>
+    <string name="device_settings_maintenance_other_job">CommaView is already updating or uninstalling a runtime. Try again when it has finished.</string>
+    <string name="device_settings_runtime_notification_channel">Runtime updates</string>
+    <string name="device_settings_runtime_notification_updating">Updating your comma\'s runtime to %1$s</string>
+    <string name="device_settings_runtime_notification_updating_generic">Updating your comma\'s runtime</string>
+    <string name="device_settings_runtime_notification_uninstalling">Uninstalling CommaView from your comma</string>
+    <string name="device_settings_runtime_notification_open">Open CommaView to continue.</string>
+
+    <!-- Cancelling a runtime update the comma runs itself (RuntimeUpdateCancel.kt, RuntimeUpdateProgress.kt). -->
+    <string name="device_settings_step_preparing">Getting ready (waits for the car to be parked)</string>
+    <string name="device_settings_preparing_detail">Your comma checks the release and waits for the car to stay parked before it downloads it.</string>
+    <string name="device_settings_update_cancelled_title">Update cancelled</string>
+    <string name="device_settings_update_cancelled_notice">Update cancelled. Nothing on your comma changed.</string>
+    <string name="device_settings_cancel_update">Cancel update</string>
+    <string name="device_settings_cancelling_update">Cancelling…</string>
+    <string name="device_settings_update_will_finish">Too late to cancel: your comma finishes this update now.</string>
+    <string name="device_settings_cancel_update_failed">The update wasn\'t cancelled. Check that your comma is connected, then try again.</string>
+    <string name="device_settings_vehicle_picture_offline">Connect to %1$s to change its picture.</string>
+    <string name="device_settings_vehicle_picture_interrupted">The photo didn\'t finish sending to %1$s. Move closer to it or check its Wi-Fi, then try again.</string>
+    <string name="device_settings_vehicle_picture_runtime">Update the runtime on %1$s to change its picture.</string>
+    <string name="device_settings_vehicle_picture_comma_full">%1$s is short of space for the photo. Try again once it has cleared old drives.</string>
+    <string name="device_settings_vehicle_picture_comma_failed">%1$s didn\'t save the photo. Try again.</string>
+    <string name="device_settings_vehicle_picture_edit">Change the car\'s picture</string>
+    <string name="device_settings_vehicle_picture_saving">Saving…</string>
+    <string name="device_settings_vehicle_picture_failed">That photo couldn\'t be opened. Try another one.</string>
+    <string name="device_settings_vehicle_picture_change">Change photo</string>
+    <string name="device_settings_vehicle_picture_reset">Use CommaView\'s picture</string>
+    <string name="device_settings_vehicle_picture_hint">A landscape photo of the car from the side or front three-quarters, with the whole car in frame, fits the card best.</string>
 </resources>

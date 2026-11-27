@@ -60,4 +60,5 @@
     <string name="about_license_fork_translations">MIT ライセンスと各フォーク独自のライセンス。comma の言語での走行画面の文言です。</string>
     <string name="about_license_noto_sans">Adobe and the Noto Project Authors · SIL Open Font License 1.1。中国語・日本語・韓国語・タイ語での openpilot の走行画面の書体です。</string>
     <string name="about_license_unifont">Roman Czyborra, Paul Hardy et al. · SIL Open Font License 1.1。中国語・日本語・韓国語・タイ語でのフォークの走行画面の書体です。</string>
+    <string name="about_license_opfont">© IBM Corp., Google LLC; Rick Lan による派生フォント · SIL Open Font License 1.1。中国語・日本語・韓国語・タイ語での dragonpilot の走行画面の書体です。</string>
 </resources>

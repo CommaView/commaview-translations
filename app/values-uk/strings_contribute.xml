@@ -65,6 +65,7 @@
         <item quantity="many">• recording/events.jsonl і manifest.json: історія помилок запису, %1$d подій</item>
         <item quantity="other">• recording/events.jsonl і manifest.json: історія помилок запису, %1$d події</item>
     </plurals>
+    <string name="contribute_bundle_navigation">• navigation/search-counts.txt: лічильники навігаційних пошуків</string>
     <string name="contribute_bundle_leaderboard">• leaderboard/status.txt: стан таблиці лідерів: чи запитуються й пересилаються заяви ваших comma</string>
     <string name="contribute_bundle_report">• report.txt: що ви написали і що додається до кожного звіту</string>
     <string name="contribute_bundle_json">• bundle.json: що містить пакет</string>

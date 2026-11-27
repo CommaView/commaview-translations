@@ -1,0 +1,45 @@
+title: Dos forks más, copias en vivo, y acceso anticipado a Navegación y Surround
+out:
+  - title: SunnyPilot-TeslaHW1
+    text: "CommaView se instala en este fork de sunnypilot para los coches Tesla HW1, muestra su nombre y dibuja la pantalla de sunnypilot con todo lo que sunnypilot añade."
+  - title: carrotpilot
+    text: "CommaView se instala en este fork de openpilot para coches Hyundai, Kia y Genesis y dibuja para él la pantalla de openpilot. Lo que carrotpilot añade a su propia pantalla, como su navegación y los radares de velocidad, aún no se dibuja. Cuando carrotpilot se actualiza, la app pide un reinicio que devuelve Live View."
+  - title: Copias en vivo
+    text: "Ajustes › Grabaciones › Grabar en Live View elige qué hace Grabar: una reproducción después del viaje (la mejor imagen, hasta 10 minutos, como antes), una copia en vivo de lo que muestra Live View, lista en cuanto te detienes y sin límite de 10 minutos, o ambas. Una copia en vivo es de 720p o 1080p, sigue grabando con el teléfono bloqueado, se detiene limpiamente antes de que se llene el almacenamiento y se queda en tu teléfono."
+  - title: Ajustes que usan toda la pantalla
+    text: "Grabaciones, Pantalla y Transmisión en vivo ocupan toda la pantalla en dos columnas donde caben, la lista de Ajustes dice qué contiene cada página, y todas las páginas se alinean en tablets, pantallas del coche y teléfonos en horizontal."
+  - title: Actualizar acceso
+    text: "Ajustes › Cuenta › Acceso y funciones dice cuándo se renueva tu acceso, y Actualizar acceso aplica al momento una función que se te ha activado o desactivado, donde antes tardaba hasta un día."
+  - title: Por qué falló una instalación
+    text: "Si falla la configuración, una actualización del entorno o una desinstalación, la app dice qué salió mal y qué hacer (un fork que CommaView no admite, el coche en marcha, el comma sin internet), si tu comma quedó como estaba, y Copiar detalles copia el informe que necesita el soporte."
+  - title: Una sola tarjeta para las actualizaciones
+    text: "Una actualización del entorno solo aparece en la tarjeta de actualización de Inicio. Una que falló aparece ahí con Reintentar y Descartar."
+  - title: Reproducciones más rápidas
+    text: "Una reproducción descarga solo el vídeo que muestra, el siguiente viaje se descarga mientras se hace otro, y la GPU dibuja el HUD en Android 9 y posterior. Una grabación interrumpida porque se cerró la app, por el límite de 10 minutos o porque se apagó el coche ahora tiene Crear reproducción."
+  - title: La calidad de la reproducción vuelve a funcionar
+    text: "Balanced, High y Max vuelven a hacer reproducciones distintas; todas se estaban haciendo a 40 Mbit/s. High, la predeterminada, hace archivos de más o menos la mitad de tamaño desde un comma 3X."
+  - title: El botón de clip de depuración ya no está
+    text: "Compartir el informe de errores envía solo registros. Los clips de depuración que guardaste siguen en Grabaciones."
+  - title: Correcciones
+    text: "Ajustes se queda en su página cuando una pantalla del coche pasa al modo nocturno. Los teléfonos en horizontal con Android 15 respetan el recorte de la cámara. Importar tu propia clave SSH ya no cierra la app en una pantalla del coche sin selector de archivos."
+earlyAccessNote: "Navegación, Surround, Transmitir y Enviar a CommaView están en desarrollo temprano. Los estamos abriendo a un grupo limitado de testers mientras recogemos opiniones, y algunos funcionan con servicios de pago, como las rutas de Navegación, así que mantenemos el grupo pequeño hasta saber cuánto cuesta un uso normal. Para ayudar a probarlos, escríbenos en Discord: pedimos a los testers que los usen en sus viajes y nos cuenten qué tal van."
+earlyAccess:
+  - title: Navegación
+    text: "Indicaciones paso a paso desde Inicio hasta Live View: busca un lugar, compara hasta tres rutas y sigue la tarjeta de giro, las indicaciones por voz y, en la pantalla de CommaView, los chevrones pintados en tu carril. Si te equivocas de giro, encuentra una ruta nueva en segundos. Solo muestra: no se envía nada a tu comma ni a tu coche, y tus lugares se quedan en tu teléfono."
+  - title: Surround
+    text: "Una vista 3D de la carretera alrededor de tu coche, como cuarta pantalla de conducción: la carretera como la ve la cámara, con sus líneas de carril, cruces y pasos de peatones; coches, camiones y autobuses que se deslizan y muestran sus luces de freno; y los semáforos que tienes delante, encendidos del color que muestran. Ejecuta su propio detector de coches en tu teléfono, unas 13 veces más rápido que antes en la pantalla de un coche."
+  - title: Transmitir
+    text: "Emite lo que muestra Live View a tu canal de YouTube o a otro servidor RTMP, a 720p o 1080p. Inicia sesión en YouTube una vez y Transmitir crea, inicia y termina la emisión, con el sonido del micrófono de tu comma o del de tu teléfono si eliges uno."
+  - title: Enviar a CommaView
+    text: "Envíanos un viaje grabado con una nota sobre lo que pasó, desde Grabaciones. Nunca incluye la cámara del conductor, el sonido ni el VIN de tu coche."
+runtime:
+  - title: Dos forks más
+    text: "El entorno de ejecución reconoce SunnyPilot-TeslaHW1 y carrotpilot."
+  - title: Una instalación fallida dice por qué
+    text: "El instalador nombra la causa, como un fork que no admite, para que la app pueda decírtelo."
+  - title: Descargas de reproducciones más rápidas
+    text: "La app pide hasta 4 MiB del vídeo de un viaje cada vez, donde antes pedía 256 KiB, y un teléfono con un Wi‑Fi muy débil ya no retrasa las demás respuestas del comma."
+  - title: Reproducciones de viajes que terminaron sin verse
+    text: "El comma avisa cuando termina el viaje de una grabación, así que la app puede hacer su reproducción aunque el teléfono no viera el final."
+  - title: El micrófono de tu comma en una transmisión
+    text: "Para cuentas con Transmitir: el micrófono del comma va a tu teléfono solo mientras lo tengas elegido para una transmisión. No se activa la grabación de audio propia de openpilot, y el comma nunca guarda el sonido."

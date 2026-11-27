@@ -142,6 +142,46 @@
     <string name="liveview_peek_streaming">กำลังสตรีม</string>
 
 
+    <!-- Browser View, Live View in a car's web browser (its card in Details). -->
+    <string name="liveview_car_screen_title">Browser View</string>
+    <string name="liveview_car_screen_title_on">Browser View · เปิด</string>
+    <string name="liveview_car_screen_stop">หยุด</string>
+    <string name="liveview_car_screen_stop_description">หยุด Browser View</string>
+    <string name="liveview_car_screen_start">เริ่ม</string>
+    <string name="liveview_car_screen_start_description">เริ่ม Browser View</string>
+    <string name="liveview_car_screen_new_code">รหัสใหม่</string>
+    <string name="liveview_car_screen_new_code_description">สร้างรหัส Browser View ใหม่</string>
+    <string name="liveview_car_screen_controls_title">ปุ่มควบคุมในรถ</string>
+    <string name="liveview_car_screen_controls_subtitle">บันทึก บันทึกช่วงเวลา และปุ่มควบคุมอื่นของ Live View อยู่ใต้ภาพ เพื่อให้วาง%1$sไว้ที่เดิมได้</string>
+    <string name="liveview_car_screen_quality_label">ภาพ Browser View</string>
+    <string name="liveview_car_screen_quality_caption">ภาพ: 1080p คมชัดกว่า แต่ใช้ทรัพยากร%1$sและฮอตสปอตมากกว่า เมื่อใช้คู่กับการถ่ายทอดสด จะใช้ภาพเดียวกัน</string>
+    <string name="liveview_car_screen_start_with_live_view">เริ่มพร้อม Live View</string>
+    <string name="liveview_car_screen_start_with_live_view_subtitle">Browser View จะเริ่มทุกครั้งที่เปิด Live View พร้อมที่อยู่ VPN เมื่อเปิดอยู่</string>
+    <string name="liveview_car_screen_show_addresses">ไม่มีอินเทอร์เน็ตในรถ? แสดงที่อยู่</string>
+    <string name="liveview_car_screen_hide_addresses">ซ่อนที่อยู่</string>
+    <string name="liveview_car_screen_best_caption">ภาพดีที่สุด: เบราว์เซอร์จะเตือนก่อน ให้ยอมรับเพื่อดำเนินการต่อ เบราว์เซอร์ของ Tesla ไม่ให้ผ่านขั้นนี้</string>
+    <string name="liveview_car_screen_basic_caption">ภาพพื้นฐาน: ไม่มีคำเตือนในเบราว์เซอร์ใด รวมถึง Tesla แต่คุณภาพต่ำกว่า</string>
+    <string name="liveview_car_screen_tesla_open_caption">ในเบราว์เซอร์ของรถ รวมถึง Tesla ให้เปิด</string>
+    <string name="liveview_car_screen_other_open_caption">เบราว์เซอร์อื่นเปิดได้ที่</string>
+    <string name="liveview_car_screen_tesla_off_caption">Tesla ที่ใช้ฮอตสปอตของ%1$sต้องใช้ที่อยู่ VPN ซึ่งเป็นวิธีที่เชื่อถือได้ที่สุดสำหรับทุกเบราว์เซอร์</string>
+    <string name="liveview_car_screen_tesla_starting_caption">กำลังเริ่มที่อยู่ VPN…</string>
+    <string name="liveview_car_screen_tesla_on_caption">ที่อยู่ VPN คือ VPN ของ CommaView บน%1$s ไม่มีการส่งข้อมูลผ่าน และแอป VPN อื่นจะปิดขณะที่เปิดอยู่</string>
+    <string name="liveview_car_screen_off_caption">แสดงสิ่งที่ Live View แสดง รวมถึงกล้องฝั่งคนขับขณะเปิด “กล้องคนขับ” ในเบราว์เซอร์ของรถบน Wi-Fi หรือฮอตสปอตของ%1$s</string>
+    <string name="liveview_car_screen_privacy_caption">Browser View ให้ชื่อแบบสุ่มใน commaview.app พร้อมใบรับรองสาธารณะแก่%1$s ซึ่งอยู่ในบันทึกสาธารณะ และชื่อนี้จะอยู่กับ%2$sต่อไป ขณะทำงาน จะส่งรหัส พอร์ต และที่อยู่ส่วนตัวเพื่อให้ commaview.app/&lt;code&gt; หาเจอ และข้อมูลเหล่านี้จะถูกลบเมื่อครบ 30 วันหลังจากทำงานครั้งล่าสุด</string>
+    <string name="liveview_car_screen_privacy_policy">นโยบายความเป็นส่วนตัว</string>
+    <string name="liveview_car_screen_open_caption">ในเบราว์เซอร์ของรถ ให้เปิด</string>
+    <string name="liveview_car_screen_no_network_caption">เปิดฮอตสปอตของ%1$sแล้วให้รถเชื่อมต่อ หรือให้%1$sเชื่อมต่อ Wi-Fi ของรถ</string>
+    <string name="liveview_car_screen_address_clip_label">ที่อยู่ Browser View</string>
+    <string name="liveview_car_screen_address_copied">คัดลอกที่อยู่แล้ว</string>
+    <string name="liveview_car_screen_copy_address">คัดลอก %1$s</string>
+    <string name="liveview_car_screen_vpn_turn_off">ปิดที่อยู่ VPN</string>
+    <string name="liveview_car_screen_vpn_turn_off_description">ปิดที่อยู่ VPN</string>
+    <string name="liveview_car_screen_vpn_turn_on">เปิดที่อยู่ VPN</string>
+    <string name="liveview_car_screen_vpn_turn_on_description">เปิดที่อยู่ VPN</string>
+    <string name="liveview_car_screen_waiting_for_browser">รอเบราว์เซอร์ของรถ</string>
+    <plurals name="liveview_car_screen_viewers">
+        <item quantity="other">มีเบราว์เซอร์รับชม %1$d เครื่อง</item>
+    </plurals>
 
     <!-- Details' facts (LiveViewDetails). -->
     <string name="liveview_health_good">ดี</string>
@@ -153,6 +193,7 @@
     <string name="liveview_readout_runtime">รันไทม์</string>
     <string name="liveview_readout_software">ซอฟต์แวร์</string>
     <string name="liveview_readout_comma_ip">IP ของ comma</string>
+    <string name="liveview_readout_overlay_packs">แพ็กโอเวอร์เลย์</string>
     <string name="liveview_on">เปิด</string>
     <string name="liveview_off">ปิด</string>
 
@@ -178,6 +219,21 @@
     <string name="liveview_live_copy_shared_notice">กำลังบันทึกสำเนาสดจากสตรีมของคุณ: ใช้คุณภาพของสตรีม %1$s</string>
     <string name="liveview_stream_from_live_copy_notice">กำลังถ่ายทอดสดจากภาพ %1$s ของสำเนาสด ที่ %2$s ของสตรีม</string>
 
+    <!-- Details' Overlay packs line: each pack and how it's doing on the comma. -->
+    <string name="liveview_packs_line">%1$s: %2$s</string>
+    <string name="liveview_packs_stopped_drawing">หยุดวาดบน%2$s: %1$s</string>
+    <string name="liveview_packs_not_for_fork">ไม่ใช่สำหรับฟอร์กนี้</string>
+    <string name="liveview_packs_starting">กำลังเริ่ม</string>
+    <string name="liveview_packs_off_until_next_start">ปิดจนกว่าจะเริ่มครั้งถัดไป</string>
+    <string name="liveview_packs_off_until_reinstalled">ปิดจนกว่าจะติดตั้งใหม่: ค้าง %1$d ครั้งที่ทำงาน</string>
+    <string name="liveview_packs_off_until_reinstalled_many">ปิดจนกว่าจะติดตั้งใหม่: ค้างหลายครั้งเกินไป</string>
+    <string name="liveview_packs_turned_off">ปิดอยู่</string>
+    <string name="liveview_packs_turned_off_why">ปิดอยู่: %1$s</string>
+    <string name="liveview_packs_running">กำลังทำงาน</string>
+    <string name="liveview_packs_unknown">ไม่ทราบ</string>
+    <string name="liveview_packs_state_with_note">%1$s (%2$s)</string>
+    <string name="liveview_packs_hung">ค้าง %1$d ครั้งที่ทำงาน</string>
+    <string name="liveview_packs_hung_of">ค้าง %1$d จาก %2$d ครั้งที่ทำงาน</string>
 
     <!-- Live View's controls: the rail, the upright bar and More's menu (CockpitNavigation), and the car's (LiveCarScreenControls). -->
     <string name="liveview_controls_description">ปุ่มควบคุม Live View</string>
@@ -192,6 +248,9 @@
     <string name="liveview_control_save_description">เก็บช่วงเวลานี้</string>
     <string name="liveview_control_saved_description">เก็บช่วงเวลาแล้ว แตะเพื่อเก็บอีกหนึ่งนาที</string>
     <string name="liveview_control_save_last_minutes">3 นาทีล่าสุด</string>
+    <string name="liveview_control_map">แผนที่</string>
+    <string name="liveview_control_map_description">แผนที่ แผนที่ของ Live View</string>
+    <string name="liveview_control_map_off">ตำแหน่งรถปิดอยู่</string>
     <string name="liveview_control_onroad_screen">หน้าจอขณะขับ</string>
     <string name="liveview_control_switch_screen">สลับหน้าจอขณะขับ</string>
 
@@ -235,6 +294,7 @@
     <string name="liveview_recording_unable_to_start">เริ่มบันทึกไม่ได้</string>
     <string name="liveview_recording_live_copy_only">บันทึกเฉพาะสำเนาสด การเล่นซ้ำเริ่มไม่ได้: %1$s</string>
     <string name="liveview_recording_report">รายงาน</string>
+    <string name="liveview_car_screen_new_code_done">รหัส Browser View ใหม่ เปิดที่อยู่ใหม่ในเบราว์เซอร์ของรถ</string>
     <string name="liveview_share_live_stream">แชร์การถ่ายทอดสด</string>
 
     <!-- Why Browser View's VPN address is off (CarScreenVpn). -->
@@ -256,6 +316,15 @@
     <string name="liveview_alert_spoken">การแจ้งเตือน: %1$s</string>
     <string name="liveview_video_note_logging_disabled">“Disable Logging” หยุดตัวเข้ารหัสวิดีโอของ comma ปิด “Disable Logging” ในการตั้งค่าของฟอร์กเพื่อใช้ Live View</string>
 
+    <!-- The divider between the video and the trip's map (LiveMapWell): %1$d is the map's size, %2$d the room it shares, in dp. -->
+    <string name="liveview_map_divider_height">ความสูงแผนที่ %1$d จาก %2$d dp</string>
+    <string name="liveview_map_divider_width">ความกว้างแผนที่ %1$d จาก %2$d dp</string>
+    <string name="liveview_map_divider_taller">สูงขึ้น</string>
+    <string name="liveview_map_divider_wider">กว้างขึ้น</string>
+    <string name="liveview_map_divider_shorter">เตี้ยลง</string>
+    <string name="liveview_map_divider_narrower">แคบลง</string>
+    <string name="liveview_map_divider_default_height">ความสูงเริ่มต้น</string>
+    <string name="liveview_map_divider_default_width">ความกว้างเริ่มต้น</string>
 
 
 
@@ -268,6 +337,7 @@
 
     <!-- A summary tile, as TalkBack reads it: %1$s its label, %2$s its value. -->
     <string name="liveview_summary_tile_said">%1$s, %2$s</string>
+    <string name="liveview_packs_line_not_on_design">%1$s: %2$s ไม่ได้วาดบนดีไซน์นี้</string>
     <string name="liveview_vpn_android_setup_failed">Android ตั้งค่า VPN ของ CommaView ไม่ได้</string>
     <string name="liveview_vpn_details_clip">ที่อยู่ VPN ของ CommaView ล้มเหลว</string>
     <string name="liveview_details_copied">คัดลอกรายละเอียดแล้ว</string>

@@ -1,0 +1,31 @@
+title: Mapas offline e limites de velocidade, placas regionais, e uma fila de reproduções
+out:
+  - title: Mapas offline e limites de velocidade
+    text: "Baixe um país ou um estado dos EUA em Configurações › Mapas offline, e o CommaView mostra o limite de velocidade a partir do GPS ao vivo do seu comma depois que a localização dele é ativada. Os downloads pausam, retomam e se atualizam, e os limites são só informativos."
+  - title: Placas de limite de velocidade de onde você dirige
+    text: "A placa do CommaView usa um de sete estilos conforme a localização do seu comma: o círculo com borda vermelha usado na maioria dos países, incluindo o Reino Unido e Taiwan, ou as placas dos EUA, do Canadá, do Japão, da Suécia, da Finlândia e da Islândia, da Irlanda e do Brasil, ou da Austrália."
+  - title: Uma meia-lua de direção
+    text: "Uma meia-lua sob o bloco de velocidade da sobreposição do CommaView mostra com que força o openpilot está esterçando, e o bloco voltou a ter o visual de vidro. MÁX e o limite de velocidade ficam no lugar mesmo quando são desconhecidos."
+  - title: Preencher tela ou Câmera inteira
+    text: "Na horizontal, a sobreposição do CommaView preenche a tela cortando a câmera, ou mostra a imagem inteira com Câmera inteira. As gravações novas mantêm o corte que você escolheu."
+  - title: Uma fila de reproduções
+    text: "Coloque várias viagens na fila e as reproduções delas são feitas em segundo plano, continuando de onde pararam se a conexão cair. Pause, retome, tente de novo ou reordene a partir de Fila em Gravações."
+  - title: Gravações e mapas para qualquer tela
+    text: "Gravações e a biblioteca de mapas offline foram redesenhadas para celulares, tablets e centrais multimídia, e Localização do veículo agora cabe em telas baixas e com texto grande."
+  - title: Problemas de gravação mais claros
+    text: "Quando uma viagem não pode virar reprodução, Gravações diz por quê, e um relato enviado dali inclui os detalhes de que precisamos para investigar."
+  - title: O Início e o ranking
+    text: "Condução nesta semana e Localização do veículo ficam no Início offline, e o Início mostra o pódio desta semana. Depois que você entra no ranking, os seus totais se sincronizam sozinhos, até pelo ponto de acesso do comma."
+  - title: Atualizações do runtime sem atualizar o app
+    text: "O runtime do seu comma pode ser atualizado quando sai um compatível, sem esperar um app novo, e o progresso dele está mais claro."
+  - title: Login no beta
+    text: "Durante o beta, o CommaView pede que você entre com a conta para a qual o convite foi enviado. Os seus emparelhamentos e configurações são mantidos, e o app funciona offline enquanto o seu passe de acesso é válido."
+  - title: Economia de energia do Wi‑Fi mais clara
+    text: "A economia de energia do Wi‑Fi do seu comma é uma escolha simples entre ligado e desligado que mostra o padrão do sistema e diz quando uma mudança passa a valer."
+runtime:
+  - title: Reiniciar pelo app
+    text: "Quando uma atualização precisa que o seu comma reinicie, Reiniciar comma agora no app o reinicia para você. Só funciona com o carro desligado ou estacionado."
+  - title: Limites de velocidade com GPS recente
+    text: "No sunnypilot, o seu comma envia a posição de GPS mais recente em vez de uma guardada, então os limites de velocidade dos mapas offline acompanham onde você está."
+  - title: Status das viagens mais claro
+    text: "O seu comma distingue uma viagem ainda incompleta de uma que não existe mais, para que Gravações possa explicar qual é qual, e mantém as viagens terminadas em bom estado."

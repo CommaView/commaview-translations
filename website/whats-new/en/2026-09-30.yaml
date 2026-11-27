@@ -1,0 +1,21 @@
+date: 2026-09-30
+title: A new home, your car’s picture, and one place for your account
+out:
+  - title: Your account at my.commaview.com
+    text: Sign in with a code sent to your email, download the app, and see what’s new. It’s also where betas and updates come from now; Firebase App Distribution is gone.
+  - title: Updates from your account
+    text: The app checks your account for new releases and offers them in the app. Each app release comes with the runtime it was tested with.
+  - title: Feedback, and a feature board
+    text: Send an idea, a problem or praise from Settings in the app, with a support bundle if you want us to look closer, and vote on what we build next on the feature board at my.commaview.com.
+  - title: A new picture of your car
+    text: Every supported car has a new picture in one style, the same size and lighting, that sits cleanly on any screen.
+next:
+  - title: A new Devices home
+    text: Your car on its stage in one card with Open Live View, then Driving this week, Vehicle location and your recent recordings.
+  - title: Made for tablets and head units
+    text: On a wider screen the home becomes a dashboard, and Settings and Device settings open beside their list.
+runtime:
+  - title: Driving insights
+    text: Your week’s distance, drive time and drives, from your comma’s own logs.
+  - title: Vehicle location
+    text: Where the car is while you drive, and where you parked. Off until you turn it on.

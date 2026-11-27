@@ -19,12 +19,13 @@
     <string name="display_commaview_full_camera">Full camera</string>
     <string name="display_commaview_full_camera_detail">Show the entire camera image, with black bars where needed.</string>
     <string name="display_commaview_fill_detail">Fill the landscape display by cropping the camera image. Portrait keeps the full camera.</string>
+    <string name="display_pack_framing_detail">Choose how the pack\'s screen uses the landscape display.</string>
+    <string name="display_design_pack_note">%1$s, an overlay pack\'s own screen: it draws on the road camera, with CommaView\'s alerts on top.</string>
     <string name="display_design_comma3x_note">The comma 3X screen: a status border, the MAX box, a large speed and alerts along the bottom.</string>
     <string name="display_design_comma4_note">The comma four\'s screen: MAX above the road as it changes, the wheel and confidence beside it.</string>
     <string name="display_comma4_framing">Preview framing</string>
     <string name="display_comma4_framing_detail">Match the comma four\'s frame exactly, show more of the camera, or crop it to fill this screen.</string>
 
-    <!-- Display › Daylight contrast (DaylightSection). -->
     <string name="display_daylight_title">Daylight contrast</string>
     <string name="display_daylight_subtitle">Brighter text and lines for sun and glare</string>
     <string name="display_daylight_no_sensor">%1$s %2$s has no light sensor, so there\'s no Auto.</string>

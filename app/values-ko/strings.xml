@@ -26,6 +26,7 @@
     <string name="settings_page_about">정보</string>
     <string name="settings_page_licenses">오픈소스 라이선스</string>
     <string name="settings_page_license">라이선스</string>
+    <string name="settings_page_overlay_packs">오버레이 팩</string>
     <string name="settings_page_device">장치 설정</string>
     <string name="settings_page_device_facts">이름 및 주소</string>
     <string name="settings_page_device_network">네트워크</string>
@@ -34,6 +35,7 @@
 
     <!-- The Settings hub's rows, under each title. -->
     <string name="settings_hub_display_subtitle">주행 화면과 옵션, 운전석 위치, 주간 대비</string>
+    <string name="settings_hub_maps_navigation_subtitle">Live View의 지도, 음성 안내, 내 장소, 오프라인 지도</string>
     <string name="settings_hub_maps_navigation_key_subtitle">오프라인 지도, 그리고 내 Stadia Maps 키를 쓰는 내비게이션</string>
     <string name="settings_hub_offline_maps_subtitle">지역을 다운로드하고 comma 위치의 제한 속도를 표시합니다</string>
     <string name="settings_hub_live_streaming_subtitle">Live View에서 YouTube나 다른 서버로 라이브 방송을 합니다</string>

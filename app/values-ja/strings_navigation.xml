@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- navigation: 日本語 (Japanese). Machine drafted with docs/localization/glossary-ja.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- The offline maps' speed limit, as Live View and Settings say it (shared: SpeedLimitAvailability.label). -->
+    <string name="navigation_speed_limit_off">アプリの地図はオフです</string>
+    <string name="navigation_speed_limit_location_off">この comma の位置情報はオフです</string>
+    <string name="navigation_speed_limit_offroad">走行を待っています</string>
+    <string name="navigation_speed_limit_waiting_location">GPS の測位を待っています</string>
+    <string name="navigation_speed_limit_stale_location">GPS の位置が古すぎます</string>
+    <string name="navigation_speed_limit_poor_location">GPS の精度が低すぎます</string>
+    <string name="navigation_speed_limit_not_downloaded">地図をダウンロードして始めましょう</string>
+    <string name="navigation_speed_limit_outside">ダウンロードした地図の範囲外です</string>
+    <string name="navigation_speed_limit_damaged">地図の修復が必要です。もう一度ダウンロードしてください</string>
+    <string name="navigation_speed_limit_lookup_unavailable">この地域の地図を読み込むメモリが足りません</string>
+    <string name="navigation_speed_limit_road_uncertain">道路を確実に特定できませんでした</string>
+    <string name="navigation_speed_limit_no_limit">この道路には数値の制限速度がありません</string>
+    <string name="navigation_speed_limit_available">制限速度を利用できます</string>
+    <string name="navigation_speed_limit_disconnected">comma の位置情報を利用できません</string>
+
+    <!-- Settings › Maps & navigation › Map theme (shared: MapThemeSetting). -->
+    <string name="navigation_map_theme_app">アプリと同じ</string>
+    <string name="navigation_map_theme_app_note">CommaView がライトの間はライト、ダークの間はダークです。</string>
+    <string name="navigation_map_theme_auto">自動</string>
+    <string name="navigation_map_theme_auto_note">comma のある場所の日の出から日の入りまではライト、夜はダークです。</string>
+    <string name="navigation_map_theme_system">スマートフォンと同じ</string>
+    <string name="navigation_map_theme_system_note">%1$sのダークテーマがオンの間はダーク、オフの間はライトです。Android の設定でスケジュールを設定できます。</string>
+    <string name="navigation_map_theme_light">ライト</string>
+    <string name="navigation_map_theme_light_note">常にライト：日差しの下で最も読みやすくなります。</string>
+    <string name="navigation_map_theme_dark">ダーク</string>
+    <string name="navigation_map_theme_dark_note">常にダーク：夜は落ち着いた表示ですが、日差しの下では読みにくくなります。</string>
+
+    <!-- A route's problem in a few words, on the compact turn card (shared: NavRouteException). -->
+    <string name="navigation_route_brief_no_internet">インターネットなし</string>
+    <string name="navigation_route_brief_busy">ルーター混雑中</string>
+    <string name="navigation_route_brief_no_route">ルーター：ルートなし</string>
+    <string name="navigation_route_brief_failed">ルーターのエラー</string>
+    <string name="navigation_route_brief_sign_in">再ログインが必要</string>
+    <string name="navigation_route_brief_not_on">ナビはオフ</string>
+    <string name="navigation_route_brief_needs_key">ルート用のキーを追加</string>
+    <string name="navigation_error_needs_key">ルートを取得するには、ご自身の Stadia Maps のキーを追加してください：設定 › 地図とナビ。</string>
+    <string name="navigation_add_route_key">キーを追加</string>
+    <string name="navigation_route_brief_too_far">遠すぎます</string>
+    <string name="navigation_route_brief_unavailable_here">この地域では利用不可</string>
+    <string name="navigation_route_brief_own_key_refused">キーが拒否されました</string>
+    <string name="navigation_route_brief_own_key_limit">キーが上限超過</string>
+    <string name="navigation_unavailable_mainland_china">中国本土ではナビを利用できません。</string>
+
+    <!-- Times on the turn card and route choices (shared: NavFormat.duration). -->
+    <string name="navigation_duration_minutes">%1$d 分</string>
+    <string name="navigation_duration_hours_minutes">%1$d 時間 %2$d 分</string>
+
+    <!-- Where to? and the route's preview (NavigationPages). -->
+    <string name="navigation_where_to">どこへ行きますか？</string>
+    <string name="navigation_back_to_home">ホームに戻る</string>
+    <string name="navigation_back_to_search">検索に戻る</string>
+    <string name="navigation_voice_unavailable">%1$sでは音声検索を利用できません。</string>
+    <string name="navigation_typing_off_moving">車の走行中は入力できません。音声か保存した場所を使ってください。</string>
+    <string name="navigation_search_places">場所や住所を検索</string>
+    <string name="navigation_clear_search">検索を消去</string>
+    <string name="navigation_search_by_voice">音声で検索</string>
+    <string name="navigation_searching_near_comma">comma の周辺を検索しています…</string>
+    <string name="navigation_searching">検索しています…</string>
+    <string name="navigation_results_near_comma">comma の周辺の結果</string>
+    <string name="navigation_results">結果</string>
+    <string name="navigation_place_home">自宅</string>
+    <string name="navigation_place_work">職場</string>
+    <string name="navigation_saved">保存済み</string>
+    <string name="navigation_recent">最近</string>
+    <string name="navigation_unavailable_mainland_china_body">comma またはスマートフォンが中国本土にある間は、検索、ルート、案内がオフになります。香港、マカオ、台湾は対象外です。</string>
+    <string name="navigation_route_no_location">comma の位置情報を利用できないため、ルートは Live View での最初の位置から始まります。ここで先にルートを確認するには、comma の設定で「車両の位置」をオンにしてください。</string>
+    <string name="navigation_finding_routes">ルートを検索しています…</string>
+    <string name="navigation_try_again">再試行</string>
+    <string name="navigation_stadia_dashboard">Stadia のダッシュボード</string>
+
+    <!-- %1$s is the route's length, %2$s the time of day it arrives. -->
+    <string name="navigation_route_distance_arrive">%1$s · %2$s 到着</string>
+    <string name="navigation_route_fastest">最速 · %1$s</string>
+    <string name="navigation_route_other">ルート %1$d · %2$s</string>
+    <string name="navigation_start">開始</string>
+    <string name="navigation_save_as_home">自宅として保存</string>
+    <string name="navigation_save_as_work">職場として保存</string>
+    <string name="navigation_saved_as_home">自宅として保存しました</string>
+    <string name="navigation_saved_as_work">職場として保存しました</string>
+
+    <!-- %1$s is who plans the routes ("Routes by Stadia Maps"). -->
+    <string name="navigation_routing_credit_display_only">%1$s · 案内は表示のみで、車を操作することはありません。</string>
+    <string name="navigation_map_of_route">ルートの地図</string>
+
+    <!-- Where to? by voice, from the map's corner (CornerWhereTo). -->
+    <string name="navigation_corner_didnt_catch">聞き取れませんでした。「再試行」をタップして、場所か住所を話してください。</string>
+    <string name="navigation_corner_search_failed">検索が応答しませんでした。少し待ってからもう一度お試しください。</string>
+    <string name="navigation_corner_nothing_found">comma の周辺で「%1$s」は見つかりませんでした。</string>
+    <string name="navigation_corner_voice_needs_internet">現在、音声入力には%1$sのインターネット接続が必要です。接続を確認して、もう一度お試しください。</string>
+    <string name="navigation_corner_voice_busy">%1$sの音声認識が使用中です。少し待ってからもう一度お試しください。</string>
+    <string name="navigation_corner_microphone_failed">マイクを使用できませんでした。もう一度お試しください。</string>
+    <string name="navigation_corner_listening">聞き取り中…</string>
+    <string name="navigation_corner_say_place">場所か住所を話してください</string>
+
+    <!-- What was heard, quoted. -->
+    <string name="navigation_corner_heard">「%1$s」</string>
+    <string name="navigation_corner_looking_near_comma">comma の周辺を探しています…</string>
+    <string name="navigation_cancel">キャンセル</string>
+    <string name="navigation_close">閉じる</string>
+
+    <!-- The trip's guidance in the map's corner and on the turn card (LiveMapCorner, LiveNavigation). -->
+    <string name="navigation_vehicle_location_off">車両の位置はオフです</string>
+    <string name="navigation_waiting_for_gps">GPS を待っています</string>
+    <string name="navigation_waiting_for_position">comma の位置を待っています</string>
+    <string name="navigation_finding_route">ルートを検索中</string>
+    <string name="navigation_no_route_yet">まだルートがありません</string>
+    <string name="navigation_arrived">到着しました</string>
+    <string name="navigation_starting_guidance">案内を開始しています</string>
+    <string name="navigation_rerouting">ルートを再検索しています…</string>
+    <string name="navigation_no_new_route_yet">新しいルートはまだありません</string>
+
+    <!-- What TalkBack hears for the corner: %1$s the guidance's words, %2$s the distance. -->
+    <string name="navigation_corner_status_next_step">%1$s 次の案内まで %2$s</string>
+    <string name="navigation_corner_words_in">%2$s 先 %1$s</string>
+
+    <!-- %1$s the time of day it arrives, %2$s the time left. -->
+    <string name="navigation_corner_arrive">%1$s 到着、%2$s</string>
+    <string name="navigation_corner_voice_muted">案内音声ミュート中</string>
+    <string name="navigation_map_road_ahead">前方の道路の地図</string>
+    <string name="navigation_unmute_voice">案内音声のミュートを解除</string>
+    <string name="navigation_mute_voice">案内音声をミュート</string>
+    <string name="navigation_follow_car">車に追従</string>
+    <string name="navigation_route_overview">ルートの概要</string>
+    <string name="navigation_end">ナビを終了</string>
+    <string name="navigation_where_to_by_voice">音声で「どこへ行きますか？」</string>
+    <string name="navigation_vehicle_location_off_detail">案内を受けるには、ホームでこの comma の位置情報をオンにしてください</string>
+    <string name="navigation_waiting_for_gps_detail">comma の最初の測位で案内が始まります</string>
+    <string name="navigation_waiting_for_position_detail">車両の位置をオンにする必要があります</string>
+    <string name="navigation_to_destination">%1$s まで</string>
+    <string name="navigation_couldnt_get_route">ルートを取得できませんでした</string>
+    <string name="navigation_trying_again_every">15 秒ごとに再試行しています</string>
+
+    <!-- %1$s is the step after the next, as the route service words it. -->
+    <string name="navigation_then">その後 %1$s</string>
+
+    <!-- %1$s the time of day it arrives, %2$s the time left, %3$s the distance left. -->
+    <string name="navigation_arrive_time_distance">%1$s 到着 · %2$s · %3$s</string>
+    <string name="navigation_paused_weak_gps">道路案内を一時停止：この付近は GPS が弱いです</string>
+    <string name="navigation_off_route">ルートから外れました</string>
+
+    <!-- Map credits (MapCredits): the credits' names stay as their owners write them. -->
+
+    <!-- %1$s lists the credits: "© OpenStreetMap contributors, © OpenMapTiles, OpenFreeMap". -->
+    <string name="navigation_credit_said">CommaView。提供：%1$s</string>
+    <string name="navigation_dismiss">閉じる</string>
+    <string name="navigation_powered_by">提供</string>
+    <string name="navigation_credit_osm">道路データは Open Database License（ODbL）のもとで提供されています。</string>
+    <string name="navigation_credit_mapd">オフラインの道路データ、スキーマ、地域のメタデータ。</string>
+    <string name="navigation_credit_openmaptiles_live">Live View の地図：ベクタータイルのスキーマ。CC-BY 4.0 のもとで提供されています。</string>
+    <string name="navigation_credit_openfreemap_live">Live View の地図のタイル。キー不要で無料提供されています。</string>
+    <string name="navigation_credit_maplibre_live">Live View の地図を描画します。BSD 2-Clause License。告知はアプリに同梱されています。</string>
+    <string name="navigation_credit_routing">OpenStreetMap の道路からナビのルートを計画します。</string>
+    <string name="navigation_credit_search">OpenStreetMap のデータから「どこへ行きますか？」の場所を探します。</string>
+    <string name="navigation_credit_openmaptiles">地図のベクタータイルのスキーマ。CC-BY 4.0 のもとで提供されています。</string>
+    <string name="navigation_credit_openfreemap">地図のタイル。キー不要で無料提供されています。</string>
+    <string name="navigation_credit_maplibre">地図を描画します。BSD 2-Clause License。告知はアプリに同梱されています。</string>
+    <string name="navigation_map_credits">地図のクレジット</string>
+
+    <!-- The trip's map and its credits (TripMap), the trip's end (TripEnded), Home's Where to? card (WhereToCard). -->
+    <string name="navigation_map_credits_described">地図のクレジット：%1$s</string>
+    <string name="navigation_map_no_position">地図：まだ位置がありません</string>
+    <string name="navigation_map_whole_route">ルート全体の地図</string>
+    <string name="navigation_show_whole_route">ルート全体を表示</string>
+    <string name="navigation_trip_ended">走行が終了しました</string>
+    <string name="navigation_resume">再開</string>
+    <string name="navigation_back_to_live_view">Live View に戻る</string>
+    <string name="navigation_nothing_found">「%1$s」は見つかりませんでした。</string>
+    <string name="navigation_guiding_to">%1$s へ案内中</string>
+
+    <!-- %1$s the time left, %2$s the distance left. -->
+    <string name="navigation_time_distance_left">残り %1$s · %2$s</string>
+    <string name="navigation_guidance_starts_in_live_view">案内は Live View で始まります</string>
+    <string name="navigation_live_view">Live View</string>
+    <string name="navigation_end_trip">走行を終了</string>
+    <string name="navigation_where_to_hint">場所を検索して自宅か職場として保存すると、ここからワンタップで呼び出せます。</string>
+    <string name="navigation_search_for_place">場所を検索</string>
+    <string name="navigation_route_to">%1$s へのルート</string>
+
+    <!-- Why search or a route didn't come (NavigationServices, NavigationSession; through SharedWords, as NavRouteException's message). -->
+    <string name="navigation_error_search_no_internet">検索が応答しません。%1$sのインターネット接続を確認してください。</string>
+    <string name="navigation_error_search_timeout">検索が時間内に応答しませんでした。少し待ってからもう一度お試しください。</string>
+    <string name="navigation_error_search_busy">検索が混み合っています。少し待ってからもう一度お試しください。</string>
+    <string name="navigation_error_search_status">検索が応答できませんでした（%1$d）。少し待ってからもう一度お試しください。</string>
+    <string name="navigation_error_route_no_internet">ルートサービスが応答しません。%1$sのインターネット接続を確認してください。</string>
+    <string name="navigation_error_route_busy">ルートサービスが混み合っています。少し待ってからもう一度お試しください。</string>
+
+    <!-- %1$s is the status or code the route service answered with. -->
+    <string name="navigation_error_own_key_unreadable">現在%1$sで Stadia Maps キーを読み取れませんでした。もう一度お試しいただくか、「設定 › 地図とナビ」でキーを追加し直してください。</string>
+    <string name="navigation_error_too_far_miles">1 回の走行には遠すぎます。ナビは 930 マイル以内の場所へのルートを計画します。途中の立ち寄り先を選び、そこから続けてください。</string>
+    <string name="navigation_error_too_far_km">1 回の走行には遠すぎます。ナビは 1,500 km 以内の場所へのルートを計画します。途中の立ち寄り先を選び、そこから続けてください。</string>
+    <string name="navigation_error_couldnt_get_route_retrying">ルートを取得できませんでした。再試行しています。</string>
+    <string name="navigation_routing_by_stadia">ルート：Stadia Maps</string>
+    <string name="navigation_search_by_photon">検索：Photon</string>
+
+    <!-- The person's own Stadia Maps key (OwnStadiaKey). -->
+    <string name="navigation_own_key_over_limit">Stadia Maps キーが上限を超えています（429）：今月のクレジットを使い切ったか、短時間に要求が多すぎました。Stadia Maps のダッシュボード（client.stadiamaps.com）で確認してください。</string>
+    <string name="navigation_own_key_refused">Stadia Maps があなたのキーを拒否しました（403）：プランにルート機能が含まれていない可能性があります。Stadia Maps のダッシュボード（client.stadiamaps.com）で確認するか、「設定 › 地図とナビ」で変更してください。</string>
+    <string name="navigation_own_key_not_accepted">Stadia Maps があなたのキーを受け付けませんでした（%1$d）。Stadia Maps のダッシュボード（client.stadiamaps.com）で確認するか、「設定 › 地図とナビ」で変更してください。</string>
+    <string name="navigation_key_check_accepted">Stadia Maps がキーを受け付けました。</string>
+    <string name="navigation_key_check_over_limit">Stadia Maps によると、このキーは上限を超えています（429）：今月のクレジットを使い切ったか、短時間に要求が多すぎました。</string>
+    <string name="navigation_key_check_refused">Stadia Maps がこのキーを拒否しました（403）：プランにルート機能が含まれていない可能性があります。</string>
+    <string name="navigation_key_check_not_accepted">Stadia Maps がこのキーを受け付けませんでした（%1$d）。ダッシュボードからキー全体をコピーしたか確認してください。</string>
+    <string name="navigation_key_check_not_a_key">これは Stadia Maps のキーではありません。Stadia Maps のダッシュボードから API キー（英字、数字、ハイフン）をコピーしてください。</string>
+    <string name="navigation_key_check_no_internet">キーを確認するために Stadia Maps に接続できませんでした。%1$sのインターネット接続を確認して、もう一度お試しください。</string>
+    <string name="navigation_key_check_failed">現在 Stadia Maps はキーを確認できませんでした（%1$d）。少し待ってからもう一度お試しください。</string>
+
+    <!-- Settings › Maps & navigation's preview of Live View with a trip (LiveMapPreview). -->
+    <string name="navigation_preview_tag_corner">この画面では：隅</string>
+    <string name="navigation_preview_tag_beside">この画面では：映像の横</string>
+
+    <!-- %1$s is the preview's tag: where the map is on this screen. -->
+    <string name="navigation_preview_said">走行中の地図を表示した Live View のプレビュー。%1$s</string>
+
+    <!-- %1$s the time of day it arrives, %2$s the time left. -->
+    <string name="navigation_preview_arrive_time">%1$s · %2$s</string>
+    <string name="navigation_map_theme_system_device">この端末と同じ</string>
+
+    <!-- A place shared from a maps app (SharedDestinations, Home). -->
+    <string name="navigation_share_target">CommaView でナビ</string>
+    <string name="navigation_shared_place">共有された場所</string>
+    <string name="navigation_shared_not_a_place">共有された内容に行き先が見つかりませんでした。</string>
+    <string name="navigation_shared_unreached">共有されたリンクを開けませんでした。%1$sのインターネット接続を確認してください。</string>
+    <string name="navigation_shared_not_on">このアカウントではナビゲーションがオンになっていないため、共有された場所を開けません。</string>
+    <string name="navigation_shared_no_comma">先に comma を追加してください。共有された場所はホームでルートを開きます。</string>
+
+
+    <!-- Send to comma: the comma's own navigation (SendToCommaSection). %1$s is the fork's name. -->
+    <string name="navigation_send_to_comma">comma に送る</string>
+    <string name="navigation_send_to_comma_clear">comma から消去</string>
+    <string name="navigation_send_to_comma_cleared">comma から消去しました。</string>
+    <string name="navigation_send_to_comma_sent">comma に送りました。%1$s がそこで独自にルートを作ります。</string>
+    <string name="navigation_send_to_comma_failed">comma に送れませんでした：%1$s</string>
+    <string name="navigation_send_to_comma_onroad">先に停車してください：comma はオフロード中にのみ受け付けます。</string>
+    <string name="navigation_comma_unreachable">この移動を送るための comma に接続できません。この電話を comma と同じネットワークに接続してから、もう一度お試しください。</string>
+    <string name="navigation_send_trips_title">すべての移動をこの comma に送る</string>
+    <string name="navigation_send_trips_detail">開始をタップすると、%1$s にも目的地が送られます。移動が終わると消去されます。</string>
+    <string name="navigation_send_trips_paused">一時停止中：オンにした後で %1$s の運転設定が変わりました。同意するには、もう一度オンにしてください。</string>
+    <string name="navigation_send_trips_confirm_title">すべての移動を %1$s に送りますか？</string>
+    <string name="navigation_send_trips_confirm_intro">%1$s は各移動の目的地まで独自のルートを計画し、comma に表示します。現在の設定では、さらに次のことも行います：</string>
+    <string name="navigation_send_trips_confirm_shows">%1$s は各移動の目的地まで独自のルートを計画し、comma に表示します。現在の設定では、車の走り方は変わりません。</string>
+    <string name="navigation_send_trips_confirm_when">この comma で開始した各移動は、開始をタップしたときに送られ、終了すると消去されます。運転設定が変わると、もう一度同意するまで送信は一時停止します。ここでいつでもオフにできます。</string>
+    <string name="navigation_send_trips_turn_on">オンにする</string>
+    <string name="navigation_send_to_comma_confirm_title">comma の %1$s に送りますか？</string>
+    <string name="navigation_send_to_comma_confirm_intro">%1$s はこの場所への独自のルートを作り、comma に表示します。現在の設定では、さらに次のことも行います：</string>
+    <string name="navigation_send_to_comma_confirm_shows">%1$s はこの場所への独自のルートを作り、comma に表示します。現在の設定では、車の走り方は変わりません。</string>
+    <string name="navigation_send_to_comma_confirm_settings">これらは %1$s 自身の設定です。comma 上の設定、または CommaView で変更できます。</string>
+    <string name="navigation_drive_turn_speed">カーブやロータリーの手前で減速する</string>
+    <string name="navigation_drive_turn_desire">ルートの曲がり角付近で出したウインカーを、車線変更ではなく右左折として扱う</string>
+    <string name="navigation_drive_lane_position">ルートに必要な車線を保つ</string>
+    <string name="navigation_drive_auto_turn">ルートの曲がり角で自分でウインカーを出して曲がる</string>
+    <string name="navigation_send">送信</string>
+    <string name="navigation_comma_nav_off">comma で openpilot のナビ（アルファ）がオフです。</string>
+    <string name="navigation_comma_nav_off_release">この openpilot は起動のたびにナビ（アルファ）をオフにするため、まだオンのままにできません。</string>
+    <string name="navigation_comma_nav_turn_on">ナビ（アルファ）をオンにする</string>
+    <string name="navigation_comma_nav_turn_on_title">openpilot のナビ（アルファ）をオンにしますか？</string>
+    <string name="navigation_comma_nav_turn_on_message">openpilot 独自のターンバイターンナビで、comma four にルート地図を表示します。アルファ版で、openpilot はリリース版の設定画面では表示しません。CommaView の comma の設定でいつでもオフにできます。</string>
+    <string name="navigation_comma_nav_turned_on">openpilot のナビ（アルファ）がオンになりました。</string>
+</resources>

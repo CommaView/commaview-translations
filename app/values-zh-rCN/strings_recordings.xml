@@ -363,7 +363,25 @@
     <string name="recordings_export_size">%1$d 分钟 · 约 %2$s</string>
     <string name="recordings_export_free">%2$s的可用空间：%1$s</string>
     <string name="recordings_export_needs">需要约 %1$s 可用空间。请先释放一些空间。</string>
+    <!-- 08_pack -->
+    <string name="recordings_pack_drive_menu_label">保存给叠加包工作室…</string>
+    <string name="recordings_pack_drive_menu_note">它的遥测数据，用于测试叠加包</string>
+    <string name="recordings_pack_drive_title">将此行程保存给叠加包工作室</string>
+    <string name="recordings_pack_drive_intro">将此行程的遥测数据保存为叠加包工作室和叠加包预览器可打开的文件，让您在自己的行程上试用叠加包。</string>
+    <string name="recordings_pack_drive_removed">已移除：车辆去过的地方（位置、导航及其地图、道路名称、指南针）、车辆的 VIN、您的 comma 和%1$s的名称与 ID，以及叠加包加入的内容。</string>
+    <string name="recordings_pack_drive_removed_keeping_packs">已移除：车辆去过的地方（位置、导航及其地图、道路名称、指南针）、车辆的 VIN，以及您的 comma 和%1$s的名称与 ID。</string>
+    <string name="recordings_pack_drive_packs_title">包含叠加包发送的内容</string>
+    <string name="recordings_pack_drive_packs_off">关闭：文件中完全不含这些内容。叠加包作者仍可在工作室中重播自己的叠加包。</string>
+    <string name="recordings_pack_drive_packs_on">开启：各叠加包代码发送的内容，以便原样重播。发送什么由叠加包决定，因此可能包含您去过的地方；已知的地点和 ID 字段会被移除。</string>
+    <string name="recordings_pack_drive_kept">文件仍包含行程的日期和时间、车速，以及 openpilot 看到的内容：道路、前车和车辆状态。</string>
+    <string name="recordings_pack_drive_save">保存为文件</string>
+    <string name="recordings_pack_drive_try_again">重试</string>
+    <string name="recordings_pack_drive_saving">正在保存文件…</string>
+    <string name="recordings_pack_drive_downloading">正在从 comma 下载</string>
+    <string name="recordings_pack_drive_connecting">正在从 comma 获取此行程…</string>
     <string name="recordings_close">关闭</string>
+    <string name="recordings_pack_drive_share">保存或分享此行程</string>
+    <string name="recordings_pack_drive_share_failed">无法分享已保存的行程</string>
     <!-- 09_upload -->
     <string name="recordings_upload_downloading">正在从 comma 下载</string>
     <string name="recordings_upload_preparing">正在准备日志文件</string>
@@ -620,6 +638,15 @@
     <string name="recordings_service_starting">正在开始回放</string>
     <string name="recordings_service_title">正在制作回放 · 队列中有 %1$d 个</string>
     <string name="recordings_service_text_percent">%1$s · %2$d%%</string>
+    <!-- 14_settings -->
+    <string name="recordings_pack_export_nothing_to_save">没有可保存的内容：comma 没有保留这段录像期间的驾驶数据。</string>
+    <string name="recordings_pack_export_no_longer_on_comma">此行程已不在 comma 上，因此无法保存。</string>
+    <string name="recordings_pack_export_cant_reach">无法连接录制此行程的 comma。请连接它（它的 Wi‑Fi 或热点），保持开机，然后重试。</string>
+    <string name="recordings_pack_export_park_first">comma 只在车辆停车时分享行程。请停车并脱离 openpilot，然后重试。</string>
+    <string name="recordings_pack_export_pair_again">请将录制此行程的 comma 与%1$s重新配对，然后重试。</string>
+    <string name="recordings_pack_export_not_enough_space">%1$s的可用空间不足，无法下载此行程。请释放一些空间，然后重试。</string>
+    <string name="recordings_pack_export_too_long">此行程太长，无法保存给叠加包工作室。</string>
+    <string name="recordings_pack_export_failed">无法保存此行程：%1$s</string>
     <string name="recordings_saves_replay">行程结束后的回放</string>
     <string name="recordings_saves_live_copy">实时副本</string>
     <string name="recordings_saves_both">两者</string>

@@ -1,0 +1,13 @@
+title: "xnor et AdventurePilot rejoignent openpilot, sunnypilot et StarPilot"
+out:
+  - title: "L'openpilot de xnor-tech"
+    text: "CommaView s'installe sur ses builds xnor et rx et le nomme xnor. xnor utilise l'écran d'openpilot et rx celui de sunnypilot, et Live View dessine celui que fait tourner votre comma. Sur un Rivian sous rx, le volant devient vert quand la voiture braque par l'angle et bleu quand elle braque par le couple."
+  - title: "AdventurePilot"
+    text: "CommaView s'installe dessus et dessine l'écran de sunnypilot avec ce qu'AdventurePilot y ajoute : son indicateur de centrage dans la voie, la puce CURVE sur l'écran du comma 3X, et la teinte du volant selon son mode de direction."
+  - title: "Le nom de votre fork sur l'écran du comma 3X"
+    text: "Son alerte de démarrage nomme votre fork, comme le fait le comma, là où elle disait toujours sunnypilot."
+runtime:
+  - title: "Deux forks de plus"
+    text: "Le runtime reconnaît l'openpilot de xnor-tech et AdventurePilot, là où l'installation s'arrêtait sur « unsupported upstream remote »."
+  - title: "Chaque position GPS"
+    text: "L'application reçoit chaque position GPS telle qu'openpilot la publie, jusqu'à 10 par seconde, avec son âge, au lieu de la plus récente une fois par seconde."

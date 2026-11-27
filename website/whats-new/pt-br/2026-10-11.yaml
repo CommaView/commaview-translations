@@ -1,0 +1,39 @@
+title: StarPilot, telas que combinam com o seu fork, e um novo ranking
+out:
+  - title: StarPilot
+    text: "O CommaView agora funciona com o StarPilot no comma 3X e no comma four, instalado pelo próprio instalador do StarPilot. O Live View segue o Camera View dele, incluindo a câmera do motorista, e avisa quando a configuração Disable Logging parou o vídeo."
+  - title: Telas que combinam com o seu fork
+    text: "As telas do comma four e do comma 3X desenham o que o seu fork desenha no comma: a fonte, os alertas e o tratamento de cor da câmera. No StarPilot, elas trazem o HUD, a trajetória e os widgets dele, como a placa de limite de velocidade, as informações do veículo à frente, o cartão de navegação e a barra lateral de desenvolvedor."
+  - title: Escolha uma tela em Tela
+    text: "Configurações › Tela escolhe a tela de condução numa lista suspensa, e a prévia mostra o fork e as câmeras do seu próprio comma."
+  - title: Cada quadro no Live View
+    text: "O Live View agora desenha cada quadro que o comma envia, até 20 por segundo, onde antes pulava alguns. A GPU do celular desenha a tela do comma 3X (Android 9 e mais recentes), então ela acompanha o vídeo."
+  - title: Um Live View que se recupera
+    text: "Ele não fica mais travado em “Reconnecting… Attempt 1”, e com o carro desligado espera e abre o vídeo sozinho quando o carro liga. Um único painel de status diz o que está acontecendo, com os botões dele, em vez de um piscar de “openpilot Unavailable” quando o vídeo começa."
+  - title: Uma reinicialização depois das atualizações do runtime
+    text: "Depois que o runtime do seu comma é instalado ou atualizado, o app pede que você o reinicie com um botão Reiniciar, e o Live View e o Gravar esperam até você fazer isso; o comma nunca reinicia sozinho. O cartão de atualização do Início ficou menor: toque nele para ver cada passo."
+  - title: O Início fica em dia
+    text: "O Início mostra em segundos se cada comma está lá, sem puxar para atualizar, e diz Verificando enquanto procura. Uma nova atualização do app aparece logo depois de sair, sempre que você volta ao app."
+  - title: Um ranking redesenhado
+    text: "Classificação e Conquistas, para Esta semana, Semana passada ou Total: a que distância está o comma logo acima de você, o que falta para a sua próxima conquista, e todas as 17 que dá para ganhar. O seu perfil reúne os seus números e configurações, e tablets e centrais multimídia mantêm um painel com os seus dados ao lado da tabela."
+  - title: O pódio antes de você entrar
+    text: "O Início mostra o pódio desta semana em três degraus com as medalhas, e você pode olhar o ranking antes de participar."
+  - title: Uma fila de reproduções mais tranquila
+    text: "Cada viagem é uma linha com o progresso, Pausar, Retomar ou Tentar de novo, e um menu para movê-la, relatá-la ou removê-la, e você pode arrastar as viagens para uma nova ordem. O progresso não para mais em 99%: salvar a reprodução pronta aparece como uma etapa própria."
+  - title: Reproduções iguais ao Live View
+    text: "As reproduções desenham a tela do seu fork e a placa de limite de velocidade dos mapas offline como o Live View fez, e marcam os momentos para os quais o comma não salvou dados do HUD."
+  - title: Mapas offline melhores
+    text: "A busca em Adicionar mapa funciona com o teclado na tela, Baixar continua visível no Android 15, e os downloads continuam em segundo plano. Onde os seus mapas não têm resposta, a placa mostra o limite do sunnypilot."
+  - title: Correções
+    text: "Um celular ou uma central multimídia com o relógio errado não deixa mais você fora do beta. Os alertas GREEN LIGHT e LEAD DEPARTING do sunnypilot sempre mostram o círculo, e os números nas placas de limite de velocidade do CommaView não ficam mais quase encostados."
+runtime:
+  - title: Toda viagem conta
+    text: "O seu comma registra cada viagem enquanto você dirige, então um que desliga com o carro mantém as viagens, mesmo as que começam antes de ele saber a hora. Esta semana, no ranking, vai sendo preenchida durante a viagem."
+  - title: StarPilot e a tela do seu fork
+    text: "O runtime instala no StarPilot, encontra as viagens salvas com as configurações High Bitrate Recording ou Konik, e envia o que a tela do seu fork desenha, para que as telas do comma four e do comma 3X possam ficar iguais a ela."
+  - title: O Live View recupera a câmera
+    text: "O seu celular ou central multimídia pega a câmera de volta na hora quando se reconecta, e um que cai da rede a libera em cerca de dez segundos."
+  - title: Mais leve para o seu comma
+    text: "O runtime monta ele mesmo a telemetria do openpilot e a envia de forma compacta, guarda dados do HUD só em torno de uma gravação, e diz ao app em segundos se o seu comma está lá. Gravar não falha mais com um comma ocupado."
+  - title: Reproduções que continuam disponíveis
+    text: "As viagens terminadas não são mais marcadas como danificadas depois que o comma reinicia estacionado, e uma viagem longa não consegue mais parar as reproduções de outras viagens."

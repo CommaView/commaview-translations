@@ -54,6 +54,7 @@
     <plurals name="contribute_bundle_events">
         <item quantity="other">• recording/events.jsonl 및 manifest.json: 녹화 오류 기록, 이벤트 %1$d개</item>
     </plurals>
+    <string name="contribute_bundle_navigation">• navigation/search-counts.txt: 내비게이션 검색 횟수</string>
     <string name="contribute_bundle_leaderboard">• leaderboard/status.txt: 리더보드 상태(comma의 기록 요청 및 전달 여부)</string>
     <string name="contribute_bundle_report">• report.txt: 작성한 내용과 모든 신고에 포함되는 정보</string>
     <string name="contribute_bundle_json">• bundle.json: 번들에 담긴 항목</string>

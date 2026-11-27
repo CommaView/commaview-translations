@@ -5,7 +5,14 @@
     <string name="maps_title">Cartes et navigation</string>
     <string name="maps_subtitle">Navigation et cartes sur %1$s</string>
     <string name="maps_back_to_settings">Retour aux paramètres</string>
-    <string name="maps_credits">Données cartographiques © contributeurs OpenStreetMap, dans les tuiles © OpenMapTiles d\'OpenFreeMap, dessinées par MapLibre. Les recherches passent par Photon. %1$s Avec votre propre clé Stadia Maps, elles passent par votre compte Stadia et ses conditions. La navigation est désactivée en Chine continentale.</string>
+    <string name="maps_place_home">Domicile</string>
+    <string name="maps_place_work">Travail</string>
+    <string name="maps_layout_automatic">Automatique</string>
+    <string name="maps_layout_automatic_detail">À côté de la vidéo s\'il y a la place, sinon dans le coin</string>
+    <string name="maps_layout_beside">À côté de la vidéo</string>
+    <string name="maps_layout_beside_detail">Toujours : la vidéo s\'efface faute de place</string>
+    <string name="maps_layout_corner">Dans le coin</string>
+    <string name="maps_layout_corner_detail">Fondue en haut à droite de la vidéo</string>
     <string name="maps_your_maps_none">Aucune téléchargée. Les cartes donnent les limitations de vitesse.</string>
     <string name="maps_your_maps">%1$s, pour les limitations de vitesse</string>
     <string name="maps_your_maps_sized">%1$s · %2$s, pour les limitations de vitesse</string>
@@ -16,14 +23,55 @@
         <item quantity="many">%d autres</item>
         <item quantity="other">%d autres</item>
     </plurals>
+    <string name="maps_recent_places_none">Aucun pour l\'instant. Ils sont conservés sur %1$s.</string>
+    <plurals name="maps_recent_places_count">
+        <item quantity="one">%1$d lieu, conservé sur %2$s</item>
+        <item quantity="many">%1$d lieux, conservés sur %2$s</item>
+        <item quantity="other">%1$d lieux, conservés sur %2$s</item>
+    </plurals>
+    <string name="maps_place_not_set">Non défini. Touchez pour le rechercher.</string>
     <string name="maps_offline_maps">Cartes hors ligne</string>
     <string name="maps_your_maps_title">Vos cartes</string>
     <string name="maps_open_your_maps">Ouvrir vos cartes</string>
+    <string name="maps_live_view_map">Carte de Live View</string>
+    <string name="maps_layout">Disposition</string>
+    <string name="maps_layout_subtitle">Où Live View affiche la carte</string>
+    <string name="maps_layout_note">Les écrans comma 3X, comma four, StarPilot et Surround affichent toujours la carte à côté de la vidéo.</string>
+    <string name="maps_width">Largeur à côté de la vidéo</string>
+    <string name="maps_width_subtitle">Réglée en faisant glisser le séparateur dans Live View</string>
+    <string name="maps_reset">Réinitialiser</string>
+    <string name="maps_width_reset_label">Réinitialiser la largeur de la carte</string>
+    <string name="maps_guidance">Guidage</string>
+    <string name="maps_spoken_guidance">Guidage vocal</string>
+    <string name="maps_spoken_guidance_subtitle">Annonces des virages et de l\'arrivée. Le bouton haut-parleur de la carte de virage le coupe aussi.</string>
+    <string name="maps_your_places">Vos lieux</string>
+    <string name="maps_choose_home">Choisir le domicile</string>
+    <string name="maps_choose_work">Choisir le travail</string>
+    <string name="maps_change_or_remove_home">Modifier ou supprimer le domicile</string>
+    <string name="maps_change_or_remove_work">Modifier ou supprimer le travail</string>
+    <string name="maps_change">Modifier</string>
+    <string name="maps_remove">Supprimer</string>
+    <string name="maps_add">Ajouter</string>
+    <string name="maps_recent_places">Lieux récents</string>
+    <string name="maps_clear">Effacer</string>
+    <string name="maps_clear_recent_label">Effacer les lieux récents</string>
+    <string name="maps_clear_recent_title">Effacer les lieux récents ?</string>
+    <string name="maps_clear_recent_message">Les lieux où vous êtes allé sont retirés de %1$s. Domicile et Travail restent.</string>
     <string name="maps_cancel">Annuler</string>
+    <string name="maps_theme">Thème de carte</string>
+    <string name="maps_theme_choose">Choisir le thème de carte</string>
+    <string name="maps_theme_app_line">Suit le thème de CommaView</string>
+    <string name="maps_theme_auto_line">Clair du lever au coucher du soleil là où se trouve votre comma</string>
+    <string name="maps_theme_system_line">Suit le thème sombre de %1$s</string>
+    <string name="maps_theme_light_line">Toujours clair</string>
+    <string name="maps_theme_dark_line">Toujours sombre</string>
+    <string name="maps_theme_dialog_note">Pour toutes les cartes de CommaView. Auto utilise la position de votre comma quand Position du véhicule est activé, sinon le fuseau horaire de %1$s.</string>
+    <string name="maps_theme_daylight_note">Le Contraste plein jour de l\'Affichage est distinct : il éclaircit le texte et les lignes de l\'application.</string>
     <string name="maps_own_key">Votre clé Stadia Maps</string>
-    <string name="maps_own_key_intro_flagged">Facultatif. Avec votre propre clé, les itinéraires passent par Stadia Maps avec votre compte Stadia et ses conditions, à la place de la clé de CommaView. Si Stadia refuse la vôtre, la navigation l\'indique ; celle de CommaView ne prend pas le relais.</string>
-    <string name="maps_own_key_intro_kept">La navigation utilise votre clé : les itinéraires vont de %1$s à Stadia Maps avec votre compte Stadia et ses conditions. L\'effacer désactive la navigation sur %1$s.</string>
-    <string name="maps_own_key_intro_add">Ajoutez votre propre clé Stadia Maps pour utiliser la navigation : Où allez-vous ?, itinéraires et guidage pas à pas. Les itinéraires vont de %1$s à Stadia Maps avec votre clé, sous votre compte Stadia et ses conditions. La recherche utilise Photon.</string>
+    <string name="maps_own_key_intro_routes">Les itinéraires de la navigation utilisent votre clé : ils vont de %1$s à Stadia Maps sous votre compte Stadia et ses conditions. L’effacer arrête les itinéraires sur %1$s jusqu’à ce que vous ajoutiez une clé.</string>
+    <string name="maps_own_key_intro_needed">Les itinéraires demandent votre propre clé Stadia Maps : ils vont avec elle de %1$s à Stadia Maps, sous votre compte Stadia et ses conditions. Où aller ?, la recherche et les lieux marchent sans ; la recherche utilise Photon.</string>
+    <string name="maps_own_key_clear_message">Elle est retirée de %1$s, et les itinéraires s’arrêtent jusqu’à ce que vous ajoutiez une clé.</string>
+    <string name="maps_credits_own_key">Données cartographiques © contributeurs d’OpenStreetMap, dans les tuiles © OpenMapTiles d’OpenFreeMap, dessinées par MapLibre. Les recherches vont à Photon. Les itinéraires vont de %1$s à Stadia Maps, ou à Mapbox si vous l’avez choisi, avec votre propre clé, sous votre compte là-bas et ses conditions. La navigation est désactivée en Chine continentale.</string>
     <string name="maps_own_key_not_added">Non ajoutée</string>
     <string name="maps_own_key_kept">Conservée sur %1$s</string>
     <string name="maps_own_key_over_limit">Limite dépassée chez Stadia Maps (429)</string>
@@ -47,8 +95,6 @@
     <string name="maps_own_key_open_dashboard">Ouvrir votre tableau de bord Stadia Maps</string>
     <string name="maps_own_key_open_sign_up">Ouvrir l\'inscription Stadia Maps</string>
     <string name="maps_own_key_clear_title">Effacer votre clé Stadia Maps ?</string>
-    <string name="maps_own_key_clear_flagged">Elle est retirée de %1$s. Les itinéraires repassent par la clé de CommaView.</string>
-    <string name="maps_own_key_clear_off">Elle est retirée de %1$s, et la navigation est désactivée ici jusqu\'à ce que vous ajoutiez une clé. Un guidage en cours prend fin.</string>
 
     <!-- Offline maps (OfflineMapsPage, OfflineMapLibrary, AddOfflineMapPicker, map/speedlimit). -->
     <plurals name="maps_hub_value">
@@ -183,4 +229,5 @@
     <string name="maps_problem_failed_group">Groupe de cartes %1$d sur %2$d : %3$s. Reprenez pour réessayer.</string>
     <string name="maps_problem_failed_unknown">Échec du téléchargement ou de la vérification. Reprenez pour réessayer.</string>
     <string name="maps_problem_failed_group_unknown">Groupe de cartes %1$d sur %2$d : échec du téléchargement ou de la vérification. Reprenez pour réessayer.</string>
+
 </resources>

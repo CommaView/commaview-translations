@@ -40,6 +40,7 @@
     <string name="about_license_fork_translations">MIT-Lizenz und die eigenen der Forks. Ihre Texte der Fahransicht in der Sprache des comma.</string>
     <string name="about_license_noto_sans">Adobe und die Noto Project Authors · SIL Open Font License 1.1. Die Schrift der Fahransicht von openpilot auf Chinesisch, Japanisch, Koreanisch und Thai.</string>
     <string name="about_license_unifont">Roman Czyborra, Paul Hardy u. a. · SIL Open Font License 1.1. Die Schrift der Fahransicht der Forks auf Chinesisch, Japanisch, Koreanisch und Thai.</string>
+    <string name="about_license_opfont">© IBM Corp., Google LLC; abgeleitet von Rick Lan · SIL Open Font License 1.1. Die Schrift der Fahransicht von dragonpilot auf Chinesisch, Japanisch, Koreanisch und Thai.</string>
     <string name="about_license_kaigen_gothic">Ming-Hsien Lin und Adobe · SIL Open Font License 1.1. Die Schrift der Fahransicht von carrotpilot.</string>
     <string name="about_license_efficientdet_lite">The TensorFlow Authors · Apache License 2.0. Das allgemeine Erkennungsmodell von Surround.</string>
     <string name="about_license_qnn">Qualcomm Technologies, Inc. · Hinweise zur DSP-Runtime des Detektors.</string>

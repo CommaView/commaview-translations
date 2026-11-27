@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- navigation: Türkçe. Machine drafted; not yet reviewed by a native speaker. Terms follow
+     docs/localization/glossary-tr.md and openpilot's selfdrive/ui/translations/app_tr.po. -->
+<resources>
+
+    <!-- The offline maps' speed limit, as Live View and Settings say it (shared: SpeedLimitAvailability.label). -->
+    <string name="navigation_speed_limit_off">Uygulama haritaları kapalı</string>
+    <string name="navigation_speed_limit_location_off">Bu comma için konum kapalı</string>
+    <string name="navigation_speed_limit_offroad">Sürüş bekleniyor</string>
+    <string name="navigation_speed_limit_waiting_location">GPS konumu bekleniyor</string>
+    <string name="navigation_speed_limit_stale_location">GPS konumu çok eski</string>
+    <string name="navigation_speed_limit_poor_location">GPS doğruluğu çok düşük</string>
+    <string name="navigation_speed_limit_not_downloaded">Başlamak için bir harita indirin</string>
+    <string name="navigation_speed_limit_outside">İndirilen haritaların dışında</string>
+    <string name="navigation_speed_limit_damaged">Haritanın onarılması gerekiyor; yeniden indirin</string>
+    <string name="navigation_speed_limit_lookup_unavailable">Bu harita alanını okumak için yeterli bellek yok</string>
+    <string name="navigation_speed_limit_road_uncertain">Yol güvenle belirlenemedi</string>
+    <string name="navigation_speed_limit_no_limit">Bu yol için sayısal hız sınırı yok</string>
+    <string name="navigation_speed_limit_available">Hız sınırı mevcut</string>
+    <string name="navigation_speed_limit_disconnected">comma konumu kullanılamıyor</string>
+
+    <!-- Settings › Maps & navigation › Map theme (shared: MapThemeSetting). -->
+    <string name="navigation_map_theme_app">Uygulamayla aynı</string>
+    <string name="navigation_map_theme_app_note">CommaView açıkken Açık, koyuyken Koyu.</string>
+    <string name="navigation_map_theme_auto">Otomatik</string>
+    <string name="navigation_map_theme_auto_note">comma\'nızın bulunduğu yerde gün doğumundan gün batımına kadar Açık, gece Koyu.</string>
+    <string name="navigation_map_theme_system">Telefonla aynı</string>
+    <string name="navigation_map_theme_system_note">Koyu tema %1$sda açıkken Koyu, kapalıyken Açık. Android ayarlarından zamanlayabilirsiniz.</string>
+    <string name="navigation_map_theme_light">Açık</string>
+    <string name="navigation_map_theme_light_note">Her zaman açık: güneşte okuması en kolay.</string>
+    <string name="navigation_map_theme_dark">Koyu</string>
+    <string name="navigation_map_theme_dark_note">Her zaman koyu: gece sakin, güneşte okuması zor.</string>
+
+    <!-- A route's problem in a few words, on the compact turn card (shared: NavRouteException). -->
+    <string name="navigation_route_brief_no_internet">İnternet yok</string>
+    <string name="navigation_route_brief_busy">Rota sunucusu meşgul</string>
+    <string name="navigation_route_brief_no_route">Rota bulunamadı</string>
+    <string name="navigation_route_brief_failed">Rota hatası</string>
+    <string name="navigation_route_brief_sign_in">Yeniden giriş yapın</string>
+    <string name="navigation_route_brief_not_on">Navigasyon kapalı</string>
+    <string name="navigation_route_brief_needs_key">Rota anahtarı ekleyin</string>
+    <string name="navigation_error_needs_key">Rota almak için kendi Stadia Maps anahtarınızı ekleyin: Ayarlar › Haritalar ve navigasyon.</string>
+    <string name="navigation_add_route_key">Anahtarınızı ekleyin</string>
+    <string name="navigation_route_brief_too_far">Çok uzak</string>
+    <string name="navigation_route_brief_unavailable_here">Burada kullanılamaz</string>
+    <string name="navigation_route_brief_own_key_refused">Anahtar reddedildi</string>
+    <string name="navigation_route_brief_own_key_limit">Anahtar sınırı aştı</string>
+    <string name="navigation_unavailable_mainland_china">Navigasyon Çin anakarasında kullanılamaz.</string>
+
+    <!-- Times on the turn card and route choices (shared: NavFormat.duration). -->
+    <string name="navigation_duration_minutes">%1$d dk</string>
+    <string name="navigation_duration_hours_minutes">%1$d sa %2$d dk</string>
+
+    <!-- Where to? and the route's preview (NavigationPages). -->
+    <string name="navigation_where_to">Nereye?</string>
+    <string name="navigation_back_to_home">Ana sayfaya dön</string>
+    <string name="navigation_back_to_search">Aramaya dön</string>
+    <string name="navigation_voice_unavailable">Sesli arama %1$sda kullanılamıyor.</string>
+    <string name="navigation_typing_off_moving">Araç hareket ederken yazma kapalıdır. Sesi veya kayıtlı bir yeri kullanın.</string>
+    <string name="navigation_search_places">Yer veya adres arayın</string>
+    <string name="navigation_clear_search">Aramayı temizle</string>
+    <string name="navigation_search_by_voice">Sesle ara</string>
+    <string name="navigation_searching_near_comma">comma\'nızın yakınında aranıyor…</string>
+    <string name="navigation_searching">Aranıyor…</string>
+    <string name="navigation_results_near_comma">comma\'nızın yakınındaki sonuçlar</string>
+    <string name="navigation_results">Sonuçlar</string>
+    <string name="navigation_place_home">Ev</string>
+    <string name="navigation_place_work">İş</string>
+    <string name="navigation_saved">Kayıtlı</string>
+    <string name="navigation_recent">Son</string>
+    <string name="navigation_unavailable_mainland_china_body">comma\'nız veya telefonunuz Çin anakarasındayken arama, rotalar ve yönlendirme kapalıdır. Hong Kong, Makao ve Tayvan etkilenmez.</string>
+    <string name="navigation_route_no_location">comma\'nızın konumu kullanılamadığından rota, Live View\'daki ilk konumuyla başlar. Rotayı önce burada görmek için ayarlarından Araç konumu\'nu açın.</string>
+    <string name="navigation_finding_routes">Rotalar bulunuyor…</string>
+    <string name="navigation_try_again">Yeniden dene</string>
+    <string name="navigation_stadia_dashboard">Stadia paneliniz</string>
+
+    <!-- %1$s is the route's length, %2$s the time of day it arrives. -->
+    <string name="navigation_route_distance_arrive">%1$s · Varış %2$s</string>
+    <string name="navigation_route_fastest">En hızlı · %1$s</string>
+    <string name="navigation_route_other">Rota %1$d · %2$s</string>
+    <string name="navigation_start">Başlat</string>
+    <string name="navigation_save_as_home">Ev olarak kaydet</string>
+    <string name="navigation_save_as_work">İş olarak kaydet</string>
+    <string name="navigation_saved_as_home">Ev olarak kaydedildi</string>
+    <string name="navigation_saved_as_work">İş olarak kaydedildi</string>
+
+    <!-- %1$s is who plans the routes ("Routes by Stadia Maps"). -->
+    <string name="navigation_routing_credit_display_only">%1$s · Yönlendirme yalnızca gösterim içindir ve aracı asla kontrol etmez.</string>
+    <string name="navigation_map_of_route">Rotanın haritası</string>
+
+    <!-- Where to? by voice, from the map's corner (CornerWhereTo). -->
+    <string name="navigation_corner_didnt_catch">Anlaşılamadı. Yeniden dene\'ye dokunup bir yer veya adres söyleyin.</string>
+    <string name="navigation_corner_search_failed">Arama yanıt veremedi. Biraz sonra yeniden deneyin.</string>
+    <string name="navigation_corner_nothing_found">comma\'nızın yakınında “%1$s” için sonuç bulunamadı.</string>
+    <string name="navigation_corner_voice_needs_internet">Ses için şu anda %1$sda internet gerekiyor. Bağlantısını kontrol edip yeniden deneyin.</string>
+    <string name="navigation_corner_voice_busy">%1$sdaki ses tanıma özelliği meşgul. Biraz sonra yeniden deneyin.</string>
+    <string name="navigation_corner_microphone_failed">Mikrofon kullanılamadı. Yeniden deneyin.</string>
+    <string name="navigation_corner_listening">Dinleniyor…</string>
+    <string name="navigation_corner_say_place">Bir yer veya adres söyleyin</string>
+
+    <!-- What was heard, quoted. -->
+    <string name="navigation_corner_heard">“%1$s”</string>
+    <string name="navigation_corner_looking_near_comma">comma\'nızın yakınında aranıyor…</string>
+    <string name="navigation_cancel">İptal</string>
+    <string name="navigation_close">Kapat</string>
+
+    <!-- The trip's guidance in the map's corner and on the turn card (LiveMapCorner, LiveNavigation). -->
+    <string name="navigation_vehicle_location_off">Araç konumu kapalı</string>
+    <string name="navigation_waiting_for_gps">GPS bekleniyor</string>
+    <string name="navigation_waiting_for_position">comma\'nızın konumu bekleniyor</string>
+    <string name="navigation_finding_route">Rota bulunuyor</string>
+    <string name="navigation_no_route_yet">Henüz rota yok</string>
+    <string name="navigation_arrived">Vardınız</string>
+    <string name="navigation_starting_guidance">Yönlendirme başlatılıyor</string>
+    <string name="navigation_rerouting">Rota yeniden hesaplanıyor…</string>
+    <string name="navigation_no_new_route_yet">Henüz yeni rota yok</string>
+
+    <!-- What TalkBack hears for the corner: %1$s the guidance's words, %2$s the distance. -->
+    <string name="navigation_corner_status_next_step">%1$s Sonraki adım: %2$s sonra</string>
+    <string name="navigation_corner_words_in">%2$s sonra %1$s</string>
+
+    <!-- %1$s the time of day it arrives, %2$s the time left. -->
+    <string name="navigation_corner_arrive">Varış %1$s, %2$s</string>
+    <string name="navigation_corner_voice_muted">yönlendirme sesi kapalı</string>
+    <string name="navigation_map_road_ahead">Öndeki yolun haritası</string>
+    <string name="navigation_unmute_voice">Yönlendirme sesini aç</string>
+    <string name="navigation_mute_voice">Yönlendirme sesini kapat</string>
+    <string name="navigation_follow_car">Aracı takip et</string>
+    <string name="navigation_route_overview">Rotaya genel bakış</string>
+    <string name="navigation_end">Navigasyonu bitir</string>
+    <string name="navigation_where_to_by_voice">Nereye? (sesle)</string>
+    <string name="navigation_vehicle_location_off_detail">Yönlendirilmek için Ana sayfa\'da bu comma için açın</string>
+    <string name="navigation_waiting_for_gps_detail">Yönlendirme, comma\'nızın ilk konumuyla başlar</string>
+    <string name="navigation_waiting_for_position_detail">Araç konumu açık olmalı</string>
+    <string name="navigation_to_destination">Hedef: %1$s</string>
+    <string name="navigation_couldnt_get_route">Rota alınamadı</string>
+    <string name="navigation_trying_again_every">15 sn\'de bir yeniden deneniyor</string>
+
+    <!-- %1$s is the step after the next, as the route service words it. -->
+    <string name="navigation_then">Sonra %1$s</string>
+
+    <!-- %1$s the time of day it arrives, %2$s the time left, %3$s the distance left. -->
+    <string name="navigation_arrive_time_distance">Varış %1$s · %2$s · %3$s</string>
+    <string name="navigation_paused_weak_gps">Yol yönlendirmesi duraklatıldı: burada GPS zayıf</string>
+    <string name="navigation_off_route">Rotanın dışında</string>
+
+    <!-- Map credits (MapCredits): the credits' names stay as their owners write them. -->
+
+    <!-- %1$s lists the credits: "© OpenStreetMap contributors, © OpenMapTiles, OpenFreeMap". -->
+    <string name="navigation_credit_said">CommaView. Kaynak: %1$s</string>
+    <string name="navigation_dismiss">Kapat</string>
+    <string name="navigation_powered_by">Kaynak:</string>
+    <string name="navigation_credit_osm">Yol verileri Open Database License (ODbL) ile lisanslanmıştır.</string>
+    <string name="navigation_credit_mapd">Çevrimdışı yol veri seti, şeması ve bölge meta verileri.</string>
+    <string name="navigation_credit_openmaptiles_live">Live View\'daki harita: vektör döşemelerinin şeması, CC-BY 4.0 ile lisanslanmıştır.</string>
+    <string name="navigation_credit_openfreemap_live">Live View\'daki haritanın döşemeleri, anahtarsız ve ücretsiz sunulur.</string>
+    <string name="navigation_credit_maplibre_live">Live View\'daki haritayı çizer. BSD 2-Clause Lisansı; bildirimleri uygulamayla birlikte gelir.</string>
+    <string name="navigation_credit_routing">Navigasyonun rotalarını OpenStreetMap\'in yollarından planlar.</string>
+    <string name="navigation_credit_search">Nereye? için yerleri OpenStreetMap verilerinden bulur.</string>
+    <string name="navigation_credit_openmaptiles">Haritanın vektör döşemelerinin şeması, CC-BY 4.0 ile lisanslanmıştır.</string>
+    <string name="navigation_credit_openfreemap">Haritanın döşemeleri, anahtarsız ve ücretsiz sunulur.</string>
+    <string name="navigation_credit_maplibre">Haritayı çizer. BSD 2-Clause Lisansı; bildirimleri uygulamayla birlikte gelir.</string>
+    <string name="navigation_map_credits">Harita kaynakları</string>
+
+    <!-- The trip's map and its credits (TripMap), the trip's end (TripEnded), Home's Where to? card (WhereToCard). -->
+    <string name="navigation_map_credits_described">Harita kaynakları: %1$s</string>
+    <string name="navigation_map_no_position">Harita: henüz konum yok</string>
+    <string name="navigation_map_whole_route">Tüm rotanın haritası</string>
+    <string name="navigation_show_whole_route">Tüm rotayı göster</string>
+    <string name="navigation_trip_ended">Yolculuk bitti</string>
+    <string name="navigation_resume">Devam et</string>
+    <string name="navigation_back_to_live_view">Live View\'a dön</string>
+    <string name="navigation_nothing_found">“%1$s” için sonuç bulunamadı.</string>
+    <string name="navigation_guiding_to">Yönlendiriliyor: %1$s</string>
+
+    <!-- %1$s the time left, %2$s the distance left. -->
+    <string name="navigation_time_distance_left">%1$s · %2$s kaldı</string>
+    <string name="navigation_guidance_starts_in_live_view">Yönlendirme Live View\'da başlar</string>
+    <string name="navigation_live_view">Live View</string>
+    <string name="navigation_end_trip">Yolculuğu bitir</string>
+    <string name="navigation_where_to_hint">Bir yer arayın, sonra buradan tek dokunuşla açmak için Ev veya İş olarak kaydedin.</string>
+    <string name="navigation_search_for_place">Yer arayın</string>
+    <string name="navigation_route_to">Rota: %1$s</string>
+
+    <!-- Why search or a route didn't come (NavigationServices, NavigationSession; through SharedWords, as NavRouteException's message). -->
+    <string name="navigation_error_search_no_internet">Arama yanıt vermiyor. İnternet bağlantısını %1$sda kontrol edin.</string>
+    <string name="navigation_error_search_timeout">Arama zamanında yanıt vermedi. Biraz sonra yeniden deneyin.</string>
+    <string name="navigation_error_search_busy">Arama meşgul. Biraz sonra yeniden deneyin.</string>
+    <string name="navigation_error_search_status">Arama yanıt veremedi (%1$d). Biraz sonra yeniden deneyin.</string>
+    <string name="navigation_error_route_no_internet">Rota hizmeti yanıt vermiyor. İnternet bağlantısını %1$sda kontrol edin.</string>
+    <string name="navigation_error_route_busy">Rota hizmeti meşgul. Biraz sonra yeniden deneyin.</string>
+
+    <!-- %1$s is the status or code the route service answered with. -->
+    <string name="navigation_error_own_key_unreadable">Stadia Maps anahtarınız şu anda %1$sda okunamadı. Yeniden deneyin veya Ayarlar › Haritalar ve navigasyon\'dan yeniden ekleyin.</string>
+    <string name="navigation_error_too_far_miles">Bu, tek bir yolculuk için çok uzak: Navigasyon en fazla 930 mil uzaktaki yerlere rota planlar. Yol üzerinde bir durak seçin, sonra oradan devam edin.</string>
+    <string name="navigation_error_too_far_km">Bu, tek bir yolculuk için çok uzak: Navigasyon en fazla 1.500 km uzaktaki yerlere rota planlar. Yol üzerinde bir durak seçin, sonra oradan devam edin.</string>
+    <string name="navigation_error_couldnt_get_route_retrying">Rota alınamadı. Yeniden deneniyor.</string>
+    <string name="navigation_routing_by_stadia">Rota: Stadia Maps</string>
+    <string name="navigation_search_by_photon">Arama: Photon</string>
+
+    <!-- The person's own Stadia Maps key (OwnStadiaKey). -->
+    <string name="navigation_own_key_over_limit">Stadia Maps anahtarınız sınırını aştı (429): bu ayın kredileri bitti veya az önce çok sık istekte bulunuldu. Stadia Maps panelinizden (client.stadiamaps.com) kontrol edin.</string>
+    <string name="navigation_own_key_refused">Stadia Maps anahtarınızı reddetti (403): planınız rota hizmetini içermiyor olabilir. Stadia Maps panelinizden (client.stadiamaps.com) kontrol edin veya Ayarlar › Haritalar ve navigasyon\'dan değiştirin.</string>
+    <string name="navigation_own_key_not_accepted">Stadia Maps anahtarınızı kabul etmedi (%1$d). Stadia Maps panelinizden (client.stadiamaps.com) kontrol edin veya Ayarlar › Haritalar ve navigasyon\'dan değiştirin.</string>
+    <string name="navigation_key_check_accepted">Stadia Maps anahtarınızı kabul etti.</string>
+    <string name="navigation_key_check_over_limit">Stadia Maps bu anahtarın sınırını aştığını söylüyor (429): bu ayın kredileri bitti veya az önce çok sık istekte bulunuldu.</string>
+    <string name="navigation_key_check_refused">Stadia Maps bu anahtarı reddetti (403): planı rota hizmetini içermiyor olabilir.</string>
+    <string name="navigation_key_check_not_accepted">Stadia Maps bu anahtarı kabul etmedi (%1$d). Panelinizden tam olarak kopyalandığını kontrol edin.</string>
+    <string name="navigation_key_check_not_a_key">Bu bir Stadia Maps anahtarı değil. API anahtarını Stadia Maps panelinizden kopyalayın: harfler, rakamlar ve tireler.</string>
+    <string name="navigation_key_check_no_internet">Anahtarı denetlemek için Stadia Maps\'e ulaşılamadı. İnternet bağlantısını %1$sda kontrol edip yeniden deneyin.</string>
+    <string name="navigation_key_check_failed">Stadia Maps anahtarı şu anda denetleyemedi (%1$d). Biraz sonra yeniden deneyin.</string>
+
+    <!-- Settings › Maps & navigation's preview of Live View with a trip (LiveMapPreview). -->
+    <string name="navigation_preview_tag_corner">Bu ekranda: köşede</string>
+    <string name="navigation_preview_tag_beside">Bu ekranda: videonun yanında</string>
+
+    <!-- %1$s is the preview's tag: where the map is on this screen. -->
+    <string name="navigation_preview_said">Bir yolculuk haritasıyla Live View önizlemesi. %1$s</string>
+
+    <!-- %1$s the time of day it arrives, %2$s the time left. -->
+    <string name="navigation_preview_arrive_time">%1$s · %2$s</string>
+    <string name="navigation_map_theme_system_device">Bu cihazla aynı</string>
+
+    <!-- A place shared from a maps app (SharedDestinations, Home). -->
+    <string name="navigation_share_target">CommaView ile yol tarifi</string>
+    <string name="navigation_shared_place">Paylaşılan yer</string>
+    <string name="navigation_shared_not_a_place">CommaView paylaşılan içerikte gidilecek bir yer bulamadı.</string>
+    <string name="navigation_shared_unreached">CommaView paylaşılan bağlantıyı açamadı. İnternet bağlantısını %1$sda kontrol edin.</string>
+    <string name="navigation_shared_not_on">Bu hesapta navigasyon açık değil, bu yüzden paylaşılan yer açılamıyor.</string>
+    <string name="navigation_shared_no_comma">Önce comma\'nızı ekleyin: paylaşılan bir yer rotasını Ana Sayfa\'da açar.</string>
+
+
+    <!-- Send to comma: the comma's own navigation (SendToCommaSection). %1$s is the fork's name. -->
+    <string name="navigation_send_to_comma">comma\'ya gönder</string>
+    <string name="navigation_send_to_comma_clear">comma\'dan sil</string>
+    <string name="navigation_send_to_comma_cleared">comma\'nızdan silindi.</string>
+    <string name="navigation_send_to_comma_sent">comma\'nıza gönderildi. %1$s orada kendi rotasını planlar.</string>
+    <string name="navigation_send_to_comma_failed">comma\'nıza gönderilemedi: %1$s</string>
+    <string name="navigation_send_to_comma_onroad">Önce durun: comma\'nız bunu yalnızca offroad iken kabul eder.</string>
+    <string name="navigation_comma_unreachable">Bu yolculuğu göndermek için comma\'nıza ulaşılamıyor. Bu telefonu comma\'nızla aynı ağa bağlayın ve yeniden deneyin.</string>
+    <string name="navigation_send_trips_title">Her yolculuğu bu comma\'ya gönder</string>
+    <string name="navigation_send_trips_detail">Başlat\'a dokunduğunuzda hedef %1$s\'a da gider. Yolculuk bitince silinir.</string>
+    <string name="navigation_send_trips_paused">Duraklatıldı: Bunu açtığınızdan beri %1$s\'ın sürüş ayarları değişti. Onaylamak için yeniden açın.</string>
+    <string name="navigation_send_trips_confirm_title">Her yolculuk %1$s\'a gönderilsin mi?</string>
+    <string name="navigation_send_trips_confirm_intro">%1$s her yolculuğun hedefine kendi rotasını planlar ve comma\'da gösterir. Şu anki ayarlarıyla ayrıca:</string>
+    <string name="navigation_send_trips_confirm_shows">%1$s her yolculuğun hedefine kendi rotasını planlar ve comma\'da gösterir. Şu anki ayarlarıyla aracın sürüşünü değiştirmez.</string>
+    <string name="navigation_send_trips_confirm_when">Bu comma ile başlattığınız her yolculuk Başlat\'a dokunduğunuzda gönderilir ve bittiğinde silinir. Sürüş ayarları değişirse, yeniden onaylayana kadar gönderim duraklar. Bunu istediğiniz zaman buradan kapatın.</string>
+    <string name="navigation_send_trips_turn_on">Aç</string>
+    <string name="navigation_send_to_comma_confirm_title">comma\'nızdaki %1$s\'a gönderilsin mi?</string>
+    <string name="navigation_send_to_comma_confirm_intro">%1$s bu yere kendi rotasını planlar ve comma\'da gösterir. Şu anki ayarlarıyla ayrıca:</string>
+    <string name="navigation_send_to_comma_confirm_shows">%1$s bu yere kendi rotasını planlar ve comma\'da gösterir. Şu anki ayarlarıyla aracın sürüşünü değiştirmez.</string>
+    <string name="navigation_send_to_comma_confirm_settings">Bunlar %1$s\'un kendi ayarları: comma\'daki ayarlarından ya da CommaView\'dan değiştirin.</string>
+    <string name="navigation_drive_turn_speed">virajlardan ve göbeklerden önce yavaşlar</string>
+    <string name="navigation_drive_turn_desire">rotanın dönüşlerine yakın verdiğiniz sinyali şerit değişikliği değil dönüş olarak alır</string>
+    <string name="navigation_drive_lane_position">rotanın gerektirdiği şeritte kalır</string>
+    <string name="navigation_drive_auto_turn">rotanın dönüşlerinde kendisi sinyal verip döner</string>
+    <string name="navigation_send">Gönder</string>
+    <string name="navigation_comma_nav_off">openpilot\'un navigasyonu (alfa) comma\'nızda kapalı.</string>
+    <string name="navigation_comma_nav_off_release">Bu openpilot navigasyonunu (alfa) her açılışta kapatır, bu yüzden henüz açık tutulamaz.</string>
+    <string name="navigation_comma_nav_turn_on">Navigasyonu (alfa) aç</string>
+    <string name="navigation_comma_nav_turn_on_title">openpilot\'un navigasyonu (alfa) açılsın mı?</string>
+    <string name="navigation_comma_nav_turn_on_message">openpilot\'un kendi adım adım navigasyonu, comma four\'da rota haritasıyla. Bu bir alfa; openpilot release sürümlerinde kendi ayarlarında gizler. CommaView\'daki comma ayarlarınızdan yeniden kapatabilirsiniz.</string>
+    <string name="navigation_comma_nav_turned_on">openpilot\'un navigasyonu (alfa) açık.</string>
+</resources>

@@ -1,0 +1,42 @@
+date: 2026-11-01
+app: 0.0.165
+runtimeVersion: 0.0.61
+title: Go live for everyone, sending drives, and more openpilot forks, best effort
+out:
+  - title: Go live, for everyone
+    text: Stream what Live View shows to your YouTube channel or another RTMP server, in 720p or 1080p, with sound from your comma’s microphone or your phone’s if you choose one. Set it up in Settings › Live streaming. Streams start Unlisted, and anyone watching sees where you drive.
+  - title: Send to CommaView, for members
+    text: "Send us one drive or several from Recordings with a note on what happened: each one’s road and wide video and its log, never the driver camera, sound or your car’s VIN. One Send to CommaView sheet now carries everything you send us, problems and ideas alike."
+  - title: Several drives at once
+    text: Select drives in Recordings to share them, make their replays, send them or delete them together.
+  - title: Your requests
+    text: "When you report a problem or send an idea while signed in, we can reply: Settings › Support & diagnostics › Your requests shows our replies, you get an email, and the conversation carries on at my.commaview.com."
+  - title: Live View fits every screen
+    text: "Its controls no longer scroll or cut off Exit: what doesn’t fit goes into More, and larger text moves controls into More instead of shrinking anything. Live View is lighter on the phone, and gets itself going again instead of freezing."
+  - title: Settings, reorganised
+    text: Privacy & sharing says what leaves your phone, Support & diagnostics is where to report a problem and find your requests, and Account ends with Delete your account. Help improve CommaView asks once whether to send crash reports and which driving software your comma runs.
+  - title: The leaderboard, for every member
+    text: It no longer depends on a feature flag. Home’s card refreshes at most every 30 minutes, and says when it last did.
+  - title: Support CommaView
+    text: Settings › Support & diagnostics › Support CommaView opens our Buy Me a Coffee page, to help cover hosting, testing and the iOS app. It unlocks nothing.
+  - title: Fixes
+    text: An Android 16 head unit no longer closes CommaView in Live View when its video decoder fails, StarPilot’s comma 3X screen draws its camera on head units that showed it black, and YouTube sign-in and Go live work through a VPN.
+earlyAccessNote: Navigation, Surround, Surround V2 and Experimental tools are still in early development, for a limited group of testers behind feature flags while we gather feedback. Some run on paid services, such as Navigation’s routes, so we’re keeping the group small. To help test them, reach out to us on Discord.
+earlyAccess:
+  - title: Navigation
+    text: A map in Live View during a trip, beside the video or in its corner, and Where to? with no trip. On the corner map, End and Mute are always there, End can be undone for 8 seconds, and you can say where to go.
+  - title: Map themes
+    text: Navigation’s map now has Light and Dark themes, switching at sunrise and sunset where your comma is, so it reads in sun. Choose Auto, Same as the phone, Light or Dark in Settings › Maps & navigation › Map theme.
+  - title: Surround and Surround V2
+    text: Surround places a parked car where it stands in replays and hides a camera-only car that is really the radar’s. Surround V2 is an experimental second renderer, in Settings › Experimental tools.
+runtime:
+  - title: Paired phones only
+    text: "Your comma’s cameras and data go only to the phones and head units paired with it. Update CommaView on every phone and head unit first: one left on 0.0.164 gets no video from a comma on this runtime."
+  - title: Contribute to car detection
+    text: "For members: give whole drives to train the car detector Surround uses, with a tap or automatically, on the networks you choose from your comma’s saved Wi-Fi and your phone’s mobile data, each with a monthly limit if you want one. A contribution is for good: it can’t be removed later. Nothing names you or your comma, but a drive’s route and video can show where you drive."
+  - title: More openpilot forks, best effort
+    text: "CommaView now installs on more openpilot forks, best effort: setup checks a fork CommaView doesn’t list, changing nothing, and adds CommaView’s view once you agree. Uninstall runtime puts the fork’s files back."
+  - title: Installs that recover
+    text: A power cut or reboot mid-install puts the previous release back, a stalled download picks up where it stopped, and an install keeps going when the app stops listening.
+  - title: Experimental mode on newer openpilot
+    text: On openpilot’s nightly and sunnypilot dev, Live View shows experimental mode as openpilot does.

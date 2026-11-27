@@ -247,6 +247,7 @@
     <!-- Why a stream, a live copy or Browser View didn't start or stopped (LiveStreamController, LiveStreamSender). -->
     <string name="live_streaming_open_live_view_to_go_live">Open Live View to go live</string>
     <string name="live_streaming_open_live_view_to_record">Open Live View to record</string>
+    <string name="live_streaming_open_live_view_for_car_screen">Open Live View to show it on the car’s screen</string>
     <string name="live_streaming_storage_unavailable">Recording storage is unavailable</string>
     <string name="live_streaming_no_video">Live stream stopped: no video from the comma for a minute</string>
     <string name="live_streaming_copy_no_video">Live copy stopped: no video from the comma for a minute. What was recorded is saved in Recordings.</string>
@@ -254,13 +255,23 @@
     <string name="live_streaming_encoder_failed">The video encoder failed: %1$s</string>
     <string name="live_streaming_copy_encoder_stopped">Live copy stopped: the video encoder stopped: %1$s</string>
     <string name="live_streaming_copy_encoder_failed">Live copy stopped: the video encoder failed: %1$s</string>
+    <string name="live_streaming_car_screen_encoder_stopped">Browser View stopped: the video encoder stopped: %1$s</string>
+    <string name="live_streaming_car_screen_encoder_failed">Browser View stopped: the video encoder failed: %1$s</string>
+    <string name="live_streaming_car_screen_no_port">Browser View couldn\'t start: no free port on %1$s. Close other apps that share over Wi-Fi, then try again.</string>
+    <string name="live_streaming_car_screen_couldnt_start">Browser View couldn\'t start on %1$s. Check that Wi-Fi is on, then try again.</string>
+    <string name="live_streaming_silent_live_car_screen">No sound: Browser View is running without it. Stop it before going live for sound</string>
     <string name="live_streaming_silent_live_recording">No sound: the recording is running without it. Stop it before going live for sound</string>
+    <string name="live_streaming_silent_live_car_screen_and_recording">No sound: Browser View and the recording are running without it. Stop them before going live for sound</string>
+    <string name="live_streaming_silent_recording_car_screen">No sound in the recording: Browser View is running without it. Stop it before recording for sound</string>
     <string name="live_streaming_silent_recording_stream">No sound in the recording: the stream is running without it. Stop it before recording for sound</string>
+    <string name="live_streaming_silent_recording_car_screen_and_stream">No sound in the recording: Browser View and the stream are running without it. Stop them before recording for sound</string>
     <string name="live_streaming_cant_encode_sound">No sound: %1$s can’t encode sound</string>
     <string name="live_streaming_encoder_busy_stream">%1$s\'s video encoder is busy, so it can\'t encode the stream. Close other apps that record or stream video, then try again.</string>
     <string name="live_streaming_encoder_busy_copy">%1$s\'s video encoder is busy, so it can\'t encode a live copy. Close other apps that record or stream video, then try again.</string>
+    <string name="live_streaming_encoder_busy_car_screen">%1$s\'s video encoder is busy, so it can\'t encode Live View for the car’s screen. Close other apps that record or stream video, then try again.</string>
     <string name="live_streaming_encoder_quality_stream">%1$s can\'t encode the stream at this quality. Choose a lower quality in Settings, then try again.</string>
     <string name="live_streaming_encoder_quality_copy">%1$s can\'t encode a live copy at this quality. Choose a lower quality in Settings, then try again.</string>
+    <string name="live_streaming_encoder_quality_car_screen">%1$s can\'t encode Live View for the car’s screen at this quality. Choose a lower quality in Settings, then try again.</string>
     <string name="live_streaming_failed">The live stream failed: %1$s</string>
     <string name="live_streaming_connection_lost_because">Lost the connection: %1$s</string>
     <string name="live_streaming_connection_lost">Connection lost</string>

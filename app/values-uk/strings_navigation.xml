@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- navigation: Українська (Ukrainian). Machine drafted with docs/localization/glossary-uk.md; not yet reviewed by a native speaker. -->
+<resources>
+    <string name="navigation_speed_limit_off">Карти застосунку вимкнено</string>
+    <string name="navigation_speed_limit_location_off">Місце вимкнено для цього comma</string>
+    <string name="navigation_speed_limit_offroad">Очікування поїздки</string>
+    <string name="navigation_speed_limit_waiting_location">Очікування GPS</string>
+    <string name="navigation_speed_limit_stale_location">Позиція GPS застаріла</string>
+    <string name="navigation_speed_limit_poor_location">Надто низька точність GPS</string>
+    <string name="navigation_speed_limit_not_downloaded">Завантажте карту, щоб почати</string>
+    <string name="navigation_speed_limit_outside">Поза завантаженими картами</string>
+    <string name="navigation_speed_limit_damaged">Карту треба відновити: завантажте її знову</string>
+    <string name="navigation_speed_limit_lookup_unavailable">Недостатньо пам’яті, щоб прочитати цю ділянку карти</string>
+    <string name="navigation_speed_limit_road_uncertain">Не вдалося впевнено визначити дорогу</string>
+    <string name="navigation_speed_limit_no_limit">Для цієї дороги немає числового обмеження</string>
+    <string name="navigation_speed_limit_available">Обмеження швидкості доступне</string>
+    <string name="navigation_speed_limit_disconnected">Місце comma недоступне</string>
+
+    <string name="navigation_map_theme_app">Як у застосунку</string>
+    <string name="navigation_map_theme_app_note">Світла, поки CommaView світлий, темна, поки темний.</string>
+    <string name="navigation_map_theme_auto">Авто</string>
+    <string name="navigation_map_theme_auto_note">Світла від сходу до заходу сонця там, де ваш comma, темна вночі.</string>
+    <string name="navigation_map_theme_system">Як у телефоні</string>
+    <string name="navigation_map_theme_system_note">Темна, коли %1$s має ввімкнену темну тему, світла, коли вимкнену. Розклад можна задати в налаштуваннях Android.</string>
+    <string name="navigation_map_theme_light">Світла</string>
+    <string name="navigation_map_theme_light_note">Завжди світла: найлегше читати на сонці.</string>
+    <string name="navigation_map_theme_dark">Темна</string>
+    <string name="navigation_map_theme_dark_note">Завжди темна: спокійна вночі, важче читати на сонці.</string>
+
+    <string name="navigation_route_brief_no_internet">Немає інтернету</string>
+    <string name="navigation_route_brief_busy">Маршрутизатор зайнятий</string>
+    <string name="navigation_route_brief_no_route">Немає маршруту</string>
+    <string name="navigation_route_brief_failed">Помилка маршрутизатора</string>
+    <string name="navigation_route_brief_sign_in">Увійдіть знову</string>
+    <string name="navigation_route_brief_not_on">Навігацію вимкнено</string>
+    <string name="navigation_route_brief_needs_key">Додайте ключ маршрутів</string>
+    <string name="navigation_error_needs_key">Додайте власний ключ Stadia Maps, щоб отримувати маршрути: Налаштування › Карти й навігація.</string>
+    <string name="navigation_add_route_key">Додати ключ</string>
+    <string name="navigation_route_brief_too_far">Надто далеко</string>
+    <string name="navigation_route_brief_unavailable_here">Тут недоступно</string>
+    <string name="navigation_route_brief_own_key_refused">Ключ відхилено</string>
+    <string name="navigation_route_brief_own_key_limit">Ліміт ключа вичерпано</string>
+    <string name="navigation_unavailable_mainland_china">Навігація недоступна в материковому Китаї.</string>
+
+    <string name="navigation_duration_minutes">%1$d хв</string>
+    <string name="navigation_duration_hours_minutes">%1$d год %2$d хв</string>
+
+    <string name="navigation_where_to">Куди їдемо?</string>
+    <string name="navigation_back_to_home">Назад на головну</string>
+    <string name="navigation_back_to_search">Назад до пошуку</string>
+    <string name="navigation_voice_unavailable">Голосовий пошук недоступний: його не підтримує %1$s.</string>
+    <string name="navigation_typing_off_moving">Введення тексту вимкнено, поки авто рухається. Скористайтеся голосом або збереженим місцем.</string>
+    <string name="navigation_search_places">Пошук місць чи адрес</string>
+    <string name="navigation_clear_search">Очистити пошук</string>
+    <string name="navigation_search_by_voice">Пошук голосом</string>
+    <string name="navigation_searching_near_comma">Пошук поблизу вашого comma…</string>
+    <string name="navigation_searching">Пошук…</string>
+    <string name="navigation_results_near_comma">Результати поблизу вашого comma</string>
+    <string name="navigation_results">Результати</string>
+    <string name="navigation_place_home">Дім</string>
+    <string name="navigation_place_work">Робота</string>
+    <string name="navigation_saved">Збережені</string>
+    <string name="navigation_recent">Нещодавні</string>
+    <string name="navigation_unavailable_mainland_china_body">Пошук, маршрути й підказки вимкнено, поки ваш comma чи телефон у материковому Китаї. Гонконгу, Макао й Тайваню це не стосується.</string>
+    <string name="navigation_route_no_location">Місце вашого comma недоступне, тож маршрут почнеться з його першої позиції в Live View. Увімкніть «Місце авто» в його налаштуваннях, щоб спершу бачити маршрут тут.</string>
+    <string name="navigation_finding_routes">Пошук маршрутів…</string>
+    <string name="navigation_try_again">Спробувати ще раз</string>
+    <string name="navigation_stadia_dashboard">Ваша панель керування Stadia</string>
+
+    <string name="navigation_route_distance_arrive">%1$s · Прибуття %2$s</string>
+    <string name="navigation_route_fastest">Найшвидший · %1$s</string>
+    <string name="navigation_route_other">Маршрут %1$d · %2$s</string>
+    <string name="navigation_start">Почати</string>
+    <string name="navigation_save_as_home">Зберегти як «Дім»</string>
+    <string name="navigation_save_as_work">Зберегти як «Робота»</string>
+    <string name="navigation_saved_as_home">Збережено як «Дім»</string>
+    <string name="navigation_saved_as_work">Збережено як «Робота»</string>
+
+    <string name="navigation_routing_credit_display_only">%1$s · Підказки лише показуються й ніколи не керують авто.</string>
+    <string name="navigation_map_of_route">Карта маршруту</string>
+
+    <string name="navigation_corner_didnt_catch">Не вдалося розібрати. Торкніться «Спробувати ще раз» і назвіть місце чи адресу.</string>
+    <string name="navigation_corner_search_failed">Пошук не відповів. Спробуйте за мить.</string>
+    <string name="navigation_corner_nothing_found">Нічого не знайдено за запитом «%1$s» поблизу вашого comma.</string>
+    <string name="navigation_corner_voice_needs_internet">Для голосу зараз потрібно, щоб %1$s мав інтернет. Перевірте з’єднання й спробуйте ще раз.</string>
+    <string name="navigation_corner_voice_busy">%1$s зараз зайнятий розпізнаванням голосу. Спробуйте за мить.</string>
+    <string name="navigation_corner_microphone_failed">Не вдалося скористатися мікрофоном. Спробуйте ще раз.</string>
+    <string name="navigation_corner_listening">Слухаю…</string>
+    <string name="navigation_corner_say_place">Назвіть місце чи адресу</string>
+
+    <string name="navigation_corner_heard">«%1$s»</string>
+    <string name="navigation_corner_looking_near_comma">Пошук поблизу вашого comma…</string>
+    <string name="navigation_cancel">Скасувати</string>
+    <string name="navigation_close">Закрити</string>
+
+    <string name="navigation_vehicle_location_off">Місце авто вимкнено</string>
+    <string name="navigation_waiting_for_gps">Очікування GPS</string>
+    <string name="navigation_waiting_for_position">Очікування позиції вашого comma</string>
+    <string name="navigation_finding_route">Пошук маршруту</string>
+    <string name="navigation_no_route_yet">Маршруту ще немає</string>
+    <string name="navigation_arrived">Ви прибули</string>
+    <string name="navigation_starting_guidance">Початок підказок</string>
+    <string name="navigation_rerouting">Перебудова маршруту…</string>
+    <string name="navigation_no_new_route_yet">Нового маршруту ще немає</string>
+
+    <string name="navigation_corner_status_next_step">%1$s Наступний крок через %2$s</string>
+    <string name="navigation_corner_words_in">%1$s через %2$s</string>
+
+    <string name="navigation_corner_arrive">Прибуття %1$s, %2$s</string>
+    <string name="navigation_corner_voice_muted">голос підказок вимкнено</string>
+    <string name="navigation_map_road_ahead">Карта дороги попереду</string>
+    <string name="navigation_unmute_voice">Увімкнути голос підказок</string>
+    <string name="navigation_mute_voice">Вимкнути голос підказок</string>
+    <string name="navigation_follow_car">Стежити за авто</string>
+    <string name="navigation_route_overview">Огляд маршруту</string>
+    <string name="navigation_end">Завершити навігацію</string>
+    <string name="navigation_where_to_by_voice">«Куди їдемо?» голосом</string>
+    <string name="navigation_vehicle_location_off_detail">Увімкніть його для цього comma на головній, щоб отримувати підказки</string>
+    <string name="navigation_waiting_for_gps_detail">Підказки почнуться з першої позиції вашого comma</string>
+    <string name="navigation_waiting_for_position_detail">Має бути ввімкнено «Місце авто»</string>
+    <string name="navigation_to_destination">До: %1$s</string>
+    <string name="navigation_couldnt_get_route">Не вдалося отримати маршрут</string>
+    <string name="navigation_trying_again_every">Повтор кожні 15 с</string>
+
+    <string name="navigation_then">Потім %1$s</string>
+
+    <string name="navigation_arrive_time_distance">Прибуття %1$s · %2$s · %3$s</string>
+    <string name="navigation_paused_weak_gps">Підказки призупинено: тут слабкий GPS</string>
+    <string name="navigation_off_route">Поза маршрутом</string>
+
+    <string name="navigation_credit_said">CommaView. На основі %1$s</string>
+    <string name="navigation_dismiss">Закрити</string>
+    <string name="navigation_powered_by">На основі</string>
+    <string name="navigation_credit_osm">Дані доріг за ліцензією Open Database License (ODbL).</string>
+    <string name="navigation_credit_mapd">Офлайн-набір даних доріг, схема й метадані регіонів.</string>
+    <string name="navigation_credit_openmaptiles_live">Карта в Live View: схема її векторних тайлів за ліцензією CC-BY 4.0.</string>
+    <string name="navigation_credit_openfreemap_live">Тайли карти в Live View, безкоштовні й без ключа.</string>
+    <string name="navigation_credit_maplibre_live">Малює карту в Live View. BSD 2-Clause License; її примітки постачаються із застосунком.</string>
+    <string name="navigation_credit_routing">Будує маршрути навігації за дорогами OpenStreetMap.</string>
+    <string name="navigation_credit_search">Шукає місця для «Куди їдемо?» за даними OpenStreetMap.</string>
+    <string name="navigation_credit_openmaptiles">Схема векторних тайлів карти за ліцензією CC-BY 4.0.</string>
+    <string name="navigation_credit_openfreemap">Тайли карти, безкоштовні й без ключа.</string>
+    <string name="navigation_credit_maplibre">Малює карту. BSD 2-Clause License; її примітки постачаються із застосунком.</string>
+    <string name="navigation_map_credits">Авторство карти</string>
+
+    <string name="navigation_map_credits_described">Авторство карти: %1$s</string>
+    <string name="navigation_map_no_position">Карта: позиції ще немає</string>
+    <string name="navigation_map_whole_route">Карта всього маршруту</string>
+    <string name="navigation_show_whole_route">Показати весь маршрут</string>
+    <string name="navigation_trip_ended">Поїздку завершено</string>
+    <string name="navigation_resume">Продовжити</string>
+    <string name="navigation_back_to_live_view">Назад до Live View</string>
+    <string name="navigation_nothing_found">Нічого не знайдено за запитом «%1$s».</string>
+    <string name="navigation_guiding_to">Маршрут до: %1$s</string>
+
+    <string name="navigation_time_distance_left">%1$s · залишилося %2$s</string>
+    <string name="navigation_guidance_starts_in_live_view">Підказки почнуться в Live View</string>
+    <string name="navigation_live_view">Live View</string>
+    <string name="navigation_end_trip">Завершити поїздку</string>
+    <string name="navigation_where_to_hint">Знайдіть місце й збережіть його як «Дім» чи «Робота», щоб обирати тут одним дотиком.</string>
+    <string name="navigation_search_for_place">Знайти місце</string>
+    <string name="navigation_route_to">Маршрут до: %1$s</string>
+
+    <string name="navigation_error_search_no_internet">Пошук не відповідає. Перевірте, чи %1$s має з’єднання з інтернетом.</string>
+    <string name="navigation_error_search_timeout">Пошук не відповів вчасно. Спробуйте за мить.</string>
+    <string name="navigation_error_search_busy">Пошук зайнятий. Спробуйте за мить.</string>
+    <string name="navigation_error_search_status">Пошук не відповів (%1$d). Спробуйте за мить.</string>
+    <string name="navigation_error_route_no_internet">Служба маршрутів не відповідає. Перевірте, чи %1$s має з’єднання з інтернетом.</string>
+    <string name="navigation_error_route_busy">Служба маршрутів зайнята. Спробуйте за мить.</string>
+
+    <string name="navigation_error_own_key_unreadable">Зараз не вдалося прочитати ваш ключ Stadia Maps, який зберігає %1$s. Спробуйте ще раз або додайте його знову в розділі Налаштування › Карти й навігація.</string>
+    <string name="navigation_error_too_far_miles">Це надто далеко для однієї поїздки: навігація прокладає маршрути до місць на відстані до 930 миль. Виберіть зупинку дорогою й продовжте звідти.</string>
+    <string name="navigation_error_too_far_km">Це надто далеко для однієї поїздки: навігація прокладає маршрути до місць на відстані до 1500 km. Виберіть зупинку дорогою й продовжте звідти.</string>
+    <string name="navigation_error_couldnt_get_route_retrying">Не вдалося отримати маршрут. Повторна спроба.</string>
+    <string name="navigation_routing_by_stadia">Маршрути: Stadia Maps</string>
+    <string name="navigation_search_by_photon">Пошук: Photon</string>
+
+    <string name="navigation_own_key_over_limit">Ваш ключ Stadia Maps перевищив ліміт (429): кредити на цей місяць вичерпано або щойно було забагато запитів. Перевірте його в панелі керування Stadia Maps (client.stadiamaps.com).</string>
+    <string name="navigation_own_key_refused">Stadia Maps відхилив ваш ключ (403): можливо, ваш тариф не включає маршрутизацію. Перевірте його в панелі керування Stadia Maps (client.stadiamaps.com) або змініть у розділі Налаштування › Карти й навігація.</string>
+    <string name="navigation_own_key_not_accepted">Stadia Maps не прийняв ваш ключ (%1$d). Перевірте його в панелі керування Stadia Maps (client.stadiamaps.com) або змініть у розділі Налаштування › Карти й навігація.</string>
+    <string name="navigation_key_check_accepted">Stadia Maps прийняв ваш ключ.</string>
+    <string name="navigation_key_check_over_limit">Stadia Maps каже, що цей ключ перевищив ліміт (429): кредити на цей місяць вичерпано або щойно було забагато запитів.</string>
+    <string name="navigation_key_check_refused">Stadia Maps відхилив цей ключ (403): можливо, його тариф не включає маршрутизацію.</string>
+    <string name="navigation_key_check_not_accepted">Stadia Maps не прийняв цей ключ (%1$d). Перевірте, чи його скопійовано з панелі керування повністю.</string>
+    <string name="navigation_key_check_not_a_key">Це не ключ Stadia Maps. Скопіюйте API-ключ із панелі керування Stadia Maps: літери, цифри й дефіси.</string>
+    <string name="navigation_key_check_no_internet">Не вдалося зв’язатися зі Stadia Maps, щоб перевірити ключ. Перевірте, чи %1$s має з’єднання з інтернетом, і спробуйте ще раз.</string>
+    <string name="navigation_key_check_failed">Stadia Maps зараз не зміг перевірити ключ (%1$d). Спробуйте за мить.</string>
+
+    <string name="navigation_preview_tag_corner">На цьому екрані: у куті</string>
+    <string name="navigation_preview_tag_beside">На цьому екрані: поруч із відео</string>
+
+    <string name="navigation_preview_said">Попередній перегляд Live View з картою поїздки. %1$s</string>
+
+    <string name="navigation_preview_arrive_time">%1$s · %2$s</string>
+    <string name="navigation_map_theme_system_device">Як на цьому пристрої</string>
+
+    <!-- A place shared from a maps app (SharedDestinations, Home). -->
+    <string name="navigation_share_target">Навігація з CommaView</string>
+    <string name="navigation_shared_place">Надіслане місце</string>
+    <string name="navigation_shared_not_a_place">CommaView не знайшов місця в тому, чим поділилися.</string>
+    <string name="navigation_shared_unreached">CommaView не зміг відкрити надіслане посилання. Перевірте, чи %1$s має з’єднання з інтернетом.</string>
+    <string name="navigation_shared_not_on">Навігацію для цього облікового запису не ввімкнено, тому надіслане місце не відкриється.</string>
+    <string name="navigation_shared_no_comma">Спершу додайте свій comma: надіслане місце відкриває маршрут на головному екрані.</string>
+
+
+    <!-- Send to comma: the comma's own navigation (SendToCommaSection). %1$s is the fork's name. -->
+    <string name="navigation_send_to_comma">Надіслати на comma</string>
+    <string name="navigation_send_to_comma_clear">Прибрати з comma</string>
+    <string name="navigation_send_to_comma_cleared">Прибрано з вашого comma.</string>
+    <string name="navigation_send_to_comma_sent">Надіслано на ваш comma. %1$s прокладе там власний маршрут.</string>
+    <string name="navigation_send_to_comma_failed">Не вдалося надіслати на ваш comma: %1$s</string>
+    <string name="navigation_send_to_comma_onroad">Спершу зупиніться: comma приймає це лише поза дорогою.</string>
+    <string name="navigation_comma_unreachable">Не вдається зв’язатися з вашим comma, щоб надіслати цю поїздку. Підключіть цей телефон до тієї ж мережі, що й comma, і спробуйте ще раз.</string>
+    <string name="navigation_send_trips_title">Надсилати кожну поїздку на цей comma</string>
+    <string name="navigation_send_trips_detail">Коли ви торкаєтеся «Почати», %1$s теж отримує пункт призначення. Його буде видалено, коли поїздка завершиться.</string>
+    <string name="navigation_send_trips_paused">Призупинено: налаштування водіння %1$s змінилися відтоді, як ви це ввімкнули. Увімкніть знову, щоб погодитися з ними.</string>
+    <string name="navigation_send_trips_confirm_title">Надсилати кожну поїздку в %1$s?</string>
+    <string name="navigation_send_trips_confirm_intro">%1$s прокладає власний маршрут до пункту призначення кожної поїздки й показує його на comma. З поточними налаштуваннями він також:</string>
+    <string name="navigation_send_trips_confirm_shows">%1$s прокладає власний маршрут до пункту призначення кожної поїздки й показує його на comma. З поточними налаштуваннями він не змінює, як їде авто.</string>
+    <string name="navigation_send_trips_confirm_when">Кожну поїздку, яку ви почнете з цим comma, буде надіслано, коли ви торкнетеся «Почати», і видалено, коли вона завершиться. Якщо його налаштування водіння зміняться, надсилання призупиниться, доки ви знову не погодитеся. Вимкнути це можна тут будь-коли.</string>
+    <string name="navigation_send_trips_turn_on">Увімкнути</string>
+    <string name="navigation_send_to_comma_confirm_title">Надіслати в %1$s на вашому comma?</string>
+    <string name="navigation_send_to_comma_confirm_intro">%1$s прокладає власний маршрут до цього місця й показує його на comma. З поточними налаштуваннями він також:</string>
+    <string name="navigation_send_to_comma_confirm_shows">%1$s прокладає власний маршрут до цього місця й показує його на comma. З поточними налаштуваннями він не змінює того, як їде авто.</string>
+    <string name="navigation_send_to_comma_confirm_settings">Це власні налаштування %1$s: змініть їх у його налаштуваннях на comma або в CommaView.</string>
+    <string name="navigation_drive_turn_speed">сповільнюється перед поворотами й кільцями</string>
+    <string name="navigation_drive_turn_desire">сприймає ваш сигнал повороту біля поворотів маршруту як поворот, а не зміну смуги</string>
+    <string name="navigation_drive_lane_position">тримається смуги, потрібної маршруту</string>
+    <string name="navigation_drive_auto_turn">сам вмикає поворот і повертає на поворотах маршруту</string>
+    <string name="navigation_send">Надіслати</string>
+    <string name="navigation_comma_nav_off">Навігацію (альфа) openpilot вимкнено на вашому comma.</string>
+    <string name="navigation_comma_nav_off_release">Цей openpilot вимикає свою навігацію (альфа) під час кожного запуску, тож її поки не можна лишити ввімкненою.</string>
+    <string name="navigation_comma_nav_turn_on">Увімкнути навігацію (альфа)</string>
+    <string name="navigation_comma_nav_turn_on_title">Увімкнути навігацію (альфа) openpilot?</string>
+    <string name="navigation_comma_nav_turn_on_message">Власна покрокова навігація openpilot із мапою маршруту на comma four. Це альфа, яку openpilot ховає у своїх налаштуваннях у релізних збірках. Вимкніть її знову в налаштуваннях вашого comma в CommaView.</string>
+    <string name="navigation_comma_nav_turned_on">Навігацію (альфа) openpilot увімкнено.</string>
+</resources>
