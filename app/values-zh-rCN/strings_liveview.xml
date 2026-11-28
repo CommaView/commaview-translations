@@ -142,6 +142,46 @@
     <string name="liveview_peek_streaming">直播中</string>
 
 
+    <!-- Browser View, Live View in a car's web browser (its card in Details). -->
+    <string name="liveview_car_screen_title">Browser View</string>
+    <string name="liveview_car_screen_title_on">Browser View · 开启</string>
+    <string name="liveview_car_screen_stop">停止</string>
+    <string name="liveview_car_screen_stop_description">停止 Browser View</string>
+    <string name="liveview_car_screen_start">开始</string>
+    <string name="liveview_car_screen_start_description">开始 Browser View</string>
+    <string name="liveview_car_screen_new_code">新代码</string>
+    <string name="liveview_car_screen_new_code_description">生成新的 Browser View 代码</string>
+    <string name="liveview_car_screen_controls_title">车上的控件</string>
+    <string name="liveview_car_screen_controls_subtitle">在画面下方显示“录制”“保存片段”等 Live View 控件，无需拿起%1$s</string>
+    <string name="liveview_car_screen_quality_label">Browser View 画质</string>
+    <string name="liveview_car_screen_quality_caption">画质：1080p 更清晰，但更耗费%1$s和热点的资源。与直播同时进行时，会共用该画质</string>
+    <string name="liveview_car_screen_start_with_live_view">随 Live View 开始</string>
+    <string name="liveview_car_screen_start_with_live_view_subtitle">每次打开 Live View 时都会启动 Browser View；VPN 地址开启时也会一并使用</string>
+    <string name="liveview_car_screen_show_addresses">车上没有网络？显示地址</string>
+    <string name="liveview_car_screen_hide_addresses">隐藏地址</string>
+    <string name="liveview_car_screen_best_caption">最佳画质：浏览器会先显示警告，接受后即可继续。Tesla 的浏览器无法跳过此警告</string>
+    <string name="liveview_car_screen_basic_caption">基本画质：任何浏览器（包括 Tesla 的）都不会显示警告，但画质较低</string>
+    <string name="liveview_car_screen_tesla_open_caption">在车上的浏览器（包括 Tesla 的）中打开</string>
+    <string name="liveview_car_screen_other_open_caption">其他浏览器可打开</string>
+    <string name="liveview_car_screen_tesla_off_caption">连接%1$s热点的 Tesla 需要 VPN 地址，这也是任何浏览器最可靠的访问方式</string>
+    <string name="liveview_car_screen_tesla_starting_caption">正在启动 VPN 地址…</string>
+    <string name="liveview_car_screen_tesla_on_caption">VPN 地址是%1$s上 CommaView 的 VPN。它不传输任何流量，开启期间其他 VPN 应用都会关闭</string>
+    <string name="liveview_car_screen_off_caption">在连接%1$s的 Wi‑Fi 或热点的车上网页浏览器中，显示 Live View 的画面（开启“车内摄像头”时也包括车内摄像头）</string>
+    <string name="liveview_car_screen_privacy_caption">Browser View 会为%1$s分配一个随机的 commaview.app 名称和公开证书，该证书会列在公开日志中；这个名称会一直归%2$s所有。运行期间，它会发送代码、端口和私有地址，以便 commaview.app/&lt;code&gt; 找到它；这些信息会在最后一次运行 30 天后删除。</string>
+    <string name="liveview_car_screen_privacy_policy">隐私政策</string>
+    <string name="liveview_car_screen_open_caption">在车上的浏览器中打开</string>
+    <string name="liveview_car_screen_no_network_caption">开启%1$s的热点并让车辆连接，或让%1$s连接车辆的 Wi‑Fi</string>
+    <string name="liveview_car_screen_address_clip_label">Browser View 地址</string>
+    <string name="liveview_car_screen_address_copied">已复制地址</string>
+    <string name="liveview_car_screen_copy_address">复制 %1$s</string>
+    <string name="liveview_car_screen_vpn_turn_off">关闭 VPN 地址</string>
+    <string name="liveview_car_screen_vpn_turn_off_description">关闭 VPN 地址</string>
+    <string name="liveview_car_screen_vpn_turn_on">开启 VPN 地址</string>
+    <string name="liveview_car_screen_vpn_turn_on_description">开启 VPN 地址</string>
+    <string name="liveview_car_screen_waiting_for_browser">正在等待车上的浏览器</string>
+    <plurals name="liveview_car_screen_viewers">
+        <item quantity="other">%1$d 个浏览器正在观看</item>
+    </plurals>
     <!-- Details' facts (LiveViewDetails). -->
     <string name="liveview_health_good">良好</string>
     <string name="liveview_health_choppy">不流畅</string>
@@ -152,6 +192,7 @@
     <string name="liveview_readout_runtime">运行环境</string>
     <string name="liveview_readout_software">软件</string>
     <string name="liveview_readout_comma_ip">comma IP</string>
+    <string name="liveview_readout_overlay_packs">叠加包</string>
     <string name="liveview_on">开启</string>
     <string name="liveview_off">关闭</string>
 
@@ -177,6 +218,21 @@
     <string name="liveview_live_copy_shared_notice">正在从您的直播录制实时副本：画质与直播相同，%1$s</string>
     <string name="liveview_stream_from_live_copy_notice">以实时副本的 %1$s 画面直播，使用您直播的 %2$s</string>
 
+    <!-- Details' Overlay packs line: each pack and how it's doing on the comma. -->
+    <string name="liveview_packs_line">%1$s：%2$s</string>
+    <string name="liveview_packs_stopped_drawing">已在%2$s上停止绘制：%1$s</string>
+    <string name="liveview_packs_not_for_fork">不适用于此分支版本</string>
+    <string name="liveview_packs_starting">启动中</string>
+    <string name="liveview_packs_off_until_next_start">关闭至下次启动</string>
+    <string name="liveview_packs_off_until_reinstalled">关闭至重新安装：它卡住了 %1$d 次</string>
+    <string name="liveview_packs_off_until_reinstalled_many">关闭至重新安装：它卡住次数太多</string>
+    <string name="liveview_packs_turned_off">已关闭</string>
+    <string name="liveview_packs_turned_off_why">已关闭：%1$s</string>
+    <string name="liveview_packs_running">运行中</string>
+    <string name="liveview_packs_unknown">未知</string>
+    <string name="liveview_packs_state_with_note">%1$s（%2$s）</string>
+    <string name="liveview_packs_hung">卡住 %1$d 次</string>
+    <string name="liveview_packs_hung_of">在 %2$d 次运行中卡住 %1$d 次</string>
 
     <!-- Live View's controls: the rail, the upright bar and More's menu (CockpitNavigation), and the car's (LiveCarScreenControls). -->
     <string name="liveview_controls_description">Live View 控件</string>
@@ -191,6 +247,9 @@
     <string name="liveview_control_save_description">保存此片段</string>
     <string name="liveview_control_saved_description">片段已保存。点按可再保留一分钟</string>
     <string name="liveview_control_save_last_minutes">最近 3 分钟</string>
+    <string name="liveview_control_map">地图</string>
+    <string name="liveview_control_map_description">地图，Live View 的地图</string>
+    <string name="liveview_control_map_off">车辆位置已关闭</string>
     <string name="liveview_control_onroad_screen">行车画面</string>
     <string name="liveview_control_switch_screen">切换行车画面</string>
 
@@ -234,6 +293,7 @@
     <string name="liveview_recording_unable_to_start">无法开始录制</string>
     <string name="liveview_recording_live_copy_only">仅录制实时副本。回放无法开始：%1$s</string>
     <string name="liveview_recording_report">反馈</string>
+    <string name="liveview_car_screen_new_code_done">已生成新的 Browser View 代码。请在车上的浏览器中打开新地址。</string>
     <string name="liveview_share_live_stream">分享直播</string>
 
     <!-- Why Browser View's VPN address is off (CarScreenVpn). -->
@@ -255,6 +315,15 @@
     <string name="liveview_alert_spoken">警报：%1$s</string>
     <string name="liveview_video_note_logging_disabled">“Disable Logging”会停止 comma 的视频编码器。请在分支版本的设置中关闭“Disable Logging”，才能使用 Live View。</string>
 
+    <!-- The divider between the video and the trip's map (LiveMapWell): %1$d is the map's size, %2$d the room it shares, in dp. -->
+    <string name="liveview_map_divider_height">地图高度，%2$d dp 中的 %1$d dp</string>
+    <string name="liveview_map_divider_width">地图宽度，%2$d dp 中的 %1$d dp</string>
+    <string name="liveview_map_divider_taller">加高</string>
+    <string name="liveview_map_divider_wider">加宽</string>
+    <string name="liveview_map_divider_shorter">缩短</string>
+    <string name="liveview_map_divider_narrower">变窄</string>
+    <string name="liveview_map_divider_default_height">默认高度</string>
+    <string name="liveview_map_divider_default_width">默认宽度</string>
 
 
 
@@ -267,6 +336,7 @@
 
     <!-- A summary tile, as TalkBack reads it: %1$s its label, %2$s its value. -->
     <string name="liveview_summary_tile_said">%1$s，%2$s</string>
+    <string name="liveview_packs_line_not_on_design">%1$s：%2$s，不会绘制在此样式上</string>
     <string name="liveview_vpn_android_setup_failed">Android 无法设置 CommaView 的 VPN</string>
     <string name="liveview_vpn_details_clip">CommaView VPN 地址故障</string>
     <string name="liveview_details_copied">已复制详细信息</string>

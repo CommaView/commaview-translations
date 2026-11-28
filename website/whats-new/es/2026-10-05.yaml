@@ -1,0 +1,35 @@
+title: Un CommaView rediseñado, nuestra propia superposición, y la clasificación
+out:
+  - title: Una app rediseñada
+    text: "Todas las pantallas se han rehecho con un diseño nuevo: Inicio, Live View, Grabaciones, Ajustes, el emparejamiento y la configuración. Llega con un icono y una pantalla de inicio nuevos, y un modo diurno para los días de mucha luz."
+  - title: Un nuevo Inicio
+    text: "Tu coche en su escenario con Abrir Live View, y luego Conducción esta semana, Ubicación del vehículo, tus grabaciones recientes y la clasificación. Organízalo con Personalizar Inicio. Tu comma aparece como conectado solo, sin tener que tocar Reconectar."
+  - title: Hecho para tablets y pantallas del coche
+    text: "En una pantalla más ancha, Inicio se convierte en un salpicadero, Ajustes y Grabaciones se abren junto a sus listas, y el emparejamiento cabe en cualquier pantalla del coche."
+  - title: La superposición de CommaView
+    text: "Nuestra propia pantalla de conducción: tu velocidad, MÁX y el límite de velocidad en un solo bloque, líneas de carril que muestran la seguridad del modelo, supervisión del conductor y alertas que no estorban, y la señal MAXIMUM de Canadá donde corresponde. Las pantallas del comma 3X y del comma four también están, y puedes cambiar de pantalla desde el propio Live View."
+  - title: Ajustes de pantalla más sencillos
+    text: "Una sola sección de superposición de conducción con vista previa en vivo, y CommaView elegido por ti."
+  - title: Mejores grabaciones
+    text: "Las reproducciones se ven exactamente como Live View, se reproducen en la app y se pueden hacer con el coche en P. Muestran su progreso mientras se hacen. Cada viaje tiene una miniatura, y se te avisa antes de que tu comma borre uno."
+  - title: Grabaciones en todos tus dispositivos
+    text: "Tus grabaciones te siguen entre tus teléfonos y pantallas del coche emparejados."
+  - title: Estadísticas de conducción y Ubicación del vehículo
+    text: "La distancia, el tiempo de conducción y los viajes de tu semana, a partir de los propios registros de tu comma, y dónde está tu coche y dónde aparcaste, en un mapa oscuro. La ubicación sigue desactivada hasta que la activas."
+  - title: Una página del dispositivo
+    text: "El estado y el entorno de ejecución de tu comma en un solo sitio. Desde ahí puedes abrir Live View, gestionar el ahorro de energía del Wi‑Fi, reparar y compartir registros cuando necesites ayuda."
+  - title: Actualizaciones en la app
+    text: "Las actualizaciones de la app se descargan en segundo plano, con un botón de actualizar en cada pantalla. Las actualizaciones del entorno, las reparaciones y la desinstalación no necesitan SSH. Cada actualización muestra sus pasos a medida que avanza, e Inicio te mantiene al tanto. Lo que no puede hacerse mientras conduces espera a que el coche esté en P."
+  - title: Clasificación
+    text: "Únete desde Inicio con un nombre visible para ver el podio de esta semana, los resultados de la semana pasada y las clasificaciones totales. Las insignias se ganan con la distancia que ha registrado tu propio comma, y una tabla total de comma.ai muestra el total que comma.ai tiene para tu comma."
+  - title: Informes de fallos
+    text: "Nos ayudan a corregir problemas más rápido, sin datos personales. Puedes desactivarlos en Ajustes."
+  - title: Correcciones
+    text: "La velocidad MÁX del comma four ya no parpadea con openpilot activado. El comma 3 ahora dice claramente que no es compatible; CommaView funciona en el comma 3X y el comma four."
+runtime:
+  - title: Actualizaciones en P, incluso en casa
+    text: "Deja el coche encendido en P con openpilot desactivado, o configura el comma en tu mesa. Nunca se interrumpe un viaje."
+  - title: Actualizaciones más seguras
+    text: "De una en una, y si algo sale mal tu comma vuelve a la versión que tenía."
+  - title: Lo que hace funcionar las nuevas funciones
+    text: "Las estadísticas de conducción, Ubicación del vehículo, las grabaciones entre tus dispositivos y la sincronización de la clasificación vienen del nuevo entorno de ejecución. La app lo instala por ti."

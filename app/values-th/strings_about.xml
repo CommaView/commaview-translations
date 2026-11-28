@@ -40,6 +40,7 @@
     <string name="about_license_fork_translations">MIT License และสัญญาอนุญาตของฟอร์กเอง ข้อความบนหน้าจอขณะขับในภาษาของ comma</string>
     <string name="about_license_noto_sans">Adobe และ Noto Project Authors · SIL Open Font License 1.1 ตัวอักษรบนหน้าจอขณะขับของ openpilot ในภาษาจีน ญี่ปุ่น เกาหลี และไทย</string>
     <string name="about_license_unifont">Roman Czyborra, Paul Hardy และคณะ · SIL Open Font License 1.1 ตัวอักษรบนหน้าจอขณะขับของฟอร์กในภาษาจีน ญี่ปุ่น เกาหลี และไทย</string>
+    <string name="about_license_opfont">© IBM Corp., Google LLC; งานดัดแปลงโดย Rick Lan · SIL Open Font License 1.1 ตัวอักษรบนหน้าจอขณะขับของ dragonpilot ในภาษาจีน ญี่ปุ่น เกาหลี และไทย</string>
     <string name="about_license_kaigen_gothic">Ming-Hsien Lin และ Adobe · SIL Open Font License 1.1 ตัวอักษรบนหน้าจอขณะขับของ carrotpilot</string>
     <string name="about_license_efficientdet_lite">The TensorFlow authors · Apache License 2.0 โมเดลตัวตรวจจับทั่วไปของ Surround</string>
     <string name="about_license_qnn">Qualcomm Technologies, Inc. · ประกาศสำหรับรันไทม์ DSP ของตัวตรวจจับ</string>

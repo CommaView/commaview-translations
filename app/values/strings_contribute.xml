@@ -56,6 +56,7 @@
         <item quantity="one">• recording/events.jsonl and manifest.json: the recording error history, %1$d event</item>
         <item quantity="other">• recording/events.jsonl and manifest.json: the recording error history, %1$d events</item>
     </plurals>
+    <string name="contribute_bundle_navigation">• navigation/search-counts.txt: navigation search counts</string>
     <string name="contribute_bundle_leaderboard">• leaderboard/status.txt: the leaderboard\'s status: whether your commas\' statements are asked for and relayed</string>
     <string name="contribute_bundle_report">• report.txt: what you wrote, and what goes with every report</string>
     <string name="contribute_bundle_json">• bundle.json: what the bundle holds</string>

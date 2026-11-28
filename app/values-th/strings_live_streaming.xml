@@ -246,6 +246,7 @@
     <!-- Why a stream, a live copy or Browser View didn't start or stopped (LiveStreamController, LiveStreamSender). -->
     <string name="live_streaming_open_live_view_to_go_live">เปิด Live View เพื่อถ่ายทอดสด</string>
     <string name="live_streaming_open_live_view_to_record">เปิด Live View เพื่อบันทึก</string>
+    <string name="live_streaming_open_live_view_for_car_screen">เปิด Live View เพื่อแสดงบนหน้าจอรถ</string>
     <string name="live_streaming_storage_unavailable">ไม่มีพื้นที่เก็บข้อมูลสำหรับการบันทึก</string>
     <string name="live_streaming_no_video">การถ่ายทอดสดหยุดแล้ว: ไม่มีวิดีโอจาก comma เป็นเวลาหนึ่งนาที</string>
     <string name="live_streaming_copy_no_video">สำเนาสดหยุดแล้ว: ไม่มีวิดีโอจาก comma เป็นเวลาหนึ่งนาที สิ่งที่บันทึกไว้อยู่ในการบันทึก</string>
@@ -253,13 +254,23 @@
     <string name="live_streaming_encoder_failed">ตัวเข้ารหัสวิดีโอล้มเหลว: %1$s</string>
     <string name="live_streaming_copy_encoder_stopped">สำเนาสดหยุดแล้ว: ตัวเข้ารหัสวิดีโอหยุดทำงาน: %1$s</string>
     <string name="live_streaming_copy_encoder_failed">สำเนาสดหยุดแล้ว: ตัวเข้ารหัสวิดีโอล้มเหลว: %1$s</string>
+    <string name="live_streaming_car_screen_encoder_stopped">Browser View หยุดแล้ว: ตัวเข้ารหัสวิดีโอหยุดทำงาน: %1$s</string>
+    <string name="live_streaming_car_screen_encoder_failed">Browser View หยุดแล้ว: ตัวเข้ารหัสวิดีโอล้มเหลว: %1$s</string>
+    <string name="live_streaming_car_screen_no_port">Browser View เริ่มไม่ได้: ไม่มีพอร์ตว่างบน%1$s ปิดแอปอื่นที่แชร์ผ่าน Wi-Fi แล้วลองอีกครั้ง</string>
+    <string name="live_streaming_car_screen_couldnt_start">Browser View เริ่มบน%1$sไม่ได้ ตรวจสอบว่าเปิด Wi-Fi แล้ว แล้วลองอีกครั้ง</string>
+    <string name="live_streaming_silent_live_car_screen">ไม่มีเสียง: Browser View ทำงานอยู่โดยไม่มีเสียง หยุดก่อนถ่ายทอดสดเพื่อให้มีเสียง</string>
     <string name="live_streaming_silent_live_recording">ไม่มีเสียง: การบันทึกทำงานอยู่โดยไม่มีเสียง หยุดก่อนถ่ายทอดสดเพื่อให้มีเสียง</string>
+    <string name="live_streaming_silent_live_car_screen_and_recording">ไม่มีเสียง: Browser View และการบันทึกทำงานอยู่โดยไม่มีเสียง หยุดก่อนถ่ายทอดสดเพื่อให้มีเสียง</string>
+    <string name="live_streaming_silent_recording_car_screen">การบันทึกไม่มีเสียง: Browser View ทำงานอยู่โดยไม่มีเสียง หยุดก่อนบันทึกเพื่อให้มีเสียง</string>
     <string name="live_streaming_silent_recording_stream">การบันทึกไม่มีเสียง: สตรีมทำงานอยู่โดยไม่มีเสียง หยุดก่อนบันทึกเพื่อให้มีเสียง</string>
+    <string name="live_streaming_silent_recording_car_screen_and_stream">การบันทึกไม่มีเสียง: Browser View และสตรีมทำงานอยู่โดยไม่มีเสียง หยุดก่อนบันทึกเพื่อให้มีเสียง</string>
     <string name="live_streaming_cant_encode_sound">ไม่มีเสียง: %1$sเข้ารหัสเสียงไม่ได้</string>
     <string name="live_streaming_encoder_busy_stream">ตัวเข้ารหัสวิดีโอของ%1$sไม่ว่าง จึงเข้ารหัสสตรีมไม่ได้ ปิดแอปอื่นที่บันทึกหรือสตรีมวิดีโอ แล้วลองอีกครั้ง</string>
     <string name="live_streaming_encoder_busy_copy">ตัวเข้ารหัสวิดีโอของ%1$sไม่ว่าง จึงเข้ารหัสสำเนาสดไม่ได้ ปิดแอปอื่นที่บันทึกหรือสตรีมวิดีโอ แล้วลองอีกครั้ง</string>
+    <string name="live_streaming_encoder_busy_car_screen">ตัวเข้ารหัสวิดีโอของ%1$sไม่ว่าง จึงเข้ารหัส Live View สำหรับหน้าจอรถไม่ได้ ปิดแอปอื่นที่บันทึกหรือสตรีมวิดีโอ แล้วลองอีกครั้ง</string>
     <string name="live_streaming_encoder_quality_stream">%1$sเข้ารหัสสตรีมที่คุณภาพนี้ไม่ได้ เลือกคุณภาพที่ต่ำกว่าในการตั้งค่า แล้วลองอีกครั้ง</string>
     <string name="live_streaming_encoder_quality_copy">%1$sเข้ารหัสสำเนาสดที่คุณภาพนี้ไม่ได้ เลือกคุณภาพที่ต่ำกว่าในการตั้งค่า แล้วลองอีกครั้ง</string>
+    <string name="live_streaming_encoder_quality_car_screen">%1$sเข้ารหัส Live View สำหรับหน้าจอรถที่คุณภาพนี้ไม่ได้ เลือกคุณภาพที่ต่ำกว่าในการตั้งค่า แล้วลองอีกครั้ง</string>
     <string name="live_streaming_failed">การถ่ายทอดสดล้มเหลว: %1$s</string>
     <string name="live_streaming_connection_lost_because">การเชื่อมต่อขาดหาย: %1$s</string>
     <string name="live_streaming_connection_lost">การเชื่อมต่อขาดหาย</string>

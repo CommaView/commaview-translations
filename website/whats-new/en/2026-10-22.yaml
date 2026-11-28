@@ -1,0 +1,48 @@
+date: 2026-10-22
+app: 0.0.164
+runtimeVersion: 0.0.60
+title: Two more forks, live copies, and early access to Navigation and Surround
+out:
+  - title: SunnyPilot-TeslaHW1
+    text: CommaView installs on this sunnypilot fork for Tesla’s HW1 cars, names it, and draws sunnypilot’s screen with everything sunnypilot adds.
+  - title: carrotpilot
+    text: CommaView installs on this openpilot fork for Hyundai, Kia and Genesis cars and draws openpilot’s screen for it. What carrotpilot adds to its own screen, such as its navigation and speed cameras, isn’t drawn yet. After carrotpilot updates itself, the app asks for a reboot that brings Live View back.
+  - title: Live copies
+    text: "Settings › Recordings › Record in Live View chooses what Record makes: a replay after the drive (the best picture, up to 10 minutes, as before), a live copy of what Live View shows, ready the moment you stop with no 10-minute limit, or both. A live copy is 720p or 1080p, keeps going with the phone locked, stops cleanly before your storage runs out, and stays on your phone."
+  - title: Settings that use the whole screen
+    text: Recordings, Display and Live streaming take the whole screen in two columns where they fit, the Settings list says what each page holds, and every page lines up on tablets, head units and phones held sideways.
+  - title: Refresh access
+    text: Settings › Account › Access and features says when your access renews, and Refresh access brings a feature turned on or off for you at once, where it took up to a day.
+  - title: Why an install failed
+    text: If setup, a runtime update or an uninstall fails, the app says what went wrong and what to do (a fork CommaView doesn’t support, the car being driven, no internet on the comma), whether your comma was put back as it was, and Copy details copies the report support needs.
+  - title: One card for updates
+    text: A runtime update shows only on Home’s update card. One that failed shows there with Try again and Dismiss.
+  - title: Faster replays
+    text: A replay downloads only the video it shows, the next drive downloads while one is made, and the GPU draws the HUD on Android 9 and later. A recording cut short by the app closing, the 10-minute limit or the car switching off now gets Make replay.
+  - title: Replay quality works again
+    text: Balanced, High and Max make different replays again; every replay had been made at 40 Mbit/s. High, the default, makes files about half the size from a comma 3X.
+  - title: The Debug Clip button is gone
+    text: Share bug report sends logs only. Debug clips you kept stay in Recordings.
+  - title: Fixes
+    text: Settings stays on its page when a head unit switches to night mode. Phones held sideways on Android 15 keep clear of the camera cutout. Importing your own SSH key no longer closes the app on a head unit without a file picker.
+earlyAccessNote: "Navigation, Surround, Go live and Send to CommaView are in early development. We’re releasing them to a limited group of testers while we gather feedback, and some run on paid services, such as Navigation’s routes, so we’re keeping the group small until we know what normal use costs. To help test them, reach out to us on Discord: we ask testers to use them on their drives and tell us how they do."
+earlyAccess:
+  - title: Navigation
+    text: "Turn-by-turn guidance from Home to Live View: search for a place, compare up to three routes, then follow the turn card, spoken prompts and, on the CommaView screen, chevrons painted in your lane. A wrong turn finds a new route within seconds. It’s display only: nothing is sent to your comma or your car, and your places stay on your phone."
+  - title: Surround
+    text: "A 3D view of the road around your car, as a fourth onroad screen: the road as the camera sees it, with its lane lines, junctions and crosswalks; cars, trucks and buses that glide and show their brake lights; and the traffic lights facing you, lit the colour they show. It runs its own car detector on your phone, about 13 times as fast as before on a car’s head unit."
+  - title: Go live
+    text: Stream what Live View shows to your YouTube channel or another RTMP server, in 720p or 1080p. Sign in to YouTube once and Go live makes, starts and ends the broadcast, with sound from your comma’s microphone or your phone’s if you choose one.
+  - title: Send to CommaView
+    text: Send us a recorded drive with a note on what happened, from Recordings. It never includes the driver camera, sound or your car’s VIN.
+runtime:
+  - title: Two more forks
+    text: The runtime recognizes SunnyPilot-TeslaHW1 and carrotpilot.
+  - title: A failed install says why
+    text: The installer names the cause, such as a fork it doesn’t support, so the app can tell you.
+  - title: Quicker replay downloads
+    text: The app asks for up to 4 MiB of a drive’s video at a time, where it asked for 256 KiB, and a phone on very weak Wi-Fi no longer holds up the comma’s other answers.
+  - title: Replays for drives that ended unseen
+    text: The comma says when a recording’s drive is over, so the app can make its replay even when the phone didn’t see it end.
+  - title: Your comma’s microphone in a stream
+    text: "For accounts with Go live: the comma’s microphone goes to your phone only while you’ve chosen it for a stream. openpilot’s own audio recording isn’t turned on, and the comma never stores the sound."

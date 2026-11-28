@@ -19,12 +19,13 @@
     <string name="display_commaview_full_camera">Caméra entière</string>
     <string name="display_commaview_full_camera_detail">Montre toute l\'image de la caméra, avec des bandes noires si nécessaire.</string>
     <string name="display_commaview_fill_detail">Remplit l\'écran en paysage en recadrant l\'image de la caméra. En portrait, la caméra reste entière.</string>
+    <string name="display_pack_framing_detail">Choisissez comment l\'écran du pack utilise l\'écran en paysage.</string>
+    <string name="display_design_pack_note">%1$s, l\'écran propre d\'un pack de superposition : il dessine sur la caméra route, avec les alertes de CommaView par-dessus.</string>
     <string name="display_design_comma3x_note">L\'écran du comma 3X : une bordure d\'état, le cadre MAX, une grande vitesse et les alertes en bas.</string>
     <string name="display_design_comma4_note">L\'écran du comma four : MAX au-dessus de la route quand il change, le volant et la confiance à côté.</string>
     <string name="display_comma4_framing">Cadrage de l\'aperçu</string>
     <string name="display_comma4_framing_detail">Reproduit exactement le cadre du comma four, montre plus de la caméra, ou la recadre pour remplir cet écran.</string>
 
-    <!-- Display › Daylight contrast (DaylightSection). -->
     <string name="display_daylight_title">Contraste plein jour</string>
     <string name="display_daylight_subtitle">Texte et lignes plus lumineux contre le soleil</string>
     <string name="display_daylight_no_sensor">%1$s %2$s n\'a pas de capteur de lumière, donc pas de mode Auto.</string>

@@ -142,6 +142,48 @@
     <string name="liveview_peek_streaming">Diffusion</string>
 
 
+    <!-- Browser View, Live View in a car's web browser (its card in Details). -->
+    <string name="liveview_car_screen_title">Browser View</string>
+    <string name="liveview_car_screen_title_on">Browser View · Activé</string>
+    <string name="liveview_car_screen_stop">Arrêter</string>
+    <string name="liveview_car_screen_stop_description">Arrêter Browser View</string>
+    <string name="liveview_car_screen_start">Démarrer</string>
+    <string name="liveview_car_screen_start_description">Démarrer Browser View</string>
+    <string name="liveview_car_screen_new_code">Nouveau code</string>
+    <string name="liveview_car_screen_new_code_description">Créer un nouveau code Browser View</string>
+    <string name="liveview_car_screen_controls_title">Commandes dans la voiture</string>
+    <string name="liveview_car_screen_controls_subtitle">Enregistrer, Garder le moment et les autres commandes de Live View sous l\'image, pour que %1$s reste en place</string>
+    <string name="liveview_car_screen_quality_label">Image de Browser View</string>
+    <string name="liveview_car_screen_quality_caption">Image : 1080p est plus net, mais sollicite davantage %1$s et le point d\'accès. Avec En direct, il partage cette image</string>
+    <string name="liveview_car_screen_start_with_live_view">Démarrer avec Live View</string>
+    <string name="liveview_car_screen_start_with_live_view_subtitle">Browser View démarre à chaque ouverture de Live View, avec l\'adresse VPN quand elle est activée</string>
+    <string name="liveview_car_screen_show_addresses">Pas d\'Internet dans la voiture ? Afficher les adresses</string>
+    <string name="liveview_car_screen_hide_addresses">Masquer les adresses</string>
+    <string name="liveview_car_screen_best_caption">Meilleure image : le navigateur avertit d\'abord, acceptez pour continuer. Le navigateur d\'une Tesla ne laisse pas passer</string>
+    <string name="liveview_car_screen_basic_caption">Image simple : aucun avertissement dans aucun navigateur, Tesla compris, mais qualité moindre</string>
+    <string name="liveview_car_screen_tesla_open_caption">Dans le navigateur de la voiture, Tesla compris, ouvrez</string>
+    <string name="liveview_car_screen_other_open_caption">Les autres navigateurs peuvent ouvrir</string>
+    <string name="liveview_car_screen_tesla_off_caption">Une Tesla sur le point d\'accès de %1$s nécessite l\'adresse VPN, l\'accès le plus fiable pour tout navigateur</string>
+    <string name="liveview_car_screen_tesla_starting_caption">Démarrage de l\'adresse VPN…</string>
+    <string name="liveview_car_screen_tesla_on_caption">L\'adresse VPN est le VPN de CommaView sur %1$s. Il ne transporte aucun trafic, et toute autre application VPN est coupée pendant ce temps</string>
+    <string name="liveview_car_screen_off_caption">Affichez ce que montre Live View, y compris la caméra conducteur quand Caméra cond. est activée, dans le navigateur d\'une voiture sur le Wi-Fi ou le point d\'accès de %1$s</string>
+    <string name="liveview_car_screen_privacy_caption">Browser View donne à %1$s un nom aléatoire sous commaview.app avec un certificat public, qui figure dans des journaux publics ; le nom reste associé à %2$s. Pendant qu\'il fonctionne, il envoie son code, ses ports et son adresse privée pour que commaview.app/&lt;code&gt; le trouve ; ils sont supprimés 30 jours après sa dernière utilisation.</string>
+    <string name="liveview_car_screen_privacy_policy">Politique de confidentialité</string>
+    <string name="liveview_car_screen_open_caption">Dans le navigateur de la voiture, ouvrez</string>
+    <string name="liveview_car_screen_no_network_caption">Activez le point d\'accès de %1$s et connectez-y la voiture, ou connectez %1$s au Wi-Fi de la voiture</string>
+    <string name="liveview_car_screen_address_clip_label">Adresse de Browser View</string>
+    <string name="liveview_car_screen_address_copied">Adresse copiée</string>
+    <string name="liveview_car_screen_copy_address">Copier %1$s</string>
+    <string name="liveview_car_screen_vpn_turn_off">Désactiver l\'adresse VPN</string>
+    <string name="liveview_car_screen_vpn_turn_off_description">Désactiver l\'adresse VPN</string>
+    <string name="liveview_car_screen_vpn_turn_on">Activer l\'adresse VPN</string>
+    <string name="liveview_car_screen_vpn_turn_on_description">Activer l\'adresse VPN</string>
+    <string name="liveview_car_screen_waiting_for_browser">En attente du navigateur de la voiture</string>
+    <plurals name="liveview_car_screen_viewers">
+        <item quantity="one">%1$d navigateur regarde</item>
+        <item quantity="many">%1$d navigateurs regardent</item>
+        <item quantity="other">%1$d navigateurs regardent</item>
+    </plurals>
 
     <!-- Details' facts (LiveViewDetails). -->
     <string name="liveview_health_good">Bon</string>
@@ -153,6 +195,7 @@
     <string name="liveview_readout_runtime">Runtime</string>
     <string name="liveview_readout_software">Logiciel</string>
     <string name="liveview_readout_comma_ip">IP du comma</string>
+    <string name="liveview_readout_overlay_packs">Packs de superposition</string>
     <string name="liveview_on">Activé</string>
     <string name="liveview_off">Désactivé</string>
 
@@ -184,6 +227,21 @@
     <string name="liveview_live_copy_shared_notice">Enregistrement d\'une copie en direct depuis votre diffusion : elle a la qualité de la diffusion, %1$s</string>
     <string name="liveview_stream_from_live_copy_notice">Diffusion en direct depuis l\'image %1$s de la copie en direct, à %2$s pour votre diffusion</string>
 
+    <!-- Details' Overlay packs line: each pack and how it's doing on the comma. -->
+    <string name="liveview_packs_line">%1$s : %2$s</string>
+    <string name="liveview_packs_stopped_drawing">dessin arrêté sur %2$s : %1$s</string>
+    <string name="liveview_packs_not_for_fork">pas pour ce fork</string>
+    <string name="liveview_packs_starting">démarrage</string>
+    <string name="liveview_packs_off_until_next_start">désactivé jusqu\'au prochain démarrage</string>
+    <string name="liveview_packs_off_until_reinstalled">désactivé jusqu\'à sa réinstallation : bloqué dans %1$d exécutions</string>
+    <string name="liveview_packs_off_until_reinstalled_many">désactivé jusqu\'à sa réinstallation : bloqué dans trop d\'exécutions</string>
+    <string name="liveview_packs_turned_off">désactivé</string>
+    <string name="liveview_packs_turned_off_why">désactivé : %1$s</string>
+    <string name="liveview_packs_running">en cours</string>
+    <string name="liveview_packs_unknown">inconnu</string>
+    <string name="liveview_packs_state_with_note">%1$s (%2$s)</string>
+    <string name="liveview_packs_hung">bloqué dans %1$d exécutions</string>
+    <string name="liveview_packs_hung_of">bloqué dans %1$d exécutions sur %2$d</string>
 
     <!-- Live View's controls: the rail, the upright bar and More's menu (CockpitNavigation), and the car's (LiveCarScreenControls). -->
     <string name="liveview_controls_description">Commandes de Live View</string>
@@ -198,6 +256,9 @@
     <string name="liveview_control_save_description">Garder ce moment</string>
     <string name="liveview_control_saved_description">Moment enregistré. Touchez pour garder une minute de plus</string>
     <string name="liveview_control_save_last_minutes">3 dernières minutes</string>
+    <string name="liveview_control_map">Carte</string>
+    <string name="liveview_control_map_description">Carte, la carte de Live View</string>
+    <string name="liveview_control_map_off">Position du véhicule désactivée</string>
     <string name="liveview_control_onroad_screen">Écran de conduite</string>
     <string name="liveview_control_switch_screen">Changer d\'écran de conduite</string>
 
@@ -241,6 +302,7 @@
     <string name="liveview_recording_unable_to_start">Impossible de démarrer l\'enregistrement</string>
     <string name="liveview_recording_live_copy_only">Enregistrement d\'une copie en direct seulement. La relecture n\'a pas pu démarrer : %1$s</string>
     <string name="liveview_recording_report">Signaler</string>
+    <string name="liveview_car_screen_new_code_done">Nouveau code Browser View. Ouvrez la nouvelle adresse dans le navigateur de la voiture.</string>
     <string name="liveview_share_live_stream">Partager la diffusion</string>
 
     <!-- Why Browser View's VPN address is off (CarScreenVpn). -->
@@ -262,6 +324,15 @@
     <string name="liveview_alert_spoken">Alerte : %1$s</string>
     <string name="liveview_video_note_logging_disabled">Disable Logging arrête l\'encodeur vidéo du comma. Désactivez Disable Logging dans les paramètres du fork pour utiliser Live View.</string>
 
+    <!-- The divider between the video and the trip's map (LiveMapWell): %1$d is the map's size, %2$d the room it shares, in dp. -->
+    <string name="liveview_map_divider_height">Hauteur de la carte, %1$d sur %2$d dp</string>
+    <string name="liveview_map_divider_width">Largeur de la carte, %1$d sur %2$d dp</string>
+    <string name="liveview_map_divider_taller">Plus haute</string>
+    <string name="liveview_map_divider_wider">Plus large</string>
+    <string name="liveview_map_divider_shorter">Moins haute</string>
+    <string name="liveview_map_divider_narrower">Moins large</string>
+    <string name="liveview_map_divider_default_height">Hauteur par défaut</string>
+    <string name="liveview_map_divider_default_width">Largeur par défaut</string>
 
 
 
@@ -274,6 +345,7 @@
 
     <!-- A summary tile, as TalkBack reads it: %1$s its label, %2$s its value. -->
     <string name="liveview_summary_tile_said">%1$s, %2$s</string>
+    <string name="liveview_packs_line_not_on_design">%1$s : %2$s, non dessiné sur ce style</string>
     <string name="liveview_vpn_android_setup_failed">Android n\'a pas pu configurer le VPN de CommaView</string>
     <string name="liveview_vpn_details_clip">Échec de l\'adresse VPN de CommaView</string>
     <string name="liveview_details_copied">Détails copiés</string>

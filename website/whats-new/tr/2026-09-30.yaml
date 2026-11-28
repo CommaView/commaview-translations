@@ -1,0 +1,20 @@
+title: "Yeni bir ana sayfa, aracınızın resmi ve hesabınız için tek bir yer"
+out:
+  - title: "my.commaview.com'daki hesabınız"
+    text: "E-postanıza gönderilen bir kodla giriş yapın, uygulamayı indirin ve yenilikleri görün. Beta'lar ve güncellemeler de artık buradan geliyor; Firebase App Distribution kaldırıldı."
+  - title: "Hesabınızdan güncellemeler"
+    text: "Uygulama yeni sürümler için hesabınızı kontrol eder ve onları uygulamada sunar. Her uygulama sürümü, birlikte test edildiği çalışma ortamıyla gelir."
+  - title: "Geri bildirim ve bir özellik panosu"
+    text: "Uygulamadaki Ayarlar'dan bir fikir, sorun veya övgü gönderin, daha yakından bakmamızı isterseniz bir destek paketiyle; bir sonra ne yapacağımıza da my.commaview.com'daki özellik panosunda oy verin."
+  - title: "Aracınızın yeni bir resmi"
+    text: "Desteklenen her aracın, aynı boyut ve ışıkla, tek bir stilde, her ekranda temiz duran yeni bir resmi var."
+next:
+  - title: "Yeni bir Cihazlar ana sayfası"
+    text: "Live View'u aç ile tek bir kartta sahnesinde aracınız, ardından Bu haftaki sürüş, Araç konumu ve son kayıtlarınız."
+  - title: "Tabletler ve multimedya üniteleri için yapıldı"
+    text: "Daha geniş bir ekranda ana sayfa bir panele dönüşür; Ayarlar ve Cihaz ayarları listelerinin yanında açılır."
+runtime:
+  - title: "Sürüş istatistikleri"
+    text: "comma'nızın kendi günlüklerinden haftalık mesafeniz, sürüş süreniz ve sürüşleriniz."
+  - title: "Araç konumu"
+    text: "Siz sürerken aracın nerede olduğu ve nereye park ettiğiniz. Siz açana kadar kapalı."

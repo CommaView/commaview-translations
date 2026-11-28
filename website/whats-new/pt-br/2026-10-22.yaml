@@ -1,0 +1,45 @@
+title: Mais dois forks, cópias ao vivo, e acesso antecipado à Navegação e ao Surround
+out:
+  - title: SunnyPilot-TeslaHW1
+    text: "O CommaView instala neste fork do sunnypilot para os carros Tesla HW1, mostra o nome dele e desenha a tela do sunnypilot com tudo o que o sunnypilot acrescenta."
+  - title: carrotpilot
+    text: "O CommaView instala neste fork do openpilot para carros Hyundai, Kia e Genesis e desenha a tela do openpilot para ele. O que o carrotpilot acrescenta à própria tela, como a navegação e os radares de velocidade, ainda não é desenhado. Depois que o carrotpilot se atualiza, o app pede uma reinicialização que traz o Live View de volta."
+  - title: Cópias ao vivo
+    text: "Configurações › Gravações › Gravar no Live View escolhe o que Gravar faz: uma reprodução depois da viagem (a melhor imagem, até 10 minutos, como antes), uma cópia ao vivo do que o Live View mostra, pronta assim que você para e sem o limite de 10 minutos, ou ambas. Uma cópia ao vivo é em 720p ou 1080p, continua com o celular bloqueado, para sem problemas antes de o armazenamento acabar e fica no seu celular."
+  - title: Configurações que usam a tela toda
+    text: "Gravações, Tela e Transmissão ao vivo ocupam a tela toda em duas colunas onde cabem, a lista de Configurações diz o que cada página tem, e todas as páginas ficam alinhadas em tablets, centrais multimídia e celulares na horizontal."
+  - title: Atualizar acesso
+    text: "Configurações › Conta › Acesso e recursos diz quando o seu acesso é renovado, e Atualizar acesso aplica na hora um recurso ativado ou desativado para você, onde antes levava até um dia."
+  - title: Por que uma instalação falhou
+    text: "Se a configuração, uma atualização do runtime ou uma desinstalação falhar, o app diz o que deu errado e o que fazer (um fork que o CommaView não suporta, o carro em movimento, o comma sem internet), se o seu comma ficou como estava, e Copiar detalhes copia o relatório de que o suporte precisa."
+  - title: Um só cartão para atualizações
+    text: "Uma atualização do runtime aparece só no cartão de atualização do Início. Uma que falhou aparece ali com Tentar de novo e Dispensar."
+  - title: Reproduções mais rápidas
+    text: "Uma reprodução baixa só o vídeo que mostra, a próxima viagem é baixada enquanto outra é feita, e a GPU desenha o HUD no Android 9 e mais recentes. Uma gravação interrompida porque o app fechou, pelo limite de 10 minutos ou porque o carro desligou agora tem Gerar reprodução."
+  - title: A qualidade da reprodução voltou a funcionar
+    text: "Balanced, High e Max voltam a fazer reproduções diferentes; todas estavam sendo feitas a 40 Mbit/s. High, o padrão, faz arquivos com cerca de metade do tamanho a partir de um comma 3X."
+  - title: O botão de clipe de depuração saiu
+    text: "Compartilhar o relatório de bug envia só logs. Os clipes de depuração que você guardou continuam em Gravações."
+  - title: Correções
+    text: "As Configurações ficam na mesma página quando uma central multimídia muda para o modo noturno. Celulares na horizontal com Android 15 respeitam o recorte da câmera. Importar a sua própria chave SSH não fecha mais o app numa central multimídia sem seletor de arquivos."
+earlyAccessNote: "Navegação, Surround, Transmitir e Enviar ao CommaView estão no início do desenvolvimento. Estamos liberando esses recursos para um grupo limitado de testadores enquanto reunimos opiniões, e alguns rodam em serviços pagos, como as rotas da Navegação, então estamos mantendo o grupo pequeno até saber quanto custa um uso normal. Para ajudar a testar, fale com a gente no Discord: pedimos que os testadores os usem nas viagens e nos contem como se saem."
+earlyAccess:
+  - title: Navegação
+    text: "Orientação curva a curva do Início ao Live View: procure um lugar, compare até três rotas e siga o cartão de curva, as instruções faladas e, na tela do CommaView, as setas pintadas na sua faixa. Se você errar uma curva, ela encontra uma nova rota em segundos. É só para exibição: nada é enviado ao seu comma nem ao seu carro, e os seus lugares ficam no seu celular."
+  - title: Surround
+    text: "Uma visão 3D da via ao redor do seu carro, como quarta tela de condução: a via como a câmera a vê, com as linhas de faixa, os cruzamentos e as faixas de pedestres; carros, caminhões e ônibus que deslizam e mostram as luzes de freio; e os semáforos à sua frente, acesos na cor que mostram. Ele roda o próprio detector de carros no seu celular, cerca de 13 vezes mais rápido que antes numa central multimídia."
+  - title: Transmitir
+    text: "Transmita o que o Live View mostra para o seu canal do YouTube ou outro servidor RTMP, em 720p ou 1080p. Entre no YouTube uma vez e Transmitir cria, inicia e encerra a transmissão, com o som do microfone do seu comma ou do seu celular se você escolher um."
+  - title: Enviar ao CommaView
+    text: "Envie para nós uma viagem gravada com uma nota sobre o que aconteceu, a partir de Gravações. Nunca inclui a câmera do motorista, o som nem o VIN do seu carro."
+runtime:
+  - title: Mais dois forks
+    text: "O runtime reconhece o SunnyPilot-TeslaHW1 e o carrotpilot."
+  - title: Uma instalação que falhou diz por quê
+    text: "O instalador nomeia a causa, como um fork que ele não suporta, para que o app possa contar a você."
+  - title: Downloads de reproduções mais rápidos
+    text: "O app pede até 4 MiB do vídeo de uma viagem de cada vez, onde antes pedia 256 KiB, e um celular com Wi‑Fi muito fraco não atrasa mais as outras respostas do comma."
+  - title: Reproduções de viagens que terminaram sem serem vistas
+    text: "O comma avisa quando a viagem de uma gravação termina, então o app pode fazer a reprodução mesmo que o celular não tenha visto o fim."
+  - title: O microfone do seu comma numa transmissão
+    text: "Para contas com Transmitir: o microfone do comma vai para o seu celular só enquanto você o tiver escolhido para uma transmissão. A gravação de áudio do próprio openpilot não é ativada, e o comma nunca guarda o som."

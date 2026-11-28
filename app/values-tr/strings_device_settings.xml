@@ -71,6 +71,8 @@
     <string name="device_settings_comma_busy">comma meşgul. Biraz sonra yeniden deneyin.</string>
     <string name="device_settings_open_live_view_when_connected">Bağlanınca Live View\'u aç</string>
     <string name="device_settings_open_live_view_when_connected_detail">comma\'nız araç çalışırken bağlandığında kendiliğinden açılır. Çıkarsanız bir sonraki sefere kadar kapalı kalır.</string>
+    <string name="device_settings_live_view_status_bar">Durum çubuğunu göster</string>
+    <string name="device_settings_live_view_status_bar_detail">Tüm ekranı kullanmak yerine Live View\'un üstünde sistem saatini gösterir.</string>
     <string name="device_settings_offline_controls">Eşleştirmeyi ve güncellemeleri yönetmek için %1$s ile aynı ağa bağlanın.</string>
     <string name="device_settings_offline_controls_unnamed">Eşleştirmeyi ve güncellemeleri yönetmek için comma\'nızla aynı ağa bağlanın.</string>
     <string name="device_settings_runtime_removed_controls">CommaView, %1$s cihazından kaldırıldı. Yeniden yüklemek için rehberli kurulumu çalıştırın.</string>
@@ -351,12 +353,16 @@
         <item quantity="one">Eski bir CommaView\'a sahip bir telefon, açık metin olarak gönderdiği paylaşılan belirteçle bu comma\'yı %d gün daha kullanabilir. Bu comma\'yı kullanan her telefonun anahtarı varsa şimdi durdurun.</item>
         <item quantity="other">Eski bir CommaView\'a sahip bir telefon, açık metin olarak gönderdiği paylaşılan belirteçle bu comma\'yı %d gün daha kullanabilir. Bu comma\'yı kullanan her telefonun anahtarı varsa şimdi durdurun.</item>
     </plurals>
+    <string name="device_settings_phones_older_apps_pair_code">Eski bir uygulama için eşleştirme kodu</string>
+    <string name="device_settings_phones_older_apps_keep_working">Eski bir CommaView\'a sahip bir telefon bu comma ile çalışmaya devam eder ve güncellendiğinde yeniden eşleşmeden kendi anahtarını alır. Bu comma\'yı henüz kullanmayan bir telefon buradan alınan bir eşleştirme koduyla eşleşebilir.</string>
+    <string name="device_settings_phones_older_apps_off">Bu comma artık paylaşılan belirteci kabul etmiyor, bu yüzden eski bir CommaView için eşleştirme kodu oluşturmaz. O telefondaki CommaView\'ı güncelleyin, sonra Davet göster ile ekleyin.</string>
     <string name="device_settings_phones_stop_now">Şimdi durdur</string>
     <string name="device_settings_phones_remove_named">%1$s kaldırılsın mı?</string>
     <string name="device_settings_phones_remove_this">Listeden kaldırılsın mı: %1$s?</string>
     <string name="device_settings_phones_remove_message">Bir davetle veya comma yeniden kurularak tekrar eklenene kadar bu comma\'ya bir daha ulaşamaz.</string>
     <string name="device_settings_phones_token_off_title">Paylaşılan belirteç artık kabul edilmesin mi?</string>
-    <string name="device_settings_phones_token_off_message">Eski bir CommaView\'a sahip bir telefon şimdi bu comma\'ya ulaşamaz olur. Bu telefon dahil, anahtarı olan telefonlar etkilenmez. Yalnızca comma\'yı SSH üzerinden yeniden kurmak bunu tekrar açar.</string>
+    <string name="device_settings_phones_token_off_message">Eski bir CommaView\'a sahip telefonlar bu comma ile şimdi çalışmayı bırakır ve güncellenene kadar yeniden eşleşemez. Bu telefon dahil, anahtarı olan telefonlar etkilenmez. Paylaşılan belirteci yalnızca comma\'daki biri, yeni bir belirteç olarak yeniden açabilir: SSH üzerinden commaviewd phones legacy-on.</string>
+    <string name="device_settings_phones_token_off_message_listed">Bu comma ile yalnızca anahtarı olan telefonlar çalışmaya devam eder: %1$s. Diğer her telefon (eski bir CommaView\'a sahip olan ya da henüz anahtarını almamış olan) şimdi çalışmayı bırakır ve güncellenip Davet göster ile eklenene kadar yeniden eşleşemez. Paylaşılan belirteci yalnızca comma\'daki biri, yeni bir belirteç olarak yeniden açabilir: SSH üzerinden commaviewd phones legacy-on.</string>
     <string name="device_settings_phones_not_seen">Henüz görülmedi</string>
     <string name="device_settings_phones_seen_today">Bugün görüldü</string>
     <string name="device_settings_phones_seen_yesterday">Dün görüldü</string>
@@ -395,4 +401,34 @@
     <!-- Phones with a key, when the comma's answer couldn't be read (CommaPhonesApi.kt). -->
     <string name="device_settings_phones_error_unreadable_answer">okunamayan yanıt</string>
     <string name="device_settings_phones_error_unreadable_invitation">okunamayan davet</string>
+
+    <!-- A runtime update or uninstall in the background (RuntimeUpdateUi.kt, RuntimeMaintenanceService.kt). -->
+    <string name="device_settings_update_keep_using_background">Başka bir uygulamaya geçebilirsiniz; %1$s kilitliyken de güncelleme sürer ve bildirimi ne kadar ilerlediğini gösterir.</string>
+    <string name="device_settings_maintenance_other_job">CommaView zaten bir çalışma ortamını güncelliyor veya kaldırıyor. Bittiğinde yeniden deneyin.</string>
+    <string name="device_settings_runtime_notification_channel">Çalışma ortamı güncellemeleri</string>
+    <string name="device_settings_runtime_notification_updating">comma\'nızın çalışma ortamı %1$s sürümüne güncelleniyor</string>
+    <string name="device_settings_runtime_notification_updating_generic">comma\'nızın çalışma ortamı güncelleniyor</string>
+    <string name="device_settings_runtime_notification_uninstalling">CommaView comma\'nızdan kaldırılıyor</string>
+    <string name="device_settings_runtime_notification_open">Devam etmek için CommaView\'u açın.</string>
+
+    <!-- Cancelling a runtime update the comma runs itself (RuntimeUpdateCancel.kt, RuntimeUpdateProgress.kt). -->
+    <string name="device_settings_step_preparing">Hazırlanıyor (aracın park etmesini bekler)</string>
+    <string name="device_settings_preparing_detail">comma\'nız sürümü denetler ve indirmeden önce aracın park halinde kalmasını bekler.</string>
+    <string name="device_settings_update_cancelled_title">Güncelleme iptal edildi</string>
+    <string name="device_settings_update_cancelled_notice">Güncelleme iptal edildi. comma\'nızda hiçbir şey değişmedi.</string>
+    <string name="device_settings_cancel_update">Güncellemeyi iptal et</string>
+    <string name="device_settings_cancelling_update">İptal ediliyor…</string>
+    <string name="device_settings_update_will_finish">İptal için çok geç: comma\'nız bu güncellemeyi şimdi tamamlıyor.</string>
+    <string name="device_settings_cancel_update_failed">Güncelleme iptal edilmedi. comma\'nızın bağlı olduğunu denetleyip yeniden deneyin.</string>
+    <string name="device_settings_vehicle_picture_offline">Resmi değiştirmek için %1$s cihazına bağlanın.</string>
+    <string name="device_settings_vehicle_picture_interrupted">Fotoğrafın %1$s cihazına gönderimi tamamlanmadı. Yaklaşın veya Wi-Fi\'ı kontrol edin, sonra tekrar deneyin.</string>
+    <string name="device_settings_vehicle_picture_runtime">Resmi değiştirmek için %1$s üzerindeki runtime\'ı güncelleyin.</string>
+    <string name="device_settings_vehicle_picture_comma_full">%1$s cihazında fotoğraf için yer yok. Eski sürüşler silindikten sonra tekrar deneyin.</string>
+    <string name="device_settings_vehicle_picture_comma_failed">%1$s fotoğrafı kaydetmedi. Tekrar deneyin.</string>
+    <string name="device_settings_vehicle_picture_edit">Aracın resmini değiştir</string>
+    <string name="device_settings_vehicle_picture_saving">Kaydediliyor…</string>
+    <string name="device_settings_vehicle_picture_failed">Bu fotoğraf açılamadı. Başka birini deneyin.</string>
+    <string name="device_settings_vehicle_picture_change">Fotoğrafı değiştir</string>
+    <string name="device_settings_vehicle_picture_reset">CommaView\'in resmini kullan</string>
+    <string name="device_settings_vehicle_picture_hint">Aracın yandan veya önden dörtte üç açıyla, tamamı kadrajda olan yatay bir fotoğrafı karta en iyi oturur.</string>
 </resources>

@@ -5,4 +5,7 @@
      key (SharedUiStringsTest). -->
 <resources>
     <string name="common_done">เสร็จสิ้น</string>
+    <string name="common_decrease">ลด%1$s</string>
+    <string name="common_increase">เพิ่ม%1$s</string>
+    <string name="common_type_value">พิมพ์ค่า</string>
 </resources>

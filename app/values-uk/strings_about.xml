@@ -38,6 +38,7 @@
     <string name="about_license_fork_translations">MIT License і власні ліцензії форків. Їхні слова на екрані водіння мовою comma.</string>
     <string name="about_license_noto_sans">Adobe і автори Noto Project · SIL Open Font License 1.1. Шрифт екрана водіння openpilot китайською, японською, корейською й тайською.</string>
     <string name="about_license_unifont">Roman Czyborra, Paul Hardy та ін. · SIL Open Font License 1.1. Шрифт екрана водіння форків китайською, японською, корейською й тайською.</string>
+    <string name="about_license_opfont">© IBM Corp., Google LLC; похідна робота Rick Lan · SIL Open Font License 1.1. Шрифт екрана водіння dragonpilot китайською, японською, корейською й тайською.</string>
     <string name="about_license_kaigen_gothic">Ming-Hsien Lin і Adobe · SIL Open Font License 1.1. Шрифт екрана водіння carrotpilot.</string>
     <string name="about_license_efficientdet_lite">Автори TensorFlow · Apache License 2.0. Модель загального детектора Surround.</string>
     <string name="about_license_qnn">Qualcomm Technologies, Inc. · примітки до середовища DSP детектора.</string>

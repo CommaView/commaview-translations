@@ -1,0 +1,35 @@
+title: Um CommaView redesenhado, a nossa própria sobreposição, e o ranking
+out:
+  - title: Um app redesenhado
+    text: "Todas as telas foram refeitas num design novo: o Início, o Live View, Gravações, Configurações, o emparelhamento e a configuração. Ele vem com um ícone e uma tela de abertura novos, e um modo diurno para dias claros."
+  - title: Um novo Início
+    text: "O seu carro no palco com Abrir o Live View, depois Condução nesta semana, Localização do veículo, as suas gravações recentes e o ranking. Organize com Personalizar o Início. O seu comma aparece como conectado sozinho, sem precisar tocar em Reconectar."
+  - title: Feito para tablets e centrais multimídia
+    text: "Numa tela mais larga, o Início vira um painel, Configurações e Gravações abrem ao lado das listas, e o emparelhamento cabe em qualquer central multimídia."
+  - title: A sobreposição do CommaView
+    text: "A nossa própria tela de condução: a sua velocidade, MÁX e o limite de velocidade num só bloco, linhas de faixa que mostram a confiança do modelo, monitoramento do motorista e alertas que não atrapalham, e a placa MAXIMUM do Canadá onde ela vale. As telas do comma 3X e do comma four também estão lá, e você pode trocar de tela direto do Live View."
+  - title: Configurações de tela mais simples
+    text: "Uma só seção de sobreposição de condução com prévia ao vivo, e o CommaView escolhido para você."
+  - title: Gravações melhores
+    text: "As reproduções ficam exatamente como o Live View, tocam no app e podem ser feitas com o carro em P. Elas mostram o progresso enquanto são feitas. Cada viagem tem uma miniatura, e você é avisado antes que o seu comma apague uma."
+  - title: Gravações em todos os seus dispositivos
+    text: "As suas gravações acompanham você entre os seus celulares e centrais multimídia emparelhados."
+  - title: Estatísticas de condução e Localização do veículo
+    text: "A distância, o tempo de direção e as viagens da sua semana, a partir dos próprios logs do seu comma, e onde o seu carro está e onde você estacionou, num mapa escuro. A localização fica desligada até você ativá-la."
+  - title: Uma página do dispositivo
+    text: "O status e o runtime do seu comma num só lugar. Dali você pode abrir o Live View, gerenciar a economia de energia do Wi‑Fi, reparar e compartilhar logs quando precisar de ajuda."
+  - title: Atualizações no app
+    text: "As atualizações do app são baixadas em segundo plano, com um botão de atualizar em cada tela. Atualizações do runtime, reparos e desinstalação não precisam de SSH. Cada atualização mostra as etapas à medida que avança, e o Início mantém você informado. O que não pode acontecer enquanto você dirige espera o carro estar em P."
+  - title: Ranking
+    text: "Entre pelo Início com um nome de exibição para ver o pódio desta semana, os resultados da semana passada e as classificações totais. Os selos são ganhos com a distância registrada pelo seu próprio comma, e uma tabela total da comma.ai mostra o total que a comma.ai tem para o seu comma."
+  - title: Relatórios de falhas
+    text: "Eles nos ajudam a corrigir problemas mais rápido, sem dados pessoais. Você pode desativá-los nas Configurações."
+  - title: Correções
+    text: "A velocidade MÁX do comma four não pisca mais com o openpilot ativado. O comma 3 agora diz claramente que não é compatível; o CommaView funciona no comma 3X e no comma four."
+runtime:
+  - title: Atualizações em P, até em casa
+    text: "Deixe o carro ligado em P com o openpilot desativado, ou configure o comma na sua mesa. Uma viagem nunca é interrompida."
+  - title: Atualizações mais seguras
+    text: "Uma de cada vez, e se algo der errado o seu comma volta para a versão que tinha."
+  - title: O que move os novos recursos
+    text: "As estatísticas de condução, a Localização do veículo, as gravações entre os seus dispositivos e a sincronização do ranking vêm do novo runtime. O app o instala para você."

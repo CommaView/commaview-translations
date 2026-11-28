@@ -2,4 +2,7 @@
 <!-- shared-ui: Українська (Ukrainian). Machine drafted with docs/localization/glossary-uk.md; not yet reviewed by a native speaker. -->
 <resources>
     <string name="common_done">Готово</string>
+    <string name="common_decrease">Зменшити: %1$s</string>
+    <string name="common_increase">Збільшити: %1$s</string>
+    <string name="common_type_value">Ввести значення</string>
 </resources>

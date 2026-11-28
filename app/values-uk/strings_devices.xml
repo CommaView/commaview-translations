@@ -255,6 +255,7 @@
     <string name="devices_leaderboard">Таблиця лідерів</string>
     <string name="devices_recent_recordings">Нещодавні записи</string>
     <string name="devices_view_all">Усі</string>
+    <string name="devices_overlay_packs">Пакети накладок</string>
     <string name="devices_open_store">Відкрити магазин</string>
     <string name="devices_view_all_recordings">Усі записи</string>
     <string name="devices_no_recordings">Записів ще немає. Запишіть поїздку з Live View.</string>
@@ -421,8 +422,15 @@
     <string name="devices_dev_runtime_install">Встановити %1$s</string>
     <string name="devices_dev_runtime_queue_install">Встановлення в чергу</string>
     <string name="devices_pairing_failed_legacy_off">Сполучення не вдалося: цей comma більше не сполучається за кодом. Додайте %1$s з телефона, який уже має для нього ключ (його налаштування, «Додати інший телефон»), або запустіть налаштування comma знову.</string>
-    <string name="devices_invitation_needed_named">%1$s уже має телефон із власним ключем, а %2$s ключа не має. Якщо це не ваш телефон, можливо, хтось інший додав його першим: видаліть усі телефони на comma через SSH (commaviewd phones revoke-all), а потім налаштуйте його знову — це зробить %2$s. Інакше додайте %2$s з того телефона (його налаштування, «Додати інший телефон»).</string>
-    <string name="devices_invitation_needed_this">Цей comma вже має телефон із власним ключем, а %1$s ключа не має. Якщо це не ваш телефон, можливо, хтось інший додав його першим: видаліть усі телефони на comma через SSH (commaviewd phones revoke-all), а потім налаштуйте його знову — це зробить %1$s. Інакше додайте %1$s з того телефона (його налаштування, «Додати інший телефон»).</string>
+    <string name="devices_token_no_longer_taken_named">%1$s більше не приймає спільний токен, з яким сполучили %2$s, а %2$s не має власного ключа для нього. Додайте %2$s з телефона, який має ключ (його налаштування, «Додати інший телефон»).</string>
+    <string name="devices_token_no_longer_taken_this">Цей comma більше не приймає спільний токен, з яким сполучили %1$s, а %1$s не має власного ключа для нього. Додайте %1$s з телефона, який має ключ (його налаштування, «Додати інший телефон»).</string>
+    <string name="devices_new_phone_key_title">Новий телефон має ключ</string>
+    <string name="devices_new_phone_key_message">Новий телефон отримав ключ до %1$s: %2$s, %3$s. Якщо це не ваш телефон, видаліть його. Усі телефони з ключем також є в налаштуваннях comma, «Сполучити інший телефон».</string>
+    <string name="devices_new_phone_key_by_token">Він отримав ключ зі спільним токеном, який надсилають старіші застосунки, як і телефон, сполучений раніше. Той, хто бачив цей токен у мережі, може зробити те саме, доки comma не перестане його приймати («Зупинити зараз»).</string>
+    <string name="devices_new_phone_key_dismiss">Це мій</string>
+    <string name="devices_new_phone_key_review">Переглянути телефони</string>
+    <string name="devices_new_phone_key_removed">%1$s більше не має ключа до %2$s.</string>
+    <string name="devices_new_phone_key_comma_gone">%1$s більше не збережено на %2$s, тому його телефони тут не показати. Додайте його знову, щоб їх побачити.</string>
     <string name="devices_invitation_failed">Не вдалося приєднатися за цим запрошенням. Можливо, його введено з помилкою, термін дії минув або його вже використано. Покажіть нове на телефоні, який уже має цей comma (його налаштування, «Додати інший телефон»).</string>
     <string name="devices_pairing_error_network">мережа недоступна</string>
     <string name="devices_pairing_error_redeem_failed">код сполучення не прийнято</string>
@@ -435,4 +443,8 @@
     <string name="devices_support_name">Підтримка CommaView</string>
     <string name="devices_email_support">Написати в підтримку</string>
     <string name="devices_address_copied">Адресу скопійовано</string>
+    <string name="devices_software_video_only">Лише відео</string>
+    <string name="devices_software_unlisted_fork">Форк поза списком</string>
+    <string name="devices_software_best_effort">без гарантій</string>
+    <string name="devices_software_video_only_qualifier">лише відео</string>
 </resources>

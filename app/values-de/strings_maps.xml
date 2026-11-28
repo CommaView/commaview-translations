@@ -5,7 +5,14 @@
     <string name="maps_title">Karten &amp; Navigation</string>
     <string name="maps_subtitle">Navigation und Karten auf diesem %1$s</string>
     <string name="maps_back_to_settings">Zurück zu Einstellungen</string>
-    <string name="maps_credits">Kartendaten © OpenStreetMap-Mitwirkende, in Kacheln von © OpenMapTiles über OpenFreeMap, gezeichnet von MapLibre. Suchen gehen an Photon. %1$s Mit Ihrem eigenen Schlüssel für Stadia Maps laufen sie über Ihr Stadia-Konto und dessen Bedingungen. Navigation ist in Festlandchina aus.</string>
+    <string name="maps_place_home">Zuhause</string>
+    <string name="maps_place_work">Arbeit</string>
+    <string name="maps_layout_automatic">Automatisch</string>
+    <string name="maps_layout_automatic_detail">Neben dem Video, wo Platz ist, sonst in der Ecke</string>
+    <string name="maps_layout_beside">Neben dem Video</string>
+    <string name="maps_layout_beside_detail">Immer: Das Video weicht, wo kein Platz ist</string>
+    <string name="maps_layout_corner">In der Ecke</string>
+    <string name="maps_layout_corner_detail">Oben rechts ins Video eingeblendet</string>
     <string name="maps_your_maps_none">Keine geladen. Karten liefern Tempolimits.</string>
     <string name="maps_your_maps">%1$s, für Tempolimits</string>
     <string name="maps_your_maps_sized">%1$s · %2$s, für Tempolimits</string>
@@ -15,14 +22,54 @@
         <item quantity="one">%d weitere</item>
         <item quantity="other">%d weitere</item>
     </plurals>
+    <string name="maps_recent_places_none">Noch keine. Sie bleiben auf diesem %1$s.</string>
+    <plurals name="maps_recent_places_count">
+        <item quantity="one">%1$d Ort, auf diesem %2$s gespeichert</item>
+        <item quantity="other">%1$d Orte, auf diesem %2$s gespeichert</item>
+    </plurals>
+    <string name="maps_place_not_set">Nicht festgelegt. Zum Suchen tippen.</string>
     <string name="maps_offline_maps">Offline-Karten</string>
     <string name="maps_your_maps_title">Ihre Karten</string>
     <string name="maps_open_your_maps">Ihre Karten öffnen</string>
+    <string name="maps_live_view_map">Karte in Live View</string>
+    <string name="maps_layout">Anordnung</string>
+    <string name="maps_layout_subtitle">Wo Live View die Karte zeigt</string>
+    <string name="maps_layout_note">Die Ansichten comma 3X, comma four, StarPilot und Surround zeigen die Karte immer neben dem Video.</string>
+    <string name="maps_width">Breite neben dem Video</string>
+    <string name="maps_width_subtitle">Durch Ziehen des Trenners in Live View</string>
+    <string name="maps_reset">Zurücksetzen</string>
+    <string name="maps_width_reset_label">Breite der Karte zurücksetzen</string>
+    <string name="maps_guidance">Führung</string>
+    <string name="maps_spoken_guidance">Sprachansagen</string>
+    <string name="maps_spoken_guidance_subtitle">Abbiegehinweise und Ankunft. Auch der Lautsprecher-Knopf der Abbiegekarte schaltet sie aus.</string>
+    <string name="maps_your_places">Ihre Orte</string>
+    <string name="maps_choose_home">Zuhause wählen</string>
+    <string name="maps_choose_work">Arbeit wählen</string>
+    <string name="maps_change_or_remove_home">Zuhause ändern oder entfernen</string>
+    <string name="maps_change_or_remove_work">Arbeit ändern oder entfernen</string>
+    <string name="maps_change">Ändern</string>
+    <string name="maps_remove">Entfernen</string>
+    <string name="maps_add">Hinzufügen</string>
+    <string name="maps_recent_places">Letzte Orte</string>
+    <string name="maps_clear">Löschen</string>
+    <string name="maps_clear_recent_label">Letzte Orte löschen</string>
+    <string name="maps_clear_recent_title">Letzte Orte löschen?</string>
+    <string name="maps_clear_recent_message">Die Orte, zu denen Sie gefahren sind, werden von diesem %1$s entfernt. Zuhause und Arbeit bleiben.</string>
     <string name="maps_cancel">Abbrechen</string>
+    <string name="maps_theme">Kartenstil</string>
+    <string name="maps_theme_choose">Kartenstil wählen</string>
+    <string name="maps_theme_app_line">Folgt dem Design von CommaView</string>
+    <string name="maps_theme_auto_line">Hell von Sonnenauf- bis -untergang am Ort Ihres comma</string>
+    <string name="maps_theme_system_line">Folgt dem dunklen Design von diesem %1$s</string>
+    <string name="maps_theme_light_line">Immer hell</string>
+    <string name="maps_theme_dark_line">Immer dunkel</string>
+    <string name="maps_theme_dialog_note">Für jede Karte in CommaView. Auto nutzt die Position Ihres comma, solange der Standort des Autos an ist, sonst die Zeitzone von diesem %1$s.</string>
+    <string name="maps_theme_daylight_note">Der „Kontrast bei Tageslicht“ unter Anzeige ist getrennt: Er hellt Schrift und Linien der App auf.</string>
     <string name="maps_own_key">Ihr Schlüssel für Stadia Maps</string>
-    <string name="maps_own_key_intro_flagged">Optional. Mit Ihrem eigenen Schlüssel gehen Routen über Ihr Stadia-Konto und dessen Bedingungen an Stadia Maps, statt über den Schlüssel von CommaView. Lehnt Stadia Ihren ab, sagt die Navigation das; der Schlüssel von CommaView springt nicht ein.</string>
-    <string name="maps_own_key_intro_kept">Die Navigation nutzt Ihren Schlüssel: Routen gehen von diesem %1$s über Ihr Stadia-Konto und dessen Bedingungen an Stadia Maps. Wenn Sie ihn löschen, ist die Navigation auf diesem %1$s aus.</string>
-    <string name="maps_own_key_intro_add">Fügen Sie Ihren eigenen Schlüssel für Stadia Maps hinzu, um die Navigation zu nutzen: Wohin?, Routen und Abbiegehinweise. Routen gehen mit Ihrem Schlüssel von diesem %1$s an Stadia Maps, über Ihr Stadia-Konto und dessen Bedingungen. Die Suche nutzt Photon.</string>
+    <string name="maps_own_key_intro_routes">Die Routen der Navigation nutzen Ihren Schlüssel: Sie gehen von diesem %1$s an Stadia Maps, unter Ihrem Stadia-Konto und dessen Bedingungen. Wenn Sie ihn löschen, gibt es auf diesem %1$s keine Routen, bis Sie wieder einen Schlüssel hinzufügen.</string>
+    <string name="maps_own_key_intro_needed">Routen brauchen Ihren eigenen Stadia-Maps-Schlüssel: Sie gehen damit von diesem %1$s an Stadia Maps, unter Ihrem Stadia-Konto und dessen Bedingungen. Wohin?, die Suche und Orte funktionieren auch ohne; die Suche nutzt Photon.</string>
+    <string name="maps_own_key_clear_message">Er wird von diesem %1$s entfernt, und es gibt keine Routen, bis Sie wieder einen Schlüssel hinzufügen.</string>
+    <string name="maps_credits_own_key">Kartendaten © OpenStreetMap-Mitwirkende, in den Kacheln von © OpenMapTiles von OpenFreeMap, gezeichnet von MapLibre. Suchen gehen an Photon. Routen gehen von diesem %1$s an Stadia Maps oder, wenn Sie es gewählt haben, an Mapbox, mit Ihrem eigenen Schlüssel, unter Ihrem Konto dort und dessen Bedingungen. In Festlandchina ist die Navigation aus.</string>
     <string name="maps_own_key_not_added">Nicht hinzugefügt</string>
     <string name="maps_own_key_kept">Auf diesem %1$s gespeichert</string>
     <string name="maps_own_key_over_limit">Bei Stadia Maps über Limit (429)</string>
@@ -46,8 +93,6 @@
     <string name="maps_own_key_open_dashboard">Ihr Stadia-Maps-Dashboard öffnen</string>
     <string name="maps_own_key_open_sign_up">Registrierung bei Stadia Maps öffnen</string>
     <string name="maps_own_key_clear_title">Schlüssel für Stadia Maps löschen?</string>
-    <string name="maps_own_key_clear_flagged">Er wird von diesem %1$s entfernt. Routen nutzen wieder den Schlüssel von CommaView.</string>
-    <string name="maps_own_key_clear_off">Er wird von diesem %1$s entfernt, und die Navigation ist hier aus, bis Sie wieder einen Schlüssel hinzufügen. Eine laufende Führung endet.</string>
 
     <!-- Offline maps (OfflineMapsPage, OfflineMapLibrary, AddOfflineMapPicker, map/speedlimit). -->
     <plurals name="maps_hub_value">
@@ -179,4 +224,7 @@
     <string name="maps_problem_failed_group">Kartengruppe %1$d von %2$d: %3$s. Zum erneuten Versuch fortsetzen.</string>
     <string name="maps_problem_failed_unknown">Download oder Prüfung fehlgeschlagen. Zum erneuten Versuch fortsetzen.</string>
     <string name="maps_problem_failed_group_unknown">Kartengruppe %1$d von %2$d: Download oder Prüfung fehlgeschlagen. Zum erneuten Versuch fortsetzen.</string>
+
+    <string name="maps_spoken_guidance_in_english">Die Routendienste geben in dieser Sprache keine Wegbeschreibungen, daher sind die Abbiegehinweise auf Englisch.</string>
+    <string name="maps_spoken_guidance_no_voice">%1$s hat keine Sprachausgabe-Stimme für %2$s, daher werden die Ansagen mit einer englischen Stimme gesprochen. Fügen Sie eine in den Android-Einstellungen für die Sprachausgabe hinzu.</string>
 </resources>

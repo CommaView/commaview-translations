@@ -1,0 +1,41 @@
+date: 2026-10-11
+runtimeVersion: 0.0.58
+title: StarPilot, screens that match your fork, and a new leaderboard
+out:
+  - title: StarPilot
+    text: CommaView now works with StarPilot on the comma 3X and comma four, installed from StarPilot’s own installer. Live View follows its Camera View, driver camera included, and tells you when its Disable Logging setting has stopped the video.
+  - title: Screens that match your fork
+    text: "The comma four and comma 3X screens draw what your fork draws on the comma: its font, its alerts and how it grades the camera. On StarPilot they bring its own HUD, path and widgets, such as its speed-limit sign, lead info, navigation card and developer sidebar."
+  - title: Choose a screen in Display
+    text: Settings › Display picks the onroad screen from a dropdown, and its preview shows your own comma’s fork and cameras.
+  - title: Every frame in Live View
+    text: Live View now draws every frame the comma sends, up to its 20 a second, where it used to skip some. The comma 3X screen is drawn by the phone’s GPU (Android 9 and later), so it keeps up with the video.
+  - title: Live View that recovers
+    text: It no longer gets stuck on “Reconnecting… Attempt 1”, and with the car off it waits and opens the video by itself when the car starts. One status panel says what’s happening, with its buttons, instead of a flash of “openpilot Unavailable” as the video starts.
+  - title: A reboot after runtime updates
+    text: "After your comma’s runtime is installed or updated, the app asks you to reboot it with a Reboot button, and Live View and Record wait until you do; the comma never reboots by itself. Home’s update card is smaller: tap it for every step."
+  - title: Home keeps up
+    text: Home shows within seconds whether each comma is there, without pulling to refresh, and says Checking while it looks. A new app update shows up soon after it’s out, each time you come back to the app.
+  - title: A redesigned leaderboard
+    text: "Standings and Achievements, for This week, Last week or Lifetime: how far behind the comma above you is, what’s left for your next achievement, and all 17 to earn. Your profile gathers your figures and settings, and tablets and head units keep a You panel beside the board."
+  - title: The podium before you join
+    text: Home shows this week’s podium in three stepped places with their medals, and you can look at the leaderboard before opting in.
+  - title: A calmer replay queue
+    text: "Each drive is one row with its progress, Pause, Resume or Retry, and a menu to move, report or remove it, and you can drag drives into a new order. Progress no longer stops at 99%: saving the finished replay shows as its own step."
+  - title: Replays that match Live View
+    text: Replays draw your fork’s screen and the offline-map speed-limit sign as Live View did, and mark any moments the comma saved no HUD data for.
+  - title: Better offline maps
+    text: Search in Add map works with the on-screen keyboard, Download stays on screen on Android 15, and downloads carry on in the background. Where your maps have no answer, the sign shows sunnypilot’s limit.
+  - title: Fixes
+    text: A phone or head unit with the wrong clock no longer locks you out of the beta. GREEN LIGHT and LEAD DEPARTING alerts on sunnypilot always show their circle, and the numbers on CommaView’s speed-limit signs no longer nearly touch.
+runtime:
+  - title: Every drive counts
+    text: Your comma records each drive as you drive, so one that turns off with the car keeps its drives, even those that start before it knows the time. The leaderboard’s This week fills in during the drive.
+  - title: StarPilot and your fork’s screen
+    text: The runtime installs on StarPilot, finds drives saved with its High Bitrate Recording or Konik settings, and sends what your fork’s screen draws, so the comma four and comma 3X screens can match it.
+  - title: Live View gets its camera back
+    text: Your phone or head unit takes the camera back at once when it reconnects, and one that drops off the network frees it within about ten seconds.
+  - title: Lighter on your comma
+    text: The runtime builds openpilot’s telemetry itself and sends it in a compact form, keeps HUD data only around a recording, and tells the app within seconds whether your comma is there. Record no longer fails on a busy comma.
+  - title: Replays that stay available
+    text: Finished drives are no longer marked damaged after the comma restarts while parked, and one long drive can no longer stop other drives’ replays.

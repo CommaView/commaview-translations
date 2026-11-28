@@ -70,6 +70,8 @@
     <string name="device_settings_comma_busy">comma 正忙碌中。請稍後再試。</string>
     <string name="device_settings_open_live_view_when_connected">連線時開啟 Live View</string>
     <string name="device_settings_open_live_view_when_connected_detail">車輛發動、comma 連線時自動開啟。離開後，下次之前不會再自動開啟。</string>
+    <string name="device_settings_live_view_status_bar">保留狀態列</string>
+    <string name="device_settings_live_view_status_bar_detail">在 Live View 上方顯示系統時鐘，而不是佔滿整個螢幕。</string>
     <string name="device_settings_offline_controls">請連上與「%1$s」相同的網路，以管理配對與更新。</string>
     <string name="device_settings_offline_controls_unnamed">請連上與您的 comma 相同的網路，以管理配對與更新。</string>
     <string name="device_settings_runtime_removed_controls">已從「%1$s」解除安裝 CommaView。請執行引導設定以重新安裝。</string>
@@ -346,12 +348,16 @@
     <plurals name="device_settings_phones_older_apps_detail">
         <item quantity="other">使用舊版 CommaView 的手機仍可再使用這台 comma %d 天，並以明文傳送共用權杖。若每支使用這台 comma 的手機都有金鑰，請立即停止。</item>
     </plurals>
+    <string name="device_settings_phones_older_apps_pair_code">供舊版 App 使用的配對碼</string>
+    <string name="device_settings_phones_older_apps_keep_working">使用舊版 CommaView 的手機可繼續使用這台 comma，更新後無需重新配對即可取得自己的金鑰。尚未使用這台 comma 的手機可以用這裡產生的配對碼配對。</string>
+    <string name="device_settings_phones_older_apps_off">這台 comma 不再接受共用權杖，因此不會為舊版 CommaView 產生配對碼。請先更新那支手機上的 CommaView，再用「顯示邀請碼」新增它。</string>
     <string name="device_settings_phones_stop_now">立即停止</string>
     <string name="device_settings_phones_remove_named">要移除「%1$s」嗎？</string>
     <string name="device_settings_phones_remove_this">要移除%1$s嗎？</string>
     <string name="device_settings_phones_remove_message">在以邀請碼重新加入或重新設定 comma 之前，它將無法再連上這台 comma。</string>
     <string name="device_settings_phones_token_off_title">要停止接受共用權杖嗎？</string>
-    <string name="device_settings_phones_token_off_message">使用舊版 CommaView 的手機將立即無法連上這台 comma。擁有金鑰的手機（包括這支）不受影響。只有透過 SSH 重新設定 comma 才能再次開啟。</string>
+    <string name="device_settings_phones_token_off_message">使用舊版 CommaView 的手機將立即無法再用這台 comma，且在更新之前無法重新配對。擁有金鑰的手機（包括這支）不受影響。只有在 comma 上操作才能以新權杖重新開啟共用權杖：透過 SSH 執行 commaviewd phones legacy-on。</string>
+    <string name="device_settings_phones_token_off_message_listed">只有擁有金鑰的手機可繼續使用這台 comma：%1$s。其他手機（使用舊版 CommaView 的，或尚未取得金鑰的）將立即無法使用，且在更新並透過「顯示邀請碼」新增之前無法重新配對。只有在 comma 上操作才能以新權杖重新開啟共用權杖：透過 SSH 執行 commaviewd phones legacy-on。</string>
     <string name="device_settings_phones_not_seen">尚未連線過</string>
     <string name="device_settings_phones_seen_today">今天連線過</string>
     <string name="device_settings_phones_seen_yesterday">昨天連線過</string>
@@ -389,4 +395,34 @@
     <!-- Phones with a key, when the comma's answer couldn't be read (CommaPhonesApi.kt). -->
     <string name="device_settings_phones_error_unreadable_answer">無法讀取的回應</string>
     <string name="device_settings_phones_error_unreadable_invitation">無法讀取的邀請碼</string>
+
+    <!-- A runtime update or uninstall in the background (RuntimeUpdateUi.kt, RuntimeMaintenanceService.kt). -->
+    <string name="device_settings_update_keep_using_background">您可以切換到其他應用程式或鎖定%1$s。更新會持續進行，通知中會顯示進度。</string>
+    <string name="device_settings_maintenance_other_job">CommaView 已在更新或解除安裝執行環境。完成後請再試一次。</string>
+    <string name="device_settings_runtime_notification_channel">執行環境更新</string>
+    <string name="device_settings_runtime_notification_updating">正在將您的 comma 的執行環境更新至 %1$s</string>
+    <string name="device_settings_runtime_notification_updating_generic">正在更新您的 comma 的執行環境</string>
+    <string name="device_settings_runtime_notification_uninstalling">正在從您的 comma 解除安裝 CommaView</string>
+    <string name="device_settings_runtime_notification_open">開啟 CommaView 以繼續。</string>
+
+    <!-- Cancelling a runtime update the comma runs itself (RuntimeUpdateCancel.kt, RuntimeUpdateProgress.kt). -->
+    <string name="device_settings_step_preparing">準備中（等待車輛停妥）</string>
+    <string name="device_settings_preparing_detail">您的 comma 會檢查版本，並等車輛保持停車狀態後再下載。</string>
+    <string name="device_settings_update_cancelled_title">已取消更新</string>
+    <string name="device_settings_update_cancelled_notice">已取消更新。您的 comma 上沒有任何變更。</string>
+    <string name="device_settings_cancel_update">取消更新</string>
+    <string name="device_settings_cancelling_update">正在取消…</string>
+    <string name="device_settings_update_will_finish">已來不及取消：您的 comma 現在會完成這次更新。</string>
+    <string name="device_settings_cancel_update_failed">更新未取消。請確認您的 comma 已連線，然後再試一次。</string>
+    <string name="device_settings_vehicle_picture_offline">連線到 %1$s 後才能變更圖片。</string>
+    <string name="device_settings_vehicle_picture_interrupted">照片沒有完整傳送到 %1$s。請靠近一點或檢查其 Wi-Fi，然後再試一次。</string>
+    <string name="device_settings_vehicle_picture_runtime">更新 %1$s 上的執行階段後才能變更圖片。</string>
+    <string name="device_settings_vehicle_picture_comma_full">%1$s 的空間不足，無法儲存這張照片。清除舊行程後再試一次。</string>
+    <string name="device_settings_vehicle_picture_comma_failed">%1$s 沒有儲存這張照片。請再試一次。</string>
+    <string name="device_settings_vehicle_picture_edit">更換車輛圖片</string>
+    <string name="device_settings_vehicle_picture_saving">正在儲存…</string>
+    <string name="device_settings_vehicle_picture_failed">無法開啟這張照片，請換一張。</string>
+    <string name="device_settings_vehicle_picture_change">更換照片</string>
+    <string name="device_settings_vehicle_picture_reset">使用 CommaView 的圖片</string>
+    <string name="device_settings_vehicle_picture_hint">從側面或前側四分之三角度拍攝、整台車都在畫面中的橫向照片最適合卡片。</string>
 </resources>

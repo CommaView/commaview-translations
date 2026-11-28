@@ -40,7 +40,7 @@
     <string name="display_reduce_motion_detail">CommaView\'un yol, hız ve kilitlenme göstergelerini sabit tutar. Android\'in Animasyonları kaldır ayarı da aynısını yapar.</string>
     <string name="display_design_no_options">%1$s ekranının kendine ait seçeneği yok: comma nasıl çiziyorsa öyle çizilir.</string>
     <string name="display_on_every_screen">Her ekranda</string>
-    <string name="display_opening_live_view">Live View açılıyor</string>
+    <string name="display_opening_live_view">Live View açılınca</string>
     <string name="display_preview">Önizleme</string>
     <string name="display_preview_engaged">Devrede</string>
     <string name="display_preview_override">Müdahale</string>
@@ -63,4 +63,5 @@
     <string name="display_hud_preview_engaged">%1$s ekranının önizlemesi, devrede</string>
     <string name="display_hud_preview_override">%1$s ekranının önizlemesi, müdahale</string>
     <string name="display_hud_preview_not_engaged">%1$s ekranının önizlemesi, devrede değil</string>
+    <string name="display_design_screen_description">%1$s ekranı</string>
 </resources>

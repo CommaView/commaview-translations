@@ -362,7 +362,25 @@
     <string name="recordings_export_size">%1$d 分鐘 · 約 %2$s</string>
     <string name="recordings_export_free">%2$s的可用空間：%1$s</string>
     <string name="recordings_export_needs">需要約 %1$s 可用空間。請先釋出一些空間。</string>
+    <!-- 08_pack -->
+    <string name="recordings_pack_drive_menu_label">儲存給套件工作室…</string>
+    <string name="recordings_pack_drive_menu_note">它的遙測資料，用來測試疊加套件</string>
+    <string name="recordings_pack_drive_title">將這個行程儲存給套件工作室</string>
+    <string name="recordings_pack_drive_intro">將這個行程的遙測資料存成套件工作室與套件預覽器可開啟的檔案，讓您在自己的行程上試用疊加套件。</string>
+    <string name="recordings_pack_drive_removed">已移除：車輛去過的地方（位置、導航與其地圖、道路名稱、指南針）、車輛的 VIN、您的 comma 與%1$s的名稱和 ID，以及疊加套件加入的內容。</string>
+    <string name="recordings_pack_drive_removed_keeping_packs">已移除：車輛去過的地方（位置、導航與其地圖、道路名稱、指南針）、車輛的 VIN，以及您的 comma 與%1$s的名稱和 ID。</string>
+    <string name="recordings_pack_drive_packs_title">包含疊加套件傳送的內容</string>
+    <string name="recordings_pack_drive_packs_off">關閉：檔案中完全不含這些內容。套件作者仍可在工作室中重播自己的套件。</string>
+    <string name="recordings_pack_drive_packs_on">開啟：各套件程式碼傳送的內容，以便原樣重播。傳送什麼由套件決定，因此可能包含您去過的地方；已知的地點與 ID 欄位會被移除。</string>
+    <string name="recordings_pack_drive_kept">檔案仍包含行程的日期與時間、車速，以及 openpilot 看到的內容：道路、前車與車輛狀態。</string>
+    <string name="recordings_pack_drive_save">存成檔案</string>
+    <string name="recordings_pack_drive_try_again">再試一次</string>
+    <string name="recordings_pack_drive_saving">正在儲存檔案…</string>
+    <string name="recordings_pack_drive_downloading">正在從 comma 下載</string>
+    <string name="recordings_pack_drive_connecting">正在向 comma 取得這個行程…</string>
     <string name="recordings_close">關閉</string>
+    <string name="recordings_pack_drive_share">儲存或分享這個行程</string>
+    <string name="recordings_pack_drive_share_failed">無法分享已儲存的行程</string>
     <!-- 09_upload -->
     <string name="recordings_upload_downloading">正在從 comma 下載</string>
     <string name="recordings_upload_preparing">正在準備記錄檔</string>
@@ -619,6 +637,15 @@
     <string name="recordings_service_starting">正在開始回放</string>
     <string name="recordings_service_title">正在製作回放 · 佇列中有 %1$d 個</string>
     <string name="recordings_service_text_percent">%1$s · %2$d%%</string>
+    <!-- 14_settings -->
+    <string name="recordings_pack_export_nothing_to_save">沒有可儲存的內容：comma 沒有保留這段錄影期間的駕駛資料。</string>
+    <string name="recordings_pack_export_no_longer_on_comma">這個行程已不在 comma 上，因此無法儲存。</string>
+    <string name="recordings_pack_export_cant_reach">無法連上錄製這個行程的 comma。請連線到它（它的 Wi‑Fi 或熱點），保持開機，然後再試一次。</string>
+    <string name="recordings_pack_export_park_first">comma 只在車輛停車時分享行程。請停車並解除 openpilot，然後再試一次。</string>
+    <string name="recordings_pack_export_pair_again">請將錄製這個行程的 comma 與%1$s重新配對，然後再試一次。</string>
+    <string name="recordings_pack_export_not_enough_space">%1$s的可用空間不足，無法下載這個行程。請釋出一些空間，然後再試一次。</string>
+    <string name="recordings_pack_export_too_long">這個行程太長，無法儲存給套件工作室。</string>
+    <string name="recordings_pack_export_failed">無法儲存這個行程：%1$s</string>
     <string name="recordings_saves_replay">行程結束後的回放</string>
     <string name="recordings_saves_live_copy">即時副本</string>
     <string name="recordings_saves_both">兩者</string>
@@ -737,4 +764,11 @@
     <string name="recordings_upload_doing_sending">傳送 %1$s</string>
     <string name="recordings_upload_doing_finishing">完成傳送</string>
     <string name="recordings_upload_doing_allowance">詢問可貢獻的內容</string>
+    <string name="recordings_quality_balanced">平衡</string>
+    <string name="recordings_quality_high">高</string>
+    <string name="recordings_quality_max">最高</string>
+    <string name="recordings_quality_balanced_detail">寬度最多 %1$d 像素：檔案最小，產生最快。</string>
+    <string name="recordings_quality_high_detail">相機的完整解析度。建議大多數行程使用。</string>
+    <string name="recordings_quality_max_detail">完整解析度，保留最多細節，檔案最大。</string>
+    <string name="recordings_replay_gap_hud">無法取得 HUD 資料</string>
 </resources>

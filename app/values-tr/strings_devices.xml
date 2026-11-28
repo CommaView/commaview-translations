@@ -276,6 +276,7 @@
     <string name="devices_leaderboard">Sıralama</string>
     <string name="devices_recent_recordings">Son kayıtlar</string>
     <string name="devices_view_all">Tümünü gör</string>
+    <string name="devices_overlay_packs">Katman paketleri</string>
     <string name="devices_open_store">Mağazayı aç</string>
     <string name="devices_view_all_recordings">Tüm kayıtları gör</string>
     <string name="devices_no_recordings">Henüz kayıt yok. Live View\'dan bir sürüş kaydedin.</string>
@@ -433,8 +434,15 @@
     <string name="devices_dev_runtime_queue_install">Yüklemeyi sıraya al</string>
     <!-- Phone keys: joining by an invitation, and a comma that already has a phone with a key. -->
     <string name="devices_pairing_failed_legacy_off">Eşleştirme başarısız: bu comma artık kodla eşleşmiyor. Onun için zaten anahtarı olan bir telefondan %1$s için davet oluşturun (ayarları, Başka bir telefon ekle) veya comma\'nın kurulumunu yeniden çalıştırın.</string>
-    <string name="devices_invitation_needed_named">%1$s cihazında zaten kendine ait anahtarı olan bir telefon var, ancak %2$s için anahtar yok. O telefon sizin değilse başka biri onu önce eklemiş olabilir: SSH üzerinden comma\'daki tüm telefonları kaldırın (commaviewd phones revoke-all), sonra kurulumu %2$sdan yeniden yapın. Aksi hâlde %2$s için o telefondan davet oluşturun (ayarları, Başka bir telefon ekle).</string>
-    <string name="devices_invitation_needed_this">Bu comma\'da zaten kendine ait anahtarı olan bir telefon var, ancak %1$s için anahtar yok. O telefon sizin değilse başka biri onu önce eklemiş olabilir: SSH üzerinden comma\'daki tüm telefonları kaldırın (commaviewd phones revoke-all), sonra kurulumu %1$sdan yeniden yapın. Aksi hâlde %1$s için o telefondan davet oluşturun (ayarları, Başka bir telefon ekle).</string>
+    <string name="devices_token_no_longer_taken_named">%1$s, %2$s eşleştirilirken kullanılan paylaşılan belirteci artık kabul etmiyor ve %2$s için kendine ait bir anahtar yok. %2$s için anahtarı olan bir telefondan davet oluşturun (ayarları, Başka bir telefon ekle).</string>
+    <string name="devices_token_no_longer_taken_this">Bu comma, %1$s eşleştirilirken kullanılan paylaşılan belirteci artık kabul etmiyor ve %1$s için kendine ait bir anahtar yok. %1$s için anahtarı olan bir telefondan davet oluşturun (ayarları, Başka bir telefon ekle).</string>
+    <string name="devices_new_phone_key_title">Yeni bir telefonun anahtarı var</string>
+    <string name="devices_new_phone_key_message">Yeni bir telefon %1$s için anahtar aldı: %2$s, %3$s. Sizin telefonlarınızdan biri değilse kaldırın. Anahtarı olan her telefon comma\'nın ayarlarında, Başka bir telefon eşleştir bölümünde de listelenir.</string>
+    <string name="devices_new_phone_key_by_token">Anahtarını, daha önce eşleştirilmiş bir telefon gibi, eski uygulamaların gönderdiği paylaşılan belirteçle aldı. Bu belirteci ağda gören biri de comma onu kabul etmeyi bırakana kadar (Şimdi durdur) aynısını yapabilir.</string>
+    <string name="devices_new_phone_key_dismiss">Benim</string>
+    <string name="devices_new_phone_key_review">Telefonları incele</string>
+    <string name="devices_new_phone_key_removed">%1$s artık %2$s için anahtara sahip değil.</string>
+    <string name="devices_new_phone_key_comma_gone">%1$s artık %2$s üzerinde kayıtlı değil, bu yüzden telefonları burada gösterilemiyor. Görmek için yeniden ekleyin.</string>
     <string name="devices_invitation_failed">Bu davetle katılınamadı. Yanlış yazılmış, süresi dolmuş veya kullanılmış olabilir. Bu comma\'ya zaten sahip olan telefonda yeni bir tane gösterin (ayarları, Başka bir telefon ekle).</string>
 
     <!-- Why a pair code couldn't be redeemed, when the comma or the network gave no words (RemoteAccessClient.kt). -->
@@ -451,4 +459,8 @@
     <string name="devices_support_name">CommaView desteği</string>
     <string name="devices_email_support">Desteğe e-posta gönder</string>
     <string name="devices_address_copied">Adres kopyalandı</string>
+    <string name="devices_software_video_only">Yalnızca video</string>
+    <string name="devices_software_unlisted_fork">Listede olmayan fork</string>
+    <string name="devices_software_best_effort">sınırlı destek</string>
+    <string name="devices_software_video_only_qualifier">yalnızca video</string>
 </resources>

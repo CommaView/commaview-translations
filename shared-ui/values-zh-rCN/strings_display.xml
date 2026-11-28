@@ -39,7 +39,7 @@
     <string name="display_reduce_motion_detail">让 CommaView 的路径、车速和锁定标记保持静止。Android 的“移除动画”也有同样效果。</string>
     <string name="display_design_no_options">%1$s 的画面没有自己的选项：完全按 comma 的画法显示。</string>
     <string name="display_on_every_screen">所有画面</string>
-    <string name="display_opening_live_view">打开 Live View</string>
+    <string name="display_opening_live_view">打开 Live View 时</string>
     <string name="display_preview">预览</string>
     <string name="display_preview_engaged">已启用</string>
     <string name="display_preview_override">驾驶员介入</string>
@@ -62,4 +62,5 @@
     <string name="display_hud_preview_engaged">%1$s 画面的预览，已启用</string>
     <string name="display_hud_preview_override">%1$s 画面的预览，驾驶员介入</string>
     <string name="display_hud_preview_not_engaged">%1$s 画面的预览，未启用</string>
+    <string name="display_design_screen_description">%1$s 画面</string>
 </resources>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- navigation: ไทย (Thai). Machine drafted with docs/localization/glossary-th.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- The offline maps' speed limit, as Live View and Settings say it (shared: SpeedLimitAvailability.label). -->
+    <string name="navigation_speed_limit_off">แผนที่ในแอปปิดอยู่</string>
+    <string name="navigation_speed_limit_location_off">ตำแหน่งปิดอยู่สำหรับ comma นี้</string>
+    <string name="navigation_speed_limit_offroad">รอการขับขี่</string>
+    <string name="navigation_speed_limit_waiting_location">รอสัญญาณ GPS</string>
+    <string name="navigation_speed_limit_stale_location">ตำแหน่ง GPS เก่าเกินไป</string>
+    <string name="navigation_speed_limit_poor_location">ความแม่นยำ GPS ต่ำเกินไป</string>
+    <string name="navigation_speed_limit_not_downloaded">ดาวน์โหลดแผนที่เพื่อเริ่มต้น</string>
+    <string name="navigation_speed_limit_outside">อยู่นอกแผนที่ที่ดาวน์โหลด</string>
+    <string name="navigation_speed_limit_damaged">แผนที่ต้องซ่อม ให้ดาวน์โหลดอีกครั้ง</string>
+    <string name="navigation_speed_limit_lookup_unavailable">หน่วยความจำไม่พอสำหรับอ่านแผนที่บริเวณนี้</string>
+    <string name="navigation_speed_limit_road_uncertain">ระบุถนนได้ไม่แน่ชัด</string>
+    <string name="navigation_speed_limit_no_limit">ถนนนี้ไม่มีตัวเลขความเร็วจำกัด</string>
+    <string name="navigation_speed_limit_available">มีความเร็วจำกัด</string>
+    <string name="navigation_speed_limit_disconnected">ไม่มีตำแหน่งของ comma</string>
+
+    <!-- Settings › Maps & navigation › Map theme (shared: MapThemeSetting). -->
+    <string name="navigation_map_theme_app">ตามแอป</string>
+    <string name="navigation_map_theme_app_note">สว่างเมื่อ CommaView สว่าง มืดเมื่อ CommaView มืด</string>
+    <string name="navigation_map_theme_auto">อัตโนมัติ</string>
+    <string name="navigation_map_theme_auto_note">สว่างตั้งแต่พระอาทิตย์ขึ้นถึงตกตามตำแหน่งของ comma และมืดในเวลากลางคืน</string>
+    <string name="navigation_map_theme_system">ตามโทรศัพท์</string>
+    <string name="navigation_map_theme_system_note">มืดเมื่อธีมมืดของ%1$sเปิดอยู่ สว่างเมื่อปิด ตั้งเวลาได้ในการตั้งค่า Android</string>
+    <string name="navigation_map_theme_light">สว่าง</string>
+    <string name="navigation_map_theme_light_note">สว่างเสมอ: อ่านง่ายที่สุดกลางแดด</string>
+    <string name="navigation_map_theme_dark">มืด</string>
+    <string name="navigation_map_theme_dark_note">มืดเสมอ: สบายตาตอนกลางคืน อ่านยากกลางแดด</string>
+
+    <!-- A route's problem in a few words, on the compact turn card (shared: NavRouteException). -->
+    <string name="navigation_route_brief_no_internet">ไม่มีอินเทอร์เน็ต</string>
+    <string name="navigation_route_brief_busy">ระบบเส้นทางไม่ว่าง</string>
+    <string name="navigation_route_brief_no_route">ระบบเส้นทาง: ไม่มีเส้นทาง</string>
+    <string name="navigation_route_brief_failed">ระบบเส้นทางผิดพลาด</string>
+    <string name="navigation_route_brief_sign_in">ลงชื่อเข้าใช้อีกครั้ง</string>
+    <string name="navigation_route_brief_not_on">การนำทางปิดอยู่</string>
+    <string name="navigation_route_brief_needs_key">เพิ่มคีย์เส้นทาง</string>
+    <string name="navigation_error_needs_key">เพิ่มคีย์ Stadia Maps ของคุณเองเพื่อรับเส้นทาง: การตั้งค่า › แผนที่และการนำทาง</string>
+    <string name="navigation_add_route_key">เพิ่มคีย์ของคุณ</string>
+    <string name="navigation_route_brief_too_far">ไกลเกินไป</string>
+    <string name="navigation_route_brief_unavailable_here">ใช้ที่นี่ไม่ได้</string>
+    <string name="navigation_route_brief_own_key_refused">คีย์ถูกปฏิเสธ</string>
+    <string name="navigation_route_brief_own_key_limit">คีย์เกินขีดจำกัด</string>
+    <string name="navigation_unavailable_mainland_china">การนำทางใช้ไม่ได้ในจีนแผ่นดินใหญ่</string>
+
+    <!-- Times on the turn card and route choices (shared: NavFormat.duration). -->
+    <string name="navigation_duration_minutes">%1$d นาที</string>
+    <string name="navigation_duration_hours_minutes">%1$d ชม. %2$d นาที</string>
+
+    <!-- Where to? and the route's preview (NavigationPages). -->
+    <string name="navigation_where_to">ไปที่ไหน?</string>
+    <string name="navigation_back_to_home">กลับไปหน้าแรก</string>
+    <string name="navigation_back_to_search">กลับไปที่การค้นหา</string>
+    <string name="navigation_voice_unavailable">ค้นหาด้วยเสียงไม่ได้บน%1$s</string>
+    <string name="navigation_typing_off_moving">ปิดการพิมพ์ขณะรถเคลื่อนที่ ใช้เสียงหรือสถานที่ที่บันทึกไว้</string>
+    <string name="navigation_search_places">ค้นหาสถานที่หรือที่อยู่</string>
+    <string name="navigation_clear_search">ล้างการค้นหา</string>
+    <string name="navigation_search_by_voice">ค้นหาด้วยเสียง</string>
+    <string name="navigation_searching_near_comma">กำลังค้นหาใกล้ comma…</string>
+    <string name="navigation_searching">กำลังค้นหา…</string>
+    <string name="navigation_results_near_comma">ผลลัพธ์ใกล้ comma</string>
+    <string name="navigation_results">ผลลัพธ์</string>
+    <string name="navigation_place_home">บ้าน</string>
+    <string name="navigation_place_work">ที่ทำงาน</string>
+    <string name="navigation_saved">บันทึกไว้</string>
+    <string name="navigation_recent">ล่าสุด</string>
+    <string name="navigation_unavailable_mainland_china_body">การค้นหา เส้นทาง และคำแนะนำจะปิดขณะที่ comma หรือโทรศัพท์อยู่ในจีนแผ่นดินใหญ่ ฮ่องกง มาเก๊า และไต้หวันไม่ได้รับผลกระทบ</string>
+    <string name="navigation_route_no_location">ไม่มีตำแหน่งของ comma เส้นทางจึงเริ่มจากตำแหน่งแรกใน Live View เปิด “ตำแหน่งรถ” ในการตั้งค่าของ comma เพื่อดูเส้นทางที่นี่ก่อน</string>
+    <string name="navigation_finding_routes">กำลังค้นหาเส้นทาง…</string>
+    <string name="navigation_try_again">ลองอีกครั้ง</string>
+    <string name="navigation_stadia_dashboard">แดชบอร์ด Stadia ของคุณ</string>
+
+    <!-- %1$s is the route's length, %2$s the time of day it arrives. -->
+    <string name="navigation_route_distance_arrive">%1$s · ถึง %2$s</string>
+    <string name="navigation_route_fastest">เร็วที่สุด · %1$s</string>
+    <string name="navigation_route_other">เส้นทาง %1$d · %2$s</string>
+    <string name="navigation_start">เริ่ม</string>
+    <string name="navigation_save_as_home">บันทึกเป็นบ้าน</string>
+    <string name="navigation_save_as_work">บันทึกเป็นที่ทำงาน</string>
+    <string name="navigation_saved_as_home">บันทึกเป็นบ้านแล้ว</string>
+    <string name="navigation_saved_as_work">บันทึกเป็นที่ทำงานแล้ว</string>
+
+    <!-- %1$s is who plans the routes ("Routes by Stadia Maps"). -->
+    <string name="navigation_routing_credit_display_only">%1$s · คำแนะนำใช้แสดงผลเท่านั้น ไม่ควบคุมรถ</string>
+    <string name="navigation_map_of_route">แผนที่ของเส้นทาง</string>
+
+    <!-- Where to? by voice, from the map's corner (CornerWhereTo). -->
+    <string name="navigation_corner_didnt_catch">ฟังไม่ชัด แตะ “ลองอีกครั้ง” แล้วพูดชื่อสถานที่หรือที่อยู่</string>
+    <string name="navigation_corner_search_failed">การค้นหาไม่ตอบสนอง ลองอีกครั้งในอีกสักครู่</string>
+    <string name="navigation_corner_nothing_found">ไม่พบ “%1$s” ใกล้ comma</string>
+    <string name="navigation_corner_voice_needs_internet">การค้นหาด้วยเสียงต้องใช้อินเทอร์เน็ตบน%1$sในขณะนี้ ตรวจสอบการเชื่อมต่อแล้วลองอีกครั้ง</string>
+    <string name="navigation_corner_voice_busy">การจดจำเสียงของ%1$sไม่ว่าง ลองอีกครั้งในอีกสักครู่</string>
+    <string name="navigation_corner_microphone_failed">ใช้ไมโครโฟนไม่ได้ ลองอีกครั้ง</string>
+    <string name="navigation_corner_listening">กำลังฟัง…</string>
+    <string name="navigation_corner_say_place">พูดชื่อสถานที่หรือที่อยู่</string>
+
+    <!-- What was heard, quoted. -->
+    <string name="navigation_corner_heard">“%1$s”</string>
+    <string name="navigation_corner_looking_near_comma">กำลังค้นหาใกล้ comma…</string>
+    <string name="navigation_cancel">ยกเลิก</string>
+    <string name="navigation_close">ปิด</string>
+
+    <!-- The trip's guidance in the map's corner and on the turn card (LiveMapCorner, LiveNavigation). -->
+    <string name="navigation_vehicle_location_off">ตำแหน่งรถปิดอยู่</string>
+    <string name="navigation_waiting_for_gps">รอ GPS</string>
+    <string name="navigation_waiting_for_position">รอตำแหน่งของ comma</string>
+    <string name="navigation_finding_route">กำลังค้นหาเส้นทาง</string>
+    <string name="navigation_no_route_yet">ยังไม่มีเส้นทาง</string>
+    <string name="navigation_arrived">ถึงแล้ว</string>
+    <string name="navigation_starting_guidance">กำลังเริ่มนำทาง</string>
+    <string name="navigation_rerouting">กำลังคำนวณเส้นทางใหม่…</string>
+    <string name="navigation_no_new_route_yet">ยังไม่มีเส้นทางใหม่</string>
+
+    <!-- What TalkBack hears for the corner: %1$s the guidance's words, %2$s the distance. -->
+    <string name="navigation_corner_status_next_step">%1$s ขั้นต่อไปในอีก %2$s</string>
+    <string name="navigation_corner_words_in">%1$s ในอีก %2$s</string>
+
+    <!-- %1$s the time of day it arrives, %2$s the time left. -->
+    <string name="navigation_corner_arrive">ถึง %1$s, %2$s</string>
+    <string name="navigation_corner_voice_muted">ปิดเสียงคำแนะนำอยู่</string>
+    <string name="navigation_map_road_ahead">แผนที่ถนนข้างหน้า</string>
+    <string name="navigation_unmute_voice">เปิดเสียงคำแนะนำ</string>
+    <string name="navigation_mute_voice">ปิดเสียงคำแนะนำ</string>
+    <string name="navigation_follow_car">ติดตามรถ</string>
+    <string name="navigation_route_overview">ภาพรวมเส้นทาง</string>
+    <string name="navigation_end">สิ้นสุดการนำทาง</string>
+    <string name="navigation_where_to_by_voice">ไปที่ไหน? ด้วยเสียง</string>
+    <string name="navigation_vehicle_location_off_detail">เปิดสำหรับ comma นี้ที่หน้าแรกเพื่อรับการนำทาง</string>
+    <string name="navigation_waiting_for_gps_detail">การนำทางจะเริ่มเมื่อ comma ได้สัญญาณแรก</string>
+    <string name="navigation_waiting_for_position_detail">ต้องเปิดตำแหน่งรถ</string>
+    <string name="navigation_to_destination">ไป %1$s</string>
+    <string name="navigation_couldnt_get_route">หาเส้นทางไม่ได้</string>
+    <string name="navigation_trying_again_every">ลองใหม่ทุก 15 วินาที</string>
+
+    <!-- %1$s is the step after the next, as the route service words it. -->
+    <string name="navigation_then">จากนั้น %1$s</string>
+
+    <!-- %1$s the time of day it arrives, %2$s the time left, %3$s the distance left. -->
+    <string name="navigation_arrive_time_distance">ถึง %1$s · %2$s · %3$s</string>
+    <string name="navigation_paused_weak_gps">หยุดการนำทางชั่วคราว: GPS อ่อนบริเวณนี้</string>
+    <string name="navigation_off_route">ออกนอกเส้นทาง</string>
+
+    <!-- Map credits (MapCredits): the credits' names stay as their owners write them. -->
+
+    <!-- %1$s lists the credits: "© OpenStreetMap contributors, © OpenMapTiles, OpenFreeMap". -->
+    <string name="navigation_credit_said">CommaView ให้บริการโดย %1$s</string>
+    <string name="navigation_dismiss">ปิด</string>
+    <string name="navigation_powered_by">ให้บริการโดย</string>
+    <string name="navigation_credit_osm">ข้อมูลถนนภายใต้สัญญาอนุญาต Open Database License (ODbL)</string>
+    <string name="navigation_credit_mapd">ชุดข้อมูลถนนออฟไลน์ สคีมา และเมทาดาทาของภูมิภาค</string>
+    <string name="navigation_credit_openmaptiles_live">แผนที่ใน Live View: สคีมาของไทล์เวกเตอร์ ภายใต้สัญญาอนุญาต CC-BY 4.0</string>
+    <string name="navigation_credit_openfreemap_live">ไทล์ของแผนที่ใน Live View ให้บริการฟรีโดยไม่ต้องใช้คีย์</string>
+    <string name="navigation_credit_maplibre_live">วาดแผนที่ใน Live View BSD 2-Clause License ประกาศต่างๆ มาพร้อมกับแอป</string>
+    <string name="navigation_credit_routing">วางแผนเส้นทางการนำทางจากถนนของ OpenStreetMap</string>
+    <string name="navigation_credit_search">ค้นหาสถานที่สำหรับ “ไปที่ไหน?” จากข้อมูลของ OpenStreetMap</string>
+    <string name="navigation_credit_openmaptiles">สคีมาของไทล์เวกเตอร์ของแผนที่ ภายใต้สัญญาอนุญาต CC-BY 4.0</string>
+    <string name="navigation_credit_openfreemap">ไทล์ของแผนที่ ให้บริการฟรีโดยไม่ต้องใช้คีย์</string>
+    <string name="navigation_credit_maplibre">วาดแผนที่ BSD 2-Clause License ประกาศต่างๆ มาพร้อมกับแอป</string>
+    <string name="navigation_map_credits">เครดิตแผนที่</string>
+
+    <!-- The trip's map and its credits (TripMap), the trip's end (TripEnded), Home's Where to? card (WhereToCard). -->
+    <string name="navigation_map_credits_described">เครดิตแผนที่: %1$s</string>
+    <string name="navigation_map_no_position">แผนที่: ยังไม่มีตำแหน่ง</string>
+    <string name="navigation_map_whole_route">แผนที่ของเส้นทางทั้งหมด</string>
+    <string name="navigation_show_whole_route">แสดงเส้นทางทั้งหมด</string>
+    <string name="navigation_trip_ended">การเดินทางสิ้นสุดแล้ว</string>
+    <string name="navigation_resume">ทำต่อ</string>
+    <string name="navigation_back_to_live_view">กลับไปที่ Live View</string>
+    <string name="navigation_nothing_found">ไม่พบ “%1$s”</string>
+    <string name="navigation_guiding_to">กำลังนำทางไป %1$s</string>
+
+    <!-- %1$s the time left, %2$s the distance left. -->
+    <string name="navigation_time_distance_left">%1$s · เหลือ %2$s</string>
+    <string name="navigation_guidance_starts_in_live_view">การนำทางจะเริ่มใน Live View</string>
+    <string name="navigation_live_view">Live View</string>
+    <string name="navigation_end_trip">สิ้นสุดการเดินทาง</string>
+    <string name="navigation_where_to_hint">ค้นหาสถานที่ แล้วบันทึกเป็นบ้านหรือที่ทำงานเพื่อแตะครั้งเดียวที่นี่</string>
+    <string name="navigation_search_for_place">ค้นหาสถานที่</string>
+    <string name="navigation_route_to">เส้นทางไป %1$s</string>
+
+    <!-- Why search or a route didn't come (NavigationServices, NavigationSession; through SharedWords, as NavRouteException's message). -->
+    <string name="navigation_error_search_no_internet">การค้นหาไม่ตอบสนอง ตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของ%1$s</string>
+    <string name="navigation_error_search_timeout">การค้นหาไม่ตอบสนองทันเวลา ลองอีกครั้งในอีกสักครู่</string>
+    <string name="navigation_error_search_busy">การค้นหาไม่ว่าง ลองอีกครั้งในอีกสักครู่</string>
+    <string name="navigation_error_search_status">การค้นหาไม่ตอบสนอง (%1$d) ลองอีกครั้งในอีกสักครู่</string>
+    <string name="navigation_error_route_no_internet">บริการเส้นทางไม่ตอบสนอง ตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของ%1$s</string>
+    <string name="navigation_error_route_busy">บริการเส้นทางไม่ว่าง ลองอีกครั้งในอีกสักครู่</string>
+
+    <!-- %1$s is the status or code the route service answered with. -->
+    <string name="navigation_error_own_key_unreadable">อ่านคีย์ Stadia Maps ของคุณบน%1$sไม่ได้ในขณะนี้ ลองอีกครั้ง หรือเพิ่มใหม่ในการตั้งค่า › แผนที่และการนำทาง</string>
+    <string name="navigation_error_too_far_miles">ไกลเกินไปสำหรับการเดินทางครั้งเดียว: การนำทางวางแผนเส้นทางได้ไกลสุด 930 ไมล์ เลือกจุดแวะระหว่างทาง แล้วเดินทางต่อจากที่นั่น</string>
+    <string name="navigation_error_too_far_km">ไกลเกินไปสำหรับการเดินทางครั้งเดียว: การนำทางวางแผนเส้นทางได้ไกลสุด 1,500 km เลือกจุดแวะระหว่างทาง แล้วเดินทางต่อจากที่นั่น</string>
+    <string name="navigation_error_couldnt_get_route_retrying">หาเส้นทางไม่ได้ กำลังลองอีกครั้ง</string>
+    <string name="navigation_routing_by_stadia">เส้นทางโดย Stadia Maps</string>
+    <string name="navigation_search_by_photon">ค้นหาโดย Photon</string>
+
+    <!-- The person's own Stadia Maps key (OwnStadiaKey). -->
+    <string name="navigation_own_key_over_limit">คีย์ Stadia Maps ของคุณเกินขีดจำกัด (429): เครดิตเดือนนี้หมดแล้ว หรือขอบ่อยเกินไปในขณะนี้ ตรวจสอบในแดชบอร์ด Stadia Maps (client.stadiamaps.com)</string>
+    <string name="navigation_own_key_refused">Stadia Maps ปฏิเสธคีย์ของคุณ (403): แพ็กเกจของคุณอาจไม่รวมการวางเส้นทาง ตรวจสอบในแดชบอร์ด Stadia Maps (client.stadiamaps.com) หรือเปลี่ยนในการตั้งค่า › แผนที่และการนำทาง</string>
+    <string name="navigation_own_key_not_accepted">Stadia Maps ไม่รับคีย์ของคุณ (%1$d) ตรวจสอบในแดชบอร์ด Stadia Maps (client.stadiamaps.com) หรือเปลี่ยนในการตั้งค่า › แผนที่และการนำทาง</string>
+    <string name="navigation_key_check_accepted">Stadia Maps รับคีย์ของคุณแล้ว</string>
+    <string name="navigation_key_check_over_limit">Stadia Maps แจ้งว่าคีย์นี้เกินขีดจำกัด (429): เครดิตเดือนนี้หมดแล้ว หรือขอบ่อยเกินไปในขณะนี้</string>
+    <string name="navigation_key_check_refused">Stadia Maps ปฏิเสธคีย์นี้ (403): แพ็กเกจอาจไม่รวมการวางเส้นทาง</string>
+    <string name="navigation_key_check_not_accepted">Stadia Maps ไม่รับคีย์นี้ (%1$d) ตรวจสอบว่าคัดลอกมาครบจากแดชบอร์ดแล้ว</string>
+    <string name="navigation_key_check_not_a_key">นี่ไม่ใช่คีย์ Stadia Maps คัดลอกคีย์ API จากแดชบอร์ด Stadia Maps ซึ่งประกอบด้วยตัวอักษร ตัวเลข และขีดกลาง</string>
+    <string name="navigation_key_check_no_internet">ติดต่อ Stadia Maps เพื่อตรวจสอบคีย์ไม่ได้ ตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของ%1$sแล้วลองอีกครั้ง</string>
+    <string name="navigation_key_check_failed">Stadia Maps ตรวจสอบคีย์ไม่ได้ในขณะนี้ (%1$d) ลองอีกครั้งในอีกสักครู่</string>
+
+    <!-- Settings › Maps & navigation's preview of Live View with a trip (LiveMapPreview). -->
+    <string name="navigation_preview_tag_corner">บนหน้าจอนี้: ที่มุมจอ</string>
+    <string name="navigation_preview_tag_beside">บนหน้าจอนี้: ข้างวิดีโอ</string>
+
+    <!-- %1$s is the preview's tag: where the map is on this screen. -->
+    <string name="navigation_preview_said">ตัวอย่าง Live View พร้อมแผนที่การเดินทาง %1$s</string>
+
+    <!-- %1$s the time of day it arrives, %2$s the time left. -->
+    <string name="navigation_preview_arrive_time">%1$s · %2$s</string>
+    <string name="navigation_map_theme_system_device">ตามอุปกรณ์เครื่องนี้</string>
+
+    <!-- A place shared from a maps app (SharedDestinations, Home). -->
+    <string name="navigation_share_target">นำทางด้วย CommaView</string>
+    <string name="navigation_shared_place">สถานที่ที่แชร์</string>
+    <string name="navigation_shared_not_a_place">CommaView ไม่พบสถานที่ในสิ่งที่แชร์มา</string>
+    <string name="navigation_shared_unreached">CommaView เปิดลิงก์ที่แชร์ไม่ได้ ตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของ%1$s</string>
+    <string name="navigation_shared_not_on">บัญชีนี้ยังไม่ได้เปิดการนำทาง จึงเปิดสถานที่ที่แชร์ไม่ได้</string>
+    <string name="navigation_shared_no_comma">เพิ่ม comma ก่อน สถานที่ที่แชร์จะเปิดเส้นทางในหน้าหลัก</string>
+
+
+    <!-- Send to comma: the comma's own navigation (SendToCommaSection). %1$s is the fork's name. -->
+    <string name="navigation_send_to_comma">ส่งไป comma</string>
+    <string name="navigation_send_to_comma_clear">ล้างออกจาก comma</string>
+    <string name="navigation_send_to_comma_cleared">ล้างออกจาก comma แล้ว</string>
+    <string name="navigation_send_to_comma_sent">ส่งไป comma แล้ว %1$s จะวางเส้นทางของตัวเองที่นั่น</string>
+    <string name="navigation_send_to_comma_failed">ส่งไป comma ไม่ได้: %1$s</string>
+    <string name="navigation_send_to_comma_onroad">จอดก่อน: comma รับสิ่งนี้เฉพาะตอนออฟโรด</string>
+    <string name="navigation_comma_unreachable">ติดต่อ comma ของคุณเพื่อส่งการเดินทางนี้ไม่ได้ เชื่อมต่อ%1$sกับเครือข่ายเดียวกับ comma แล้วลองอีกครั้ง</string>
+    <string name="navigation_send_trips_title">ส่งทุกการเดินทางไปยัง comma นี้</string>
+    <string name="navigation_send_trips_detail">เมื่อคุณแตะเริ่ม %1$s จะได้รับจุดหมายด้วย และจะถูกล้างเมื่อการเดินทางสิ้นสุด</string>
+    <string name="navigation_send_trips_paused">หยุดชั่วคราว: การตั้งค่าการขับขี่ของ %1$s เปลี่ยนไปตั้งแต่คุณเปิดใช้ เปิดอีกครั้งเพื่อยอมรับการตั้งค่าเหล่านั้น</string>
+    <string name="navigation_send_trips_confirm_title">ส่งทุกการเดินทางไปยัง %1$s ไหม</string>
+    <string name="navigation_send_trips_confirm_intro">%1$s วางแผนเส้นทางของตัวเองไปยังจุดหมายของแต่ละการเดินทางและแสดงบน comma ด้วยการตั้งค่าตอนนี้ มันยัง:</string>
+    <string name="navigation_send_trips_confirm_shows">%1$s วางแผนเส้นทางของตัวเองไปยังจุดหมายของแต่ละการเดินทางและแสดงบน comma ด้วยการตั้งค่าตอนนี้ มันไม่เปลี่ยนวิธีที่รถขับ</string>
+    <string name="navigation_send_trips_confirm_when">ทุกการเดินทางที่คุณเริ่มกับ comma นี้จะถูกส่งเมื่อแตะเริ่ม และถูกล้างเมื่อสิ้นสุด หากการตั้งค่าการขับขี่เปลี่ยน การส่งจะหยุดชั่วคราวจนกว่าคุณจะยอมรับอีกครั้ง ปิดได้ที่นี่ทุกเมื่อ</string>
+    <string name="navigation_send_trips_turn_on">เปิด</string>
+    <string name="navigation_send_to_comma_confirm_title">ส่งไปที่ %1$s บน comma ของคุณไหม</string>
+    <string name="navigation_send_to_comma_confirm_intro">%1$s จะวางเส้นทางของตัวเองไปยังที่นี่และแสดงบน comma ตามการตั้งค่าตอนนี้ จะทำสิ่งนี้ด้วย:</string>
+    <string name="navigation_send_to_comma_confirm_shows">%1$s จะวางเส้นทางของตัวเองไปยังที่นี่และแสดงบน comma ตามการตั้งค่าตอนนี้ จะไม่เปลี่ยนวิธีขับของรถ</string>
+    <string name="navigation_send_to_comma_confirm_settings">นี่คือการตั้งค่าของ %1$s เอง เปลี่ยนได้ในการตั้งค่าบน comma หรือใน CommaView</string>
+    <string name="navigation_drive_turn_speed">ชะลอก่อนถึงทางโค้งและวงเวียน</string>
+    <string name="navigation_drive_turn_desire">ถือว่าการเปิดไฟเลี้ยวใกล้จุดเลี้ยวของเส้นทางเป็นการเลี้ยว ไม่ใช่การเปลี่ยนเลน</string>
+    <string name="navigation_drive_lane_position">อยู่ในเลนที่เส้นทางต้องการ</string>
+    <string name="navigation_drive_auto_turn">เปิดไฟเลี้ยวและเลี้ยวเองที่จุดเลี้ยวของเส้นทาง</string>
+    <string name="navigation_send">ส่ง</string>
+    <string name="navigation_comma_nav_off">การนำทาง (อัลฟา) ของ openpilot ปิดอยู่บน comma</string>
+    <string name="navigation_comma_nav_off_release">openpilot รุ่นนี้ปิดการนำทาง (อัลฟา) ทุกครั้งที่เริ่มทำงาน จึงยังเปิดค้างไว้ไม่ได้</string>
+    <string name="navigation_comma_nav_turn_on">เปิดการนำทาง (อัลฟา)</string>
+    <string name="navigation_comma_nav_turn_on_title">เปิดการนำทาง (อัลฟา) ของ openpilot ไหม</string>
+    <string name="navigation_comma_nav_turn_on_message">การนำทางทีละจุดเลี้ยวของ openpilot เอง พร้อมแผนที่เส้นทางบน comma four เป็นรุ่นอัลฟาที่ openpilot ซ่อนไว้ในการตั้งค่าของรุ่น release ปิดได้อีกครั้งในการตั้งค่า comma ใน CommaView</string>
+    <string name="navigation_comma_nav_turned_on">เปิดการนำทาง (อัลฟา) ของ openpilot แล้ว</string>
+    <plurals name="navigation_spoken_in_feet">
+        <item quantity="other">อีก %1$d ฟุต %2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_metres">
+        <item quantity="other">อีก %1$d เมตร %2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_miles">
+        <item quantity="other">อีก %1$d ไมล์ %2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_kilometres">
+        <item quantity="other">อีก %1$d กิโลเมตร %2$s</item>
+    </plurals>
+    <string name="navigation_spoken_in_miles_decimal">อีก %1$s ไมล์ %2$s</string>
+    <string name="navigation_spoken_in_kilometres_decimal">อีก %1$s กิโลเมตร %2$s</string>
+    <string name="navigation_spoken_in_quarter_mile">อีกหนึ่งในสี่ไมล์ %1$s</string>
+    <string name="navigation_spoken_in_half_mile">อีกครึ่งไมล์ %1$s</string>
+    <string name="navigation_spoken_in_three_quarters_mile">อีกสามในสี่ไมล์ %1$s</string>
+    <string name="navigation_preview_sample_exit">ใช้ทางออกไปทาง %1$s</string>
+    <string name="navigation_preview_sample_then">ชิดซ้ายไปทาง %1$s</string>
+    <string name="navigation_voice_before_place">นำทางไปที่|นำทางไป|พาไปที่|พาไป|ขับไปที่|ขับไป|เส้นทางไปที่|เส้นทางไป|ไปที่|ไป</string>
+    <string name="navigation_voice_after_place">หน่อยครับ|หน่อยค่ะ|หน่อย|ครับ|ค่ะ|ด้วย</string>
+    <string name="navigation_voice_home_words">บ้าน|ที่บ้าน|กลับบ้าน</string>
+    <string name="navigation_voice_work_words">ที่ทำงาน|ทำงาน|ออฟฟิศ|บริษัท</string>
+</resources>

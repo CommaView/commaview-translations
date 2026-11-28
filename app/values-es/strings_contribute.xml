@@ -61,6 +61,7 @@
         <item quantity="many">• recording/events.jsonl y manifest.json: el historial de errores de grabación, %1$d eventos</item>
         <item quantity="other">• recording/events.jsonl y manifest.json: el historial de errores de grabación, %1$d eventos</item>
     </plurals>
+    <string name="contribute_bundle_navigation">• navigation/search-counts.txt: recuentos de búsquedas de navegación</string>
     <string name="contribute_bundle_leaderboard">• leaderboard/status.txt: el estado de la clasificación: si se piden y transmiten las declaraciones de tus commas</string>
     <string name="contribute_bundle_report">• report.txt: lo que escribiste y lo que acompaña a cada informe</string>
     <string name="contribute_bundle_json">• bundle.json: lo que contiene el paquete</string>

@@ -25,6 +25,7 @@
     <string name="settings_page_about">このアプリについて</string>
     <string name="settings_page_licenses">オープンソースライセンス</string>
     <string name="settings_page_license">ライセンス</string>
+    <string name="settings_page_overlay_packs">オーバーレイパック</string>
     <string name="settings_page_device">デバイス設定</string>
     <string name="settings_page_device_facts">名前とアドレス</string>
     <string name="settings_page_device_network">ネットワーク</string>
@@ -33,6 +34,7 @@
 
     <!-- The Settings hub's rows, under each title. -->
     <string name="settings_hub_display_subtitle">走行画面とそのオプション、運転席の位置、日中表示</string>
+    <string name="settings_hub_maps_navigation_subtitle">Live View の地図、音声案内、登録した場所、オフライン地図</string>
     <string name="settings_hub_maps_navigation_key_subtitle">オフライン地図と、自分の Stadia Maps キーを使ったナビ</string>
     <string name="settings_hub_offline_maps_subtitle">地域をダウンロードし、comma の位置から制限速度を表示</string>
     <string name="settings_hub_live_streaming_subtitle">Live View から YouTube や他のサーバーへライブ配信</string>

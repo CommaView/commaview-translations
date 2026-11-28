@@ -40,6 +40,7 @@
     <string name="about_license_fork_translations">MIT 许可证及各分支版本自己的许可证。以 comma 的语言显示的行车画面文字。</string>
     <string name="about_license_noto_sans">Adobe 与 Noto Project Authors · SIL Open Font License 1.1。openpilot 行车画面的中文、日文、韩文及泰文字体。</string>
     <string name="about_license_unifont">Roman Czyborra、Paul Hardy 等 · SIL Open Font License 1.1。各分支版本行车画面的中文、日文、韩文及泰文字体。</string>
+    <string name="about_license_opfont">© IBM Corp.、Google LLC；Rick Lan 衍生作品 · SIL Open Font License 1.1。dragonpilot 行车画面的中文、日文、韩文及泰文字体。</string>
     <string name="about_license_kaigen_gothic">Ming-Hsien Lin 与 Adobe · SIL Open Font License 1.1。carrotpilot 行车画面的字体。</string>
     <string name="about_license_efficientdet_lite">TensorFlow 作者 · Apache License 2.0。Surround 的通用检测模型。</string>
     <string name="about_license_qnn">Qualcomm Technologies, Inc. · 检测器 DSP 运行环境的声明。</string>

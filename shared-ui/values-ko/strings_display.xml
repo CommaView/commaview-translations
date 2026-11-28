@@ -40,7 +40,7 @@
     <string name="display_reduce_motion_detail">CommaView의 경로, 속도, 잠금 표시를 움직이지 않게 합니다. Android의 ‘애니메이션 삭제’도 같은 역할을 합니다.</string>
     <string name="display_design_no_options">%1$s 화면에는 별도 옵션이 없습니다. comma가 그리는 그대로 표시됩니다.</string>
     <string name="display_on_every_screen">모든 화면 공통</string>
-    <string name="display_opening_live_view">Live View 여는 중</string>
+    <string name="display_opening_live_view">Live View를 열 때</string>
     <string name="display_preview">미리보기</string>
     <string name="display_preview_engaged">작동 중</string>
     <string name="display_preview_override">운전자 개입</string>
@@ -63,4 +63,5 @@
     <string name="display_hud_preview_engaged">%1$s 화면 미리보기, 작동 중</string>
     <string name="display_hud_preview_override">%1$s 화면 미리보기, 운전자 개입</string>
     <string name="display_hud_preview_not_engaged">%1$s 화면 미리보기, 작동 안 함</string>
+    <string name="display_design_screen_description">%1$s 화면</string>
 </resources>

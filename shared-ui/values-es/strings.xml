@@ -2,4 +2,7 @@
 <!-- app: Español (Spanish). Machine drafted with docs/localization/glossary-es.md; not yet reviewed by a native speaker. -->
 <resources>
     <string name="common_done">Listo</string>
+    <string name="common_decrease">Reducir %1$s</string>
+    <string name="common_increase">Aumentar %1$s</string>
+    <string name="common_type_value">Escribir un valor</string>
 </resources>

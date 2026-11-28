@@ -1,0 +1,33 @@
+date: 2026-10-08
+runtimeVersion: 0.0.57
+title: Offline maps and speed limits, regional signs, and a replay queue
+out:
+  - title: Offline maps and speed limits
+    text: Download a country or a US state in Settings › Offline maps, and CommaView shows the speed limit from your comma’s live GPS once its location is on. Downloads pause, resume and update, and the limits are for display only.
+  - title: Speed-limit signs for where you drive
+    text: "CommaView’s sign takes one of seven styles from your comma’s location: the red-ring circle used in most countries, the UK and Taiwan included, or the signs of the US, Canada, Japan, Sweden, Finland and Iceland, Ireland and Brazil, or Australia."
+  - title: A steering crescent
+    text: A crescent under the CommaView overlay’s speed cluster shows how hard openpilot is steering, and the cluster has its glass look back. MAX and the speed limit stay in place even when they’re unknown.
+  - title: Fill screen or Full camera
+    text: In landscape the CommaView overlay fills the screen by cropping the camera, or shows the whole picture with Full camera. New recordings keep the crop you chose.
+  - title: A replay queue
+    text: Queue several drives and their replays are made in the background, picking up where they left off if the connection drops. Pause, resume, retry or reorder them from Queue in Recordings.
+  - title: Recordings and maps for any screen
+    text: Recordings and the offline map library are redesigned to fit phones, tablets and head units, and Vehicle location now fits short screens and large text.
+  - title: Clearer recording problems
+    text: When a drive can’t be made into a replay, Recordings says why, and a report sent from there includes the details we need to look into it.
+  - title: Home and the leaderboard
+    text: Driving this week and Vehicle location stay on Home while you’re offline, and Home shows this week’s podium. Once you’ve joined the leaderboard your totals sync on their own, even from the comma’s hotspot.
+  - title: Runtime updates without an app update
+    text: Your comma’s runtime can be updated when a compatible one is out, without waiting for a new app, and its progress is clearer.
+  - title: Beta sign-in
+    text: During the beta, CommaView asks you to sign in with the account your invitation went to. Your pairings and settings are kept, and the app works offline while your access pass is valid.
+  - title: Clearer Wi-Fi power saving
+    text: Your comma’s Wi-Fi power saving is a plain on or off choice that shows the system default and says when a change takes effect.
+runtime:
+  - title: Reboot from the app
+    text: When an update needs your comma to restart, Reboot comma now in the app restarts it for you. It works only while the car is off or parked.
+  - title: Speed limits from fresh GPS
+    text: On sunnypilot your comma sends its newest GPS fix rather than a cached position, so offline-map speed limits follow where you are.
+  - title: Clearer drive status
+    text: Your comma tells a drive that’s still incomplete from one that’s gone, so Recordings can explain which, and keeps finished drives healthy.

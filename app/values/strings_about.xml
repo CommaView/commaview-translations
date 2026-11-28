@@ -40,6 +40,7 @@
     <string name="about_license_fork_translations">MIT License and the forks\' own. Their onroad words in the comma\'s language.</string>
     <string name="about_license_noto_sans">Adobe and the Noto Project Authors · SIL Open Font License 1.1. openpilot\'s onroad type in Chinese, Japanese, Korean and Thai.</string>
     <string name="about_license_unifont">Roman Czyborra, Paul Hardy et al. · SIL Open Font License 1.1. The forks\' onroad type in Chinese, Japanese, Korean and Thai.</string>
+    <string name="about_license_opfont">© IBM Corp., Google LLC; derivative by Rick Lan · SIL Open Font License 1.1. dragonpilot\'s onroad type in Chinese, Japanese, Korean and Thai.</string>
     <string name="about_license_kaigen_gothic">Ming-Hsien Lin and Adobe · SIL Open Font License 1.1. carrotpilot\'s onroad type.</string>
     <string name="about_license_efficientdet_lite">The TensorFlow authors · Apache License 2.0. Surround\'s general detector model.</string>
     <string name="about_license_qnn">Qualcomm Technologies, Inc. · notices for the detector\'s DSP runtime.</string>

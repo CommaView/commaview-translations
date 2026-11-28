@@ -363,7 +363,25 @@
     <string name="recordings_export_size">%1$d นาที · ประมาณ %2$s</string>
     <string name="recordings_export_free">พื้นที่ว่างใน%2$s: %1$s</string>
     <string name="recordings_export_needs">ต้องมีพื้นที่ว่างประมาณ %1$s เพิ่มพื้นที่ว่างก่อน</string>
+    <!-- 08_pack -->
+    <string name="recordings_pack_drive_menu_label">บันทึกสำหรับสตูดิโอแพ็ก…</string>
+    <string name="recordings_pack_drive_menu_note">เทเลเมทรี เพื่อทดสอบแพ็กโอเวอร์เลย์</string>
+    <string name="recordings_pack_drive_title">บันทึกการขับขี่นี้สำหรับสตูดิโอแพ็ก</string>
+    <string name="recordings_pack_drive_intro">บันทึกเทเลเมทรีของการขับขี่นี้เป็นไฟล์ที่สตูดิโอแพ็กและตัวดูตัวอย่างแพ็กเปิดได้ เพื่อให้คุณลองแพ็กโอเวอร์เลย์กับการขับขี่ของคุณเอง</string>
+    <string name="recordings_pack_drive_removed">นำออกแล้ว: สถานที่ที่รถไป (ตำแหน่ง การนำทางและแผนที่ ชื่อถนน เข็มทิศ) VIN ของรถ ชื่อและ ID ของ comma และของ%1$s และสิ่งที่แพ็กโอเวอร์เลย์เพิ่ม</string>
+    <string name="recordings_pack_drive_removed_keeping_packs">นำออกแล้ว: สถานที่ที่รถไป (ตำแหน่ง การนำทางและแผนที่ ชื่อถนน เข็มทิศ) VIN ของรถ และชื่อและ ID ของ comma และของ%1$s</string>
+    <string name="recordings_pack_drive_packs_title">รวมสิ่งที่แพ็กโอเวอร์เลย์ส่ง</string>
+    <string name="recordings_pack_drive_packs_off">ปิด: ไฟล์จะไม่มีข้อมูลนี้ ผู้สร้างแพ็กยังเล่นแพ็กซ้ำในสตูดิโอได้</string>
+    <string name="recordings_pack_drive_packs_on">เปิด: สิ่งที่โค้ดของแต่ละแพ็กส่ง เพื่อเล่นซ้ำตามเดิม แพ็กเป็นผู้กำหนดว่าจะส่งอะไร จึงอาจรวมตำแหน่งของคุณ ฟิลด์สถานที่และ ID ที่รู้จักจะถูกนำออก</string>
+    <string name="recordings_pack_drive_kept">ยังมีวันที่และเวลาของการขับขี่ ความเร็ว และสิ่งที่ openpilot เห็น ได้แก่ ถนน รถคันหน้า และสถานะของรถ</string>
+    <string name="recordings_pack_drive_save">บันทึกเป็นไฟล์</string>
+    <string name="recordings_pack_drive_try_again">ลองอีกครั้ง</string>
+    <string name="recordings_pack_drive_saving">กำลังบันทึกไฟล์…</string>
+    <string name="recordings_pack_drive_downloading">กำลังดาวน์โหลดจาก comma</string>
+    <string name="recordings_pack_drive_connecting">กำลังขอการขับขี่นี้จาก comma…</string>
     <string name="recordings_close">ปิด</string>
+    <string name="recordings_pack_drive_share">บันทึกหรือแชร์การขับขี่นี้</string>
+    <string name="recordings_pack_drive_share_failed">แชร์การขับขี่ที่บันทึกไว้ไม่ได้</string>
     <!-- 09_upload -->
     <string name="recordings_upload_downloading">กำลังดาวน์โหลดจาก comma</string>
     <string name="recordings_upload_preparing">กำลังเตรียมล็อก</string>
@@ -620,6 +638,15 @@
     <string name="recordings_service_starting">กำลังเริ่มการเล่นซ้ำ</string>
     <string name="recordings_service_title">กำลังสร้างการเล่นซ้ำ · %1$d รายการในคิว</string>
     <string name="recordings_service_text_percent">%1$s · %2$d%%</string>
+    <!-- 14_settings -->
+    <string name="recordings_pack_export_nothing_to_save">ไม่มีอะไรให้บันทึก: comma ไม่ได้เก็บข้อมูลการขับขี่ในช่วงเวลาของการบันทึกนี้</string>
+    <string name="recordings_pack_export_no_longer_on_comma">การขับขี่นี้ไม่อยู่บน comma แล้ว จึงบันทึกไม่ได้</string>
+    <string name="recordings_pack_export_cant_reach">ติดต่อ comma ที่บันทึกการขับขี่นี้ไม่ได้ เชื่อมต่อ (Wi-Fi หรือฮอตสปอตของ comma) เปิดไว้ แล้วลองอีกครั้ง</string>
+    <string name="recordings_pack_export_park_first">comma แชร์การขับขี่เฉพาะขณะรถจอดอยู่ จอดรถและยกเลิกระบบช่วยขับของ openpilot แล้วลองอีกครั้ง</string>
+    <string name="recordings_pack_export_pair_again">จับคู่ comma ที่บันทึกการขับขี่นี้กับ%1$sอีกครั้ง แล้วลองอีกครั้ง</string>
+    <string name="recordings_pack_export_not_enough_space">พื้นที่ว่างใน%1$sไม่พอดาวน์โหลดการขับขี่นี้ เพิ่มพื้นที่ว่างแล้วลองอีกครั้ง</string>
+    <string name="recordings_pack_export_too_long">การขับขี่นี้ยาวเกินกว่าจะบันทึกสำหรับสตูดิโอแพ็ก</string>
+    <string name="recordings_pack_export_failed">บันทึกการขับขี่นี้ไม่ได้: %1$s</string>
     <string name="recordings_saves_replay">เล่นซ้ำหลังการขับขี่</string>
     <string name="recordings_saves_live_copy">สำเนาสดทันที</string>
     <string name="recordings_saves_both">ทั้งสองแบบ</string>
@@ -727,10 +754,10 @@
     <string name="recordings_upload_comma_file_failed">comma ส่ง %1$s ของการขับขี่นี้ไม่ได้</string>
 
     <!-- The part of a recording the comma couldn't provide, in recordings_replay_error_http (ReplayWords.kt). -->
-    <string name="recordings_replay_part_manifest">manifest</string>
-    <string name="recordings_replay_part_recipe">recipe</string>
-    <string name="recordings_replay_part_gaps">gaps</string>
-    <string name="recordings_replay_part_archive">archive</string>
+    <string name="recordings_replay_part_manifest">รายการไฟล์</string>
+    <string name="recordings_replay_part_recipe">สูตรการสร้าง</string>
+    <string name="recordings_replay_part_gaps">รายการช่วงที่ขาดหาย</string>
+    <string name="recordings_replay_part_archive">ไฟล์เก็บถาวร</string>
 
     <!-- What my.commaview.com refused while a recording was sent (RecordingUploadApi.kt). -->
     <string name="recordings_upload_refused">my.commaview.com ปฏิเสธ %1$s (%2$s)</string>
@@ -738,4 +765,11 @@
     <string name="recordings_upload_doing_sending">การส่ง %1$s</string>
     <string name="recordings_upload_doing_finishing">การจบ</string>
     <string name="recordings_upload_doing_allowance">การถามว่าร่วมส่งอะไรได้บ้าง</string>
+    <string name="recordings_quality_balanced">สมดุล</string>
+    <string name="recordings_quality_high">สูง</string>
+    <string name="recordings_quality_max">สูงสุด</string>
+    <string name="recordings_quality_balanced_detail">กว้างไม่เกิน %1$d พิกเซล: ไฟล์เล็กที่สุด สร้างได้เร็วที่สุด</string>
+    <string name="recordings_quality_high_detail">ความละเอียดเต็มของกล้อง แนะนำสำหรับการขับขี่ส่วนใหญ่</string>
+    <string name="recordings_quality_max_detail">ความละเอียดเต็มพร้อมรายละเอียดมากที่สุด ในไฟล์ที่ใหญ่ที่สุด</string>
+    <string name="recordings_replay_gap_hud">ไม่มีข้อมูล HUD</string>
 </resources>

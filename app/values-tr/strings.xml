@@ -26,6 +26,7 @@
     <string name="settings_page_about">Hakkında</string>
     <string name="settings_page_licenses">Açık kaynak lisansları</string>
     <string name="settings_page_license">Lisans</string>
+    <string name="settings_page_overlay_packs">Katman paketleri</string>
     <string name="settings_page_device">Cihaz ayarları</string>
     <string name="settings_page_device_facts">Ad ve adres</string>
     <string name="settings_page_device_network">Ağ</string>
@@ -34,6 +35,7 @@
 
     <!-- The Settings hub's rows, under each title. -->
     <string name="settings_hub_display_subtitle">Sürüş ekranı ve seçenekleri, sürücü konumu ve gün ışığı</string>
+    <string name="settings_hub_maps_navigation_subtitle">Live View\'daki harita, sesli yönlendirme, yerleriniz ve çevrimdışı haritalar</string>
     <string name="settings_hub_maps_navigation_key_subtitle">Çevrimdışı haritalar ve kendi Stadia Maps anahtarınızla navigasyon</string>
     <string name="settings_hub_offline_maps_subtitle">Bölge indirin, comma\'nızın konumuna göre hız sınırlarını gösterin</string>
     <string name="settings_hub_live_streaming_subtitle">Live View\'dan YouTube\'a veya başka bir sunucuya canlı yayın yapın</string>

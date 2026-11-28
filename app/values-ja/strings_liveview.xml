@@ -142,6 +142,46 @@
     <string name="liveview_peek_streaming">配信中</string>
 
 
+    <!-- Browser View, Live View in a car's web browser (its card in Details). -->
+    <string name="liveview_car_screen_title">Browser View</string>
+    <string name="liveview_car_screen_title_on">Browser View · オン</string>
+    <string name="liveview_car_screen_stop">停止</string>
+    <string name="liveview_car_screen_stop_description">Browser View を停止</string>
+    <string name="liveview_car_screen_start">開始</string>
+    <string name="liveview_car_screen_start_description">Browser View を開始</string>
+    <string name="liveview_car_screen_new_code">新しいコード</string>
+    <string name="liveview_car_screen_new_code_description">Browser View の新しいコードを作成</string>
+    <string name="liveview_car_screen_controls_title">車内での操作</string>
+    <string name="liveview_car_screen_controls_subtitle">「録画」「場面を保存」など Live View の操作を映像の下に表示し、%1$sを置いたままにできます</string>
+    <string name="liveview_car_screen_quality_label">Browser View の画質</string>
+    <string name="liveview_car_screen_quality_caption">画質：1080p はより鮮明ですが、%1$sとテザリングの負荷が増えます。「配信を開始」と同時の場合は、その映像を共有します</string>
+    <string name="liveview_car_screen_start_with_live_view">Live View と一緒に開始</string>
+    <string name="liveview_car_screen_start_with_live_view_subtitle">Live View を開くたびに Browser View が始まります。VPN アドレスがオンの場合はそのアドレスで始まります</string>
+    <string name="liveview_car_screen_show_addresses">車内にインターネットがない場合は？ アドレスを表示</string>
+    <string name="liveview_car_screen_hide_addresses">アドレスを隠す</string>
+    <string name="liveview_car_screen_best_caption">最高画質：ブラウザが先に警告を表示するので、承諾して進んでください。Tesla のブラウザでは先に進めません</string>
+    <string name="liveview_car_screen_basic_caption">標準画質：Tesla を含むどのブラウザでも警告は出ませんが、画質は低くなります</string>
+    <string name="liveview_car_screen_tesla_open_caption">車のブラウザ（Tesla を含む）で開く</string>
+    <string name="liveview_car_screen_other_open_caption">他のブラウザで開けるアドレス</string>
+    <string name="liveview_car_screen_tesla_off_caption">%1$sのテザリングに接続した Tesla には VPN アドレスが必要です。どのブラウザでも最も確実な方法です</string>
+    <string name="liveview_car_screen_tesla_starting_caption">VPN アドレスを開始しています…</string>
+    <string name="liveview_car_screen_tesla_on_caption">VPN アドレスは、%1$s上の CommaView の VPN です。通信を中継することはなく、オンの間は他の VPN アプリはオフになります</string>
+    <string name="liveview_car_screen_off_caption">Live View の表示（「ドライバーカメラ」がオンの間はドライバーカメラも）を、%1$sの Wi-Fi またはテザリングにつないだ車のウェブブラウザに表示します</string>
+    <string name="liveview_car_screen_privacy_caption">Browser View は%1$sに commaview.app のランダムな名前と公開の証明書を付け、その証明書は公開のログに記載されます。名前は%2$sに残ります。実行中は、commaview.app/&lt;code&gt; で見つけられるよう、コード、ポート、プライベートアドレスを送信します。これらは最後に実行してから 30 日後に削除されます。</string>
+    <string name="liveview_car_screen_privacy_policy">プライバシーポリシー</string>
+    <string name="liveview_car_screen_open_caption">車のブラウザで開く</string>
+    <string name="liveview_car_screen_no_network_caption">%1$sのテザリングをオンにして車を接続するか、%1$sを車の Wi-Fi に接続してください</string>
+    <string name="liveview_car_screen_address_clip_label">Browser View のアドレス</string>
+    <string name="liveview_car_screen_address_copied">アドレスをコピーしました</string>
+    <string name="liveview_car_screen_copy_address">%1$s をコピー</string>
+    <string name="liveview_car_screen_vpn_turn_off">VPN アドレスをオフ</string>
+    <string name="liveview_car_screen_vpn_turn_off_description">VPN アドレスをオフにする</string>
+    <string name="liveview_car_screen_vpn_turn_on">VPN アドレスをオン</string>
+    <string name="liveview_car_screen_vpn_turn_on_description">VPN アドレスをオンにする</string>
+    <string name="liveview_car_screen_waiting_for_browser">車のブラウザを待っています</string>
+    <plurals name="liveview_car_screen_viewers">
+        <item quantity="other">%1$d 台のブラウザで視聴中</item>
+    </plurals>
 
     <!-- Details' facts (LiveViewDetails). -->
     <string name="liveview_health_good">良好</string>
@@ -153,6 +193,7 @@
     <string name="liveview_readout_runtime">ランタイム</string>
     <string name="liveview_readout_software">ソフトウェア</string>
     <string name="liveview_readout_comma_ip">comma の IP</string>
+    <string name="liveview_readout_overlay_packs">オーバーレイパック</string>
     <string name="liveview_on">オン</string>
     <string name="liveview_off">オフ</string>
 
@@ -178,6 +219,21 @@
     <string name="liveview_live_copy_shared_notice">配信からライブコピーを録画中です。画質は配信と同じ %1$s です</string>
     <string name="liveview_stream_from_live_copy_notice">ライブコピーの %1$s の映像から、配信の %2$s でライブ配信中です</string>
 
+    <!-- Details' Overlay packs line: each pack and how it's doing on the comma. -->
+    <string name="liveview_packs_line">%1$s：%2$s</string>
+    <string name="liveview_packs_stopped_drawing">%2$sでの描画を停止：%1$s</string>
+    <string name="liveview_packs_not_for_fork">このフォーク向けではありません</string>
+    <string name="liveview_packs_starting">起動中</string>
+    <string name="liveview_packs_off_until_next_start">次の起動までオフ</string>
+    <string name="liveview_packs_off_until_reinstalled">もう一度インストールするまでオフ：%1$d 回の実行で停止しました</string>
+    <string name="liveview_packs_off_until_reinstalled_many">もう一度インストールするまでオフ：停止した実行が多すぎます</string>
+    <string name="liveview_packs_turned_off">オフ</string>
+    <string name="liveview_packs_turned_off_why">オフ：%1$s</string>
+    <string name="liveview_packs_running">実行中</string>
+    <string name="liveview_packs_unknown">不明</string>
+    <string name="liveview_packs_state_with_note">%1$s（%2$s）</string>
+    <string name="liveview_packs_hung">%1$d 回の実行で停止</string>
+    <string name="liveview_packs_hung_of">%2$d 回中 %1$d 回の実行で停止</string>
 
     <!-- Live View's controls: the rail, the upright bar and More's menu (CockpitNavigation), and the car's (LiveCarScreenControls). -->
     <string name="liveview_controls_description">Live View の操作</string>
@@ -192,6 +248,9 @@
     <string name="liveview_control_save_description">この場面を保存</string>
     <string name="liveview_control_saved_description">場面を保存しました。タップするともう 1 分保存します</string>
     <string name="liveview_control_save_last_minutes">直前の 3 分</string>
+    <string name="liveview_control_map">地図</string>
+    <string name="liveview_control_map_description">地図、Live View の地図</string>
+    <string name="liveview_control_map_off">車両の位置はオフです</string>
     <string name="liveview_control_onroad_screen">走行画面</string>
     <string name="liveview_control_switch_screen">走行画面を切り替え</string>
 
@@ -235,6 +294,7 @@
     <string name="liveview_recording_unable_to_start">録画を開始できません</string>
     <string name="liveview_recording_live_copy_only">ライブコピーのみ録画しています。リプレイを開始できませんでした：%1$s</string>
     <string name="liveview_recording_report">報告</string>
+    <string name="liveview_car_screen_new_code_done">Browser View の新しいコードです。車のブラウザで新しいアドレスを開いてください。</string>
     <string name="liveview_share_live_stream">ライブ配信をシェア</string>
 
     <!-- Why Browser View's VPN address is off (CarScreenVpn). -->
@@ -256,6 +316,15 @@
     <string name="liveview_alert_spoken">アラート：%1$s</string>
     <string name="liveview_video_note_logging_disabled">「ログを無効化」は comma の動画エンコーダーを停止します。Live View を使うには、フォークの設定で「ログを無効化」をオフにしてください。</string>
 
+    <!-- The divider between the video and the trip's map (LiveMapWell): %1$d is the map's size, %2$d the room it shares, in dp. -->
+    <string name="liveview_map_divider_height">地図の高さ、%2$d dp 中 %1$d dp</string>
+    <string name="liveview_map_divider_width">地図の幅、%2$d dp 中 %1$d dp</string>
+    <string name="liveview_map_divider_taller">高く</string>
+    <string name="liveview_map_divider_wider">広く</string>
+    <string name="liveview_map_divider_shorter">低く</string>
+    <string name="liveview_map_divider_narrower">狭く</string>
+    <string name="liveview_map_divider_default_height">既定の高さ</string>
+    <string name="liveview_map_divider_default_width">既定の幅</string>
 
 
 
@@ -268,6 +337,7 @@
 
     <!-- A summary tile, as TalkBack reads it: %1$s its label, %2$s its value. -->
     <string name="liveview_summary_tile_said">%1$s、%2$s</string>
+    <string name="liveview_packs_line_not_on_design">%1$s：%2$s、このデザインには描画されません</string>
     <string name="liveview_vpn_android_setup_failed">Android が CommaView の VPN を設定できませんでした</string>
     <string name="liveview_vpn_details_clip">CommaView VPN アドレスの失敗</string>
     <string name="liveview_details_copied">詳細をコピーしました</string>

@@ -22,6 +22,7 @@
     <string name="settings_page_about">Про застосунок</string>
     <string name="settings_page_licenses">Ліцензії відкритого коду</string>
     <string name="settings_page_license">Ліцензія</string>
+    <string name="settings_page_overlay_packs">Пакети накладок</string>
     <string name="settings_page_device">Налаштування пристрою</string>
     <string name="settings_page_device_facts">Назва й адреса</string>
     <string name="settings_page_device_network">Мережа</string>
@@ -29,6 +30,7 @@
     <string name="settings_page_device_runtime">Середовище виконання</string>
 
     <string name="settings_hub_display_subtitle">Екран водіння і його параметри, місце водія та денний режим</string>
+    <string name="settings_hub_maps_navigation_subtitle">Карта в Live View, голосові підказки, ваші місця й офлайн-карти</string>
     <string name="settings_hub_maps_navigation_key_subtitle">Офлайн-карти й навігація з власним ключем Stadia Maps</string>
     <string name="settings_hub_offline_maps_subtitle">Завантаження регіонів і обмеження швидкості за місцем вашого comma</string>
     <string name="settings_hub_live_streaming_subtitle">Трансляція з Live View на YouTube чи інший сервер</string>

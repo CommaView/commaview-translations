@@ -19,12 +19,13 @@
     <string name="display_commaview_full_camera">完整鏡頭</string>
     <string name="display_commaview_full_camera_detail">顯示完整的鏡頭影像，必要時加上黑邊。</string>
     <string name="display_commaview_fill_detail">裁切鏡頭影像以填滿橫向螢幕。直向時保持完整鏡頭畫面。</string>
+    <string name="display_pack_framing_detail">選擇套件的畫面如何使用橫向螢幕。</string>
+    <string name="display_design_pack_note">%1$s，疊加套件自己的畫面：畫在道路鏡頭上，CommaView 的警示顯示在最上層。</string>
     <string name="display_design_comma3x_note">comma 3X 的畫面：狀態外框、最大速度方框、大字車速，以及底部的警示。</string>
     <string name="display_design_comma4_note">comma four 的畫面：最大速度變動時顯示在道路上方，方向盤與信心指標在旁邊。</string>
     <string name="display_comma4_framing">預覽取景</string>
     <string name="display_comma4_framing_detail">精確符合 comma four 的畫面、顯示更多鏡頭畫面，或裁切以填滿這個螢幕。</string>
 
-    <!-- Display › Daylight contrast (DaylightSection). -->
     <string name="display_daylight_title">日光對比</string>
     <string name="display_daylight_subtitle">讓文字與線條更亮，適合陽光與強光下</string>
     <string name="display_daylight_no_sensor">%1$s%2$s沒有光線感應器，所以沒有「自動」。</string>

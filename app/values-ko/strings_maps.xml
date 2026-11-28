@@ -6,7 +6,14 @@
     <string name="maps_title">지도 및 내비게이션</string>
     <string name="maps_subtitle">%1$s의 내비게이션과 지도</string>
     <string name="maps_back_to_settings">설정으로 돌아가기</string>
-    <string name="maps_credits">지도 데이터 © OpenStreetMap 기여자, OpenFreeMap의 © OpenMapTiles 타일, MapLibre로 그림. 검색은 Photon을 사용합니다. %1$s 내 Stadia Maps 키를 사용하면 내 Stadia 계정과 그 약관에 따라 처리됩니다. 중국 본토에서는 내비게이션을 사용할 수 없습니다.</string>
+    <string name="maps_place_home">집</string>
+    <string name="maps_place_work">직장</string>
+    <string name="maps_layout_automatic">자동</string>
+    <string name="maps_layout_automatic_detail">공간이 있으면 영상 옆에, 없으면 모서리에</string>
+    <string name="maps_layout_beside">영상 옆</string>
+    <string name="maps_layout_beside_detail">항상: 공간이 없으면 영상이 비켜 줍니다</string>
+    <string name="maps_layout_corner">모서리</string>
+    <string name="maps_layout_corner_detail">영상 오른쪽 위에 겹쳐 표시</string>
     <string name="maps_your_maps_none">다운로드한 지도 없음. 지도가 있으면 제한 속도를 알 수 있습니다.</string>
     <string name="maps_your_maps">%1$s, 제한 속도용</string>
     <string name="maps_your_maps_sized">%1$s · %2$s, 제한 속도용</string>
@@ -15,14 +22,53 @@
     <plurals name="maps_more">
         <item quantity="other">외 %d개</item>
     </plurals>
+    <string name="maps_recent_places_none">아직 없습니다. %1$s에 보관됩니다.</string>
+    <plurals name="maps_recent_places_count">
+        <item quantity="other">장소 %1$d곳, %2$s에 보관됨</item>
+    </plurals>
+    <string name="maps_place_not_set">설정 안 됨. 눌러서 검색하세요.</string>
     <string name="maps_offline_maps">오프라인 지도</string>
     <string name="maps_your_maps_title">내 지도</string>
     <string name="maps_open_your_maps">내 지도 열기</string>
+    <string name="maps_live_view_map">Live View 지도</string>
+    <string name="maps_layout">배치</string>
+    <string name="maps_layout_subtitle">Live View에서 지도를 표시할 위치</string>
+    <string name="maps_layout_note">comma 3X, comma four, StarPilot, Surround 화면은 항상 영상 옆에 지도를 표시합니다.</string>
+    <string name="maps_width">영상 옆 너비</string>
+    <string name="maps_width_subtitle">Live View에서 구분선을 끌어 설정</string>
+    <string name="maps_reset">재설정</string>
+    <string name="maps_width_reset_label">지도 너비 재설정</string>
+    <string name="maps_guidance">안내</string>
+    <string name="maps_spoken_guidance">음성 안내</string>
+    <string name="maps_spoken_guidance_subtitle">회전 안내와 도착 알림. 회전 카드의 스피커 버튼으로도 끌 수 있습니다.</string>
+    <string name="maps_your_places">내 장소</string>
+    <string name="maps_choose_home">집 선택</string>
+    <string name="maps_choose_work">직장 선택</string>
+    <string name="maps_change_or_remove_home">집 변경 또는 삭제</string>
+    <string name="maps_change_or_remove_work">직장 변경 또는 삭제</string>
+    <string name="maps_change">변경</string>
+    <string name="maps_remove">삭제</string>
+    <string name="maps_add">추가</string>
+    <string name="maps_recent_places">최근 장소</string>
+    <string name="maps_clear">지우기</string>
+    <string name="maps_clear_recent_label">최근 장소 지우기</string>
+    <string name="maps_clear_recent_title">최근 장소를 지우시겠습니까?</string>
+    <string name="maps_clear_recent_message">%1$s에서 주행했던 장소가 삭제됩니다. 집과 직장은 유지됩니다.</string>
     <string name="maps_cancel">취소</string>
+    <string name="maps_theme">지도 테마</string>
+    <string name="maps_theme_choose">지도 테마 선택</string>
+    <string name="maps_theme_app_line">CommaView의 테마를 따름</string>
+    <string name="maps_theme_auto_line">comma 위치 기준 일출부터 일몰까지 밝게</string>
+    <string name="maps_theme_system_line">%1$s의 다크 테마를 따름</string>
+    <string name="maps_theme_light_line">항상 밝게</string>
+    <string name="maps_theme_dark_line">항상 어둡게</string>
+    <string name="maps_theme_dialog_note">CommaView의 모든 지도에 적용됩니다. 자동은 차량 위치가 켜져 있으면 comma의 위치를, 아니면 %1$s의 시간대를 사용합니다.</string>
+    <string name="maps_theme_daylight_note">디스플레이의 주간 대비는 별도 설정으로, 앱의 글자와 선을 밝게 합니다.</string>
     <string name="maps_own_key">내 Stadia Maps 키</string>
-    <string name="maps_own_key_intro_flagged">선택 사항. 내 키를 사용하면 CommaView의 키 대신 내 Stadia 계정과 그 약관에 따라 Stadia Maps로 경로를 요청합니다. Stadia가 내 키를 거부하면 내비게이션에 표시되며, CommaView의 키로 대신하지 않습니다.</string>
-    <string name="maps_own_key_intro_kept">내비게이션이 내 키를 사용합니다. 경로는 %1$s에서 내 Stadia 계정과 그 약관에 따라 Stadia Maps로 요청됩니다. 키를 지우면 %1$s에서 내비게이션이 꺼집니다.</string>
-    <string name="maps_own_key_intro_add">내비게이션(어디로 갈까요?, 경로, 턴바이턴 안내)을 사용하려면 내 Stadia Maps 키를 추가하세요. 경로는 %1$s에서 내 키로 Stadia Maps에 요청되며, 내 Stadia 계정과 그 약관을 따릅니다. 검색은 Photon을 사용합니다.</string>
+    <string name="maps_own_key_intro_routes">내비게이션 경로는 내 키를 사용합니다: %1$s에서 내 Stadia 계정과 그 약관에 따라 Stadia Maps로 요청됩니다. 지우면 키를 다시 추가할 때까지 %1$s에서 경로를 받을 수 없습니다.</string>
+    <string name="maps_own_key_intro_needed">경로에는 내 Stadia Maps 키가 필요합니다: %1$s에서 이 키로 내 Stadia 계정과 그 약관에 따라 Stadia Maps로 요청됩니다. 어디로?, 검색, 장소는 키 없이도 쓸 수 있으며, 검색은 Photon을 사용합니다.</string>
+    <string name="maps_own_key_clear_message">%1$s에서 삭제되며, 키를 다시 추가할 때까지 경로를 받을 수 없습니다.</string>
+    <string name="maps_credits_own_key">지도 데이터 © OpenStreetMap 기여자, OpenFreeMap의 © OpenMapTiles 타일, MapLibre로 렌더링. 검색은 Photon으로 갑니다. 경로는 내 키로 %1$s에서 Stadia Maps(선택한 경우 Mapbox)로, 그곳의 내 계정과 약관에 따라 요청됩니다. 중국 본토에서는 내비게이션이 꺼집니다.</string>
     <string name="maps_own_key_not_added">추가 안 됨</string>
     <string name="maps_own_key_kept">%1$s에 보관됨</string>
     <string name="maps_own_key_over_limit">Stadia Maps 한도 초과(429)</string>
@@ -46,8 +92,6 @@
     <string name="maps_own_key_open_dashboard">내 Stadia Maps 대시보드 열기</string>
     <string name="maps_own_key_open_sign_up">Stadia Maps 가입 페이지 열기</string>
     <string name="maps_own_key_clear_title">내 Stadia Maps 키를 지우시겠습니까?</string>
-    <string name="maps_own_key_clear_flagged">%1$s에서 삭제됩니다. 경로 요청은 다시 CommaView의 키를 사용합니다.</string>
-    <string name="maps_own_key_clear_off">%1$s에서 삭제되며, 키를 다시 추가할 때까지 %1$s에서 내비게이션이 꺼집니다. 진행 중인 안내는 종료됩니다.</string>
 
     <!-- Offline maps (OfflineMapsPage, OfflineMapLibrary, AddOfflineMapPicker, map/speedlimit). -->
     <plurals name="maps_hub_value">
@@ -176,4 +220,7 @@
     <string name="maps_problem_failed_group">지도 그룹 %1$d/%2$d: %3$s. 다시 시작하면 재시도합니다.</string>
     <string name="maps_problem_failed_unknown">다운로드 또는 확인에 실패했습니다. 다시 시작하면 재시도합니다.</string>
     <string name="maps_problem_failed_group_unknown">지도 그룹 %1$d/%2$d: 다운로드 또는 확인에 실패했습니다. 다시 시작하면 재시도합니다.</string>
+
+    <string name="maps_spoken_guidance_in_english">경로 서비스가 이 언어의 길 안내를 제공하지 않아 회전 안내는 영어로 제공됩니다.</string>
+    <string name="maps_spoken_guidance_no_voice">%1$s에는 %2$s 텍스트 음성 변환 음성이 없어 안내를 영어 음성으로 읽습니다. Android의 텍스트 음성 변환 설정에서 추가하세요.</string>
 </resources>

@@ -19,12 +19,13 @@
     <string name="display_commaview_full_camera">กล้องเต็มภาพ</string>
     <string name="display_commaview_full_camera_detail">แสดงภาพกล้องทั้งหมด มีแถบดำเมื่อจำเป็น</string>
     <string name="display_commaview_fill_detail">เติมเต็มจอแนวนอนโดยครอปภาพกล้อง แนวตั้งจะแสดงภาพกล้องทั้งหมด</string>
+    <string name="display_pack_framing_detail">เลือกวิธีที่หน้าจอของแพ็กใช้จอแนวนอน</string>
+    <string name="display_design_pack_note">%1$s หน้าจอของแพ็กโอเวอร์เลย์เอง วาดบนกล้องหน้า โดยมีการแจ้งเตือนของ CommaView อยู่ด้านบน</string>
     <string name="display_design_comma3x_note">หน้าจอ comma 3X: กรอบสถานะ กล่อง MAX ความเร็วตัวใหญ่ และการแจ้งเตือนด้านล่าง</string>
     <string name="display_design_comma4_note">หน้าจอ comma four: MAX อยู่เหนือถนนเมื่อเปลี่ยนค่า พร้อมพวงมาลัยและค่าความมั่นใจด้านข้าง</string>
     <string name="display_comma4_framing">การจัดเฟรมตัวอย่าง</string>
     <string name="display_comma4_framing_detail">ใช้เฟรมตรงกับ comma four แสดงภาพกล้องมากขึ้น หรือครอปให้เต็มหน้าจอนี้</string>
 
-    <!-- Display › Daylight contrast (DaylightSection). -->
     <string name="display_daylight_title">คอนทราสต์กลางวัน</string>
     <string name="display_daylight_subtitle">ข้อความและเส้นสว่างขึ้นเมื่อแดดจ้าหรือแสงสะท้อน</string>
     <string name="display_daylight_no_sensor">%1$s %2$sไม่มีเซนเซอร์แสง จึงไม่มีโหมดอัตโนมัติ</string>

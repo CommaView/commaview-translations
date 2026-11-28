@@ -40,6 +40,7 @@
     <string name="about_license_fork_translations">Licence MIT et celles des forks. Leurs mots de conduite dans la langue du comma.</string>
     <string name="about_license_noto_sans">Adobe et les auteurs du projet Noto · SIL Open Font License 1.1. La police de conduite d\'openpilot en chinois, japonais, coréen et thaï.</string>
     <string name="about_license_unifont">Roman Czyborra, Paul Hardy et al. · SIL Open Font License 1.1. La police de conduite des forks en chinois, japonais, coréen et thaï.</string>
+    <string name="about_license_opfont">© IBM Corp., Google LLC; œuvre dérivée de Rick Lan · SIL Open Font License 1.1. La police de conduite de dragonpilot en chinois, japonais, coréen et thaï.</string>
     <string name="about_license_kaigen_gothic">Ming-Hsien Lin et Adobe · SIL Open Font License 1.1. La police de conduite de carrotpilot.</string>
     <string name="about_license_efficientdet_lite">Les auteurs de TensorFlow · Licence Apache 2.0. Le modèle de détection général de Surround.</string>
     <string name="about_license_qnn">Qualcomm Technologies, Inc. · mentions pour le runtime DSP du détecteur.</string>

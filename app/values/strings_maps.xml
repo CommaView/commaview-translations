@@ -5,7 +5,14 @@
     <string name="maps_title">Maps &amp; navigation</string>
     <string name="maps_subtitle">Navigation and maps on %1$s</string>
     <string name="maps_back_to_settings">Back to Settings</string>
-    <string name="maps_credits">Map data © OpenStreetMap contributors, in © OpenMapTiles’ tiles from OpenFreeMap, drawn by MapLibre. Searches go to Photon. %1$s With your own Stadia Maps key, they go under your Stadia account and its terms. Navigation is off in mainland China.</string>
+    <string name="maps_place_home">Home</string>
+    <string name="maps_place_work">Work</string>
+    <string name="maps_layout_automatic">Automatic</string>
+    <string name="maps_layout_automatic_detail">Beside the video where there’s room, else in the corner</string>
+    <string name="maps_layout_beside">Beside the video</string>
+    <string name="maps_layout_beside_detail">Always: the video gives way where there’s no room</string>
+    <string name="maps_layout_corner">In the corner</string>
+    <string name="maps_layout_corner_detail">Blended into the video’s top right</string>
     <string name="maps_your_maps_none">None downloaded. Maps give speed limits.</string>
     <string name="maps_your_maps">%1$s, for speed limits</string>
     <string name="maps_your_maps_sized">%1$s · %2$s, for speed limits</string>
@@ -15,14 +22,58 @@
         <item quantity="one">%d more</item>
         <item quantity="other">%d more</item>
     </plurals>
+    <string name="maps_recent_places_none">None yet. They’re kept on %1$s.</string>
+    <plurals name="maps_recent_places_count">
+        <item quantity="one">%1$d place, kept on %2$s</item>
+        <item quantity="other">%1$d places, kept on %2$s</item>
+    </plurals>
+    <string name="maps_place_not_set">Not set. Tap to search for it.</string>
     <string name="maps_offline_maps">Offline maps</string>
     <string name="maps_your_maps_title">Your maps</string>
     <string name="maps_open_your_maps">Open your maps</string>
+    <string name="maps_live_view_map">Live View map</string>
+    <string name="maps_layout">Layout</string>
+    <string name="maps_layout_subtitle">Where Live View shows the map</string>
+    <string name="maps_layout_note">The comma 3X, comma four, StarPilot and Surround screens always show the map beside the video.</string>
+    <string name="maps_width">Width beside the video</string>
+    <string name="maps_width_subtitle">Set by dragging the divider in Live View</string>
+    <string name="maps_reset">Reset</string>
+    <string name="maps_width_reset_label">Reset the map\'s width</string>
+    <string name="maps_guidance">Guidance</string>
+    <string name="maps_spoken_guidance">Spoken guidance</string>
+    <string name="maps_spoken_guidance_subtitle">Turn prompts and the arrival. The turn card’s speaker button turns it off too.</string>
+    <!-- Shown under Spoken guidance in Thai and Traditional Chinese, which neither route service describes routes in. -->
+    <string name="maps_spoken_guidance_in_english">The route services don’t give directions in this language, so turn-by-turn guidance is in English.</string>
+    <!-- %1$s: "This phone" / "This device". %2$s: the language's name in itself ("Deutsch"). -->
+    <string name="maps_spoken_guidance_no_voice">%1$s has no text-to-speech voice for %2$s, so guidance is spoken with an English voice. Add one in Android’s text-to-speech settings.</string>
+    <string name="maps_your_places">Your places</string>
+    <string name="maps_choose_home">Choose Home</string>
+    <string name="maps_choose_work">Choose Work</string>
+    <string name="maps_change_or_remove_home">Change or remove Home</string>
+    <string name="maps_change_or_remove_work">Change or remove Work</string>
+    <string name="maps_change">Change</string>
+    <string name="maps_remove">Remove</string>
+    <string name="maps_add">Add</string>
+    <string name="maps_recent_places">Recent places</string>
+    <string name="maps_clear">Clear</string>
+    <string name="maps_clear_recent_label">Clear recent places</string>
+    <string name="maps_clear_recent_title">Clear recent places?</string>
+    <string name="maps_clear_recent_message">The places you’ve driven to are taken off %1$s. Home and Work stay.</string>
     <string name="maps_cancel">Cancel</string>
+    <string name="maps_theme">Map theme</string>
+    <string name="maps_theme_choose">Choose the map theme</string>
+    <string name="maps_theme_app_line">Follows CommaView\'s theme</string>
+    <string name="maps_theme_auto_line">Light from sunrise to sunset where your comma is</string>
+    <string name="maps_theme_system_line">Follows %1$s\'s dark theme</string>
+    <string name="maps_theme_light_line">Always light</string>
+    <string name="maps_theme_dark_line">Always dark</string>
+    <string name="maps_theme_dialog_note">For every map in CommaView. Auto uses your comma\'s position while Vehicle location is on, else %1$s\'s time zone.</string>
+    <string name="maps_theme_daylight_note">Display\'s Daylight contrast is separate: it brightens the app\'s text and lines.</string>
     <string name="maps_own_key">Your Stadia Maps key</string>
-    <string name="maps_own_key_intro_flagged">Optional. With your own key, routes go to Stadia Maps under your Stadia account and its terms, in place of CommaView’s key. If Stadia refuses yours, Navigation says so; CommaView’s doesn’t stand in.</string>
-    <string name="maps_own_key_intro_kept">Navigation uses your key: routes go from %1$s to Stadia Maps under your Stadia account and its terms. Clearing it turns Navigation off on %1$s.</string>
-    <string name="maps_own_key_intro_add">Add your own Stadia Maps key to use Navigation: Where to?, routes and turn-by-turn guidance. Routes go from %1$s to Stadia Maps with your key, under your Stadia account and its terms. Search uses Photon.</string>
+    <string name="maps_own_key_intro_routes">Navigation’s routes use your key: they go from %1$s to Stadia Maps under your Stadia account and its terms. Clearing it stops routes on %1$s until you add a key again.</string>
+    <string name="maps_own_key_intro_needed">Routes need your own Stadia Maps key: they go from %1$s to Stadia Maps with it, under your Stadia account and its terms. Where to?, search and places work without one; search uses Photon.</string>
+    <string name="maps_own_key_clear_message">It’s taken off %1$s, and routes stop until you add a key again.</string>
+    <string name="maps_credits_own_key">Map data © OpenStreetMap contributors, in © OpenMapTiles’ tiles from OpenFreeMap, drawn by MapLibre. Searches go to Photon. Routes go from %1$s to Stadia Maps, or Mapbox if you chose it, with your own key, under your account there and its terms. Navigation is off in mainland China.</string>
     <string name="maps_own_key_not_added">Not added</string>
     <string name="maps_own_key_kept">Kept on %1$s</string>
     <string name="maps_own_key_over_limit">Over its limit at Stadia Maps (429)</string>
@@ -46,8 +97,6 @@
     <string name="maps_own_key_open_dashboard">Open your Stadia Maps dashboard</string>
     <string name="maps_own_key_open_sign_up">Open Stadia Maps\' sign-up</string>
     <string name="maps_own_key_clear_title">Clear your Stadia Maps key?</string>
-    <string name="maps_own_key_clear_flagged">It’s taken off %1$s. Routes go back to CommaView’s key.</string>
-    <string name="maps_own_key_clear_off">It’s taken off %1$s, and Navigation goes off here until you add a key again. A trip being guided ends.</string>
 
     <!-- Offline maps (OfflineMapsPage, OfflineMapLibrary, AddOfflineMapPicker, map/speedlimit). -->
     <plurals name="maps_hub_value">
@@ -179,4 +228,5 @@
     <string name="maps_problem_failed_group">Map group %1$d of %2$d: %3$s. Resume to retry.</string>
     <string name="maps_problem_failed_unknown">Download or verification failed. Resume to retry.</string>
     <string name="maps_problem_failed_group_unknown">Map group %1$d of %2$d: Download or verification failed. Resume to retry.</string>
+
 </resources>

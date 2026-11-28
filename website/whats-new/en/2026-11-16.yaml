@@ -1,0 +1,44 @@
+date: 2026-11-16
+app: 0.0.166
+runtimeVersion: 0.0.62
+title: A key for each phone, CommaView in 11 more languages, and Browser View
+out:
+  - title: CommaView in your language
+    text: "Settings › Language: Deutsch, Español, Français, 日本語, 한국어, Português (Brasil), ไทย, Türkçe, Українська, 简体中文 and 繁體中文 beside English. They’re machine translated and not yet reviewed by native speakers, so tell us what reads wrong. Your comma’s own screens stay in its language."
+  - title: Browser View
+    text: "Live View in your car’s web browser, a Tesla’s too: start it in Live View’s Details and type the short link in the car’s browser. The picture goes from your phone to the car over its hotspot, never over the internet."
+  - title: Save this moment
+    text: Live View’s Save keeps the last 3 minutes and the next minute of a drive as an MP4 on your phone, copied once you park.
+  - title: Export whole drive… and Pull drives automatically
+    text: Copy a whole drive as one MP4, or have new drives copied home about every half hour on the Wi‑Fi you choose, up to the room you give them.
+  - title: The overlay packs store
+    text: Packs add what your fork draws on its own screen to Live View. Members browse Official and Community packs, and For your comma; anyone can add one from a file or a link.
+  - title: Navigation with your own Stadia Maps key
+    text: "For members: Where to?, routes and turn-by-turn guidance with your own Stadia Maps account, the key sealed on your phone."
+  - title: Open CommaView by itself
+    text: When a head unit starts, when Bluetooth connects, and straight into Live View when your comma connects. Each is off until you turn it on in Settings › Display.
+  - title: Share with my fork’s developer…
+    text: A clip, a summary and CommaView’s log for that stretch, shared through Android’s share sheet to wherever your fork takes reports. Nothing goes to CommaView.
+  - title: Live View says what’s happening
+    text: It waits for a reboot the comma needs, says when the car’s data stops or the picture is delayed, says why it’s reconnecting, and plays on more head units by trying another video decoder.
+  - title: Updating CommaView
+    text: "For members, from 0.0.166 on: the update shows its version, can be cancelled, and carries on downloading in the background."
+  - title: Fixes
+    text: Nothing is cut off at large text in short windows, Go live stays silent with Sound off, and a replay of a drive the comma lost power during uses everything up to the cut.
+earlyAccessNote: Go live to X, Twitch, Kick and Facebook, Video only, Fork settings, making overlay packs and Surround are for a limited group of testers behind feature flags while we gather feedback. To help test them, reach out to us on Discord.
+earlyAccess:
+  - title: Go live to more platforms
+    text: X, Twitch, Kick and Facebook, each behind its own flag until it has been streamed to with a real account.
+  - title: Video only
+    text: "For FrogPilot and KisaPilot, whose screen CommaView can’t add its view to: the cameras and driving data in CommaView’s own view, nothing in the fork changed."
+  - title: Fork settings
+    text: Your driving software’s own settings in your comma’s device settings, changed while parked, with backups on your phone.
+runtime:
+  - title: A key for each phone
+    text: Each phone gets a key of its own for your comma, by itself, and nobody pairs again. Phones on older apps keep working for 90 days after the first phone gets its key; after that they need 0.0.166 and an invitation.
+  - title: BluePilot, dragonpilot and OPGM
+    text: Listed forks now, named and drawn in their base’s look.
+  - title: Verified installs, never backwards
+    text: The app checks each runtime’s signature before installing it, and a comma refuses an older runtime.
+  - title: carrotpilot and StarPilot 7.0
+    text: More of carrotpilot’s screen, in its own font for Korean, Japanese, Chinese and Thai, and StarPilot 7.0’s development branch, best effort.

@@ -41,6 +41,7 @@
     <string name="about_license_fork_translations">MIT Lisansı ve fork\'ların kendi lisansları. Sürüş ekranı metinleri comma\'nın dilinde.</string>
     <string name="about_license_noto_sans">Adobe ve Noto Project Authors · SIL Open Font License 1.1. openpilot\'un Çince, Japonca, Korece ve Tayca sürüş ekranı yazı tipi.</string>
     <string name="about_license_unifont">Roman Czyborra, Paul Hardy ve diğerleri · SIL Open Font License 1.1. Fork\'ların Çince, Japonca, Korece ve Tayca sürüş ekranı yazı tipi.</string>
+    <string name="about_license_opfont">© IBM Corp., Google LLC; Rick Lan\'ın türev çalışması · SIL Open Font License 1.1. dragonpilot\'un Çince, Japonca, Korece ve Tayca sürüş ekranı yazı tipi.</string>
     <string name="about_license_kaigen_gothic">Ming-Hsien Lin ve Adobe · SIL Open Font License 1.1. carrotpilot\'un sürüş ekranı yazı tipi.</string>
     <string name="about_license_efficientdet_lite">The TensorFlow authors · Apache License 2.0. Surround\'un genel algılama modeli.</string>
     <string name="about_license_qnn">Qualcomm Technologies, Inc. · algılayıcının DSP çalışma ortamı için bildirimler.</string>

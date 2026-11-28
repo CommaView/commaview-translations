@@ -1,0 +1,13 @@
+title: "xnor와 AdventurePilot이 openpilot, sunnypilot, StarPilot에 합류"
+out:
+  - title: "xnor-tech의 openpilot"
+    text: "CommaView가 xnor와 rx 빌드에 설치되며 xnor라는 이름으로 표시합니다. xnor는 openpilot 화면을, rx는 sunnypilot 화면을 쓰며, Live View는 comma가 실행하는 쪽을 그립니다. rx를 실행하는 Rivian에서는 차가 각도로 조향하면 핸들이 초록색, 토크로 조향하면 파란색이 됩니다."
+  - title: "AdventurePilot"
+    text: "CommaView가 AdventurePilot에 설치되며, sunnypilot 화면에 AdventurePilot이 더한 요소를 그립니다. 차선 중앙 유지 표시, comma 3X 화면의 CURVE 칩, 조향 모드에 따른 핸들 색상입니다."
+  - title: "comma 3X 화면에 포크 이름"
+    text: "시작 경고가 늘 sunnypilot이라고 표시하던 것과 달리, comma처럼 포크 이름을 표시합니다."
+runtime:
+  - title: "포크 두 개 추가"
+    text: "예전에는 설정이 “unsupported upstream remote”에서 멈추던 xnor-tech의 openpilot과 AdventurePilot을 런타임이 인식합니다."
+  - title: "모든 GPS 측위"
+    text: "앱이 가장 최근 측위를 1초에 한 번 받는 대신, openpilot이 내보낼 때마다 각 측위를 초당 최대 10번, 얼마나 오래된 것인지와 함께 받습니다."

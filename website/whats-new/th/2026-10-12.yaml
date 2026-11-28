@@ -1,0 +1,13 @@
+title: "xnor และ AdventurePilot มาร่วมกับ openpilot, sunnypilot และ StarPilot"
+out:
+  - title: "openpilot ของ xnor-tech"
+    text: "CommaView ติดตั้งบนรุ่น xnor และ rx และเรียกมันว่า xnor xnor ใช้หน้าจอของ openpilot และ rx ใช้หน้าจอของ sunnypilot และ Live View วาดตัวที่ comma ของคุณใช้ บน Rivian ที่ใช้ rx พวงมาลัยเป็นสีเขียวเมื่อรถบังคับเลี้ยวด้วยมุม และสีน้ำเงินเมื่อบังคับด้วยแรงบิด"
+  - title: "AdventurePilot"
+    text: "CommaView ติดตั้งบนมันและวาดหน้าจอของ sunnypilot พร้อมสิ่งที่ AdventurePilot เพิ่ม: ตัวบอกการรักษากึ่งกลางเลน ชิป CURVE บนหน้าจอ comma 3X และสีพวงมาลัยตามโหมดบังคับเลี้ยว"
+  - title: "ชื่อฟอร์กของคุณบนหน้าจอ comma 3X"
+    text: "คำเตือนตอนเริ่มระบุชื่อฟอร์กของคุณแบบเดียวกับที่ comma ทำ จากที่เคยแสดง sunnypilot เสมอ"
+runtime:
+  - title: "ฟอร์กเพิ่มอีกสองตัว"
+    text: "รันไทม์รู้จัก openpilot ของ xnor-tech และ AdventurePilot ซึ่งการตั้งค่าเคยหยุดพร้อมข้อความ “unsupported upstream remote”"
+  - title: "ทุกตำแหน่ง GPS"
+    text: "แอปได้รับตำแหน่ง GPS ทุกครั้งที่ openpilot เผยแพร่ สูงสุด 10 ครั้งต่อวินาที พร้อมอายุของข้อมูล แทนที่จะได้ตำแหน่งล่าสุดวินาทีละครั้ง"

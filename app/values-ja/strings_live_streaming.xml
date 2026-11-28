@@ -246,6 +246,7 @@
     <!-- Why a stream, a live copy or Browser View didn't start or stopped (LiveStreamController, LiveStreamSender). -->
     <string name="live_streaming_open_live_view_to_go_live">配信するには Live View を開いてください</string>
     <string name="live_streaming_open_live_view_to_record">録画するには Live View を開いてください</string>
+    <string name="live_streaming_open_live_view_for_car_screen">車の画面に表示するには Live View を開いてください</string>
     <string name="live_streaming_storage_unavailable">録画用のストレージを利用できません</string>
     <string name="live_streaming_no_video">ライブ配信が停止しました：comma から 1 分間映像が届きませんでした</string>
     <string name="live_streaming_copy_no_video">ライブコピーが停止しました：comma から 1 分間映像が届きませんでした。録画した分は「録画」に保存されています。</string>
@@ -253,13 +254,23 @@
     <string name="live_streaming_encoder_failed">動画エンコーダーでエラーが発生しました：%1$s</string>
     <string name="live_streaming_copy_encoder_stopped">ライブコピーが停止しました：動画エンコーダーが停止しました：%1$s</string>
     <string name="live_streaming_copy_encoder_failed">ライブコピーが停止しました：動画エンコーダーでエラーが発生しました：%1$s</string>
+    <string name="live_streaming_car_screen_encoder_stopped">Browser View が停止しました：動画エンコーダーが停止しました：%1$s</string>
+    <string name="live_streaming_car_screen_encoder_failed">Browser View が停止しました：動画エンコーダーでエラーが発生しました：%1$s</string>
+    <string name="live_streaming_car_screen_no_port">Browser View を開始できませんでした：%1$sに空いているポートがありません。Wi-Fi で共有する他のアプリを閉じてから、もう一度お試しください。</string>
+    <string name="live_streaming_car_screen_couldnt_start">%1$sで Browser View を開始できませんでした。Wi-Fi がオンになっているか確認して、もう一度お試しください。</string>
+    <string name="live_streaming_silent_live_car_screen">音声なし：Browser View が音声なしで動作しています。音声付きで配信するには、配信の前に停止してください</string>
     <string name="live_streaming_silent_live_recording">音声なし：録画が音声なしで動作しています。音声付きで配信するには、配信の前に停止してください</string>
+    <string name="live_streaming_silent_live_car_screen_and_recording">音声なし：Browser View と録画が音声なしで動作しています。音声付きで配信するには、配信の前に停止してください</string>
+    <string name="live_streaming_silent_recording_car_screen">録画に音声なし：Browser View が音声なしで動作しています。音声付きで録画するには、録画の前に停止してください</string>
     <string name="live_streaming_silent_recording_stream">録画に音声なし：配信が音声なしで動作しています。音声付きで録画するには、録画の前に停止してください</string>
+    <string name="live_streaming_silent_recording_car_screen_and_stream">録画に音声なし：Browser View と配信が音声なしで動作しています。音声付きで録画するには、録画の前に停止してください</string>
     <string name="live_streaming_cant_encode_sound">音声なし：%1$sは音声をエンコードできません</string>
     <string name="live_streaming_encoder_busy_stream">%1$sの動画エンコーダーが使用中のため、配信をエンコードできません。動画を録画・配信する他のアプリを閉じてから、もう一度お試しください。</string>
     <string name="live_streaming_encoder_busy_copy">%1$sの動画エンコーダーが使用中のため、ライブコピーをエンコードできません。動画を録画・配信する他のアプリを閉じてから、もう一度お試しください。</string>
+    <string name="live_streaming_encoder_busy_car_screen">%1$sの動画エンコーダーが使用中のため、車の画面用に Live View をエンコードできません。動画を録画・配信する他のアプリを閉じてから、もう一度お試しください。</string>
     <string name="live_streaming_encoder_quality_stream">%1$sはこの画質で配信をエンコードできません。設定で低い画質を選んでから、もう一度お試しください。</string>
     <string name="live_streaming_encoder_quality_copy">%1$sはこの画質でライブコピーをエンコードできません。設定で低い画質を選んでから、もう一度お試しください。</string>
+    <string name="live_streaming_encoder_quality_car_screen">%1$sはこの画質で車の画面用に Live View をエンコードできません。設定で低い画質を選んでから、もう一度お試しください。</string>
     <string name="live_streaming_failed">ライブ配信に失敗しました：%1$s</string>
     <string name="live_streaming_connection_lost_because">接続が切れました：%1$s</string>
     <string name="live_streaming_connection_lost">接続が切れました</string>

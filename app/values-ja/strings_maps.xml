@@ -5,7 +5,14 @@
     <string name="maps_title">地図とナビ</string>
     <string name="maps_subtitle">%1$sのナビと地図</string>
     <string name="maps_back_to_settings">設定に戻る</string>
-    <string name="maps_credits">地図データ © OpenStreetMap contributors。OpenFreeMap が提供する © OpenMapTiles のタイルを使い、MapLibre で描画しています。検索は Photon に送信されます。%1$s 自分の Stadia Maps キーを使う場合は、あなたの Stadia アカウントとその規約のもとで送信されます。中国本土ではナビは無効です。</string>
+    <string name="maps_place_home">自宅</string>
+    <string name="maps_place_work">職場</string>
+    <string name="maps_layout_automatic">自動</string>
+    <string name="maps_layout_automatic_detail">余裕があれば映像の横に、なければ隅に表示</string>
+    <string name="maps_layout_beside">映像の横</string>
+    <string name="maps_layout_beside_detail">常に表示：余裕がない場合は映像が譲ります</string>
+    <string name="maps_layout_corner">隅</string>
+    <string name="maps_layout_corner_detail">映像の右上に重ねて表示</string>
     <string name="maps_your_maps_none">ダウンロードされていません。地図から制限速度を取得できます。</string>
     <string name="maps_your_maps">%1$s（制限速度用）</string>
     <string name="maps_your_maps_sized">%1$s · %2$s（制限速度用）</string>
@@ -14,14 +21,53 @@
     <plurals name="maps_more">
         <item quantity="other">他 %d 件</item>
     </plurals>
+    <string name="maps_recent_places_none">まだありません。%1$sに保存されます。</string>
+    <plurals name="maps_recent_places_count">
+        <item quantity="other">%1$d 件の場所（%2$sに保存）</item>
+    </plurals>
+    <string name="maps_place_not_set">未設定です。タップして検索してください。</string>
     <string name="maps_offline_maps">オフライン地図</string>
     <string name="maps_your_maps_title">あなたの地図</string>
     <string name="maps_open_your_maps">あなたの地図を開く</string>
+    <string name="maps_live_view_map">Live View の地図</string>
+    <string name="maps_layout">レイアウト</string>
+    <string name="maps_layout_subtitle">Live View で地図を表示する位置</string>
+    <string name="maps_layout_note">comma 3X、comma four、StarPilot、Surround の画面では、地図は常に映像の横に表示されます。</string>
+    <string name="maps_width">映像の横の幅</string>
+    <string name="maps_width_subtitle">Live View で区切り線をドラッグして設定</string>
+    <string name="maps_reset">リセット</string>
+    <string name="maps_width_reset_label">地図の幅をリセット</string>
+    <string name="maps_guidance">案内</string>
+    <string name="maps_spoken_guidance">音声案内</string>
+    <string name="maps_spoken_guidance_subtitle">曲がる地点と到着の案内。曲がり角カードのスピーカーボタンでもオフにできます。</string>
+    <string name="maps_your_places">登録した場所</string>
+    <string name="maps_choose_home">自宅を選択</string>
+    <string name="maps_choose_work">職場を選択</string>
+    <string name="maps_change_or_remove_home">自宅を変更または削除</string>
+    <string name="maps_change_or_remove_work">職場を変更または削除</string>
+    <string name="maps_change">変更</string>
+    <string name="maps_remove">削除</string>
+    <string name="maps_add">追加</string>
+    <string name="maps_recent_places">最近の場所</string>
+    <string name="maps_clear">消去</string>
+    <string name="maps_clear_recent_label">最近の場所を消去</string>
+    <string name="maps_clear_recent_title">最近の場所を消去しますか？</string>
+    <string name="maps_clear_recent_message">車で行った場所が%1$sから削除されます。自宅と職場は残ります。</string>
     <string name="maps_cancel">キャンセル</string>
+    <string name="maps_theme">地図のテーマ</string>
+    <string name="maps_theme_choose">地図のテーマを選択</string>
+    <string name="maps_theme_app_line">CommaView のテーマに従う</string>
+    <string name="maps_theme_auto_line">comma のある場所の日の出から日の入りまでライト</string>
+    <string name="maps_theme_system_line">%1$sのダークテーマに従う</string>
+    <string name="maps_theme_light_line">常にライト</string>
+    <string name="maps_theme_dark_line">常にダーク</string>
+    <string name="maps_theme_dialog_note">CommaView のすべての地図に適用されます。自動は、「車両の位置」がオンなら comma の位置を、そうでなければ%1$sのタイムゾーンを使います。</string>
+    <string name="maps_theme_daylight_note">表示の「日中コントラスト」は別の設定で、アプリの文字や線を明るくします。</string>
     <string name="maps_own_key">自分の Stadia Maps キー</string>
-    <string name="maps_own_key_intro_flagged">任意。自分のキーを使うと、ルートは CommaView のキーではなく、あなたの Stadia アカウントとその規約のもとで Stadia Maps に送信されます。Stadia があなたのキーを拒否した場合はナビがそのことを表示し、CommaView のキーが代わりに使われることはありません。</string>
-    <string name="maps_own_key_intro_kept">ナビはあなたのキーを使います。ルートは%1$sから、あなたの Stadia アカウントとその規約のもとで Stadia Maps に送信されます。キーを消去すると、%1$sのナビはオフになります。</string>
-    <string name="maps_own_key_intro_add">ナビ（「どこへ行きますか？」、ルート、ターンバイターンの案内）を使うには、自分の Stadia Maps キーを追加してください。ルートはあなたのキーを使い、あなたの Stadia アカウントとその規約のもとで、%1$sから Stadia Maps に送信されます。検索には Photon を使います。</string>
+    <string name="maps_own_key_intro_routes">ナビのルートはあなたのキーを使います：%1$s から Stadia Maps へ、あなたの Stadia アカウントとその規約のもとで送られます。消去すると、キーを再び追加するまで %1$s でルートは得られません。</string>
+    <string name="maps_own_key_intro_needed">ルートにはご自身の Stadia Maps のキーが必要です：%1$s からそのキーで Stadia Maps へ、あなたの Stadia アカウントとその規約のもとで送られます。行き先、検索、場所はキーなしでも使えます。検索は Photon を使います。</string>
+    <string name="maps_own_key_clear_message">%1$s から削除され、キーを再び追加するまでルートは得られません。</string>
+    <string name="maps_credits_own_key">地図データ © OpenStreetMap contributors、OpenFreeMap の © OpenMapTiles のタイル、MapLibre による描画。検索は Photon へ送られます。ルートはご自身のキーで、%1$s から Stadia Maps（選んだ場合は Mapbox）へ、そのアカウントと規約のもとで送られます。中国本土ではナビはオフです。</string>
     <string name="maps_own_key_not_added">未追加</string>
     <string name="maps_own_key_kept">%1$sに保存済み</string>
     <string name="maps_own_key_over_limit">Stadia Maps の上限を超えています（429）</string>
@@ -45,8 +91,6 @@
     <string name="maps_own_key_open_dashboard">Stadia Maps のダッシュボードを開く</string>
     <string name="maps_own_key_open_sign_up">Stadia Maps の登録ページを開く</string>
     <string name="maps_own_key_clear_title">Stadia Maps キーを消去しますか？</string>
-    <string name="maps_own_key_clear_flagged">%1$sから削除されます。ルートは CommaView のキーに戻ります。</string>
-    <string name="maps_own_key_clear_off">%1$sから削除され、キーをもう一度追加するまでここではナビがオフになります。案内中のルートは終了します。</string>
 
     <!-- Offline maps (OfflineMapsPage, OfflineMapLibrary, AddOfflineMapPicker, map/speedlimit). -->
     <plurals name="maps_hub_value">
@@ -175,4 +219,7 @@
     <string name="maps_problem_failed_group">地図グループ %1$d / %2$d：%3$s。再開して再試行してください。</string>
     <string name="maps_problem_failed_unknown">ダウンロードまたは確認に失敗しました。再開して再試行してください。</string>
     <string name="maps_problem_failed_group_unknown">地図グループ %1$d / %2$d：ダウンロードまたは確認に失敗しました。再開して再試行してください。</string>
+
+    <string name="maps_spoken_guidance_in_english">ルートサービスがこの言語での案内に対応していないため、ターンバイターン案内は英語になります。</string>
+    <string name="maps_spoken_guidance_no_voice">%1$sには%2$sの音声読み上げ音声がないため、案内は英語の音声で読み上げられます。Android の音声読み上げ設定で追加してください。</string>
 </resources>

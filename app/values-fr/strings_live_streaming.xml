@@ -246,6 +246,7 @@
     <!-- Why a stream, a live copy or Browser View didn't start or stopped (LiveStreamController, LiveStreamSender). -->
     <string name="live_streaming_open_live_view_to_go_live">Ouvrez Live View pour passer en direct</string>
     <string name="live_streaming_open_live_view_to_record">Ouvrez Live View pour enregistrer</string>
+    <string name="live_streaming_open_live_view_for_car_screen">Ouvrez Live View pour l\'afficher sur l\'écran de la voiture</string>
     <string name="live_streaming_storage_unavailable">Stockage d\'enregistrement indisponible</string>
     <string name="live_streaming_no_video">Diffusion arrêtée : aucune vidéo du comma depuis une minute</string>
     <string name="live_streaming_copy_no_video">Copie en direct arrêtée : aucune vidéo du comma depuis une minute. Ce qui a été enregistré est dans Enregistrements.</string>
@@ -253,13 +254,23 @@
     <string name="live_streaming_encoder_failed">L\'encodeur vidéo a échoué : %1$s</string>
     <string name="live_streaming_copy_encoder_stopped">Copie en direct arrêtée : l\'encodeur vidéo s\'est arrêté : %1$s</string>
     <string name="live_streaming_copy_encoder_failed">Copie en direct arrêtée : l\'encodeur vidéo a échoué : %1$s</string>
+    <string name="live_streaming_car_screen_encoder_stopped">Browser View arrêté : l\'encodeur vidéo s\'est arrêté : %1$s</string>
+    <string name="live_streaming_car_screen_encoder_failed">Browser View arrêté : l\'encodeur vidéo a échoué : %1$s</string>
+    <string name="live_streaming_car_screen_no_port">Browser View n\'a pas pu démarrer : aucun port libre sur %1$s. Fermez les autres applications qui partagent en Wi-Fi, puis réessayez.</string>
+    <string name="live_streaming_car_screen_couldnt_start">Browser View n\'a pas pu démarrer sur %1$s. Vérifiez que le Wi-Fi est activé, puis réessayez.</string>
+    <string name="live_streaming_silent_live_car_screen">Pas de son : Browser View tourne sans. Arrêtez-le avant de passer en direct pour avoir le son</string>
     <string name="live_streaming_silent_live_recording">Pas de son : l\'enregistrement tourne sans. Arrêtez-le avant de passer en direct pour avoir le son</string>
+    <string name="live_streaming_silent_live_car_screen_and_recording">Pas de son : Browser View et l\'enregistrement tournent sans. Arrêtez-les avant de passer en direct pour avoir le son</string>
+    <string name="live_streaming_silent_recording_car_screen">Pas de son dans l\'enregistrement : Browser View tourne sans. Arrêtez-le avant d\'enregistrer pour avoir le son</string>
     <string name="live_streaming_silent_recording_stream">Pas de son dans l\'enregistrement : la diffusion tourne sans. Arrêtez-la avant d\'enregistrer pour avoir le son</string>
+    <string name="live_streaming_silent_recording_car_screen_and_stream">Pas de son dans l\'enregistrement : Browser View et la diffusion tournent sans. Arrêtez-les avant d\'enregistrer pour avoir le son</string>
     <string name="live_streaming_cant_encode_sound">Pas de son : %1$s ne peut pas encoder le son</string>
     <string name="live_streaming_encoder_busy_stream">%1$s a son encodeur vidéo occupé, il ne peut donc pas encoder la diffusion. Fermez les autres applications qui enregistrent ou diffusent de la vidéo, puis réessayez.</string>
     <string name="live_streaming_encoder_busy_copy">%1$s a son encodeur vidéo occupé, il ne peut donc pas encoder une copie en direct. Fermez les autres applications qui enregistrent ou diffusent de la vidéo, puis réessayez.</string>
+    <string name="live_streaming_encoder_busy_car_screen">%1$s a son encodeur vidéo occupé, il ne peut donc pas encoder Live View pour l\'écran de la voiture. Fermez les autres applications qui enregistrent ou diffusent de la vidéo, puis réessayez.</string>
     <string name="live_streaming_encoder_quality_stream">%1$s ne peut pas encoder la diffusion à cette qualité. Choisissez une qualité inférieure dans Paramètres, puis réessayez.</string>
     <string name="live_streaming_encoder_quality_copy">%1$s ne peut pas encoder une copie en direct à cette qualité. Choisissez une qualité inférieure dans Paramètres, puis réessayez.</string>
+    <string name="live_streaming_encoder_quality_car_screen">%1$s ne peut pas encoder Live View pour l\'écran de la voiture à cette qualité. Choisissez une qualité inférieure dans Paramètres, puis réessayez.</string>
     <string name="live_streaming_failed">La diffusion a échoué : %1$s</string>
     <string name="live_streaming_connection_lost_because">Connexion perdue : %1$s</string>
     <string name="live_streaming_connection_lost">Connexion perdue</string>

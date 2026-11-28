@@ -275,6 +275,7 @@
     <string name="devices_leaderboard">ランキング</string>
     <string name="devices_recent_recordings">最近の録画</string>
     <string name="devices_view_all">すべて表示</string>
+    <string name="devices_overlay_packs">オーバーレイパック</string>
     <string name="devices_open_store">ストアを開く</string>
     <string name="devices_view_all_recordings">すべての録画を表示</string>
     <string name="devices_no_recordings">録画はまだありません。Live View からドライブを録画してください。</string>
@@ -422,8 +423,15 @@
     <string name="devices_dev_runtime_queue_install">インストールを予約</string>
     <!-- Phone keys: joining by an invitation, and a comma that already has a phone with a key. -->
     <string name="devices_pairing_failed_legacy_off">ペアリングに失敗しました：この comma はコードでのペアリングをもう受け付けません。この comma の鍵をすでに持つスマートフォン（その設定の「別のスマートフォンを追加」）から%1$sを追加するか、comma のセットアップをもう一度実行してください。</string>
-    <string name="devices_invitation_needed_named">%1$s には専用の鍵を持つスマートフォンがすでにあり、%2$sは鍵を持っていません。それがあなたのスマートフォンでない場合、他の誰かが先に追加した可能性があります。SSH で comma 上のすべてのスマートフォンを削除し（commaviewd phones revoke-all）、%2$sからもう一度セットアップしてください。そうでなければ、そのスマートフォン（その設定の「別のスマートフォンを追加」）から%2$sを追加してください。</string>
-    <string name="devices_invitation_needed_this">この comma には専用の鍵を持つスマートフォンがすでにあり、%1$sは鍵を持っていません。それがあなたのスマートフォンでない場合、他の誰かが先に追加した可能性があります。SSH で comma 上のすべてのスマートフォンを削除し（commaviewd phones revoke-all）、%1$sからもう一度セットアップしてください。そうでなければ、そのスマートフォン（その設定の「別のスマートフォンを追加」）から%1$sを追加してください。</string>
+    <string name="devices_token_no_longer_taken_named">%1$s は%2$sのペアリングに使われた共有トークンをもう受け付けず、%2$sはこの comma 用の専用の鍵を持っていません。鍵を持つスマートフォン（その設定の「別のスマートフォンを追加」）から%2$sを追加してください。</string>
+    <string name="devices_token_no_longer_taken_this">この comma は%1$sのペアリングに使われた共有トークンをもう受け付けず、%1$sはこの comma 用の専用の鍵を持っていません。鍵を持つスマートフォン（その設定の「別のスマートフォンを追加」）から%1$sを追加してください。</string>
+    <string name="devices_new_phone_key_title">新しいスマートフォンが鍵を取得しました</string>
+    <string name="devices_new_phone_key_message">新しいスマートフォンが %1$s の鍵を取得しました：%2$s、%3$s。あなたのスマートフォンでない場合は削除してください。鍵を持つスマートフォンはすべて、comma の設定の「別のスマートフォンをペアリング」にも表示されます。</string>
+    <string name="devices_new_phone_key_by_token">以前にペアリングしたスマートフォンと同じく、古いアプリが送る共有トークンで鍵を取得しました。ネットワーク上でそのトークンを見た人も、comma がトークンの受け付けを止めるまで（今すぐ停止）同じことができます。</string>
+    <string name="devices_new_phone_key_dismiss">自分のものです</string>
+    <string name="devices_new_phone_key_review">スマートフォンを確認</string>
+    <string name="devices_new_phone_key_removed">%1$s は %2$s の鍵を持たなくなりました。</string>
+    <string name="devices_new_phone_key_comma_gone">%1$s は%2$sに保存されていないため、ここでスマートフォンを表示できません。表示するには、もう一度追加してください。</string>
     <string name="devices_invitation_failed">その招待では参加できませんでした。入力ミス、期限切れ、または使用済みの可能性があります。この comma をすでに持つスマートフォン（その設定の「別のスマートフォンを追加」）で新しい招待を表示してください。</string>
 
     <!-- Why a pair code couldn't be redeemed, when the comma or the network gave no words (RemoteAccessClient.kt). -->
@@ -440,4 +448,8 @@
     <string name="devices_support_name">CommaView サポート</string>
     <string name="devices_email_support">サポートにメール</string>
     <string name="devices_address_copied">アドレスをコピーしました</string>
+    <string name="devices_software_video_only">映像のみ</string>
+    <string name="devices_software_unlisted_fork">一覧にないフォーク</string>
+    <string name="devices_software_best_effort">ベストエフォート</string>
+    <string name="devices_software_video_only_qualifier">映像のみ</string>
 </resources>

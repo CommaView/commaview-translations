@@ -5,7 +5,14 @@
     <string name="maps_title">แผนที่และการนำทาง</string>
     <string name="maps_subtitle">การนำทางและแผนที่บน%1$s</string>
     <string name="maps_back_to_settings">กลับไปที่การตั้งค่า</string>
-    <string name="maps_credits">ข้อมูลแผนที่ © ผู้ร่วมพัฒนา OpenStreetMap ในไทล์ © OpenMapTiles จาก OpenFreeMap วาดโดย MapLibre การค้นหาส่งไปที่ Photon %1$s เมื่อใช้คีย์ Stadia Maps ของคุณเอง จะใช้บัญชี Stadia และข้อกำหนดของคุณ การนำทางปิดในจีนแผ่นดินใหญ่</string>
+    <string name="maps_place_home">บ้าน</string>
+    <string name="maps_place_work">ที่ทำงาน</string>
+    <string name="maps_layout_automatic">อัตโนมัติ</string>
+    <string name="maps_layout_automatic_detail">ข้างวิดีโอเมื่อมีพื้นที่ หากไม่มีจะอยู่ที่มุมจอ</string>
+    <string name="maps_layout_beside">ข้างวิดีโอ</string>
+    <string name="maps_layout_beside_detail">เสมอ: วิดีโอจะหลีกทางเมื่อพื้นที่ไม่พอ</string>
+    <string name="maps_layout_corner">ที่มุมจอ</string>
+    <string name="maps_layout_corner_detail">ผสานเข้ากับมุมขวาบนของวิดีโอ</string>
     <string name="maps_your_maps_none">ยังไม่ได้ดาวน์โหลด แผนที่ให้ข้อมูลความเร็วจำกัด</string>
     <string name="maps_your_maps">%1$s สำหรับความเร็วจำกัด</string>
     <string name="maps_your_maps_sized">%1$s · %2$s สำหรับความเร็วจำกัด</string>
@@ -14,14 +21,53 @@
     <plurals name="maps_more">
         <item quantity="other">อีก %d รายการ</item>
     </plurals>
+    <string name="maps_recent_places_none">ยังไม่มี จะเก็บไว้ใน%1$s</string>
+    <plurals name="maps_recent_places_count">
+        <item quantity="other">%1$d สถานที่ เก็บไว้ใน%2$s</item>
+    </plurals>
+    <string name="maps_place_not_set">ยังไม่ได้ตั้ง แตะเพื่อค้นหา</string>
     <string name="maps_offline_maps">แผนที่ออฟไลน์</string>
     <string name="maps_your_maps_title">แผนที่ของคุณ</string>
     <string name="maps_open_your_maps">เปิดแผนที่ของคุณ</string>
+    <string name="maps_live_view_map">แผนที่ใน Live View</string>
+    <string name="maps_layout">เลย์เอาต์</string>
+    <string name="maps_layout_subtitle">ตำแหน่งที่ Live View แสดงแผนที่</string>
+    <string name="maps_layout_note">หน้าจอ comma 3X, comma four, StarPilot และ Surround แสดงแผนที่ข้างวิดีโอเสมอ</string>
+    <string name="maps_width">ความกว้างข้างวิดีโอ</string>
+    <string name="maps_width_subtitle">ปรับได้โดยลากเส้นแบ่งใน Live View</string>
+    <string name="maps_reset">รีเซ็ต</string>
+    <string name="maps_width_reset_label">รีเซ็ตความกว้างของแผนที่</string>
+    <string name="maps_guidance">คำแนะนำ</string>
+    <string name="maps_spoken_guidance">คำแนะนำด้วยเสียง</string>
+    <string name="maps_spoken_guidance_subtitle">แจ้งการเลี้ยวและการถึงปลายทาง ปุ่มลำโพงบนการ์ดเลี้ยวก็ปิดได้เช่นกัน</string>
+    <string name="maps_your_places">สถานที่ของคุณ</string>
+    <string name="maps_choose_home">เลือกบ้าน</string>
+    <string name="maps_choose_work">เลือกที่ทำงาน</string>
+    <string name="maps_change_or_remove_home">เปลี่ยนหรือลบบ้าน</string>
+    <string name="maps_change_or_remove_work">เปลี่ยนหรือลบที่ทำงาน</string>
+    <string name="maps_change">เปลี่ยน</string>
+    <string name="maps_remove">ลบ</string>
+    <string name="maps_add">เพิ่ม</string>
+    <string name="maps_recent_places">สถานที่ล่าสุด</string>
+    <string name="maps_clear">ล้าง</string>
+    <string name="maps_clear_recent_label">ล้างสถานที่ล่าสุด</string>
+    <string name="maps_clear_recent_title">ล้างสถานที่ล่าสุดหรือไม่?</string>
+    <string name="maps_clear_recent_message">สถานที่ที่คุณขับไปจะถูกลบออกจาก%1$s บ้านและที่ทำงานยังคงอยู่</string>
     <string name="maps_cancel">ยกเลิก</string>
+    <string name="maps_theme">ธีมแผนที่</string>
+    <string name="maps_theme_choose">เลือกธีมแผนที่</string>
+    <string name="maps_theme_app_line">ตามธีมของ CommaView</string>
+    <string name="maps_theme_auto_line">สว่างตั้งแต่พระอาทิตย์ขึ้นถึงตกตามตำแหน่งของ comma</string>
+    <string name="maps_theme_system_line">ตามธีมมืดของ%1$s</string>
+    <string name="maps_theme_light_line">สว่างเสมอ</string>
+    <string name="maps_theme_dark_line">มืดเสมอ</string>
+    <string name="maps_theme_dialog_note">สำหรับแผนที่ทุกแห่งใน CommaView โหมดอัตโนมัติใช้ตำแหน่งของ comma ขณะเปิดตำแหน่งรถ หากไม่เปิดจะใช้เขตเวลาของ%1$s</string>
+    <string name="maps_theme_daylight_note">คอนทราสต์กลางวันในการแสดงผลแยกต่างหาก โดยทำให้ข้อความและเส้นในแอปสว่างขึ้น</string>
     <string name="maps_own_key">คีย์ Stadia Maps ของคุณ</string>
-    <string name="maps_own_key_intro_flagged">ไม่บังคับ เมื่อใช้คีย์ของคุณเอง เส้นทางจะส่งไปที่ Stadia Maps ภายใต้บัญชี Stadia และข้อกำหนดของคุณ แทนคีย์ของ CommaView หาก Stadia ปฏิเสธคีย์ของคุณ การนำทางจะแจ้งให้ทราบ โดยคีย์ของ CommaView จะไม่ใช้แทน</string>
-    <string name="maps_own_key_intro_kept">การนำทางใช้คีย์ของคุณ: เส้นทางส่งจาก%1$sไปยัง Stadia Maps ภายใต้บัญชี Stadia และข้อกำหนดของคุณ การล้างคีย์จะปิดการนำทางบน%1$s</string>
-    <string name="maps_own_key_intro_add">เพิ่มคีย์ Stadia Maps ของคุณเองเพื่อใช้การนำทาง ได้แก่ ไปที่ไหน? เส้นทาง และคำแนะนำทีละขั้น เส้นทางส่งจาก%1$sไปยัง Stadia Maps ด้วยคีย์ของคุณ ภายใต้บัญชี Stadia และข้อกำหนดของคุณ การค้นหาใช้ Photon</string>
+    <string name="maps_own_key_intro_routes">เส้นทางของการนำทางใช้คีย์ของคุณ: ส่งจาก %1$s ไปยัง Stadia Maps ภายใต้บัญชี Stadia และข้อกำหนดของคุณ การล้างคีย์จะหยุดเส้นทางบน %1$s จนกว่าคุณจะเพิ่มคีย์อีกครั้ง</string>
+    <string name="maps_own_key_intro_needed">เส้นทางต้องใช้คีย์ Stadia Maps ของคุณเอง: ส่งจาก %1$s ไปยัง Stadia Maps ด้วยคีย์นั้น ภายใต้บัญชี Stadia และข้อกำหนดของคุณ ไปที่ไหน? การค้นหา และสถานที่ใช้ได้โดยไม่ต้องมีคีย์ การค้นหาใช้ Photon</string>
+    <string name="maps_own_key_clear_message">คีย์จะถูกนำออกจาก %1$s และเส้นทางจะหยุดจนกว่าคุณจะเพิ่มคีย์อีกครั้ง</string>
+    <string name="maps_credits_own_key">ข้อมูลแผนที่ © ผู้ร่วมพัฒนา OpenStreetMap ในไทล์ © OpenMapTiles จาก OpenFreeMap วาดโดย MapLibre การค้นหาส่งไปที่ Photon เส้นทางส่งจาก %1$s ไปยัง Stadia Maps หรือ Mapbox หากคุณเลือก ด้วยคีย์ของคุณเอง ภายใต้บัญชีของคุณที่นั่นและข้อกำหนด การนำทางปิดอยู่ในจีนแผ่นดินใหญ่</string>
     <string name="maps_own_key_not_added">ยังไม่ได้เพิ่ม</string>
     <string name="maps_own_key_kept">เก็บไว้ใน%1$s</string>
     <string name="maps_own_key_over_limit">เกินขีดจำกัดที่ Stadia Maps (429)</string>
@@ -45,8 +91,6 @@
     <string name="maps_own_key_open_dashboard">เปิดแดชบอร์ด Stadia Maps ของคุณ</string>
     <string name="maps_own_key_open_sign_up">เปิดหน้าสมัคร Stadia Maps</string>
     <string name="maps_own_key_clear_title">ล้างคีย์ Stadia Maps ของคุณหรือไม่?</string>
-    <string name="maps_own_key_clear_flagged">คีย์จะถูกลบออกจาก%1$s เส้นทางจะกลับไปใช้คีย์ของ CommaView</string>
-    <string name="maps_own_key_clear_off">คีย์จะถูกลบออกจาก%1$s และการนำทางจะปิดที่นี่จนกว่าคุณจะเพิ่มคีย์อีกครั้ง การเดินทางที่กำลังนำทางจะสิ้นสุด</string>
 
     <!-- Offline maps (OfflineMapsPage, OfflineMapLibrary, AddOfflineMapPicker, map/speedlimit). -->
     <plurals name="maps_hub_value">
@@ -175,4 +219,7 @@
     <string name="maps_problem_failed_group">กลุ่มแผนที่ %1$d จาก %2$d: %3$s ทำต่อเพื่อลองใหม่</string>
     <string name="maps_problem_failed_unknown">การดาวน์โหลดหรือการตรวจสอบล้มเหลว ทำต่อเพื่อลองใหม่</string>
     <string name="maps_problem_failed_group_unknown">กลุ่มแผนที่ %1$d จาก %2$d: การดาวน์โหลดหรือการตรวจสอบล้มเหลว ทำต่อเพื่อลองใหม่</string>
+
+    <string name="maps_spoken_guidance_in_english">บริการเส้นทางไม่มีคำแนะนำเส้นทางในภาษานี้ คำแนะนำทีละจุดจึงเป็นภาษาอังกฤษ</string>
+    <string name="maps_spoken_guidance_no_voice">%1$sไม่มีเสียงอ่านข้อความสำหรับ%2$s คำแนะนำจึงอ่านด้วยเสียงภาษาอังกฤษ เพิ่มเสียงได้ในการตั้งค่าการอ่านออกเสียงข้อความของ Android</string>
 </resources>

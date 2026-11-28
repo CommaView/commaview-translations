@@ -255,6 +255,7 @@
     <string name="devices_leaderboard">Ranking</string>
     <string name="devices_recent_recordings">Gravações recentes</string>
     <string name="devices_view_all">Ver tudo</string>
+    <string name="devices_overlay_packs">Pacotes de sobreposição</string>
     <string name="devices_open_store">Abrir a loja</string>
     <string name="devices_view_all_recordings">Ver todas as gravações</string>
     <string name="devices_no_recordings">Nenhuma gravação ainda. Grave uma viagem pelo Live View.</string>
@@ -411,8 +412,15 @@
     <string name="devices_dev_runtime_install">Instalar %1$s</string>
     <string name="devices_dev_runtime_queue_install">Colocar instalação na fila</string>
     <string name="devices_pairing_failed_legacy_off">Falha no emparelhamento: este comma não emparelha mais por código. Adicione %1$s a partir de um que já tenha uma chave para ele (nas configurações dele, Adicionar outro celular), ou faça a configuração do comma de novo.</string>
-    <string name="devices_invitation_needed_named">%1$s já tem um celular com chave própria, e %2$s não tem nenhuma. Se aquele não for um dos seus celulares, outra pessoa pode tê-lo adicionado antes: remova todos os celulares do comma por SSH (commaviewd phones revoke-all) e configure-o de novo a partir d%2$s. Caso contrário, adicione %2$s a partir daquele (nas configurações dele, Adicionar outro celular).</string>
-    <string name="devices_invitation_needed_this">Este comma já tem um celular com chave própria, e %1$s não tem nenhuma. Se aquele não for um dos seus celulares, outra pessoa pode tê-lo adicionado antes: remova todos os celulares do comma por SSH (commaviewd phones revoke-all) e configure-o de novo a partir d%1$s. Caso contrário, adicione %1$s a partir daquele (nas configurações dele, Adicionar outro celular).</string>
+    <string name="devices_token_no_longer_taken_named">%1$s não aceita mais o token compartilhado com que %2$s foi emparelhado, e %2$s não tem chave própria para ele. Adicione %2$s a partir de um celular que tenha uma (nas configurações dele, Adicionar outro celular).</string>
+    <string name="devices_token_no_longer_taken_this">Este comma não aceita mais o token compartilhado com que %1$s foi emparelhado, e %1$s não tem chave própria para ele. Adicione %1$s a partir de um celular que tenha uma (nas configurações dele, Adicionar outro celular).</string>
+    <string name="devices_new_phone_key_title">Um celular novo tem chave</string>
+    <string name="devices_new_phone_key_message">Um celular novo recebeu uma chave para %1$s: %2$s, %3$s. Se não for um dos seus celulares, remova-o. Todos os celulares com chave também aparecem nas configurações do comma, Emparelhar outro celular.</string>
+    <string name="devices_new_phone_key_by_token">Ele recebeu a chave com o token compartilhado que os apps mais antigos enviam, como faz um celular emparelhado antes. Quem viu esse token na rede poderia fazer o mesmo, até o comma parar de aceitá-lo (Parar agora).</string>
+    <string name="devices_new_phone_key_dismiss">É meu</string>
+    <string name="devices_new_phone_key_review">Ver celulares</string>
+    <string name="devices_new_phone_key_removed">%1$s não tem mais chave para %2$s.</string>
+    <string name="devices_new_phone_key_comma_gone">%1$s não está mais salvo n%2$s, então os celulares dele não podem ser mostrados aqui. Adicione-o de novo para vê-los.</string>
     <string name="devices_invitation_failed">Não foi possível entrar com esse convite. Ele pode ter sido digitado errado, expirado ou já usado. Mostre um novo no celular que já tem este comma (nas configurações dele, Adicionar outro celular).</string>
     <string name="devices_pairing_error_network">rede indisponível</string>
     <string name="devices_pairing_error_redeem_failed">falha ao usar o código de emparelhamento</string>
@@ -425,4 +433,8 @@
     <string name="devices_support_name">Suporte do CommaView</string>
     <string name="devices_email_support">Enviar e-mail ao suporte</string>
     <string name="devices_address_copied">Endereço copiado</string>
+    <string name="devices_software_video_only">Só vídeo</string>
+    <string name="devices_software_unlisted_fork">Fork não listado</string>
+    <string name="devices_software_best_effort">sem garantia</string>
+    <string name="devices_software_video_only_qualifier">só vídeo</string>
 </resources>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- navigation: 简体中文（中国大陆）. Machine drafted with docs/localization/glossary-zh-rCN.md; not yet reviewed by a native speaker. -->
+<resources>
+
+    <!-- The offline maps' speed limit, as Live View and Settings say it (shared: SpeedLimitAvailability.label). -->
+    <string name="navigation_speed_limit_off">应用地图已关闭</string>
+    <string name="navigation_speed_limit_location_off">这台 comma 的位置已关闭</string>
+    <string name="navigation_speed_limit_offroad">正在等待行程开始</string>
+    <string name="navigation_speed_limit_waiting_location">正在等待 GPS 定位</string>
+    <string name="navigation_speed_limit_stale_location">GPS 位置太旧</string>
+    <string name="navigation_speed_limit_poor_location">GPS 精度太低</string>
+    <string name="navigation_speed_limit_not_downloaded">请先下载地图</string>
+    <string name="navigation_speed_limit_outside">在已下载的地图范围外</string>
+    <string name="navigation_speed_limit_damaged">地图需要修复，请重新下载</string>
+    <string name="navigation_speed_limit_lookup_unavailable">内存不足，无法读取此地图区域</string>
+    <string name="navigation_speed_limit_road_uncertain">无法确定所在道路</string>
+    <string name="navigation_speed_limit_no_limit">此道路没有数字限速</string>
+    <string name="navigation_speed_limit_available">有限速数据</string>
+    <string name="navigation_speed_limit_disconnected">无法获取 comma 的位置</string>
+
+    <!-- Settings › Maps & navigation › Map theme (shared: MapThemeSetting). -->
+    <string name="navigation_map_theme_app">与应用相同</string>
+    <string name="navigation_map_theme_app_note">CommaView 使用浅色时为浅色，使用深色时为深色。</string>
+    <string name="navigation_map_theme_auto">自动</string>
+    <string name="navigation_map_theme_auto_note">按 comma 所在地，日出到日落使用浅色，夜间使用深色。</string>
+    <string name="navigation_map_theme_system">与手机相同</string>
+    <string name="navigation_map_theme_system_note">%1$s开启深色主题时使用深色，关闭时使用浅色。您可以在 Android 的设置中定时切换。</string>
+    <string name="navigation_map_theme_light">浅色</string>
+    <string name="navigation_map_theme_light_note">始终浅色：在阳光下最易阅读。</string>
+    <string name="navigation_map_theme_dark">深色</string>
+    <string name="navigation_map_theme_dark_note">始终深色：夜间较柔和，在阳光下较难阅读。</string>
+
+    <!-- A route's problem in a few words, on the compact turn card (shared: NavRouteException). -->
+    <string name="navigation_route_brief_no_internet">无网络</string>
+    <string name="navigation_route_brief_busy">路线服务繁忙</string>
+    <string name="navigation_route_brief_no_route">路线服务：找不到路线</string>
+    <string name="navigation_route_brief_failed">路线服务错误</string>
+    <string name="navigation_route_brief_sign_in">请重新登录</string>
+    <string name="navigation_route_brief_not_on">导航未开启</string>
+    <string name="navigation_route_brief_needs_key">添加路线密钥</string>
+    <string name="navigation_error_needs_key">添加您自己的 Stadia Maps 密钥以获取路线：设置 › 地图与导航。</string>
+    <string name="navigation_add_route_key">添加密钥</string>
+    <string name="navigation_route_brief_too_far">距离太远</string>
+    <string name="navigation_route_brief_unavailable_here">此地区不可用</string>
+    <string name="navigation_route_brief_own_key_refused">密钥被拒</string>
+    <string name="navigation_route_brief_own_key_limit">密钥超出用量</string>
+    <string name="navigation_unavailable_mainland_china">中国大陆不提供导航。</string>
+
+    <!-- Times on the turn card and route choices (shared: NavFormat.duration). -->
+    <string name="navigation_duration_minutes">%1$d 分钟</string>
+    <string name="navigation_duration_hours_minutes">%1$d 小时 %2$d 分钟</string>
+
+    <!-- Where to? and the route's preview (NavigationPages). -->
+    <string name="navigation_where_to">要去哪里？</string>
+    <string name="navigation_back_to_home">返回首页</string>
+    <string name="navigation_back_to_search">返回搜索</string>
+    <string name="navigation_voice_unavailable">%1$s无法使用语音搜索。</string>
+    <string name="navigation_typing_off_moving">车辆行驶中无法输入文字。请使用语音或已保存的地点。</string>
+    <string name="navigation_search_places">搜索地点或地址</string>
+    <string name="navigation_clear_search">清除搜索</string>
+    <string name="navigation_search_by_voice">语音搜索</string>
+    <string name="navigation_searching_near_comma">正在您的 comma 附近搜索…</string>
+    <string name="navigation_searching">搜索中…</string>
+    <string name="navigation_results_near_comma">您的 comma 附近的结果</string>
+    <string name="navigation_results">结果</string>
+    <string name="navigation_place_home">家</string>
+    <string name="navigation_place_work">公司</string>
+    <string name="navigation_saved">已保存</string>
+    <string name="navigation_recent">最近</string>
+    <string name="navigation_unavailable_mainland_china_body">当您的 comma 或手机位于中国大陆时，搜索、路线和导航都会关闭。香港、澳门和台湾不受影响。</string>
+    <string name="navigation_route_no_location">无法获取您 comma 的位置，路线将从它在 Live View 中的第一个位置开始。在它的设置中开启“车辆位置”，即可先在这里看到路线。</string>
+    <string name="navigation_finding_routes">正在查找路线…</string>
+    <string name="navigation_try_again">重试</string>
+    <string name="navigation_stadia_dashboard">您的 Stadia 控制台</string>
+
+    <!-- %1$s is the route's length, %2$s the time of day it arrives. -->
+    <string name="navigation_route_distance_arrive">%1$s · %2$s 到达</string>
+    <string name="navigation_route_fastest">最快 · %1$s</string>
+    <string name="navigation_route_other">路线 %1$d · %2$s</string>
+    <string name="navigation_start">开始</string>
+    <string name="navigation_save_as_home">保存为家</string>
+    <string name="navigation_save_as_work">保存为公司</string>
+    <string name="navigation_saved_as_home">已保存为家</string>
+    <string name="navigation_saved_as_work">已保存为公司</string>
+
+    <!-- %1$s is who plans the routes ("Routes by Stadia Maps"). -->
+    <string name="navigation_routing_credit_display_only">%1$s · 导航仅供显示，绝不会控制车辆。</string>
+    <string name="navigation_map_of_route">路线地图</string>
+
+    <!-- Where to? by voice, from the map's corner (CornerWhereTo). -->
+    <string name="navigation_corner_didnt_catch">没听清。请点按“重试”，然后说出地点或地址。</string>
+    <string name="navigation_corner_search_failed">搜索没有响应。请稍后重试。</string>
+    <string name="navigation_corner_nothing_found">在您的 comma 附近找不到“%1$s”。</string>
+    <string name="navigation_corner_voice_needs_internet">语音目前需要%1$s联网。请检查连接后重试。</string>
+    <string name="navigation_corner_voice_busy">%1$s的语音识别正忙。请稍后重试。</string>
+    <string name="navigation_corner_microphone_failed">无法使用麦克风。请重试。</string>
+    <string name="navigation_corner_listening">正在聆听…</string>
+    <string name="navigation_corner_say_place">说出地点或地址</string>
+
+    <!-- What was heard, quoted. -->
+    <string name="navigation_corner_heard">“%1$s”</string>
+    <string name="navigation_corner_looking_near_comma">正在您的 comma 附近查找…</string>
+    <string name="navigation_cancel">取消</string>
+    <string name="navigation_close">关闭</string>
+
+    <!-- The trip's guidance in the map's corner and on the turn card (LiveMapCorner, LiveNavigation). -->
+    <string name="navigation_vehicle_location_off">车辆位置已关闭</string>
+    <string name="navigation_waiting_for_gps">正在等待 GPS</string>
+    <string name="navigation_waiting_for_position">正在等待您 comma 的位置</string>
+    <string name="navigation_finding_route">正在查找路线</string>
+    <string name="navigation_no_route_yet">暂无路线</string>
+    <string name="navigation_arrived">您已到达</string>
+    <string name="navigation_starting_guidance">正在开始导航</string>
+    <string name="navigation_rerouting">正在重新规划路线…</string>
+    <string name="navigation_no_new_route_yet">暂无新路线</string>
+
+    <!-- What TalkBack hears for the corner: %1$s the guidance's words, %2$s the distance. -->
+    <string name="navigation_corner_status_next_step">%1$s 下一步在 %2$s 后</string>
+    <string name="navigation_corner_words_in">%2$s 后%1$s</string>
+
+    <!-- %1$s the time of day it arrives, %2$s the time left. -->
+    <string name="navigation_corner_arrive">%1$s 到达，%2$s</string>
+    <string name="navigation_corner_voice_muted">导航语音已静音</string>
+    <string name="navigation_map_road_ahead">前方道路地图</string>
+    <string name="navigation_unmute_voice">取消导航语音静音</string>
+    <string name="navigation_mute_voice">导航语音静音</string>
+    <string name="navigation_follow_car">跟随车辆</string>
+    <string name="navigation_route_overview">路线概览</string>
+    <string name="navigation_end">结束导航</string>
+    <string name="navigation_where_to_by_voice">用语音说要去哪里</string>
+    <string name="navigation_vehicle_location_off_detail">在首页为这台 comma 开启它，即可导航</string>
+    <string name="navigation_waiting_for_gps_detail">您的 comma 首次定位后就会开始导航</string>
+    <string name="navigation_waiting_for_position_detail">必须开启车辆位置</string>
+    <string name="navigation_to_destination">前往 %1$s</string>
+    <string name="navigation_couldnt_get_route">无法获取路线</string>
+    <string name="navigation_trying_again_every">每 15 秒重试一次</string>
+
+    <!-- %1$s is the step after the next, as the route service words it. -->
+    <string name="navigation_then">然后%1$s</string>
+
+    <!-- %1$s the time of day it arrives, %2$s the time left, %3$s the distance left. -->
+    <string name="navigation_arrive_time_distance">%1$s 到达 · %2$s · %3$s</string>
+    <string name="navigation_paused_weak_gps">道路引导已暂停：此处 GPS 信号较弱</string>
+    <string name="navigation_off_route">已偏离路线</string>
+
+    <!-- Map credits (MapCredits): the credits' names stay as their owners write them. -->
+
+    <!-- %1$s lists the credits: "© OpenStreetMap contributors, © OpenMapTiles, OpenFreeMap". -->
+    <string name="navigation_credit_said">CommaView。技术支持：%1$s</string>
+    <string name="navigation_dismiss">关闭</string>
+    <string name="navigation_powered_by">技术支持</string>
+    <string name="navigation_credit_osm">道路数据采用开放数据库许可协议（ODbL）。</string>
+    <string name="navigation_credit_mapd">离线道路数据集、数据结构和区域元数据。</string>
+    <string name="navigation_credit_openmaptiles_live">Live View 中的地图：其矢量瓦片的数据结构，采用 CC-BY 4.0 许可。</string>
+    <string name="navigation_credit_openfreemap_live">Live View 中地图的瓦片，免费提供，无需密钥。</string>
+    <string name="navigation_credit_maplibre_live">绘制 Live View 中的地图。BSD 2-Clause 许可；其声明随应用提供。</string>
+    <string name="navigation_credit_routing">根据 OpenStreetMap 的道路规划导航路线。</string>
+    <string name="navigation_credit_search">根据 OpenStreetMap 的数据，为“要去哪里？”查找地点。</string>
+    <string name="navigation_credit_openmaptiles">地图矢量瓦片的数据结构，采用 CC-BY 4.0 许可。</string>
+    <string name="navigation_credit_openfreemap">地图的瓦片，免费提供，无需密钥。</string>
+    <string name="navigation_credit_maplibre">绘制地图。BSD 2-Clause 许可；其声明随应用提供。</string>
+    <string name="navigation_map_credits">地图来源</string>
+
+    <!-- The trip's map and its credits (TripMap), the trip's end (TripEnded), Home's Where to? card (WhereToCard). -->
+    <string name="navigation_map_credits_described">地图来源：%1$s</string>
+    <string name="navigation_map_no_position">地图：暂无位置</string>
+    <string name="navigation_map_whole_route">整条路线的地图</string>
+    <string name="navigation_show_whole_route">显示整条路线</string>
+    <string name="navigation_trip_ended">行程已结束</string>
+    <string name="navigation_resume">继续</string>
+    <string name="navigation_back_to_live_view">返回 Live View</string>
+    <string name="navigation_nothing_found">找不到“%1$s”。</string>
+    <string name="navigation_guiding_to">正在导航至 %1$s</string>
+
+    <!-- %1$s the time left, %2$s the distance left. -->
+    <string name="navigation_time_distance_left">剩余 %1$s · %2$s</string>
+    <string name="navigation_guidance_starts_in_live_view">导航将在 Live View 中开始</string>
+    <string name="navigation_live_view">Live View</string>
+    <string name="navigation_end_trip">结束行程</string>
+    <string name="navigation_where_to_hint">搜索地点后，将它保存为家或公司，即可在这里一键前往。</string>
+    <string name="navigation_search_for_place">搜索地点</string>
+    <string name="navigation_route_to">规划前往%1$s的路线</string>
+
+    <!-- Why search or a route didn't come (NavigationServices, NavigationSession; through SharedWords, as NavRouteException's message). -->
+    <string name="navigation_error_search_no_internet">搜索没有响应。请检查%1$s的网络连接。</string>
+    <string name="navigation_error_search_timeout">搜索未及时响应。请稍后重试。</string>
+    <string name="navigation_error_search_busy">搜索服务繁忙。请稍后重试。</string>
+    <string name="navigation_error_search_status">搜索无法响应（%1$d）。请稍后重试。</string>
+    <string name="navigation_error_route_no_internet">路线服务没有响应。请检查%1$s的网络连接。</string>
+    <string name="navigation_error_route_busy">路线服务繁忙。请稍后重试。</string>
+
+    <!-- %1$s is the status or code the route service answered with. -->
+    <string name="navigation_error_own_key_unreadable">目前无法读取%1$s上的 Stadia Maps 密钥。请重试，或在“设置 › 地图与导航”中重新添加。</string>
+    <string name="navigation_error_too_far_miles">单次行程太远：导航只规划 930 英里以内的路线。请先选择途中的一个停靠点，再从那里继续。</string>
+    <string name="navigation_error_too_far_km">单次行程太远：导航只规划 1,500 km 以内的路线。请先选择途中的一个停靠点，再从那里继续。</string>
+    <string name="navigation_error_couldnt_get_route_retrying">无法获取路线，正在重试。</string>
+    <string name="navigation_routing_by_stadia">路线由 Stadia Maps 提供</string>
+    <string name="navigation_search_by_photon">搜索由 Photon 提供</string>
+
+    <!-- The person's own Stadia Maps key (OwnStadiaKey). -->
+    <string name="navigation_own_key_over_limit">您的 Stadia Maps 密钥已超出用量（429）：本月额度已用完，或刚才请求太频繁。请在您的 Stadia Maps 控制台（client.stadiamaps.com）中查看。</string>
+    <string name="navigation_own_key_refused">Stadia Maps 拒绝了您的密钥（403）：您的套餐可能不包含路线规划。请在您的 Stadia Maps 控制台（client.stadiamaps.com）中查看，或在“设置 › 地图与导航”中更换。</string>
+    <string name="navigation_own_key_not_accepted">Stadia Maps 不接受您的密钥（%1$d）。请在您的 Stadia Maps 控制台（client.stadiamaps.com）中查看，或在“设置 › 地图与导航”中更换。</string>
+    <string name="navigation_key_check_accepted">Stadia Maps 已接受您的密钥。</string>
+    <string name="navigation_key_check_over_limit">Stadia Maps 表示此密钥已超出用量（429）：本月额度已用完，或刚才请求太频繁。</string>
+    <string name="navigation_key_check_refused">Stadia Maps 拒绝了此密钥（403）：它的套餐可能不包含路线规划。</string>
+    <string name="navigation_key_check_not_accepted">Stadia Maps 不接受此密钥（%1$d）。请确认您已从控制台完整复制。</string>
+    <string name="navigation_key_check_not_a_key">这不是 Stadia Maps 密钥。请从您的 Stadia Maps 控制台复制 API 密钥：由字母、数字和连字符组成。</string>
+    <string name="navigation_key_check_no_internet">无法连接 Stadia Maps 来检查密钥。请检查%1$s的网络连接后重试。</string>
+    <string name="navigation_key_check_failed">Stadia Maps 目前无法检查密钥（%1$d）。请稍后重试。</string>
+
+    <!-- Settings › Maps & navigation's preview of Live View with a trip (LiveMapPreview). -->
+    <string name="navigation_preview_tag_corner">在此屏幕上：在角落</string>
+    <string name="navigation_preview_tag_beside">在此屏幕上：在视频旁</string>
+
+    <!-- %1$s is the preview's tag: where the map is on this screen. -->
+    <string name="navigation_preview_said">含行程地图的 Live View 预览。%1$s</string>
+
+    <!-- %1$s the time of day it arrives, %2$s the time left. -->
+    <string name="navigation_preview_arrive_time">%1$s · %2$s</string>
+    <string name="navigation_map_theme_system_device">与这台设备相同</string>
+
+    <!-- A place shared from a maps app (SharedDestinations, Home). -->
+    <string name="navigation_share_target">用 CommaView 导航</string>
+    <string name="navigation_shared_place">分享的地点</string>
+    <string name="navigation_shared_not_a_place">CommaView 没有在分享的内容中找到地点。</string>
+    <string name="navigation_shared_unreached">CommaView 无法打开分享的链接。请检查%1$s的网络连接。</string>
+    <string name="navigation_shared_not_on">此账号未开启导航，因此无法打开分享的地点。</string>
+    <string name="navigation_shared_no_comma">请先添加您的 comma：分享的地点会在首页打开路线。</string>
+
+
+    <!-- Send to comma: the comma's own navigation (SendToCommaSection). %1$s is the fork's name. -->
+    <string name="navigation_send_to_comma">发送到 comma</string>
+    <string name="navigation_send_to_comma_clear">从 comma 清除</string>
+    <string name="navigation_send_to_comma_cleared">已从 comma 清除。</string>
+    <string name="navigation_send_to_comma_sent">已发送到 comma。%1$s 会在那里规划自己的路线。</string>
+    <string name="navigation_send_to_comma_failed">无法发送到 comma：%1$s</string>
+    <string name="navigation_send_to_comma_onroad">请先停车：comma 只在未上路时接受此操作。</string>
+    <string name="navigation_comma_unreachable">无法连接到您的 comma 来发送这次行程。请将%1$s连接到与 comma 相同的网络，然后重试。</string>
+    <string name="navigation_send_trips_title">将每次行程发送到此 comma</string>
+    <string name="navigation_send_trips_detail">点按“开始”时，%1$s 也会收到目的地。行程结束时会清除。</string>
+    <string name="navigation_send_trips_paused">已暂停：自您开启后，%1$s 的驾驶设置已更改。再次开启以同意这些设置。</string>
+    <string name="navigation_send_trips_confirm_title">将每次行程发送到 %1$s？</string>
+    <string name="navigation_send_trips_confirm_intro">%1$s 会为每次行程的目的地规划自己的路线并显示在 comma 上。按其当前设置，它还会：</string>
+    <string name="navigation_send_trips_confirm_shows">%1$s 会为每次行程的目的地规划自己的路线并显示在 comma 上。按其当前设置，它不会改变车辆的驾驶方式。</string>
+    <string name="navigation_send_trips_confirm_when">您用此 comma 开始的每次行程都会在点按“开始”时发送，并在结束时清除。如果其驾驶设置更改，发送会暂停，直到您再次同意。可随时在这里关闭。</string>
+    <string name="navigation_send_trips_turn_on">开启</string>
+    <string name="navigation_send_to_comma_confirm_title">发送到 comma 上的 %1$s？</string>
+    <string name="navigation_send_to_comma_confirm_intro">%1$s 会规划到此地的路线并显示在 comma 上。按它现在的设置，它还会：</string>
+    <string name="navigation_send_to_comma_confirm_shows">%1$s 会规划到此地的路线并显示在 comma 上。按它现在的设置，它不会改变车辆的驾驶方式。</string>
+    <string name="navigation_send_to_comma_confirm_settings">这些是 %1$s 自己的设置：可在 comma 上的设置或 CommaView 中更改。</string>
+    <string name="navigation_drive_turn_speed">在弯道和环岛前减速</string>
+    <string name="navigation_drive_turn_desire">在路线转弯附近，把您打的转向灯当作转弯而不是变道</string>
+    <string name="navigation_drive_lane_position">保持在路线需要的车道</string>
+    <string name="navigation_drive_auto_turn">在路线的转弯处自动打灯并转弯</string>
+    <string name="navigation_send">发送</string>
+    <string name="navigation_comma_nav_off">comma 上 openpilot 的导航（alpha）已关闭。</string>
+    <string name="navigation_comma_nav_off_release">此版本 openpilot 每次启动都会关闭导航（alpha），所以暂时无法保持开启。</string>
+    <string name="navigation_comma_nav_turn_on">开启导航（alpha）</string>
+    <string name="navigation_comma_nav_turn_on_title">开启 openpilot 的导航（alpha）？</string>
+    <string name="navigation_comma_nav_turn_on_message">openpilot 自带的逐向导航，在 comma four 上显示路线地图。这是 alpha 功能，openpilot 在正式版的设置中将其隐藏。可在 CommaView 的 comma 设置中再次关闭。</string>
+    <string name="navigation_comma_nav_turned_on">openpilot 的导航（alpha）已开启。</string>
+    <plurals name="navigation_spoken_in_feet">
+        <item quantity="other">%1$d 英尺后，%2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_metres">
+        <item quantity="other">%1$d 米后，%2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_miles">
+        <item quantity="other">%1$d 英里后，%2$s</item>
+    </plurals>
+    <plurals name="navigation_spoken_in_kilometres">
+        <item quantity="other">%1$d 公里后，%2$s</item>
+    </plurals>
+    <string name="navigation_spoken_in_miles_decimal">%1$s 英里后，%2$s</string>
+    <string name="navigation_spoken_in_kilometres_decimal">%1$s 公里后，%2$s</string>
+    <string name="navigation_spoken_in_quarter_mile">四分之一英里后，%1$s</string>
+    <string name="navigation_spoken_in_half_mile">半英里后，%1$s</string>
+    <string name="navigation_spoken_in_three_quarters_mile">四分之三英里后，%1$s</string>
+    <string name="navigation_preview_sample_exit">从出口驶出，前往%1$s</string>
+    <string name="navigation_preview_sample_then">靠左行驶，前往%1$s</string>
+    <string name="navigation_voice_before_place">导航到|导航去|带我去|带我到|开车去|我要去|前往|去往|去|到</string>
+    <string name="navigation_voice_after_place">怎么走|的路线|路线|吧</string>
+    <string name="navigation_voice_home_words">家|回家|我家</string>
+    <string name="navigation_voice_work_words">公司|上班|单位|办公室</string>
+</resources>

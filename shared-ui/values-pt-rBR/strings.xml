@@ -2,4 +2,7 @@
 <!-- Português (Brasil). Machine drafted with docs/localization/glossary-pt-rBR.md; not yet reviewed by a native speaker. -->
 <resources>
     <string name="common_done">Concluído</string>
+    <string name="common_decrease">Diminuir %1$s</string>
+    <string name="common_increase">Aumentar %1$s</string>
+    <string name="common_type_value">Digitar um valor</string>
 </resources>

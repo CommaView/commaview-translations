@@ -143,6 +143,47 @@
     <string name="liveview_peek_streaming">Yayında</string>
 
 
+    <!-- Browser View, Live View in a car's web browser (its card in Details). -->
+    <string name="liveview_car_screen_title">Browser View</string>
+    <string name="liveview_car_screen_title_on">Browser View · Açık</string>
+    <string name="liveview_car_screen_stop">Durdur</string>
+    <string name="liveview_car_screen_stop_description">Browser View\'u durdur</string>
+    <string name="liveview_car_screen_start">Başlat</string>
+    <string name="liveview_car_screen_start_description">Browser View\'u başlat</string>
+    <string name="liveview_car_screen_new_code">Yeni kod</string>
+    <string name="liveview_car_screen_new_code_description">Yeni bir Browser View kodu oluştur</string>
+    <string name="liveview_car_screen_controls_title">Araçtaki kontroller</string>
+    <string name="liveview_car_screen_controls_subtitle">Kayıt, Anı kaydet ve Live View\'un diğer kontrolleri görüntünün altında; %1$s yerinde kalabilir</string>
+    <string name="liveview_car_screen_quality_label">Browser View görüntüsü</string>
+    <string name="liveview_car_screen_quality_caption">Görüntü: 1080p daha nettir; %1$sda ve hotspot\'ta daha çok kaynak kullanır. Yayına başla ile birlikte bu görüntüyü paylaşır</string>
+    <string name="liveview_car_screen_start_with_live_view">Live View ile başlat</string>
+    <string name="liveview_car_screen_start_with_live_view_subtitle">Browser View, Live View her açıldığında başlar; açıksa VPN adresiyle</string>
+    <string name="liveview_car_screen_show_addresses">Araçta internet yok mu? Adresleri göster</string>
+    <string name="liveview_car_screen_hide_addresses">Adresleri gizle</string>
+    <string name="liveview_car_screen_best_caption">En iyi görüntü: tarayıcı önce uyarır, devam etmek için kabul edin. Tesla\'nın tarayıcısı geçmenize izin vermez</string>
+    <string name="liveview_car_screen_basic_caption">Temel görüntü: hiçbir tarayıcıda (Tesla dahil) uyarı yok, ama kalite daha düşük</string>
+    <string name="liveview_car_screen_tesla_open_caption">Aracın tarayıcısında (Tesla dahil) açın</string>
+    <string name="liveview_car_screen_other_open_caption">Diğer tarayıcılar açabilir</string>
+    <string name="liveview_car_screen_tesla_off_caption">VPN adresi, %1$sdaki hotspot\'a bağlı bir Tesla için gerekir; bu her tarayıcı için en güvenilir yoldur</string>
+    <string name="liveview_car_screen_tesla_starting_caption">VPN adresi başlatılıyor…</string>
+    <string name="liveview_car_screen_tesla_on_caption">VPN adresi, %1$sdaki CommaView VPN\'idir. Hiç trafik taşımaz ve açıkken diğer VPN uygulamaları kapalıdır</string>
+    <string name="liveview_car_screen_off_caption">Live View\'un gösterdiğini (Sürücü kamerası açıkken sürücü kamerasını da), %1$sdaki Wi‑Fi\'a veya hotspot\'a bağlı bir aracın web tarayıcısında gösterin</string>
+    <string name="liveview_car_screen_privacy_caption">Browser View, %1$sa commaview.app altında, herkese açık bir sertifikası olan rastgele bir ad verir; sertifika herkese açık kayıtlarda yer alır ve ad %2$sda kalır. Çalışırken commaview.app/&lt;code&gt; onu bulabilsin diye kodunu, bağlantı noktalarını ve özel adresini gönderir; bunlar Browser View son çalıştıktan 30 gün sonra silinir.</string>
+    <string name="liveview_car_screen_privacy_policy">Gizlilik politikası</string>
+    <string name="liveview_car_screen_open_caption">Aracın tarayıcısında açın</string>
+    <string name="liveview_car_screen_no_network_caption">Hotspot\'u %1$sda açıp aracı ona bağlayın veya %1$sdan aracın Wi‑Fi\'ına bağlanın</string>
+    <string name="liveview_car_screen_address_clip_label">Browser View adresi</string>
+    <string name="liveview_car_screen_address_copied">Adres kopyalandı</string>
+    <string name="liveview_car_screen_copy_address">Kopyala: %1$s</string>
+    <string name="liveview_car_screen_vpn_turn_off">VPN adresini kapat</string>
+    <string name="liveview_car_screen_vpn_turn_off_description">VPN adresini kapat</string>
+    <string name="liveview_car_screen_vpn_turn_on">VPN adresini aç</string>
+    <string name="liveview_car_screen_vpn_turn_on_description">VPN adresini aç</string>
+    <string name="liveview_car_screen_waiting_for_browser">Aracın tarayıcısı bekleniyor</string>
+    <plurals name="liveview_car_screen_viewers">
+        <item quantity="one">%1$d tarayıcı izliyor</item>
+        <item quantity="other">%1$d tarayıcı izliyor</item>
+    </plurals>
 
     <!-- Details' facts (LiveViewDetails). -->
     <string name="liveview_health_good">İyi</string>
@@ -154,6 +195,7 @@
     <string name="liveview_readout_runtime">Çalışma ortamı</string>
     <string name="liveview_readout_software">Yazılım</string>
     <string name="liveview_readout_comma_ip">comma IP</string>
+    <string name="liveview_readout_overlay_packs">Katman paketleri</string>
     <string name="liveview_on">Açık</string>
     <string name="liveview_off">Kapalı</string>
 
@@ -182,6 +224,21 @@
     <string name="liveview_live_copy_shared_notice">Yayınınızdan canlı kopya kaydediliyor: yayının kalitesinde, %1$s</string>
     <string name="liveview_stream_from_live_copy_notice">Canlı kopyanın %1$s görüntüsünden, yayınınızın %2$s ayarında yayına geçiliyor</string>
 
+    <!-- Details' Overlay packs line: each pack and how it's doing on the comma. -->
+    <string name="liveview_packs_line">%1$s: %2$s</string>
+    <string name="liveview_packs_stopped_drawing">%2$sda çizmeyi bıraktı: %1$s</string>
+    <string name="liveview_packs_not_for_fork">bu fork için değil</string>
+    <string name="liveview_packs_starting">başlıyor</string>
+    <string name="liveview_packs_off_until_next_start">bir sonraki başlatmaya kadar kapalı</string>
+    <string name="liveview_packs_off_until_reinstalled">yeniden yüklenene kadar kapalı: %1$d çalıştırmada takıldı</string>
+    <string name="liveview_packs_off_until_reinstalled_many">yeniden yüklenene kadar kapalı: çok fazla çalıştırmada takıldı</string>
+    <string name="liveview_packs_turned_off">kapatıldı</string>
+    <string name="liveview_packs_turned_off_why">kapatıldı: %1$s</string>
+    <string name="liveview_packs_running">çalışıyor</string>
+    <string name="liveview_packs_unknown">bilinmiyor</string>
+    <string name="liveview_packs_state_with_note">%1$s (%2$s)</string>
+    <string name="liveview_packs_hung">%1$d çalıştırmada takıldı</string>
+    <string name="liveview_packs_hung_of">%2$d çalıştırmanın %1$d tanesinde takıldı</string>
 
     <!-- Live View's controls: the rail, the upright bar and More's menu (CockpitNavigation), and the car's (LiveCarScreenControls). -->
     <string name="liveview_controls_description">Live View kontrolleri</string>
@@ -196,6 +253,9 @@
     <string name="liveview_control_save_description">Bu anı kaydet</string>
     <string name="liveview_control_saved_description">An kaydedildi. Bir dakika daha tutmak için dokunun</string>
     <string name="liveview_control_save_last_minutes">Son 3 dakika</string>
+    <string name="liveview_control_map">Harita</string>
+    <string name="liveview_control_map_description">Harita, Live View haritası</string>
+    <string name="liveview_control_map_off">Araç konumu kapalı</string>
     <string name="liveview_control_onroad_screen">Sürüş ekranı</string>
     <string name="liveview_control_switch_screen">Sürüş ekranını değiştir</string>
 
@@ -239,6 +299,7 @@
     <string name="liveview_recording_unable_to_start">Kayıt başlatılamadı</string>
     <string name="liveview_recording_live_copy_only">Yalnızca canlı kopya kaydediliyor. Tekrar oynatma başlatılamadı: %1$s</string>
     <string name="liveview_recording_report">Bildir</string>
+    <string name="liveview_car_screen_new_code_done">Yeni Browser View kodu. Yeni adresi aracın tarayıcısında açın.</string>
     <string name="liveview_share_live_stream">Canlı yayını paylaş</string>
 
     <!-- Why Browser View's VPN address is off (CarScreenVpn). -->
@@ -260,6 +321,15 @@
     <string name="liveview_alert_spoken">Uyarı: %1$s</string>
     <string name="liveview_video_note_logging_disabled">Disable Logging, comma\'nın video kodlayıcısını durdurur. Live View\'u kullanmak için fork\'un ayarlarında Disable Logging\'i kapatın.</string>
 
+    <!-- The divider between the video and the trip's map (LiveMapWell): %1$d is the map's size, %2$d the room it shares, in dp. -->
+    <string name="liveview_map_divider_height">Harita yüksekliği, %1$d/%2$d dp</string>
+    <string name="liveview_map_divider_width">Harita genişliği, %1$d/%2$d dp</string>
+    <string name="liveview_map_divider_taller">Daha uzun</string>
+    <string name="liveview_map_divider_wider">Daha geniş</string>
+    <string name="liveview_map_divider_shorter">Daha kısa</string>
+    <string name="liveview_map_divider_narrower">Daha dar</string>
+    <string name="liveview_map_divider_default_height">Varsayılan yükseklik</string>
+    <string name="liveview_map_divider_default_width">Varsayılan genişlik</string>
 
 
 
@@ -272,6 +342,7 @@
 
     <!-- A summary tile, as TalkBack reads it: %1$s its label, %2$s its value. -->
     <string name="liveview_summary_tile_said">%1$s, %2$s</string>
+    <string name="liveview_packs_line_not_on_design">%1$s: %2$s, bu tasarımda çizilmiyor</string>
     <string name="liveview_vpn_android_setup_failed">Android, CommaView\'un VPN\'ini kuramadı</string>
     <string name="liveview_vpn_details_clip">CommaView VPN adresi hatası</string>
     <string name="liveview_details_copied">Ayrıntılar kopyalandı</string>

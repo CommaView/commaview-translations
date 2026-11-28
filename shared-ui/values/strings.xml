@@ -4,4 +4,8 @@
      key (SharedUiStringsTest). -->
 <resources>
     <string name="common_done">Done</string>
+    <!-- TalkBack's names for a number row's buttons (%1$s: the setting's name) and the value's tap action. -->
+    <string name="common_decrease">Decrease %1$s</string>
+    <string name="common_increase">Increase %1$s</string>
+    <string name="common_type_value">Type a value</string>
 </resources>

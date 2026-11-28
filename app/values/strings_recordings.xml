@@ -388,7 +388,25 @@
     <string name="recordings_export_size">%1$d min · about %2$s</string>
     <string name="recordings_export_free">Free on %2$s: %1$s</string>
     <string name="recordings_export_needs">Needs about %1$s free. Free up some space first.</string>
+    <!-- 08_pack -->
+    <string name="recordings_pack_drive_menu_label">Save for the pack studio…</string>
+    <string name="recordings_pack_drive_menu_note">Its telemetry, to test overlay packs on</string>
+    <string name="recordings_pack_drive_title">Save this drive for the pack studio</string>
+    <string name="recordings_pack_drive_intro">Saves this drive\'s telemetry as a file the pack studio and the pack previewer open, so you can try an overlay pack on your own drive.</string>
+    <string name="recordings_pack_drive_removed">Taken out: where the car went (location, navigation and its map, road names, the compass), the car\'s VIN, your comma\'s and %1$s\'s names and IDs, and what overlay packs added.</string>
+    <string name="recordings_pack_drive_removed_keeping_packs">Taken out: where the car went (location, navigation and its map, road names, the compass), the car\'s VIN, and your comma\'s and %1$s\'s names and IDs.</string>
+    <string name="recordings_pack_drive_packs_title">Include what overlay packs sent</string>
+    <string name="recordings_pack_drive_packs_off">Off: the file has none of it. A pack\'s author can still replay their pack in the studio.</string>
+    <string name="recordings_pack_drive_packs_on">On: what each pack\'s code sent, to replay it as it was. A pack decides what it sends, so it could include where you were; known place and ID fields are taken out of it.</string>
+    <string name="recordings_pack_drive_kept">It still carries the drive\'s date and time, its speed, and what openpilot saw: the road, lead cars and the car\'s state.</string>
+    <string name="recordings_pack_drive_save">Save as a file</string>
+    <string name="recordings_pack_drive_try_again">Try again</string>
+    <string name="recordings_pack_drive_saving">Saving the file…</string>
+    <string name="recordings_pack_drive_downloading">Downloading from the comma</string>
+    <string name="recordings_pack_drive_connecting">Asking the comma for this drive…</string>
     <string name="recordings_close">Close</string>
+    <string name="recordings_pack_drive_share">Save or share this drive</string>
+    <string name="recordings_pack_drive_share_failed">Unable to share the saved drive</string>
     <!-- 09_upload -->
     <string name="recordings_upload_downloading">Downloading from the comma</string>
     <string name="recordings_upload_preparing">Preparing the logs</string>
@@ -646,6 +664,15 @@
     <string name="recordings_service_starting">Starting replay</string>
     <string name="recordings_service_title">Making replays · %1$d in queue</string>
     <string name="recordings_service_text_percent">%1$s · %2$d%%</string>
+    <!-- 14_settings -->
+    <string name="recordings_pack_export_nothing_to_save">There\'s nothing to save: the comma kept no driving data for this recording\'s time.</string>
+    <string name="recordings_pack_export_no_longer_on_comma">This drive is no longer on the comma, so it can\'t be saved.</string>
+    <string name="recordings_pack_export_cant_reach">Can\'t reach the comma that recorded this drive. Connect to it (its Wi-Fi or hotspot), keep it on, and try again.</string>
+    <string name="recordings_pack_export_park_first">The comma shares drives only while the car is parked. Park with openpilot disengaged, then try again.</string>
+    <string name="recordings_pack_export_pair_again">Pair the comma that recorded this drive with %1$s again, then try again.</string>
+    <string name="recordings_pack_export_not_enough_space">Not enough free space on %1$s to download this drive. Free up some space, then try again.</string>
+    <string name="recordings_pack_export_too_long">This drive is too long to save for the pack studio.</string>
+    <string name="recordings_pack_export_failed">Couldn\'t save this drive: %1$s</string>
     <string name="recordings_saves_replay">Replay after the drive</string>
     <string name="recordings_saves_live_copy">Live copy now</string>
     <string name="recordings_saves_both">Both</string>
@@ -693,6 +720,14 @@
     <string name="recordings_settings_save_each_stream">Save each live stream</string>
     <string name="recordings_settings_storage">Storage</string>
     <string name="recordings_settings_replay_quality">Replay quality</string>
+    <!-- Replay quality's choices (Settings › Recordings › Replay), each with what it makes under it. -->
+    <string name="recordings_quality_balanced">Balanced</string>
+    <string name="recordings_quality_high">High</string>
+    <string name="recordings_quality_max">Max</string>
+    <!-- %1$d: the widest a Balanced replay is, in pixels (1280). -->
+    <string name="recordings_quality_balanced_detail">At most %1$d pixels wide: the smallest files, made fastest.</string>
+    <string name="recordings_quality_high_detail">The camera\'s full resolution. Recommended for most drives.</string>
+    <string name="recordings_quality_max_detail">Full resolution with the most detail kept, in the largest files.</string>
     <string name="recordings_settings_quality_note">Higher quality takes longer to make and makes larger files.</string>
     <string name="recordings_settings_live_copy_quality">Live copy quality</string>
     <string name="recordings_settings_where">Where recordings go</string>
@@ -766,4 +801,6 @@
     <string name="recordings_upload_doing_sending">sending %1$s</string>
     <string name="recordings_upload_doing_finishing">finishing</string>
     <string name="recordings_upload_doing_allowance">asking what it may contribute</string>
+    <!-- Burned into a replay in a fork's look where the comma saved no HUD data. -->
+    <string name="recordings_replay_gap_hud">HUD data unavailable</string>
 </resources>

@@ -1,8 +1,8 @@
 # CommaView translations
 
-The words of [CommaView](https://commaview.com), the Android app for comma devices, in every language it offers. The
-translations are **machine translated**, and the app says so; this repository is where anyone who speaks a language
-can make them better.
+The words of [CommaView](https://commaview.com), the Android app for comma devices, and of its website, in every
+language they offer. The translations are **machine translated**, and the app and the site say so; this repository
+is where anyone who speaks a language can make them better.
 
 | Language | In English | Folder | Glossary |
 |---|---|---|---|
@@ -21,6 +21,14 @@ can make them better.
 English (`values/`) is the source. The files here are exported from the app's repository with
 `tools/i18n/translations-export.py`; strings of features that aren't out for everyone yet are left out until they are.
 
+## The website
+
+commaview.com's words, its guides, blog posts, Supported forks and What's new are in [`website/`](website/README.md),
+English and each language the site offers. They're exported from the site's repository with its own tool, and
+[website/README.md](website/README.md) says what each file is, what in a guide or a post stays as English has it,
+and that a word the app shows, quoted in **bold**, is the app's own translation from `app/values-<qualifier>/`.
+Suggesting a change, review and the licence are the same as for the app's strings, below.
+
 ## Suggest a change
 
 1. Read [CONTRIBUTING.md](CONTRIBUTING.md) (placeholders, escaping, names kept as they are) and your language's
@@ -37,12 +45,15 @@ English (`values/`) is the source. The files here are exported from the app's re
 - The app's repository takes the translations back with `tools/i18n/translations-import.py`, which copies only
   translations of strings English still has and refuses a file whose placeholders, plurals or escaping don't match
   the English. Every language is then checked on screen at the largest text size before a release ships it.
-- A merged change reaches people in the next CommaView release.
+- The website's repository takes `website/` back with its own import, which copies only translations of pages
+  English still has and refuses a file that changes what the site reads (a guide's steps, a link's target) or
+  placeholders, then builds and checks the site.
+- A merged change reaches people in the next CommaView release, and on commaview.com in its next deploy.
 
 ## Licence
 
-CommaView's strings and their translations are © RhynoTech, all rights reserved ([LICENSE](LICENSE)). They're
-published here so they can be reviewed and improved, not for use elsewhere.
+CommaView's strings, the website's text and their translations are © RhynoTech, all rights reserved
+([LICENSE](LICENSE)). They're published here so they can be reviewed and improved, not for use elsewhere.
 
 What you contribute is yours to give: by opening a pull request or an issue with a translation, you dedicate it to
 the public domain under **CC0-1.0** ([CONTRIBUTIONS-CC0-1.0.txt](CONTRIBUTIONS-CC0-1.0.txt)), so CommaView can ship it

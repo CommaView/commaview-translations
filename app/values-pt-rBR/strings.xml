@@ -21,12 +21,14 @@
     <string name="settings_page_about">Sobre</string>
     <string name="settings_page_licenses">Licenças de código aberto</string>
     <string name="settings_page_license">Licença</string>
+    <string name="settings_page_overlay_packs">Pacotes de sobreposição</string>
     <string name="settings_page_device">Configurações do dispositivo</string>
     <string name="settings_page_device_facts">Nome e endereço</string>
     <string name="settings_page_device_network">Rede</string>
     <string name="settings_page_device_pairing">Emparelhar outro celular</string>
     <string name="settings_page_device_runtime">Runtime</string>
     <string name="settings_hub_display_subtitle">Tela de condução e opções, posição do motorista e luz do dia</string>
+    <string name="settings_hub_maps_navigation_subtitle">O mapa no Live View, orientação por voz, seus lugares e mapas offline</string>
     <string name="settings_hub_maps_navigation_key_subtitle">Mapas offline e navegação com sua própria chave do Stadia Maps</string>
     <string name="settings_hub_offline_maps_subtitle">Baixe regiões e veja limites de velocidade pela localização do comma</string>
     <string name="settings_hub_live_streaming_subtitle">Transmita do Live View para o YouTube ou outro servidor</string>

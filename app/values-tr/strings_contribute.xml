@@ -58,6 +58,7 @@
         <item quantity="one">• recording/events.jsonl ve manifest.json: kayıt hatası geçmişi, %1$d olay</item>
         <item quantity="other">• recording/events.jsonl ve manifest.json: kayıt hatası geçmişi, %1$d olay</item>
     </plurals>
+    <string name="contribute_bundle_navigation">• navigation/search-counts.txt: navigasyon arama sayıları</string>
     <string name="contribute_bundle_leaderboard">• leaderboard/status.txt: sıralamanın durumu: comma\'larınızın beyanlarının istenip iletilmediği</string>
     <string name="contribute_bundle_report">• report.txt: yazdıklarınız ve her raporla giden bilgiler</string>
     <string name="contribute_bundle_json">• bundle.json: paketin içeriği</string>

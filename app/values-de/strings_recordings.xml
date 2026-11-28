@@ -389,7 +389,25 @@
     <string name="recordings_export_size">%1$d Min. · etwa %2$s</string>
     <string name="recordings_export_free">Frei auf diesem %2$s: %1$s</string>
     <string name="recordings_export_needs">Braucht etwa %1$s frei. Geben Sie zuerst Speicher frei.</string>
+    <!-- 08_pack -->
+    <string name="recordings_pack_drive_menu_label">Für das Paket-Studio speichern…</string>
+    <string name="recordings_pack_drive_menu_note">Ihre Telemetrie, zum Testen von Overlay-Paketen</string>
+    <string name="recordings_pack_drive_title">Diese Fahrt für das Paket-Studio speichern</string>
+    <string name="recordings_pack_drive_intro">Speichert die Telemetrie dieser Fahrt als Datei, die das Paket-Studio und die Paket-Vorschau öffnen, damit Sie ein Overlay-Paket an Ihrer eigenen Fahrt ausprobieren können.</string>
+    <string name="recordings_pack_drive_removed">Entfernt: wohin das Auto fuhr (Standort, Navigation und ihre Karte, Straßennamen, der Kompass), die FIN des Autos, Namen und IDs Ihres comma und von diesem %1$s sowie was Overlay-Pakete hinzufügten.</string>
+    <string name="recordings_pack_drive_removed_keeping_packs">Entfernt: wohin das Auto fuhr (Standort, Navigation und ihre Karte, Straßennamen, der Kompass), die FIN des Autos sowie Namen und IDs Ihres comma und von diesem %1$s.</string>
+    <string name="recordings_pack_drive_packs_title">Was Overlay-Pakete sendeten, einschließen</string>
+    <string name="recordings_pack_drive_packs_off">Aus: Die Datei enthält nichts davon. Der Autor eines Pakets kann es im Studio trotzdem wiedergeben.</string>
+    <string name="recordings_pack_drive_packs_on">An: was der Code jedes Pakets sendete, um es so wiederzugeben, wie es war. Ein Paket entscheidet selbst, was es sendet, und könnte also enthalten, wo Sie waren; bekannte Orts- und ID-Felder werden daraus entfernt.</string>
+    <string name="recordings_pack_drive_kept">Sie enthält weiterhin Datum und Uhrzeit der Fahrt, ihr Tempo und was openpilot sah: die Straße, Vorderfahrzeuge und den Zustand des Autos.</string>
+    <string name="recordings_pack_drive_save">Als Datei speichern</string>
+    <string name="recordings_pack_drive_try_again">Erneut versuchen</string>
+    <string name="recordings_pack_drive_saving">Datei wird gespeichert…</string>
+    <string name="recordings_pack_drive_downloading">Lädt vom comma</string>
+    <string name="recordings_pack_drive_connecting">Das comma wird nach dieser Fahrt gefragt…</string>
     <string name="recordings_close">Schließen</string>
+    <string name="recordings_pack_drive_share">Diese Fahrt speichern oder teilen</string>
+    <string name="recordings_pack_drive_share_failed">Die gespeicherte Fahrt lässt sich nicht teilen</string>
     <!-- 09_upload -->
     <string name="recordings_upload_downloading">Lädt vom comma</string>
     <string name="recordings_upload_preparing">Logs werden vorbereitet</string>
@@ -647,6 +665,15 @@
     <string name="recordings_service_starting">Wiedergabe startet</string>
     <string name="recordings_service_title">Wiedergaben werden erstellt · %1$d in Warteschlange</string>
     <string name="recordings_service_text_percent">%1$s · %2$d %%</string>
+    <!-- 14_settings -->
+    <string name="recordings_pack_export_nothing_to_save">Es gibt nichts zu speichern: Das comma hat für die Zeit dieser Aufnahme keine Fahrdaten behalten.</string>
+    <string name="recordings_pack_export_no_longer_on_comma">Diese Fahrt ist nicht mehr auf dem comma und lässt sich daher nicht speichern.</string>
+    <string name="recordings_pack_export_cant_reach">Das comma, das diese Fahrt aufnahm, ist nicht erreichbar. Verbinden Sie sich damit (sein WLAN oder Hotspot), lassen Sie es an und versuchen Sie es erneut.</string>
+    <string name="recordings_pack_export_park_first">Das comma teilt Fahrten nur, wenn das Auto parkt. Parken Sie mit deaktiviertem openpilot und versuchen Sie es erneut.</string>
+    <string name="recordings_pack_export_pair_again">Koppeln Sie das comma, das diese Fahrt aufnahm, erneut mit diesem %1$s und versuchen Sie es erneut.</string>
+    <string name="recordings_pack_export_not_enough_space">Nicht genug freier Speicher auf diesem %1$s, um diese Fahrt zu laden. Geben Sie Speicher frei und versuchen Sie es erneut.</string>
+    <string name="recordings_pack_export_too_long">Diese Fahrt ist zu lang zum Speichern für das Paket-Studio.</string>
+    <string name="recordings_pack_export_failed">Diese Fahrt ließ sich nicht speichern: %1$s</string>
     <string name="recordings_saves_replay">Wiedergabe nach der Fahrt</string>
     <string name="recordings_saves_live_copy">Live-Kopie sofort</string>
     <string name="recordings_saves_both">Beides</string>
@@ -767,4 +794,11 @@
     <string name="recordings_upload_doing_sending">beim Senden von %1$s</string>
     <string name="recordings_upload_doing_finishing">beim Abschluss</string>
     <string name="recordings_upload_doing_allowance">beim Erfragen, was es beitragen darf</string>
+    <string name="recordings_quality_balanced">Ausgewogen</string>
+    <string name="recordings_quality_high">Hoch</string>
+    <string name="recordings_quality_max">Maximal</string>
+    <string name="recordings_quality_balanced_detail">Höchstens %1$d Pixel breit: die kleinsten Dateien, am schnellsten erstellt.</string>
+    <string name="recordings_quality_high_detail">Die volle Auflösung der Kamera. Für die meisten Fahrten empfohlen.</string>
+    <string name="recordings_quality_max_detail">Volle Auflösung mit den meisten Details, in den größten Dateien.</string>
+    <string name="recordings_replay_gap_hud">HUD-Daten nicht verfügbar</string>
 </resources>

@@ -68,6 +68,8 @@
     <string name="device_settings_comma_busy">O comma está ocupado. Tente de novo em instantes.</string>
     <string name="device_settings_open_live_view_when_connected">Abrir o Live View ao conectar</string>
     <string name="device_settings_open_live_view_when_connected_detail">Abre sozinho quando seu comma conecta com o carro ligado. Se você sair, fica fechado até a próxima vez.</string>
+    <string name="device_settings_live_view_status_bar">Manter a barra de status</string>
+    <string name="device_settings_live_view_status_bar_detail">Mostra o relógio do sistema acima do Live View em vez de usar a tela inteira.</string>
     <string name="device_settings_offline_controls">Conecte-se à mesma rede que %1$s para gerenciar emparelhamento e atualizações.</string>
     <string name="device_settings_offline_controls_unnamed">Conecte-se à mesma rede que seu comma para gerenciar emparelhamento e atualizações.</string>
     <string name="device_settings_runtime_removed_controls">O CommaView foi desinstalado de %1$s. Faça a configuração guiada para instalá-lo de novo.</string>
@@ -333,12 +335,16 @@
         <item quantity="many">Um celular com um CommaView mais antigo ainda pode usar este comma por mais %d dias, com o token compartilhado que envia sem criptografia. Pare agora se todo celular que usa este comma tiver uma chave.</item>
         <item quantity="other">Um celular com um CommaView mais antigo ainda pode usar este comma por mais %d dias, com o token compartilhado que envia sem criptografia. Pare agora se todo celular que usa este comma tiver uma chave.</item>
     </plurals>
+    <string name="device_settings_phones_older_apps_pair_code">Código de emparelhamento para um app mais antigo</string>
+    <string name="device_settings_phones_older_apps_keep_working">Um celular com um CommaView mais antigo continua funcionando com este comma e recebe uma chave própria quando for atualizado, sem emparelhar de novo. Um celular novo para este comma pode emparelhar com um código de emparelhamento daqui.</string>
+    <string name="device_settings_phones_older_apps_off">Este comma não aceita mais o token compartilhado, então não gera código de emparelhamento para um CommaView mais antigo. Atualize o CommaView nesse celular e depois adicione-o com Mostrar convite.</string>
     <string name="device_settings_phones_stop_now">Parar agora</string>
     <string name="device_settings_phones_remove_named">Remover %1$s?</string>
     <string name="device_settings_phones_remove_this">Remover %1$s?</string>
     <string name="device_settings_phones_remove_message">Ele não consegue mais acessar este comma até ser adicionado de novo, com um convite ou configurando o comma.</string>
     <string name="device_settings_phones_token_off_title">Parar de aceitar o token compartilhado?</string>
-    <string name="device_settings_phones_token_off_message">Um celular com um CommaView mais antigo deixa de acessar este comma agora. Celulares com chave, inclusive este, não são afetados. Só configurar o comma de novo por SSH reativa isso.</string>
+    <string name="device_settings_phones_token_off_message">Celulares com um CommaView mais antigo deixam de funcionar com este comma agora e só podem emparelhar de novo depois de atualizados. Celulares com chave, inclusive este, não são afetados. Só alguém no comma reativa o token compartilhado, como um novo: commaviewd phones legacy-on, por SSH.</string>
+    <string name="device_settings_phones_token_off_message_listed">Só os celulares com chave continuam funcionando com este comma: %1$s. Qualquer outro celular para de funcionar agora (um com um CommaView mais antigo, ou um que ainda não recebeu a chave) e só pode emparelhar de novo depois de atualizado e adicionado com Mostrar convite. Só alguém no comma reativa o token compartilhado, como um novo: commaviewd phones legacy-on, por SSH.</string>
     <string name="device_settings_phones_not_seen">Ainda não visto</string>
     <string name="device_settings_phones_seen_today">Visto hoje</string>
     <string name="device_settings_phones_seen_yesterday">Visto ontem</string>
@@ -373,4 +379,34 @@
     <string name="device_settings_wifi_error_invalid">Status do Wi-Fi inválido</string>
     <string name="device_settings_phones_error_unreadable_answer">resposta ilegível</string>
     <string name="device_settings_phones_error_unreadable_invitation">convite ilegível</string>
+
+    <!-- A runtime update or uninstall in the background (RuntimeUpdateUi.kt, RuntimeMaintenanceService.kt). -->
+    <string name="device_settings_update_keep_using_background">Você pode trocar de app ou bloquear %1$s. A atualização continua, e a notificação dela mostra o progresso.</string>
+    <string name="device_settings_maintenance_other_job">O CommaView já está atualizando ou desinstalando um runtime. Tente de novo quando terminar.</string>
+    <string name="device_settings_runtime_notification_channel">Atualizações do runtime</string>
+    <string name="device_settings_runtime_notification_updating">Atualizando o runtime do seu comma para %1$s</string>
+    <string name="device_settings_runtime_notification_updating_generic">Atualizando o runtime do seu comma</string>
+    <string name="device_settings_runtime_notification_uninstalling">Desinstalando o CommaView do seu comma</string>
+    <string name="device_settings_runtime_notification_open">Abra o CommaView para continuar.</string>
+
+    <!-- Cancelling a runtime update the comma runs itself (RuntimeUpdateCancel.kt, RuntimeUpdateProgress.kt). -->
+    <string name="device_settings_step_preparing">Preparando (espera o carro estar estacionado)</string>
+    <string name="device_settings_preparing_detail">Seu comma verifica a versão e espera o carro continuar estacionado antes de baixá-la.</string>
+    <string name="device_settings_update_cancelled_title">Atualização cancelada</string>
+    <string name="device_settings_update_cancelled_notice">Atualização cancelada. Nada mudou no seu comma.</string>
+    <string name="device_settings_cancel_update">Cancelar atualização</string>
+    <string name="device_settings_cancelling_update">Cancelando…</string>
+    <string name="device_settings_update_will_finish">Tarde demais para cancelar: seu comma conclui esta atualização agora.</string>
+    <string name="device_settings_cancel_update_failed">A atualização não foi cancelada. Verifique se o seu comma está conectado e tente de novo.</string>
+    <string name="device_settings_vehicle_picture_offline">Conecte-se a %1$s para trocar a imagem.</string>
+    <string name="device_settings_vehicle_picture_interrupted">A foto não terminou de ser enviada para %1$s. Chegue mais perto ou verifique o Wi-Fi e tente de novo.</string>
+    <string name="device_settings_vehicle_picture_runtime">Atualize o runtime de %1$s para trocar a imagem.</string>
+    <string name="device_settings_vehicle_picture_comma_full">%1$s está sem espaço para a foto. Tente de novo quando viagens antigas forem apagadas.</string>
+    <string name="device_settings_vehicle_picture_comma_failed">%1$s não salvou a foto. Tente de novo.</string>
+    <string name="device_settings_vehicle_picture_edit">Trocar a imagem do carro</string>
+    <string name="device_settings_vehicle_picture_saving">Salvando…</string>
+    <string name="device_settings_vehicle_picture_failed">Não foi possível abrir essa foto. Tente outra.</string>
+    <string name="device_settings_vehicle_picture_change">Trocar foto</string>
+    <string name="device_settings_vehicle_picture_reset">Usar a imagem do CommaView</string>
+    <string name="device_settings_vehicle_picture_hint">Uma foto na horizontal do carro de lado ou em três quartos de frente, com o carro inteiro no quadro, se encaixa melhor.</string>
 </resources>

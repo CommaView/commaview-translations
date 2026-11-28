@@ -3,4 +3,7 @@
      docs/localization/glossary-ko.md and openpilot's selfdrive/ui/translations/app_ko.po. -->
 <resources>
     <string name="common_done">완료</string>
+    <string name="common_decrease">%1$s 줄이기</string>
+    <string name="common_increase">%1$s 늘리기</string>
+    <string name="common_type_value">값 입력</string>
 </resources>

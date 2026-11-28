@@ -71,6 +71,8 @@
     <string name="device_settings_comma_busy">comma ไม่ว่าง ลองอีกครั้งในอีกสักครู่</string>
     <string name="device_settings_open_live_view_when_connected">เปิด Live View เมื่อเชื่อมต่อ</string>
     <string name="device_settings_open_live_view_when_connected_detail">เปิดเองเมื่อ comma เชื่อมต่อขณะรถติดเครื่อง หากคุณออก จะปิดอยู่จนถึงครั้งถัดไป</string>
+    <string name="device_settings_live_view_status_bar">แสดงแถบสถานะไว้</string>
+    <string name="device_settings_live_view_status_bar_detail">แสดงนาฬิกาของระบบเหนือ Live View แทนการใช้ทั้งหน้าจอ</string>
     <string name="device_settings_offline_controls">เชื่อมต่อเครือข่ายเดียวกับ %1$s เพื่อจัดการการจับคู่และอัปเดต</string>
     <string name="device_settings_offline_controls_unnamed">เชื่อมต่อเครือข่ายเดียวกับ comma เพื่อจัดการการจับคู่และอัปเดต</string>
     <string name="device_settings_runtime_removed_controls">ถอนการติดตั้ง CommaView จาก %1$s แล้ว เริ่มตั้งค่าแบบมีคำแนะนำเพื่อติดตั้งอีกครั้ง</string>
@@ -347,12 +349,16 @@
     <plurals name="device_settings_phones_older_apps_detail">
         <item quantity="other">โทรศัพท์ที่ใช้ CommaView รุ่นเก่ายังใช้ comma นี้ได้อีก %d วัน ด้วยโทเค็นที่ใช้ร่วมกันซึ่งส่งแบบไม่เข้ารหัส หยุดตอนนี้ได้หากโทรศัพท์ทุกเครื่องที่ใช้ comma นี้มีคีย์แล้ว</item>
     </plurals>
+    <string name="device_settings_phones_older_apps_pair_code">รหัสจับคู่สำหรับแอปรุ่นเก่า</string>
+    <string name="device_settings_phones_older_apps_keep_working">โทรศัพท์ที่ใช้ CommaView รุ่นเก่ายังใช้กับ comma นี้ได้ และจะได้คีย์ของตัวเองเมื่ออัปเดตโดยไม่ต้องจับคู่ใหม่ โทรศัพท์ที่ยังไม่เคยใช้ comma นี้จับคู่ได้ด้วยรหัสจับคู่จากที่นี่</string>
+    <string name="device_settings_phones_older_apps_off">comma นี้ไม่รับโทเค็นที่ใช้ร่วมกันแล้ว จึงไม่สร้างรหัสจับคู่สำหรับ CommaView รุ่นเก่า อัปเดต CommaView ในโทรศัพท์เครื่องนั้น แล้วเพิ่มด้วย แสดงคำเชิญ</string>
     <string name="device_settings_phones_stop_now">หยุดตอนนี้</string>
     <string name="device_settings_phones_remove_named">ลบ %1$s หรือไม่?</string>
     <string name="device_settings_phones_remove_this">ลบ%1$sหรือไม่?</string>
     <string name="device_settings_phones_remove_message">จะเข้าถึง comma นี้ไม่ได้อีกจนกว่าจะเพิ่มใหม่ด้วยคำเชิญหรือการตั้งค่า comma</string>
     <string name="device_settings_phones_token_off_title">หยุดรับโทเค็นที่ใช้ร่วมกันหรือไม่?</string>
-    <string name="device_settings_phones_token_off_message">โทรศัพท์ที่ใช้ CommaView รุ่นเก่าจะเข้าถึง comma นี้ไม่ได้ทันที โทรศัพท์ที่มีคีย์ รวมถึงเครื่องนี้ ไม่ได้รับผลกระทบ เปิดกลับได้เฉพาะการตั้งค่า comma ใหม่ผ่าน SSH เท่านั้น</string>
+    <string name="device_settings_phones_token_off_message">โทรศัพท์ที่ใช้ CommaView รุ่นเก่าจะใช้กับ comma นี้ไม่ได้ทันที และจับคู่ใหม่ไม่ได้จนกว่าจะอัปเดต โทรศัพท์ที่มีคีย์ รวมถึงเครื่องนี้ ไม่ได้รับผลกระทบ มีเพียงผู้ที่อยู่บน comma เท่านั้นที่เปิดโทเค็นที่ใช้ร่วมกันอีกครั้งได้ เป็นโทเค็นใหม่: commaviewd phones legacy-on ผ่าน SSH</string>
+    <string name="device_settings_phones_token_off_message_listed">มีเพียงโทรศัพท์ที่มีคีย์เท่านั้นที่ยังใช้กับ comma นี้ได้: %1$s โทรศัพท์เครื่องอื่น (ที่ใช้ CommaView รุ่นเก่า หรือที่ยังไม่ได้คีย์) จะใช้ไม่ได้ทันที และจับคู่ใหม่ไม่ได้จนกว่าจะอัปเดตและเพิ่มด้วย แสดงคำเชิญ มีเพียงผู้ที่อยู่บน comma เท่านั้นที่เปิดโทเค็นที่ใช้ร่วมกันอีกครั้งได้ เป็นโทเค็นใหม่: commaviewd phones legacy-on ผ่าน SSH</string>
     <string name="device_settings_phones_not_seen">ยังไม่เคยเห็น</string>
     <string name="device_settings_phones_seen_today">เห็นวันนี้</string>
     <string name="device_settings_phones_seen_yesterday">เห็นเมื่อวาน</string>
@@ -390,4 +396,34 @@
     <!-- Phones with a key, when the comma's answer couldn't be read (CommaPhonesApi.kt). -->
     <string name="device_settings_phones_error_unreadable_answer">คำตอบที่อ่านไม่ได้</string>
     <string name="device_settings_phones_error_unreadable_invitation">คำเชิญที่อ่านไม่ได้</string>
+
+    <!-- A runtime update or uninstall in the background (RuntimeUpdateUi.kt, RuntimeMaintenanceService.kt). -->
+    <string name="device_settings_update_keep_using_background">คุณสลับไปแอปอื่นหรือล็อก%1$sได้ การอัปเดตจะดำเนินต่อไป และการแจ้งเตือนจะแสดงความคืบหน้า</string>
+    <string name="device_settings_maintenance_other_job">CommaView กำลังอัปเดตหรือถอนการติดตั้งรันไทม์อยู่แล้ว ลองอีกครั้งเมื่อเสร็จแล้ว</string>
+    <string name="device_settings_runtime_notification_channel">การอัปเดตรันไทม์</string>
+    <string name="device_settings_runtime_notification_updating">กำลังอัปเดตรันไทม์ของ comma ของคุณเป็น %1$s</string>
+    <string name="device_settings_runtime_notification_updating_generic">กำลังอัปเดตรันไทม์ของ comma ของคุณ</string>
+    <string name="device_settings_runtime_notification_uninstalling">กำลังถอนการติดตั้ง CommaView จาก comma ของคุณ</string>
+    <string name="device_settings_runtime_notification_open">เปิด CommaView เพื่อดำเนินการต่อ</string>
+
+    <!-- Cancelling a runtime update the comma runs itself (RuntimeUpdateCancel.kt, RuntimeUpdateProgress.kt). -->
+    <string name="device_settings_step_preparing">กำลังเตรียม (รอให้รถจอดอยู่)</string>
+    <string name="device_settings_preparing_detail">comma ของคุณจะตรวจสอบรุ่นที่จะติดตั้งและรอให้รถจอดนิ่งก่อนจะดาวน์โหลด</string>
+    <string name="device_settings_update_cancelled_title">ยกเลิกการอัปเดตแล้ว</string>
+    <string name="device_settings_update_cancelled_notice">ยกเลิกการอัปเดตแล้ว ไม่มีอะไรเปลี่ยนแปลงใน comma ของคุณ</string>
+    <string name="device_settings_cancel_update">ยกเลิกการอัปเดต</string>
+    <string name="device_settings_cancelling_update">กำลังยกเลิก…</string>
+    <string name="device_settings_update_will_finish">สายเกินไปที่จะยกเลิก comma ของคุณจะอัปเดตนี้ให้เสร็จตอนนี้</string>
+    <string name="device_settings_cancel_update_failed">ยังไม่ได้ยกเลิกการอัปเดต ตรวจสอบว่า comma ของคุณเชื่อมต่ออยู่ แล้วลองอีกครั้ง</string>
+    <string name="device_settings_vehicle_picture_offline">เชื่อมต่อกับ %1$s เพื่อเปลี่ยนรูป</string>
+    <string name="device_settings_vehicle_picture_interrupted">ส่งรูปไปยัง %1$s ไม่สำเร็จ เข้าใกล้หรือตรวจสอบ Wi-Fi แล้วลองอีกครั้ง</string>
+    <string name="device_settings_vehicle_picture_runtime">อัปเดตรันไทม์ของ %1$s เพื่อเปลี่ยนรูป</string>
+    <string name="device_settings_vehicle_picture_comma_full">%1$s มีพื้นที่ไม่พอสำหรับรูปนี้ ลองอีกครั้งเมื่อล้างการขับขี่เก่าแล้ว</string>
+    <string name="device_settings_vehicle_picture_comma_failed">%1$s ไม่ได้บันทึกรูปนี้ ลองอีกครั้ง</string>
+    <string name="device_settings_vehicle_picture_edit">เปลี่ยนรูปรถ</string>
+    <string name="device_settings_vehicle_picture_saving">กำลังบันทึก…</string>
+    <string name="device_settings_vehicle_picture_failed">เปิดรูปนี้ไม่ได้ ลองเลือกรูปอื่น</string>
+    <string name="device_settings_vehicle_picture_change">เปลี่ยนรูป</string>
+    <string name="device_settings_vehicle_picture_reset">ใช้รูปจาก CommaView</string>
+    <string name="device_settings_vehicle_picture_hint">รูปแนวนอนของรถจากด้านข้างหรือมุมสามในสี่ด้านหน้า ที่เห็นรถทั้งคัน จะพอดีกับการ์ดที่สุด</string>
 </resources>

@@ -276,6 +276,7 @@
     <string name="devices_leaderboard">ตารางอันดับ</string>
     <string name="devices_recent_recordings">การบันทึกล่าสุด</string>
     <string name="devices_view_all">ดูทั้งหมด</string>
+    <string name="devices_overlay_packs">แพ็กโอเวอร์เลย์</string>
     <string name="devices_open_store">เปิดร้านค้า</string>
     <string name="devices_view_all_recordings">ดูการบันทึกทั้งหมด</string>
     <string name="devices_no_recordings">ยังไม่มีการบันทึก บันทึกการขับขี่จาก Live View</string>
@@ -423,8 +424,15 @@
     <string name="devices_dev_runtime_queue_install">เข้าคิวติดตั้ง</string>
     <!-- Phone keys: joining by an invitation, and a comma that already has a phone with a key. -->
     <string name="devices_pairing_failed_legacy_off">การจับคู่ล้มเหลว: comma นี้ไม่จับคู่ด้วยรหัสแล้ว เพิ่ม%1$sจากเครื่องที่มีคีย์อยู่แล้ว (การตั้งค่า › เพิ่มโทรศัพท์เครื่องอื่น) หรือตั้งค่า comma อีกครั้ง</string>
-    <string name="devices_invitation_needed_named">%1$s มีโทรศัพท์ที่มีคีย์ของตัวเองแล้ว แต่%2$sไม่มี หากไม่ใช่โทรศัพท์ของคุณ อาจมีคนอื่นเพิ่มไว้ก่อน: ลบโทรศัพท์ทุกเครื่องบน comma ผ่าน SSH (commaviewd phones revoke-all) แล้วตั้งค่าอีกครั้งจาก%2$s หากเป็นของคุณ ให้เพิ่ม%2$sจากเครื่องนั้น (การตั้งค่า › เพิ่มโทรศัพท์เครื่องอื่น)</string>
-    <string name="devices_invitation_needed_this">comma นี้มีโทรศัพท์ที่มีคีย์ของตัวเองแล้ว แต่%1$sไม่มี หากไม่ใช่โทรศัพท์ของคุณ อาจมีคนอื่นเพิ่มไว้ก่อน: ลบโทรศัพท์ทุกเครื่องบน comma ผ่าน SSH (commaviewd phones revoke-all) แล้วตั้งค่าอีกครั้งจาก%1$s หากเป็นของคุณ ให้เพิ่ม%1$sจากเครื่องนั้น (การตั้งค่า › เพิ่มโทรศัพท์เครื่องอื่น)</string>
+    <string name="devices_token_no_longer_taken_named">%1$s ไม่รับโทเค็นที่ใช้ร่วมกันซึ่ง%2$sใช้จับคู่อีกต่อไป และ%2$sไม่มีคีย์ของตัวเองสำหรับ comma นี้ เพิ่ม%2$sจากโทรศัพท์ที่มีคีย์ (การตั้งค่า › เพิ่มโทรศัพท์เครื่องอื่น)</string>
+    <string name="devices_token_no_longer_taken_this">comma นี้ไม่รับโทเค็นที่ใช้ร่วมกันซึ่ง%1$sใช้จับคู่อีกต่อไป และ%1$sไม่มีคีย์ของตัวเองสำหรับ comma นี้ เพิ่ม%1$sจากโทรศัพท์ที่มีคีย์ (การตั้งค่า › เพิ่มโทรศัพท์เครื่องอื่น)</string>
+    <string name="devices_new_phone_key_title">โทรศัพท์เครื่องใหม่ได้คีย์</string>
+    <string name="devices_new_phone_key_message">โทรศัพท์เครื่องใหม่ได้คีย์ของ %1$s: %2$s, %3$s หากไม่ใช่โทรศัพท์ของคุณ ให้ลบออก โทรศัพท์ทุกเครื่องที่มีคีย์จะแสดงในการตั้งค่าของ comma › จับคู่โทรศัพท์เครื่องอื่น ด้วย</string>
+    <string name="devices_new_phone_key_by_token">เครื่องนี้ได้คีย์ด้วยโทเค็นที่ใช้ร่วมกันซึ่งแอปรุ่นเก่าส่ง เหมือนโทรศัพท์ที่จับคู่ไว้ก่อน ผู้ที่เห็นโทเค็นนั้นบนเครือข่ายก็ทำแบบเดียวกันได้ จนกว่า comma จะหยุดรับโทเค็น (หยุดเลย)</string>
+    <string name="devices_new_phone_key_dismiss">เป็นของฉัน</string>
+    <string name="devices_new_phone_key_review">ตรวจสอบโทรศัพท์</string>
+    <string name="devices_new_phone_key_removed">%1$s ไม่มีคีย์ของ %2$s แล้ว</string>
+    <string name="devices_new_phone_key_comma_gone">%1$s ไม่ได้บันทึกไว้ใน%2$sแล้ว จึงแสดงโทรศัพท์ของเครื่องนี้ที่นี่ไม่ได้ เพิ่มอีกครั้งเพื่อดู</string>
     <string name="devices_invitation_failed">เข้าร่วมด้วยคำเชิญนั้นไม่ได้ อาจพิมพ์ผิด หมดอายุ หรือถูกใช้ไปแล้ว แสดงคำเชิญใหม่บนโทรศัพท์ที่มี comma นี้อยู่แล้ว (การตั้งค่า › เพิ่มโทรศัพท์เครื่องอื่น)</string>
 
     <!-- Why a pair code couldn't be redeemed, when the comma or the network gave no words (RemoteAccessClient.kt). -->
@@ -441,4 +449,8 @@
     <string name="devices_support_name">ฝ่ายสนับสนุน CommaView</string>
     <string name="devices_email_support">ส่งอีเมลถึงฝ่ายสนับสนุน</string>
     <string name="devices_address_copied">คัดลอกที่อยู่แล้ว</string>
+    <string name="devices_software_video_only">วิดีโอเท่านั้น</string>
+    <string name="devices_software_unlisted_fork">ฟอร์กที่ไม่ได้ระบุไว้</string>
+    <string name="devices_software_best_effort">เท่าที่ทำได้</string>
+    <string name="devices_software_video_only_qualifier">วิดีโอเท่านั้น</string>
 </resources>

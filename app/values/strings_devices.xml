@@ -275,6 +275,7 @@
     <string name="devices_leaderboard">Leaderboard</string>
     <string name="devices_recent_recordings">Recent recordings</string>
     <string name="devices_view_all">View all</string>
+    <string name="devices_overlay_packs">Overlay packs</string>
     <string name="devices_open_store">Open the store</string>
     <string name="devices_view_all_recordings">View all recordings</string>
     <string name="devices_no_recordings">No recordings yet. Record a drive from Live View.</string>
@@ -432,8 +433,15 @@
     <string name="devices_dev_runtime_queue_install">Queue install</string>
     <!-- Phone keys: joining by an invitation, and a comma that already has a phone with a key. -->
     <string name="devices_pairing_failed_legacy_off">Pairing failed: this comma no longer pairs by code. Add %1$s from one that already has a key for it (its settings, Add another phone), or run setup for the comma again.</string>
-    <string name="devices_invitation_needed_named">%1$s already has a phone with a key of its own, and %2$s has none. If that isn\'t one of your phones, someone else may have added it first: remove every phone on the comma over SSH (commaviewd phones revoke-all), then set it up again from %2$s. Otherwise add %2$s from that one (its settings, Add another phone).</string>
-    <string name="devices_invitation_needed_this">This comma already has a phone with a key of its own, and %1$s has none. If that isn\'t one of your phones, someone else may have added it first: remove every phone on the comma over SSH (commaviewd phones revoke-all), then set it up again from %1$s. Otherwise add %1$s from that one (its settings, Add another phone).</string>
+    <string name="devices_token_no_longer_taken_named">%1$s no longer takes the shared token %2$s was paired with, and %2$s has no key of its own for it. Add %2$s from a phone that has one (its settings, Add another phone).</string>
+    <string name="devices_token_no_longer_taken_this">This comma no longer takes the shared token %1$s was paired with, and %1$s has no key of its own for it. Add %1$s from a phone that has one (its settings, Add another phone).</string>
+    <string name="devices_new_phone_key_title">A new phone has a key</string>
+    <string name="devices_new_phone_key_message">A new phone got a key to %1$s: %2$s, %3$s. If it isn\'t one of yours, remove it. Every phone with a key is also listed in the comma\'s settings, Pair another phone.</string>
+    <string name="devices_new_phone_key_by_token">It got its key with the shared token older apps send, as a phone paired before does. Someone who saw that token on the network could do the same, until the comma stops taking it (Stop now).</string>
+    <string name="devices_new_phone_key_dismiss">It\'s mine</string>
+    <string name="devices_new_phone_key_review">Review phones</string>
+    <string name="devices_new_phone_key_removed">%1$s no longer has a key to %2$s.</string>
+    <string name="devices_new_phone_key_comma_gone">%1$s is no longer saved on %2$s, so its phones can\'t be shown here. Add it again to see them.</string>
     <string name="devices_invitation_failed">Couldn\'t join with that invitation. It may be mistyped, have run out, or have been used. Show a new one on the phone that already has this comma (its settings, Add another phone).</string>
 
     <!-- Why a pair code couldn't be redeemed, when the comma or the network gave no words (RemoteAccessClient.kt). -->
@@ -450,4 +458,10 @@
     <string name="devices_support_name">CommaView support</string>
     <string name="devices_email_support">Email support</string>
     <string name="devices_address_copied">Address copied</string>
+    <!-- The driving software as Devices, Live View's details and Device settings name it, where it isn't a fork's own name: a fork installed video only, and one CommaView doesn't list. -->
+    <string name="devices_software_video_only">Video only</string>
+    <string name="devices_software_unlisted_fork">Unlisted fork</string>
+    <!-- After an unverified fork's repository: "BluePilotDev/bluepilot · best effort", "FrogAi/FrogPilot · video only". Lower case where the language has it. -->
+    <string name="devices_software_best_effort">best effort</string>
+    <string name="devices_software_video_only_qualifier">video only</string>
 </resources>

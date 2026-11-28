@@ -255,6 +255,7 @@
     <string name="devices_leaderboard">Clasificación</string>
     <string name="devices_recent_recordings">Grabaciones recientes</string>
     <string name="devices_view_all">Ver todo</string>
+    <string name="devices_overlay_packs">Paquetes de superposición</string>
     <string name="devices_open_store">Abrir la tienda</string>
     <string name="devices_view_all_recordings">Ver todas las grabaciones</string>
     <string name="devices_no_recordings">Aún no hay grabaciones. Graba un viaje desde Live View.</string>
@@ -411,8 +412,15 @@
     <string name="devices_dev_runtime_install">Instalar %1$s</string>
     <string name="devices_dev_runtime_queue_install">Poner en cola</string>
     <string name="devices_pairing_failed_legacy_off">Falló el emparejamiento: este comma ya no se empareja con código. Añade %1$s desde uno que ya tenga clave (en sus ajustes, Añadir otro teléfono) o vuelve a hacer la configuración del comma.</string>
-    <string name="devices_invitation_needed_named">%1$s ya tiene un teléfono con su propia clave, y %2$s no tiene ninguna. Si no es uno de tus teléfonos, puede que alguien lo añadiera antes: quita todos los teléfonos del comma por SSH (commaviewd phones revoke-all) y vuelve a configurarlo desde %2$s. Si no, añade %2$s desde ese (en sus ajustes, Añadir otro teléfono).</string>
-    <string name="devices_invitation_needed_this">Este comma ya tiene un teléfono con su propia clave, y %1$s no tiene ninguna. Si no es uno de tus teléfonos, puede que alguien lo añadiera antes: quita todos los teléfonos del comma por SSH (commaviewd phones revoke-all) y vuelve a configurarlo desde %1$s. Si no, añade %1$s desde ese (en sus ajustes, Añadir otro teléfono).</string>
+    <string name="devices_token_no_longer_taken_named">%1$s ya no acepta el token compartido con el que se emparejó %2$s, y %2$s no tiene clave propia para él. Añade %2$s desde un teléfono que tenga una (en sus ajustes, Añadir otro teléfono).</string>
+    <string name="devices_token_no_longer_taken_this">Este comma ya no acepta el token compartido con el que se emparejó %1$s, y %1$s no tiene clave propia para él. Añade %1$s desde un teléfono que tenga una (en sus ajustes, Añadir otro teléfono).</string>
+    <string name="devices_new_phone_key_title">Un teléfono nuevo tiene clave</string>
+    <string name="devices_new_phone_key_message">Un teléfono nuevo obtuvo una clave para %1$s: %2$s, %3$s. Si no es uno de tus teléfonos, quítalo. Todos los teléfonos con clave también aparecen en los ajustes del comma, Emparejar otro teléfono.</string>
+    <string name="devices_new_phone_key_by_token">Obtuvo su clave con el token compartido que envían las apps anteriores, como lo hace un teléfono emparejado antes. Alguien que haya visto ese token en la red podría hacer lo mismo, hasta que el comma deje de aceptarlo (Detener ahora).</string>
+    <string name="devices_new_phone_key_dismiss">Es mío</string>
+    <string name="devices_new_phone_key_review">Revisar teléfonos</string>
+    <string name="devices_new_phone_key_removed">%1$s ya no tiene clave para %2$s.</string>
+    <string name="devices_new_phone_key_comma_gone">%1$s ya no está guardado en %2$s, así que sus teléfonos no se pueden mostrar aquí. Vuelve a añadirlo para verlos.</string>
     <string name="devices_invitation_failed">No se pudo unir con esa invitación. Puede estar mal escrita, haber caducado o haberse usado ya. Muestra una nueva en el teléfono que ya tiene este comma (en sus ajustes, Añadir otro teléfono).</string>
     <string name="devices_pairing_error_network">red no disponible</string>
     <string name="devices_pairing_error_redeem_failed">falló el canje del código</string>
@@ -425,4 +433,8 @@
     <string name="devices_support_name">Soporte de CommaView</string>
     <string name="devices_email_support">Escribir a soporte</string>
     <string name="devices_address_copied">Dirección copiada</string>
+    <string name="devices_software_video_only">Solo vídeo</string>
+    <string name="devices_software_unlisted_fork">Fork no listado</string>
+    <string name="devices_software_best_effort">sin garantías</string>
+    <string name="devices_software_video_only_qualifier">solo vídeo</string>
 </resources>

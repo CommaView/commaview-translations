@@ -132,7 +132,7 @@
     <string name="leaderboard_title_badge">업적</string>
     <string name="leaderboard_title_share">업적 공유</string>
     <string name="leaderboard_title">리더보드</string>
-    <string name="leaderboard_back_to">%1$s(으)로 돌아가기</string>
+    <string name="leaderboard_back_to">%1$s 화면으로 돌아가기</string>
     <string name="leaderboard_back">뒤로</string>
     <string name="leaderboard_attention_title">내 항목에 확인이 필요합니다</string>
     <string name="leaderboard_attention_body">프로필을 열어 공개 이름이나 동의 내용을 검토하세요.</string>

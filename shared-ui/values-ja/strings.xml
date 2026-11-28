@@ -2,4 +2,7 @@
 <!-- app: 日本語 (Japanese). Machine drafted with docs/localization/glossary-ja.md; not yet reviewed by a native speaker. -->
 <resources>
     <string name="common_done">完了</string>
+    <string name="common_decrease">%1$s を下げる</string>
+    <string name="common_increase">%1$s を上げる</string>
+    <string name="common_type_value">値を入力</string>
 </resources>

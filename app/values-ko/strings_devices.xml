@@ -276,6 +276,7 @@
     <string name="devices_leaderboard">리더보드</string>
     <string name="devices_recent_recordings">최근 녹화</string>
     <string name="devices_view_all">모두 보기</string>
+    <string name="devices_overlay_packs">오버레이 팩</string>
     <string name="devices_open_store">스토어 열기</string>
     <string name="devices_view_all_recordings">모든 녹화 보기</string>
     <string name="devices_no_recordings">아직 녹화가 없습니다. Live View에서 주행을 녹화하세요.</string>
@@ -423,8 +424,15 @@
     <string name="devices_dev_runtime_queue_install">설치 대기열에 추가</string>
     <!-- Phone keys: joining by an invitation, and a comma that already has a phone with a key. -->
     <string name="devices_pairing_failed_legacy_off">페어링 실패: 이 comma는 더 이상 코드로 페어링하지 않습니다. 이미 키가 있는 휴대폰(설정의 ‘다른 휴대폰 추가’)에서 %1$s를 추가하거나 comma 설정을 다시 실행하세요.</string>
-    <string name="devices_invitation_needed_named">%1$s에는 이미 자체 키가 있는 휴대폰이 있고, %2$s에는 키가 없습니다. 그 휴대폰이 내 것이 아니라면 다른 사람이 먼저 추가했을 수 있습니다. SSH로 comma의 모든 휴대폰을 삭제(commaviewd phones revoke-all)한 다음 %2$s에서 다시 설정하세요. 그렇지 않다면 그 휴대폰(설정의 ‘다른 휴대폰 추가’)에서 %2$s를 추가하세요.</string>
-    <string name="devices_invitation_needed_this">이 comma에는 이미 자체 키가 있는 휴대폰이 있고, %1$s에는 키가 없습니다. 그 휴대폰이 내 것이 아니라면 다른 사람이 먼저 추가했을 수 있습니다. SSH로 comma의 모든 휴대폰을 삭제(commaviewd phones revoke-all)한 다음 %1$s에서 다시 설정하세요. 그렇지 않다면 그 휴대폰(설정의 ‘다른 휴대폰 추가’)에서 %1$s를 추가하세요.</string>
+    <string name="devices_token_no_longer_taken_named">%1$s에서 %2$s 페어링에 쓴 공유 토큰을 더 이상 받지 않으며, %2$s에는 이 comma의 자체 키가 없습니다. 키가 있는 휴대폰(설정의 ‘다른 휴대폰 추가’)에서 %2$s 기기를 추가하세요.</string>
+    <string name="devices_token_no_longer_taken_this">이 comma는 %1$s를 페어링할 때 쓴 공유 토큰을 더 이상 받지 않으며, %1$s에는 이 comma의 자체 키가 없습니다. 키가 있는 휴대폰(설정의 ‘다른 휴대폰 추가’)에서 %1$s를 추가하세요.</string>
+    <string name="devices_new_phone_key_title">새 휴대폰에 키가 생겼습니다</string>
+    <string name="devices_new_phone_key_message">새 휴대폰이 %1$s의 키를 받았습니다: %2$s, %3$s. 내 휴대폰이 아니라면 삭제하세요. 키가 있는 모든 휴대폰은 comma 설정의 ‘다른 휴대폰 페어링’에도 표시됩니다.</string>
+    <string name="devices_new_phone_key_by_token">이전에 페어링한 휴대폰처럼, 이전 앱이 보내는 공유 토큰으로 키를 받았습니다. 네트워크에서 그 토큰을 본 사람도 comma가 토큰을 더 이상 받지 않을 때까지(지금 중지) 같은 일을 할 수 있습니다.</string>
+    <string name="devices_new_phone_key_dismiss">내 휴대폰입니다</string>
+    <string name="devices_new_phone_key_review">휴대폰 확인</string>
+    <string name="devices_new_phone_key_removed">%1$s에는 이제 %2$s의 키가 없습니다.</string>
+    <string name="devices_new_phone_key_comma_gone">%1$s의 정보가 더 이상 %2$s에 저장되어 있지 않아 여기서 그 휴대폰들을 표시할 수 없습니다. 보려면 다시 추가하세요.</string>
     <string name="devices_invitation_failed">이 초대 코드로 참여하지 못했습니다. 잘못 입력했거나, 만료되었거나, 이미 사용되었을 수 있습니다. 이 comma가 이미 있는 휴대폰(설정의 ‘다른 휴대폰 추가’)에서 새 코드를 표시하세요.</string>
 
     <!-- Why a pair code couldn't be redeemed, when the comma or the network gave no words (RemoteAccessClient.kt). -->
@@ -441,4 +449,8 @@
     <string name="devices_support_name">CommaView 지원팀</string>
     <string name="devices_email_support">지원팀에 이메일 보내기</string>
     <string name="devices_address_copied">주소를 복사했습니다</string>
+    <string name="devices_software_video_only">영상 전용</string>
+    <string name="devices_software_unlisted_fork">목록에 없는 포크</string>
+    <string name="devices_software_best_effort">제한 지원</string>
+    <string name="devices_software_video_only_qualifier">영상 전용</string>
 </resources>

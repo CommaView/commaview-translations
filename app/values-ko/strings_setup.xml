@@ -225,7 +225,7 @@
     <string name="setup_terminal_command">터미널 명령</string>
     <string name="setup_tap_to_copy">눌러서 복사</string>
     <string name="setup_come_back">페어링 코드를 가지고 돌아오세요</string>
-    <string name="setup_come_back_footer">설치 프로그램이 끝나면 “%1$s”을(를) 누르고 일회용 페어링 코드를 입력하세요.</string>
+    <string name="setup_come_back_footer">설치 프로그램이 끝나면 “%1$s” 버튼을 누르고 일회용 페어링 코드를 입력하세요.</string>
     <string name="setup_key_not_kept">지금은 %1$s가 해당 키를 보관하지 못했습니다. 잠시 후 다시 가져와 보세요. CommaView가 가지고 있던 키는 그대로입니다.</string>
     <string name="setup_github_footer">SSH가 켜지면 여기로 돌아오세요. 키를 추가하기 전에 사용자 이름을 입력했나요? 삭제한 뒤 다시 입력하세요.</string>
     <string name="setup_key_failed">CommaView가 %1$s에서 SSH 키를 만들지 못했습니다. 다시 시도하거나 내 SSH 키를 사용하세요.</string>

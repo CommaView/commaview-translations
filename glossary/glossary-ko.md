@@ -28,6 +28,19 @@ other forks, **Live View** (the feature's name, as on commaview.com), **Surround
 - No full stop on titles, buttons, row titles or pills; whole sentences in body text end with a full stop.
 - Numbers and units: a space before a unit word (`25.7 GB`), none before a counter (`3개`, `5분`, `2일`).
 
+## Wrapping
+
+- Lines end between words, each word kept whole, as Korean typesetting does (CSS `word-break: keep-all`):
+  «운전자 / 카메라», never «운전자 카메 / 라». The app does this itself in Korean: Android 14 and later by its
+  phrase line breaking, older Android by joining each word's letters as the strings are read
+  ([how-to-localize](../CONTRIBUTING.md#korean-wraps-by-words)). Write the strings with normal spacing and nothing
+  else (no joiners, no non-breaking spaces).
+- So normal Korean spacing matters to the layout: a word, particles and endings included ("휴대전화에서",
+  "돌아옵니다"), has to fit its line whole, and a compound written as one word does too. Where a label at 2× text is
+  too narrow for one, the layout gives it room first; otherwise use a shorter natural word, or the spacing Korean
+  allows (보조 용언, 명사 + 명사), and add the word to the terms below. When the rule came in (2026-11), every
+  Korean screen in the layout check already fit with its words whole: no word had to change.
+
 ## Terms
 
 | English | 한국어 | Note |

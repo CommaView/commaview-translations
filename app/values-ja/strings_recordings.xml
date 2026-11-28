@@ -362,7 +362,25 @@
     <string name="recordings_export_size">%1$d 分 · 約 %2$s</string>
     <string name="recordings_export_free">%2$sの空き容量：%1$s</string>
     <string name="recordings_export_needs">約 %1$s の空き容量が必要です。先に空き容量を増やしてください。</string>
+    <!-- 08_pack -->
+    <string name="recordings_pack_drive_menu_label">パックスタジオ用に保存…</string>
+    <string name="recordings_pack_drive_menu_note">オーバーレイパックのテスト用のテレメトリー</string>
+    <string name="recordings_pack_drive_title">このドライブをパックスタジオ用に保存</string>
+    <string name="recordings_pack_drive_intro">このドライブのテレメトリーを、パックスタジオとパックプレビューアーで開けるファイルとして保存し、自分のドライブでオーバーレイパックを試せるようにします。</string>
+    <string name="recordings_pack_drive_removed">削除されるもの：車の行き先（位置、ナビとその地図、道路名、方位）、車の VIN、comma と%1$sの名前と ID、オーバーレイパックが追加したもの。</string>
+    <string name="recordings_pack_drive_removed_keeping_packs">削除されるもの：車の行き先（位置、ナビとその地図、道路名、方位）、車の VIN、comma と%1$sの名前と ID。</string>
+    <string name="recordings_pack_drive_packs_title">オーバーレイパックが送信したものを含める</string>
+    <string name="recordings_pack_drive_packs_off">オフ：ファイルには一切含まれません。パックの作者はスタジオでパックを再生できます。</string>
+    <string name="recordings_pack_drive_packs_on">オン：各パックのコードが送信したものを含め、そのまま再生できます。何を送信するかはパックが決めるため、あなたのいた場所が含まれる可能性があります。既知の場所や ID のフィールドは削除されます。</string>
+    <string name="recordings_pack_drive_kept">ドライブの日時、速度、openpilot が見たもの（道路、先行車、車の状態）は含まれます。</string>
+    <string name="recordings_pack_drive_save">ファイルとして保存</string>
+    <string name="recordings_pack_drive_try_again">再試行</string>
+    <string name="recordings_pack_drive_saving">ファイルを保存しています…</string>
+    <string name="recordings_pack_drive_downloading">comma からダウンロード中</string>
+    <string name="recordings_pack_drive_connecting">このドライブを comma に要求しています…</string>
     <string name="recordings_close">閉じる</string>
+    <string name="recordings_pack_drive_share">このドライブを保存またはシェア</string>
+    <string name="recordings_pack_drive_share_failed">保存したドライブをシェアできません</string>
     <!-- 09_upload -->
     <string name="recordings_upload_downloading">comma からダウンロード中</string>
     <string name="recordings_upload_preparing">ログを準備中</string>
@@ -619,6 +637,15 @@
     <string name="recordings_service_starting">リプレイを開始中</string>
     <string name="recordings_service_title">リプレイを作成中 · キューに %1$d 件</string>
     <string name="recordings_service_text_percent">%1$s · %2$d%%</string>
+    <!-- 14_settings -->
+    <string name="recordings_pack_export_nothing_to_save">保存するものがありません：comma はこの録画の時間帯の運転データを残していません。</string>
+    <string name="recordings_pack_export_no_longer_on_comma">このドライブはもう comma にないため、保存できません。</string>
+    <string name="recordings_pack_export_cant_reach">このドライブを録画した comma に接続できません。comma（その Wi-Fi またはテザリング）に接続し、電源を入れたまま、もう一度お試しください。</string>
+    <string name="recordings_pack_export_park_first">comma は車が駐車している間のみドライブを共有します。openpilot を解除して駐車してから、もう一度お試しください。</string>
+    <string name="recordings_pack_export_pair_again">このドライブを録画した comma を%1$sともう一度ペアリングしてから、もう一度お試しください。</string>
+    <string name="recordings_pack_export_not_enough_space">このドライブをダウンロードするのに十分な空き容量が%1$sにありません。空き容量を増やしてから、もう一度お試しください。</string>
+    <string name="recordings_pack_export_too_long">このドライブは長すぎるため、パックスタジオ用に保存できません。</string>
+    <string name="recordings_pack_export_failed">このドライブを保存できませんでした：%1$s</string>
     <string name="recordings_saves_replay">ドライブ後にリプレイ</string>
     <string name="recordings_saves_live_copy">今すぐライブコピー</string>
     <string name="recordings_saves_both">両方</string>
@@ -737,4 +764,11 @@
     <string name="recordings_upload_doing_sending">%1$s の送信</string>
     <string name="recordings_upload_doing_finishing">完了処理</string>
     <string name="recordings_upload_doing_allowance">提供可能な量の確認</string>
+    <string name="recordings_quality_balanced">バランス</string>
+    <string name="recordings_quality_high">高</string>
+    <string name="recordings_quality_max">最高</string>
+    <string name="recordings_quality_balanced_detail">幅は最大 %1$d ピクセル。ファイルが最も小さく、最も速く作成されます。</string>
+    <string name="recordings_quality_high_detail">カメラのフル解像度。ほとんどのドライブにおすすめです。</string>
+    <string name="recordings_quality_max_detail">フル解像度で最も多くのディテールを残します。ファイルは最も大きくなります。</string>
+    <string name="recordings_replay_gap_hud">HUD のデータを取得できません</string>
 </resources>

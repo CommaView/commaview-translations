@@ -68,6 +68,8 @@
     <string name="device_settings_comma_busy">comma зайнятий. Спробуйте за мить.</string>
     <string name="device_settings_open_live_view_when_connected">Відкривати Live View після підключення</string>
     <string name="device_settings_open_live_view_when_connected_detail">Відкривається сам, коли ваш comma підключається з увімкненим авто. Якщо вийти, лишається закритим до наступного разу.</string>
+    <string name="device_settings_live_view_status_bar">Залишати рядок стану</string>
+    <string name="device_settings_live_view_status_bar_detail">Показує годинник системи над Live View замість того, щоб займати весь екран.</string>
     <string name="device_settings_offline_controls">Підключіться до тієї самої мережі, що й %1$s, щоб керувати сполученням і оновленнями.</string>
     <string name="device_settings_offline_controls_unnamed">Підключіться до тієї самої мережі, що й ваш comma, щоб керувати сполученням і оновленнями.</string>
     <string name="device_settings_runtime_removed_controls">CommaView видалено з %1$s. Запустіть покрокове налаштування, щоб встановити його знову.</string>
@@ -337,12 +339,16 @@
         <item quantity="many">Телефон зі старішим CommaView ще %d днів може користуватися цим comma зі спільним токеном, який він надсилає відкритим текстом. Зупиніть зараз, якщо кожен телефон, що користується цим comma, має ключ.</item>
         <item quantity="other">Телефон зі старішим CommaView ще %d дня може користуватися цим comma зі спільним токеном, який він надсилає відкритим текстом. Зупиніть зараз, якщо кожен телефон, що користується цим comma, має ключ.</item>
     </plurals>
+    <string name="device_settings_phones_older_apps_pair_code">Код сполучення для старішого застосунку</string>
+    <string name="device_settings_phones_older_apps_keep_working">Телефон зі старішим CommaView і далі працює з цим comma, а після оновлення отримує власний ключ без повторного сполучення. Телефон, якому цей comma ще не відомий, може сполучитися за кодом сполучення звідси.</string>
+    <string name="device_settings_phones_older_apps_off">Цей comma більше не приймає спільний токен, тож не створює код сполучення для старішого CommaView. Оновіть CommaView на тому телефоні, а потім додайте його через «Показати запрошення».</string>
     <string name="device_settings_phones_stop_now">Зупинити зараз</string>
     <string name="device_settings_phones_remove_named">Видалити %1$s?</string>
     <string name="device_settings_phones_remove_this">Видалити %1$s?</string>
     <string name="device_settings_phones_remove_message">Він не зможе знову зв’язатися з цим comma, доки його не буде додано знову — запрошенням або налаштуванням comma.</string>
     <string name="device_settings_phones_token_off_title">Більше не приймати спільний токен?</string>
-    <string name="device_settings_phones_token_off_message">Телефон зі старішим CommaView більше не зможе зв’язатися з цим comma. Телефонів із ключем, зокрема цього, це не стосується. Увімкнути це знову може лише повторне налаштування comma через SSH.</string>
+    <string name="device_settings_phones_token_off_message">Телефони зі старішим CommaView відразу перестануть працювати з цим comma і не зможуть сполучитися знову, доки їх не оновлять. Телефонів із ключем, зокрема цього, це не стосується. Увімкнути спільний токен знову, уже новим, може лише хтось на comma: commaviewd phones legacy-on через SSH.</string>
+    <string name="device_settings_phones_token_off_message_listed">З цим comma і далі працюють лише телефони з ключем: %1$s. Будь-який інший телефон (зі старішим CommaView або ще без ключа) відразу перестане працювати і не зможе сполучитися знову, доки його не оновлять і не додадуть через «Показати запрошення». Увімкнути спільний токен знову, уже новим, може лише хтось на comma: commaviewd phones legacy-on через SSH.</string>
     <string name="device_settings_phones_not_seen">Ще не з’являвся</string>
     <string name="device_settings_phones_seen_today">Був сьогодні</string>
     <string name="device_settings_phones_seen_yesterday">Був учора</string>
@@ -378,4 +384,34 @@
     <string name="device_settings_wifi_error_invalid">Неправильний стан Wi‑Fi</string>
     <string name="device_settings_phones_error_unreadable_answer">незрозуміла відповідь</string>
     <string name="device_settings_phones_error_unreadable_invitation">незрозуміле запрошення</string>
+
+    <!-- A runtime update or uninstall in the background (RuntimeUpdateUi.kt, RuntimeMaintenanceService.kt). -->
+    <string name="device_settings_update_keep_using_background">Можна перейти в інший застосунок або заблокувати %1$s. Оновлення триває, а його сповіщення показує, скільки вже готово.</string>
+    <string name="device_settings_maintenance_other_job">CommaView уже оновлює або видаляє середовище. Спробуйте ще раз, коли це завершиться.</string>
+    <string name="device_settings_runtime_notification_channel">Оновлення середовища</string>
+    <string name="device_settings_runtime_notification_updating">Оновлення середовища вашого comma до %1$s</string>
+    <string name="device_settings_runtime_notification_updating_generic">Оновлення середовища вашого comma</string>
+    <string name="device_settings_runtime_notification_uninstalling">Видалення CommaView з вашого comma</string>
+    <string name="device_settings_runtime_notification_open">Відкрийте CommaView, щоб продовжити.</string>
+
+    <!-- Cancelling a runtime update the comma runs itself (RuntimeUpdateCancel.kt, RuntimeUpdateProgress.kt). -->
+    <string name="device_settings_step_preparing">Підготовка (чекає, доки авто буде припарковане)</string>
+    <string name="device_settings_preparing_detail">Ваш comma перевіряє реліз і чекає, доки авто залишатиметься припаркованим, перш ніж його завантажити.</string>
+    <string name="device_settings_update_cancelled_title">Оновлення скасовано</string>
+    <string name="device_settings_update_cancelled_notice">Оновлення скасовано. На вашому comma нічого не змінилося.</string>
+    <string name="device_settings_cancel_update">Скасувати оновлення</string>
+    <string name="device_settings_cancelling_update">Скасування…</string>
+    <string name="device_settings_update_will_finish">Скасувати вже пізно: ваш comma зараз завершує це оновлення.</string>
+    <string name="device_settings_cancel_update_failed">Оновлення не скасовано. Перевірте, чи ваш comma підключений, і спробуйте ще раз.</string>
+    <string name="device_settings_vehicle_picture_offline">Під’єднайтеся до %1$s, щоб змінити зображення.</string>
+    <string name="device_settings_vehicle_picture_interrupted">Фото не вдалося повністю надіслати на %1$s. Підійдіть ближче або перевірте Wi-Fi і спробуйте знову.</string>
+    <string name="device_settings_vehicle_picture_runtime">Оновіть runtime на %1$s, щоб змінити зображення.</string>
+    <string name="device_settings_vehicle_picture_comma_full">На %1$s бракує місця для фото. Спробуйте знову, коли старі поїздки буде видалено.</string>
+    <string name="device_settings_vehicle_picture_comma_failed">%1$s не зберіг фото. Спробуйте знову.</string>
+    <string name="device_settings_vehicle_picture_edit">Змінити зображення авто</string>
+    <string name="device_settings_vehicle_picture_saving">Збереження…</string>
+    <string name="device_settings_vehicle_picture_failed">Не вдалося відкрити це фото. Спробуйте інше.</string>
+    <string name="device_settings_vehicle_picture_change">Змінити фото</string>
+    <string name="device_settings_vehicle_picture_reset">Використати зображення CommaView</string>
+    <string name="device_settings_vehicle_picture_hint">Найкраще підходить горизонтальне фото авто збоку або спереду під кутом, на якому авто видно повністю.</string>
 </resources>

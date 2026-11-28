@@ -39,4 +39,6 @@
     <string name="support_status_waiting">Offen · Wartet auf CommaView</string>
     <string name="support_status_open">Offen</string>
     <string name="support_couldnt_open_site">my.commaview.com ließ sich nicht öffnen</string>
+    <string name="support_share_bundle">Support-Paket teilen</string>
+    <string name="support_share_bundle_failed">Support-Paket kann nicht geteilt werden</string>
 </resources>

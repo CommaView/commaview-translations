@@ -39,6 +39,7 @@
     <string name="display_reduce_motion_detail">Keep CommaView's path, speed and lock-on still. Android's Remove animations does the same.</string>
     <string name="display_design_no_options">The %1$s's screen has no options of its own: it's drawn as the comma draws it.</string>
     <string name="display_on_every_screen">On every screen</string>
+    <!-- A section title: what happens when Live View opens (a heading, "When Live View opens"), not "Live View is opening now". -->
     <string name="display_opening_live_view">Opening Live View</string>
     <string name="display_preview">Preview</string>
     <string name="display_preview_engaged">Engaged</string>
@@ -62,4 +63,6 @@
     <string name="display_hud_preview_engaged">Preview of the %1$s screen, engaged</string>
     <string name="display_hud_preview_override">Preview of the %1$s screen, override</string>
     <string name="display_hud_preview_not_engaged">Preview of the %1$s screen, not engaged</string>
+    <!-- TalkBack's name for a design's thumbnail in Display's picker (%1$s: the design's name, "openpilot"). -->
+    <string name="display_design_screen_description">%1$s screen</string>
 </resources>

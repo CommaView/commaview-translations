@@ -1,0 +1,39 @@
+title: StarPilot, pantallas que coinciden con tu fork, y una nueva clasificación
+out:
+  - title: StarPilot
+    text: "CommaView ahora funciona con StarPilot en el comma 3X y el comma four, instalado con el propio instalador de StarPilot. Live View sigue su Camera View, incluida la cámara del conductor, y te avisa cuando su ajuste Disable Logging ha detenido el vídeo."
+  - title: Pantallas que coinciden con tu fork
+    text: "Las pantallas del comma four y del comma 3X dibujan lo que tu fork dibuja en el comma: su fuente, sus alertas y cómo gradúa la imagen de la cámara. En StarPilot traen su propio HUD, su trayectoria y sus widgets, como su señal de límite de velocidad, la información del vehículo delantero, la tarjeta de navegación y la barra lateral de desarrollador."
+  - title: Elige una pantalla en Pantalla
+    text: "Ajustes › Pantalla elige la pantalla de conducción en un desplegable, y su vista previa muestra el fork y las cámaras de tu propio comma."
+  - title: Cada fotograma en Live View
+    text: "Live View ahora dibuja cada fotograma que envía el comma, hasta sus 20 por segundo, donde antes se saltaba algunos. La GPU del teléfono dibuja la pantalla del comma 3X (Android 9 y posterior), así que sigue el ritmo del vídeo."
+  - title: Un Live View que se recupera
+    text: "Ya no se queda atascado en “Reconnecting… Attempt 1”, y con el coche apagado espera y abre el vídeo solo cuando el coche arranca. Un único panel de estado dice qué pasa, con sus botones, en lugar de un destello de “openpilot Unavailable” al empezar el vídeo."
+  - title: Un reinicio tras las actualizaciones del entorno
+    text: "Después de instalar o actualizar el entorno de ejecución de tu comma, la app te pide que lo reinicies con un botón Reiniciar, y Live View y Grabar esperan hasta que lo hagas; el comma nunca se reinicia solo. La tarjeta de actualización de Inicio es más pequeña: tócala para ver cada paso."
+  - title: Inicio se mantiene al día
+    text: "Inicio muestra en segundos si cada comma está ahí, sin deslizar para actualizar, y dice Comprobando mientras mira. Una nueva actualización de la app aparece poco después de publicarse, cada vez que vuelves a la app."
+  - title: Una clasificación rediseñada
+    text: "Posiciones y Logros, para Esta semana, Semana pasada o Total: a cuánto está el comma que tienes por encima, qué te falta para tu próximo logro, y los 17 que puedes conseguir. Tu perfil reúne tus cifras y ajustes, y las tablets y pantallas del coche mantienen un panel con lo tuyo junto a la tabla."
+  - title: El podio antes de unirte
+    text: "Inicio muestra el podio de esta semana en tres escalones con sus medallas, y puedes mirar la clasificación antes de unirte."
+  - title: Una cola de reproducciones más tranquila
+    text: "Cada viaje es una fila con su progreso, Pausar, Reanudar o Reintentar, y un menú para moverlo, informar de él o quitarlo, y puedes arrastrar los viajes a un nuevo orden. El progreso ya no se queda en el 99 %: guardar la reproducción terminada aparece como su propio paso."
+  - title: Reproducciones que coinciden con Live View
+    text: "Las reproducciones dibujan la pantalla de tu fork y la señal de límite de velocidad de los mapas sin conexión como lo hizo Live View, y marcan los momentos para los que el comma no guardó datos del HUD."
+  - title: Mejores mapas sin conexión
+    text: "La búsqueda en Añadir mapa funciona con el teclado en pantalla, Descargar sigue visible en Android 15, y las descargas continúan en segundo plano. Donde tus mapas no tienen respuesta, la señal muestra el límite de sunnypilot."
+  - title: Correcciones
+    text: "Un teléfono o una pantalla del coche con la hora equivocada ya no te deja fuera de la beta. Las alertas GREEN LIGHT y LEAD DEPARTING de sunnypilot siempre muestran su círculo, y los números de las señales de límite de velocidad de CommaView ya no casi se tocan."
+runtime:
+  - title: Cada viaje cuenta
+    text: "Tu comma registra cada viaje mientras conduces, así que uno que se apaga con el coche conserva sus viajes, incluso los que empiezan antes de saber la hora. Esta semana, en la clasificación, se va llenando durante el viaje."
+  - title: StarPilot y la pantalla de tu fork
+    text: "El entorno de ejecución se instala en StarPilot, encuentra los viajes guardados con sus ajustes High Bitrate Recording o Konik, y envía lo que dibuja la pantalla de tu fork, para que las pantallas del comma four y del comma 3X puedan coincidir con ella."
+  - title: Live View recupera su cámara
+    text: "Tu teléfono o pantalla del coche recupera la cámara al momento cuando se reconecta, y uno que se cae de la red la libera en unos diez segundos."
+  - title: Más ligero para tu comma
+    text: "El entorno de ejecución construye él mismo la telemetría de openpilot y la envía en forma compacta, guarda datos del HUD solo alrededor de una grabación, y le dice a la app en segundos si tu comma está ahí. Grabar ya no falla con un comma ocupado."
+  - title: Reproducciones que siguen disponibles
+    text: "Los viajes terminados ya no se marcan como dañados después de que el comma se reinicie aparcado, y un viaje largo ya no puede detener las reproducciones de otros viajes."

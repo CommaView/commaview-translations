@@ -52,6 +52,7 @@
     <plurals name="contribute_bundle_events">
         <item quantity="other">• recording/events.jsonl と manifest.json：録画エラーの履歴、%1$d 件のイベント</item>
     </plurals>
+    <string name="contribute_bundle_navigation">• navigation/search-counts.txt：ナビの検索回数</string>
     <string name="contribute_bundle_leaderboard">• leaderboard/status.txt：ランキングの状態（comma の記録の要求と中継の有無）</string>
     <string name="contribute_bundle_report">• report.txt：あなたが書いた内容と、すべての報告に付くもの</string>
     <string name="contribute_bundle_json">• bundle.json：バンドルの内容</string>

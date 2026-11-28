@@ -16,6 +16,8 @@
     <string name="display_commaview_full_camera">Уся камера</string>
     <string name="display_commaview_full_camera_detail">Показувати все зображення камери, з чорними смугами за потреби.</string>
     <string name="display_commaview_fill_detail">Заповнити альбомний екран, обрізавши зображення камери. У портретній орієнтації — уся камера.</string>
+    <string name="display_pack_framing_detail">Виберіть, як екран пакета використовує альбомний екран.</string>
+    <string name="display_design_pack_note">%1$s — власний екран пакета накладок: він малює на дорожній камері, а сповіщення CommaView згори.</string>
     <string name="display_design_comma3x_note">Екран comma 3X: рамка стану, блок МАКС, велика швидкість і сповіщення внизу.</string>
     <string name="display_design_comma4_note">Екран comma four: МАКС над дорогою, коли змінюється, кермо й упевненість поруч.</string>
     <string name="display_comma4_framing">Кадрування перегляду</string>
